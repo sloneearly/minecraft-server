@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "block:jukebox_from_solar"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~~~", 
+            "~#~",
+            "~~~"
+        ],
+        "key": {
+            "~": {
+                "item": "block:solar_planks"
+            },
+            "#": {
+                "item": "minecraft:diamond"
+            }
+        },
+        "result": [
+			{
+				"item": "minecraft:jukebox",
+				"count": 1
+			}
+		]
+    }
+}

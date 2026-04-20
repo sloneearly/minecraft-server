@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "projectile:astrageldon_black_hole",
+      "materials": {
+        "default": "fireball"
+      },
+      "textures": {
+        "default": "textures/entity/darkness"
+      },
+      "geometry": {
+        "default": "geometry.blackhole"
+      },
+      "animations": {
+        "face_player": "animation.blackhole"
+      },
+      "scripts": {
+        "scale": "0.7",
+        "animate": [
+          "face_player"
+        ]
+      },
+      "render_controllers": [ "controller.render.fireball" ]
+    }
+  }
+}

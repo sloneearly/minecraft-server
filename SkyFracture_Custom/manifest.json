@@ -1,0 +1,62 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Sky Fracture Add-on v1.3 Hotfix 1 BEH",
+		"description": "made by Sir Rel",
+		"uuid": "d24de97b-6dd6-49d8-8594-5b1c4955bc3e",
+		"version": [
+			1,
+			0,
+			2
+		],
+		"min_engine_version": [
+			1,
+			21,
+			80
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "3665d602-15e6-45e9-aa12-0d5bff5ad071",
+			"version": [
+				1,
+				0,
+				2
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"description": "ScriptAPI",
+			"entry": "main.js",
+			"uuid": "8bb3c9b7-ab08-4972-a5be-dbe0df281438",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"1.8.4"
+			]
+		}
+	},
+	"dependencies": [
+		{
+			"version": [
+				1,
+				0,
+				2
+			],
+			"uuid": "5d8b7254-7628-4507-9bd0-d845df42b557"
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.19.0"
+		}
+	]
+}

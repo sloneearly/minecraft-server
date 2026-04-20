@@ -1,0 +1,54 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mob:aeroslime",
+			"materials": {
+				"default": "slime",
+				"outer": "slime_outer"
+			},
+			"textures": {
+				"default": "textures/entity/aeroslime"
+			},
+			"geometry": {
+				"default": "geometry.aeroslime",
+				"armor": "geometry.aeroslime_armor"
+			},
+			"animations": {
+				"look_at_target": "animation.aeroslime.fly",
+				"look_at_target_gliding": "animation.aeroslime.fly",
+				"look_at_target_swimming": "animation.aeroslime.fly",
+				"move": "animation.aeroslime.fly",
+				"riding.arms": "animation.aeroslime.fly",
+				"riding.legs": "animation.aeroslime.fly",
+				"holding": "animation.aeroslime.fly",
+				"brandish_spear": "animation.aeroslime.fly",
+				"charging": "animation.aeroslime.fly",
+				"attack.rotations": "animation.aeroslime.fly",
+				"sneaking": "animation.aeroslime.fly",
+				"bob": "animation.aeroslime.fly",
+				"damage_nearby_mobs": "animation.aeroslime.fly",
+				"bow_and_arrow": "animation.aeroslime.fly",
+				"swimming": "animation.aeroslime.fly",
+				"use_item_progress": "animation.aeroslime.fly",
+				"skeleton_attack": "animation.aeroslime.fly",
+				"flying": "animation.aeroslime.fly"
+			},
+			"scripts": {
+				"scale": 1,
+				"animate": [
+					"look_at_target"
+				]
+			},
+			"render_controllers": [
+				"controller.render.slime",
+				"controller.render.slime_armor"
+			],
+			"spawn_egg": {
+				"base_color": "#313E3A",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "solargem_block_f3911e10"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:solargem",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:solargem_block",
+      "count": 1
+    }
+  }
+}

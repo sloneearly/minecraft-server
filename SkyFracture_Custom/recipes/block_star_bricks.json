@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "star_bricks_8299b190"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:polished_star",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:star_bricks",
+      "count": 4
+    }
+  }
+}

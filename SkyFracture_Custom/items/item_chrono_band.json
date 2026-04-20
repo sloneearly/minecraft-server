@@ -1,0 +1,27 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "item:chrono_band",
+          "menu_category": {
+              "category": "equipment",
+              "group": "itemGroup.name.bow"
+            }
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "item:chrono_band"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:wearable": {
+				"slot": "slot.weapon.offhand",
+				"protection": 2
+			},
+			"minecraft:display_name": {
+				"value": "Chrono Band\n\n§9Grants immunity to Slow Falling"
+			},
+			"minecraft:allow_off_hand": true
+		}
+	}
+}

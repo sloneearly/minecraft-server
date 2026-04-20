@@ -1,0 +1,30 @@
+{
+	"format_version": "1.21.110",
+	"minecraft:item": {
+		"description": {
+			"identifier": "item:solar_key",
+            "menu_category": {
+              "category": "items",
+              "group": "minecraft:itemGroup.name.items"
+            }
+    },
+		"components": {
+			"minecraft:max_stack_size": 64,
+      			
+			"minecraft:icon": {
+				"textures": {
+					"default": "item:solar_key"
+				}
+			},
+			"minecraft:display_name": {
+				"value": "Solar Key\n\n§7Place on top of \nSolar Crate to open it\n\nthe key will shatter if not\nplaced on top of the crate\n\nOnly functions during the Day"
+			},
+			"minecraft:entity_placer": {
+				"entity": "item:solar_key",
+				"use_on": [
+					"block:solar_crate"
+				]
+			}
+		}
+	}
+}

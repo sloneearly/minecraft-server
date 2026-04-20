@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paper_lantern_aab094e3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:paper",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:torch",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:paper_lantern",
+      "count": 1
+    }
+  }
+}

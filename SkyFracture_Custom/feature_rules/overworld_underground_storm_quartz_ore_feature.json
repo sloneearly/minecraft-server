@@ -1,0 +1,74 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "morr:gen:overworld_underground_storm_quartz_ore_feature",
+			"places_feature": "ore:storm_quartz_ore_feature"
+		},
+		"conditions": {
+			"placement_pass": "final_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "mountains"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "ocean"
+						}
+					]
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "frozen"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "cold"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "birch"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "taiga"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 32,
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "triangle",
+				"extent": [
+					430,
+					500
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

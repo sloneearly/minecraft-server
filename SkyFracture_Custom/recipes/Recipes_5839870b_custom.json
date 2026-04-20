@@ -1,0 +1,42 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_be125d8d"
+    },
+    "tags": [
+      "soul_forge"
+    ],
+    "pattern": [
+      "ABA",
+      "ACA",
+      "DED"
+    ],
+    "key": {
+      "A": {
+        "item": "item:lunargem",
+        "data": 0
+      },
+      "B": {
+        "item": "item:lunar_forging_template",
+        "data": 0
+      },
+      "C": {
+        "item": "leggings:moonstone_leggings",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:iron_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "leggings:lunar_leggings",
+      "count": 1
+    }
+  }
+}

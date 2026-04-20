@@ -1,0 +1,926 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "block_star_vines": {
+      "textures": "textures/blocks/block_star_vines"
+    },
+    "block_star_litter": {
+      "textures": "textures/blocks/block_star_litter"
+    },
+    "block_sky_grass": {
+      "textures": "textures/blocks/block_sky_grass"
+    },
+    "block_eclipsed_nightglow_mushroom": {
+      "textures": "textures/blocks/block_eclipsed_nightglow_mushroom"
+    },
+    "block_eclipsed_nightglow_vines": {
+      "textures": "textures/blocks/block_eclipsed_nightglow_vines"
+    },
+    "block_eclipsed_nightglow_grass": {
+      "textures": "textures/blocks/block_eclipsed_nightglow_grass"
+    },
+    "block_nightglow_vines": {
+      "textures": "textures/blocks/block_nightglow_vines"
+    },
+    "block_cloud_vines": {
+      "textures": "textures/blocks/block_cloud_vines"
+    },
+    "block_solar_vines": {
+      "textures": "textures/blocks/block_solar_vines"
+    },
+    "block_small_sky_stone_spike": {
+      "textures": "textures/blocks/block_small_sky_stone_spike"
+    },
+    "item:solar_forging_template": {
+      "textures": "textures/items/item_solar_forging_template"
+    },
+    "item:starlite": {
+      "textures": "textures/items/item_starlite"
+    },
+    "sword:starlite_sword": {
+      "textures": "textures/items/sword_starlite_sword"
+    },
+    "tool:starlite_axe": {
+      "textures": "textures/items/tool_starlite_axe"
+    },
+    "tool:starlite_hoe": {
+      "textures": "textures/items/tool_starlite_hoe"
+    },
+    "tool:starlite_shovel": {
+      "textures": "textures/items/tool_starlite_shovel"
+    },
+    "tool:starlite_pickaxe": {
+      "textures": "textures/items/tool_starlite_pickaxe"
+    },
+    "block_star_flower": {
+      "textures": "textures/blocks/block_star_flower"
+    },
+    "sword:meteorite_sword": {
+      "textures": "textures/items/sword_meteorite_sword"
+    },
+    "tool:meteorite_axe": {
+      "textures": "textures/items/tool_meteorite_axe"
+    },
+    "tool:meteorite_hoe": {
+      "textures": "textures/items/tool_meteorite_hoe"
+    },
+    "tool:meteorite_shovel": {
+      "textures": "textures/items/tool_meteorite_shovel"
+    },
+    "tool:meteorite_pickaxe": {
+      "textures": "textures/items/tool_meteorite_pickaxe"
+    },
+    "block_star_grass": {
+      "textures": "textures/blocks/block_star_grass"
+    },
+    "sword:wooden_double_sword": {
+      "textures": "textures/items/sword_wooden_double_sword"
+    },
+    "sword:aquamarine_double_sword": {
+      "textures": "textures/items/sword_aquamarine_double_sword"
+    },
+    "block_star_mushroom": {
+      "textures": "textures/blocks/block_star_mushroom"
+    },
+    "sword:stone_double_sword": {
+      "textures": "textures/items/sword_stone_double_sword"
+    },
+    "sword:iron_double_sword": {
+      "textures": "textures/items/sword_iron_double_sword"
+    },
+    "sword:diamond_double_sword": {
+      "textures": "textures/items/sword_diamond_double_sword"
+    },
+    "sword:gold_double_sword": {
+      "textures": "textures/items/sword_gold_double_sword"
+    },
+    "sword:netherite_double_sword": {
+      "textures": "textures/items/sword_netherite_double_sword"
+    },
+    "sword:meteorite_double_sword": {
+      "textures": "textures/items/sword_meteorite_double_sword"
+    },
+    "sword:starlite_double_sword": {
+      "textures": "textures/items/sword_starlite_double_sword"
+    },
+    "item:crossbow_bolt": {
+      "textures": "textures/items/item_crossbow_bolt"
+    },
+    "starlite_helmet": {
+      "textures": [
+        "textures/items/helmet_starlite_helmet"
+      ]
+    },
+    "starlite_leggings": {
+      "textures": [
+        "textures/items/leggings_starlite_leggings"
+      ]
+    },
+    "meteorite_leggings": {
+      "textures": [
+        "textures/items/leggings_meteorite_leggings"
+      ]
+    },
+    "starlite_chestplate": {
+      "textures": [
+        "textures/items/chestplate_starlite_chestplate"
+      ]
+    },
+    "meteorite_helmet": {
+      "textures": [
+        "textures/items/helmet_meteorite_helmet"
+      ]
+    },
+    "meteorite_chestplate": {
+      "textures": [
+        "textures/items/chestplate_meteorite_chestplate"
+      ]
+    },
+    "meteorite_boots": {
+      "textures": [
+        "textures/items/boots_meteorite_boots"
+      ]
+    },
+    "starlite_boots": {
+      "textures": [
+        "textures/items/boots_starlite_boots"
+      ]
+    },
+    "sword:solar_double_sword": {
+      "textures": "textures/items/sword_solar_double_sword"
+    },
+    "item_diamond_crossbow": {
+      "textures": "textures/items/item_diamond_crossbow/crossbow_standby"
+    },
+    "item_iron_crossbow": {
+      "textures": "textures/items/item_iron_crossbow/crossbow_standby"
+    },
+    "item_gold_crossbow": {
+      "textures": "textures/items/item_gold_crossbow/crossbow_standby"
+    },
+    "item_stone_crossbow": {
+      "textures": "textures/items/item_stone_crossbow/crossbow_standby"
+    },
+    "item_meteorite_crossbow": {
+      "textures": "textures/items/item_meteorite_crossbow/crossbow_standby"
+    },
+    "item_starlite_crossbow": {
+      "textures": "textures/items/item_starlite_crossbow/crossbow_standby"
+    },
+    "tool:solar_hoe": {
+      "textures": "textures/items/tool_solar_hoe"
+    },
+    "tool:solar_shovel": {
+      "textures": "textures/items/tool_solar_shovel"
+    },
+    "tool:solar_pickaxe": {
+      "textures": "textures/items/tool_solar_pickaxe"
+    },
+    "tool:solar_axe": {
+      "textures": "textures/items/tool_solar_axe"
+    },
+    "sword:solar_sword": {
+      "textures": "textures/items/sword_solar_sword"
+    },
+    "solar_helmet": {
+      "textures": [
+        "textures/items/helmet_solar_helmet"
+      ]
+    },
+    "item_netherite_crossbow": {
+      "textures": "textures/items/item_netherite_crossbow/crossbow_standby"
+    },
+    "item_solar_crossbow": {
+      "textures": "textures/items/item_solar_crossbow/crossbow_standby"
+    },
+    "item:aquamarine": {
+      "textures": "textures/items/item_aquamarine"
+    },
+    "sword:aquamarine_sword": {
+      "textures": "textures/items/sword_aquamarine_sword"
+    },
+    "tool:aquamarine_axe": {
+      "textures": "textures/items/tool_aquamarine_axe"
+    },
+    "solar_boots": {
+      "textures": [
+        "textures/items/boots_solar_boots"
+      ]
+    },
+    "solar_chestplate": {
+      "textures": [
+        "textures/items/chestplate_solar_chestplate"
+      ]
+    },
+    "solar_leggings": {
+      "textures": [
+        "textures/items/leggings_solar_leggings"
+      ]
+    },
+    "tool:aquamarine_hoe": {
+      "textures": "textures/items/tool_aquamarine_hoe"
+    },
+    "tool:aquamarine_pickaxe": {
+      "textures": "textures/items/tool_aquamarine_pickaxe"
+    },
+    "tool:aquamarine_shovel": {
+      "textures": "textures/items/tool_aquamarine_shovel"
+    },
+    "aquamarine_boots": {
+      "textures": [
+        "textures/items/boots_aquamarine_boots"
+      ]
+    },
+    "aquamarine_helmet": {
+      "textures": [
+        "textures/items/helmet_aquamarine_helmet"
+      ]
+    },
+    "aquamarine_chestplate": {
+      "textures": [
+        "textures/items/chestplate_aquamarine_chestplate"
+      ]
+    },
+    "aquamarine_leggings": {
+      "textures": [
+        "textures/items/leggings_aquamarine_leggings"
+      ]
+    },
+    "item:solargem": {
+      "textures": "textures/items/item_solargem"
+    },
+    "item:cloudball": {
+      "textures": "textures/items/item_cloudball"
+    },
+    "block_nightglow_grass": {
+      "textures": "textures/blocks/block_nightglow_grass"
+    },
+    "item:comet_forging_template": {
+      "textures": "textures/items/item_comet_forging_template"
+    },
+    "item:lunargem": {
+      "textures": "textures/items/item_lunargem"
+    },
+    "item_aquamarine_crossbow": {
+      "textures": "textures/items/item_aquamarine_crossbow/crossbow_standby"
+    },
+    "block_nightglow_mushroom": {
+      "textures": "textures/blocks/block_nightglow_mushroom"
+    },
+    "item:cloud_in_a_bottle": {
+      "textures": "textures/items/item_cloud_in_a_bottle"
+    },
+    "item:solar_charge": {
+      "textures": "textures/items/item_solar_charge"
+    },
+    "block_moonrock": {
+      "textures": "textures/blocks/block_moonrock"
+    },
+    "sword:moonstone_sword": {
+      "textures": "textures/items/sword_moonstone_sword"
+    },
+    "tool:moonstone_pickaxe": {
+      "textures": "textures/items/tool_moonstone_pickaxe"
+    },
+    "tool:moonstone_axe": {
+      "textures": "textures/items/tool_moonstone_axe"
+    },
+    "tool:moonstone_hoe": {
+      "textures": "textures/items/tool_moonstone_hoe"
+    },
+    "tool:moonstone_shovel": {
+      "textures": "textures/items/tool_moonstone_shovel"
+    },
+    "moonstone_helmet": {
+      "textures": [
+        "textures/items/helmet_moonstone_helmet"
+      ]
+    },
+    "sword:lunar_sword": {
+      "textures": "textures/items/sword_lunar_sword"
+    },
+    "tool:lunar_axe": {
+      "textures": "textures/items/tool_lunar_axe"
+    },
+    "item:lunar_forging_template": {
+      "textures": "textures/items/item_lunar_forging_template"
+    },
+    "tool:lunar_hoe": {
+      "textures": "textures/items/tool_lunar_hoe"
+    },
+    "tool:lunar_pickaxe": {
+      "textures": "textures/items/tool_lunar_pickaxe"
+    },
+    "moonstone_boots": {
+      "textures": [
+        "textures/items/boots_moonstone_boots"
+      ]
+    },
+    "moonstone_chestplate": {
+      "textures": [
+        "textures/items/chestplate_moonstone_chestplate"
+      ]
+    },
+    "moonstone_leggings": {
+      "textures": [
+        "textures/items/leggings_moonstone_leggings"
+      ]
+    },
+    "tool:lunar_shovel": {
+      "textures": "textures/items/tool_lunar_shovel"
+    },
+    "item:paper_lantern": {
+      "textures": "textures/items/item_paper_lantern"
+    },
+    "item:red_signal_flare": {
+      "textures": "textures/items/item_red_signal_flare"
+    },
+    "sword:moonstone_double_sword": {
+      "textures": "textures/items/sword_moonstone_double_sword"
+    },
+    "lunar_helmet": {
+      "textures": [
+        "textures/items/helmet_lunar_helmet"
+      ]
+    },
+    "lunar_leggings": {
+      "textures": [
+        "textures/items/leggings_lunar_leggings"
+      ]
+    },
+    "lunar_boots": {
+      "textures": [
+        "textures/items/boots_lunar_boots"
+      ]
+    },
+    "lunar_chestplate": {
+      "textures": [
+        "textures/items/chestplate_lunar_chestplate"
+      ]
+    },
+    "item:orange_signal_flare": {
+      "textures": "textures/items/item_orange_signal_flare"
+    },
+    "item:yellow_signal_flare": {
+      "textures": "textures/items/item_yellow_signal_flare"
+    },
+    "item:white_signal_flare": {
+      "textures": "textures/items/item_white_signal_flare"
+    },
+    "item:purple_signal_flare": {
+      "textures": "textures/items/item_purple_signal_flare"
+    },
+    "item:magenta_signal_flare": {
+      "textures": "textures/items/item_magenta_signal_flare"
+    },
+    "item:lime_signal_flare": {
+      "textures": "textures/items/item_lime_signal_flare"
+    },
+    "item:pink_signal_flare": {
+      "textures": "textures/items/item_pink_signal_flare"
+    },
+    "item:light_blue_signal_flare": {
+      "textures": "textures/items/item_light_blue_signal_flare"
+    },
+    "item:cyan_signal_flare": {
+      "textures": "textures/items/item_cyan_signal_flare"
+    },
+    "item:blue_signal_flare": {
+      "textures": "textures/items/item_blue_signal_flare"
+    },
+    "item:green_signal_flare": {
+      "textures": "textures/items/item_green_signal_flare"
+    },
+    "sword:lunar_double_sword": {
+      "textures": "textures/items/sword_lunar_double_sword"
+    },
+    "sword:comet_sword": {
+      "textures": "textures/items/sword_comet_sword"
+    },
+    "tool:comet_axe": {
+      "textures": "textures/items/tool_comet_axe"
+    },
+    "tool:comet_shovel": {
+      "textures": "textures/items/tool_comet_shovel"
+    },
+    "tool:comet_hoe": {
+      "textures": "textures/items/tool_comet_hoe"
+    },
+    "sword:comet_double_sword": {
+      "textures": "textures/items/sword_comet_double_sword"
+    },
+    "tool:comet_pickaxe": {
+      "textures": "textures/items/tool_comet_pickaxe"
+    },
+    "item:hurricane_wind_charge": {
+      "textures": "textures/items/item_hurricane_wind_charge"
+    },
+    "comet_leggings": {
+      "textures": [
+        "textures/items/leggings_comet_leggings"
+      ]
+    },
+    "comet_helmet": {
+      "textures": [
+        "textures/items/helmet_comet_helmet"
+      ]
+    },
+    "comet_chestplate": {
+      "textures": [
+        "textures/items/chestplate_comet_chestplate"
+      ]
+    },
+    "comet_boots": {
+      "textures": [
+        "textures/items/boots_comet_boots"
+      ]
+    },
+    "item_comet_crossbow": {
+      "textures": "textures/items/item_comet_crossbow/crossbow_standby"
+    },
+    "oxygen_mask": {
+      "textures": [
+        "textures/items/helmet_oxygen_mask"
+      ]
+    },
+    "item:stellar_communicator": {
+      "textures": "textures/items/item_stellar_communicator"
+    },
+    "item_lunar_crossbow": {
+      "textures": "textures/items/item_lunar_crossbow/crossbow_standby"
+    },
+    "item_moonstone_crossbow": {
+      "textures": "textures/items/item_moonstone_crossbow/crossbow_standby"
+    },
+    "item:enchanted_droplet": {
+      "textures": "textures/items/item_enchanted_droplet"
+    },
+    "block_nightglow_torch": {
+      "textures": "textures/blocks/block_nightglow_torch"
+    },
+    "block_eclipsed_nightglow_torch": {
+      "textures": "textures/blocks/block_eclipsed_nightglow_torch"
+    },
+    "item:sunplate_ingot": {
+      "textures": "textures/items/item_sunplate_ingot"
+    },
+    "item:raw_sunplate": {
+      "textures": "textures/items/item_raw_sunplate"
+    },
+    "block_star_torch": {
+      "textures": "textures/blocks/block_star_torch"
+    },
+    "block_lunar_torch": {
+      "textures": "textures/blocks/block_lunar_torch"
+    },
+    "block_extinguished_torch": {
+      "textures": "textures/blocks/block_extinguished_torch"
+    },
+    "block_solar_torch": {
+      "textures": "textures/blocks/block_solar_torch"
+    },
+    "block_setted_sunplate_torch": {
+      "textures": "textures/blocks/block_setted_sunplate_torch"
+    },
+    "block_nooned_sunplate_torch": {
+      "textures": "textures/blocks/block_nooned_sunplate_torch"
+    },
+    "item:luminite_ingot": {
+      "textures": "textures/items/item_luminite_ingot"
+    },
+    "item:raw_luminite": {
+      "textures": "textures/items/item_raw_luminite"
+    },
+    "item:luminite_forging_template": {
+      "textures": "textures/items/item_luminite_forging_template"
+    },
+    "sword:luminite_sword": {
+      "textures": "textures/items/sword_luminite_sword"
+    },
+    "tool:luminite_axe": {
+      "textures": "textures/items/tool_luminite_axe"
+    },
+    "tool:luminite_pickaxe": {
+      "textures": "textures/items/tool_luminite_pickaxe"
+    },
+    "tool:luminite_double_sword": {
+      "textures": "textures/items/tool_luminite_double_sword"
+    },
+    "tool:luminite_shovel": {
+      "textures": "textures/items/tool_luminite_shovel"
+    },
+    "tool:luminite_hoe": {
+      "textures": "textures/items/tool_luminite_hoe"
+    },
+    "item_luminite_crossbow": {
+      "textures": "textures/items/item_luminite_crossbow/crossbow_standby"
+    },
+    "luminite_helmet": {
+      "textures": [
+        "textures/items/helmet_luminite_helmet"
+      ]
+    },
+    "luminite_leggings": {
+      "textures": [
+        "textures/items/leggings_luminite_leggings"
+      ]
+    },
+    "luminite_boots": {
+      "textures": [
+        "textures/items/boots_luminite_boots"
+      ]
+    },
+    "luminite_chestplate": {
+      "textures": [
+        "textures/items/chestplate_luminite_chestplate"
+      ]
+    },
+    "item:moonlight": {
+      "textures": "textures/items/item_moonlight"
+    },
+    "item:sunlight": {
+      "textures": "textures/items/item_sunlight"
+    },
+    "block_small_moonstone_spike": {
+      "textures": "textures/blocks/block_small_moonstone_spike"
+    },
+    "block_small_stellarslate_spike": {
+      "textures": "textures/blocks/block_small_stellarslate_spike"
+    },
+    "block_small_solarplate_spike": {
+      "textures": "textures/blocks/block_small_solarplate_spike"
+    },
+    "item:cloud_straw": {
+      "textures": "textures/items/item_cloud_straw"
+    },
+    "food:fried_cloud_egg": {
+      "textures": "textures/items/food_fried_cloud_egg"
+    },
+    "item:cloud_egg": {
+      "textures": "textures/items/item_cloud_egg"
+    },
+    "helmet_reinforced_oxygen_mask": {
+      "textures": [
+        "textures/items/helmet_reinforced_oxygen_mask"
+      ]
+    },
+    "food:cloud_bread": {
+      "textures": "textures/items/food_cloud_bread"
+    },
+    "item:lignite": {
+      "textures": "textures/items/item_lignite"
+    },
+    "item:cloud_straw_seeds": {
+      "textures": "textures/items/item_cloud_straw_seeds"
+    },
+    "food:cloud_cake_slice": {
+      "textures": "textures/items/food_cloud_cake_slice"
+    },
+    "item:cookie_mold_cloud": {
+      "textures": "textures/items/item_cookie_mold_cloud"
+    },
+    "item:cookie_mold_star": {
+      "textures": "textures/items/item_cookie_mold_star"
+    },
+    "item:cookie_mold_heart": {
+      "textures": "textures/items/item_cookie_mold_heart"
+    },
+    "item:cookie_mold_sword": {
+      "textures": "textures/items/item_cookie_mold_sword"
+    },
+    "item:cookie_mold_ingot": {
+      "textures": "textures/items/item_cookie_mold_ingot"
+    },
+    "item:cookie_mold_square": {
+      "textures": "textures/items/item_cookie_mold_square"
+    },
+    "item:cookie_mold_circle": {
+      "textures": "textures/items/item_cookie_mold_circle"
+    },
+    "item:cookie_mold_diamond": {
+      "textures": "textures/items/item_cookie_mold_diamond"
+    },
+    "item:cookie_mold_dust": {
+      "textures": "textures/items/item_cookie_mold_dust"
+    },
+    "item:cookie_mold_triangle": {
+      "textures": "textures/items/item_cookie_mold_triangle"
+    },
+    "item:cookie_mold_moon": {
+      "textures": "textures/items/item_cookie_mold_moon"
+    },
+    "item:cookie_mold_sun": {
+      "textures": "textures/items/item_cookie_mold_sun"
+    },
+    "food:chocolate_cake_slice": {
+      "textures": "textures/items/food_chocolate_cake_slice"
+    },
+    "food:raw_moon_beef": {
+      "textures": "textures/items/food_raw_moon_beef"
+    },
+    "food:cooked_moon_beef": {
+      "textures": "textures/items/food_cooked_moon_beef"
+    },
+    "food:raw_cloud_chicken": {
+      "textures": "textures/items/food_raw_cloud_chicken"
+    },
+    "food:cooked_cloud_chicken": {
+      "textures": "textures/items/food_cooked_cloud_chicken"
+    },
+    "food:starfruit": {
+      "textures": "textures/items/food_starfruit"
+    },
+    "block_starfruit_bush": {
+      "textures": "textures/blocks/block_starfruit_bush"
+    },
+    "food:cookie_cloud": {
+      "textures": "textures/items/food_cookie_cloud"
+    },
+    "food:cookie_sun": {
+      "textures": "textures/items/food_cookie_sun"
+    },
+    "food:cookie_star": {
+      "textures": "textures/items/food_cookie_star"
+    },
+    "food:cookie_heart": {
+      "textures": "textures/items/food_cookie_heart"
+    },
+    "food:cookie_ingot": {
+      "textures": "textures/items/food_cookie_ingot"
+    },
+    "food:cookie_sword": {
+      "textures": "textures/items/food_cookie_sword"
+    },
+    "food:cookie_square": {
+      "textures": "textures/items/food_cookie_square"
+    },
+    "food:cookie_circle": {
+      "textures": "textures/items/food_cookie_circle"
+    },
+    "food:cookie_triangle": {
+      "textures": "textures/items/food_cookie_triangle"
+    },
+    "food:cookie_diamond": {
+      "textures": "textures/items/food_cookie_diamond"
+    },
+    "food:cookie_moon": {
+      "textures": "textures/items/food_cookie_moon"
+    },
+    "food:double_chocolate_cookie": {
+      "textures": "textures/items/food_double_chocolate_cookie"
+    },
+    "food:double_chocolate_cookie_cloud": {
+      "textures": "textures/items/food_double_chocolate_cookie_cloud"
+    },
+    "food:double_chocolate_cookie_star": {
+      "textures": "textures/items/food_double_chocolate_cookie_star"
+    },
+    "food:cookie_dust": {
+      "textures": "textures/items/food_cookie_dust"
+    },
+    "food:double_chocolate_cookie_heart": {
+      "textures": "textures/items/food_double_chocolate_cookie_heart"
+    },
+    "food:double_chocolate_cookie_square": {
+      "textures": "textures/items/food_double_chocolate_cookie_square"
+    },
+    "food:double_chocolate_cookie_sword": {
+      "textures": "textures/items/food_double_chocolate_cookie_sword"
+    },
+    "food:double_chocolate_cookie_sun": {
+      "textures": "textures/items/food_double_chocolate_cookie_sun"
+    },
+    "food:double_chocolate_cookie_triangle": {
+      "textures": "textures/items/food_double_chocolate_cookie_triangle"
+    },
+    "food:double_chocolate_cookie_dust": {
+      "textures": "textures/items/food_double_chocolate_cookie_dust"
+    },
+    "food:cake_slice": {
+      "textures": "textures/items/food_cake_slice"
+    },
+    "food:double_chocolate_cookie_diamond": {
+      "textures": "textures/items/food_double_chocolate_cookie_diamond"
+    },
+    "food:double_chocolate_cookie_circle": {
+      "textures": "textures/items/food_double_chocolate_cookie_circle"
+    },
+    "food:double_chocolate_cookie_ingot": {
+      "textures": "textures/items/food_double_chocolate_cookie_ingot"
+    },
+    "food:double_chocolate_cookie_moon": {
+      "textures": "textures/items/food_double_chocolate_cookie_moon"
+    },
+    "food:sugar_cookie": {
+      "textures": "textures/items/food_sugar_cookie"
+    },
+    "food:sugar_cookie_circle": {
+      "textures": "textures/items/food_sugar_cookie_circle"
+    },
+    "food:sugar_cookie_square": {
+      "textures": "textures/items/food_sugar_cookie_square"
+    },
+    "food:sugar_cookie_star": {
+      "textures": "textures/items/food_sugar_cookie_star"
+    },
+    "food:sugar_cookie_sword": {
+      "textures": "textures/items/food_sugar_cookie_sword"
+    },
+    "food:sugar_cookie_cloud": {
+      "textures": "textures/items/food_sugar_cookie_cloud"
+    },
+    "food:sugar_cookie_ingot": {
+      "textures": "textures/items/food_sugar_cookie_ingot"
+    },
+    "food:sugar_cookie_heart": {
+      "textures": "textures/items/food_sugar_cookie_heart"
+    },
+    "food:sugar_cookie_sun": {
+      "textures": "textures/items/food_sugar_cookie_sun"
+    },
+    "food:sugar_cookie_triangle": {
+      "textures": "textures/items/food_sugar_cookie_triangle"
+    },
+    "food:sugar_cookie_dust": {
+      "textures": "textures/items/food_sugar_cookie_dust"
+    },
+    "food:sugar_cookie_moon": {
+      "textures": "textures/items/food_sugar_cookie_moon"
+    },
+    "food:sugar_cookie_diamond": {
+      "textures": "textures/items/food_sugar_cookie_diamond"
+    },
+    "item:stormshock_potion": {
+      "textures": "textures/items/item_stormshock_potion"
+    },
+    "item:combustion_potion": {
+      "textures": "textures/items/item_combustion_potion"
+    },
+    "item:permafrost_potion": {
+      "textures": "textures/items/item_permafrost_potion"
+    },
+    "food:fuzzy_carrot": {
+      "textures": "textures/items/food_fuzzy_carrot"
+    },
+    "food:lunar_carrot": {
+      "textures": "textures/items/food_lunar_carrot"
+    },
+    "food:solar_carrot": {
+      "textures": "textures/items/food_solar_carrot"
+    },
+    "block_hail": {
+      "textures": "textures/blocks/block_hail"
+    },
+    "food:cloudberry_pie": {
+      "textures": "textures/items/food_cloudberry_pie"
+    },
+    "food:lunar_starfruit": {
+      "textures": "textures/items/food_lunar_starfruit"
+    },
+    "food:cloudberry": {
+      "textures": "textures/items/food_cloudberry"
+    },
+    "food:solar_starfruit": {
+      "textures": "textures/items/food_solar_starfruit"
+    },
+    "item:sunpower_potion": {
+      "textures": "textures/items/item_sunpower_potion"
+    },
+    "item:moonpower_potion": {
+      "textures": "textures/items/item_moonpower_potion"
+    },
+    "food:nightglow_stew": {
+      "textures": "textures/items/food_nightglow_stew"
+    },
+    "food:eclipsed_nightglow_stew": {
+      "textures": "textures/items/food_eclipsed_nightglow_stew"
+    },
+    "item:splash_stormshock_potion": {
+      "textures": "textures/items/item_splash_stormshock_potion"
+    },
+    "item:splash_permafrost_potion": {
+      "textures": "textures/items/item_splash_permafrost_potion"
+    },
+    "item:splash_combustion_potion": {
+      "textures": "textures/items/item_splash_combustion_potion"
+    },
+    "block:space_crystal_placer": {
+      "textures": "textures/items/block_space_crystal_placer"
+    },
+    "item:aero_slimeball": {
+      "textures": "textures/items/item_aero_slimeball"
+    },
+    "item:bottomless_water_bucket": {
+      "textures": "textures/items/item_bottomless_water_bucket"
+    },
+    "item:chrono_band": {
+      "textures": "textures/items/item_chrono_band"
+    },
+    "item_copper_crossbow": {
+      "textures": "textures/items/item_copper_crossbow/crossbow_standby"
+    },
+    "item:cryo_chunk": {
+      "textures": "textures/items/item_cryo_chunk"
+    },
+    "item:stellar_crystal_shard": {
+      "textures": "textures/items/item_stellar_crystal_shard"
+    },
+    "item:throwable_comet": {
+      "textures": "textures/items/item_throwable_comet"
+    },
+    "item:weather_radar": {
+      "textures": "textures/items/item_weather_radar"
+    },
+    "sword:copped_double_sword": {
+      "textures": "textures/items/sword_copped_double_sword"
+    },
+    "item:combustion_potion": {
+      "textures": "textures/items/item_combustion_potion"
+    },
+    "item:chrono_pearl": {
+      "textures": "textures/items/item_chrono_pearl"
+    },
+    "item:cryo_bridge_staff": {
+      "textures": "textures/items/item_cryo_bridge_staff"
+    },
+    "item:cryocore_potion": {
+      "textures": "textures/items/item_cryocore_potion"
+    },
+    "item:solar_key": {
+      "textures": "textures/items/item_solar_key"
+    },
+    "item:lunar_key": {
+      "textures": "textures/items/item_lunar_key"
+    },
+    "item:splash_cryocore_potion": {
+      "textures": "textures/items/item_splash_cryocore_potion"
+    },
+    "item:splash_stormshock_potion": {
+      "textures": "textures/items/item_splash_stormshock_potion"
+    },
+    "item:storm_pearl": {
+      "textures": "textures/items/item_storm_pearl"
+    },
+    "item:storm_quartz": {
+      "textures": "textures/items/item_storm_quartz"
+    },
+    "item:stormshock_potion": {
+      "textures": "textures/items/item_stormshock_potion"
+    },
+    "item:splash_combustion_potion": {
+      "textures": "textures/items/item_splash_combustion_potion"
+    },
+    "item:lunar_experience_bottle": {
+      "textures": "textures/items/item_lunar_experience_bottle"
+    },
+    "food:enchanted_solar_starfruit": {
+      "textures": "textures/items/food_enchanted_solar_starfruit"
+    },
+    "food:enchanted_lunar_starfruit": {
+      "textures": "textures/items/food_enchanted_lunar_starfruit"
+    },
+    "item:lunar_potion": {
+      "textures": "textures/items/item_lunar_potion"
+    },
+    "item:solar_potion": {
+      "textures": "textures/items/item_solar_potion"
+    },
+    "item:time_bomb": {
+      "textures": "textures/items/item_time_bomb"
+    },
+    "item:solar_experience_bottle": {
+      "textures": "textures/items/item_solar_experience_bottle"
+    },
+    "item:lunar_shard": {
+      "textures": "textures/items/item_lunar_shard"
+    },
+    "item:solar_shard": {
+      "textures": "textures/items/item_solar_shard"
+    },
+    "spear:aquamarine_spear": {
+      "textures": "textures/items/spear_aquamarine_spear"
+    },
+    "spear:lunar_spear": {
+      "textures": "textures/items/spear_lunar_spear"
+    },
+    "spear:comet_spear": {
+      "textures": "textures/items/spear_comet_spear"
+    },
+    "spear:luminite_spear": {
+      "textures": "textures/items/spear_luminite_spear"
+    },
+    "spear:meteorite_spear": {
+      "textures": "textures/items/spear_meteorite_spear"
+    },
+    "spear:starlite_spear": {
+      "textures": "textures/items/spear_starlite_spear"
+    },
+    "spear:solar_spear": {
+      "textures": "textures/items/spear_solar_spear"
+    },
+    "spear:moonstone_spear": {
+      "textures": "textures/items/spear_moonstone_spear"
+    }
+  }
+}

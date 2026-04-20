@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "meteorite_boots_241abe81"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A B",
+      "B A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:meteorite",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:diamond",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "boots:meteorite_boots",
+      "count": 1
+    }
+  }
+}

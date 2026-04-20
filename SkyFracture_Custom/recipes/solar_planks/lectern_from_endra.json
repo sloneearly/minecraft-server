@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "block:lectern_from_solar"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~~~", 
+            " # ",
+            " ~ "
+        ],
+        "key": {
+            "~": {
+                "item": "block:solar_plank_slab"
+            },
+            "#": {
+                "item": "minecraft:bookshelf"
+            }
+        },
+        "result": [
+			{
+				"item": "minecraft:lectern",
+				"count": 1
+			}
+		]
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "yellow_stellarslate_tiles_e1aaf0e0"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:yellow_stellarslate_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:yellow_stellarslate_tiles",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "projectile:stellar_communicator",
+      "materials": {
+        "default": "allay"
+      },
+      "textures": {
+        "default": "textures/entity/projectile_stellar_communicator"
+      },
+      "geometry": {
+        "default": "geometry.projectile_astral_communicator"
+      },
+      "render_controllers": [
+        "controller.render.allay"
+      ]
+    }
+  }
+}

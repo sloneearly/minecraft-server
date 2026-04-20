@@ -1,0 +1,34 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mob:solaronemone",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/entity/solaronemone"
+			},
+			"geometry": {
+				"default": "geometry.solaronemone"
+			},
+			"animations": {
+				"face_player": "animation.solaronemone.general"
+			},
+			"scripts": {
+				"scale": 1,
+				"animate": [
+					"face_player"
+				]
+			},
+			"render_controllers": [
+				"controller.render.skeleton"
+			],
+			"spawn_egg": {
+				"base_color": "#3E1100",
+				"overlay_color": "#FF5C00"
+			}
+		}
+	}
+}

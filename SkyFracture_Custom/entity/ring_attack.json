@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "projectile:ring_attack",
+      "materials": {
+        "default": "allay"
+      },
+      "textures": {
+        "default": "textures/entity/ringelite"
+      },
+      "geometry": {
+        "default": "geometry.ringattack"
+      },
+      "animations": {
+        "move": "animation.knife.move",
+        "goober": "animation.ringelite.flying"
+      },
+      "scripts": {
+        "animate": [
+          "move",
+	  "goober"
+        ]
+      },
+      "render_controllers": [ "controller.render.allay" ]
+    }
+  }
+}

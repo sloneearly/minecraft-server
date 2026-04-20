@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "gen:large_windswept_clouds"
+		},
+		"features": [
+			[
+				"generation:largewindsweptcloud1_feature_mcstructure",
+				1
+			],
+			[
+				"generation:largewindsweptcloud2_feature_mcstructure",
+				1
+			],
+			[
+				"generation:largewindsweptcloud3_feature_mcstructure",
+				1
+			],
+			[
+				"generation:largewindsweptcloud4_feature_mcstructure",
+				1
+			]
+		]
+	}
+}

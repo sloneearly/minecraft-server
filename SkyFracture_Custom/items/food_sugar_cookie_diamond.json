@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "food:sugar_cookie_diamond",
+            "menu_category": {
+              "category": "equipment"
+            }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "food:sugar_cookie_diamond"
+      },
+      						"minecraft:display_name": {
+				"value": "Sugar Cookie\n\n\n§8Diamond"
+			},
+      "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+              "use_duration": 1.8,
+              "movement_modifier": 1
+            },
+
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": 0.4
+      }
+    }
+  }
+}

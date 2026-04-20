@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "moonstone_hoe_6eeadfe0"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      " B",
+      " B"
+    ],
+    "key": {
+      "A": {
+        "item": "block:moonstone",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "tool:moonstone_hoe",
+      "count": 1
+    }
+  }
+}

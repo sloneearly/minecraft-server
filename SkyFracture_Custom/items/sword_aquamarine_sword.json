@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.50",
+
+	"minecraft:item": {
+		"description": {
+			"identifier": "sword:aquamarine_sword",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			}
+		},
+
+		"components": {
+			"minecraft:icon": "sword:aquamarine_sword",
+			"minecraft:display_name": {
+				"value": "Aquamarine Sword"
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:transformable_items",
+					"minecraft:is_sword",
+					"minecraft:digger",
+					"minecraft:diamond_tier"
+				]
+			},
+
+			"minecraft:max_stack_size": 1,
+			"minecraft:stacked_by_data": true,
+			"minecraft:durability": {
+				"max_durability": 1300,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:damage": 7,
+			"minecraft:enchantable": {"slot": "sword", "value": 10}
+		}
+	}
+}

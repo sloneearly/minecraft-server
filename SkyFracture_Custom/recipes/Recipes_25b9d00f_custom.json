@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_2517c7f6"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "block:cloud_cake",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "food:cloud_cake_slice",
+      "count": 7
+    }
+  }
+}

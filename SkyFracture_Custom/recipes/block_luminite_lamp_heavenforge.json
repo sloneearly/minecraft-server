@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "luminite_lamp_heavenforge_9fbf5513"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "item:luminite_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:glowstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:luminite_lamp_heavenforge",
+      "count": 1
+    }
+  }
+}

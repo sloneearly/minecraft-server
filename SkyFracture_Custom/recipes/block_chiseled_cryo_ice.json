@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "chiseled_cryo_ice_12d43278"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:polished_cryo_ice",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:chiseled_cryo_ice",
+      "count": 2
+    }
+  }
+}

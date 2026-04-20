@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "storm_quartz_block_d8100c0f"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:storm_quartz",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:storm_quartz_block",
+      "count": 1
+    }
+  }
+}

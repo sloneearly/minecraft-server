@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "chiseled_luminite_cryocore_64a704e6"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:luminite_bricks_cryocore_slab",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:chiseled_luminite_cryocore",
+      "count": 1
+    }
+  }
+}

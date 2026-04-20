@@ -1,0 +1,36 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "double_chocolate_cookie_diamond_cfa6bb64"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "item:cookie_mold_diamond",
+				"data": 0
+			},
+			"B": {
+				"item": "food:double_chocolate_cookie",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "food:double_chocolate_cookie_diamond",
+				"count": 1
+			},
+			{
+				"item": "item:cookie_mold_diamond",
+				"count": 1
+			}
+		]
+	}
+}

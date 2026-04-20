@@ -1,0 +1,282 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/block_meteorite",
+    "atlas_tile": "ani_block_meteorite",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_purple_stellarslate_bricks",
+    "atlas_tile": "ani_block_purple_stellarslate_bricks",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_enchanted_lightning_rod",
+    "atlas_tile": "ani_block_enchanted_lightning_rod",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_solar_soul_forge_side",
+    "atlas_tile": "block_solar_soul_forge_side",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_solar_soul_forge_up",
+    "atlas_tile": "block_solar_soul_forge_up",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_yellow_stellarslate_bricks",
+    "atlas_tile": "ani_block_yellow_stellarslate_bricks",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_yellow_stellarslate_brick_slab",
+    "atlas_tile": "ani_block_yellow_stellarslate_brick_slab",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_purple_stellarslate_brick_slab",
+    "atlas_tile": "ani_block_purple_stellarslate_brick_slab",
+    "ticks_per_frame": 20
+   },
+  {
+    "flipbook_texture": "textures/blocks/block_bubble_block",
+    "atlas_tile": "ani_block_bubble_block",
+    "ticks_per_frame": 20
+   },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_pillar_cosmic_ember_down",
+    "atlas_tile": "block_luminite_pillar_cosmic_ember_down",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_pillar_astra_down",
+    "atlas_tile": "block_luminite_pillar_astra_down",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_pillar_classic_down",
+    "atlas_tile": "block_luminite_pillar_classic_down",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_pillar_cryocore_down",
+    "atlas_tile": "block_luminite_pillar_cryocore_down",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_pillar_lunar_rust_down",
+    "atlas_tile": "block_luminite_pillar_lunar_rust_down",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_pillar_heavenforge_down",
+    "atlas_tile": "block_luminite_pillar_heavenforge_down",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_pillar_mercury_down",
+    "atlas_tile": "block_luminite_pillar_mercury_down",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_pillar_star_royal_down",
+    "atlas_tile": "block_luminite_pillar_star_royal_down",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_pillar_cosmic_ember_side",
+    "atlas_tile": "block_luminite_pillar_cosmic_ember_side",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_pillar_astra_side",
+    "atlas_tile": "block_luminite_pillar_astra_side",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_pillar_classic_side",
+    "atlas_tile": "block_luminite_pillar_classic_side",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_pillar_cryocore_side",
+    "atlas_tile": "block_luminite_pillar_cryocore_side",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_pillar_lunar_rust_side",
+    "atlas_tile": "block_luminite_pillar_lunar_rust_side",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_pillar_heavenforge_side",
+    "atlas_tile": "block_luminite_pillar_heavenforge_side",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_pillar_mercury_side",
+    "atlas_tile": "block_luminite_pillar_mercury_side",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_pillar_star_royal_side",
+    "atlas_tile": "block_luminite_pillar_star_royal_side",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_setted_sunplate_lantern",
+    "atlas_tile": "ani_block_setted_sunplate_lantern",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_nooned_sunplate_lantern",
+    "atlas_tile": "ani_block_nooned_sunplate_lantern",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_eclipsed_nightglow_lantern",
+    "atlas_tile": "ani_block_eclipsed_nightglow_lantern",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_solar_lantern",
+    "atlas_tile": "ani_block_solar_lantern",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_star_lantern",
+    "atlas_tile": "ani_block_star_lantern",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_lunar_lantern",
+    "atlas_tile": "ani_block_lunar_lantern",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_nightglow_lantern",
+    "atlas_tile": "ani_block_nightglow_lantern",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_purple_stellarslate_tile_slab",
+    "atlas_tile": "ani_block_purple_stellarslate_tile_slab",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_purple_stellarslate_tiles",
+    "atlas_tile": "ani_block_purple_stellarslate_tiles",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_yellow_stellarslate_tiles",
+    "atlas_tile": "ani_block_yellow_stellarslate_tiles",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_yellow_stellarslate_tile_slab",
+    "atlas_tile": "ani_block_yellow_stellarslate_tile_slab",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_stellar_crystal",
+    "atlas_tile": "ani_block_stellar_crystal",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_solar_crystal",
+    "atlas_tile": "ani_block_solar_crystal",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_lunar_crystal",
+    "atlas_tile": "ani_block_lunar_crystal",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_space_crystal",
+    "atlas_tile": "ani_block_space_crystal",
+    "ticks_per_frame": 5
+   },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_lamp_astra",
+    "atlas_tile": "ani_block_luminite_lamp_astra",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_lamp_cryocore",
+    "atlas_tile": "ani_block_luminite_lamp_cryocore",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_lamp_classic",
+    "atlas_tile": "ani_block_luminite_lamp_classic",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_lamp_star_royal",
+    "atlas_tile": "ani_block_luminite_lamp_star_royal",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_lamp_cosmic_ember",
+    "atlas_tile": "ani_block_luminite_lamp_cosmic_ember",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_lamp_lunar_rust",
+    "atlas_tile": "ani_block_luminite_lamp_lunar_rust",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_lamp_heavenforge",
+    "atlas_tile": "ani_block_luminite_lamp_heavenforge",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_lamp_mercury",
+    "atlas_tile": "ani_block_luminite_lamp_mercury",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_lantern_cosmic_ember",
+    "atlas_tile": "ani_block_luminite_lantern_cosmic_ember",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_lantern_astra",
+    "atlas_tile": "ani_block_luminite_lantern_astra",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_lantern_classic",
+    "atlas_tile": "ani_block_luminite_lantern_classic",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_lantern_heavenforge",
+    "atlas_tile": "ani_block_luminite_lantern_heavenforge",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_lantern_cryocore",
+    "atlas_tile": "ani_block_luminite_lantern_cryocore",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_lantern_mercury",
+    "atlas_tile": "ani_block_luminite_lantern_mercury",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_lantern_lunar_rust",
+    "atlas_tile": "ani_block_luminite_lantern_lunar_rust",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_luminite_lantern_star_royal",
+    "atlas_tile": "ani_block_luminite_lantern_star_royal",
+    "ticks_per_frame": 20
+  }
+]

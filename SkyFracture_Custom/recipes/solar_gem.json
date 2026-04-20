@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "solargem_cbb461bf"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:solar_shard",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:solargem",
+      "count": 1
+    }
+  }
+}

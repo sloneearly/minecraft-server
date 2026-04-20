@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "polished_star_stairs_f00a6932"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:polished_star",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:polished_star_stairs",
+      "count": 3
+    }
+  }
+}
