@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "supported_formats": [41, 57],
+    "description": "Increases the world height to 1024. By tyrannus"
+  }
+}

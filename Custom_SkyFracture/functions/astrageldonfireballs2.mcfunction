@@ -1,8 +1,0 @@
-execute at @e[type=mechanic:astrageldon_fireballs,r=50] run summon projectile:astrageldon_fireball ~~~5 facing @e[c=1,type=boss:astrageldon]
-execute at @e[type=mechanic:astrageldon_fireballs,r=50] run summon projectile:astrageldon_fireball ~~~-5 facing @e[c=1,type=boss:astrageldon]
-execute at @e[type=mechanic:astrageldon_fireballs,r=50] run summon projectile:astrageldon_fireball ~5~~ facing @e[c=1,type=boss:astrageldon]
-execute at @e[type=mechanic:astrageldon_fireballs,r=50] run summon projectile:astrageldon_fireball ~-5~~ facing @e[c=1,type=boss:astrageldon]
-execute at @e[type=mechanic:astrageldon_fireballs,r=50] run summon projectile:astrageldon_fireball ~-5~~5 facing @e[c=1,type=boss:astrageldon]
-execute at @e[type=mechanic:astrageldon_fireballs,r=50] run summon projectile:astrageldon_fireball ~5~~-5 facing @e[c=1,type=boss:astrageldon]
-execute at @e[type=mechanic:astrageldon_fireballs,r=50] run summon projectile:astrageldon_fireball ~5~~5 facing @e[c=1,type=boss:astrageldon]
-execute at @e[type=mechanic:astrageldon_fireballs,r=50] run summon projectile:astrageldon_fireball ~-5~~-5 facing @e[c=1,type=boss:astrageldon]
