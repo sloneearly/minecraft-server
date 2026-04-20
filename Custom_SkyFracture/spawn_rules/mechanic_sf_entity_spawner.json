@@ -1,9 +1,9 @@
-//bridge-file-version: #7
+//bridge-file-version: #4
 {
 	"format_version": "1.10.0",
 	"minecraft:spawn_rules": {
 		"description": {
-			"identifier": "mechanic:meteor_spawner",
+			"identifier": "mechanic:sf_entity_spawner",
 			"population_control": "monster"
 		},
 		"conditions": [
@@ -19,7 +19,7 @@
 				},
 				"minecraft:herd": {
 					"min_size": 1,
-					"max_size": 1
+					"max_size": 3
 				},
 				"minecraft:biome_filter": [
 					{

@@ -23,7 +23,7 @@
 							"all_of": [
 								{
 									"test": "is_altitude",
-									"value": 230,
+									"value": 430,
 									"operator": ">"
 								},
 								{
@@ -75,7 +75,7 @@
 							"all_of": [
 								{
 									"test": "is_altitude",
-									"value": 230,
+									"value": 430,
 									"operator": ">"
 								},
 								{
@@ -117,7 +117,7 @@
 							"all_of": [
 								{
 									"test": "is_altitude",
-									"value": 230,
+									"value": 430,
 									"operator": ">"
 								},
 								{
@@ -160,7 +160,7 @@
 							"all_of": [
 								{
 									"test": "is_altitude",
-									"value": 230,
+									"value": 430,
 									"operator": ">"
 								},
 								{
@@ -212,7 +212,7 @@
 							"all_of": [
 								{
 									"test": "is_altitude",
-									"value": 230,
+									"value": 430,
 									"operator": ">"
 								},
 								{
@@ -315,7 +315,7 @@
 							"all_of": [
 								{
 									"test": "is_altitude",
-									"value": 230,
+									"value": 430,
 									"operator": ">"
 								},
 								{
@@ -574,7 +574,7 @@
 					{
 						"queue_command": {
 							"command": [
-								"tag @a[r=8] add clouds",
+								"tag @a[r=8,tag=skyvisuals] add clouds",
 								"fog @a[tag=clouds] push e:fog_clouds clouds",
 								"execute as @p[r=8] run particle nightglowspore1",
 								"execute as @p[r=8] run particle nightglowspore2"
@@ -595,7 +595,7 @@
 					{
 						"queue_command": {
 							"command": [
-								"tag @a[r=8] add clouds",
+								"tag @a[r=8,tag=skyvisuals] add clouds",
 								"fog @a[tag=clouds] push e:fog_clouds clouds"
 							]
 						}
@@ -614,7 +614,7 @@
 					{
 						"queue_command": {
 							"command": [
-								"tag @a[r=8] add clouds",
+								"tag @a[r=8,tag=skyvisuals] add clouds",
 								"fog @a[tag=clouds] push e:fog_clouds clouds",
 								"execute as @p[r=8] run particle stardust"
 							]
@@ -634,7 +634,7 @@
 					{
 						"queue_command": {
 							"command": [
-								"tag @a[r=8] add hurricane",
+								"tag @a[r=8,tag=skyvisuals] add hurricane",
 								"fog @a[tag=hurricane] push e:fog_hurricane hurricane",
 								"execute as @p[r=8] run particle hurricanerain"
 							]
@@ -668,7 +668,7 @@
 					{
 						"queue_command": {
 							"command": [
-								"tag @a[r=8] add clouds",
+								"tag @a[r=8,tag=skyvisuals] add clouds",
 								"fog @a[tag=clouds] push e:fog_clouds clouds",
 								"execute as @p[r=8] run particle cloudmist"
 							]
@@ -695,7 +695,7 @@
 					{
 						"queue_command": {
 							"command": [
-								"tag @a[r=8] add sunspots",
+								"tag @a[r=8,tag=skyvisuals] add sunspots",
 								"fog @a[tag=sunspots] push e:fog_sunspots sunspots",
 								"execute as @p[r=8] run particle sunspotseffect1"
 							]
@@ -715,7 +715,7 @@
 					{
 						"queue_command": {
 							"command": [
-								"tag @a[r=8] add stellarspace",
+								"tag @a[r=8,tag=skyvisuals] add stellarspace",
 								"fog @a[tag=stellarspace] push e:fog_stellarspace stellarspace",
 								"execute as @p[r=8] run particle stellarspaceeffect1"
 							]
@@ -735,7 +735,7 @@
 					{
 						"queue_command": {
 							"command": [
-								"tag @a[r=8] add cryoisland",
+								"tag @a[r=8,tag=skyvisuals] add cryoisland",
 								"fog @a[tag=cryoisland] push e:fog_cryoisland cryoisland",
 								"execute as @p[r=8] run particle cryoislandeffect"
 							]
@@ -755,7 +755,7 @@
 					{
 						"queue_command": {
 							"command": [
-								"tag @a[r=8] add moonisland",
+								"tag @a[r=8,tag=skyvisuals] add moonisland",
 								"fog @a[tag=moonisland] push e:fog_moonisland moonisland",
 								"particle moondust"
 							]
@@ -775,9 +775,9 @@
 					{
 						"queue_command": {
 							"command": [
-								"particle skyclouds ~ 220 ~",
-								"particle skyclouds ~ 220 ~",
-								"particle skyclouds ~ 220 ~"
+								"particle skyclouds ~ 420 ~",
+								"particle skyclouds ~ 420 ~",
+								"particle skyclouds ~ 420 ~"
 							]
 						}
 					},
@@ -795,8 +795,8 @@
 					{
 						"queue_command": {
 							"command": [
-								"particle skyclouds ~ 220 ~",
-								"particle skyclouds ~ 220 ~"
+								"particle skyclouds ~ 420 ~",
+								"particle skyclouds ~ 420 ~"
 							]
 						}
 					},
@@ -814,7 +814,7 @@
 					{
 						"queue_command": {
 							"command": [
-								"particle skyclouds ~ 220 ~"
+								"particle skyclouds ~ 420 ~"
 							]
 						}
 					},
