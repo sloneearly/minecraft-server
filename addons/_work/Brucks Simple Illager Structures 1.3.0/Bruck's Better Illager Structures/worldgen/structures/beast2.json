@@ -1,0 +1,56 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:jigsaw": {
+    "description": {
+      "identifier": "bruck:beast2"
+    },
+    "start_pool": "bruck:beast2",
+    "step": "surface_structures",
+    "terrain_adaptation": "bury",
+    "start_height": {
+      "type": "constant",
+      "value": {
+        "absolute": -16
+      }
+    },
+    "max_depth": 1,
+    "heightmap_projection": "world_surface",
+    "biome_filters": [
+      {
+        "test": "has_biome_tag",
+        "operator": "==",
+        "value": "overworld"
+      },
+      {
+        "test": "has_biome_tag",
+        "operator": "==",
+        "value": "forest"
+      },
+      {
+        "test": "has_biome_tag",
+        "operator": "!=",
+        "value": "mountains"
+      },
+      {
+        "test": "has_biome_tag",
+        "operator": "!=",
+        "value": "mountain"
+      },
+      {
+        "test": "has_biome_tag",
+        "operator": "!=",
+        "value": "jagged_peaks"
+      },
+      {
+        "test": "has_biome_tag",
+        "operator": "!=",
+        "value": "hills"
+      },
+      {
+        "test": "has_biome_tag",
+        "operator": "!=",
+        "value": "river"
+      }
+    ]
+  }
+}

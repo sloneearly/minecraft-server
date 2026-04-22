@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "bruck:beast2"
+    },
+    "structures": [
+      {
+        "structure": "bruck:beast2",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 88242750,
+      "spacing": 132,
+      "separation": 33,
+      "spread_type": "linear"
+    }
+  }
+}

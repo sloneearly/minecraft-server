@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:jigsaw": {
+    "description": {
+      "identifier": "bruck:airship"
+    },
+    "start_pool": "bruck:airship",
+    "step": "surface_structures",
+    "terrain_adaptation": "none",
+    "start_height": {
+      "type": "uniform",
+      "min_inclusive": {
+        "absolute": 100
+      },
+      "max_inclusive": {
+        "absolute": 260
+      }
+    },
+    "max_depth": 1,
+    "heightmap_projection": "world_surface",
+    "biome_filters": [
+      {
+        "test": "has_biome_tag",
+        "operator": "==",
+        "value": "overworld"
+      },
+
+      ]
+  }
+}

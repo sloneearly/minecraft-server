@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "bruck:dungeon1"
+    },
+    "structures": [
+      {
+        "structure": "bruck:dungeon1",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 76429988,
+      "spacing": 132,
+      "separation": 33,
+      "spread_type": "linear"
+    }
+  }
+}
