@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(rm *)",
+      "Bash(rmdir *)",
+      "Bash(unlink *)",
+      "Bash(shred *)",
+      "PowerShell(Remove-Item *)",
+      "PowerShell(rm *)",
+      "PowerShell(rmdir *)",
+      "PowerShell(del *)",
+      "PowerShell(rd *)"
+    ],
+    "allow": [
+      "Bash(*)",
+      "PowerShell(*)"
+    ]
+  }
+}
