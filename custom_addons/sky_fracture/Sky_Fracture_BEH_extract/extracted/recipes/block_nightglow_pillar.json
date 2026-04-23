@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nightglow_pillar_54dca129"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:nightglow_tile_slab",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:nightglow_pillar",
+      "count": 1
+    }
+  }
+}

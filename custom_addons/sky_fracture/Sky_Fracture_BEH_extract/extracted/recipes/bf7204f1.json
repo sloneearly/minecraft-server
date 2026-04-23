@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_181fb205"
+    },
+    "tags": [
+      "soul_forge"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "ECE"
+    ],
+    "key": {
+      "A": {
+        "item": "block:solargem_block",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:netherstar",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:diamond",
+        "data": 0
+      },
+      "D": {
+        "item": "item:comet_forging_template",
+        "data": 0
+      },
+      "E": {
+        "item": "block:lunargem_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:comet_forging_template",
+      "count": 2
+    }
+  }
+}

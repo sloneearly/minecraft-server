@@ -1,0 +1,43 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:no_no",
+      "materials": {
+        "default": "polar_bear"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/pa_no_no",
+        "baby": "textures/entity/pamobile/pa_no_no_baby"
+      },
+      "geometry": {
+        "default": "geometry.pa_no_no_default",
+        "baby": "geometry.pa_no_no_baby"
+      },
+      "animations": {
+        "walk": "animation.pa_no_no.walk",
+        "move": "animation.pa_no_no.move",
+        "look_at_target": "animation.pa_no_no.look_at_target",
+        "baby_transform": "animation.pa_no_no.baby_transform"
+      },
+      "scripts": {
+        "scale": "query.is_baby ? 2.0 : 1.2"
+      },
+      "animation_controllers": [
+        {
+          "move": "controller.animation.pa_no_no.move"
+        },
+        {
+          "baby": "controller.animation.pa_no_no.baby"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.polar_bear.v2"
+      ],
+      "spawn_egg": {
+        "base_color": "#000000",
+        "overlay_color": "#00FF35"
+      }
+    }
+  }
+}

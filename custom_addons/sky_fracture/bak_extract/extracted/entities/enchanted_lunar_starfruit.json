@@ -1,0 +1,86 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.20.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "item:enchanted_lunar_starfruit",
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:timer": {
+				"looping": true,
+				"time": [
+					0.1,
+					0.1
+				],
+				"time_down_event": {
+					"target": "self",
+					"event": "despawn"
+				}
+			},
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_daytime",
+									"value": false
+								}
+							]
+						},
+						"event": "lunar"
+					}
+				]
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"lunar": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"effect @p[r=1.2] resistance 100 1 ",
+								"effect @p[r=1.2] regeneration 100 3 ",
+								"effect @p[r=1.2] night_vision 240 ",
+								"effect @p[r=1.2] speed 120 1"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

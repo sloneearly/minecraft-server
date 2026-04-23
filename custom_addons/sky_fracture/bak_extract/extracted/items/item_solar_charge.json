@@ -1,0 +1,29 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "item:solar_charge",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Solar Charge\n§8Brewing Ingredient"
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:transform_materials"
+				]
+			},
+    		        "minecraft:icon": "item:solar_charge",
+			"minecraft:throwable": {
+				"do_swing_animation": true
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "projectile:solar_charge"
+			}
+		}
+	}
+}

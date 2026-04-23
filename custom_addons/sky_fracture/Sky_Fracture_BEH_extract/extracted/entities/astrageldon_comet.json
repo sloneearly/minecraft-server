@@ -1,0 +1,117 @@
+//bridge-file-version: #31
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "projectile:astrageldon_comet",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:snowball"
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.25,
+				"height": 0.25
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"definition_event": {
+						"affect_projectile": true,
+						"event_trigger": {
+							"event": "goober",
+							"target": "self"
+						}
+					},
+					"impact_damage": {
+						"damage": [
+							7,
+							12
+						],
+						"knockback": true
+					}
+				},
+				"anchor": 1,
+				"power": 1.5,
+				"gravity": 0.05,
+				"angle_offset": 0,
+				"offset": [
+					0,
+					-0.1,
+					0
+				]
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {
+				"default_values": {
+					"max_optimized_distance": 100,
+					"max_dropped_ticks": 5,
+					"use_motion_prediction_hints": true
+				}
+			},
+			"minecraft:timer": {
+				"time": [
+					0,
+					0
+				],
+				"looping": true,
+				"time_down_event": {
+					"event": "signalflare",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"signalflare": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"particle astrageldondustball"
+							]
+						}
+					}
+				]
+			},
+			"goober": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"summon projectile:astrageldon_comet_effect",
+								"particle astrageldondustarea ~~0.5~",
+								"particle astrageldondustarea ~~0.5~"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			},
+			"minecraft:entity_spawned": {
+				"queue_command": {
+					"command": [
+						"particle astrageldonfadeeffect ~~~",
+						"particle astrageldonfadeeffect2",
+						"particle astrageldonfadeeffect3",
+						"particle astrageldonfadeeffect4"
+					]
+				}
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		}
+	}
+}

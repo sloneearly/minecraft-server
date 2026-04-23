@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_9dbc9ba3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "pa:super_netherblock",
+        "data": 0
+      }
+    },
+    "result": [
+      {
+        "item": "minecraft:netherite_block",
+        "count": 9,
+        "data": 0
+      }
+    ]
+  }
+}

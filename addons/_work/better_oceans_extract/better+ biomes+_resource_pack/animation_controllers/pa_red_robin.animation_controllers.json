@@ -1,0 +1,86 @@
+{
+  "format_version": "1.19.0",
+  "animation_controllers": {
+    "controller.animation.pa_red_robin.move": {
+      "initial_state": "dancing",
+      "states": {
+        "dancing": {
+          "animations": [
+            "dance"
+          ],
+          "transitions": [
+            {
+              "flying": "variable.state == 0"
+            },
+            {
+              "standing": "variable.state == 1"
+            },
+            {
+              "sitting": "variable.state == 2"
+            }
+          ]
+        },
+        "flying": {
+          "animations": [
+            "moving",
+            "flying"
+          ],
+          "transitions": [
+            {
+              "standing": "variable.state == 1"
+            },
+            {
+              "sitting": "variable.state == 2"
+            },
+            {
+              "dancing": "variable.state == 3"
+            }
+          ]
+        },
+        "sitting": {
+          "animations": [
+            "sitting"
+          ],
+          "transitions": [
+            {
+              "flying": "variable.state == 0"
+            },
+            {
+              "standing": "variable.state == 1"
+            },
+            {
+              "dancing": "variable.state == 3"
+            }
+          ]
+        },
+        "standing": {
+          "animations": [
+            "moving",
+            "standing"
+          ],
+          "transitions": [
+            {
+              "flying": "variable.state == 0"
+            },
+            {
+              "sitting": "variable.state == 2"
+            },
+            {
+              "dancing": "variable.state == 3"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.pa_red_robin.setup": {
+      "states": {
+        "default": {
+          "animations": [
+            "look_at_target",
+            "base"
+          ]
+        }
+      }
+    }
+  }
+}

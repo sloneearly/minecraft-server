@@ -1,0 +1,155 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:growing_plant_feature": {
+    "body_blocks": [
+      [
+        "minecraft:copper_ore",
+        1
+      ],
+      [
+        "minecraft:deepslate",
+        1
+      ],
+      [
+        "minecraft:coal_ore",
+        1
+      ],
+      [
+        "minecraft:cobblestone",
+        1
+      ],
+      [
+        "minecraft:cobblestone_wall",
+        1
+      ],
+      [
+        "minecraft:emerald_ore",
+        1
+      ],
+      [
+        "minecraft:infested_stone",
+        1
+      ],
+      [
+        "minecraft:infested_cobblestone",
+        1
+      ],
+      [
+        "minecraft:gold_ore",
+        1
+      ],
+      [
+        "minecraft:iron_ore",
+        1
+      ],
+      [
+        "minecraft:lapis_ore",
+        1
+      ],
+      [
+        "minecraft:mossy_cobblestone",
+        1
+      ],
+      [
+        "minecraft:redstone_ore",
+        1
+      ],
+      [
+        "minecraft:stone",
+        1
+      ]
+    ],
+    "head_blocks": [
+      [
+        "minecraft:copper_ore",
+        1
+      ],
+      [
+        "minecraft:coal_ore",
+        1
+      ],
+      [
+        "minecraft:cobblestone",
+        1
+      ],
+      [
+        "minecraft:cobblestone_wall",
+        1
+      ],
+      [
+        "minecraft:mossy_cobblestone_wall",
+        1
+      ],
+      [
+        "minecraft:stone_brick_wall",
+        1
+      ],
+      [
+        "minecraft:mossy_stone_brick_wall",
+        1
+      ],
+      [
+        "minecraft:diamond_ore",
+        1
+      ],
+      [
+        "minecraft:emerald_ore",
+        1
+      ],
+      [
+        "minecraft:infested_stone",
+        1
+      ],
+      [
+        "minecraft:infested_cobblestone",
+        1
+      ],
+      [
+        "minecraft:gold_ore",
+        1
+      ],
+      [
+        "minecraft:iron_ore",
+        1
+      ],
+      [
+        "minecraft:lapis_ore",
+        1
+      ],
+      [
+        "minecraft:mossy_cobblestone",
+        1
+      ],
+      [
+        "minecraft:redstone_ore",
+        1
+      ],
+      [
+        "minecraft:stone",
+        1
+      ],
+      [
+        "minecraft:stone_stairs",
+        1
+      ]
+    ],
+    "age": {
+      "range_min": 1,
+      "range_max": 5
+    },
+    "growth_direction": "up",
+    "height_distribution": [
+      [
+        {
+          "range_min": 1,
+          "range_max": 9
+        },
+        1
+      ]
+    ],
+    "description": {
+      "identifier": "pa:custom_plant_featureeknwjkwkwkwkqoqooqtchvbw"
+    },
+    "allow_water": false
+  }
+}

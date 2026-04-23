@@ -1,0 +1,172 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "pa:dogwood_planks_slab",
+      "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.slab"
+      },
+      "states": {
+        "pa:is_double": [
+          false,
+          true
+        ]
+      },
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": [
+            "minecraft:vertical_half"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 1
+      },
+      "minecraft:friction": 0.4,
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "pa_dogwood_planks_slab",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.custom_slab",
+        "bone_visibility": {
+          "bottom": "q.block_state('minecraft:vertical_half') == 'bottom' || q.block_state('pa:is_double')",
+          "top": "q.block_state('minecraft:vertical_half') == 'top' || q.block_state('pa:is_double')"
+        }
+      },
+      "minecraft:light_dampening": 1,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          8.0,
+          16.0
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          8.0,
+          16.0
+        ]
+      },
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:loot": "loot_tables/blocks/pa_dogwood_planks_slab.json",
+      "minecraft:light_emission": 0,
+      "tag:wood": {},
+      "pa_dogwood_planks_slab:trigger": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && !q.block_state('pa:is_double')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              8,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              8,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:vertical_half') == 'top' && !q.block_state('pa:is_double')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              8,
+              -8
+            ],
+            "size": [
+              16,
+              8,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              8,
+              -8
+            ],
+            "size": [
+              16,
+              8,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('pa:is_double')",
+        "components": {
+          "minecraft:loot": "loot_tables/blocks/pa_dogwood_planks_slab.json",
+          "minecraft:collision_box": {
+            "origin": [
+              -8.0,
+              0.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              16.0,
+              16.0
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8.0,
+              0.0,
+              -8.0
+            ],
+            "size": [
+              16.0,
+              16.0,
+              16.0
+            ]
+          }
+        }
+      }
+    ],
+    "events": {}
+  }
+}

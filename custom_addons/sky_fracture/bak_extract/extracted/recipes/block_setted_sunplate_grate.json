@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "setted_sunplate_grate_2cdb000d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "A A",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "block:setted_sunplate_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:setted_sunplate_grate",
+      "count": 8
+    }
+  }
+}

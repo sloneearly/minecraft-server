@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "pa:weeping_willow_forest"
+    },
+    "components": {
+      "minecraft:biome_music": {
+        "volume_multiplier": 0.4
+      },
+      "minecraft:dry_foliage_color": {
+        "color": "#ff9b00"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#75d266"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#4e9440"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#87CEEB"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#5db7ef",
+        "surface_opacity": 1.0
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "pa:wewkwjkwkwwiw"
+      }
+    }
+  }
+}

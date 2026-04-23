@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "starlite_block_8e446351"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:starlite",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:starlite_block",
+      "count": 1
+    }
+  }
+}

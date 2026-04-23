@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "star_pillar_b4e0b933"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:star_tile_slab",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:star_pillar",
+      "count": 1
+    }
+  }
+}

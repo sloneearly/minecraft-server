@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "pa:flower_plains"
+    },
+    "components": {
+      "minecraft:biome_music": {
+        "volume_multiplier": 0.4
+      },
+      "minecraft:dry_foliage_color": {
+        "color": "#5f9f34"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#3d8a2f"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#3c9332"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#87CEEB"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#5db7ef",
+        "surface_opacity": 1.0
+      }
+    }
+  }
+}

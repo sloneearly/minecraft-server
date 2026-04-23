@@ -1,0 +1,164 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.pa_lumi_lily",
+        "texture_width": 16.0,
+        "texture_height": 16.0,
+        "visible_bounds_height": 3.5,
+        "visible_bounds_offset": [
+          0.0,
+          1.25,
+          0.0
+        ],
+        "visible_bounds_width": 3.0
+      },
+      "bones": [
+        {
+          "name": "crop",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -6,
+                -1,
+                0
+              ],
+              "size": [
+                13,
+                27,
+                0
+              ],
+              "uv": {
+                "south": {
+                  "uv": [
+                    3,
+                    0
+                  ],
+                  "uv_size": [
+                    10,
+                    16
+                  ]
+                }
+              }
+            },
+            {
+              "origin": [
+                1,
+                -1,
+                -6
+              ],
+              "size": [
+                0,
+                27,
+                13
+              ],
+              "uv": {
+                "east": {
+                  "uv": [
+                    13,
+                    0
+                  ],
+                  "uv_size": [
+                    -10,
+                    16
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "crop6",
+          "parent": "crop",
+          "pivot": [
+            -4,
+            8,
+            -1
+          ]
+        },
+        {
+          "name": "crop2",
+          "parent": "crop6",
+          "pivot": [
+            -4,
+            8,
+            -1
+          ]
+        },
+        {
+          "name": "crop5",
+          "parent": "crop6",
+          "pivot": [
+            4,
+            8,
+            1
+          ],
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                9,
+                8,
+                1
+              ],
+              "size": [
+                1,
+                3,
+                0
+              ],
+              "pivot": [
+                5,
+                8,
+                1
+              ],
+              "rotation": [
+                55,
+                0,
+                0
+              ],
+              "uv": {}
+            }
+          ]
+        },
+        {
+          "name": "crop3",
+          "parent": "crop6",
+          "pivot": [
+            -1,
+            8,
+            4
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "name": "crop4",
+          "parent": "crop6",
+          "pivot": [
+            -1,
+            8,
+            -4
+          ],
+          "rotation": [
+            0,
+            -90,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

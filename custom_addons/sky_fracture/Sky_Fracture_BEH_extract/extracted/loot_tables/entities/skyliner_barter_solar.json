@@ -1,0 +1,206 @@
+//bridge-file-version: #14
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:book",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": {
+								"min": 10,
+								"max": 30
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "boots:aquamarine_boots",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": {
+								"min": 10,
+								"max": 30
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "set_data",
+							"data": 41
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:splash_potion",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "set_data",
+							"data": 41
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_nugget",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 10,
+								"max": 36
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "item:luminite_ingot",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 12
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:string",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 9
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "item:crossbow_bolt",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 12
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:wind_charge",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:dried_ghast",
+					"weight": 40
+				},
+				{
+					"type": "item",
+					"name": "item:cloud_in_a_bottle",
+					"weight": 40
+				},
+				{
+					"type": "item",
+					"name": "item:lunar_experience_bottle",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "item:lunar_key",
+					"weight": 40
+				},
+				{
+					"type": "item",
+					"name": "item:cookie_mold_moon",
+					"weight": 40
+				},
+				{
+					"type": "item",
+					"name": "leggings:aquamarine_leggings",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": {
+								"min": 10,
+								"max": 30
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "chestplate:aquamarine_chestp;ate",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": {
+								"min": 10,
+								"max": 30
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "helmet:aquamarine_helmet",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": {
+								"min": 10,
+								"max": 30
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

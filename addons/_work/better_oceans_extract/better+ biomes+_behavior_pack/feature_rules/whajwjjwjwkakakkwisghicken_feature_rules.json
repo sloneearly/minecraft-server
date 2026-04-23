@@ -1,0 +1,52 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "pa:whajwjjwjwkakakkwisghicken_feature_rules",
+      "places_feature": "pa:whajwjjwjwkakakkwisghicken"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "pa:ant_planes"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "x": {
+        "extent": [
+          0,
+          16
+        ],
+        "distribution": "uniform"
+      },
+      "y": {
+        "extent": [
+          34,
+          65
+        ],
+        "distribution": "uniform"
+      },
+      "z": {
+        "extent": [
+          0,
+          16
+        ],
+        "distribution": "uniform"
+      },
+      "iterations": 6,
+      "coordinate_eval_order": "zyx",
+      "scatter_chance": {
+        "numerator": 1,
+        "denominator": 100
+      }
+    }
+  }
+}

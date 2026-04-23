@@ -1,0 +1,36 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:butterfly1blue",
+      "materials": {
+        "default": "bat"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/pa_butterfly1blue"
+      },
+      "geometry": {
+        "default": "geometry.pa_butterfly1blue_default"
+      },
+      "scripts": {
+        "scale": "0.35"
+      },
+      "animations": {
+        "resting": "animation.pa_butterfly1blue.resting",
+        "flying": "animation.pa_butterfly1blue.flying"
+      },
+      "animation_controllers": [
+        {
+          "move": "controller.animation.butterfly.move"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.bat"
+      ],
+      "spawn_egg": {
+        "base_color": "#EA9A51",
+        "overlay_color": "#FF0909"
+      }
+    }
+  }
+}

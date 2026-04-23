@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "luminite_spear_32657e85"
+    },
+    "tags": [
+      "soul_forge"
+    ],
+    "pattern": [
+      "ABA",
+      "ACA",
+      "DED"
+    ],
+    "key": {
+      "A": {
+        "item": "item:luminite_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "item:luminite_forging_template",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:iron_spear",
+        "data": 0
+      },
+      "D": {
+        "item": "block:lunargem_block",
+        "data": 0
+      },
+      "E": {
+        "item": "block:luminite_block_classic",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "spear:luminite_spear",
+      "count": 1
+    }
+  }
+}

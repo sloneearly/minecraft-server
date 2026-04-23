@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dogwood_planks_door_56c1ebae"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:dogwoodplanks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:dogwood_planks_door",
+      "count": 4
+    }
+  }
+}

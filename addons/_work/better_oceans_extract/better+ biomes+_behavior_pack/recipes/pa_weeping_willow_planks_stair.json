@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "weeping_willow_planks_stair_b6cd9716"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  A",
+      " AA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:weeping_willow_planks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:weeping_willow_planks_stair",
+      "count": 6
+    }
+  }
+}

@@ -1,0 +1,72 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "minecraft:small_windswept_clouds_feature_rule",
+			"places_feature": "gen:small_windswept_clouds_feature_outer"
+		},
+		"conditions": {
+			"placement_pass": "sky_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "forest"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "river"
+						}
+					]
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "frozen"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "cold"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "birch"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "roofed"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "extreme_hills"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "taiga"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 1,
+			"scatter_chance": 5,
+			"x": 0,
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					265,
+					285
+				]
+			},
+			"z": 0
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "luminite_tiles_mercury_30dd98b7"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:luminite_bricks_mercury",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:luminite_tiles_mercury",
+      "count": 4
+    }
+  }
+}

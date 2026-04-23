@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "block:campfire_from_charcoal_solar_log"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " A ",
+      "ABA",
+      "CCC"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:stick"
+      },
+      "B": {
+        "item": "minecraft:charcoal"
+      },
+      "C": {
+        "item": "block:solar_log"
+      }
+    },
+    "result": {
+      "item": "minecraft:campfire",
+      "count": 1
+    },
+    "priority": 2
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "pa:ant_housep",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.5
+      },
+      "minecraft:friction": 0.2,
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 20
+      },
+      "minecraft:map_color": "#3C2A17",
+      "minecraft:light_dampening": 1,
+      "minecraft:light_emission": 0,
+      "minecraft:loot": "loot_tables/blocks/pa_ant_housep.json",
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          16.0
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          16.0
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "pa_ant_housep",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:tick": {
+        "looping": true,
+        "interval_range": [
+          1000,
+          2400
+        ]
+      },
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "pa_ant_house:trigger": {},
+      "pa_ant_housep:trigger": {},
+      "minecraft:redstone_conductivity": {
+        "allows_wire_to_step_down": false,
+        "redstone_conductor": true
+      },
+      "tag:wood": {}
+    },
+    "events": {}
+  }
+}

@@ -1,0 +1,18 @@
+{
+	"resource_pack_name": "medieval monsters addon",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"mlmonster_blemmyae_egg": {
+			"textures": "textures/items/blemmyes"
+		},
+		"mlmonster_sea_monk_egg": {
+			"textures": "textures/items/sea_monk_egg"
+		},
+		"mlmonster_tarasconus_egg": {
+			"textures": "textures/items/tarasconus_egg"
+		},
+		"mlmonster_amphisbaena_egg": {
+			"textures": "textures/items/amphisbaena_egg"
+		}
+	}
+}

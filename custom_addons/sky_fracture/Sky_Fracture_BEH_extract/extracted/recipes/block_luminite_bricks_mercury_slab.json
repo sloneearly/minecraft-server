@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "luminite_bricks_mercury_slab_1d9ad772"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:luminite_bricks_mercury",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:luminite_bricks_mercury_slab",
+      "count": 6
+    }
+  }
+}

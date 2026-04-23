@@ -1,0 +1,1 @@
+dialogue open @e [type=npc, c=1] @p flowerbook

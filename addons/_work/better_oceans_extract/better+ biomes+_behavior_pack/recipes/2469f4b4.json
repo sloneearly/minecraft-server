@@ -1,0 +1,53 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_c54899ff"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "BDB",
+      "EBF"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:copper_chestplate",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:copper_helmet",
+        "data": 0
+      },
+      "D": {
+        "item": "pa:water_diving_suit",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:copper_leggings",
+        "data": 0
+      },
+      "F": {
+        "item": "minecraft:copper_boots",
+        "data": 0
+      }
+    },
+    "result": [
+      {
+        "item": "pa:fixe_water_diving_suit",
+        "count": 1
+      }
+    ],
+    "unlock": [
+      {
+        "item": "pa:water_diving_suit"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nightglow_lamp_9cb967f6"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:glass",
+        "data": 0
+      },
+      "B": {
+        "item": "block:nightglow_mushroom_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:nightglow_lamp",
+      "count": 1
+    }
+  }
+}

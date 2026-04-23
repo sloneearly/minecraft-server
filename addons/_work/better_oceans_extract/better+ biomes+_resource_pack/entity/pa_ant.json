@@ -1,0 +1,36 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:ant",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "spider",
+        "invisible": "spider_invisible"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/pa_ant"
+      },
+      "geometry": {
+        "default": "geometry.pa_ant_default"
+      },
+      "animations": {
+        "default_leg_pose": "animation.pa_ant.default_leg_pose",
+        "look_at_target": "animation.pa_ant.look_at_target",
+        "walk": "animation.pa_ant.walk"
+      },
+      "animation_controllers": [
+        {
+          "move": "controller.animation.pa_ant.move"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.spider"
+      ],
+      "spawn_egg": {
+        "base_color": "#EA9A51",
+        "overlay_color": "#FF0909"
+      }
+    }
+  }
+}

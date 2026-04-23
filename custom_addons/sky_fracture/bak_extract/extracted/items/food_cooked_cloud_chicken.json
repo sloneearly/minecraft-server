@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "food:cooked_cloud_chicken",
+            "menu_category": {
+              "category": "equipment",
+              "group": "itemGroup.name.cookedFood"
+            }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "food:cooked_cloud_chicken"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.cookedFood"
+      },
+      "minecraft:display_name": {
+		"value": "Cooked Cloud Chicken"
+			},
+      "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+              "use_duration": 1.8,
+              "movement_modifier": 0.35
+            },
+
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation_modifier": 1.5
+      }
+    }
+  }
+}

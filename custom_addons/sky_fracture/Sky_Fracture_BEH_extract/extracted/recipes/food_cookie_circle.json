@@ -1,0 +1,36 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cookie_circle_1ca450f7"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "item:cookie_mold_circle",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:cookie",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "food:cookie_circle",
+				"count": 1
+			},
+			{
+				"item": "item:cookie_mold_circle",
+				"count": 1
+			}
+		]
+	}
+}

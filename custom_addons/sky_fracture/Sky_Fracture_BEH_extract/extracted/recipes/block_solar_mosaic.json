@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "solar_mosaic_dd3d7b9b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:solar_plank_slab",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:solar_mosaic",
+      "count": 1
+    }
+  }
+}

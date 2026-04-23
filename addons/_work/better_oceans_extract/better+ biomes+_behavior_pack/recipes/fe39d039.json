@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_ba8e7272"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:dogwoodplanks",
+        "data": 0
+      }
+    },
+    "result": [
+      {
+        "item": "minecraft:crafting_table",
+        "count": 1,
+        "data": 0
+      }
+    ]
+  }
+}

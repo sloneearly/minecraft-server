@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "weepingwillow_planks_stair_fence_33b12d32"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:weeping_willow_planks",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:weepingwillow_planks_stair_fence",
+      "count": 5
+    }
+  }
+}

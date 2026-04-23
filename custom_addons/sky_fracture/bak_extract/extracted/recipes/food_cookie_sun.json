@@ -1,0 +1,36 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cookie_sun_b018c66b"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "item:cookie_mold_sun",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:cookie",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "food:cookie_sun",
+				"count": 1
+			},
+			{
+				"item": "item:cookie_mold_sun",
+				"count": 1
+			}
+		]
+	}
+}

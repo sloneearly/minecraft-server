@@ -1,0 +1,32 @@
+{
+    "format_version": "1.16",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "block:campfire_from_cloud_log"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " A ",
+            "ABA",
+            "CCC"
+        ],
+        "key": {
+            "A": {
+                "item": "stick"
+            },
+            "B": {
+                "item": "coal"
+            },
+            "C": {
+                "item": "block:cloud_log"
+            }
+        },
+        "result": {
+            "item": "campfire",
+            "count": 1
+        },
+        "priority": 2
+    }
+}

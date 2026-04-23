@@ -1,0 +1,28 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "block:solar_door"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~",
+			"~~",
+			"~~"
+		],
+		"key": {
+			"~": {
+				"item": "block:solar_planks"
+			}
+		},
+		"result": [
+			{
+				"item": "block:solar_door",
+				"count": 3
+			}
+		]
+	}
+}

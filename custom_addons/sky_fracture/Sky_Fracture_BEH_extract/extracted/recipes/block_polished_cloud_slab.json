@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "polished_cloud_slab_55fadbe4"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:polished_cloud",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:polished_cloud_slab",
+      "count": 6
+    }
+  }
+}

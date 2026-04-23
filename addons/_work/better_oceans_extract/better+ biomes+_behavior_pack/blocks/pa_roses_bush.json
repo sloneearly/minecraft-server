@@ -1,0 +1,127 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "pa:roses_bush",
+      "menu_category": {
+        "category": "none"
+      },
+      "states": {
+        "pa:growth": {
+          "values": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": false,
+      "minecraft:light_dampening": 1,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.0
+      },
+      "minecraft:geometry": "geometry.pa_roses_bush",
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:map_color": "#C52727",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "pa_roses_bush_stage_0",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "block_filter": [
+              "farmland",
+              "dirt",
+              "grass_block",
+              "grass_path"
+            ],
+            "allowed_faces": [
+              "up"
+            ]
+          }
+        ]
+      },
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "none"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": false,
+            "on_liquid_touches": "popped",
+            "use_liquid_clipping": false
+          }
+        ]
+      },
+      "minecraft:movable": {
+        "movement_type": "popped",
+        "sticky": "none"
+      },
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      },
+      "minecraft:friction": 0.5,
+      "minecraft:light_emission": 1,
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          16.0
+        ]
+      },
+      "pa_eye_blossom_bush:trigger": {},
+      "pa_roses_bush:trigger": {},
+      "tag:wood": {},
+      "minecraft:replaceable": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('pa:growth') < 0",
+        "components": {
+          "minecraft:loot": "loot_tables/blocks/pa_roses_bush.json"
+        }
+      },
+      {
+        "condition": "q.block_state('pa:growth') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "pa_roses_bush_stage_0",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:loot": "loot_tables/blocks/pa_roses_bush_stage_0.json"
+        }
+      },
+      {
+        "condition": "q.block_state('pa:growth') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "pa_roses_bush_stage_1",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:loot": "loot_tables/blocks/pa_roses_bush_stage_1.json"
+        }
+      }
+    ],
+    "events": {}
+  }
+}

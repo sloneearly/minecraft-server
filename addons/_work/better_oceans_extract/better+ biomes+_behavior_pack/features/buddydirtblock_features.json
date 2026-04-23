@@ -1,0 +1,30 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "pa:buddydirtblock_features"
+    },
+    "count": 20,
+    "replace_rules": [
+      {
+        "places_block": "pa:buddydirtblock",
+        "may_replace": [
+          "minecraft:stone",
+          "minecraft:netherrack",
+          "minecraft:end_stone",
+          "minecraft:andesite",
+          "minecraft:diorite",
+          "minecraft:tuff",
+          "minecraft:calcite",
+          "minecraft:granite",
+          "minecraft:sandstone",
+          "minecraft:dirt",
+          "minecraft:ice",
+          "minecraft:snow",
+          "minecraft:basalt",
+          "minecraft:deepslate"
+        ]
+      }
+    ]
+  }
+}

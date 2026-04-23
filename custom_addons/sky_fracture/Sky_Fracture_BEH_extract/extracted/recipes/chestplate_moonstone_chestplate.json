@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "moonstone_chestplate_f6d21030"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:moonstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "chestplate:moonstone_chestplate",
+      "count": 1
+    }
+  }
+}

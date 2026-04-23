@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "yellow_stellar_light_bricks_b83fe504"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:yellow_stellar_light",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:yellow_stellar_light_bricks",
+      "count": 4
+    }
+  }
+}

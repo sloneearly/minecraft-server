@@ -1,0 +1,20 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "item:cookie_mold_cloud",
+           "menu_category": {
+              "category": "items"
+            }
+    },
+		"components": {
+			"minecraft:icon": {
+				"texture": "item:cookie_mold_cloud"
+			},
+			"minecraft:display_name": {
+				"value": "Cookie Mold\n\n\n§8Cloud"
+			}
+		}
+	}
+}

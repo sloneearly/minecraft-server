@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "aquamarine_helmet_cbc8e3c0"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "item:aquamarine",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "helmet:aquamarine_helmet",
+      "count": 1
+    }
+  }
+}

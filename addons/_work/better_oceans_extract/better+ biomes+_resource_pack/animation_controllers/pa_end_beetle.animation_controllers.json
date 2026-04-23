@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.pa_end_beetle.general": {
+      "states": {
+        "ground": {
+          "animations": [
+            {
+              "walk": "query.modified_move_speed > 0.1"
+            },
+            {
+              "idle": "query.modified_move_speed < 0.1"
+            }
+          ],
+          "transitions": [
+            {
+              "flying": "!query.is_on_ground"
+            }
+          ]
+        },
+        "flying": {
+          "animations": [
+            {
+              "flying": "query.modified_move_speed > 0.1"
+            },
+            {
+              "flying_idle": "query.modified_move_speed < 0.1"
+            }
+          ],
+          "transitions": [
+            {
+              "ground": "query.is_on_ground"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

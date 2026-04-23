@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "pa:mushroomblue"
+    },
+    "components": {
+      "minecraft:biome_music": {
+        "volume_multiplier": 0.4
+      },
+      "minecraft:dry_foliage_color": {
+        "color": "#00dbff"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#00a8ff"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#0091ff"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#87CEEB"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#5db7ef",
+        "surface_opacity": 1.0
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "pa:fog_defaultnenejwkw"
+      }
+    }
+  }
+}

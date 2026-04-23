@@ -1,0 +1,19 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "ore:stellar_crystal_feature"
+		},
+		"count": 20,
+		"replace_rules": [
+			{
+				"places_block": "block:stellar_crystal",
+				"may_replace": [
+					{
+						"name": "block:stellarslate"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "pa:lavender_plains"
+    },
+    "components": {
+      "minecraft:biome_music": {
+        "volume_multiplier": 0.4
+      },
+      "minecraft:dry_foliage_color": {
+        "color": "#5fa034"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#459b35"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#499d3f"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#87CEEB"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#5db7ef",
+        "surface_opacity": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:tree_feature": {
+    "description": {
+      "identifier": "pa:cherry_tree_featurehejwjnwjwjw"
+    },
+    "cherry_trunk": {
+      "trunk_height": {
+        "base": 5,
+        "intervals": [
+          1
+        ]
+      },
+      "trunk_block": "pa:weeping_willow_log",
+      "branches": {
+        "tree_type_weights": {
+          "one_branch": 7,
+          "two_branches": 7,
+          "two_branches_and_trunk": 7
+        },
+        "branch_horizontal_length": {
+          "range_min": 2,
+          "range_max": 4
+        },
+        "branch_start_offset_from_top": {
+          "range_min": -4,
+          "range_max": -3
+        },
+        "branch_end_offset_from_top": {
+          "range_min": -1,
+          "range_max": 0
+        },
+        "branch_canopy": {
+          "cherry_canopy": {
+            "corner_hole_chance": 40,
+            "hanging_leaves_chance": 16.6666,
+            "hanging_leaves_extension_chance": 33.3333,
+            "height": 5,
+            "leaf_block": "pa:weeping_willow_leafs",
+            "radius": 4,
+            "wide_bottom_layer_hole_chance": 25
+          }
+        }
+      }
+    },
+    "cherry_canopy": {
+      "corner_hole_chance": 50,
+      "hanging_leaves_chance": 16.6666,
+      "hanging_leaves_extension_chance": 33.3333,
+      "height": 3,
+      "leaf_block": "pa:weeping_willow_leafs",
+      "radius": 2,
+      "wide_bottom_layer_hole_chance": 18
+    },
+    "may_grow_on": [
+      "minecraft:coarse_dirt",
+      "minecraft:dirt",
+      "minecraft:dirt_with_roots",
+      "minecraft:farmland",
+      "minecraft:grass_block",
+      "minecraft:moss_block",
+      "minecraft:mud",
+      "minecraft:muddy_mangrove_roots",
+      "minecraft:mycelium",
+      "minecraft:pale_moss_block",
+      "minecraft:podzol"
+    ],
+    "base_block": [
+      "minecraft:dirt",
+      "minecraft:coarse_dirt"
+    ],
+    "may_grow_through": [
+      "minecraft:coarse_dirt",
+      "minecraft:dirt",
+      "minecraft:dirt_with_roots",
+      "minecraft:farmland",
+      "minecraft:grass_block",
+      "minecraft:moss_block",
+      "minecraft:mud",
+      "minecraft:muddy_mangrove_roots",
+      "minecraft:mycelium",
+      "minecraft:pale_moss_block",
+      "minecraft:podzol"
+    ],
+    "may_replace": [
+      "minecraft:air",
+      "minecraft:snow_layer",
+      "minecraft:acacia_leaves",
+      "minecraft:azalea_leaves",
+      "minecraft:azalea_leaves_flowered",
+      "minecraft:birch_leaves",
+      "minecraft:cherry_leaves",
+      "minecraft:dark_oak_leaves",
+      "minecraft:jungle_leaves",
+      "minecraft:mangrove_leaves",
+      "minecraft:oak_leaves",
+      "minecraft:pale_oak_leaves",
+      "minecraft:spruce_leaves",
+      "minecraft:wildflowers",
+      "minecraft:leaf_litter"
+    ]
+  }
+}

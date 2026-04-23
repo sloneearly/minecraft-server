@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "luminite_bricks_astra_10bd5e67"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:luminite_block_astra",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:luminite_bricks_astra",
+      "count": 4
+    }
+  }
+}

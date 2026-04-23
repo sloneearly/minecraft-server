@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_brewing_mix": {
+    "description": {
+      "identifier": "recipes_7a381639"
+    },
+    "tags": [
+      "brewing_stand"
+    ],
+    "output": "pa:lavender_wine",
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "pa:lavenderywuqyqu",
+    "unlock": [
+      {
+        "item": "pa:jasmine"
+      },
+      {
+        "item": "pa:lumi_lily"
+      },
+      {
+        "item": "pa:rosebush1"
+      },
+      {
+        "item": "pa:lavender1"
+      },
+      {
+        "item": "pa:rosebush"
+      },
+      {
+        "item": "pa:onion_crop"
+      },
+      {
+        "item": "pa:lavender"
+      }
+    ]
+  }
+}

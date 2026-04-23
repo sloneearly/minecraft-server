@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cloud_bread_d0930632"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:cloud_straw",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "food:cloud_bread",
+      "count": 1
+    }
+  }
+}

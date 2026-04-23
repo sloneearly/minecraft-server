@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "storm_quartz_brick_stairs_dde824d0"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:storm_quartz_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:storm_quartz_brick_stairs",
+      "count": 3
+    }
+  }
+}

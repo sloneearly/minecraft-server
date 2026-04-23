@@ -1,0 +1,156 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "pa:coconut_tree_feature_rules",
+      "places_feature": "pa:coconut_tree"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "beach"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bee_habitat"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "birch"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "birch_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "birch_forest_hills"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "birch_forest_hills_mutated"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "birch_forest_mutated"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "edge"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "extreme_hills"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "extreme_hills_edge"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "extreme_hills_mutated"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "extreme_hills_plus_trees"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "extreme_hills_plus_trees_mutated"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "flower_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "forest_hills"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "frozen"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "frozen_ocean"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "frozen_peaks"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "frozen_river"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "grove"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "ice"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "plains"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "shore"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 2,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          8
+        ]
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          8
+        ]
+      }
+    }
+  }
+}

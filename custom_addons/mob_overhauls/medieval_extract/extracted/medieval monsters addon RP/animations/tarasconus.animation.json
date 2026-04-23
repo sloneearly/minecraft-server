@@ -1,0 +1,118 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.tarasconus.walk": {
+			"loop": true,
+			"animation_length": 0.1667,
+			"bones": {
+				"leg2": {
+					"rotation": [
+						0,
+						0,
+						0
+					],
+					"position": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0417": [
+							0,
+							2,
+							0
+						],
+						"0.125": [
+							0,
+							0,
+							0
+						]
+					},
+					"scale": 1
+				},
+				"leg3": {
+					"rotation": [
+						0,
+						0,
+						0
+					],
+					"position": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0417": [
+							0,
+							2,
+							0
+						],
+						"0.125": [
+							0,
+							0,
+							0
+						]
+					},
+					"scale": 1
+				}
+			}
+		},
+		"animation.tarasconus.idle": {
+			"loop": true,
+			"animation_length": 0.2083,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							0,
+							7.5,
+							0
+						],
+						"0.1667": [
+							0,
+							-5,
+							0
+						]
+					},
+					"position": [
+						0,
+						0,
+						0
+					],
+					"scale": 1
+				}
+			}
+		},
+		"animation.tarasconus.attack": {
+			"loop": true,
+			"animation_length": 0.0833,
+			"bones": {
+				"head": {
+					"rotation": [
+						0,
+						0,
+						0
+					],
+					"position": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0417": [
+							0,
+							0,
+							2
+						]
+					},
+					"scale": 1
+				}
+			}
+		}
+	}
+}

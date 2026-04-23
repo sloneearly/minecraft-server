@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "pa:rainbow_forest"
+    },
+    "components": {
+      "minecraft:biome_music": {
+        "volume_multiplier": 0.4
+      },
+      "minecraft:dry_foliage_color": {
+        "color": "#526829"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#4a712c"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#4f723b"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#9beaff"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#008eff",
+        "surface_opacity": 1.0
+      },
+      "minecraft:precipitation": {
+        "ash": 0.1,
+        "blue_spores": 0.1,
+        "red_spores": 0.1,
+        "white_ash": 0.1
+      }
+    }
+  }
+}

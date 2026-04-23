@@ -1,0 +1,45 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "pa:cawjwjjwjwjkw_feature_rules",
+      "places_feature": "pa:cawjwjjwjwjkw"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "pa:big_dessert"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "x": {
+        "extent": [
+          0,
+          8
+        ],
+        "distribution": "uniform"
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz)",
+      "z": {
+        "extent": [
+          0,
+          8
+        ],
+        "distribution": "uniform"
+      },
+      "iterations": 3,
+      "scatter_chance": {
+        "numerator": 10,
+        "denominator": 100
+      }
+    }
+  }
+}

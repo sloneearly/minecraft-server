@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mlmonster:tarasconus",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/tarasconus"
+			},
+			"geometry": {
+				"default": "geometry.tarasconus"
+			},
+			"render_controllers": [
+				"controller.render.tarasconus"
+			],
+			"spawn_egg": {
+				"texture": "mlmonster_tarasconus_egg",
+				"texture_index": 0
+			},
+			"animations": {
+				"walk": "animation.tarasconus.walk",
+				"idle": "animation.tarasconus.idle",
+				"attack": "animation.tarasconus.attack",
+				"ml": "controller.animation.ml"
+			},
+			"scripts": {
+				"animate": [
+					"ml"
+				]
+			}
+		}
+	}
+}

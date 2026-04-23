@@ -1,0 +1,39 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "pa:custom_plant_featurecustom_plant_featurecustom_plant_featurecustom_plant_featurecustom_plant_featurecustom_plant_feature_feature_rules",
+      "places_feature": "pa:custom_plant_featurecustom_plant_featurecustom_plant_featurecustom_plant_featurecustom_plant_featurecustom_plant_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": []
+        }
+      ]
+    },
+    "distribution": {
+      "x": {
+        "extent": [
+          0,
+          8
+        ],
+        "distribution": "uniform"
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz)",
+      "z": {
+        "extent": [
+          0,
+          8
+        ],
+        "distribution": "uniform"
+      },
+      "iterations": 6,
+      "scatter_chance": {
+        "numerator": 6,
+        "denominator": 100
+      }
+    }
+  }
+}

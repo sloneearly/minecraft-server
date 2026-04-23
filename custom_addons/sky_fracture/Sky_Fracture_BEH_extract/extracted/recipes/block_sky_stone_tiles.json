@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sky_stone_tiles_3b8089e0"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:sky_stone_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:sky_stone_tiles",
+      "count": 4
+    }
+  }
+}

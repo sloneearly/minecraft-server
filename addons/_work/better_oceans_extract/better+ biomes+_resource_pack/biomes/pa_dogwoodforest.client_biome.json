@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "pa:dogwoodforest"
+    },
+    "components": {
+      "minecraft:biome_music": {
+        "volume_multiplier": 0.4
+      },
+      "minecraft:dry_foliage_color": {
+        "color": "#66b82f"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#5eb545"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#46ba24"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#87CEEB"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#5db7ef",
+        "surface_opacity": 1.0
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "pa:wewkwjkwkwwiwwbe"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "setted_sunplate_tile_stairs_00142b4f"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:setted_sunplate_tiles",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:setted_sunplate_tile_stairs",
+      "count": 3
+    }
+  }
+}

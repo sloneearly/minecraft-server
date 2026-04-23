@@ -1,0 +1,46 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.amphi": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"animations": [
+						"idle"
+					],
+					"transitions": [
+						{
+							"walk": "query.ground_speed"
+						},
+						{
+							"attack": "variable.has_target&&variable.attack_time>=0.1"
+						}
+					]
+				},
+				"walk": {
+					"animations": [
+						"walk"
+					],
+					"transitions": [
+						{
+							"idle": "!query.ground_speed"
+						},
+						{
+							"attack": "variable.has_target&&variable.attack_time>=0.1"
+						}
+					]
+				},
+				"attack": {
+					"animations": [
+						"attack"
+					],
+					"transitions": [
+						{
+							"idle": "variable.attack_time<=0"
+						}
+					]
+				}
+			}
+		}
+	}
+}

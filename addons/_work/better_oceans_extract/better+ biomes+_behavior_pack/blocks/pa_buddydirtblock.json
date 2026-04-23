@@ -1,0 +1,58 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "pa:buddydirtblock",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.5
+      },
+      "minecraft:friction": 0.4,
+      "minecraft:map_color": "#6B482A",
+      "minecraft:light_dampening": 1,
+      "minecraft:light_emission": 0,
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          16.0
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          16.0
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "pa_buddydirtblock",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "pa_buddydirtblock:trigger": {},
+      "tag:wood": {}
+    },
+    "events": {}
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "pa:book",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "pa:villager_with_player_model"
+    },
+    "component_groups": {
+      "become_zombie": {
+        "minecraft:transformation": {
+          "into": "minecraft:zombie_villager"
+        }
+      },
+      "baby": {
+        "minecraft:is_baby": {},
+        "minecraft:scale": {
+          "value": 0.5
+        },
+        "minecraft:ageable": {
+          "duration": 1200,
+          "grow_up": {
+            "event": "minecraft:ageable_grow_up",
+            "target": "self"
+          }
+        },
+        "minecraft:behavior.take_flower": {
+          "priority": 7
+        },
+        "minecraft:behavior.play": {
+          "priority": 8,
+          "speed_multiplier": 0.32
+        }
+      },
+      "adult": {
+        "minecraft:behavior.make_love": {
+          "priority": 6
+        },
+        "minecraft:behavior.receive_love": {
+          "priority": 7
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "npc"
+        ]
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0,
+        "breathes_air": true,
+        "breathes_lava": true,
+        "breathes_solids": true,
+        "breathes_water": true,
+        "generates_bubbles": true,
+        "inhale_time": 0.0,
+        "suffocate_time": -20,
+        "total_supply": 15
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:collision_box": {
+        "height": 1.8,
+        "width": 0.6
+      },
+      "minecraft:nameable": {
+        "allow_name_tag_renaming": true,
+        "always_show": false
+      },
+      "minecraft:movement": {
+        "value": 0.0
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_path_over_water": true,
+        "can_pass_doors": true,
+        "can_open_doors": true,
+        "can_walk": true,
+        "avoid_water": true,
+        "avoid_damage_blocks": false,
+        "avoid_portals": false,
+        "avoid_sun": false,
+        "blocks_to_avoid": [],
+        "can_breach": false,
+        "can_break_doors": false,
+        "can_jump": true,
+        "can_open_iron_doors": false,
+        "can_path_from_air": false,
+        "can_path_over_lava": false,
+        "can_sink": true,
+        "can_swim": false,
+        "can_walk_in_lava": false
+      },
+      "minecraft:annotation.open_door": {},
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {
+        "jump_power": 0.42
+      },
+      "minecraft:can_climb": {},
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "on_damage": {
+              "filters": {
+                "test": "is_family",
+                "subject": "other",
+                "value": "lightning"
+              },
+              "event": "become_witch"
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "any_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "zombie"
+                  },
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "husk"
+                  }
+                ],
+                "all_of": [
+                  {
+                    "test": "has_damage",
+                    "value": "fatal"
+                  }
+                ]
+              },
+              "event": "become_zombie"
+            }
+          }
+        ]
+      },
+      "minecraft:behavior.move_indoors": {
+        "priority": 4,
+        "speed_multiplier": 0.8
+      },
+      "minecraft:behavior.restrict_open_door": {
+        "priority": 5
+      },
+      "minecraft:behavior.move_towards_restriction": {
+        "priority": 7,
+        "speed_multiplier": 0.6
+      },
+      "minecraft:behavior.share_items": {
+        "priority": 8,
+        "max_dist": 3,
+        "goal_radius": 2,
+        "speed_multiplier": 0.5,
+        "entity_types": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "villager"
+            }
+          }
+        ]
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 11,
+        "speed_multiplier": 0.6
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 12,
+        "look_distance": 8,
+        "probability": 0.02
+      },
+      "minecraft:physics": {
+        "has_collision": true,
+        "has_gravity": true,
+        "push_towards_closest_space": false
+      },
+      "minecraft:npc": {},
+      "minecraft:interact": [
+        {
+          "on_interact": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "show_dialog"
+          },
+          "interact_text": "Talk"
+        }
+      ],
+      "minecraft:loot": {
+        "table": "loot_tables/entities/pa_book.json"
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "sequence": [
+          {
+            "filters": {
+              "test": "has_component",
+              "operator": "!=",
+              "value": "minecraft:variant"
+            },
+            "randomize": [
+              {
+                "weight": 5,
+                "add": {
+                  "component_groups": [
+                    "baby"
+                  ]
+                }
+              },
+              {
+                "weight": 95,
+                "add": {
+                  "component_groups": [
+                    "adult"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:entity_transformed": {
+        "sequence": [
+          {
+            "filters": {
+              "test": "has_component",
+              "subject": "other",
+              "value": "minecraft:is_baby"
+            },
+            "add": {
+              "component_groups": [
+                "baby"
+              ]
+            }
+          },
+          {
+            "filters": {
+              "test": "has_component",
+              "subject": "other",
+              "operator": "!=",
+              "value": "minecraft:is_baby"
+            },
+            "add": {
+              "component_groups": [
+                "adult"
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:entity_born": {
+        "sequence": [
+          {
+            "add": {
+              "component_groups": [
+                "baby"
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:ageable_grow_up": {
+        "sequence": [
+          {
+            "remove": {
+              "component_groups": [
+                "baby"
+              ]
+            },
+            "add": {
+              "component_groups": [
+                "adult"
+              ]
+            }
+          }
+        ]
+      },
+      "on:death": {
+        "queue_command": {
+          "command": []
+        }
+      },
+      "on:hurt": {
+        "queue_command": {
+          "command": []
+        }
+      },
+      "on:hurt_by_player": {
+        "queue_command": {
+          "command": []
+        }
+      },
+      "on:ignite": {
+        "queue_command": {
+          "command": []
+        }
+      },
+      "on:target_acquired": {
+        "queue_command": {
+          "command": []
+        }
+      },
+      "on:target_escape": {
+        "queue_command": {
+          "command": []
+        }
+      },
+      "on:wake_with_owner": {
+        "queue_command": {
+          "command": []
+        }
+      },
+      "show_dialog": {
+        "sequence": [
+          {
+            "queue_command": {
+              "command": [
+                "dialogue open @e[type=pa:book,c=1] @p flowerbook"
+              ],
+              "target": "self"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

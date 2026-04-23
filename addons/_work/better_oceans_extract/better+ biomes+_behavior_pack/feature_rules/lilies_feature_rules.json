@@ -1,0 +1,81 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "pa:lilies_feature_rules",
+      "places_feature": "pa:lilies_scatter_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "pa:ant_planes"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "pa:rainbow_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "pa:big_oak_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "pa:flower_planes_biomes"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "pa:flower_planes"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "pa:weeping_willow_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bee_habitat"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "birch"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "birch_forest"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 6,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          15
+        ]
+      }
+    }
+  }
+}

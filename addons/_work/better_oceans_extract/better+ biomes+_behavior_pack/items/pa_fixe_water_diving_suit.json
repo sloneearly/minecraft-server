@@ -1,0 +1,68 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:fixe_water_diving_suit",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.helmet"
+      }
+    },
+    "components": {
+      "minecraft:wearable": {
+        "slot": "slot.armor.head",
+        "protection": 7
+      },
+      "minecraft:movement_modifier": {
+        "value": 0.2
+      },
+      "minecraft:underwater_movement_modifier": {
+        "value": 0.1
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 765
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:emerald",
+              "pa:fixe_water_diving_suit"
+            ],
+            "repair_amount": 10
+          }
+        ]
+      },
+      "minecraft:icon": "pa_fixe_water_diving_suit",
+      "minecraft:glint": false,
+      "minecraft:hand_equipped": false,
+      "minecraft:allow_off_hand": true,
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_armor"
+        ]
+      },
+      "minecraft:fire_resistant": {
+        "value": true
+      }
+    },
+    "events": {
+      "minecraft:on_wear": {
+        "add_mob_effect": [
+          {
+            "effect": "water_breathing",
+            "duration": 1800,
+            "amplifier": 1,
+            "visible": true
+          }
+        ]
+      },
+      "minecraft:on_remove": {
+        "remove_mob_effect": [
+          "water_breathing"
+        ]
+      }
+    }
+  }
+}
