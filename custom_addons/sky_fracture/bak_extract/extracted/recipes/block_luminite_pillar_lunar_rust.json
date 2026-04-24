@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "luminite_pillar_lunar_rust_74c7b625"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:luminite_tiles_lunar_rust_slab",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:luminite_pillar_lunar_rust",
+      "count": 1
+    }
+  }
+}

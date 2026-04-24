@@ -1,0 +1,184 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "egg_camel": {
+      "textures": "textures/items/egg_camel"
+    },
+    "egg_lion": {
+      "textures": "textures/items/egg_lion"
+    },
+    "egg_penguin": {
+      "textures": "textures/items/egg_penguin"
+    },
+    "egg_tiger": {
+      "textures": "textures/items/egg_tiger"
+    },
+    "egg_elephant": {
+      "textures": "textures/items/egg_elephant"
+    },
+    "egg_deer": {
+      "textures": "textures/items/egg_deer"
+    },
+    "egg_panther": {
+      "textures": "textures/items/egg_panther"
+    },
+    "egg_frog": {
+      "textures": "textures/items/egg_frog"
+    },
+    "egg_crocodile": {
+      "textures": "textures/items/egg_crocodile"
+    },
+    "egg_mouse": {
+      "textures": "textures/items/egg_mouse"
+    },
+    "gallardo": {
+      "textures": "textures/items/gallardo"
+    },
+    "bench": {
+      "textures": "textures/items/bench"
+    },
+    "christmas_tree": {
+      "textures": "textures/items/christmas_tree"
+    },
+    "tivi": {
+      "textures": "textures/items/tivi"
+    },
+    "closet": {
+      "textures": "textures/items/closet"
+    },
+    "laptop": {
+      "textures": "textures/items/laptop"
+    },
+    "piano": {
+      "textures": "textures/items/piano"
+    },
+    "armchairs": {
+      "textures": "textures/items/armchairs"
+    },
+    "chair": {
+      "textures": "textures/items/chair"
+    },
+    "big_table": {
+      "textures": "textures/items/big_table"
+    },
+    "small_table": {
+      "textures": "textures/items/small_table"
+    },
+    "drone": {
+      "textures": "textures/items/drone"
+    },
+    "colorful_gifts": {
+      "textures": "textures/items/colorful_gifts"
+    },
+    "pa_big_hirch_sapling": {
+      "textures": "textures/blocks/pa_big_hirch_sapling"
+    },
+    "pa_blue_mushroom_sapling": {
+      "textures": "textures/blocks/pa_blue_mushroom_sapling"
+    },
+    "pa:book_spawn_egg": {
+      "textures": "textures/items/pamobile/pa_book_spawn_egg"
+    },
+    "pa_coconuti": {
+      "textures": "textures/items/pamobile/pa_coconuti"
+    },
+    "pa_coconut_tree_sapling": {
+      "textures": "textures/blocks/pa_coconut_tree_sapling"
+    },
+    "pa:crackopencoconut": {
+      "textures": "textures/items/pamobile/pa_crackopencoconut"
+    },
+    "pa_dogwood_sapling": {
+      "textures": "textures/blocks/pa_dogwood_sapling"
+    },
+    "pa:ender_crystal": {
+      "textures": "textures/items/pamobile/pa_ender_crystal"
+    },
+    "pa:ender_cookie": {
+      "textures": "textures/items/pamobile/pa_ender_cookie"
+    },
+    "pa:ender_sprinkles": {
+      "textures": "textures/items/pamobile/pa_ender_sprinkles"
+    },
+    "pa_eye_blossom_bush": {
+      "textures": "textures/items/pa_eye_blossom_bush"
+    },
+    "pa_gold_jasmine": {
+      "textures": "textures/items/pa_gold_jasmine"
+    },
+    "pa_fixe_water_diving_suit": {
+      "textures": [
+        "textures/items/pamobile/pa_fixe_water_diving_suit"
+      ]
+    },
+    "pa_jasmine": {
+      "textures": "textures/items/pa_jasmine"
+    },
+    "pa:jasmine_wine": {
+      "textures": "textures/items/pamobile/pa_jasmine_wine"
+    },
+    "pa_lavender1": {
+      "textures": "textures/items/pa_lavender1"
+    },
+    "pa_lavender": {
+      "textures": "textures/items/pa_lavender"
+    },
+    "pa:lavender_wine": {
+      "textures": "textures/items/pamobile/pa_lavender_wine"
+    },
+    "pa:lavenderywuqyqu": {
+      "textures": "textures/items/pamobile/pa_lavenderywuqyqu"
+    },
+    "pa_lilac_flower": {
+      "textures": "textures/items/pa_lilac_flower"
+    },
+    "pa_lilies": {
+      "textures": "textures/items/pa_lilies"
+    },
+    "pa:lumi_lily_wine": {
+      "textures": "textures/items/pamobile/pa_lumi_lily_wine"
+    },
+    "pa_lumi_lily": {
+      "textures": "textures/items/pa_lumi_lily"
+    },
+    "pa_magic_mace": {
+      "textures": "textures/items/pamobile/pa_magic_mace"
+    },
+    "pa:onion": {
+      "textures": "textures/items/pamobile/pa_onion"
+    },
+    "pa_onion_crop": {
+      "textures": "textures/items/pa_onion_crop"
+    },
+    "pa:onion_wine": {
+      "textures": "textures/items/pamobile/pa_onion_wine"
+    },
+    "pa:rose_wine": {
+      "textures": "textures/items/pamobile/pa_rose_wine"
+    },
+    "pa_rosebush": {
+      "textures": "textures/items/pa_rosebush"
+    },
+    "pa_roses_bush": {
+      "textures": "textures/items/pa_roses_bush"
+    },
+    "pa_tall_wheat": {
+      "textures": "textures/items/pa_tall_wheat"
+    },
+    "pa_tall_wheat1": {
+      "textures": "textures/items/pa_tall_wheat1"
+    },
+    "pa_water_diving_suit": {
+      "textures": [
+        "textures/items/pamobile/pa_water_diving_suit"
+      ]
+    },
+    "pa_weeping_willow_sapling": {
+      "textures": "textures/blocks/pa_weeping_willow_sapling"
+    },
+    "pa_wild_onion": {
+      "textures": "textures/items/pa_wild_onion"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_a039fc5b"
+    },
+    "tags": [
+      "soul_forge"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "EFE"
+    ],
+    "key": {
+      "A": {
+        "item": "block:lunargem_block",
+        "data": 0
+      },
+      "B": {
+        "item": "item:comet_forging_template",
+        "data": 0
+      },
+      "C": {
+        "item": "block:meteorite",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:netherite_shovel",
+        "data": 0
+      },
+      "E": {
+        "item": "block:solargem_block",
+        "data": 0
+      },
+      "F": {
+        "item": "block:starlite_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "tool:comet_shovel",
+      "count": 1
+    }
+  }
+}

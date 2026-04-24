@@ -1,0 +1,13 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "gen:starlite_forest_clouds_feature_outer"
+        },
+        "places_feature": "gen:starlite_forest_clouds",
+        "iterations": "math.abs(v.originx) > 800 || math.abs(v.originz) > 800",
+        "x": 0,
+        "z": 0,
+        "y": 0
+    }
+}

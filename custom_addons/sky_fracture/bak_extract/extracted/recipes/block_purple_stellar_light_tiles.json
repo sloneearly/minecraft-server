@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "purple_stellar_light_tiles_5425d97c"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:purple_stellar_light_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:purple_stellar_light_tiles",
+      "count": 4
+    }
+  }
+}

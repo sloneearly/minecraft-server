@@ -1,0 +1,55 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:cow1",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "cow",
+        "cold": "cow_cold"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/pa_cow1",
+        "warm": "textures/entity/pamobile/pa_cow1_warm",
+        "cold": "textures/entity/pamobile/pa_cow1_cold",
+        "baby_default": "textures/entity/pamobile/pa_cow1_baby_default",
+        "baby_cold": "textures/entity/pamobile/pa_cow1_baby_cold",
+        "baby_warm": "textures/entity/pamobile/pa_cow1_baby_warm"
+      },
+      "geometry": {
+        "default": "geometry.pa_cow1_default",
+        "warm": "geometry.pa_cow1_warm",
+        "cold": "geometry.pa_cow1_cold",
+        "baby": "geometry.pa_cow1_baby"
+      },
+      "animations": {
+        "setup": "animation.cow.setup",
+        "walk": "animation.quadruped.walk",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.cow.baby_transform"
+      },
+      "scripts": {
+        "animate": [
+          "setup",
+          {
+            "walk": "query.modified_move_speed"
+          },
+          "look_at_target"
+        ],
+        "pre_animation": [
+          "t.variant = query.property('minecraft:climate_variant');",
+          "v.index = (t.variant == 'temperate') ? 0 : ((t.variant == 'warm') ? 1 : 2);",
+          "v.is_cold = t.variant == 'cold';"
+        ],
+        "scale": "query.is_baby ? 2.0 : 1.0"
+      },
+      "render_controllers": [
+        "controller.render.cow.v3"
+      ],
+      "spawn_egg": {
+        "base_color": "#EA9A51",
+        "overlay_color": "#FF0909"
+      }
+    }
+  }
+}

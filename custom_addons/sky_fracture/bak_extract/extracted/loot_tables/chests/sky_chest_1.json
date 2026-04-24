@@ -1,0 +1,285 @@
+//bridge-file-version: #33
+{
+	"pools": [
+		{
+			"rolls": 4,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.9
+							}
+						},
+						{
+							"function": "enchant_randomly"
+						}
+					],
+					"name": "item:aquamarine_crossbow"
+				},
+				{
+					"type": "item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					],
+					"name": "tool:aquamarine_pickaxe"
+				},
+				{
+					"type": "item",
+					"weight": 6,
+					"name": "tool:aquamarine_shovel"
+				},
+				{
+					"type": "item",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					],
+					"name": "minecraft:diamond"
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					],
+					"name": "item:aquamarine"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 22
+							}
+						}
+					],
+					"name": "item:crossbow_bolt"
+				},
+				{
+					"type": "item",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 6,
+								"max": 17
+							}
+						}
+					],
+					"name": "food:fuzzy_carrot"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_data",
+							"data": 6
+						}
+					],
+					"name": "item:cookie_mold_sword"
+				},
+				{
+					"type": "item",
+					"weight": 9,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"name": "minecraft:golden_apple"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"name": "item:cookie_mold_star"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": {
+								"min": 20,
+								"max": 40
+							}
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "item",
+					"name": "item:bottomless_water_bucket",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "item:cookie_mold_heart",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "item:luminite_forging_template",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 6,
+			"entries": [
+				{
+					"type": "item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "enchant_randomly"
+						}
+					],
+					"name": "boots:aquamarine_boots",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					],
+					"name": "tool:aquamarine_axe"
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					],
+					"name": "item:starlite",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"name": "item:lunar_key",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"name": "item:solar_key",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 6
+							}
+						}
+					],
+					"name": "minecraft:gold_ingot",
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "block:bubble_block",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 10
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 10
+							}
+						}
+					],
+					"name": "minecraft:wind_charge",
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					],
+					"name": "item:hurricane_wind_charge",
+					"weight": 3
+				}
+			]
+		}
+	]
+}

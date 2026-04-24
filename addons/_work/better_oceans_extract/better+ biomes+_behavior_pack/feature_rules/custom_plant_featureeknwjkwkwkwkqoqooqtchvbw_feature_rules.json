@@ -1,0 +1,45 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "pa:custom_plant_featureeknwjkwkwkwkqoqooqtchvbw_feature_rules",
+      "places_feature": "pa:custom_plant_featureeknwjkwkwkwkqoqooqtchvbw"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "pa:ore_beach"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "x": {
+        "extent": [
+          0,
+          8
+        ],
+        "distribution": "uniform"
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz)",
+      "z": {
+        "extent": [
+          0,
+          8
+        ],
+        "distribution": "uniform"
+      },
+      "iterations": 30,
+      "scatter_chance": {
+        "numerator": 3,
+        "denominator": 100
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "pa:weeping_willow_sapling",
+      "menu_category": {
+        "category": "none"
+      }
+    },
+    "components": {
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 20
+      },
+      "minecraft:collision_box": false,
+      "minecraft:light_dampening": 0,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.0
+      },
+      "minecraft:geometry": "geometry.custom_sapling",
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "pa_weeping_willow_sapling",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "block_filter": [
+              "farmland",
+              "dirt",
+              "grass_block",
+              "grass_path"
+            ],
+            "allowed_faces": [
+              "up"
+            ]
+          }
+        ]
+      },
+      "minecraft:friction": 0.4,
+      "minecraft:light_emission": 0,
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          16.0
+        ]
+      },
+      "minecraft:tick": {
+        "looping": true,
+        "interval_range": [
+          10,
+          10
+        ]
+      },
+      "pa_weeping_willow_sapling:trigger": {},
+      "minecraft:flower_pottable": {},
+      "tag:wood": {}
+    },
+    "permutations": [],
+    "events": {}
+  }
+}

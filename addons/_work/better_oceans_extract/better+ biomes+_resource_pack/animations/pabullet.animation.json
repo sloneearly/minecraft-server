@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.pabullet.move": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [
+            0,
+            "-query.body_y_rotation + 90",
+            0
+          ]
+        }
+      }
+    }
+  }
+}

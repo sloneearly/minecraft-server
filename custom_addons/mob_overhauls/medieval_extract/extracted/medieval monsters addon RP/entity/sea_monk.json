@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mlmonster:sea_monk",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/sea_monk"
+			},
+			"geometry": {
+				"default": "geometry.sea_monk"
+			},
+			"render_controllers": [
+				"controller.render.sea_monk"
+			],
+			"spawn_egg": {
+				"texture": "mlmonster_sea_monk_egg",
+				"texture_index": 0
+			},
+			"animations": {
+				"idle": "animation.sea_monk.idle",
+				"attack": "animation.sea_monk.attack",
+				"walk": "animation.sea_monk.swim",
+				"ml": "controller.animation.ml"
+			},
+			"scripts": {
+				"animate": [
+					"ml"
+				]
+			}
+		}
+	}
+}

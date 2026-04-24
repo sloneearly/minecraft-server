@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "pa:big_hirch"
+    },
+    "components": {
+      "minecraft:biome_music": {
+        "volume_multiplier": 0.4,
+        "music_definition": "creative"
+      },
+      "minecraft:dry_foliage_color": {
+        "color": "#ffce00"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#fdff00"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#ffeb00"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#87CEEB"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#5db7ef",
+        "surface_opacity": 1.0
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "pa:wnnwjwkwkwkakqklqlqlqowoqoqoqooqoqpqpoqpqpq"
+      }
+    }
+  }
+}

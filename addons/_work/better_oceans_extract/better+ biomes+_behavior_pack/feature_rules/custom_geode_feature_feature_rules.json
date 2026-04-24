@@ -1,0 +1,52 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "pa:custom_geode_feature_feature_rules",
+      "places_feature": "pa:custom_geode_feature"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "pa:ore_beach"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "x": {
+        "extent": [
+          0,
+          16
+        ],
+        "distribution": "uniform"
+      },
+      "y": {
+        "extent": [
+          3,
+          59
+        ],
+        "distribution": "uniform"
+      },
+      "z": {
+        "extent": [
+          0,
+          16
+        ],
+        "distribution": "uniform"
+      },
+      "iterations": 6,
+      "coordinate_eval_order": "zyx",
+      "scatter_chance": {
+        "numerator": 7,
+        "denominator": 100
+      }
+    }
+  }
+}

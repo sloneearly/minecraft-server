@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "aquamarine_boots_6948552c"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "item:aquamarine",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "boots:aquamarine_boots",
+      "count": 1
+    }
+  }
+}

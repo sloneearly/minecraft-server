@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "pa:big_oak_forest"
+    },
+    "components": {
+      "minecraft:biome_music": {
+        "volume_multiplier": 0.28,
+        "music_definition": "pa_big_oak_forest_music"
+      },
+      "minecraft:dry_foliage_color": {
+        "color": "#5abf51"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#6aa356"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#50a746"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#87CEEB"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#5db7ef",
+        "surface_opacity": 1.0
+      }
+    }
+  }
+}

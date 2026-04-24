@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "moonstone_boots_db1f876c"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:moonstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "boots:moonstone_boots",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_0419be69"
+    },
+    "tags": [
+      "soul_forge"
+    ],
+    "pattern": [
+      "ABA",
+      "ACA",
+      "DED"
+    ],
+    "key": {
+      "A": {
+        "item": "item:luminite_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "item:luminite_forging_template",
+        "data": 0
+      },
+      "C": {
+        "item": "item:iron_crossbow",
+        "data": 0
+      },
+      "D": {
+        "item": "block:lunargem_block",
+        "data": 0
+      },
+      "E": {
+        "item": "block:luminite_block_classic",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:luminite_crossbow",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

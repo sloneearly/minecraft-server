@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mlmonster:amphisbaena",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/amphisbaena_t"
+			},
+			"geometry": {
+				"default": "geometry.amphisbaena"
+			},
+			"render_controllers": [
+				"controller.render.amphisbaena"
+			],
+			"spawn_egg": {
+				"texture": "mlmonster_amphisbaena_egg",
+				"texture_index": 0
+			},
+			"animations": {
+				"walk": "animation.amphisbaena.move",
+				"idle": "animation.amphisbaena.move",
+				"attack": "animation.amphisbaena.attack",
+				"amphi": "controller.animation.amphi"
+			},
+			"scripts": {
+				"animate": [
+					"amphi"
+				]
+			}
+		}
+	}
+}

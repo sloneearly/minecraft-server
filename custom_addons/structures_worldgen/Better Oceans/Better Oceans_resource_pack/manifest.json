@@ -1,0 +1,36 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Better Oceans",
+    "description": "Ocean-focused biome pack extracted from better+ biomes+.",
+    "uuid": "f2925502-b3e6-4b13-9b20-3a9f9601bd35",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "description": "Better Oceans resource pack",
+      "uuid": "731ac3b6-5ffd-4d62-920d-136d6f7bd029",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "SiGuyBlueEye",
+      "OpenAI Codex"
+    ]
+  }
+}

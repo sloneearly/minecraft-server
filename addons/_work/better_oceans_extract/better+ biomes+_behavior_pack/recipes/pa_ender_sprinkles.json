@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ender_sprinkles_71a0180c"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "pa:ender_crystal",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:ender_sprinkles",
+      "count": 1
+    }
+  }
+}

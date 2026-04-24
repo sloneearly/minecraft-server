@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "luminite_bricks_classic_d51418ca"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:luminite_block_classic",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:luminite_bricks_classic",
+      "count": 4
+    }
+  }
+}

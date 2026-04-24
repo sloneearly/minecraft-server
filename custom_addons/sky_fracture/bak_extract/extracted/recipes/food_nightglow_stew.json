@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nightglow_stew_6c7d75b5"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      " B"
+    ],
+    "key": {
+      "A": {
+        "item": "block:nightglow_mushroom",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:bowl",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "food:nightglow_stew",
+      "count": 1
+    }
+  }
+}

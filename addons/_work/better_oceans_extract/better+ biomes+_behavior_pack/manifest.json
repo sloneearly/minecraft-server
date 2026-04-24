@@ -1,0 +1,70 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "a lot of new biomes by SiGuyBlueEye ",
+    "name": "better+ biomes+",
+    "uuid": "b1ba8ab1-f797-4913-a229-af6a69caf2b9",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      17,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "a lot of new biomes by SiGuyBlueEye ",
+      "type": "data",
+      "uuid": "9e79ce61-f651-4e00-98de-a5ba8c6509bc",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "type": "script",
+      "uuid": "23d0f22c-2172-4ddd-bc64-8a839c9c7aca",
+      "version": [
+        0,
+        0,
+        1
+      ],
+      "entry": "scripts/main.js",
+      "language": "javascript"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "4ace7691-d602-4eac-9eee-a928ca0164eb",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "version": "2.6.0",
+      "module_name": "@minecraft/server"
+    },
+    {
+      "version": "2.0.0",
+      "module_name": "@minecraft/server-ui"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "SiGuyBlueEye "
+    ],
+    "generated_with": {
+      "MAM": [
+        "3.7.4"
+      ]
+    },
+    "url": "https://addonsmaker.com/"
+  }
+}

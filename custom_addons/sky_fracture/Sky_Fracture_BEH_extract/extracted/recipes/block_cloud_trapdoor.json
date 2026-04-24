@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cloud_trapdoor_514381df"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:cloud_planks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:cloud_trapdoor",
+      "count": 2
+    }
+  }
+}

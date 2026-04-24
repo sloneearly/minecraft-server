@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "gen:large_nightglow_clouds"
+		},
+		"features": [
+			[
+				"generation:largenightglowcloud1_feature_mcstructure",
+				1
+			],
+			[
+				"generation:largenightglowcloud2_feature_mcstructure",
+				1
+			],
+			[
+				"generation:largenightglowcloud3_feature_mcstructure",
+				1
+			],
+			[
+				"generation:largenightglowcloud4_feature_mcstructure",
+				1
+			]
+		]
+	}
+}

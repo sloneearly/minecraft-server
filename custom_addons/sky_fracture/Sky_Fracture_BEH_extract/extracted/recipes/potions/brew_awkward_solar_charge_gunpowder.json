@@ -1,0 +1,15 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_brewing_mix": {
+    "description": {
+      "identifier": "recipe:brew_awkward_solar_charge_gunpowder"
+    },
+
+    "tags": [ "brewing_stand" ],
+
+    "input": "item:combustion_potion",
+    "reagent": "minecraft:gunpowder",
+    "output": "item:splash_combustion_potion"
+  }
+
+}

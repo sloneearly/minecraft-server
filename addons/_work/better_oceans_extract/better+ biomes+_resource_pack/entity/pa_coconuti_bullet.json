@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:coconuti_bullet",
+      "materials": {
+        "default": "snowball"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/pa_coconuti_bullet"
+      },
+      "geometry": {
+        "default": "geometry.pabullet"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "animations": {
+        "move": "animation.pabullet.move"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

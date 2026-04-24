@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "item:time_bomb",
+            "menu_category": {
+              "category": "equipment",
+              "group": "itemGroup.name.equipment"
+			}
+            },
+    "components": {
+			"minecraft:max_stack_size": 16,
+      "minecraft:icon": {
+        "texture": "item:time_bomb"
+      },
+      "minecraft:display_name": {
+        "value": "Time Bomb"
+      }, 
+      "minecraft:throwable": {
+        "do_swing_animation": true
+      },
+      "minecraft:projectile": {
+        "projectile_entity": "projectile:time_bomb"
+      }
+    }
+  }
+}

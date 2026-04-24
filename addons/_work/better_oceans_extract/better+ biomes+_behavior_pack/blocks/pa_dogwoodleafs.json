@@ -1,0 +1,62 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:block": {
+    "description": {
+      "identifier": "pa:dogwoodleafs",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.1
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.1
+      },
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 20
+      },
+      "minecraft:map_color": "#E686FF",
+      "minecraft:light_dampening": 1,
+      "minecraft:light_emission": 0,
+      "minecraft:loot": "loot_tables/blocks/pa_dogwoodleafs.json",
+      "minecraft:collision_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          16.0
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          16.0
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "pa_dogwoodleafs",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "pa_dogwoodleafs:trigger": {},
+      "tag:wood": {}
+    },
+    "events": {}
+  }
+}

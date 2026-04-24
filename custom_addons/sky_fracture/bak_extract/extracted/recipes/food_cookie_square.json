@@ -1,0 +1,36 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cookie_square_6bb32f49"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "item:cookie_mold_square",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:cookie",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "food:cookie_square",
+				"count": 1
+			},
+			{
+				"item": "item:cookie_mold_square",
+				"count": 1
+			}
+		]
+	}
+}

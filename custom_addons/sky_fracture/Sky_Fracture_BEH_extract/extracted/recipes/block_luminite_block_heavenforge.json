@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "luminite_block_heavenforge_66f93b50"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:luminite_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:luminite_block_heavenforge",
+      "count": 1
+    }
+  }
+}

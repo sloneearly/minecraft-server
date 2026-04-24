@@ -1,0 +1,76 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "pa:deep_deep_ocean"
+    },
+    "components": {
+      "minecraft:climate": {
+        "downfall": 100.0,
+        "snow_accumulation": [
+          0.0,
+          0.1561712846347607
+        ],
+        "temperature": 1.0
+      },
+      "minecraft:surface_builder": {
+        "builder": {
+          "type": "minecraft:overworld",
+          "sea_floor_depth": 150,
+          "sea_floor_material": "minecraft:sand",
+          "foundation_material": "minecraft:stone",
+          "mid_material": "minecraft:dirt",
+          "top_material": "pa:muddydeepsand",
+          "sea_material": "minecraft:water"
+        }
+      },
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:forest_hills",
+        "generate_for_climates": [
+          [
+            "medium",
+            3
+          ],
+          [
+            "warm",
+            1
+          ],
+          [
+            "cold",
+            1
+          ]
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "animal",
+          "ocean",
+          "overworld",
+          "pa:deep_deep_ocean"
+        ]
+      },
+      "minecraft:replace_biomes": {
+        "replacements": [
+          {
+            "dimension": "minecraft:overworld",
+            "amount": 0.5,
+            "noise_frequency_scale": 1.0,
+            "targets": [
+              "minecraft:cold_ocean",
+              "minecraft:deep_cold_ocean",
+              "minecraft:deep_frozen_ocean",
+              "minecraft:deep_lukewarm_ocean",
+              "minecraft:deep_ocean",
+              "minecraft:deep_warm_ocean",
+              "minecraft:lukewarm_ocean",
+              "minecraft:ocean"
+            ]
+          }
+        ]
+      },
+      "minecraft:overworld_height": {
+        "noise_type": "deep_ocean"
+      }
+    }
+  }
+}

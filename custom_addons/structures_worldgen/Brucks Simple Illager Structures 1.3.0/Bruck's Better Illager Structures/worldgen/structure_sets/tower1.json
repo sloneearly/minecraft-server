@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "bruck:tower1"
+    },
+    "structures": [
+      {
+        "structure": "bruck:tower1",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 9999782,
+      "spacing": 96,
+      "separation": 24,
+      "spread_type": "linear"
+    }
+  }
+}

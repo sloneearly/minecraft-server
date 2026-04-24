@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mlmonster:blemmyae",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/blemmyes (1)"
+			},
+			"geometry": {
+				"default": "geometry.blemmyae"
+			},
+			"render_controllers": [
+				"controller.render.blemmyae"
+			],
+			"spawn_egg": {
+				"texture": "mlmonster_blemmyae_egg",
+				"texture_index": 0
+			},
+			"animations": {
+				"walk": "animation.blemmyes.walk",
+				"idle": "animation.blemmyes.idle",
+				"attack": "animation.blemmyes.attack",
+				"ml": "controller.animation.ml"
+			},
+			"scripts": {
+				"animate": [
+					"ml"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sky_stone_brick_stairs_322d37dd"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:sky_stone_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:sky_stone_brick_stairs",
+      "count": 3
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_7f782f8c"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "BEB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:wheat",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:cocoa_beans",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:milk_bucket",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:blue_egg",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:sugar",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:chocolate_cake",
+      "count": 1
+    }
+  }
+}

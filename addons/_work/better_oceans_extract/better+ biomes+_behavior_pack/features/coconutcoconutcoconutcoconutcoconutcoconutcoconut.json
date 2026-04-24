@@ -1,0 +1,70 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:tree_feature": {
+    "description": {
+      "identifier": "pa:coconutcoconutcoconutcoconutcoconutcoconutcoconut"
+    },
+    "trunk": {
+      "trunk_height": {
+        "range_min": 1,
+        "range_max": 1
+      },
+      "trunk_block": "pa:coconutblockblock"
+    },
+    "canopy": {
+      "canopy_offset": {
+        "min": -1,
+        "max": 1
+      },
+      "canopy_slope": {
+        "rise": 1,
+        "run": 1
+      },
+      "leaf_block": "minecraft:air",
+      "min_width": 0,
+      "variation_chance": [
+        {
+          "numerator": 1,
+          "denominator": 2
+        }
+      ]
+    },
+    "may_grow_on": [
+      "minecraft:sand"
+    ],
+    "base_block": [
+      "minecraft:dirt",
+      "minecraft:coarse_dirt"
+    ],
+    "may_grow_through": [
+      "minecraft:coarse_dirt",
+      "minecraft:dirt",
+      "minecraft:dirt_with_roots",
+      "minecraft:farmland",
+      "minecraft:grass_block",
+      "minecraft:moss_block",
+      "minecraft:mud",
+      "minecraft:muddy_mangrove_roots",
+      "minecraft:mycelium",
+      "minecraft:pale_moss_block",
+      "minecraft:podzol"
+    ],
+    "may_replace": [
+      "minecraft:air",
+      "minecraft:snow_layer",
+      "minecraft:acacia_leaves",
+      "minecraft:azalea_leaves",
+      "minecraft:azalea_leaves_flowered",
+      "minecraft:birch_leaves",
+      "minecraft:cherry_leaves",
+      "minecraft:dark_oak_leaves",
+      "minecraft:jungle_leaves",
+      "minecraft:mangrove_leaves",
+      "minecraft:oak_leaves",
+      "minecraft:pale_oak_leaves",
+      "minecraft:spruce_leaves",
+      "minecraft:wildflowers",
+      "minecraft:leaf_litter"
+    ]
+  }
+}

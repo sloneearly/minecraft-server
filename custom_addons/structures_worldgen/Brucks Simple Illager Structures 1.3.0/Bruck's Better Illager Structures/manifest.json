@@ -1,0 +1,21 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Bruck's Simple Illager Structures [1.3.0]",
+    "description": "A balanced Illager structure addon.",
+    "uuid": "0f117727-c2ae-4c21-8646-983c1dce4bc9",
+    "version": [1, 3, 0],
+    "min_engine_version": [1, 21, 100]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "f91e74f6-be07-48e0-8103-c780b8f386c9",
+      "version": [1, 3, 0]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon"
+  }
+}
+

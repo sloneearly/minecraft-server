@@ -1,0 +1,212 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "pa:ant",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_underground": {},
+        "minecraft:spawns_on_surface": {},
+        "minecraft:brightness_filter": {
+          "min": 0.0,
+          "max": 15.0,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 5
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 1
+        },
+        "minecraft:density_limit": {
+          "surface": 8,
+          "underground": 8
+        },
+        "minecraft:biome_filter": [
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "pa:wheat_field"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "overworld_generation"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bamboo_jungle"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "basalt_deltas"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "crimson_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "deep_frozen_ocean"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "desert"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "desert_hills"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "desert_mutated"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "dripstone_caves"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "extreme_hills_plus_trees"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "flower_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "forest_hills"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "frozen"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "minecraft:spawns_underground": {},
+        "minecraft:brightness_filter": {
+          "min": 1,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 5
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 1
+        },
+        "minecraft:density_limit": {
+          "surface": 8,
+          "underground": 8
+        },
+        "minecraft:biome_filter": [
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "pa:wheat_field"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "overworld_generation"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bamboo_jungle"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "basalt_deltas"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "crimson_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "deep_frozen_ocean"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "desert"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "desert_hills"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "desert_mutated"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "dripstone_caves"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "extreme_hills_plus_trees"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "flower_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "forest_hills"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "frozen"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

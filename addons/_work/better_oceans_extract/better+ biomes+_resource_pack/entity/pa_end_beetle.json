@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:end_beetle",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/pa_end_beetle"
+      },
+      "geometry": {
+        "default": "geometry.pa_end_beetle_default"
+      },
+      "animations": {
+        "walk": "animation.pa_end_beetle.walk",
+        "idle": "animation.pa_end_beetle.idle",
+        "flying": "animation.pa_end_beetle.flying",
+        "flying_idle": "animation.pa_end_beetle.flying_idle",
+        "controller": "controller.animation.pa_end_beetle.pa_end_beetle.japanese_rhinoceros_beetle.general"
+      },
+      "scripts": {
+        "animate": [
+          "controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#000000",
+        "overlay_color": "#AB72D0"
+      }
+    }
+  }
+}

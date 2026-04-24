@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "pa:deep_deep_ocean"
+    },
+    "components": {
+      "minecraft:biome_music": {
+        "volume_multiplier": 0.4
+      },
+      "minecraft:dry_foliage_color": {
+        "color": "#4a9130"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#469341"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#65b542"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#7cbdd7"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#2977f6",
+        "surface_opacity": 1.0
+      }
+    }
+  }
+}

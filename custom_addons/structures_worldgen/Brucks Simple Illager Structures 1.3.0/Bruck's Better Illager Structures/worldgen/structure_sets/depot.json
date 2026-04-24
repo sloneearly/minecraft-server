@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "bruck:depot"
+    },
+    "structures": [
+      {
+        "structure": "bruck:depot",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 33383590,
+      "spacing": 90,
+      "separation": 22,
+      "spread_type": "linear"
+    }
+  }
+}

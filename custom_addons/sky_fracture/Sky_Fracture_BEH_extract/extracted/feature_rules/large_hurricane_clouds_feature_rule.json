@@ -1,0 +1,61 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "minecraft:large_hurricane_clouds_feature_rule",
+			"places_feature": "gen:large_hurricane_clouds_feature_outer"
+		},
+		"conditions": {
+			"placement_pass": "sky_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "mountains"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "ocean"
+						}
+					]
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "frozen"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "cold"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "birch"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "taiga"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 1,
+			"scatter_chance": 2,
+			"x": 0,
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					245,
+					258
+				]
+			},
+			"z": 0
+		}
+	}
+}

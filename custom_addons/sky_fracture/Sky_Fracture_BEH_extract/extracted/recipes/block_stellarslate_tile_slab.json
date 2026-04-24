@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "stellarslate_tile_slab_77737f9d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:stellarslate_tiles",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:stellarslate_tile_slab",
+      "count": 6
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "luminite_bricks_classic_stairs_68850862"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:luminite_bricks_classic",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:luminite_bricks_classic_stairs",
+      "count": 3
+    }
+  }
+}

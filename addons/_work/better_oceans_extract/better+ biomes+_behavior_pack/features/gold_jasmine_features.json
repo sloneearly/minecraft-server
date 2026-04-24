@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "pa:gold_jasmine_features"
+    },
+    "places_block": "pa:gold_jasmine",
+    "enforce_placement_rules": true,
+    "enforce_survivability_rules": true,
+    "may_attach_to": {
+      "bottom": [
+        "minecraft:farmland",
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:grass_path"
+      ]
+    },
+    "may_replace": [
+      "minecraft:air"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "pa:gold_jasmine_scatter_feature"
+    },
+    "places_feature": "pa:gold_jasmine_features",
+    "iterations": 15,
+    "x": {
+      "distribution": "gaussian",
+      "extent": [
+        0,
+        15
+      ]
+    },
+    "y": 0,
+    "z": {
+      "distribution": "gaussian",
+      "extent": [
+        0,
+        15
+      ]
+    }
+  }
+}

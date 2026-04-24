@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cloud_mosaic_5205a635"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:cloud_plank_slab",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:cloud_mosaic",
+      "count": 1
+    }
+  }
+}

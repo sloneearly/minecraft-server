@@ -1,0 +1,25 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "block:chest_from_cloud"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "~~~", 
+            "~ ~",
+            "~~~"
+        ],
+        "key": {
+            "~": {
+                "item": "block:cloud_planks"
+            }
+        },
+        "result": [
+			{
+				"item": "minecraft:chest",
+				"count": 1
+			}
+		]
+    }
+}

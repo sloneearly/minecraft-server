@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "food:double_chocolate_cookie_circle",
+            "menu_category": {
+              "category": "equipment"
+            }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "food:double_chocolate_cookie_circle"
+      },
+      						"minecraft:display_name": {
+				"value": "Double-Chocolate Cookie\n\n\n§8Circle"
+			},
+      "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+              "use_duration": 1.8,
+              "movement_modifier": 1
+            },
+
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": 0.4
+      }
+    }
+  }
+}

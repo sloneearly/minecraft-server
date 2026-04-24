@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "gen:large_cryo_clouds"
+		},
+		"features": [
+			[
+				"generation:largecryocloud1_feature_mcstructure",
+				1
+			],
+			[
+				"generation:largecryocloud2_feature_mcstructure",
+				1
+			],
+			[
+				"generation:largecryocloud3_feature_mcstructure",
+				1
+			],
+			[
+				"generation:largecryocloud4_feature_mcstructure",
+				1
+			]
+		]
+	}
+}

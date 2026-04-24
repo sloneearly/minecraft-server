@@ -1,0 +1,55 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:growing_plant_feature": {
+    "body_blocks": [
+      [
+        "pa:buddydirtblock",
+        1
+      ],
+      [
+        "minecraft:cobblestone",
+        1
+      ],
+      [
+        "minecraft:mossy_cobblestone",
+        1
+      ]
+    ],
+    "head_blocks": [
+      [
+        "pa:ant_house",
+        1
+      ],
+      [
+        "pa:buddydirtblock",
+        1
+      ],
+      [
+        "minecraft:cobblestone",
+        1
+      ],
+      [
+        "minecraft:mossy_cobblestone",
+        1
+      ]
+    ],
+    "age": {
+      "range_min": 1,
+      "range_max": 5
+    },
+    "growth_direction": "up",
+    "height_distribution": [
+      [
+        {
+          "range_min": 2,
+          "range_max": 5
+        },
+        1
+      ]
+    ],
+    "description": {
+      "identifier": "pa:stoneejsjsjsjdjsisjsjajjwjwijsjsjshagathough"
+    },
+    "allow_water": false
+  }
+}

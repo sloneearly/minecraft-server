@@ -1,0 +1,19 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "ore:thin_cloud_feature"
+		},
+		"count": 20,
+		"replace_rules": [
+			{
+				"places_block": "block:thin_cloud",
+				"may_replace": [
+					{
+						"name": "block:cloud"
+					}
+				]
+			}
+		]
+	}
+}

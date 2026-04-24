@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "moonstone_leggings_b6aa7f80"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:moonstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "leggings:moonstone_leggings",
+      "count": 1
+    }
+  }
+}

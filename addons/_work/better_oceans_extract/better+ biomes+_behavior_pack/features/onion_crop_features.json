@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "pa:onion_crop_features"
+    },
+    "places_block": "pa:onion_crop",
+    "enforce_placement_rules": true,
+    "enforce_survivability_rules": true,
+    "may_attach_to": {
+      "bottom": [
+        "minecraft:farmland",
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:grass_path"
+      ]
+    },
+    "may_replace": [
+      "minecraft:air"
+    ]
+  }
+}

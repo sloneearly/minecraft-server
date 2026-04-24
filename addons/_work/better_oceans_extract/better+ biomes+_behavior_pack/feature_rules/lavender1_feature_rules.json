@@ -1,0 +1,51 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "pa:lavender1_feature_rules",
+      "places_feature": "pa:lavender1_scatter_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "pa:flower_plains"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "sunflower_plains"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "sunflower_plains"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 8,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          15
+        ]
+      }
+    }
+  }
+}

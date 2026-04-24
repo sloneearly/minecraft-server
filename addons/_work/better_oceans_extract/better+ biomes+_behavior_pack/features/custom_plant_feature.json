@@ -1,0 +1,43 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:growing_plant_feature": {
+    "body_blocks": [
+      [
+        "minecraft:amethyst_block",
+        1
+      ],
+      [
+        "minecraft:budding_amethyst",
+        1
+      ]
+    ],
+    "head_blocks": [
+      [
+        "minecraft:amethyst_block",
+        1
+      ],
+      [
+        "minecraft:budding_amethyst",
+        1
+      ]
+    ],
+    "age": {
+      "range_min": 1,
+      "range_max": 5
+    },
+    "growth_direction": "down",
+    "height_distribution": [
+      [
+        {
+          "range_min": 4,
+          "range_max": 8
+        },
+        1
+      ]
+    ],
+    "description": {
+      "identifier": "pa:custom_plant_feature"
+    },
+    "allow_water": false
+  }
+}

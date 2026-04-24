@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "starlite_leggings_47ad35fc"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "item:starlite",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "leggings:starlite_leggings",
+      "count": 1
+    }
+  }
+}

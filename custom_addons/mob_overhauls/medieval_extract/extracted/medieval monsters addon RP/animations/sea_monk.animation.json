@@ -1,0 +1,147 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.sea_monk.swim": {
+			"loop": true,
+			"animation_length": 0.2083,
+			"bones": {
+				"leftarm": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							35,
+							0,
+							0
+						],
+						"0.1667": [
+							-15,
+							0,
+							0
+						]
+					},
+					"position": [
+						0,
+						0,
+						0
+					],
+					"scale": 1
+				},
+				"rightarm": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							-25,
+							0,
+							0
+						],
+						"0.1667": [
+							37.5,
+							0,
+							0
+						]
+					},
+					"position": [
+						0,
+						0,
+						0
+					],
+					"scale": 1
+				}
+			}
+		},
+		"animation.sea_monk.idle": {
+			"loop": true,
+			"animation_length": 0.125,
+			"bones": {
+				"leftarm": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							0,
+							0,
+							-12.5
+						]
+					},
+					"position": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							1,
+							0,
+							0
+						]
+					},
+					"scale": 1
+				},
+				"rightarm": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							0,
+							0,
+							10
+						]
+					},
+					"position": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							-1,
+							0,
+							0
+						]
+					},
+					"scale": 1
+				}
+			}
+		},
+		"animation.sea_monk.attack": {
+			"loop": true,
+			"animation_length": 0.125,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							30,
+							0,
+							0
+						]
+					},
+					"position": [
+						0,
+						0,
+						0
+					],
+					"scale": 1
+				}
+			}
+		}
+	}
+}

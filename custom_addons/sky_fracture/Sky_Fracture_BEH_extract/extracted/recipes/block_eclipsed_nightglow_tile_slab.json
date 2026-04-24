@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "eclipsed_nightglow_tile_slab_1a056ef8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:eclipsed_nightglow_tiles",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:eclipsed_nightglow_tile_slab",
+      "count": 6
+    }
+  }
+}

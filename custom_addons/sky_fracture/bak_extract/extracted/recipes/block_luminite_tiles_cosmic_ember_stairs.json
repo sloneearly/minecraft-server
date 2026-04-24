@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "luminite_tiles_cosmic_ember_stairs_5fef2911"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:luminite_tiles_cosmic_ember",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:luminite_tiles_cosmic_ember_stairs",
+      "count": 3
+    }
+  }
+}

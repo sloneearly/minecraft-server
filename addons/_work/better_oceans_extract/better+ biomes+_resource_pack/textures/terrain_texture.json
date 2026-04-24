@@ -1,0 +1,423 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "pa_ant_house": {
+      "textures": [
+        "textures/blocks/pa_ant_house"
+      ]
+    },
+    "pa_ant_housep": {
+      "textures": [
+        "textures/blocks/pa_ant_housep"
+      ]
+    },
+    "pa_big_hirch_sapling": {
+      "textures": [
+        "textures/blocks/pa_big_hirch_sapling"
+      ]
+    },
+    "pa_blue_mushroom_block": {
+      "textures": [
+        "textures/blocks/pa_blue_mushroom_block"
+      ]
+    },
+    "pa_blue_mushroom_log": {
+      "textures": [
+        "textures/blocks/pa_blue_mushroom_log"
+      ]
+    },
+    "pa_buddydirtblock": {
+      "textures": [
+        "textures/blocks/pa_buddydirtblock"
+      ]
+    },
+    "pa_blue_mushroom_sapling": {
+      "textures": [
+        "textures/blocks/pa_blue_mushroom_sapling"
+      ]
+    },
+    "pa_coconut_tree_sapling": {
+      "textures": [
+        "textures/blocks/pa_coconut_tree_sapling"
+      ]
+    },
+    "pa_coconutblockblock": {
+      "textures": [
+        "textures/blocks/pa_coconutblockblock"
+      ]
+    },
+    "pa_dogwood_planks_slab": {
+      "textures": [
+        "textures/blocks/pa_dogwood_planks_slab"
+      ]
+    },
+    "pa_dogwood_planks_stair": {
+      "textures": [
+        "textures/blocks/pa_dogwood_planks_stair"
+      ]
+    },
+    "pa_dogwood_sapling": {
+      "textures": [
+        "textures/blocks/pa_dogwood_sapling"
+      ]
+    },
+    "pa_dogwood_planks_stair_fence": {
+      "textures": [
+        "textures/blocks/pa_dogwood_planks_stair_fence"
+      ]
+    },
+    "pa_dogwood_planks_door_upper": {
+      "textures": [
+        "textures/blocks/pa_dogwood_planks_door_upper"
+      ]
+    },
+    "pa_dogwood_planks_door_lower": {
+      "textures": [
+        "textures/blocks/pa_dogwood_planks_door_lower"
+      ]
+    },
+    "pa_dogwoodleafs": {
+      "textures": [
+        "textures/blocks/pa_dogwoodleafs"
+      ]
+    },
+    "pa_dogwoodplanks": {
+      "textures": [
+        "textures/blocks/pa_dogwoodplanks"
+      ]
+    },
+    "pa_dogwoodlog": {
+      "textures": [
+        "textures/blocks/pa_dogwoodlog"
+      ]
+    },
+    "pa_ender_ore": {
+      "textures": [
+        "textures/blocks/pa_ender_ore"
+      ]
+    },
+    "pa_ender_block": {
+      "textures": [
+        "textures/blocks/pa_ender_block"
+      ]
+    },
+    "pa_eye_blossom_bush_stage_0": {
+      "textures": [
+        "textures/blocks/pa_eye_blossom_bush_stage_0"
+      ]
+    },
+    "pa_gold_jasmine_stage_0": {
+      "textures": [
+        "textures/blocks/pa_gold_jasmine_stage_0"
+      ]
+    },
+    "pa_eye_blossom_bush_stage_1": {
+      "textures": [
+        "textures/blocks/pa_eye_blossom_bush_stage_1"
+      ]
+    },
+    "pa_gold_jasmine_stage_1": {
+      "textures": [
+        "textures/blocks/pa_gold_jasmine_stage_1"
+      ]
+    },
+    "pa_eye_blossom_bush_stage_2": {
+      "textures": [
+        "textures/blocks/pa_eye_blossom_bush_stage_2"
+      ]
+    },
+    "pa_eye_blossom_bush_stage_3": {
+      "textures": [
+        "textures/blocks/pa_eye_blossom_bush_stage_3"
+      ]
+    },
+    "pa_eye_blossom_bush_stage_4": {
+      "textures": [
+        "textures/blocks/pa_eye_blossom_bush_stage_4"
+      ]
+    },
+    "pa_eye_blossom_bush_stage_5": {
+      "textures": [
+        "textures/blocks/pa_eye_blossom_bush_stage_5"
+      ]
+    },
+    "pa_eye_blossom_bush_stage_6": {
+      "textures": [
+        "textures/blocks/pa_eye_blossom_bush_stage_6"
+      ]
+    },
+    "pa_icewoodlog": {
+      "textures": [
+        "textures/blocks/pa_icewoodlog"
+      ]
+    },
+    "pa_jasmine_stage_0": {
+      "textures": [
+        "textures/blocks/pa_jasmine_stage_0"
+      ]
+    },
+    "pa_jasmine_stage_1": {
+      "textures": [
+        "textures/blocks/pa_jasmine_stage_1"
+      ]
+    },
+    "pa_lavender_stage_0": {
+      "textures": [
+        "textures/blocks/pa_lavender_stage_0"
+      ]
+    },
+    "pa_lavender1_stage_0": {
+      "textures": [
+        "textures/blocks/pa_lavender1_stage_0"
+      ]
+    },
+    "pa_lavender_stage_1": {
+      "textures": [
+        "textures/blocks/pa_lavender_stage_1"
+      ]
+    },
+    "pa_lavender1_stage_1": {
+      "textures": [
+        "textures/blocks/pa_lavender1_stage_1"
+      ]
+    },
+    "pa_lavender1_stage_2": {
+      "textures": [
+        "textures/blocks/pa_lavender1_stage_2"
+      ]
+    },
+    "pa_lavender1_stage_3": {
+      "textures": [
+        "textures/blocks/pa_lavender1_stage_3"
+      ]
+    },
+    "pa_lumi_lily_stage_0": {
+      "textures": [
+        "textures/blocks/pa_lumi_lily_stage_0"
+      ]
+    },
+    "pa_lumi_lily_stage_1": {
+      "textures": [
+        "textures/blocks/pa_lumi_lily_stage_1"
+      ]
+    },
+    "pa_lilac_flower_stage_0": {
+      "textures": [
+        "textures/blocks/pa_lilac_flower_stage_0"
+      ]
+    },
+    "pa_lilies_stage_0": {
+      "textures": [
+        "textures/blocks/pa_lilies_stage_0"
+      ]
+    },
+    "pa_lilac_flower_stage_1": {
+      "textures": [
+        "textures/blocks/pa_lilac_flower_stage_1"
+      ]
+    },
+    "pa_lilies_stage_1": {
+      "textures": [
+        "textures/blocks/pa_lilies_stage_1"
+      ]
+    },
+    "pa_muddydeepsand": {
+      "textures": [
+        "textures/blocks/pa_muddydeepsand"
+      ]
+    },
+    "pa_onion_crop_stage_0": {
+      "textures": [
+        "textures/blocks/pa_onion_crop_stage_0"
+      ]
+    },
+    "pa_onion_crop_stage_1": {
+      "textures": [
+        "textures/blocks/pa_onion_crop_stage_1"
+      ]
+    },
+    "pa_onion_crop_stage_2": {
+      "textures": [
+        "textures/blocks/pa_onion_crop_stage_2"
+      ]
+    },
+    "pa_onion_crop_stage_3": {
+      "textures": [
+        "textures/blocks/pa_onion_crop_stage_3"
+      ]
+    },
+    "pa_onion_crop_stage_4": {
+      "textures": [
+        "textures/blocks/pa_onion_crop_stage_4"
+      ]
+    },
+    "pa_onion_crop_stage_5": {
+      "textures": [
+        "textures/blocks/pa_onion_crop_stage_5"
+      ]
+    },
+    "pa_onion_crop_stage_6": {
+      "textures": [
+        "textures/blocks/pa_onion_crop_stage_6"
+      ]
+    },
+    "pa_redrobinhouse": {
+      "textures": [
+        "textures/blocks/pa_redrobinhouse"
+      ]
+    },
+    "pa_rosebush_stage_0": {
+      "textures": [
+        "textures/blocks/pa_rosebush_stage_0"
+      ]
+    },
+    "pa_rosebush_stage_1": {
+      "textures": [
+        "textures/blocks/pa_rosebush_stage_1"
+      ]
+    },
+    "pa_roses_bush_stage_0": {
+      "textures": [
+        "textures/blocks/pa_roses_bush_stage_0"
+      ]
+    },
+    "pa_roses_bush_stage_1": {
+      "textures": [
+        "textures/blocks/pa_roses_bush_stage_1"
+      ]
+    },
+    "pa_weeping_willow_leafs": {
+      "textures": [
+        "textures/blocks/pa_weeping_willow_leafs"
+      ]
+    },
+    "pa_super_netherblock": {
+      "textures": [
+        "textures/blocks/pa_super_netherblock"
+      ]
+    },
+    "pa_tall_wheat1_stage_0": {
+      "textures": [
+        "textures/blocks/pa_tall_wheat1_stage_0"
+      ]
+    },
+    "pa_tall_wheat1_stage_1": {
+      "textures": [
+        "textures/blocks/pa_tall_wheat1_stage_1"
+      ]
+    },
+    "pa_tall_wheat_stage_0": {
+      "textures": [
+        "textures/blocks/pa_tall_wheat_stage_0"
+      ]
+    },
+    "pa_tall_wheat1_stage_2": {
+      "textures": [
+        "textures/blocks/pa_tall_wheat1_stage_2"
+      ]
+    },
+    "pa_tall_wheat_stage_1": {
+      "textures": [
+        "textures/blocks/pa_tall_wheat_stage_1"
+      ]
+    },
+    "pa_tall_wheat1_stage_3": {
+      "textures": [
+        "textures/blocks/pa_tall_wheat1_stage_3"
+      ]
+    },
+    "pa_tall_wheat1_stage_4": {
+      "textures": [
+        "textures/blocks/pa_tall_wheat1_stage_4"
+      ]
+    },
+    "pa_tall_wheat1_stage_5": {
+      "textures": [
+        "textures/blocks/pa_tall_wheat1_stage_5"
+      ]
+    },
+    "pa_tall_wheat1_stage_6": {
+      "textures": [
+        "textures/blocks/pa_tall_wheat1_stage_6"
+      ]
+    },
+    "pa_weeping_willow_log": {
+      "textures": [
+        "textures/blocks/pa_weeping_willow_log"
+      ]
+    },
+    "pa_weeping_willow_planks": {
+      "textures": [
+        "textures/blocks/pa_weeping_willow_planks"
+      ]
+    },
+    "pa_weeping_willow_planks_slab": {
+      "textures": [
+        "textures/blocks/pa_weeping_willow_planks_slab"
+      ]
+    },
+    "pa_weeping_willow_sapling": {
+      "textures": [
+        "textures/blocks/pa_weeping_willow_sapling"
+      ]
+    },
+    "pa_weeping_willow_planks_stair": {
+      "textures": [
+        "textures/blocks/pa_weeping_willow_planks_stair"
+      ]
+    },
+    "pa_weepingwillow_planks_stair_fence": {
+      "textures": [
+        "textures/blocks/pa_weepingwillow_planks_stair_fence"
+      ]
+    },
+    "pa_weeping_willow_planks_door_upper": {
+      "textures": [
+        "textures/blocks/pa_weeping_willow_planks_door_upper"
+      ]
+    },
+    "pa_weeping_willow_planks_door_lower": {
+      "textures": [
+        "textures/blocks/pa_weeping_willow_planks_door_lower"
+      ]
+    },
+    "pa_wild_onion_stage_0": {
+      "textures": [
+        "textures/blocks/pa_wild_onion_stage_0"
+      ]
+    },
+    "pa_wild_onion_stage_1": {
+      "textures": [
+        "textures/blocks/pa_wild_onion_stage_1"
+      ]
+    },
+    "pa_wild_onion_stage_2": {
+      "textures": [
+        "textures/blocks/pa_wild_onion_stage_2"
+      ]
+    },
+    "pa_wild_onion_stage_3": {
+      "textures": [
+        "textures/blocks/pa_wild_onion_stage_3"
+      ]
+    },
+    "pa_wild_onion_stage_4": {
+      "textures": [
+        "textures/blocks/pa_wild_onion_stage_4"
+      ]
+    },
+    "pa_wild_onion_stage_5": {
+      "textures": [
+        "textures/blocks/pa_wild_onion_stage_5"
+      ]
+    },
+    "pa_zombie_slime": {
+      "textures": [
+        "textures/blocks/pa_zombie_slime"
+      ]
+    }
+  }
+}

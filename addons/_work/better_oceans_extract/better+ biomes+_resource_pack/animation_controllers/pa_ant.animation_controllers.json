@@ -1,0 +1,18 @@
+{
+  "format_version": "1.19.0",
+  "animation_controllers": {
+    "controller.animation.pa_ant.move": {
+      "states": {
+        "default": {
+          "animations": [
+            "default_leg_pose",
+            {
+              "walk": "query.modified_move_speed"
+            },
+            "look_at_target"
+          ]
+        }
+      }
+    }
+  }
+}

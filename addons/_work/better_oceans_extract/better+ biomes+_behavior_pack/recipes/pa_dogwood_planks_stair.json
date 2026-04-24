@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dogwood_planks_stair_7cf71a08"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  A",
+      " AA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:dogwoodplanks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:dogwood_planks_stair",
+      "count": 6
+    }
+  }
+}

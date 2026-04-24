@@ -1,0 +1,15 @@
+{
+  "format_version": "1.17.20",
+  "minecraft:npc_dialogue": {
+    "scenes": [
+      {
+        "scene_tag": "flowerbook",
+        "npc_name": "flower book",
+        "text": "Lavender\n * Location: Found exclusively in the Lavender Plains biome.\n * Usage: Drop this fragrant flower to collect it. When placed in a Brewing Stand as a Reagent with a Water Bottle, it creates a soothing Lavender Brew.\nOnion\n * Type: A versatile Crop that can be eaten raw to restore hunger.\n * Brewing: Harvest the bulb and use it as a Reagent with a Water Bottle to craft a savory Onion Brew.\nRose Bush\n * Location: Native to the Rose Bush Plains.\n * Brewing: These tall blooms act as a Reagent in the Brewing Stand. Combine one with a Water Bottle to produce a floral Rose Brew.\nLumi Lily\n * Discovery: A rare ancient plant that can only be found when a Sniffer digs it up from the earth.\n * Brewing: This glowing lily serves as a powerful Reagent. Mix it with a Water Bottle to create the luminous Lumi Lily Brew.\nJasmine\n * Location: Scarsely scattered throughout Flower Forests and Plains.\n * Brewing: Use these delicate white petals as a Reagent with a Water Bottle to brew a light Jasmine Brew.",
+        "on_open_commands": [],
+        "on_close_commands": [],
+        "buttons": []
+      }
+    ]
+  }
+}

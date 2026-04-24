@@ -1,0 +1,97 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.20.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mob:crop_growth_sf",
+			"runtime_identifier": "minecraft:snowball",
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:physics": {
+				"has_gravity": false
+			},
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"event": "e",
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_biome_tag",
+									"value": "overworld",
+									"operator": "=="
+								}
+							]
+						}
+					},
+					{
+						"event": "despawn",
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_biome_tag",
+									"value": "the_end",
+									"operator": "!="
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"events": {
+			"e": {
+				"randomize": [
+					{
+						"weight": 25,
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"fill ~~~ ~~~ block:cloud_straw_3 replace block:cloud_straw_2",
+										"fill ~~~ ~~~ block:cloud_straw_2 replace block:cloud_straw_1",
+										"fill ~~~ ~~~ block:fuzzy_carrot_3 replace block:fuzzy_carrot_2",
+										"fill ~~~ ~~~ block:fuzzy_carrot_2 replace block:fuzzy_carrot_1"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 1
+					}
+				]
+			},
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			}
+		}
+	}
+}

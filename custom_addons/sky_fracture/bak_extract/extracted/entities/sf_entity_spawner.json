@@ -1,0 +1,1491 @@
+//bridge-file-version: #340
+{
+	"format_version": "1.20.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mechanic:sf_entity_spawner",
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:timer": {
+				"time": [
+					0.1,
+					0.1
+				],
+				"looping": true,
+				"time_down_event": {
+					"event": "despawn",
+					"target": "self"
+				}
+			},
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "weather",
+									"operator": "==",
+									"value": "thunderstorm"
+								},
+								{
+									"test": "light_level",
+									"operator": "<=",
+									"value": 12
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "desert"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "mesa"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "cold"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "frozen"
+								}
+							]
+						},
+						"event": "thunder_mobs"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "weather",
+									"operator": "!=",
+									"value": "thunderstorm"
+								},
+								{
+									"test": "weather",
+									"operator": "==",
+									"value": "precipitation"
+								},
+								{
+									"test": "light_level",
+									"operator": "<=",
+									"value": 12
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "desert"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "mesa"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "cold"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "frozen"
+								}
+							]
+						},
+						"event": "rain_mobs"
+					},
+					{
+						"target": "self",
+						"event": "nightglow_mobs",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_altitude",
+									"value": 230,
+									"operator": ">"
+								},
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"value": "swamp",
+											"operator": "=="
+										},
+										{
+											"test": "has_biome_tag",
+											"value": "jungle",
+											"operator": "=="
+										},
+										{
+											"test": "has_biome_tag",
+											"value": "mushroom_island",
+											"operator": "=="
+										}
+									]
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "frozen"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "cold"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "bamboo"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "birch"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "taiga"
+								}
+							]
+						}
+					},
+					{
+						"target": "self",
+						"event": "starlite_mobs",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_altitude",
+									"value": 230,
+									"operator": ">"
+								},
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"value": "birch",
+											"operator": "=="
+										},
+										{
+											"test": "has_biome_tag",
+											"value": "pale_garden",
+											"operator": "=="
+										}
+									]
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "frozen"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "cold"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "taiga"
+								}
+							]
+						}
+					},
+					{
+						"target": "self",
+						"event": "windswept_mobs",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_altitude",
+									"value": 230,
+									"operator": ">"
+								},
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"value": "forest",
+											"operator": "=="
+										},
+										{
+											"test": "has_biome_tag",
+											"value": "river",
+											"operator": "=="
+										}
+									]
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "frozen"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "cold"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "taiga"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "birch"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "roofed"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "extreme_hills"
+								}
+							]
+						}
+					},
+					{
+						"target": "self",
+						"event": "hurricane_mobs",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_altitude",
+									"value": 230,
+									"operator": ">"
+								},
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"value": "mountains",
+											"operator": "=="
+										},
+										{
+											"test": "has_biome_tag",
+											"value": "ocean",
+											"operator": "=="
+										}
+									]
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "frozen"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "cold"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "taiga"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "birch"
+								}
+							]
+						}
+					},
+					{
+						"target": "self",
+						"event": "sunspots_mobs",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_altitude",
+									"value": 230,
+									"operator": ">"
+								},
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"value": "mesa",
+											"operator": "=="
+										},
+										{
+											"test": "has_biome_tag",
+											"value": "roofed",
+											"operator": "=="
+										},
+										{
+											"test": "has_biome_tag",
+											"value": "mangrove_swamp",
+											"operator": "=="
+										}
+									]
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "frozen"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "cold"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "taiga"
+								}
+							]
+						}
+					},
+					{
+						"target": "self",
+						"event": "stellarspace_mobs",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_altitude",
+									"value": 230,
+									"operator": ">"
+								},
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"value": "savanna",
+											"operator": "=="
+										},
+										{
+											"test": "has_biome_tag",
+											"value": "cherry_grove",
+											"operator": "=="
+										}
+									]
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "frozen"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "cold"
+								}
+							]
+						}
+					},
+					{
+						"target": "self",
+						"event": "cryo_spikes_mobs",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_altitude",
+									"operator": ">",
+									"value": 230
+								},
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"value": "frozen",
+											"operator": "=="
+										},
+										{
+											"test": "has_biome_tag",
+											"value": "cold",
+											"operator": "=="
+										},
+										{
+											"test": "has_biome_tag",
+											"value": "taiga",
+											"operator": "=="
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"target": "self",
+						"event": "moon_mobs",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_altitude",
+									"value": 230,
+									"operator": ">"
+								},
+								{
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"value": "plains",
+											"operator": "=="
+										},
+										{
+											"test": "has_biome_tag",
+											"value": "desert",
+											"operator": "=="
+										}
+									]
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "frozen"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "cold"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "taiga"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"events": {
+			"rain_mobs": {
+				"randomize": [
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:flying_fish ~~1~ ~~ rain"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 3
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon breeze ~~1~ ~~ rain"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:wind_creeper ~~1~ ~~ rain"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 3
+					}
+				]
+			},
+			"thunder_mobs": {
+				"randomize": [
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:angry_nimbus ~~1~ ~~ rain"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 1
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:cyclord ~~1~ ~~ rain"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:storm_creeper ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 3
+					}
+				]
+			},
+			"windswept_mobs": {
+				"randomize": [
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:flying_fish ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 3
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon breeze ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:wind_creeper ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 3
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:clouded ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:aeroslime ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:cloud_slime ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon happy_ghast ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run function naturalskyliners1"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:clouded ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run function naturalskyliners2"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					}
+				]
+			},
+			"hurricane_mobs": {
+				"randomize": [
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:angry_nimbus ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 1
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:cyclord ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:storm_creeper ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 3
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:flying_fish ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run function naturalskyliners1"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					}
+				]
+			},
+			"cryo_spikes_mobs": {
+				"randomize": [
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:ice_fairy ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 3
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:cryorite ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:blizzard ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 3
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:winter_breeze ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 3
+					}
+				]
+			},
+			"stellarspace_mobs": {
+				"randomize": [
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:orbiltar ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 3
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:stellariac ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					}
+				]
+			},
+			"sunspots_mobs": {
+				"randomize": [
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:solaling ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 6
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:solaronemone ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 1
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:sky_seeker_sleeping ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 6
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon blaze ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 6
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run function naturalskyliners1"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					}
+				]
+			},
+			"nightglow_mobs": {
+				"randomize": [
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:nightglow_mooshroom ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 4
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:skyliner ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon happy_ghast ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:cloud_slime ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:aeroslime ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run function naturalskyliners1"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					}
+				]
+			},
+			"starlite_mobs": {
+				"randomize": [
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:sky_seeker_sleeping ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 4
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:clouded ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:skyliner ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:aeroslime ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:ringelite ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 1
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run function naturalskyliners1"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:feelite ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 2
+					}
+				]
+			},
+			"moon_mobs": {
+				"randomize": [
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:specter ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 1
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon phantom ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 5
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:moon_cow ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 5
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:moonfrages ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 5
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run function naturalskyliners1"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 3
+					},
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"execute at @s run execute unless entity @e[r=18,type=!mechanic:sf_entity_spawner] at @s run summon mob:phantling ~~1~"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 4
+					}
+				]
+			},
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			}
+		}
+	}
+}

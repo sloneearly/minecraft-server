@@ -1,0 +1,1 @@
+give @s pa:blue_mushroom_log

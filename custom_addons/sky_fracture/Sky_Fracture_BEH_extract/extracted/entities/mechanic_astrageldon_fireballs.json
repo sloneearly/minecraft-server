@@ -1,0 +1,112 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.20.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mechanic:astrageldon_fireballs",
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {
+			"fireballs3": {
+				"minecraft:timer": {
+					"looping": true,
+					"time": [
+						3,
+						3
+					],
+					"time_down_event": {
+						"event": "fireballs3",
+						"target": "self"
+					}
+				}
+			},
+			"fireballs2": {
+				"minecraft:timer": {
+					"looping": true,
+					"time": [
+						3,
+						3
+					],
+					"time_down_event": {
+						"event": "fireballs2",
+						"target": "self"
+					}
+				}
+			},
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:timer": {
+				"looping": true,
+				"time": [
+					3,
+					3
+				],
+				"time_down_event": {
+					"event": "fireballs1",
+					"target": "self"
+				}
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			}
+		},
+		"events": {
+			"fireballs2": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"function astrageldonfireballs2"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			},
+			"fireballs1": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"function astrageldonfireballs"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"fireballs2"
+							]
+						}
+					}
+				]
+			},
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			}
+		}
+	}
+}

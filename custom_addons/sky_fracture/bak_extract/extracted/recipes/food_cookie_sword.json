@@ -1,0 +1,36 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cookie_sword_6509fc07"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "item:cookie_mold_sword",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:cookie",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "food:cookie_sword",
+				"count": 1
+			},
+			{
+				"item": "item:cookie_mold_sword",
+				"count": 1
+			}
+		]
+	}
+}

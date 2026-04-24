@@ -1,0 +1,318 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.pa_red_robin_default",
+        "texture_width": 32.0,
+        "texture_height": 32.0,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [
+          0.0,
+          0.75,
+          0.0
+        ],
+        "visible_bounds_width": 2.0
+      },
+      "bones": [
+        {
+          "name": "body2",
+          "pivot": [
+            0,
+            7.5,
+            -3
+          ]
+        },
+        {
+          "name": "body",
+          "parent": "body2",
+          "pivot": [
+            0,
+            7.5,
+            -3
+          ],
+          "rotation": [
+            25,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -1.5,
+                1.5,
+                -4.5
+              ],
+              "size": [
+                3,
+                6,
+                3
+              ],
+              "uv": [
+                2,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wing0",
+          "parent": "body",
+          "pivot": [
+            1.5,
+            7.1,
+            -2.8
+          ],
+          "rotation": [
+            -10,
+            180,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                1,
+                2.1,
+                -4.3
+              ],
+              "size": [
+                1,
+                5,
+                3
+              ],
+              "uv": [
+                19,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wing1",
+          "parent": "body",
+          "pivot": [
+            -1.5,
+            7.1,
+            -2.8
+          ],
+          "rotation": [
+            -10,
+            180,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -2,
+                2.1,
+                -4.3
+              ],
+              "size": [
+                1,
+                5,
+                3
+              ],
+              "uv": [
+                19,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "body2",
+          "pivot": [
+            0,
+            8.3,
+            -2.8
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -1,
+                6.8,
+                -3.8
+              ],
+              "size": [
+                2,
+                3,
+                2
+              ],
+              "uv": [
+                2,
+                2
+              ]
+            },
+            {
+              "origin": [
+                -1,
+                9.8,
+                -3.8
+              ],
+              "size": [
+                2,
+                1,
+                2
+              ],
+              "uv": [
+                12,
+                2
+              ]
+            },
+            {
+              "origin": [
+                -1,
+                10.8,
+                -2.8
+              ],
+              "size": [
+                2,
+                1,
+                2
+              ],
+              "uv": [
+                12,
+                2
+              ]
+            },
+            {
+              "origin": [
+                -0.5,
+                7.8,
+                -4.7
+              ],
+              "size": [
+                1,
+                1,
+                1
+              ],
+              "uv": [
+                11,
+                7
+              ]
+            },
+            {
+              "origin": [
+                -0.5,
+                7.8,
+                -5.7
+              ],
+              "size": [
+                1,
+                1,
+                1
+              ],
+              "uv": [
+                11,
+                7
+              ]
+            },
+            {
+              "origin": [
+                -0.5,
+                6.8,
+                -4.7
+              ],
+              "size": [
+                1,
+                1,
+                1
+              ],
+              "uv": [
+                11,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "tail",
+          "parent": "body2",
+          "pivot": [
+            0,
+            2.9,
+            1.2
+          ],
+          "rotation": [
+            50,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -1.5,
+                -0.1,
+                0.2
+              ],
+              "size": [
+                3,
+                4,
+                1
+              ],
+              "uv": [
+                22,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leg0",
+          "parent": "body2",
+          "pivot": [
+            1.5,
+            1.5,
+            -0.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0.5,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                2,
+                1
+              ],
+              "uv": [
+                14,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leg1",
+          "parent": "body2",
+          "pivot": [
+            -0.5,
+            1.5,
+            -0.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -1.5,
+                0,
+                -1.5
+              ],
+              "size": [
+                1,
+                2,
+                1
+              ],
+              "uv": [
+                14,
+                18
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+//bridge-file-version: #38
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mob:specter",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"specter_fly": {
+				"minecraft:behavior.swoop_attack": {
+					"priority": 2,
+					"damage_reach": 0.2,
+					"speed_multiplier": 1,
+					"delay_range": [
+						10,
+						20
+					]
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 1,
+					"reselect_targets": true,
+					"scan_interval": 20,
+					"within_radius": 64,
+					"must_see_forget_duration": 0.5,
+					"target_search_height": 80,
+					"entity_types": [
+						{
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "player"
+							},
+							"max_dist": 64
+						}
+					]
+				},
+				"minecraft:environment_sensor": {
+					"triggers": [
+						{
+							"event": "mounted",
+							"target": "self",
+							"filters": {
+								"all_of": [
+									{
+										"test": "rider_count",
+										"value": 1
+									}
+								]
+							}
+						}
+					]
+				},
+				"minecraft:timer": {
+					"time": [
+						0,
+						0
+					],
+					"time_down_event": {
+						"event": "mount_player",
+						"target": "self"
+					}
+				}
+			},
+			"mounted": {
+				"minecraft:timer": {
+					"time": [
+						1.5,
+						3
+					],
+					"time_down_event": {
+						"event": "dismount_player",
+						"target": "self"
+					}
+				},
+				"minecraft:environment_sensor": {
+					"triggers": [
+						{
+							"event": "notmounted",
+							"target": "self",
+							"filters": {
+								"all_of": [
+									{
+										"test": "rider_count",
+										"value": 0
+									}
+								]
+							}
+						}
+					]
+				},
+				"minecraft:area_attack": {
+					"damage_range": 0.5,
+					"damage_per_tick": 1,
+					"cause": "contact",
+					"entity_filter": {
+						"any_of": [
+							{
+								"test": "is_family",
+								"subject": "other",
+								"value": "player"
+							}
+						]
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:experience_reward": {
+				"on_death": "query.last_hit_by_player ? 5 : 0"
+			},
+			"minecraft:type_family": {
+				"family": [
+					"phantom",
+					"undead",
+					"monster",
+					"mob"
+				]
+			},
+			"minecraft:nameable": {},
+			"minecraft:health": {
+				"value": 20,
+				"max": 20
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:physics": {
+				"has_gravity": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:attack": {
+				"damage": 6
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0,
+				"breathes_air": true,
+				"breathes_water": false
+			},
+			"minecraft:collision_box": {
+				"width": 1.8,
+				"height": 1
+			},
+			"minecraft:movement": {
+				"value": 1.8
+			},
+			"minecraft:movement.glide": {
+				"start_speed": 0.1,
+				"speed_when_turning": 0.2
+			},
+			"minecraft:follow_range": {
+				"value": 64,
+				"max": 64
+			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			"minecraft:behavior.avoid_mob_type": {
+				"priority": 0,
+				"max_dist": 16,
+				"ignore_visibility": true,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "ocelot"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "cat"
+								}
+							]
+						},
+						"max_dist": 16
+					}
+				]
+			},
+			"minecraft:behavior.circle_around_anchor": {
+				"priority": 3,
+				"radius_change": 1,
+				"radius_adjustment_chance": 0.004,
+				"height_adjustment_chance": 0.002857,
+				"goal_radius": 1,
+				"angle_change": 15,
+				"radius_range": [
+					5,
+					15
+				],
+				"height_offset_range": [
+					-4,
+					5
+				],
+				"height_above_target_range": [
+					20,
+					40
+				]
+			},
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"interact_text": "action.interact.mount",
+				"family_types": [
+					"player"
+				],
+				"seats": {
+					"position": [
+						0,
+						-1.2,
+						0
+					]
+				},
+				"rider_can_interact": true
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/specter.json"
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"specter_fly"
+					]
+				}
+			},
+			"mount_player": {
+				"queue_command": {
+					"command": [
+						"ride @r[r=3,m=!creative] start_riding @s"
+					]
+				}
+			},
+			"mounted": {
+				"add": {
+					"component_groups": [
+						"mounted"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"specter_fly"
+					]
+				}
+			},
+			"notmounted": {
+				"remove": {
+					"component_groups": [
+						"mounted"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"specter_fly"
+					]
+				}
+			},
+			"dismount_player": {
+				"queue_command": {
+					"command": [
+						"tp @p[r=2] ~~-4~"
+					]
+				}
+			}
+		}
+	}
+}

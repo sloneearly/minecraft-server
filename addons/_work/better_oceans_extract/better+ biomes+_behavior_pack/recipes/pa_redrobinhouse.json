@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "redrobinhouse_c309d57f"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "A A",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:birch_log",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:redrobinhouse",
+      "count": 4
+    }
+  }
+}

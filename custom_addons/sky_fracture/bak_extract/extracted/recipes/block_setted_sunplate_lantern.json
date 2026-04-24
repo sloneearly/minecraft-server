@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "setted_sunplate_lantern_5087a997"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_nugget",
+        "data": 0
+      },
+      "B": {
+        "item": "block:setted_sunplate_torch",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:setted_sunplate_lantern",
+      "count": 1
+    }
+  }
+}

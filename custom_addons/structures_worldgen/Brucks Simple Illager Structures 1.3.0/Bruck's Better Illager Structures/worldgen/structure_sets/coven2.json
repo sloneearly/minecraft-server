@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "bruck:coven2"
+    },
+    "structures": [
+      {
+        "structure": "bruck:coven2",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 35741294,
+      "spacing": 102,
+      "separation": 25,
+      "spread_type": "linear"
+    }
+  }
+}

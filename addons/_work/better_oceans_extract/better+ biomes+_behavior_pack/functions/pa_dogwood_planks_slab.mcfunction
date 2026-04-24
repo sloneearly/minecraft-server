@@ -1,0 +1,1 @@
+give @s pa:dogwood_planks_slab

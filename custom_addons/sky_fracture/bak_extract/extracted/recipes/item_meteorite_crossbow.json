@@ -1,0 +1,38 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "meteorite_crossbow_ef3c3c51"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "block:meteorite",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:diamond",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:string",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:tripwire_hook",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:meteorite_crossbow",
+      "count": 1
+    }
+  }
+}

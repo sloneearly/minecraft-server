@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "bruck:dungeon2"
+    },
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "bruck/dungeon2",
+          "processors": "bruck:default",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
+}

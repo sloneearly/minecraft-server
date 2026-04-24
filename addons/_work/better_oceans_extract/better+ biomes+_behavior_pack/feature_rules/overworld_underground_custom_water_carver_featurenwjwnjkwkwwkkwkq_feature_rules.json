@@ -1,0 +1,42 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "pa:custom_water_carver_featurenwjwnjkwkwwkkwkq_feature_rules",
+      "places_feature": "pa:custom_water_carver_featurenwjwnjkwkwwkkwkq"
+    },
+    "conditions": {
+      "placement_pass": "pregeneration_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "pa:mushroomblue"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 6,
+      "x": {
+        "extent": [
+          0,
+          16
+        ],
+        "distribution": "uniform"
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz)",
+      "z": {
+        "extent": [
+          0,
+          16
+        ],
+        "distribution": "uniform"
+      },
+      "coordinate_eval_order": "zyx"
+    }
+  }
+}

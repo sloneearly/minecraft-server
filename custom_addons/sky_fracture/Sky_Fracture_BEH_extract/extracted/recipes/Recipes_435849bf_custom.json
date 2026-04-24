@@ -1,0 +1,42 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_f7353f7d"
+    },
+    "tags": [
+      "soul_forge"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "EBE"
+    ],
+    "key": {
+      "A": {
+        "item": "block:solargem_block",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:netherite_ingot",
+        "data": 0
+      },
+      "C": {
+        "item": "block:lunargem_block",
+        "data": 0
+      },
+      "D": {
+        "item": "item:comet_forging_template",
+        "data": 0
+      },
+      "E": {
+        "item": "block:starlite_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:comet_forging_template",
+      "count": 2
+    }
+  }
+}

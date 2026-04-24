@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "item:cloud_straw_seeds",
+      "menu_category": {
+        "category": "nature",
+        "group": "itemGroup.name.nature"
+      }
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "block:cloud_straw_1"
+      },
+      "minecraft:icon": "item:cloud_straw_seeds"
+    }
+  }
+}

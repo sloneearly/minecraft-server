@@ -1,0 +1,1371 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.20.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mechanic:astrageldon_rain",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"minecraft:despawn": {
+				"minecraft:type_family": {
+					"family": [
+						"despawncito"
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:despawn": {
+				"filters": {
+					"all_of": [
+						{
+							"test": "is_family",
+							"subject": "self",
+							"value": "despawncito"
+						}
+					]
+				}
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:timer": {
+				"looping": true,
+				"time": [
+					0.01,
+					0.01
+				],
+				"time_down_event": {
+					"event": "minecraft:event_despawn",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"minecraft:event_despawn": {
+				"randomize": [
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~2~20~7"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~5~20~8"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-5~20~-8"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-3~20~4"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~~20~"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~5~20~5"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-5~20~5"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-5~20~9"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~2~20~2"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~1~20~1"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-1~20~-1"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-1~20~1"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-2~20~5"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-2~20~-1"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-2~20~-3"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-2~20~-1"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~2~20~-1"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~2~20~1"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~2~20~"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~~20~2"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~3~20~2"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~3~20~3"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~3~20~4"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~4~20~4"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~6~20~6"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~6~20~-6"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-6~20~-6"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-6~20~-5"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-5~20~-5"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-5~20~-4"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-4~20~-4"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-4~20~-3"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-3~20~-3"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-3~20~-2"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-2~20~-2"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-2~20~-1"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-1~20~-1"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-1~20~1"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-1~20~1"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-2~20~2"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-3~20~3"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-4~20~4"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-5~20~5"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-6~20~6"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~6~20~-6"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~5~20~-5"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~4~20~-4"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~1~20~-3"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~1~20~-1"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~2~20~-2"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~9~20~9"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-9~20~-9"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-5~20~-9"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-3~20~9"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~9~20~"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-10~20~10"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-5~20~11"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-11~20~9"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~10~20~9"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~1~20~9"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-11~20~-12"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-11~20~13"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-12~20~13"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-12~20~-13"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-12~20~13"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~12~20~-13"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~12~20~-1"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~10~20~1"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~2~20~-9"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~9~20~2"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~12~20~2"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~3~20~13"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~3~20~14"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~14~20~4"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~6~20~15"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~12~20~-6"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-12~20~-6"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-1~20~-12"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-11~20~-3"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-12~20~4"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-14~20~4"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-4~20~-13"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-13~20~-3"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-13~20~-6"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-8~20~-12"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-12~20~-11"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-13~20~-1"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-1~20~13"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-12~20~1"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-2~20~12"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-13~20~8"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-14~20~9"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-15~20~5"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~-16~20~16"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~176~20~-6"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~15~20~-10"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~14~20~-4"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~13~20~-3"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~17~20~-10"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run summon projectile:astrageldon_blast ~12~20~-9"
+							]
+						},
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"minecraft:despawn"
+							]
+						},
+						"weight": 300
+					}
+				]
+			}
+		}
+	}
+}

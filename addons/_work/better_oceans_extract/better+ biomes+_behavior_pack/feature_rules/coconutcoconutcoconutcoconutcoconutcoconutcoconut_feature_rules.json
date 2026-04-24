@@ -1,0 +1,106 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "pa:coconutcoconutcoconutcoconutcoconutcoconutcoconut_feature_rules",
+      "places_feature": "pa:coconutcoconutcoconutcoconutcoconutcoconutcoconut"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "beach"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "birch"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "birch_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "birch_forest_hills"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "birch_forest_hills_mutated"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "birch_forest_mutated"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "cherry_grove"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "flower_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "forest_hills"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "hills"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "plains"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "river"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "shore"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 3,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          8
+        ]
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          8
+        ]
+      }
+    }
+  }
+}

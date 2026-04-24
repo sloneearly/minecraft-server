@@ -1,0 +1,12 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "svs:aldea2_cmd"
+		},
+		"structure_name": "mystructure:a2_cmd",
+		"adjustment_radius": 15,
+		"facing_direction": "random",
+		"constraints": {}
+	}
+}

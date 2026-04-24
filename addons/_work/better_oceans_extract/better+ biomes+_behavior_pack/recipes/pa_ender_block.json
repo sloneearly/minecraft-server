@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ender_block_cc33fbaf"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:ender_crystal",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:ender_block",
+      "count": 1
+    }
+  }
+}

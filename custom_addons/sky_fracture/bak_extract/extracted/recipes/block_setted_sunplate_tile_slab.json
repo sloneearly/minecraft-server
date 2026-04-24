@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "setted_sunplate_tile_slab_16b26887"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:setted_sunplate_tiles",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:setted_sunplate_tile_slab",
+      "count": 6
+    }
+  }
+}

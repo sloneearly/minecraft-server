@@ -1,0 +1,116 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.amphisbaena.move": {
+			"loop": true,
+			"animation_length": 0.2083,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"leg0": {
+					"rotation": [
+						"-65+math.cos(query.anim_time*38.17)*80",
+						0,
+						0
+					],
+					"position": [
+						0,
+						1,
+						0
+					]
+				},
+				"leg1": {
+					"rotation": [
+						"math.cos(query.anim_time * 38.17) * +345",
+						0,
+						0
+					],
+					"position": [
+						0,
+						1,
+						0
+					]
+				},
+				"wing0": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							0,
+							0,
+							62.5
+						]
+					},
+					"position": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							0,
+							-1,
+							0
+						]
+					},
+					"scale": 1
+				},
+				"wing1": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							0,
+							0,
+							-65
+						]
+					},
+					"position": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							0,
+							-1,
+							0
+						]
+					},
+					"scale": 1
+				}
+			}
+		},
+		"animation.amphisbaena.attack": {
+			"loop": true,
+			"animation_length": 0.3333,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0833": [
+							30,
+							0,
+							0
+						]
+					},
+					"position": [
+						0,
+						0,
+						0
+					],
+					"scale": 1
+				}
+			}
+		}
+	}
+}

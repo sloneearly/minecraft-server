@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "solar_charge_60362edf"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:fireball",
+        "data": 0
+      },
+      "B": {
+        "item": "item:solargem",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:solar_charge",
+      "count": 5
+    }
+  }
+}

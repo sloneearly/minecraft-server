@@ -1,0 +1,44 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_c2175b46"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BCD",
+      " E "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:red_tulip",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:orange_tulip",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:book",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:pink_tulip",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:white_tulip",
+        "data": 0
+      }
+    },
+    "result": [
+      {
+        "item": "pa:book",
+        "count": 1
+      }
+    ]
+  }
+}

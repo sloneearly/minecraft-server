@@ -1,0 +1,1 @@
+give @s pa:weepingwillow_planks_stair_fence

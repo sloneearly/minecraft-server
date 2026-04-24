@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_cea7bde2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "pa:weeping_willow_planks",
+        "data": 0
+      }
+    },
+    "result": [
+      {
+        "item": "minecraft:crafting_table",
+        "count": 1,
+        "data": 0
+      }
+    ],
+    "unlock": [
+      {
+        "item": "pa:weeping_willow_planks"
+      },
+      {
+        "item": "pa:weeping_willow_log"
+      }
+    ]
+  }
+}

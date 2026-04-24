@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "luminite_pillar_heavenforge_c4ba76f5"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:luminite_tiles_heavenforge_slab",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:luminite_pillar_heavenforge",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sunplate_ingot_e583ac5b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "block:setted_sunplate_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:sunplate_ingot",
+      "count": 9
+    }
+  }
+}
