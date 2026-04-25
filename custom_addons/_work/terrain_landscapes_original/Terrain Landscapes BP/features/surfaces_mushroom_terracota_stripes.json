@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:surfaces_mushroom_terracota_stripes"
+		},
+		"iterations": "t.stripe=math.floor(math.mod(v.worldy , 30));v.surfaces_mushroom_terracota_stripes__switch = (t.stripe <= 3) ? 0 : (t.stripe >= 14 && t.stripe <= 17) ? 1 : (t.stripe == 18) ? 2 : 3;return 1;",
+		"places_feature": "shapescape:surfaces_mushroom_terracota_stripes__cond_aggr",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:leafs_birch_small_5"
+		},
+		"features": [
+			["minecraft:birch_leaves", 150]
+		]
+	}
+}

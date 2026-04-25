@@ -1,0 +1,402 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\feature_rules\\dark_forest_small_clump.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "23711189_d326_4df6_a5aa_4cdb13b94521",
+	"file_version": 16,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:dark_forest_small_clump",
+							"places_feature": "flour_tree:small_roofed"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "roofed"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": "math.clamp(math.trunc(math.round((query.noise(math.trunc(variable.originx / 80), math.trunc(variable.originz / 80)) + 0.3))), 0, 6)",
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									"query.heightmap(variable.worldx, variable.worldz) - 1",
+									"query.heightmap(variable.worldx, variable.worldz)"
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:dark_forest_small_clump",
+							"places_feature": "flour_tree:small_roofed"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "roofed"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": "math.clamp(math.trunc(math.round((query.noise(math.trunc(variable.originx / 80), math.trunc(variable.originz / 80)) + 0.3))), 0, 6)",
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									"query.heightmap(variable.worldx, variable.worldz) - 1",
+									"query.heightmap(variable.worldx, variable.worldz)"
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:dark_forest_small_clump",
+								"places_feature": "flour_tree:small_roofed"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "roofed"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": "math.clamp(math.trunc(math.round((query.noise(math.trunc(variable.originx / 80), math.trunc(variable.originz / 80)) + 0.3))), 0, 6)",
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										"query.heightmap(variable.worldx, variable.worldz) - 1",
+										"query.heightmap(variable.worldx, variable.worldz)"
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:dark_forest_small_clump",
+							"places_feature": "flour_tree:small_roofed"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:dark_forest_small_clump",
+								"places_feature": "flour_tree:small_roofed"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "roofed"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": "math.clamp(math.trunc(math.round((query.noise(math.trunc(variable.originx / 80), math.trunc(variable.originz / 80)) + 0.3))), 0, 6)",
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										"query.heightmap(variable.worldx, variable.worldz) - 1",
+										"query.heightmap(variable.worldx, variable.worldz)"
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"data": "surface_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "surface_pass",
+									"minecraft:biome_filter": {
+										"all_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "roofed"
+											}
+										]
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": {
+											"all_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "roofed"
+												}
+											]
+										},
+										"key": "all_of",
+										"children": [
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "roofed"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "roofed"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:dark_forest_small_clump",
+								"places_feature": "flour_tree:small_roofed"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "roofed"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": "math.clamp(math.trunc(math.round((query.noise(math.trunc(variable.originx / 80), math.trunc(variable.originz / 80)) + 0.3))), 0, 6)",
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										"query.heightmap(variable.worldx, variable.worldz) - 1",
+										"query.heightmap(variable.worldx, variable.worldz)"
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"open": {
+									"iterations": "math.clamp(math.trunc(math.round((query.noise(math.trunc(variable.originx / 80), math.trunc(variable.originz / 80)) + 0.3))), 0, 6)",
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											"query.heightmap(variable.worldx, variable.worldz) - 1",
+											"query.heightmap(variable.worldx, variable.worldz)"
+										]
+									},
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									}
+								},
+								"data": "math.clamp(math.trunc(math.round((query.noise(math.trunc(variable.originx / 80), math.trunc(variable.originz / 80)) + 0.3))), 0, 6)",
+								"key": "iterations"
+							},
+							{
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							},
+							{
+								"open": {
+									"iterations": "math.clamp(math.trunc(math.round((query.noise(math.trunc(variable.originx / 80), math.trunc(variable.originz / 80)) + 0.3))), 0, 6)",
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											"query.heightmap(variable.worldx, variable.worldz) - 1",
+											"query.heightmap(variable.worldx, variable.worldz)"
+										]
+									},
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									}
+								},
+								"key": "y",
+								"children": [
+									{
+										"data": "uniform",
+										"key": "distribution"
+									},
+									{
+										"open": {
+											"distribution": "uniform",
+											"extent": [
+												"query.heightmap(variable.worldx, variable.worldz) - 1",
+												"query.heightmap(variable.worldx, variable.worldz)"
+											]
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											"query.heightmap(variable.worldx, variable.worldz) - 1",
+											"query.heightmap(variable.worldx, variable.worldz)"
+										]
+									}
+								]
+							},
+							{
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

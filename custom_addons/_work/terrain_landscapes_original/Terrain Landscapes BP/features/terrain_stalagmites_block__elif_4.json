@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_stalagmites_block__elif_4"
+		},
+		"iterations": "v.terrain_stalagmites_block__switch == 4",
+		"places_feature": "shapescape:terrain_pointed_dripstone_standing_middle",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

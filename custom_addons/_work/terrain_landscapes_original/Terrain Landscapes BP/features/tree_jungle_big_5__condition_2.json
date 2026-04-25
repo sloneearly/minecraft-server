@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:tree_jungle_big_5__condition_2"
+		},
+		"iterations": "return t.block == 2;",
+		"places_feature": "shapescape:vines_south",
+		"project_input_to_floor": false,
+		"coordinate_eval_order": "xzy",
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

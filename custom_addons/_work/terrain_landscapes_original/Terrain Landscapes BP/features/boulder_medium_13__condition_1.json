@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:boulder_medium_13__condition_1"
+		},
+		"iterations": "return t.block == 1;",
+		"places_feature": "shapescape:blocks_boulder_medium_13",
+		"project_input_to_floor": false,
+		"coordinate_eval_order": "xzy",
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

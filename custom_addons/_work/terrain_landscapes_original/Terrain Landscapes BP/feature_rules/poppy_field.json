@@ -1,0 +1,51 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "shapescape:poppy_field",
+			"places_feature": "shapescape:poppy_field_perlin_rule"
+		},
+		"conditions": {
+			"placement_pass": "before_sky_pass",
+			"minecraft:biome_filter": {
+				"all_of": [
+					{
+						"test": "has_biome_tag",
+						"value": "plains"
+					},
+					{
+						"any_of": [
+							{
+								"test": "has_biome_tag",
+								"value": "overworld"
+							},
+							{
+								"test": "has_biome_tag",
+								"value": "overworld_generation"
+							}
+						]
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "!=",
+						"value": "mutated"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": 256,
+			"x": {
+				"step_size": 1,
+				"extent": [0, 15],
+				"distribution": "fixed_grid"
+			},
+			"y": "query.heightmap(variable.worldx, variable.worldz)",
+			"z": {
+				"step_size": 1,
+				"extent": [0, 15],
+				"distribution": "fixed_grid"
+			}
+		}
+	}
+}

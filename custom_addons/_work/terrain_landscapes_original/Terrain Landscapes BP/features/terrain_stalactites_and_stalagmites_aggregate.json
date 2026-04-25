@@ -1,0 +1,9 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_stalactites_and_stalagmites_aggregate"
+		},
+		"features": ["shapescape:terrain_stalactites", "shapescape:terrain_stalagmites"]
+	}
+}

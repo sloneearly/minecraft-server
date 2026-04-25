@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_stalctites_block__elif_3"
+		},
+		"iterations": "v.terrain_stalctites_block__switch == 3",
+		"places_feature": "shapescape:terrain_pointed_dripstone_hanging_tip",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

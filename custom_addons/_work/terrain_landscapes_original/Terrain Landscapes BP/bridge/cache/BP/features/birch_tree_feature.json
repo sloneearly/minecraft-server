@@ -1,0 +1,291 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\birch_tree_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "5ad6e6f6_4b3a_4f4b_bcdf_00dc53e5e5f6",
+	"file_version": 52,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "minecraft:birch_tree_feature"
+						},
+						"features": [
+							[
+								"flour_tree:birch_tree_medium",
+								50
+							],
+							[
+								"flour_tree:branched_birch_feature",
+								65
+							],
+							[
+								"minecraft:super_birch_tree_feature",
+								10
+							],
+							[
+								"flour_tree:small_birch_feature",
+								4
+							],
+							[
+								"flour_tree:giant_birch_tree",
+								8
+							]
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "minecraft:birch_tree_feature"
+						},
+						"features": [
+							[
+								"flour_tree:birch_tree_medium",
+								50
+							],
+							[
+								"flour_tree:branched_birch_feature",
+								65
+							],
+							[
+								"minecraft:super_birch_tree_feature",
+								10
+							],
+							[
+								"flour_tree:small_birch_feature",
+								4
+							],
+							[
+								"flour_tree:giant_birch_tree",
+								8
+							]
+						]
+					}
+				},
+				"key": "minecraft:weighted_random_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:birch_tree_feature"
+							},
+							"features": [
+								[
+									"flour_tree:birch_tree_medium",
+									50
+								],
+								[
+									"flour_tree:branched_birch_feature",
+									65
+								],
+								[
+									"minecraft:super_birch_tree_feature",
+									10
+								],
+								[
+									"flour_tree:small_birch_feature",
+									4
+								],
+								[
+									"flour_tree:giant_birch_tree",
+									8
+								]
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:birch_tree_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:birch_tree_feature"
+							},
+							"features": [
+								[
+									"flour_tree:birch_tree_medium",
+									50
+								],
+								[
+									"flour_tree:branched_birch_feature",
+									65
+								],
+								[
+									"minecraft:super_birch_tree_feature",
+									10
+								],
+								[
+									"flour_tree:small_birch_feature",
+									4
+								],
+								[
+									"flour_tree:giant_birch_tree",
+									8
+								]
+							]
+						},
+						"key": "features",
+						"children": [
+							{
+								"open": [
+									[
+										"flour_tree:birch_tree_medium",
+										50
+									],
+									[
+										"flour_tree:branched_birch_feature",
+										65
+									],
+									[
+										"minecraft:super_birch_tree_feature",
+										10
+									],
+									[
+										"flour_tree:small_birch_feature",
+										4
+									],
+									[
+										"flour_tree:giant_birch_tree",
+										8
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:birch_tree_medium",
+									50
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:birch_tree_medium",
+										50
+									],
+									[
+										"flour_tree:branched_birch_feature",
+										65
+									],
+									[
+										"minecraft:super_birch_tree_feature",
+										10
+									],
+									[
+										"flour_tree:small_birch_feature",
+										4
+									],
+									[
+										"flour_tree:giant_birch_tree",
+										8
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:branched_birch_feature",
+									65
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:birch_tree_medium",
+										50
+									],
+									[
+										"flour_tree:branched_birch_feature",
+										65
+									],
+									[
+										"minecraft:super_birch_tree_feature",
+										10
+									],
+									[
+										"flour_tree:small_birch_feature",
+										4
+									],
+									[
+										"flour_tree:giant_birch_tree",
+										8
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"minecraft:super_birch_tree_feature",
+									10
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:birch_tree_medium",
+										50
+									],
+									[
+										"flour_tree:branched_birch_feature",
+										65
+									],
+									[
+										"minecraft:super_birch_tree_feature",
+										10
+									],
+									[
+										"flour_tree:small_birch_feature",
+										4
+									],
+									[
+										"flour_tree:giant_birch_tree",
+										8
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:small_birch_feature",
+									4
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:birch_tree_medium",
+										50
+									],
+									[
+										"flour_tree:branched_birch_feature",
+										65
+									],
+									[
+										"minecraft:super_birch_tree_feature",
+										10
+									],
+									[
+										"flour_tree:small_birch_feature",
+										4
+									],
+									[
+										"flour_tree:giant_birch_tree",
+										8
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:giant_birch_tree",
+									8
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

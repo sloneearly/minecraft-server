@@ -1,0 +1,9 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "shapescape:forest_sparse_always_cold_height_check__cond_aggr"
+		},
+		"features": ["shapescape:forest_sparse_always_cold_height_check__elif_0", "shapescape:forest_sparse_always_cold_height_check__elif_1", "shapescape:forest_sparse_always_cold_height_check__elif_2"]
+	}
+}

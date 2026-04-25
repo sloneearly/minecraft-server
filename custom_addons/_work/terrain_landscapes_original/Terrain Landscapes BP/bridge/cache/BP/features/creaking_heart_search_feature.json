@@ -1,0 +1,361 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\creaking_heart_search_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "e0026620_22c8_4ac9_9a2c_5c60561c78a5",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:scatter_feature": {
+						"description": {
+							"identifier": "minecraft:creaking_heart_search_feature"
+						},
+						"iterations": 1,
+						"project_input_to_floor": false,
+						"coordinate_eval_order": "xzy",
+						"y": {
+							"extent": [
+								2,
+								10
+							],
+							"distribution": "gaussian"
+						},
+						"z": {
+							"extent": [
+								0,
+								1
+							],
+							"distribution": "uniform"
+						},
+						"x": {
+							"extent": [
+								0,
+								1
+							],
+							"distribution": "uniform"
+						},
+						"places_feature": "minecraft:creaking_heart_feature"
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:scatter_feature": {
+						"description": {
+							"identifier": "minecraft:creaking_heart_search_feature"
+						},
+						"iterations": 1,
+						"project_input_to_floor": false,
+						"coordinate_eval_order": "xzy",
+						"y": {
+							"extent": [
+								2,
+								10
+							],
+							"distribution": "gaussian"
+						},
+						"z": {
+							"extent": [
+								0,
+								1
+							],
+							"distribution": "uniform"
+						},
+						"x": {
+							"extent": [
+								0,
+								1
+							],
+							"distribution": "uniform"
+						},
+						"places_feature": "minecraft:creaking_heart_feature"
+					}
+				},
+				"key": "minecraft:scatter_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:creaking_heart_search_feature"
+							},
+							"iterations": 1,
+							"project_input_to_floor": false,
+							"coordinate_eval_order": "xzy",
+							"y": {
+								"extent": [
+									2,
+									10
+								],
+								"distribution": "gaussian"
+							},
+							"z": {
+								"extent": [
+									0,
+									1
+								],
+								"distribution": "uniform"
+							},
+							"x": {
+								"extent": [
+									0,
+									1
+								],
+								"distribution": "uniform"
+							},
+							"places_feature": "minecraft:creaking_heart_feature"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:creaking_heart_search_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:creaking_heart_search_feature"
+							},
+							"iterations": 1,
+							"project_input_to_floor": false,
+							"coordinate_eval_order": "xzy",
+							"y": {
+								"extent": [
+									2,
+									10
+								],
+								"distribution": "gaussian"
+							},
+							"z": {
+								"extent": [
+									0,
+									1
+								],
+								"distribution": "uniform"
+							},
+							"x": {
+								"extent": [
+									0,
+									1
+								],
+								"distribution": "uniform"
+							},
+							"places_feature": "minecraft:creaking_heart_feature"
+						},
+						"data": "1",
+						"key": "iterations"
+					},
+					{
+						"data": "false",
+						"key": "project_input_to_floor"
+					},
+					{
+						"data": "xzy",
+						"key": "coordinate_eval_order"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:creaking_heart_search_feature"
+							},
+							"iterations": 1,
+							"project_input_to_floor": false,
+							"coordinate_eval_order": "xzy",
+							"y": {
+								"extent": [
+									2,
+									10
+								],
+								"distribution": "gaussian"
+							},
+							"z": {
+								"extent": [
+									0,
+									1
+								],
+								"distribution": "uniform"
+							},
+							"x": {
+								"extent": [
+									0,
+									1
+								],
+								"distribution": "uniform"
+							},
+							"places_feature": "minecraft:creaking_heart_feature"
+						},
+						"key": "y",
+						"children": [
+							{
+								"open": {
+									"extent": [
+										2,
+										10
+									],
+									"distribution": "gaussian"
+								},
+								"key": "extent",
+								"is_minified": true,
+								"children": [
+									2,
+									10
+								]
+							},
+							{
+								"data": "gaussian",
+								"key": "distribution"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:creaking_heart_search_feature"
+							},
+							"iterations": 1,
+							"project_input_to_floor": false,
+							"coordinate_eval_order": "xzy",
+							"y": {
+								"extent": [
+									2,
+									10
+								],
+								"distribution": "gaussian"
+							},
+							"z": {
+								"extent": [
+									0,
+									1
+								],
+								"distribution": "uniform"
+							},
+							"x": {
+								"extent": [
+									0,
+									1
+								],
+								"distribution": "uniform"
+							},
+							"places_feature": "minecraft:creaking_heart_feature"
+						},
+						"key": "z",
+						"children": [
+							{
+								"open": {
+									"extent": [
+										0,
+										1
+									],
+									"distribution": "uniform"
+								},
+								"key": "extent",
+								"is_minified": true,
+								"children": [
+									0,
+									1
+								]
+							},
+							{
+								"data": "uniform",
+								"key": "distribution"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:creaking_heart_search_feature"
+							},
+							"iterations": 1,
+							"project_input_to_floor": false,
+							"coordinate_eval_order": "xzy",
+							"y": {
+								"extent": [
+									2,
+									10
+								],
+								"distribution": "gaussian"
+							},
+							"z": {
+								"extent": [
+									0,
+									1
+								],
+								"distribution": "uniform"
+							},
+							"x": {
+								"extent": [
+									0,
+									1
+								],
+								"distribution": "uniform"
+							},
+							"places_feature": "minecraft:creaking_heart_feature"
+						},
+						"key": "x",
+						"children": [
+							{
+								"open": {
+									"extent": [
+										0,
+										1
+									],
+									"distribution": "uniform"
+								},
+								"key": "extent",
+								"is_minified": true,
+								"children": [
+									0,
+									1
+								]
+							},
+							{
+								"data": "uniform",
+								"key": "distribution"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:creaking_heart_search_feature"
+							},
+							"iterations": 1,
+							"project_input_to_floor": false,
+							"coordinate_eval_order": "xzy",
+							"y": {
+								"extent": [
+									2,
+									10
+								],
+								"distribution": "gaussian"
+							},
+							"z": {
+								"extent": [
+									0,
+									1
+								],
+								"distribution": "uniform"
+							},
+							"x": {
+								"extent": [
+									0,
+									1
+								],
+								"distribution": "uniform"
+							},
+							"places_feature": "minecraft:creaking_heart_feature"
+						},
+						"data": "minecraft:creaking_heart_feature",
+						"key": "places_feature"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "shapescape:oxeye_daisy"
+        },
+        "places_block": "minecraft:oxeye_daisy",
+        "enforce_placement_rules": false,
+        "enforce_survivability_rules": false
+    }
+}

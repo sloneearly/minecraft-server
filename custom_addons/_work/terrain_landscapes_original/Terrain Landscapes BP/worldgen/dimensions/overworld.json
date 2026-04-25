@@ -1,0 +1,132 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:dimension": {
+    "description": {
+      "identifier": "minecraft:overworld",
+      "generator": "minecraft:noise"
+    },
+
+    "generator": {
+      "type": "minecraft:noise",
+
+      "settings": {
+        "sea_level": 121,
+        "disable_mob_generation": false
+      },
+
+      "biome_source": {
+        "type": "minecraft:multi_noise",
+        "biomes": [
+
+          /* ===== CUSTOMS ===== */
+
+          {
+            "biome": "feber_studio:custom_plains",
+            "parameters": {
+              "temperature": 0.8,
+              "humidity": 0.6,
+              "continentalness": 0.3,
+              "erosion": 0.9,
+              "weirdness": 0.0
+            }
+          },
+
+          {
+            "biome": "feber_studio:custom_desert",
+            "parameters": {
+              "temperature": 1.2,
+              "humidity": 0.1,
+              "continentalness": 0.35,
+              "erosion": 0.7,
+              "weirdness": 0.05
+            }
+          },
+
+          /* ===== PLAINS ===== */
+
+          {
+            "biome": "feber_studio:plains_flat",
+            "parameters": {
+              "temperature": 0.75,
+              "humidity": 0.6,
+              "continentalness": 0.25,
+              "erosion": 0.98,
+              "weirdness": -0.1
+            }
+          },
+
+          {
+            "biome": "feber_studio:plains_rolling",
+            "parameters": {
+              "temperature": 0.7,
+              "humidity": 0.55,
+              "continentalness": 0.4,
+              "erosion": 0.75,
+              "weirdness": 0.2
+            }
+          },
+
+          /* ===== RIVERS ===== */
+
+          {
+            "biome": "feber_studio:river_shallow",
+            "parameters": {
+              "temperature": 0.65,
+              "humidity": 0.7,
+              "continentalness": 0.2,
+              "erosion": 0.99,
+              "weirdness": 0.0
+            }
+          },
+
+          {
+            "biome": "feber_studio:river_deep",
+            "parameters": {
+              "temperature": 0.6,
+              "humidity": 0.75,
+              "continentalness": 0.35,
+              "erosion": 0.85,
+              "weirdness": 0.25
+            }
+          },
+
+          /* ===== MOUNTAINS ===== */
+
+          {
+            "biome": "feber_studio:mountain_foothills",
+            "parameters": {
+              "temperature": 0.5,
+              "humidity": 0.5,
+              "continentalness": 0.55,
+              "erosion": 0.6,
+              "weirdness": 0.15
+            }
+          },
+
+          {
+            "biome": "feber_studio:mountain_main",
+            "parameters": {
+              "temperature": 0.45,
+              "humidity": 0.45,
+              "continentalness": 0.7,
+              "erosion": 0.35,
+              "weirdness": 0.4
+            }
+          },
+
+          {
+            "biome": "feber_studio:mountain_ridge",
+            "parameters": {
+              "temperature": 0.4,
+              "humidity": 0.3,
+              "continentalness": 0.85,
+              "erosion": 0.05,
+              "weirdness": 0.85
+            }
+          }
+
+        ]
+      }
+    }
+  }
+}

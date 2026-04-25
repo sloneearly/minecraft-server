@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:poppy_field_no_water_condition"
+		},
+		"iterations": "return (q.heightmap(v.worldx, v.worldz) <= q.above_top_solid(v.worldx, v.worldz)) != 0;",
+		"places_feature": "shapescape:poppy_field",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

@@ -1,0 +1,104 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\flourishing trees\\features\\brown_mushroom_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "6ec7339b_203a_49f4_83ba_cac54f91f34b",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:single_block_feature": {
+						"description": {
+							"identifier": "minecraft:brown_mushroom_feature"
+						},
+						"places_block": "minecraft:brown_mushroom",
+						"enforce_survivability_rules": true,
+						"enforce_placement_rules": true,
+						"may_replace": [
+							"minecraft:air",
+							{
+								"name": "minecraft:tallgrass"
+							}
+						]
+					}
+				},
+				"key": "minecraft:single_block_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:brown_mushroom_feature"
+							},
+							"places_block": "minecraft:brown_mushroom",
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true,
+							"may_replace": [
+								"minecraft:air",
+								{
+									"name": "minecraft:tallgrass"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:brown_mushroom_feature"
+						}
+					},
+					{
+						"data": "minecraft:brown_mushroom",
+						"key": "places_block"
+					},
+					{
+						"data": "true",
+						"key": "enforce_survivability_rules"
+					},
+					{
+						"data": "true",
+						"key": "enforce_placement_rules"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:brown_mushroom_feature"
+							},
+							"places_block": "minecraft:brown_mushroom",
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true,
+							"may_replace": [
+								"minecraft:air",
+								{
+									"name": "minecraft:tallgrass"
+								}
+							]
+						},
+						"key": "may_replace",
+						"children": [
+							{
+								"data": "minecraft:air"
+							},
+							{
+								"open": [
+									"minecraft:air",
+									{
+										"name": "minecraft:tallgrass"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:tallgrass"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

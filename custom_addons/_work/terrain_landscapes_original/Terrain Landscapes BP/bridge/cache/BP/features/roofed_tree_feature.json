@@ -1,0 +1,177 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\roofed_tree_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "6e7245e8_9713_449e_9fe4_655eec71fd8f",
+	"file_version": 184,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "minecraft:roofed_tree_feature"
+						},
+						"features": [
+							[
+								"minecraft:roofed_tree_with_vines_feature",
+								5
+							],
+							[
+								"flour_tree:roofed_tree_normal",
+								80
+							],
+							[
+								"flour_tree:small_roofed",
+								1
+							]
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "minecraft:roofed_tree_feature"
+						},
+						"features": [
+							[
+								"minecraft:roofed_tree_with_vines_feature",
+								5
+							],
+							[
+								"flour_tree:roofed_tree_normal",
+								80
+							],
+							[
+								"flour_tree:small_roofed",
+								1
+							]
+						]
+					}
+				},
+				"key": "minecraft:weighted_random_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:roofed_tree_feature"
+							},
+							"features": [
+								[
+									"minecraft:roofed_tree_with_vines_feature",
+									5
+								],
+								[
+									"flour_tree:roofed_tree_normal",
+									80
+								],
+								[
+									"flour_tree:small_roofed",
+									1
+								]
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:roofed_tree_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:roofed_tree_feature"
+							},
+							"features": [
+								[
+									"minecraft:roofed_tree_with_vines_feature",
+									5
+								],
+								[
+									"flour_tree:roofed_tree_normal",
+									80
+								],
+								[
+									"flour_tree:small_roofed",
+									1
+								]
+							]
+						},
+						"key": "features",
+						"children": [
+							{
+								"open": [
+									[
+										"minecraft:roofed_tree_with_vines_feature",
+										5
+									],
+									[
+										"flour_tree:roofed_tree_normal",
+										80
+									],
+									[
+										"flour_tree:small_roofed",
+										1
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"minecraft:roofed_tree_with_vines_feature",
+									5
+								]
+							},
+							{
+								"open": [
+									[
+										"minecraft:roofed_tree_with_vines_feature",
+										5
+									],
+									[
+										"flour_tree:roofed_tree_normal",
+										80
+									],
+									[
+										"flour_tree:small_roofed",
+										1
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:roofed_tree_normal",
+									80
+								]
+							},
+							{
+								"open": [
+									[
+										"minecraft:roofed_tree_with_vines_feature",
+										5
+									],
+									[
+										"flour_tree:roofed_tree_normal",
+										80
+									],
+									[
+										"flour_tree:small_roofed",
+										1
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:small_roofed",
+									1
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

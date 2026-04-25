@@ -1,0 +1,9 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "shapescape:mushroom_side_rotation"
+		},
+		"features": ["shapescape:mushroom_side_0", "shapescape:mushroom_side_1", "shapescape:mushroom_side_2", "shapescape:mushroom_side_3"]
+	}
+}

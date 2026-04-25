@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:tree_oak_medium_random"
+		},
+		"features": [
+			["shapescape:tree_oak_medium_1_check_area", 1],
+			["shapescape:tree_oak_medium_2_check_area", 1],
+			["shapescape:tree_oak_medium_3_check_area", 1],
+			["shapescape:tree_oak_medium_4_check_area", 1]
+		]
+	}
+}

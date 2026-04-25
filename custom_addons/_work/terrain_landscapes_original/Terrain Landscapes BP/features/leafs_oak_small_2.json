@@ -1,0 +1,11 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:leafs_oak_small_2"
+		},
+		"features": [
+			["minecraft:oak_leaves", 50]
+		]
+	}
+}

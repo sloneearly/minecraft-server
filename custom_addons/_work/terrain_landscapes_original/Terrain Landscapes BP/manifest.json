@@ -1,0 +1,59 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "FEBERNAISYSTUDIOS by FEBERNAISYSTUDIOS",
+    "name": "Terrain Landscapes",
+    "uuid": "a52aee62-bafa-4191-82f7-323ca2297dea",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      100
+    ]
+  },
+  "modules": [
+    {
+      "description": "FEBERNAISYSTUDIOS by FEBERNAISYSTUDIOS",
+      "type": "data",
+      "uuid": "5a865d60-0856-405a-b982-f4c0e1f0f5ef",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "type": "script",
+      "uuid": "63831e65-5116-4691-8b92-f2360cd9db3d",
+      "version": [
+        0,
+        0,
+        1
+      ],
+      "entry": "scripts/main.js",
+      "language": "javascript"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "c63c863f-8efe-4855-baf8-5c9d5be95d8f",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "version": "2.3.0",
+      "module_name": "@minecraft/server"
+    },
+    {
+      "version": "2.0.0",
+      "module_name": "@minecraft/server-ui"
+    }
+  ]
+}

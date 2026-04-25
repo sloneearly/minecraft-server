@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_pointed_dripstone_standing_base__actual_block"
+		},
+		"places_block": {
+			"name": "minecraft:pointed_dripstone",
+			"states": {
+				"hanging": false,
+				"dripstone_thickness": "base"
+			}
+		},
+		"may_replace": ["minecraft:air"],
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain__per_chunk_math"
+		},
+		"places_feature": "shapescape:terrain__per_block_math",
+		"iterations": "return 1;",
+		"x": {
+			"step_size": 16,
+			"extent": [0, 15],
+			"distribution": "fixed_grid"
+		},
+		"y": 0,
+		"z": {
+			"step_size": 16,
+			"extent": [0, 15],
+			"distribution": "fixed_grid"
+		}
+	}
+}

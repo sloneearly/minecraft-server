@@ -1,0 +1,11 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:leafs_jungle_small_1"
+		},
+		"features": [
+			["minecraft:jungle_leaves", 1]
+		]
+	}
+}

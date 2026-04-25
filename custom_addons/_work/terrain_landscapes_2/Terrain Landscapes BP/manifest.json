@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Terrain Landscapes 2.0",
+    "description": "Adds rare extreme terrain biome variants to plains and savanna.",
+    "uuid": "bcbe524e-8b22-581f-96e8-46c19892ecd9",
+    "version": [
+      2,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "e41aa85f-8a90-5d40-93e2-da906d6ac1af",
+      "version": [
+        2,
+        0,
+        0
+      ]
+    }
+  ]
+}

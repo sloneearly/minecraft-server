@@ -1,0 +1,482 @@
+{
+	"BP/features/oak_tree_feature.json": {
+		"data": {}
+	},
+	"BP/features/oak_tree_with_optional_beehive_feature.json": {
+		"data": {}
+	},
+	"BP/features/oak_tree_with_beehive_feature.json": {
+		"data": {}
+	},
+	"BP/features/fancy_oak_tree_feature.json": {
+		"data": {}
+	},
+	"BP/features/birch_tree_feature.json": {
+		"data": {}
+	},
+	"BP/features/super_birch_tree_feature.json": {
+		"data": {}
+	},
+	"BP/features/fallen_birch_tree_feature.json": {
+		"data": {}
+	},
+	"BP/features/oak_tree_with_vines_feature.json": {
+		"data": {}
+	},
+	"BP/features/jungle_tree_feature.json": {
+		"data": {}
+	},
+	"BP/features/mega_jungle_tree_feature.json": {
+		"data": {}
+	},
+	"BP/features/spruce_tree_feature.json": {
+		"data": {}
+	},
+	"BP/features/spruce_tree_with_vines_feature.json": {
+		"data": {}
+	},
+	"BP/features/pine_tree_feature.json": {
+		"data": {}
+	},
+	"BP/features/savanna_tree_feature.json": {
+		"data": {}
+	},
+	"BP/features/roofed_tree_feature.json": {
+		"data": {}
+	},
+	"BP/features/roofed_tree_with_vines_feature.json": {
+		"data": {}
+	},
+	"BP/features/swamp_tree_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/dark_oak.json": {
+		"data": {}
+	},
+	"BP/feature_rules/overworld_surface_tall_grass_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/ice_surface_trees_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/mega_taiga_surface_trees_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/redwood_taiga_mutated_surface_trees_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/roofed_forest_first_foliage_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/jungle_after_surface_vines_feature.json": {
+		"data": {}
+	},
+	"BP/features/mega_spruce_tree_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/bamboo_jungle_surface_tall_grass_feature.json": {
+		"data": {}
+	},
+	"BP/features/brown_mushroom_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/swamp_surface_swamp_foliage_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/plains_surface_tall_grass_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/forest_surface_trees_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/savanna_surface_trees_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/savanna_surface_tall_grass_feature.json": {
+		"data": {}
+	},
+	"BP/features/undecorated_jungle_tree_feature.json": {
+		"data": {}
+	},
+	"BP/features/undecorated_jungle_tree_with_vines_feature.json": {
+		"data": {}
+	},
+	"BP/features/azalea_tree_feature.json": {
+		"data": {}
+	},
+	"BP/manifest.json": {
+		"data": {}
+	},
+	"BP/features/savanna_tree_big.json": {
+		"data": {}
+	},
+	"BP/feature_rules/savanna_big_tree.json": {
+		"data": {}
+	},
+	"BP/features/savanna_ag.json": {
+		"data": {}
+	},
+	"BP/feature_rules/savanna_tree_ag.json": {
+		"data": {}
+	},
+	"BP/features/mega_pine_tree_feature.json": {
+		"data": {}
+	},
+	"BP/features/forest_trees_random.json": {
+		"data": {}
+	},
+	"BP/feature_rules/taiga_surface_trees_feature.json": {
+		"data": {}
+	},
+	"BP/features/random_taiga_feature.json": {
+		"data": {}
+	},
+	"BP/features/random_birch_feature.json": {
+		"data": {}
+	},
+	"BP/features/mega_taiga_random.json": {
+		"data": {}
+	},
+	"BP/features/dark_oak_random.json": {
+		"data": {}
+	},
+	"BP/features/burned_oak_feature.json": {
+		"data": {}
+	},
+	"BP/features/burned_oak_2_feature.json": {
+		"data": {}
+	},
+	"BP/features/burned_oak_1_feature.json": {
+		"data": {}
+	},
+	"BP/features/burned_jungle_t_3_feature.json": {
+		"data": {}
+	},
+	"BP/features/burned_jungle_t_2_feature.json": {
+		"data": {}
+	},
+	"BP/features/burned_jungle_t_1_feature.json": {
+		"data": {}
+	},
+	"BP/features/big_burned_jungle_t_feature.json": {
+		"data": {}
+	},
+	"BP/features/big_burned_jungle2_feature.json": {
+		"data": {}
+	},
+	"BP/features/2x2_b_stump_feature.json": {
+		"data": {}
+	},
+	"BP/features/2x2_b_stump3_feature.json": {
+		"data": {}
+	},
+	"BP/features/2x2_b_stump2_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/forest_grass_flour.json": {
+		"data": {}
+	},
+	"BP/feature_rules/2x2_b_stump2_feature_rule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/2x2_b_stump3_feature_rule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/2x2_b_stump_feature_rule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/big_burned_jungle2_feature_rule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/burned_jungle_t_2_feature_rule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/burned_jungle_t_3_feature_rule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/burned_oak_1_feature_rule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/burned_oak_2_feature_rule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/burned_oak_feature_rule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/burned_spruce_feature_rule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/mushroom_island_surface_huge_mushroom_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/large_mushroom_1_feature_rule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/crimson_fungus_large_1_feature_rule.json": {
+		"data": {}
+	},
+	"BP/features/crimson_fungus_large_1_feature.json": {
+		"data": {}
+	},
+	"BP/features/crimson_ag.json": {
+		"data": {}
+	},
+	"BP/feature_rules/huge_crimson_fungus_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/warped_fungus_l1_feature_rule.json": {
+		"data": {}
+	},
+	"BP/features/warped_ag.json": {
+		"data": {}
+	},
+	"BP/features/warped_fungus_l1_feature.json": {
+		"data": {}
+	},
+	"BP/features/scatter_tall_grass_around_tree_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/plains_super_tall_grass.json": {
+		"data": {}
+	},
+	"BP/features/branched_birch_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/mangrove_big_1_feature_rule.json": {
+		"data": {}
+	},
+	"BP/features/mangrove_big_1_feature.json": {
+		"data": {}
+	},
+	"BP/features/small_oak_tree.json": {
+		"data": {}
+	},
+	"BP/features/forest_bushes.json": {
+		"data": {}
+	},
+	"BP/features/jungle_bush_feature.json": {
+		"data": {}
+	},
+	"BP/features/mountain_spruce_tree_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/flower_forest_surface_trees_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/oak_forest_brich_clump.json": {
+		"data": {}
+	},
+	"BP/features/giant_birch_tree.json": {
+		"data": {}
+	},
+	"BP/feature_rules/grass_for_extreme_hills.json": {
+		"data": {}
+	},
+	"BP/features/lower_oak_tree.json": {
+		"data": {}
+	},
+	"BP/feature_rules/lower_oak_tree_rules.json": {
+		"data": {}
+	},
+	"BP/feature_rules/birch_forest_surface_trees_feature.json": {
+		"data": {}
+	},
+	"BP/features/random_birch_chose.json": {
+		"data": {}
+	},
+	"BP/feature_rules/birch_forest_mutated_surface_trees_feature.json": {
+		"data": {}
+	},
+	"BP/features/random_small_taiga_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/taiga_small_tree_rules.json": {
+		"data": {}
+	},
+	"BP/features/small_birch_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/small_birch_rules.json": {
+		"data": {}
+	},
+	"BP/feature_rules/taiga_extra_dense_patch.json": {
+		"data": {}
+	},
+	"BP/feature_rules/forest_small_clump.json": {
+		"data": {}
+	},
+	"BP/feature_rules/bush_to_stop_trees_jungle.json": {
+		"data": {}
+	},
+	"BP/features/flower_forest_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/flower_forest_trees_features.json": {
+		"data": {}
+	},
+	"BP/feature_rules/bushes_forest_more.json": {
+		"data": {}
+	},
+	"BP/feature_rules/flower_forest_grass.json": {
+		"data": {}
+	},
+	"BP/features/small_savanna_tree.json": {
+		"data": {}
+	},
+	"BP/feature_rules/small_savanna_tree_rules.json": {
+		"data": {}
+	},
+	"BP/feature_rules/dark_oak_upper.json": {
+		"data": {}
+	},
+	"BP/features/dark_oak_ag.json": {
+		"data": {}
+	},
+	"BP/feature_rules/dark_oak_grass.json": {
+		"data": {}
+	},
+	"BP/features/mangrove_big_2.json": {
+		"data": {}
+	},
+	"BP/features/mangrove_mix_large.json": {
+		"data": {}
+	},
+	"BP/features/mangrove_big_3.json": {
+		"data": {}
+	},
+	"BP/features/small_roofed.json": {
+		"data": {}
+	},
+	"BP/feature_rules/dark_forest_small_clump.json": {
+		"data": {}
+	},
+	"BP/features/birch_tree_medium.json": {
+		"data": {}
+	},
+	"BP/features/medium_oak_tree.json": {
+		"data": {}
+	},
+	"BP/feature_rules/mesa_plateau_stone_surface_trees_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/ooo_a_mushroom.json": {
+		"data": {}
+	},
+	"BP/features/mushroom_mix.json": {
+		"data": {}
+	},
+	"BP/features/roofed_tree_normal.json": {
+		"data": {}
+	},
+	"BP/features/mesa_forest_random.json": {
+		"data": {}
+	},
+	"BP/features/savanna_tree_medium.json": {
+		"data": {}
+	},
+	"BP/features/savanna_trees_chose.json": {
+		"data": {}
+	},
+	"BP/features/cherry_tree_feature.json": {
+		"data": {}
+	},
+	"BP/features/baobab_like_tree.json": {
+		"data": {}
+	},
+	"BP/feature_rules/baobab_like_savanna.json": {
+		"data": {}
+	},
+	"BP/features/normal_cherry_tree.json": {
+		"data": {}
+	},
+	"BP/features/big_cherry_tree.json": {
+		"data": {}
+	},
+	"BP/feature_rules/meadow_grass.json": {
+		"data": {}
+	},
+	"BP/feature_rules/taiga_small_ferns.json": {
+		"data": {}
+	},
+	"BP/features/tiny_spruce.json": {
+		"data": {}
+	},
+	"BP/feature_rules/tiny_spruce_feature_rules.json": {
+		"data": {}
+	},
+	"BP/features/mushroom_choose.json": {
+		"data": {}
+	},
+	"BP/features/large_mushroom_1_feature.json": {
+		"data": {}
+	},
+	"BP/features/large_red_mushroom_1_feature.json": {
+		"data": {}
+	},
+	"BP/features/creaking_heart_search_feature.json": {
+		"data": {}
+	},
+	"BP/features/pale_oak_tree_feature.json": {
+		"data": {}
+	},
+	"BP/features/pale_hanging_moss_snap_to_ceiling_feature.json": {
+		"data": {}
+	},
+	"BP/features/scatter_pale_hanging_moss_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/pale_garden_pale_oak_tree_feature_rules.json": {
+		"data": {}
+	},
+	"BP/features/pale_oak_tree_standard_feature.json": {
+		"data": {}
+	},
+	"BP/features/pale_oak_tree_with_decorations_and_creaking_heart_feature.json": {
+		"data": {}
+	},
+	"BP/features/pale_oak_tree_with_decorations_feature.json": {
+		"data": {}
+	},
+	"BP/features/creaking_heart_scatter.json": {
+		"data": {}
+	},
+	"BP/feature_rules/pale_garden_surface_pale_moss_patch_feature_rules.json": {
+		"data": {}
+	},
+	"BP/feature_rules/eyeblossom_feature_rules.json": {
+		"data": {}
+	},
+	"BP/features/scatter_eyeblossom_feature.json": {
+		"data": {}
+	},
+	"BP/features/small_pale_oak.json": {
+		"data": {}
+	},
+	"BP/feature_rules/pale_garden_small_clump.json": {
+		"data": {}
+	},
+	"BP/feature_rules/pale_garden_hanging_moss_after.json": {
+		"data": {}
+	},
+	"BP/features/random_pale_oak_tree_feature.json": {
+		"data": {}
+	},
+	"BP/features/dark_oak_hanging_leaves_feature.json": {
+		"data": {}
+	},
+	"BP/features/dark_oak_hanging_leaves_snap_to_ceiling_feature.json": {
+		"data": {}
+	},
+	"BP/features/scatter_dark_oak_hanging_leaves_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/dark_oak_hanging_leaves_feature_rule.json": {
+		"data": {}
+	},
+	"BP/features/single_block_pale_oak_sapling.json": {
+		"data": {}
+	},
+	"BP/feature_rules/pale_garden_sapling_feature_rules.json": {
+		"data": {}
+	}
+}

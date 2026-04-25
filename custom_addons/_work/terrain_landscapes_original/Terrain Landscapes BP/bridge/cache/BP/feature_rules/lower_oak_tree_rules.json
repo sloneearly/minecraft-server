@@ -1,0 +1,931 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\feature_rules\\lower_oak_tree_rules.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "f4b379c6_3f59_496d_9348_4060d20148b9",
+	"file_version": 13,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:lower_oak_tree_rules",
+							"places_feature": "flour_tree:lower_oak_tree"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "forest"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "jungle"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "taiga"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "flower_forest"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "roofed"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "birch"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 1,
+							"x": {
+								"extent": [
+									1,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"z": {
+								"extent": [
+									1,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"extent": [
+									"query.heightmap(variable.worldx, variable.worldz) - 6",
+									"query.heightmap(variable.worldx, variable.worldz) - 5"
+								],
+								"distribution": "uniform"
+							},
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 60
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:lower_oak_tree_rules",
+							"places_feature": "flour_tree:lower_oak_tree"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "forest"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "jungle"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "taiga"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "flower_forest"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "roofed"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "birch"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 1,
+							"x": {
+								"extent": [
+									1,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"z": {
+								"extent": [
+									1,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"extent": [
+									"query.heightmap(variable.worldx, variable.worldz) - 6",
+									"query.heightmap(variable.worldx, variable.worldz) - 5"
+								],
+								"distribution": "uniform"
+							},
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 60
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:lower_oak_tree_rules",
+								"places_feature": "flour_tree:lower_oak_tree"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "jungle"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "taiga"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "flower_forest"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "roofed"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "birch"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 1,
+								"x": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"z": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.heightmap(variable.worldx, variable.worldz) - 6",
+										"query.heightmap(variable.worldx, variable.worldz) - 5"
+									],
+									"distribution": "uniform"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 60
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:lower_oak_tree_rules",
+							"places_feature": "flour_tree:lower_oak_tree"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:lower_oak_tree_rules",
+								"places_feature": "flour_tree:lower_oak_tree"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "jungle"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "taiga"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "flower_forest"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "roofed"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "birch"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 1,
+								"x": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"z": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.heightmap(variable.worldx, variable.worldz) - 6",
+										"query.heightmap(variable.worldx, variable.worldz) - 5"
+									],
+									"distribution": "uniform"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 60
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": {
+									"placement_pass": "surface_pass",
+									"minecraft:biome_filter": {
+										"all_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "forest"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "jungle"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "taiga"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "flower_forest"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "roofed"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "birch"
+											}
+										]
+									}
+								},
+								"data": "surface_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "surface_pass",
+									"minecraft:biome_filter": {
+										"all_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "forest"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "jungle"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "taiga"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "flower_forest"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "roofed"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "birch"
+											}
+										]
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": {
+											"all_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "forest"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "jungle"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "taiga"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "flower_forest"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "roofed"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "birch"
+												}
+											]
+										},
+										"key": "all_of",
+										"children": [
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "jungle"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "taiga"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "flower_forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "roofed"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "birch"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "forest"
+												}
+											},
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "jungle"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "taiga"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "flower_forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "roofed"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "birch"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "jungle"
+												}
+											},
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "jungle"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "taiga"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "flower_forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "roofed"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "birch"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "taiga"
+												}
+											},
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "jungle"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "taiga"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "flower_forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "roofed"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "birch"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "flower_forest"
+												}
+											},
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "jungle"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "taiga"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "flower_forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "roofed"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "birch"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "roofed"
+												}
+											},
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "jungle"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "taiga"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "flower_forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "roofed"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "birch"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "birch"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:lower_oak_tree_rules",
+								"places_feature": "flour_tree:lower_oak_tree"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "jungle"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "taiga"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "flower_forest"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "roofed"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "birch"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 1,
+								"x": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"z": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.heightmap(variable.worldx, variable.worldz) - 6",
+										"query.heightmap(variable.worldx, variable.worldz) - 5"
+									],
+									"distribution": "uniform"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 60
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"open": {
+									"iterations": 1,
+									"x": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"z": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.heightmap(variable.worldx, variable.worldz) - 6",
+											"query.heightmap(variable.worldx, variable.worldz) - 5"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 60
+									}
+								},
+								"data": "1",
+								"key": "iterations"
+							},
+							{
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								}
+							},
+							{
+								"open": {
+									"iterations": 1,
+									"x": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"z": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.heightmap(variable.worldx, variable.worldz) - 6",
+											"query.heightmap(variable.worldx, variable.worldz) - 5"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 60
+									}
+								},
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								}
+							},
+							{
+								"open": {
+									"iterations": 1,
+									"x": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"z": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.heightmap(variable.worldx, variable.worldz) - 6",
+											"query.heightmap(variable.worldx, variable.worldz) - 5"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 60
+									}
+								},
+								"key": "y",
+								"children": [
+									{
+										"open": {
+											"extent": [
+												"query.heightmap(variable.worldx, variable.worldz) - 6",
+												"query.heightmap(variable.worldx, variable.worldz) - 5"
+											],
+											"distribution": "uniform"
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											"query.heightmap(variable.worldx, variable.worldz) - 6",
+											"query.heightmap(variable.worldx, variable.worldz) - 5"
+										]
+									},
+									{
+										"data": "uniform",
+										"key": "distribution"
+									}
+								]
+							},
+							{
+								"open": {
+									"iterations": 1,
+									"x": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"z": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.heightmap(variable.worldx, variable.worldz) - 6",
+											"query.heightmap(variable.worldx, variable.worldz) - 5"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 60
+									}
+								},
+								"key": "scatter_chance",
+								"is_minified": true,
+								"children": {
+									"numerator": 1,
+									"denominator": 60
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:forest_always_cold_mid"
+		},
+		"features": [
+			["shapescape:tree_spruce_medium_random", 8],
+			["shapescape:tree_spruce_small_random", 24],
+			["shapescape:bush_spruce_check_area", 32],
+			["shapescape:moss", 4],
+			["shapescape:ferns", 6],
+			["shapescape:podzol_patch", 10],
+			["minecraft:fallen_spruce_tree_feature", 1],
+			["shapescape:boulder_medium_random", 1]
+		]
+	}
+}

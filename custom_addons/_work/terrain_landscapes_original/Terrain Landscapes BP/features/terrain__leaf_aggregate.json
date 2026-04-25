@@ -1,0 +1,9 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "shapescape:terrain__leaf_aggregate"
+		},
+		"features": ["shapescape:terrain__leaf_condition_0"]
+	}
+}

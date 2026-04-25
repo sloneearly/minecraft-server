@@ -1,0 +1,577 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\feature_rules\\bush_to_stop_trees_jungle.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "4a8b24a0_643e_42ae_b3f8_10c5f817d3fb",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:bush_to_stop_trees_jungle",
+							"places_feature": "minecraft:jungle_bush_feature"
+						},
+						"conditions": {
+							"placement_pass": "before_surface_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "jungle"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "edge"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "bamboo"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 3,
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"z": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"extent": [
+									"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+									"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+								],
+								"distribution": "uniform"
+							},
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 4
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:bush_to_stop_trees_jungle",
+							"places_feature": "minecraft:jungle_bush_feature"
+						},
+						"conditions": {
+							"placement_pass": "before_surface_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "jungle"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "edge"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "bamboo"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 3,
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"z": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"extent": [
+									"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+									"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+								],
+								"distribution": "uniform"
+							},
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 4
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:bush_to_stop_trees_jungle",
+								"places_feature": "minecraft:jungle_bush_feature"
+							},
+							"conditions": {
+								"placement_pass": "before_surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "jungle"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "edge"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "bamboo"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 3,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+									],
+									"distribution": "uniform"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 4
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:bush_to_stop_trees_jungle",
+							"places_feature": "minecraft:jungle_bush_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:bush_to_stop_trees_jungle",
+								"places_feature": "minecraft:jungle_bush_feature"
+							},
+							"conditions": {
+								"placement_pass": "before_surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "jungle"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "edge"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "bamboo"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 3,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+									],
+									"distribution": "uniform"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 4
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": {
+									"placement_pass": "before_surface_pass",
+									"minecraft:biome_filter": {
+										"all_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "jungle"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "edge"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "bamboo"
+											}
+										]
+									}
+								},
+								"data": "before_surface_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "before_surface_pass",
+									"minecraft:biome_filter": {
+										"all_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "jungle"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "edge"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "bamboo"
+											}
+										]
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": {
+											"all_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "jungle"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "edge"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "bamboo"
+												}
+											]
+										},
+										"key": "all_of",
+										"children": [
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "jungle"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "edge"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "bamboo"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "jungle"
+												}
+											},
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "jungle"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "edge"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "bamboo"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "edge"
+												}
+											},
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "jungle"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "edge"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "bamboo"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "bamboo"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:bush_to_stop_trees_jungle",
+								"places_feature": "minecraft:jungle_bush_feature"
+							},
+							"conditions": {
+								"placement_pass": "before_surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "jungle"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "edge"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "bamboo"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 3,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+									],
+									"distribution": "uniform"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 4
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"open": {
+									"iterations": 3,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 4
+									}
+								},
+								"data": "3",
+								"key": "iterations"
+							},
+							{
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							},
+							{
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							},
+							{
+								"key": "y",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+									],
+									"distribution": "uniform"
+								}
+							},
+							{
+								"open": {
+									"iterations": 3,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 4
+									}
+								},
+								"key": "scatter_chance",
+								"is_minified": true,
+								"children": {
+									"numerator": 1,
+									"denominator": 4
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

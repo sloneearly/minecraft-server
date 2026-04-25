@@ -1,0 +1,68 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\pale_oak_tree_with_decorations_and_creaking_heart_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "6997a979_47a6_4548_8fec_c2988a336236",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:aggregate_feature": {
+						"description": {
+							"identifier": "minecraft:pale_oak_tree_with_decorations_and_creaking_heart_feature"
+						},
+						"early_out": "first_failure",
+						"features": [
+							"flour_tree:pale_oak_tree_standard_feature",
+							"flour_tree:creaking_heart_scatter",
+							"minecraft:scatter_pale_hanging_moss_feature",
+							"minecraft:pale_moss_patch_feature"
+						]
+					}
+				},
+				"key": "minecraft:aggregate_feature",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:pale_oak_tree_with_decorations_and_creaking_heart_feature"
+						}
+					},
+					{
+						"data": "first_failure",
+						"key": "early_out"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:pale_oak_tree_with_decorations_and_creaking_heart_feature"
+							},
+							"early_out": "first_failure",
+							"features": [
+								"flour_tree:pale_oak_tree_standard_feature",
+								"flour_tree:creaking_heart_scatter",
+								"minecraft:scatter_pale_hanging_moss_feature",
+								"minecraft:pale_moss_patch_feature"
+							]
+						},
+						"key": "features",
+						"is_minified": true,
+						"children": [
+							"flour_tree:pale_oak_tree_standard_feature",
+							"flour_tree:creaking_heart_scatter",
+							"minecraft:scatter_pale_hanging_moss_feature",
+							"minecraft:pale_moss_patch_feature"
+						]
+					}
+				]
+			}
+		]
+	}
+}

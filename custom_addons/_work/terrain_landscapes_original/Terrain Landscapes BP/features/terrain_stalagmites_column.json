@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_stalagmites_column"
+		},
+		"iterations": "t.terrain_stalagmites_column__bottom=t.stalagmite_anchor;t.terrain_stalagmites_column__top=t.stalagmite_tip;t.terrain_stalagmites_column__iterations=math.max(0, t.terrain_stalagmites_column__top-t.terrain_stalagmites_column__bottom);return 1;",
+		"places_feature": "shapescape:terrain_stalagmites_column__column",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": "t.terrain_stalagmites_column__bottom"
+	}
+}

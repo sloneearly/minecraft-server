@@ -1,0 +1,12 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "shapescape:custom_jungle_leaves"
+		},
+		"places_block": "shapescape:custom_jungle_leaves",
+		"may_replace": ["minecraft:air"],
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false
+	}
+}

@@ -1,0 +1,826 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\feature_rules\\ooo_a_mushroom.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "043321ed_80e5_4793_87fc_c2aa4271b6a6",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:ooo_a_mushroom",
+							"places_feature": "flour_tree:mushroom_mix"
+						},
+						"conditions": {
+							"placement_pass": "underground_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "forest"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "taiga"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "swamp"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "roofed"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "extreme_hills"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 1,
+							"x": {
+								"extent": [
+									1,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"z": {
+								"extent": [
+									1,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"extent": [
+									"query.heightmap(variable.worldx, variable.worldz) - 1",
+									"query.heightmap(variable.worldx, variable.worldz)"
+								],
+								"distribution": "uniform"
+							},
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 2000
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:ooo_a_mushroom",
+							"places_feature": "flour_tree:mushroom_mix"
+						},
+						"conditions": {
+							"placement_pass": "underground_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "forest"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "taiga"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "swamp"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "roofed"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "extreme_hills"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 1,
+							"x": {
+								"extent": [
+									1,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"z": {
+								"extent": [
+									1,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"extent": [
+									"query.heightmap(variable.worldx, variable.worldz) - 1",
+									"query.heightmap(variable.worldx, variable.worldz)"
+								],
+								"distribution": "uniform"
+							},
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 2000
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:ooo_a_mushroom",
+								"places_feature": "flour_tree:mushroom_mix"
+							},
+							"conditions": {
+								"placement_pass": "underground_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "taiga"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "swamp"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "roofed"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "extreme_hills"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 1,
+								"x": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"z": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.heightmap(variable.worldx, variable.worldz) - 1",
+										"query.heightmap(variable.worldx, variable.worldz)"
+									],
+									"distribution": "uniform"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 2000
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:ooo_a_mushroom",
+							"places_feature": "flour_tree:mushroom_mix"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:ooo_a_mushroom",
+								"places_feature": "flour_tree:mushroom_mix"
+							},
+							"conditions": {
+								"placement_pass": "underground_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "taiga"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "swamp"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "roofed"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "extreme_hills"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 1,
+								"x": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"z": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.heightmap(variable.worldx, variable.worldz) - 1",
+										"query.heightmap(variable.worldx, variable.worldz)"
+									],
+									"distribution": "uniform"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 2000
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": {
+									"placement_pass": "underground_pass",
+									"minecraft:biome_filter": {
+										"all_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "forest"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "taiga"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "swamp"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "roofed"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "extreme_hills"
+											}
+										]
+									}
+								},
+								"data": "underground_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "underground_pass",
+									"minecraft:biome_filter": {
+										"all_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "forest"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "taiga"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "swamp"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "roofed"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "extreme_hills"
+											}
+										]
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": {
+											"all_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "forest"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "taiga"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "swamp"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "roofed"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "extreme_hills"
+												}
+											]
+										},
+										"key": "all_of",
+										"children": [
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "taiga"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "swamp"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "roofed"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "extreme_hills"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "forest"
+												}
+											},
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "taiga"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "swamp"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "roofed"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "extreme_hills"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "taiga"
+												}
+											},
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "taiga"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "swamp"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "roofed"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "extreme_hills"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "swamp"
+												}
+											},
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "taiga"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "swamp"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "roofed"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "extreme_hills"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "roofed"
+												}
+											},
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "taiga"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "swamp"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "roofed"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "extreme_hills"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "extreme_hills"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:ooo_a_mushroom",
+								"places_feature": "flour_tree:mushroom_mix"
+							},
+							"conditions": {
+								"placement_pass": "underground_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "taiga"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "swamp"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "roofed"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "extreme_hills"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 1,
+								"x": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"z": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.heightmap(variable.worldx, variable.worldz) - 1",
+										"query.heightmap(variable.worldx, variable.worldz)"
+									],
+									"distribution": "uniform"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 2000
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"data": "1",
+								"key": "iterations"
+							},
+							{
+								"open": {
+									"iterations": 1,
+									"x": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"z": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.heightmap(variable.worldx, variable.worldz) - 1",
+											"query.heightmap(variable.worldx, variable.worldz)"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 2000
+									}
+								},
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								}
+							},
+							{
+								"open": {
+									"iterations": 1,
+									"x": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"z": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.heightmap(variable.worldx, variable.worldz) - 1",
+											"query.heightmap(variable.worldx, variable.worldz)"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 2000
+									}
+								},
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								}
+							},
+							{
+								"open": {
+									"iterations": 1,
+									"x": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"z": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.heightmap(variable.worldx, variable.worldz) - 1",
+											"query.heightmap(variable.worldx, variable.worldz)"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 2000
+									}
+								},
+								"key": "y",
+								"children": [
+									{
+										"open": {
+											"extent": [
+												"query.heightmap(variable.worldx, variable.worldz) - 1",
+												"query.heightmap(variable.worldx, variable.worldz)"
+											],
+											"distribution": "uniform"
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											"query.heightmap(variable.worldx, variable.worldz) - 1",
+											"query.heightmap(variable.worldx, variable.worldz)"
+										]
+									},
+									{
+										"data": "uniform",
+										"key": "distribution"
+									}
+								]
+							},
+							{
+								"open": {
+									"iterations": 1,
+									"x": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"z": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.heightmap(variable.worldx, variable.worldz) - 1",
+											"query.heightmap(variable.worldx, variable.worldz)"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 2000
+									}
+								},
+								"key": "scatter_chance",
+								"is_minified": true,
+								"children": {
+									"numerator": 1,
+									"denominator": 2000
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

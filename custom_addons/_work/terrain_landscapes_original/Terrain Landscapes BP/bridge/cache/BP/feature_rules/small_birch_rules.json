@@ -1,0 +1,358 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\feature_rules\\small_birch_rules.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "2da7c3c7_5125_4df3_9267_6aa3bde9199e",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:small_birch_rules",
+							"places_feature": "flour_tree:small_birch_feature"
+						},
+						"conditions": {
+							"placement_pass": "after_surface_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "birch"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 2,
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+									"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 4
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:small_birch_rules",
+							"places_feature": "flour_tree:small_birch_feature"
+						},
+						"conditions": {
+							"placement_pass": "after_surface_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "birch"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 2,
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+									"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 4
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:small_birch_rules",
+								"places_feature": "flour_tree:small_birch_feature"
+							},
+							"conditions": {
+								"placement_pass": "after_surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "birch"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 2,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 4
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:small_birch_rules",
+							"places_feature": "flour_tree:small_birch_feature"
+						}
+					},
+					{
+						"key": "conditions",
+						"children": [
+							{
+								"data": "after_surface_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "after_surface_pass",
+									"minecraft:biome_filter": {
+										"all_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "birch"
+											}
+										]
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"is_minified": true,
+								"children": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "birch"
+										}
+									]
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:small_birch_rules",
+								"places_feature": "flour_tree:small_birch_feature"
+							},
+							"conditions": {
+								"placement_pass": "after_surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "birch"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 2,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 4
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"open": {
+									"iterations": 2,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+										]
+									},
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 4
+									}
+								},
+								"data": "2",
+								"key": "iterations"
+							},
+							{
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							},
+							{
+								"key": "y",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+									]
+								}
+							},
+							{
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							},
+							{
+								"open": {
+									"iterations": 2,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+										]
+									},
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 4
+									}
+								},
+								"key": "scatter_chance",
+								"is_minified": true,
+								"children": {
+									"numerator": 1,
+									"denominator": 4
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

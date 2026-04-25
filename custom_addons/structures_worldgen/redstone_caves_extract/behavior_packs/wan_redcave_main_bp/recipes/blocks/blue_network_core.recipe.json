@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.111",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "wan_redcave:blue_network_core"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BIB",
+      "ICI",
+      "BIB"
+    ],
+    "key": {
+      "B": {
+        "item": "wan_redcave:bluestone"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "C": {
+        "item": "wan_redcave:bluestone_chip"
+      }
+    },
+    "unlock": [
+      {
+        "item": "wan_redcave:bluestone"
+      }
+    ],
+    "result": {
+      "item": "wan_redcave:blue_network_core",
+      "count": 1
+    }
+  }
+}

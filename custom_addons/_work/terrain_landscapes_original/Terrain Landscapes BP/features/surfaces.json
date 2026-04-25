@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:surfaces"
+		},
+		"iterations": "v.surfaces__switch = (v.biome_group_tag == 'always_cold') ? 0 : (v.biome_group_tag == 'cold_120') ? 1 : (v.biome_group_tag == 'cold_160') ? 2 : (v.biome_group_tag == 'cold_200') ? 3 : (v.biome_group_tag == 'moderate') ? 4 : (v.biome_group_tag == 'mushrooms') ? 5 : (v.biome_group_tag == 'jungle') ? 6 : (v.biome_group_tag == 'dry_rocks') ? 7 : (v.biome_group_tag == 'desert' && v.worldy < 130 + math.random(-5, 5)) ? 8 : (v.biome_group_tag == 'desert') ? 9 : (v.biome_group_tag == 'troublemaker') ? 10 : 11;return 1;",
+		"places_feature": "shapescape:surfaces__cond_aggr",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

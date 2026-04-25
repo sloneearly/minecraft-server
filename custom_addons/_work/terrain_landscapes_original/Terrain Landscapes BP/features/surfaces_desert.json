@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:surfaces_desert"
+		},
+		"iterations": "v.surfaces_desert__switch = (v.terrain.death_hole.noise_val >= 0.9 && v.worldy > 130) ? 0 : (v.worldy+1.5 > v.terrain.main.noise_val) ? 1 : (v.worldy+4.5 > v.terrain.main.noise_val) ? 2 : 3;return 1;",
+		"places_feature": "shapescape:surfaces_desert__cond_aggr",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

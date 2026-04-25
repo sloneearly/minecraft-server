@@ -1,0 +1,1092 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\dark_oak_hanging_leaves_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "88599aee_ae00_4fd8_96a8_a63d5f338eb8",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:growing_plant_feature": {
+						"description": {
+							"identifier": "flour_tree:dark_oak_hanging_leaves_feature"
+						},
+						"height_distribution": [
+							[
+								{
+									"range_min": 2,
+									"range_max": 2
+								},
+								16
+							],
+							[
+								{
+									"range_min": 3,
+									"range_max": 3
+								},
+								16
+							],
+							[
+								{
+									"range_min": 4,
+									"range_max": 4
+								},
+								16
+							],
+							[
+								{
+									"range_min": 5,
+									"range_max": 5
+								},
+								8
+							],
+							[
+								{
+									"range_min": 6,
+									"range_max": 6
+								},
+								4
+							],
+							[
+								{
+									"range_min": 7,
+									"range_max": 7
+								},
+								2
+							],
+							[
+								{
+									"range_min": 8,
+									"range_max": 8
+								},
+								1
+							]
+						],
+						"growth_direction": "DOWN",
+						"body_blocks": [
+							[
+								{
+									"name": "minecraft:leaves2",
+									"states": {
+										"new_leaf_type": "dark_oak",
+										"persistent_bit": true
+									}
+								},
+								1
+							]
+						],
+						"head_blocks": [
+							[
+								{
+									"name": "minecraft:leaves2",
+									"states": {
+										"new_leaf_type": "dark_oak",
+										"persistent_bit": true
+									}
+								},
+								1
+							]
+						],
+						"allow_water": false
+					}
+				},
+				"key": "minecraft:growing_plant_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:dark_oak_hanging_leaves_feature"
+							},
+							"height_distribution": [
+								[
+									{
+										"range_min": 2,
+										"range_max": 2
+									},
+									16
+								],
+								[
+									{
+										"range_min": 3,
+										"range_max": 3
+									},
+									16
+								],
+								[
+									{
+										"range_min": 4,
+										"range_max": 4
+									},
+									16
+								],
+								[
+									{
+										"range_min": 5,
+										"range_max": 5
+									},
+									8
+								],
+								[
+									{
+										"range_min": 6,
+										"range_max": 6
+									},
+									4
+								],
+								[
+									{
+										"range_min": 7,
+										"range_max": 7
+									},
+									2
+								],
+								[
+									{
+										"range_min": 8,
+										"range_max": 8
+									},
+									1
+								]
+							],
+							"growth_direction": "DOWN",
+							"body_blocks": [
+								[
+									{
+										"name": "minecraft:leaves2",
+										"states": {
+											"new_leaf_type": "dark_oak",
+											"persistent_bit": true
+										}
+									},
+									1
+								]
+							],
+							"head_blocks": [
+								[
+									{
+										"name": "minecraft:leaves2",
+										"states": {
+											"new_leaf_type": "dark_oak",
+											"persistent_bit": true
+										}
+									},
+									1
+								]
+							],
+							"allow_water": false
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:dark_oak_hanging_leaves_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:dark_oak_hanging_leaves_feature"
+							},
+							"height_distribution": [
+								[
+									{
+										"range_min": 2,
+										"range_max": 2
+									},
+									16
+								],
+								[
+									{
+										"range_min": 3,
+										"range_max": 3
+									},
+									16
+								],
+								[
+									{
+										"range_min": 4,
+										"range_max": 4
+									},
+									16
+								],
+								[
+									{
+										"range_min": 5,
+										"range_max": 5
+									},
+									8
+								],
+								[
+									{
+										"range_min": 6,
+										"range_max": 6
+									},
+									4
+								],
+								[
+									{
+										"range_min": 7,
+										"range_max": 7
+									},
+									2
+								],
+								[
+									{
+										"range_min": 8,
+										"range_max": 8
+									},
+									1
+								]
+							],
+							"growth_direction": "DOWN",
+							"body_blocks": [
+								[
+									{
+										"name": "minecraft:leaves2",
+										"states": {
+											"new_leaf_type": "dark_oak",
+											"persistent_bit": true
+										}
+									},
+									1
+								]
+							],
+							"head_blocks": [
+								[
+									{
+										"name": "minecraft:leaves2",
+										"states": {
+											"new_leaf_type": "dark_oak",
+											"persistent_bit": true
+										}
+									},
+									1
+								]
+							],
+							"allow_water": false
+						},
+						"key": "height_distribution",
+						"children": [
+							{
+								"open": [
+									[
+										{
+											"range_min": 2,
+											"range_max": 2
+										},
+										16
+									],
+									[
+										{
+											"range_min": 3,
+											"range_max": 3
+										},
+										16
+									],
+									[
+										{
+											"range_min": 4,
+											"range_max": 4
+										},
+										16
+									],
+									[
+										{
+											"range_min": 5,
+											"range_max": 5
+										},
+										8
+									],
+									[
+										{
+											"range_min": 6,
+											"range_max": 6
+										},
+										4
+									],
+									[
+										{
+											"range_min": 7,
+											"range_max": 7
+										},
+										2
+									],
+									[
+										{
+											"range_min": 8,
+											"range_max": 8
+										},
+										1
+									]
+								],
+								"children": [
+									{
+										"open": [
+											{
+												"range_min": 2,
+												"range_max": 2
+											},
+											16
+										],
+										"is_minified": true,
+										"children": {
+											"range_min": 2,
+											"range_max": 2
+										}
+									},
+									{
+										"open": [
+											{
+												"range_min": 2,
+												"range_max": 2
+											},
+											16
+										],
+										"data": "16"
+									}
+								]
+							},
+							{
+								"open": [
+									[
+										{
+											"range_min": 2,
+											"range_max": 2
+										},
+										16
+									],
+									[
+										{
+											"range_min": 3,
+											"range_max": 3
+										},
+										16
+									],
+									[
+										{
+											"range_min": 4,
+											"range_max": 4
+										},
+										16
+									],
+									[
+										{
+											"range_min": 5,
+											"range_max": 5
+										},
+										8
+									],
+									[
+										{
+											"range_min": 6,
+											"range_max": 6
+										},
+										4
+									],
+									[
+										{
+											"range_min": 7,
+											"range_max": 7
+										},
+										2
+									],
+									[
+										{
+											"range_min": 8,
+											"range_max": 8
+										},
+										1
+									]
+								],
+								"children": [
+									{
+										"open": [
+											{
+												"range_min": 3,
+												"range_max": 3
+											},
+											16
+										],
+										"is_minified": true,
+										"children": {
+											"range_min": 3,
+											"range_max": 3
+										}
+									},
+									{
+										"open": [
+											{
+												"range_min": 3,
+												"range_max": 3
+											},
+											16
+										],
+										"data": "16"
+									}
+								]
+							},
+							{
+								"open": [
+									[
+										{
+											"range_min": 2,
+											"range_max": 2
+										},
+										16
+									],
+									[
+										{
+											"range_min": 3,
+											"range_max": 3
+										},
+										16
+									],
+									[
+										{
+											"range_min": 4,
+											"range_max": 4
+										},
+										16
+									],
+									[
+										{
+											"range_min": 5,
+											"range_max": 5
+										},
+										8
+									],
+									[
+										{
+											"range_min": 6,
+											"range_max": 6
+										},
+										4
+									],
+									[
+										{
+											"range_min": 7,
+											"range_max": 7
+										},
+										2
+									],
+									[
+										{
+											"range_min": 8,
+											"range_max": 8
+										},
+										1
+									]
+								],
+								"children": [
+									{
+										"open": [
+											{
+												"range_min": 4,
+												"range_max": 4
+											},
+											16
+										],
+										"is_minified": true,
+										"children": {
+											"range_min": 4,
+											"range_max": 4
+										}
+									},
+									{
+										"data": "16"
+									}
+								]
+							},
+							{
+								"open": [
+									[
+										{
+											"range_min": 2,
+											"range_max": 2
+										},
+										16
+									],
+									[
+										{
+											"range_min": 3,
+											"range_max": 3
+										},
+										16
+									],
+									[
+										{
+											"range_min": 4,
+											"range_max": 4
+										},
+										16
+									],
+									[
+										{
+											"range_min": 5,
+											"range_max": 5
+										},
+										8
+									],
+									[
+										{
+											"range_min": 6,
+											"range_max": 6
+										},
+										4
+									],
+									[
+										{
+											"range_min": 7,
+											"range_max": 7
+										},
+										2
+									],
+									[
+										{
+											"range_min": 8,
+											"range_max": 8
+										},
+										1
+									]
+								],
+								"children": [
+									{
+										"open": [
+											{
+												"range_min": 5,
+												"range_max": 5
+											},
+											8
+										],
+										"is_minified": true,
+										"children": {
+											"range_min": 5,
+											"range_max": 5
+										}
+									},
+									{
+										"data": "8"
+									}
+								]
+							},
+							{
+								"open": [
+									[
+										{
+											"range_min": 2,
+											"range_max": 2
+										},
+										16
+									],
+									[
+										{
+											"range_min": 3,
+											"range_max": 3
+										},
+										16
+									],
+									[
+										{
+											"range_min": 4,
+											"range_max": 4
+										},
+										16
+									],
+									[
+										{
+											"range_min": 5,
+											"range_max": 5
+										},
+										8
+									],
+									[
+										{
+											"range_min": 6,
+											"range_max": 6
+										},
+										4
+									],
+									[
+										{
+											"range_min": 7,
+											"range_max": 7
+										},
+										2
+									],
+									[
+										{
+											"range_min": 8,
+											"range_max": 8
+										},
+										1
+									]
+								],
+								"children": [
+									{
+										"open": [
+											{
+												"range_min": 6,
+												"range_max": 6
+											},
+											4
+										],
+										"is_minified": true,
+										"children": {
+											"range_min": 6,
+											"range_max": 6
+										}
+									},
+									{
+										"data": "4"
+									}
+								]
+							},
+							{
+								"open": [
+									[
+										{
+											"range_min": 2,
+											"range_max": 2
+										},
+										16
+									],
+									[
+										{
+											"range_min": 3,
+											"range_max": 3
+										},
+										16
+									],
+									[
+										{
+											"range_min": 4,
+											"range_max": 4
+										},
+										16
+									],
+									[
+										{
+											"range_min": 5,
+											"range_max": 5
+										},
+										8
+									],
+									[
+										{
+											"range_min": 6,
+											"range_max": 6
+										},
+										4
+									],
+									[
+										{
+											"range_min": 7,
+											"range_max": 7
+										},
+										2
+									],
+									[
+										{
+											"range_min": 8,
+											"range_max": 8
+										},
+										1
+									]
+								],
+								"children": [
+									{
+										"open": [
+											{
+												"range_min": 7,
+												"range_max": 7
+											},
+											2
+										],
+										"is_minified": true,
+										"children": {
+											"range_min": 7,
+											"range_max": 7
+										}
+									},
+									{
+										"data": "2"
+									}
+								]
+							},
+							{
+								"open": [
+									[
+										{
+											"range_min": 2,
+											"range_max": 2
+										},
+										16
+									],
+									[
+										{
+											"range_min": 3,
+											"range_max": 3
+										},
+										16
+									],
+									[
+										{
+											"range_min": 4,
+											"range_max": 4
+										},
+										16
+									],
+									[
+										{
+											"range_min": 5,
+											"range_max": 5
+										},
+										8
+									],
+									[
+										{
+											"range_min": 6,
+											"range_max": 6
+										},
+										4
+									],
+									[
+										{
+											"range_min": 7,
+											"range_max": 7
+										},
+										2
+									],
+									[
+										{
+											"range_min": 8,
+											"range_max": 8
+										},
+										1
+									]
+								],
+								"children": [
+									{
+										"open": [
+											{
+												"range_min": 8,
+												"range_max": 8
+											},
+											1
+										],
+										"is_minified": true,
+										"children": {
+											"range_min": 8,
+											"range_max": 8
+										}
+									},
+									{
+										"data": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"data": "DOWN",
+						"key": "growth_direction"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:dark_oak_hanging_leaves_feature"
+							},
+							"height_distribution": [
+								[
+									{
+										"range_min": 2,
+										"range_max": 2
+									},
+									16
+								],
+								[
+									{
+										"range_min": 3,
+										"range_max": 3
+									},
+									16
+								],
+								[
+									{
+										"range_min": 4,
+										"range_max": 4
+									},
+									16
+								],
+								[
+									{
+										"range_min": 5,
+										"range_max": 5
+									},
+									8
+								],
+								[
+									{
+										"range_min": 6,
+										"range_max": 6
+									},
+									4
+								],
+								[
+									{
+										"range_min": 7,
+										"range_max": 7
+									},
+									2
+								],
+								[
+									{
+										"range_min": 8,
+										"range_max": 8
+									},
+									1
+								]
+							],
+							"growth_direction": "DOWN",
+							"body_blocks": [
+								[
+									{
+										"name": "minecraft:leaves2",
+										"states": {
+											"new_leaf_type": "dark_oak",
+											"persistent_bit": true
+										}
+									},
+									1
+								]
+							],
+							"head_blocks": [
+								[
+									{
+										"name": "minecraft:leaves2",
+										"states": {
+											"new_leaf_type": "dark_oak",
+											"persistent_bit": true
+										}
+									},
+									1
+								]
+							],
+							"allow_water": false
+						},
+						"key": "body_blocks",
+						"children": [
+							{
+								"open": [
+									[
+										{
+											"name": "minecraft:leaves2",
+											"states": {
+												"new_leaf_type": "dark_oak",
+												"persistent_bit": true
+											}
+										},
+										1
+									]
+								],
+								"children": [
+									{
+										"open": [
+											{
+												"name": "minecraft:leaves2",
+												"states": {
+													"new_leaf_type": "dark_oak",
+													"persistent_bit": true
+												}
+											},
+											1
+										],
+										"children": [
+											{
+												"open": {
+													"name": "minecraft:leaves2",
+													"states": {
+														"new_leaf_type": "dark_oak",
+														"persistent_bit": true
+													}
+												},
+												"data": "minecraft:leaves2",
+												"key": "name"
+											},
+											{
+												"open": {
+													"name": "minecraft:leaves2",
+													"states": {
+														"new_leaf_type": "dark_oak",
+														"persistent_bit": true
+													}
+												},
+												"key": "states",
+												"is_minified": true,
+												"children": {
+													"new_leaf_type": "dark_oak",
+													"persistent_bit": true
+												}
+											}
+										]
+									},
+									{
+										"data": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:dark_oak_hanging_leaves_feature"
+							},
+							"height_distribution": [
+								[
+									{
+										"range_min": 2,
+										"range_max": 2
+									},
+									16
+								],
+								[
+									{
+										"range_min": 3,
+										"range_max": 3
+									},
+									16
+								],
+								[
+									{
+										"range_min": 4,
+										"range_max": 4
+									},
+									16
+								],
+								[
+									{
+										"range_min": 5,
+										"range_max": 5
+									},
+									8
+								],
+								[
+									{
+										"range_min": 6,
+										"range_max": 6
+									},
+									4
+								],
+								[
+									{
+										"range_min": 7,
+										"range_max": 7
+									},
+									2
+								],
+								[
+									{
+										"range_min": 8,
+										"range_max": 8
+									},
+									1
+								]
+							],
+							"growth_direction": "DOWN",
+							"body_blocks": [
+								[
+									{
+										"name": "minecraft:leaves2",
+										"states": {
+											"new_leaf_type": "dark_oak",
+											"persistent_bit": true
+										}
+									},
+									1
+								]
+							],
+							"head_blocks": [
+								[
+									{
+										"name": "minecraft:leaves2",
+										"states": {
+											"new_leaf_type": "dark_oak",
+											"persistent_bit": true
+										}
+									},
+									1
+								]
+							],
+							"allow_water": false
+						},
+						"key": "head_blocks",
+						"children": [
+							{
+								"open": [
+									[
+										{
+											"name": "minecraft:leaves2",
+											"states": {
+												"new_leaf_type": "dark_oak",
+												"persistent_bit": true
+											}
+										},
+										1
+									]
+								],
+								"children": [
+									{
+										"open": [
+											{
+												"name": "minecraft:leaves2",
+												"states": {
+													"new_leaf_type": "dark_oak",
+													"persistent_bit": true
+												}
+											},
+											1
+										],
+										"children": [
+											{
+												"data": "minecraft:leaves2",
+												"key": "name"
+											},
+											{
+												"open": {
+													"name": "minecraft:leaves2",
+													"states": {
+														"new_leaf_type": "dark_oak",
+														"persistent_bit": true
+													}
+												},
+												"key": "states",
+												"is_minified": true,
+												"children": {
+													"new_leaf_type": "dark_oak",
+													"persistent_bit": true
+												}
+											}
+										]
+									},
+									{
+										"data": "1"
+									}
+								]
+							}
+						]
+					},
+					{
+						"data": "false",
+						"key": "allow_water"
+					}
+				]
+			}
+		]
+	}
+}

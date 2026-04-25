@@ -1,0 +1,33 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:growing_plant_feature": {
+		"description": {
+			"identifier": "shapescape:bush_birch"
+		},
+		"height_distribution": [
+			[
+				{
+					"range_min": 2,
+					"range_max": 2
+				},
+				1
+			],
+			[
+				{
+					"range_min": 1,
+					"range_max": 1
+				},
+				5
+			]
+		],
+		"growth_direction": "UP",
+		"body_blocks": [
+			["minecraft:birch_log", 1],
+			["minecraft:birch_leaves", 3]
+		],
+		"head_blocks": [
+			["minecraft:birch_leaves", 1]
+		],
+		"allow_water": false
+	}
+}

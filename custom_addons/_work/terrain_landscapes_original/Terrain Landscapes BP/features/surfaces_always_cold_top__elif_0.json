@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:surfaces_always_cold_top__elif_0"
+		},
+		"iterations": "v.surfaces_always_cold_top__switch == 0",
+		"places_feature": "shapescape:surfaces_packed_ice",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:growing_plant_feature": {
+		"description": {
+			"identifier": "shapescape:groupped_stones_rock"
+		},
+		"height_distribution": [
+			[
+				{
+					"range_min": 2,
+					"range_max": 2
+				},
+				1
+			],
+			[
+				{
+					"range_min": 1,
+					"range_max": 1
+				},
+				5
+			]
+		],
+		"growth_direction": "UP",
+		"body_blocks": [
+			["minecraft:stone", 1],
+			[
+				{
+					"name": "minecraft:stone",
+					"states": {
+						"stone_type": "andesite"
+					}
+				},
+				2
+			]
+		],
+		"head_blocks": [
+			["minecraft:stone", 1],
+			[
+				{
+					"name": "minecraft:stone",
+					"states": {
+						"stone_type": "andesite"
+					}
+				},
+				2
+			]
+		],
+		"allow_water": false
+	}
+}

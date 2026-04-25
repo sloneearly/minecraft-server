@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:leafs_oak_medium_2"
+		},
+		"features": [
+			["minecraft:oak_leaves", 6000],
+			["shapescape:web", 20],
+			["shapescape:bee_nest", 1]
+		]
+	}
+}

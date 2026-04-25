@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:surfaces_mushroom_terracota_stripes__elif_2"
+		},
+		"iterations": "v.surfaces_mushroom_terracota_stripes__switch == 2",
+		"places_feature": "shapescape:surfaces_blue_terracotta",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

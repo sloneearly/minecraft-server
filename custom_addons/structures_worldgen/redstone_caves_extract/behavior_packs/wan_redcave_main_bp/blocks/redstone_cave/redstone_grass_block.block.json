@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wan_redcave:redstone_grass_block",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:display_name": "wan_redcave:redstone_grass_block.name",
+      "minecraft:selection_box": true,
+      "minecraft:collision_box": true,
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.full_block"
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.6
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "tag:dirt": {},
+      "tag:fertilize_area": {},
+      "tag:grass": {},
+      "tag:snow": {},
+      "tag:minecraft:is_shovel_item_destructible": {}
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "shapescape:tree_spruce_big_3__aggregate"
+		},
+		"features": ["shapescape:tree_spruce_big_3__condition_0", "shapescape:tree_spruce_big_3__condition_1", "shapescape:tree_spruce_big_3__condition_2"]
+	}
+}

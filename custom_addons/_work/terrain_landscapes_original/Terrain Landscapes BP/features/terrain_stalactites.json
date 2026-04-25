@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_stalactites"
+		},
+		"iterations": "t.terrain_stalactites__bottom=t.stalactite_tip;t.terrain_stalactites__top=t.stalactite_anchor;t.terrain_stalactites__iterations=math.max(0, t.terrain_stalactites__top-t.terrain_stalactites__bottom);return 1;",
+		"places_feature": "shapescape:terrain_stalactites__column",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": "t.terrain_stalactites__bottom"
+	}
+}

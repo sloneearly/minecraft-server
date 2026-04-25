@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_mountain_cave_floor"
+		},
+		"iterations": "t.terrain_mountain_cave_floor__bottom=t.top_solid_heightmap_min-8;t.terrain_mountain_cave_floor__top=t.top_solid_heightmap_min;t.terrain_mountain_cave_floor__iterations=math.max(0, t.terrain_mountain_cave_floor__top-t.terrain_mountain_cave_floor__bottom);return 1;",
+		"places_feature": "shapescape:terrain_mountain_cave_floor__column",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": "t.terrain_mountain_cave_floor__bottom"
+	}
+}

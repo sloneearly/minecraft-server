@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "feber_studio:river_shallow"
+    },
+    "components": {
+      "minecraft:overworld_height": {
+        "noise_type": "river",
+        "height": -6,
+        "offset": 62
+      },
+      "minecraft:surface_parameters": {
+        "top_material": "minecraft:sand",
+        "mid_material": "minecraft:dirt",
+        "sea_floor_material": "minecraft:gravel"
+      },
+      "minecraft:climate": {
+        "temperature": 0.5,
+        "downfall": 0.7
+      }
+    }
+  }
+}

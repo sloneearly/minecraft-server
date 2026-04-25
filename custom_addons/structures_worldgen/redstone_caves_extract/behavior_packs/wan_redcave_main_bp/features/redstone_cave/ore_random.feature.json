@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "wan_redcave:redstone_cave/ore_random.feature"
+    },
+    "features": [
+      [
+        "wan_redcave:redstone_cave/hematite_redstone_inclusion.feature",
+        1
+      ],
+      [
+        "wan_redcave:redstone_cave/hematite_redstone_ore.feature",
+        1
+      ],
+      [
+        "wan_redcave:redstone_cave/magnetite_redstone_inclusion.feature",
+        2
+      ],
+      [
+        "wan_redcave:redstone_cave/magnetite_redstone_ore.feature",
+        2
+      ]
+    ]
+  }
+}

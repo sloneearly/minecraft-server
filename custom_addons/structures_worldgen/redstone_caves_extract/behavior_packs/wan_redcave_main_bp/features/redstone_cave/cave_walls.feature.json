@@ -1,0 +1,42 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "wan_redcave:redstone_cave/cave_walls.feature"
+    },
+    "count": 149,
+    "replace_rules": [
+      {
+        "places_block": "wan_redcave:magnetite",
+        "may_replace": [
+          "minecraft:stone",
+          "minecraft:deepslate",
+          "minecraft:granite",
+          "minecraft:andesite",
+          "minecraft:diorite",
+          "minecraft:gravel",
+          "minecraft:tuff",
+          "minecraft:coal_ore",
+          "minecraft:copper_ore",
+          "minecraft:iron_ore",
+          "minecraft:gold_ore",
+          "minecraft:redstone_ore",
+          "minecraft:emerald_ore",
+          "minecraft:lapis_ore",
+          "minecraft:diamond_ore",
+          "minecraft:deepslate_coal_ore",
+          "minecraft:deepslate_copper_ore",
+          "minecraft:deepslate_iron_ore",
+          "minecraft:deepslate_gold_ore",
+          "minecraft:deepslate_redstone_ore",
+          "minecraft:deepslate_emerald_ore",
+          "minecraft:deepslate_lapis_ore",
+          "minecraft:deepslate_diamond_ore",
+          "minecraft:raw_iron_block",
+          "minecraft:raw_copper_block",
+          "minecraft:water"
+        ]
+      }
+    ]
+  }
+}

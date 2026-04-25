@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.wan_redcave.projectile.shake": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [
+            "q.shake_angle - q.body_x_rotation",
+            "v.rot - q.body_y_rotation",
+            0
+          ]
+        }
+      }
+    }
+  }
+}

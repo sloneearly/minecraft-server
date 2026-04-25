@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:poppy_field_perlin_rule_condition_0"
+		},
+		"places_feature": "shapescape:poppy_field_no_water_condition",
+		"iterations": "t.noise_val = 1;t.tmp_noise_val = q.noise(-2341 + v.worldx/300, 9001 + v.worldz/300);t.tmp_noise_val = 0.0 + (t.tmp_noise_val - -1.0) * (1.0 - 0.0) / (1.0 - -1.0);t.noise_val = t.noise_val * t.tmp_noise_val;return (math.random(0, 1) < 0.8 && math.random(0.85, 0.9) <= t.noise_val && t.noise_val <= 1.0) != 0;",
+		"x": 0,
+		"y": 0,
+		"z": 0
+	}
+}

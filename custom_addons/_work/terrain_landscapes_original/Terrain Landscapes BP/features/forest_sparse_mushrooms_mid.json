@@ -1,0 +1,11 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:forest_sparse_mushrooms_mid"
+		},
+		"features": [
+			["shapescape:short_grass_patch", 15]
+		]
+	}
+}

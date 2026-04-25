@@ -1,0 +1,17 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "shapescape:groupped_stones_coarse_dirt"
+		},
+		"places_block": {
+			"name": "minecraft:dirt",
+			"states": {
+				"dirt_type": "coarse"
+			}
+		},
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false,
+		"may_replace": ["minecraft:grass", "minecraft:dirt"]
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:tree_oak_medium_3__offset"
+		},
+		"iterations": 1,
+		"places_feature": "shapescape:tree_oak_medium_3__increment",
+		"project_input_to_floor": false,
+		"coordinate_eval_order": "xzy",
+		"scatter_chance": 100.0,
+		"x": -6,
+		"z": -6,
+		"y": -2
+	}
+}

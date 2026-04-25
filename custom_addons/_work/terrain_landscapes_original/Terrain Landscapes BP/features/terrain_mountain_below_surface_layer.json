@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_mountain_below_surface_layer"
+		},
+		"iterations": "t.stalactite_anchor=v.terrain.main.noise_val-v.surface_layer_height;t.stalagmite_anchor=t.top_solid_heightmap_min;v.terrain_mountain_below_surface_layer__switch = (t.noise_to_top_offset >= v.surface_layer_height && (v.terrain.pillar.noise_val > 0.4 || v.terrain.wall.noise_val > 0.4)) ? 0 : (t.noise_to_top_offset >= v.surface_layer_height && t.top_solid_heightmap_min == 63 && t.above_top_solid != 63) ? 1 : 2;return 1;",
+		"places_feature": "shapescape:terrain_mountain_below_surface_layer__cond_aggr",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

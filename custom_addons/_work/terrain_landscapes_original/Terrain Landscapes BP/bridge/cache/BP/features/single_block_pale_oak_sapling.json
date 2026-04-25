@@ -1,0 +1,301 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\single_block_pale_oak_sapling.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "65ab7a1b_76dd_463d_9a9d_1502021244a1",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:single_block_feature": {
+						"description": {
+							"identifier": "flour_tree:single_block_pale_oak_sapling"
+						},
+						"places_block": {
+							"name": "minecraft:pale_oak_sapling"
+						},
+						"enforce_survivability_rules": true,
+						"enforce_placement_rules": true,
+						"may_replace": [
+							{
+								"name": "minecraft:tallgrass"
+							},
+							{
+								"name": "minecraft:pale_moss_carpet"
+							},
+							{
+								"name": "minecraft:double_plant"
+							},
+							{
+								"name": "minecraft:air"
+							}
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:single_block_feature": {
+						"description": {
+							"identifier": "flour_tree:single_block_pale_oak_sapling"
+						},
+						"places_block": {
+							"name": "minecraft:pale_oak_sapling"
+						},
+						"enforce_survivability_rules": true,
+						"enforce_placement_rules": true,
+						"may_replace": [
+							{
+								"name": "minecraft:tallgrass"
+							},
+							{
+								"name": "minecraft:pale_moss_carpet"
+							},
+							{
+								"name": "minecraft:double_plant"
+							},
+							{
+								"name": "minecraft:air"
+							}
+						]
+					}
+				},
+				"key": "minecraft:single_block_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:single_block_pale_oak_sapling"
+							},
+							"places_block": {
+								"name": "minecraft:pale_oak_sapling"
+							},
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true,
+							"may_replace": [
+								{
+									"name": "minecraft:tallgrass"
+								},
+								{
+									"name": "minecraft:pale_moss_carpet"
+								},
+								{
+									"name": "minecraft:double_plant"
+								},
+								{
+									"name": "minecraft:air"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:single_block_pale_oak_sapling"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:single_block_pale_oak_sapling"
+							},
+							"places_block": {
+								"name": "minecraft:pale_oak_sapling"
+							},
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true,
+							"may_replace": [
+								{
+									"name": "minecraft:tallgrass"
+								},
+								{
+									"name": "minecraft:pale_moss_carpet"
+								},
+								{
+									"name": "minecraft:double_plant"
+								},
+								{
+									"name": "minecraft:air"
+								}
+							]
+						},
+						"key": "places_block",
+						"is_minified": true,
+						"children": {
+							"name": "minecraft:pale_oak_sapling"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:single_block_pale_oak_sapling"
+							},
+							"places_block": {
+								"name": "minecraft:pale_oak_sapling"
+							},
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true,
+							"may_replace": [
+								{
+									"name": "minecraft:tallgrass"
+								},
+								{
+									"name": "minecraft:pale_moss_carpet"
+								},
+								{
+									"name": "minecraft:double_plant"
+								},
+								{
+									"name": "minecraft:air"
+								}
+							]
+						},
+						"data": "true",
+						"key": "enforce_survivability_rules"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:single_block_pale_oak_sapling"
+							},
+							"places_block": {
+								"name": "minecraft:pale_oak_sapling"
+							},
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true,
+							"may_replace": [
+								{
+									"name": "minecraft:tallgrass"
+								},
+								{
+									"name": "minecraft:pale_moss_carpet"
+								},
+								{
+									"name": "minecraft:double_plant"
+								},
+								{
+									"name": "minecraft:air"
+								}
+							]
+						},
+						"data": "true",
+						"key": "enforce_placement_rules"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:single_block_pale_oak_sapling"
+							},
+							"places_block": {
+								"name": "minecraft:pale_oak_sapling"
+							},
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true,
+							"may_replace": [
+								{
+									"name": "minecraft:tallgrass"
+								},
+								{
+									"name": "minecraft:pale_moss_carpet"
+								},
+								{
+									"name": "minecraft:double_plant"
+								},
+								{
+									"name": "minecraft:air"
+								}
+							]
+						},
+						"key": "may_replace",
+						"children": [
+							{
+								"open": [
+									{
+										"name": "minecraft:tallgrass"
+									},
+									{
+										"name": "minecraft:pale_moss_carpet"
+									},
+									{
+										"name": "minecraft:double_plant"
+									},
+									{
+										"name": "minecraft:air"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:tallgrass"
+								}
+							},
+							{
+								"open": [
+									{
+										"name": "minecraft:tallgrass"
+									},
+									{
+										"name": "minecraft:pale_moss_carpet"
+									},
+									{
+										"name": "minecraft:double_plant"
+									},
+									{
+										"name": "minecraft:air"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:pale_moss_carpet"
+								}
+							},
+							{
+								"open": [
+									{
+										"name": "minecraft:tallgrass"
+									},
+									{
+										"name": "minecraft:pale_moss_carpet"
+									},
+									{
+										"name": "minecraft:double_plant"
+									},
+									{
+										"name": "minecraft:air"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:double_plant"
+								}
+							},
+							{
+								"open": [
+									{
+										"name": "minecraft:tallgrass"
+									},
+									{
+										"name": "minecraft:pale_moss_carpet"
+									},
+									{
+										"name": "minecraft:double_plant"
+									},
+									{
+										"name": "minecraft:air"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:air"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "shapescape:tree_oak_medium_2__block_1"
+		},
+		"places_block": {
+			"name": "minecraft:oak_wood",
+			"states": {
+				"pillar_axis": "y"
+			}
+		},
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false
+	}
+}

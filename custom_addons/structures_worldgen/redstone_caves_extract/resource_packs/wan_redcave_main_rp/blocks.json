@@ -1,0 +1,138 @@
+{
+	"format_version": "1.1.0",
+	"wan_redcave:hematite": {
+		"textures": "wan_redcave:hematite"
+	},
+	"wan_redcave:hematite_redstone_inclusion": {
+		"textures": "wan_redcave:hematite_redstone_inclusion"
+	},
+	"wan_redcave:hematite_redstone_ore": {
+		"textures": "wan_redcave:hematite_redstone_ore"
+	},
+	"wan_redcave:magnetite": {
+		"textures": "wan_redcave:magnetite"
+	},
+	"wan_redcave:magnetite_redstone_inclusion": {
+		"textures": "wan_redcave:magnetite_redstone_inclusion"
+	},
+	"wan_redcave:magnetite_redstone_ore": {
+		"textures": "wan_redcave:magnetite_redstone_ore"
+	},
+	"wan_redcave:magnetite_soil": {
+		"textures": {
+			"up": "wan_redcave:hematite",
+			"down": "wan_redcave:magnetite",
+			"north": "wan_redcave:magnetite_soil",
+			"east": "wan_redcave:magnetite_soil",
+			"south": "wan_redcave:magnetite_soil",
+			"west": "wan_redcave:magnetite_soil"
+		}
+	},
+	"wan_redcave:redstone_dirt": {
+		"sound": "grass",
+		"textures": "wan_redcave:redstone_dirt"
+	},
+	"wan_redcave:redstone_grass_block": {
+		"sound": "grass",
+		"textures": {
+			"up": "wan_redcave:redstone_grass_top",
+			"down": "wan_redcave:redstone_dirt",
+			"north": "wan_redcave:redstone_grass_side",
+			"east": "wan_redcave:redstone_grass_side",
+			"south": "wan_redcave:redstone_grass_side",
+			"west": "wan_redcave:redstone_grass_side"
+		}
+	},
+	"wan_redcave:polished_magnetite": {
+		"textures": {
+			"up": "wan_redcave:polished_magnetite",
+			"down": "wan_redcave:polished_magnetite",
+			"north": "wan_redcave:polished_magnetite",
+			"east": "wan_redcave:polished_magnetite",
+			"south": "wan_redcave:polished_magnetite",
+			"west": "wan_redcave:polished_magnetite"
+		}
+	},
+	"wan_redcave:pure_redstone_block": {
+		"textures": "wan_redcave:pure_redstone_block"
+	},
+	"wan_redcave:redstone_drip": {
+		"textures": {
+			"up": "wan_redcave:hematite",
+			"down": "wan_redcave:redstone_drip_bottom",
+			"north": "wan_redcave:redstone_drip",
+			"east": "wan_redcave:redstone_drip",
+			"south": "wan_redcave:redstone_drip",
+			"west": "wan_redcave:redstone_drip"
+		}
+	},
+	"wan_redcave:electric_oven_t1": {
+		"sound": "metal"
+	},
+	"wan_redcave:electric_oven_t2": {
+		"sound": "metal"
+	},
+	"wan_redcave:crusher_t1": {
+		"sound": "metal"
+	},
+	"wan_redcave:autofarmer_t1": {
+		"sound": "metal"
+	},
+	"wan_redcave:autofarmer_t2": {
+		"sound": "metal"
+	},
+	"wan_redcave:quarry": {
+		"sound": "metal"
+	},
+	"wan_redcave:wireless_hopper": {
+		"sound": "metal"
+	},
+	"wan_redcave:hematite_stalactite_tip": {
+		"sound": "stone"
+	},
+	"wan_redcave:hematite_stalactite": {
+		"sound": "stone"
+	},
+	"wan_redcave:hematite_stalagmite_tip": {
+		"sound": "stone"
+	},
+	"wan_redcave:hematite_stalagmite": {
+		"sound": "stone"
+	},
+	"wan_redcave:magnetite_redlight_curve": {
+		"sound": "stone"
+	},
+	"wan_redcave:magnetite_redlight_horizontal": {
+		"sound": "stone"
+	},
+	"wan_redcave:magnetite_redlight_intersection": {
+		"sound": "stone"
+	},
+	"wan_redcave:magnetite_redlight_perpendicular": {
+		"sound": "stone"
+	},
+	"wan_redcave:pure_redstone_cluster": {
+		"sound": "stone"
+	},
+	"wan_redcave:pure_redstone_large_bud": {
+		"sound": "stone"
+	},
+	"wan_redcave:pure_redstone_medium_bud": {
+		"sound": "stone"
+	},
+	"wan_redcave:pure_redstone_small_bud": {
+		"sound": "stone"
+	},
+	"wan_redcave:redstone_glass": {
+		"sound": "glass"
+	},
+	"wan_redcave:redstone_growth_short": {
+		"sound": "grass"
+	},
+	"wan_redcave:redstone_growth_tall": {
+		"sound": "grass"
+	},
+	"wan_redcave:redstone_sprout": {
+		"sound": "grass"
+	}
+}

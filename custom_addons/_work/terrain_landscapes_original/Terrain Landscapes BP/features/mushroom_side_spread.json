@@ -1,0 +1,18 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:mushroom_side_spread"
+		},
+		"iterations": "t.maxy=5;return t.maxy;",
+		"places_feature": "shapescape:mushroom_side_spread_filter",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": {
+			"extent": [0, "t.maxy-1"],
+			"distribution": "fixed_grid"
+		}
+	}
+}

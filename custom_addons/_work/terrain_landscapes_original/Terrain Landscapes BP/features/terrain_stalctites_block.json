@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_stalctites_block"
+		},
+		"iterations": "v.terrain_stalctites_block__switch = (v.worldy == t.stalactite_anchor-1) ? 0 : (v.worldy == t.stalactite_tip+1) ? 1 : (v.worldy == t.stalactite_tip && t.stala_touch) ? 2 : (v.worldy == t.stalactite_tip) ? 3 : 4;return 1;",
+		"places_feature": "shapescape:terrain_stalctites_block__cond_aggr",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

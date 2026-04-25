@@ -1,0 +1,40 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "feber_studio:custom_plains"
+    },
+    "components": {
+      "minecraft:surface_parameters": {
+        "top_material": "minecraft:grass_block",
+        "mid_material": "minecraft:dirt",
+        "sea_floor_material": "minecraft:sand"
+      },
+
+      "minecraft:overworld_height": {
+        "noise_type": "mountains",
+        "height": 40,
+        "offset": 73
+      },
+
+      "minecraft:vegetation": {
+        "chance": 0.4
+      },
+
+      "minecraft:features": {
+        "tree": [
+          {
+            "chance": 0.006,
+            "feature": "minecraft:oak_tree"
+          }
+        ],
+        "flora": [
+          {
+            "chance": 0.03,
+            "feature": "minecraft:flowers"
+          }
+        ]
+      }
+    }
+  }
+}

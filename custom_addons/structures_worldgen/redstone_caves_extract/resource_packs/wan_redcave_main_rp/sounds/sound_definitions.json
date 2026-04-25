@@ -1,0 +1,486 @@
+{
+  "format_version": "1.21.80",
+  "__use_legacy_max_distance": "true",
+  "sound_definitions": {
+    "ambient.redstone_plains.loop": {
+      "category": "ambient",
+      "sounds": [
+        {
+          "name": "sounds/wan/redcave/ambient/redstone_plains",
+          "is3D": false,
+          "stream": false,
+          "volume": 1,
+          "weight": 1
+        }
+      ],
+      "max_distance": null,
+      "min_distance": null,
+      "__use_legacy_max_distance": true
+    },
+    "wan_redcave.flying_drone.hurt": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/wan/redcave/entity/flying_drone/hurt_0",
+        "sounds/wan/redcave/entity/flying_drone/hurt_1",
+        "sounds/wan/redcave/entity/flying_drone/hurt_2"
+      ]
+    },
+    "wan_redcave.flying_drone.idle": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/wan/redcave/entity/flying_drone/idle_0",
+        "sounds/wan/redcave/entity/flying_drone/idle_1",
+        "sounds/wan/redcave/entity/flying_drone/idle_2"
+      ]
+    },
+    "wan_redcave.flying_drone.pickup": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/wan/redcave/entity/flying_drone/pickup"
+      ]
+    },
+    "wan_redcave.flying_drone.rotor": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/wan/redcave/entity/flying_drone/rotor"
+      ]
+    },
+    "wan_redcave.flying_drone.walk": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/wan/redcave/entity/flying_drone/walk"
+      ]
+    },
+    "wan_redcave.generic_mob.death": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/generic_mob/death_0",
+        "sounds/wan/redcave/entity/generic_mob/death_1",
+        "sounds/wan/redcave/entity/generic_mob/death_2",
+        "sounds/wan/redcave/entity/generic_mob/death_3"
+      ]
+    },
+    "wan_redcave.generic_mob.off": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/generic_mob/off"
+      ]
+    },
+    "wan_redcave.generic_mob.off_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/generic_mob/off_hostile"
+      ]
+    },
+    "wan_redcave.generic_mob.on": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/generic_mob/on"
+      ]
+    },
+    "wan_redcave.generic_mob.on_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/generic_mob/on_hostile"
+      ]
+    },
+    "wan_redcave.little_tyrant.bite": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/wan/redcave/entity/little_tyrant/bite"
+      ]
+    },
+    "wan_redcave.little_tyrant.hurt": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/wan/redcave/entity/little_tyrant/hurt_0",
+        "sounds/wan/redcave/entity/little_tyrant/hurt_1",
+        "sounds/wan/redcave/entity/little_tyrant/hurt_2"
+      ]
+    },
+    "wan_redcave.little_tyrant.idle": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/wan/redcave/entity/little_tyrant/idle_0",
+        "sounds/wan/redcave/entity/little_tyrant/idle_1",
+        "sounds/wan/redcave/entity/little_tyrant/idle_2"
+      ]
+    },
+    "wan_redcave.little_tyrant.shooting": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/wan/redcave/entity/little_tyrant/shooting"
+      ]
+    },
+    "wan_redcave.little_tyrant.walk": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/wan/redcave/entity/little_tyrant/walk"
+      ]
+    },
+    "wan_redcave.redstone_crawler.bite": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_crawler/bite"
+      ]
+    },
+    "wan_redcave.redstone_crawler.bite_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_crawler/bite_hostile"
+      ]
+    },
+    "wan_redcave.redstone_crawler.hurt": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_crawler/hurt_0",
+        "sounds/wan/redcave/entity/redstone_crawler/hurt_1",
+        "sounds/wan/redcave/entity/redstone_crawler/hurt_2"
+      ]
+    },
+    "wan_redcave.redstone_crawler.idle": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_crawler/idle_0",
+        "sounds/wan/redcave/entity/redstone_crawler/idle_1",
+        "sounds/wan/redcave/entity/redstone_crawler/idle_2"
+      ]
+    },
+    "wan_redcave.redstone_crawler.idle_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_crawler/idle_hostile_0",
+        "sounds/wan/redcave/entity/redstone_crawler/idle_hostile_1",
+        "sounds/wan/redcave/entity/redstone_crawler/idle_hostile_2"
+      ]
+    },
+    "wan_redcave.redstone_crawler.jump": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_crawler/jump"
+      ]
+    },
+    "wan_redcave.redstone_crawler.jump_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_crawler/jump_hostile"
+      ]
+    },
+    "wan_redcave.redstone_crawler.jump_loop": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_crawler/jump_loop"
+      ]
+    },
+    "wan_redcave.redstone_crawler.land": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_crawler/land"
+      ]
+    },
+    "wan_redcave.redstone_crawler.land_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_crawler/land_hostile"
+      ]
+    },
+    "wan_redcave.redstone_crawler.tail": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_crawler/tail"
+      ]
+    },
+    "wan_redcave.redstone_crawler.tail_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_crawler/tail_hostile"
+      ]
+    },
+    "wan_redcave.redstone_crawler.walk": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_crawler/walk_0",
+        "sounds/wan/redcave/entity/redstone_crawler/walk_1"
+      ]
+    },
+    "wan_redcave.redstone_crawler.walk_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_crawler/walk_hostile_0",
+        "sounds/wan/redcave/entity/redstone_crawler/walk_hostile_1"
+      ]
+    },
+    "wan_redcave.redstone_creeper.explode": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_creeper/explode"
+      ]
+    },
+    "wan_redcave.redstone_creeper.explode_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_creeper/explode_hostile"
+      ]
+    },
+    "wan_redcave.redstone_creeper.hurt": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_creeper/hurt_0",
+        "sounds/wan/redcave/entity/redstone_creeper/hurt_1",
+        "sounds/wan/redcave/entity/redstone_creeper/hurt_2"
+      ]
+    },
+    "wan_redcave.redstone_creeper.hurt_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_creeper/hurt_0",
+        "sounds/wan/redcave/entity/redstone_creeper/hurt_1",
+        "sounds/wan/redcave/entity/redstone_creeper/hurt_2"
+      ]
+    },
+    "wan_redcave.redstone_creeper.idle": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_creeper/idle_0",
+        "sounds/wan/redcave/entity/redstone_creeper/idle_1",
+        "sounds/wan/redcave/entity/redstone_creeper/idle_2"
+      ]
+    },
+    "wan_redcave.redstone_creeper.idle_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_creeper/idle_hostile_0",
+        "sounds/wan/redcave/entity/redstone_creeper/idle_hostile_1",
+        "sounds/wan/redcave/entity/redstone_creeper/idle_hostile_2"
+      ]
+    },
+    "wan_redcave.redstone_creeper.melee": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_creeper/melee"
+      ]
+    },
+    "wan_redcave.redstone_creeper.melee_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_creeper/melee_hostile"
+      ]
+    },
+    "wan_redcave.redstone_creeper.walk": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_creeper/walk"
+      ]
+    },
+    "wan_redcave.redstone_creeper.walk_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_creeper/walk_hostile"
+      ]
+    },
+    "wan_redcave.redstone_hound.bite": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_hound/bite"
+      ]
+    },
+    "wan_redcave.redstone_hound.bite_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_hound/bite_hostile"
+      ]
+    },
+    "wan_redcave.redstone_hound.charge": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_hound/charge"
+      ]
+    },
+    "wan_redcave.redstone_hound.charge_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_hound/charge_hostile"
+      ]
+    },
+    "wan_redcave.redstone_hound.cooldown": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_hound/cooldown"
+      ]
+    },
+    "wan_redcave.redstone_hound.cooldown_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_hound/cooldown_hostile"
+      ]
+    },
+    "wan_redcave.redstone_hound.hurt": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_hound/hurt_0",
+        "sounds/wan/redcave/entity/redstone_hound/hurt_1",
+        "sounds/wan/redcave/entity/redstone_hound/hurt_2"
+      ]
+    },
+    "wan_redcave.redstone_hound.idle": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_hound/idle_0",
+        "sounds/wan/redcave/entity/redstone_hound/idle_1",
+        "sounds/wan/redcave/entity/redstone_hound/idle_2"
+      ]
+    },
+    "wan_redcave.redstone_hound.idle_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_hound/idle_hostile_0",
+        "sounds/wan/redcave/entity/redstone_hound/idle_hostile_1",
+        "sounds/wan/redcave/entity/redstone_hound/idle_hostile_2"
+      ]
+    },
+    "wan_redcave.redstone_hound.laser": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_hound/laser"
+      ]
+    },
+    "wan_redcave.redstone_hound.laser_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_hound/laser_hostile"
+      ]
+    },
+    "wan_redcave.redstone_hound.saw": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_hound/saw"
+      ]
+    },
+    "wan_redcave.redstone_hound.saw_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_hound/saw_hostile"
+      ]
+    },
+    "wan_redcave.redstone_hound.walk": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_hound/walk"
+      ]
+    },
+    "wan_redcave.redstone_hound.walk_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_hound/walk_hostile"
+      ]
+    },
+    "wan_redcave.redstone_wing.hurt": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_wing/hurt_0",
+        "sounds/wan/redcave/entity/redstone_wing/hurt_1",
+        "sounds/wan/redcave/entity/redstone_wing/hurt_2"
+      ]
+    },
+    "wan_redcave.redstone_wing.idle": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_wing/idle_0",
+        "sounds/wan/redcave/entity/redstone_wing/idle_1",
+        "sounds/wan/redcave/entity/redstone_wing/idle_2"
+      ]
+    },
+    "wan_redcave.redstone_wing.idle_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_wing/idle_hostile_0",
+        "sounds/wan/redcave/entity/redstone_wing/idle_hostile_1",
+        "sounds/wan/redcave/entity/redstone_wing/idle_hostile_2"
+      ]
+    },
+    "wan_redcave.redstone_wing.shoot": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_wing/shoot"
+      ]
+    },
+    "wan_redcave.redstone_wing.shoot_hostile": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_wing/shoot_hostile"
+      ]
+    },
+    "wan_redcave.redstone_tyrant.bite": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_tyrant/bite"
+      ]
+    },
+    "wan_redcave.redstone_tyrant.death": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_tyrant/death"
+      ]
+    },
+    "wan_redcave.redstone_tyrant.eat": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_tyrant/eat"
+      ]
+    },
+    "wan_redcave.redstone_tyrant.hurt": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_tyrant/hurt_0",
+        "sounds/wan/redcave/entity/redstone_tyrant/hurt_1",
+        "sounds/wan/redcave/entity/redstone_tyrant/hurt_2"
+      ]
+    },
+    "wan_redcave.redstone_tyrant.idle": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_tyrant/idle_0",
+        "sounds/wan/redcave/entity/redstone_tyrant/idle_1",
+        "sounds/wan/redcave/entity/redstone_tyrant/idle_2"
+      ]
+    },
+    "wan_redcave.redstone_tyrant.move_power": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_tyrant/move_power_0",
+        "sounds/wan/redcave/entity/redstone_tyrant/move_power_1",
+        "sounds/wan/redcave/entity/redstone_tyrant/move_power_2"
+      ]
+    },
+    "wan_redcave.redstone_tyrant.roar": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_tyrant/roar"
+      ]
+    },
+    "wan_redcave.redstone_tyrant.shooting": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_tyrant/shooting"
+      ]
+    },
+    "wan_redcave.redstone_tyrant.smash": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_tyrant/smash"
+      ]
+    },
+    "wan_redcave.redstone_tyrant.swing": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_tyrant/swing"
+      ]
+    },
+    "wan_redcave.redstone_tyrant.walk": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/wan/redcave/entity/redstone_tyrant/walk"
+      ]
+    }
+  }
+}

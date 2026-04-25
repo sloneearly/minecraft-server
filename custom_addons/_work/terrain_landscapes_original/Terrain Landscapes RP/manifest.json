@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "FEBERNAISYSTUDIOS by FEBERNAISYSTUDIOS",
+    "name": "Terrain Landscapes",
+    "uuid": "c63c863f-8efe-4855-baf8-5c9d5be95d8f",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      100
+    ]
+  },
+  "modules": [
+    {
+      "description": "FEBERNAISYSTUDIOS by FEBERNAISYSTUDIOS",
+      "type": "resources",
+      "uuid": "f6c8e680-bd47-4a66-be43-352d59c34ce3",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "a52aee62-bafa-4191-82f7-323ca2297dea",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

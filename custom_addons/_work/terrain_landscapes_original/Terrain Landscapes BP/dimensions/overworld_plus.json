@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:dimension": {
+    "description": {
+      "identifier": "feber:overworld_plus"
+    },
+    "components": {
+      "minecraft:generator": {
+        "type": "overworld",
+        "seed": 0
+      },
+      "minecraft:weather": {},
+      "minecraft:sky_color": {},
+      "minecraft:fog_appearance": {},
+      "minecraft:respawn": {
+        "anchor_bed": true
+      }
+    }
+  }
+}

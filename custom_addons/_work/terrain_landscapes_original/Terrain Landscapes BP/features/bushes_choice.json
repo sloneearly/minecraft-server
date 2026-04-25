@@ -1,0 +1,14 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:bushes_choice"
+		},
+		"features": [
+			["shapescape:bushes_bush", 3],
+			["shapescape:bushes_bush_flowered", 2],
+			["shapescape:bushes_syringa", 1],
+			["shapescape:bushes_tallgrass", 2]
+		]
+	}
+}

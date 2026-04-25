@@ -1,0 +1,9 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "shapescape:surfaces_always_cold_mid__cond_aggr"
+		},
+		"features": ["shapescape:surfaces_always_cold_mid__elif_0", "shapescape:surfaces_always_cold_mid__elif_1"]
+	}
+}

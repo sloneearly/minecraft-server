@@ -1,0 +1,497 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.wan_redcave.redstone_wing",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 14,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [
+          0,
+          0.75,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "body",
+          "pivot": [
+            0.5,
+            7,
+            -2
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -2,
+                8,
+                -9
+              ],
+              "size": [
+                4,
+                2,
+                5
+              ],
+              "uv": [
+                24,
+                28
+              ]
+            },
+            {
+              "origin": [
+                -3,
+                6,
+                -5
+              ],
+              "size": [
+                6,
+                5,
+                6
+              ],
+              "uv": [
+                0,
+                19
+              ]
+            },
+            {
+              "origin": [
+                2,
+                7,
+                -8
+              ],
+              "size": [
+                1,
+                1,
+                6
+              ],
+              "pivot": [
+                2.5,
+                7.5,
+                -3
+              ],
+              "rotation": [
+                12.5,
+                -12.5,
+                0
+              ],
+              "uv": [
+                16,
+                35
+              ],
+              "mirror": true
+            },
+            {
+              "origin": [
+                -3,
+                7,
+                -8
+              ],
+              "size": [
+                1,
+                1,
+                6
+              ],
+              "pivot": [
+                -2.5,
+                7.5,
+                -3
+              ],
+              "rotation": [
+                12.5,
+                12.5,
+                0
+              ],
+              "uv": [
+                16,
+                35
+              ]
+            },
+            {
+              "origin": [
+                -2,
+                7,
+                1
+              ],
+              "size": [
+                4,
+                2,
+                6
+              ],
+              "uv": [
+                24,
+                7
+              ]
+            },
+            {
+              "origin": [
+                -1,
+                7,
+                7
+              ],
+              "size": [
+                2,
+                2,
+                10
+              ],
+              "uv": [
+                0,
+                7
+              ]
+            },
+            {
+              "origin": [
+                -2,
+                8,
+                -11
+              ],
+              "size": [
+                4,
+                2,
+                4
+              ],
+              "pivot": [
+                0,
+                8,
+                -9
+              ],
+              "rotation": [
+                30.36119,
+                -40.78947,
+                -20.94102
+              ],
+              "uv": [
+                0,
+                30
+              ]
+            }
+          ],
+          "locators": {
+            "locator": [
+              9,
+              8,
+              0
+            ],
+            "locator2": [
+              -9,
+              8,
+              0
+            ]
+          }
+        },
+        {
+          "name": "leftleg",
+          "parent": "body",
+          "pivot": [
+            3,
+            6,
+            -2
+          ],
+          "cubes": [
+            {
+              "origin": [
+                3,
+                6,
+                -5
+              ],
+              "size": [
+                5,
+                0,
+                6
+              ],
+              "pivot": [
+                3,
+                6,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                60
+              ],
+              "uv": [
+                24,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "name": "rightleg",
+          "parent": "body",
+          "pivot": [
+            -3,
+            6,
+            -2
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                6,
+                -5
+              ],
+              "size": [
+                5,
+                0,
+                6
+              ],
+              "pivot": [
+                -3,
+                6,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -60
+              ],
+              "uv": [
+                24,
+                15
+              ],
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "rightwing_bone",
+          "parent": "body",
+          "pivot": [
+            -1,
+            9,
+            -3
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -11,
+                8,
+                -3
+              ],
+              "size": [
+                5,
+                2,
+                5
+              ],
+              "uv": [
+                24,
+                21
+              ]
+            },
+            {
+              "origin": [
+                -22,
+                9,
+                -4
+              ],
+              "size": [
+                19,
+                0,
+                7
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leftwing_bone",
+          "parent": "body",
+          "pivot": [
+            1,
+            9,
+            -3
+          ],
+          "cubes": [
+            {
+              "origin": [
+                6,
+                8,
+                -3
+              ],
+              "size": [
+                5,
+                2,
+                5
+              ],
+              "uv": [
+                24,
+                21
+              ],
+              "mirror": true
+            },
+            {
+              "origin": [
+                3,
+                9,
+                -4
+              ],
+              "size": [
+                19,
+                0,
+                7
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "Laser",
+          "pivot": [
+            0,
+            1,
+            -10
+          ]
+        },
+        {
+          "name": "rotation",
+          "parent": "Laser",
+          "pivot": [
+            0,
+            9,
+            -9
+          ],
+          "cubes": [
+            {
+              "origin": [
+                1,
+                10,
+                -8.9
+              ],
+              "size": [
+                -2,
+                -2,
+                -1.1
+              ],
+              "uv": [
+                63,
+                5
+              ],
+              "mirror": true
+            },
+            {
+              "origin": [
+                1.8,
+                10.8,
+                -8.6
+              ],
+              "size": [
+                -3.6,
+                -3.6,
+                -1.8
+              ],
+              "inflate": 0.3,
+              "pivot": [
+                0,
+                9,
+                -11.3
+              ],
+              "rotation": [
+                0,
+                0,
+                45
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    63,
+                    3
+                  ],
+                  "uv_size": [
+                    -2,
+                    -2
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    62,
+                    4
+                  ],
+                  "uv_size": [
+                    -1,
+                    -2
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    63,
+                    4
+                  ],
+                  "uv_size": [
+                    -2,
+                    -3
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    63,
+                    3
+                  ],
+                  "uv_size": [
+                    -2,
+                    -2
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    63,
+                    5
+                  ],
+                  "uv_size": [
+                    -2,
+                    -2
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    63,
+                    2
+                  ],
+                  "uv_size": [
+                    -2,
+                    3
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "laser_center",
+          "parent": "rotation",
+          "pivot": [
+            0,
+            9,
+            -10.9
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -0.5,
+                8.5,
+                -9.9
+              ],
+              "size": [
+                1,
+                1,
+                1
+              ],
+              "uv": [
+                51,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

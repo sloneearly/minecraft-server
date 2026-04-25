@@ -1,0 +1,70 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "wan_redcave:redstone_hound",
+      "materials": {
+        "default": "wan_redcave_animated_emissive_alpha",
+        "laser": "entity_alphablend"
+      },
+      "textures": {
+        "empty": "textures/wan/redcave/empty",
+        "hostile": "textures/wan/redcave/entity/redstone_hound/hostile",
+        "pacific": "textures/wan/redcave/entity/redstone_hound/pacific",
+        "deactivated": "textures/wan/redcave/entity/redstone_hound/off"
+      },
+      "geometry": {
+        "default": "geometry.wan_redcave.redstone_hound"
+      },
+      "animations": {
+        "idle": "animation.wan_redcave.redstone_hound.idle",
+        "walk": "animation.wan_redcave.redstone_hound.walk",
+        "saw": "animation.wan_redcave.redstone_hound.sega",
+        "bite": "animation.wan_redcave.redstone_hound.bite",
+        "charge": "animation.wan_redcave.redstone_hound.charge",
+        "laser": "animation.wan_redcave.redstone_hound.shoot_laser",
+        "cooldown": "animation.wan_redcave.redstone_hound.cooldown",
+        "on": "animation.wan_redcave.redstone_hound.on",
+        "off": "animation.wan_redcave.redstone_hound.off",
+        "off_post": "animation.wan_redcave.redstone_hound.off_post",
+        "sit": "animation.wan_redcave.redstone_hound.sit",
+        "up": "animation.wan_redcave.redstone_hound.up",
+        "move_ctrl": "controller.animation.wan_redcave.redstone_hound.move",
+        "attack_ctrl": "controller.animation.wan_redcave.redstone_hound.attack"
+      },
+      "scripts": {
+        "animate": [
+          "move_ctrl",
+          "attack_ctrl"
+        ],
+        "initialize": [
+          "v.stop_walking_anim = 0;"
+        ]
+      },
+      "sound_effects": {
+        "on": "wan_redcave.generic_mob.on",
+        "on_hostile": "wan_redcave.generic_mob.on_hostile",
+        "off": "wan_redcave.generic_mob.off",
+        "off_hostile": "wan_redcave.generic_mob.off_hostile",
+        "bite": "wan_redcave.redstone_hound.bite",
+        "bite_hostile": "wan_redcave.redstone_hound.bite_hostile",
+        "charge": "wan_redcave.redstone_hound.charge",
+        "charge_hostile": "wan_redcave.redstone_hound.charge_hostile",
+        "cooldown": "wan_redcave.redstone_hound.cooldown",
+        "cooldown_hostile": "wan_redcave.redstone_hound.cooldown_hostile",
+        "sega": "wan_redcave.redstone_hound.saw",
+        "sega_hostile": "wan_redcave.redstone_hound.saw_hostile",
+        "shootlaser": "wan_redcave.redstone_hound.laser",
+        "shootlaser_hostile": "wan_redcave.redstone_hound.laser_hostile",
+        "walk": "wan_redcave.redstone_hound.walk",
+        "walk_hostile": "wan_redcave.redstone_hound.walk_hostile"
+      },
+      "render_controllers": [
+        "controller.render.wan_redcave.redstone_hound"
+      ],
+      "spawn_egg": {
+        "texture": "wan_redcave:redstone_hound_spawn_egg"
+      }
+    }
+  }
+}

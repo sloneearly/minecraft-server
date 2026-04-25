@@ -1,0 +1,9 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "shapescape:surfaces_moderate__cond_aggr"
+		},
+		"features": ["shapescape:surfaces_moderate__elif_0", "shapescape:surfaces_moderate__elif_1", "shapescape:surfaces_moderate__elif_2"]
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:groupped_stones_dirt_choice"
+		},
+		"features": [
+			["shapescape:groupped_stones_coarse_dirt", 4],
+			["shapescape:groupped_stones_podzol", 1]
+		]
+	}
+}

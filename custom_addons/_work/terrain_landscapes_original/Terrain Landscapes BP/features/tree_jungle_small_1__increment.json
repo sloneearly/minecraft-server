@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:tree_jungle_small_1__increment"
+		},
+		"iterations": "v.tree_jungle_small_1__i=v.tree_jungle_small_1__i+1;v.tree_jungle_small_1__i==0?{t.x=0;t.y=3;t.z=3;t.block=1;};v.tree_jungle_small_1__i==1?{t.x=1;t.y=3;t.z=1;t.block=1;};v.tree_jungle_small_1__i==2?{t.x=1;t.y=3;t.z=3;t.block=2;};v.tree_jungle_small_1__i==3?{t.x=1;t.y=3;t.z=4;t.block=1;};v.tree_jungle_small_1__i==4?{t.x=1;t.y=4;t.z=2;t.block=1;};v.tree_jungle_small_1__i==5?{t.x=2;t.y=2;t.z=3;t.block=1;};v.tree_jungle_small_1__i==6?{t.x=2;t.y=3;t.z=0;t.block=3;};v.tree_jungle_small_1__i==7?{t.x=2;t.y=3;t.z=1;t.block=2;};v.tree_jungle_small_1__i==8?{t.x=2;t.y=3;t.z=2;t.block=2;};v.tree_jungle_small_1__i==9?{t.x=2;t.y=3;t.z=3;t.block=2;};v.tree_jungle_small_1__i==10?{t.x=2;t.y=3;t.z=4;t.block=2;};v.tree_jungle_small_1__i==11?{t.x=2;t.y=3;t.z=5;t.block=4;};v.tree_jungle_small_1__i==12?{t.x=2;t.y=4;t.z=2;t.block=2;};v.tree_jungle_small_1__i==13?{t.x=2;t.y=4;t.z=3;t.block=2;};v.tree_jungle_small_1__i==14?{t.x=3;t.y=0;t.z=3;t.block=5;};v.tree_jungle_small_1__i==15?{t.x=3;t.y=1;t.z=3;t.block=5;};v.tree_jungle_small_1__i==16?{t.x=3;t.y=2;t.z=2;t.block=3;};v.tree_jungle_small_1__i==17?{t.x=3;t.y=2;t.z=3;t.block=5;};v.tree_jungle_small_1__i==18?{t.x=3;t.y=2;t.z=4;t.block=4;};v.tree_jungle_small_1__i==19?{t.x=3;t.y=3;t.z=2;t.block=2;};v.tree_jungle_small_1__i==20?{t.x=3;t.y=3;t.z=3;t.block=5;};v.tree_jungle_small_1__i==21?{t.x=3;t.y=3;t.z=4;t.block=2;};v.tree_jungle_small_1__i==22?{t.x=3;t.y=4;t.z=1;t.block=3;};v.tree_jungle_small_1__i==23?{t.x=3;t.y=4;t.z=2;t.block=2;};v.tree_jungle_small_1__i==24?{t.x=3;t.y=4;t.z=3;t.block=2;};v.tree_jungle_small_1__i==25?{t.x=3;t.y=4;t.z=4;t.block=2;};v.tree_jungle_small_1__i==26?{t.x=3;t.y=4;t.z=5;t.block=4;};v.tree_jungle_small_1__i==27?{t.x=4;t.y=2;t.z=3;t.block=6;};v.tree_jungle_small_1__i==28?{t.x=4;t.y=3;t.z=1;t.block=3;};v.tree_jungle_small_1__i==29?{t.x=4;t.y=3;t.z=2;t.block=2;};v.tree_jungle_small_1__i==30?{t.x=4;t.y=3;t.z=3;t.block=2;};v.tree_jungle_small_1__i==31?{t.x=4;t.y=3;t.z=4;t.block=2;};v.tree_jungle_small_1__i==32?{t.x=4;t.y=3;t.z=5;t.block=4;};v.tree_jungle_small_1__i==33?{t.x=4;t.y=4;t.z=3;t.block=2;};v.tree_jungle_small_1__i==34?{t.x=5;t.y=3;t.z=2;t.block=6;};v.tree_jungle_small_1__i==35?{t.x=5;t.y=3;t.z=4;t.block=6;};v.tree_jungle_small_1__i==36?{t.x=5;t.y=4;t.z=3;t.block=6;};return 1;",
+		"places_feature": "shapescape:tree_jungle_small_1__aggregate",
+		"project_input_to_floor": false,
+		"coordinate_eval_order": "xzy",
+		"scatter_chance": 100.0,
+		"x": "t.x",
+		"z": "t.z",
+		"y": "t.y"
+	}
+}

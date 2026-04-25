@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:tree_spruce_medium_2"
+		},
+		"iterations": "v.tree_spruce_medium_2__i=-1;return 250;",
+		"places_feature": "shapescape:tree_spruce_medium_2__offset",
+		"project_input_to_floor": false,
+		"coordinate_eval_order": "xzy",
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

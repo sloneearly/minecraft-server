@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.wan_redcave.redstone_mob": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "arrays": {
+        "textures": {
+          "Array.textures": [
+            "Texture.empty",
+            "Texture.hostile",
+            "Texture.deactivated",
+            "Texture.pacific"
+          ]
+        }
+      },
+      "textures": [
+        "Array.textures[q.mark_variant]"
+      ]
+    }
+  }
+}

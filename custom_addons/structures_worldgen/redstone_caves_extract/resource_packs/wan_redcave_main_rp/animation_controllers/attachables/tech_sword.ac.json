@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.wan_redcave.tech_sword.use": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "using": "q.is_using_item"
+            }
+          ]
+        },
+        "using": {
+          "animations": [
+            "slash"
+          ],
+          "transitions": [
+            {
+              "default": "q.any_animation_finished"
+            }
+          ],
+          "blend_transition": 0.1
+        }
+      }
+    }
+  }
+}

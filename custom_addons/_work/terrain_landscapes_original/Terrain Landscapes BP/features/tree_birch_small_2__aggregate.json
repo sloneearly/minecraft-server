@@ -1,0 +1,9 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "shapescape:tree_birch_small_2__aggregate"
+		},
+		"features": ["shapescape:tree_birch_small_2__condition_0", "shapescape:tree_birch_small_2__condition_1"]
+	}
+}

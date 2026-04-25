@@ -1,0 +1,86 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "wan_redcave:redstone_crawler",
+      "materials": {
+        "default": "wan_redcave_animated_emissive_alpha"
+      },
+      "textures": {
+        "empty": "textures/wan/redcave/empty",
+        "hostile": "textures/wan/redcave/entity/redstone_crawler/hostile",
+        "pacific": "textures/wan/redcave/entity/redstone_crawler/pacific",
+        "deactivated": "textures/wan/redcave/entity/redstone_crawler/off"
+      },
+      "geometry": {
+        "default": "geometry.wan_redcave.redstone_crawler"
+      },
+      "animations": {
+        "idle": "animation.wan_redcave.redstone_crawler.idle",
+        "tail": "animation.wan_redcave.redstone_crawler.tail",
+        "walk": "animation.wan_redcave.redstone_crawler.walk",
+        "bite": "animation.wan_redcave.redstone_crawler.bite",
+        "jump": "animation.wan_redcave.redstone_crawler.jump",
+        "jump_loop": "animation.wan_redcave.redstone_crawler.jump_loop",
+        "jump_land": "animation.wan_redcave.redstone_crawler.jump_land",
+        "jump_sit": "animation.wan_redcave.redstone_crawler.jump_sit",
+        "jump_sit_loop": "animation.wan_redcave.redstone_crawler.jump_sit_loop",
+        "jump_sit_land": "animation.wan_redcave.redstone_crawler.jump_sit_land",
+        "on": "animation.wan_redcave.redstone_crawler.on",
+        "off": "animation.wan_redcave.redstone_crawler.off",
+        "off_post": "animation.wan_redcave.redstone_crawler.off_post",
+        "sit": "animation.wan_redcave.redstone_crawler.sit",
+        "up": "animation.wan_redcave.redstone_crawler.up",
+        "script": "animation.wan_redcave.redstone_crawler.script",
+        "move_ctrl": "controller.animation.wan_redcave.redstone_crawler.move",
+        "attack_ctrl": "controller.animation.wan_redcave.redstone_crawler.attack"
+      },
+      "scripts": {
+        "animate": [
+          "move_ctrl",
+          "attack_ctrl"
+        ],
+        "initialize": [
+          "v.stop_walking_anim = 0;",
+          "v.dx_front = 0;",
+          "v.dx_mid = 0;",
+          "v.dx_back = 0;",
+          "v.sx_front = 0;",
+          "v.sx_mid = 0;",
+          "v.sx_back = 0;"
+        ],
+        "pre_animation": [
+          "v.dx_front = v.dx_front + (q.property('wan_redcave:dx_front') - v.dx_front)/10;",
+          "v.dx_mid = v.dx_mid + (q.property('wan_redcave:dx_mid') - v.dx_mid)/10;",
+          "v.dx_back = v.dx_back + (q.property('wan_redcave:dx_back') - v.dx_back)/10;",
+          "v.sx_front = v.sx_front + (q.property('wan_redcave:sx_front') - v.sx_front)/10;",
+          "v.sx_mid = v.sx_mid + (q.property('wan_redcave:sx_mid') - v.sx_mid)/10;",
+          "v.sx_back = v.sx_back + (q.property('wan_redcave:sx_back') - v.sx_back)/10;"
+        ]
+      },
+      "sound_effects": {
+        "on": "wan_redcave.generic_mob.on",
+        "on_hostile": "wan_redcave.generic_mob.on_hostile",
+        "off": "wan_redcave.generic_mob.off",
+        "off_hostile": "wan_redcave.generic_mob.off_hostile",
+        "bite": "wan_redcave.redstone_crawler.bite",
+        "bite_hostile": "wan_redcave.redstone_crawler.bite_hostile",
+        "jump": "wan_redcave.redstone_crawler.jump",
+        "jump_hostile": "wan_redcave.redstone_crawler.jump_hostile",
+        "jump_land": "wan_redcave.redstone_crawler.land",
+        "jump_land_hostile": "wan_redcave.redstone_crawler.land_hostile",
+        "jump_loop": "wan_redcave.redstone_crawler.jump_loop",
+        "tail": "wan_redcave.redstone_crawler.tail",
+        "tail_hostile": "wan_redcave.redstone_crawler.tail_hostile",
+        "walk": "wan_redcave.redstone_crawler.walk",
+        "walk_hostile": "wan_redcave.redstone_crawler.walk_hostile"
+      },
+      "render_controllers": [
+        "controller.render.wan_redcave.redstone_mob"
+      ],
+      "spawn_egg": {
+        "texture": "wan_redcave:redstone_crawler_spawn_egg"
+      }
+    }
+  }
+}

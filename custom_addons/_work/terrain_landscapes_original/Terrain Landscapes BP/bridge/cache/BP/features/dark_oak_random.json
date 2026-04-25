@@ -1,0 +1,177 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\dark_oak_random.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "2edfd586_d07c_46bb_85d8_039b92995dec",
+	"file_version": 17,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "flour_tree:dark_oak_random"
+						},
+						"features": [
+							[
+								"minecraft:fancy_oak_tree_feature",
+								60
+							],
+							[
+								"minecraft:roofed_tree_feature",
+								240
+							],
+							[
+								"minecraft:oak_tree_with_vines_feature",
+								50
+							]
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "flour_tree:dark_oak_random"
+						},
+						"features": [
+							[
+								"minecraft:fancy_oak_tree_feature",
+								60
+							],
+							[
+								"minecraft:roofed_tree_feature",
+								240
+							],
+							[
+								"minecraft:oak_tree_with_vines_feature",
+								50
+							]
+						]
+					}
+				},
+				"key": "minecraft:weighted_random_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:dark_oak_random"
+							},
+							"features": [
+								[
+									"minecraft:fancy_oak_tree_feature",
+									60
+								],
+								[
+									"minecraft:roofed_tree_feature",
+									240
+								],
+								[
+									"minecraft:oak_tree_with_vines_feature",
+									50
+								]
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:dark_oak_random"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:dark_oak_random"
+							},
+							"features": [
+								[
+									"minecraft:fancy_oak_tree_feature",
+									60
+								],
+								[
+									"minecraft:roofed_tree_feature",
+									240
+								],
+								[
+									"minecraft:oak_tree_with_vines_feature",
+									50
+								]
+							]
+						},
+						"key": "features",
+						"children": [
+							{
+								"open": [
+									[
+										"minecraft:fancy_oak_tree_feature",
+										60
+									],
+									[
+										"minecraft:roofed_tree_feature",
+										240
+									],
+									[
+										"minecraft:oak_tree_with_vines_feature",
+										50
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"minecraft:fancy_oak_tree_feature",
+									60
+								]
+							},
+							{
+								"open": [
+									[
+										"minecraft:fancy_oak_tree_feature",
+										60
+									],
+									[
+										"minecraft:roofed_tree_feature",
+										240
+									],
+									[
+										"minecraft:oak_tree_with_vines_feature",
+										50
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"minecraft:roofed_tree_feature",
+									240
+								]
+							},
+							{
+								"open": [
+									[
+										"minecraft:fancy_oak_tree_feature",
+										60
+									],
+									[
+										"minecraft:roofed_tree_feature",
+										240
+									],
+									[
+										"minecraft:oak_tree_with_vines_feature",
+										50
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"minecraft:oak_tree_with_vines_feature",
+									50
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

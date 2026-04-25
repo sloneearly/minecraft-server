@@ -1,0 +1,281 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\feature_rules\\pale_garden_surface_pale_moss_patch_feature_rules.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "1476111a_4280_4302_8e7c_d80dea963b2f",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "minecraft:pale_garden_surface_pale_moss_patch_feature_rules",
+							"places_feature": "minecraft:pale_moss_patch_feature"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": [
+								{
+									"test": "has_biome_tag",
+									"value": "pale_garden"
+								}
+							]
+						},
+						"distribution": {
+							"iterations": 4,
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": "query.heightmap(variable.worldx, variable.worldz)",
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:pale_garden_surface_pale_moss_patch_feature_rules",
+							"places_feature": "minecraft:pale_moss_patch_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:pale_garden_surface_pale_moss_patch_feature_rules",
+								"places_feature": "minecraft:pale_moss_patch_feature"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": [
+									{
+										"test": "has_biome_tag",
+										"value": "pale_garden"
+									}
+								]
+							},
+							"distribution": {
+								"iterations": 4,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": "query.heightmap(variable.worldx, variable.worldz)",
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"data": "surface_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "surface_pass",
+									"minecraft:biome_filter": [
+										{
+											"test": "has_biome_tag",
+											"value": "pale_garden"
+										}
+									]
+								},
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": [
+											{
+												"test": "has_biome_tag",
+												"value": "pale_garden"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"test": "has_biome_tag",
+											"value": "pale_garden"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:pale_garden_surface_pale_moss_patch_feature_rules",
+								"places_feature": "minecraft:pale_moss_patch_feature"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": [
+									{
+										"test": "has_biome_tag",
+										"value": "pale_garden"
+									}
+								]
+							},
+							"distribution": {
+								"iterations": 4,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": "query.heightmap(variable.worldx, variable.worldz)",
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"open": {
+									"iterations": 4,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": "query.heightmap(variable.worldx, variable.worldz)",
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									}
+								},
+								"data": "4",
+								"key": "iterations"
+							},
+							{
+								"open": {
+									"iterations": 4,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": "query.heightmap(variable.worldx, variable.worldz)",
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									}
+								},
+								"key": "x",
+								"children": [
+									{
+										"data": "uniform",
+										"key": "distribution"
+									},
+									{
+										"open": {
+											"distribution": "uniform",
+											"extent": [
+												0,
+												16
+											]
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											0,
+											16
+										]
+									}
+								]
+							},
+							{
+								"data": "query.heightmap(variable.worldx, variable.worldz)",
+								"key": "y"
+							},
+							{
+								"open": {
+									"iterations": 4,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": "query.heightmap(variable.worldx, variable.worldz)",
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									}
+								},
+								"key": "z",
+								"children": [
+									{
+										"data": "uniform",
+										"key": "distribution"
+									},
+									{
+										"open": {
+											"distribution": "uniform",
+											"extent": [
+												0,
+												16
+											]
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											0,
+											16
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

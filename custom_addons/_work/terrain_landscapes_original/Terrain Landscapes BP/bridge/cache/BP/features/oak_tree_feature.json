@@ -1,0 +1,230 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\oak_tree_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "9d126e2f_12ca_40af_9377_b01b1c258a10",
+	"file_version": 166,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "minecraft:oak_tree_feature"
+						},
+						"features": [
+							[
+								"flour_tree:medium_oak_tree",
+								60
+							],
+							[
+								"flour_tree:small_oak_tree",
+								10
+							],
+							[
+								"flour_tree:lower_oak_tree",
+								10
+							],
+							[
+								"flour_tree:forest_bushes",
+								5
+							]
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "minecraft:oak_tree_feature"
+						},
+						"features": [
+							[
+								"flour_tree:medium_oak_tree",
+								60
+							],
+							[
+								"flour_tree:small_oak_tree",
+								10
+							],
+							[
+								"flour_tree:lower_oak_tree",
+								10
+							],
+							[
+								"flour_tree:forest_bushes",
+								5
+							]
+						]
+					}
+				},
+				"key": "minecraft:weighted_random_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:oak_tree_feature"
+							},
+							"features": [
+								[
+									"flour_tree:medium_oak_tree",
+									60
+								],
+								[
+									"flour_tree:small_oak_tree",
+									10
+								],
+								[
+									"flour_tree:lower_oak_tree",
+									10
+								],
+								[
+									"flour_tree:forest_bushes",
+									5
+								]
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:oak_tree_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:oak_tree_feature"
+							},
+							"features": [
+								[
+									"flour_tree:medium_oak_tree",
+									60
+								],
+								[
+									"flour_tree:small_oak_tree",
+									10
+								],
+								[
+									"flour_tree:lower_oak_tree",
+									10
+								],
+								[
+									"flour_tree:forest_bushes",
+									5
+								]
+							]
+						},
+						"key": "features",
+						"children": [
+							{
+								"open": [
+									[
+										"flour_tree:medium_oak_tree",
+										60
+									],
+									[
+										"flour_tree:small_oak_tree",
+										10
+									],
+									[
+										"flour_tree:lower_oak_tree",
+										10
+									],
+									[
+										"flour_tree:forest_bushes",
+										5
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:medium_oak_tree",
+									60
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:medium_oak_tree",
+										60
+									],
+									[
+										"flour_tree:small_oak_tree",
+										10
+									],
+									[
+										"flour_tree:lower_oak_tree",
+										10
+									],
+									[
+										"flour_tree:forest_bushes",
+										5
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:small_oak_tree",
+									10
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:medium_oak_tree",
+										60
+									],
+									[
+										"flour_tree:small_oak_tree",
+										10
+									],
+									[
+										"flour_tree:lower_oak_tree",
+										10
+									],
+									[
+										"flour_tree:forest_bushes",
+										5
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:lower_oak_tree",
+									10
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:medium_oak_tree",
+										60
+									],
+									[
+										"flour_tree:small_oak_tree",
+										10
+									],
+									[
+										"flour_tree:lower_oak_tree",
+										10
+									],
+									[
+										"flour_tree:forest_bushes",
+										5
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:forest_bushes",
+									5
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

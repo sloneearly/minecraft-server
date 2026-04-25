@@ -1,0 +1,445 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\feature_rules\\small_savanna_tree_rules.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "8664200f_e7f7_4244_b7a3_b0ca51446d7d",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:small_savanna_tree_rules",
+							"places_feature": "flour_tree:small_savanna_tree"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": {
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "savanna"
+							}
+						},
+						"distribution": {
+							"iterations": 1,
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"z": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"extent": [
+									"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+									"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+								],
+								"distribution": "uniform"
+							},
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 2
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:small_savanna_tree_rules",
+							"places_feature": "flour_tree:small_savanna_tree"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": {
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "savanna"
+							}
+						},
+						"distribution": {
+							"iterations": 1,
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"z": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"extent": [
+									"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+									"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+								],
+								"distribution": "uniform"
+							},
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 2
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:small_savanna_tree_rules",
+								"places_feature": "flour_tree:small_savanna_tree"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "savanna"
+								}
+							},
+							"distribution": {
+								"iterations": 1,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+									],
+									"distribution": "uniform"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 2
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:small_savanna_tree_rules",
+							"places_feature": "flour_tree:small_savanna_tree"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:small_savanna_tree_rules",
+								"places_feature": "flour_tree:small_savanna_tree"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "savanna"
+								}
+							},
+							"distribution": {
+								"iterations": 1,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+									],
+									"distribution": "uniform"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 2
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"data": "surface_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "surface_pass",
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "savanna"
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"is_minified": true,
+								"children": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "savanna"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:small_savanna_tree_rules",
+								"places_feature": "flour_tree:small_savanna_tree"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "savanna"
+								}
+							},
+							"distribution": {
+								"iterations": 1,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+									],
+									"distribution": "uniform"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 2
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"open": {
+									"iterations": 1,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 2
+									}
+								},
+								"data": "1",
+								"key": "iterations"
+							},
+							{
+								"open": {
+									"iterations": 1,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 2
+									}
+								},
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							},
+							{
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							},
+							{
+								"open": {
+									"iterations": 1,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 2
+									}
+								},
+								"key": "y",
+								"children": [
+									{
+										"open": {
+											"extent": [
+												"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+												"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+											],
+											"distribution": "uniform"
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+										]
+									},
+									{
+										"data": "uniform",
+										"key": "distribution"
+									}
+								]
+							},
+							{
+								"open": {
+									"iterations": 1,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 2
+									}
+								},
+								"key": "scatter_chance",
+								"is_minified": true,
+								"children": {
+									"numerator": 1,
+									"denominator": 2
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

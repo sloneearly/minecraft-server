@@ -1,0 +1,53 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "wan_redcave:redstone_longleg",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "empty": "textures/wan/redcave/empty",
+        "hostile": "textures/wan/redcave/entity/redstone_longleg/hostile",
+        "pacific": "textures/wan/redcave/entity/redstone_longleg/pacific",
+        "deactivated": "textures/wan/redcave/entity/redstone_longleg/off"
+      },
+      "geometry": {
+        "default": "geometry.wan_redcave.redstone_longleg"
+      },
+      "animations": {
+        "idle": "animation.wan_redcave.redstone_longleg.idle",
+        "walk": "animation.wan_redcave.redstone_longleg.walk",
+        "charge": "animation.wan_redcave.redstone_longleg.charge",
+        "roll": "animation.wan_redcave.redstone_longleg.roll",
+        "getup": "animation.wan_redcave.redstone_longleg.getup",
+        "on": "animation.wan_redcave.redstone_longleg.on",
+        "off": "animation.wan_redcave.redstone_longleg.off",
+        "off_post": "animation.wan_redcave.redstone_longleg.off_post",
+        "sit": "animation.wan_redcave.redstone_longleg.sit",
+        "up": "animation.wan_redcave.redstone_longleg.up",
+        "move_ctrl": "controller.animation.wan_redcave.redstone_longleg.move",
+        "attack_ctrl": "controller.animation.wan_redcave.redstone_longleg.attack"
+      },
+      "scripts": {
+        "animate": [
+          "move_ctrl",
+          "attack_ctrl"
+        ],
+        "initialize": [
+          "v.stop_walking_anim = 0;"
+        ]
+      },
+      "sound_effects": {
+        "on": "wan_redcave.generic_mob.on",
+        "off": "wan_redcave.generic_mob.off"
+      },
+      "render_controllers": [
+        "controller.render.wan_redcave.redstone_mob"
+      ],
+      "spawn_egg": {
+        "texture": "wan_redcave:redstone_longleg_spawn_egg"
+      }
+    }
+  }
+}

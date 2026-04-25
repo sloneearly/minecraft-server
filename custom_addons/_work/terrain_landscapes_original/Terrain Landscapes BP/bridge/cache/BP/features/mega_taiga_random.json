@@ -1,0 +1,291 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\mega_taiga_random.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "1fb82113_4b03_4fce_a889_4579473d96b6",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "flour_tree:mega_taiga_random"
+						},
+						"features": [
+							[
+								"flour_tree:3x3_spruce_2_feature",
+								90
+							],
+							[
+								"flour_tree:3x3_spruce_feature",
+								80
+							],
+							[
+								"minecraft:mega_spruce_tree_feature",
+								80
+							],
+							[
+								"minecraft:mega_pine_tree_feature",
+								70
+							],
+							[
+								"minecraft:spruce_tree_feature",
+								40
+							]
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "flour_tree:mega_taiga_random"
+						},
+						"features": [
+							[
+								"flour_tree:3x3_spruce_2_feature",
+								90
+							],
+							[
+								"flour_tree:3x3_spruce_feature",
+								80
+							],
+							[
+								"minecraft:mega_spruce_tree_feature",
+								80
+							],
+							[
+								"minecraft:mega_pine_tree_feature",
+								70
+							],
+							[
+								"minecraft:spruce_tree_feature",
+								40
+							]
+						]
+					}
+				},
+				"key": "minecraft:weighted_random_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:mega_taiga_random"
+							},
+							"features": [
+								[
+									"flour_tree:3x3_spruce_2_feature",
+									90
+								],
+								[
+									"flour_tree:3x3_spruce_feature",
+									80
+								],
+								[
+									"minecraft:mega_spruce_tree_feature",
+									80
+								],
+								[
+									"minecraft:mega_pine_tree_feature",
+									70
+								],
+								[
+									"minecraft:spruce_tree_feature",
+									40
+								]
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:mega_taiga_random"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:mega_taiga_random"
+							},
+							"features": [
+								[
+									"flour_tree:3x3_spruce_2_feature",
+									90
+								],
+								[
+									"flour_tree:3x3_spruce_feature",
+									80
+								],
+								[
+									"minecraft:mega_spruce_tree_feature",
+									80
+								],
+								[
+									"minecraft:mega_pine_tree_feature",
+									70
+								],
+								[
+									"minecraft:spruce_tree_feature",
+									40
+								]
+							]
+						},
+						"key": "features",
+						"children": [
+							{
+								"open": [
+									[
+										"flour_tree:3x3_spruce_2_feature",
+										90
+									],
+									[
+										"flour_tree:3x3_spruce_feature",
+										80
+									],
+									[
+										"minecraft:mega_spruce_tree_feature",
+										80
+									],
+									[
+										"minecraft:mega_pine_tree_feature",
+										70
+									],
+									[
+										"minecraft:spruce_tree_feature",
+										40
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:3x3_spruce_2_feature",
+									90
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:3x3_spruce_2_feature",
+										90
+									],
+									[
+										"flour_tree:3x3_spruce_feature",
+										80
+									],
+									[
+										"minecraft:mega_spruce_tree_feature",
+										80
+									],
+									[
+										"minecraft:mega_pine_tree_feature",
+										70
+									],
+									[
+										"minecraft:spruce_tree_feature",
+										40
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:3x3_spruce_feature",
+									80
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:3x3_spruce_2_feature",
+										90
+									],
+									[
+										"flour_tree:3x3_spruce_feature",
+										80
+									],
+									[
+										"minecraft:mega_spruce_tree_feature",
+										80
+									],
+									[
+										"minecraft:mega_pine_tree_feature",
+										70
+									],
+									[
+										"minecraft:spruce_tree_feature",
+										40
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"minecraft:mega_spruce_tree_feature",
+									80
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:3x3_spruce_2_feature",
+										90
+									],
+									[
+										"flour_tree:3x3_spruce_feature",
+										80
+									],
+									[
+										"minecraft:mega_spruce_tree_feature",
+										80
+									],
+									[
+										"minecraft:mega_pine_tree_feature",
+										70
+									],
+									[
+										"minecraft:spruce_tree_feature",
+										40
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"minecraft:mega_pine_tree_feature",
+									70
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:3x3_spruce_2_feature",
+										90
+									],
+									[
+										"flour_tree:3x3_spruce_feature",
+										80
+									],
+									[
+										"minecraft:mega_spruce_tree_feature",
+										80
+									],
+									[
+										"minecraft:mega_pine_tree_feature",
+										70
+									],
+									[
+										"minecraft:spruce_tree_feature",
+										40
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"minecraft:spruce_tree_feature",
+									40
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

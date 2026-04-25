@@ -1,0 +1,38 @@
+{
+  "format_version": "1.21.111",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "wan_redcave:autofarmer_t1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "MBM",
+      "IRI",
+      "III"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "B": {
+        "item": "minecraft:diamond_hoe"
+      },
+      "R": {
+        "item": "wan_redcave:bluestone_chip"
+      },
+      "M": {
+        "item": "minecraft:bone_meal"
+      }
+    },
+    "unlock": [
+      {
+        "item": "wan_redcave:bluestone"
+      }
+    ],
+    "result": {
+      "item": "wan_redcave:autofarmer_t1"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:mushroom_side_spread_filter"
+		},
+		"features": [
+			["shapescape:mushroom_side_rotation", 1],
+			["shapescape:mushroom_side_no_mushroom", 30]
+		]
+	}
+}

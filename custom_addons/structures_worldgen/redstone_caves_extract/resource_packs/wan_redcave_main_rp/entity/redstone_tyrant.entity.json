@@ -1,0 +1,69 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "wan_redcave:redstone_tyrant",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/wan/redcave/entity/red_tyrant"
+      },
+      "geometry": {
+        "default": "geometry.wan_redcave.redstone_tyrant"
+      },
+      "animations": {
+        "idle": "animation.wan_redcave.redstone_tyrant.idle",
+        "walk": "animation.wan_redcave.redstone_tyrant.walk",
+        "smash": "animation.wan_redcave.redstone_tyrant.smash",
+        "swing": "animation.wan_redcave.redstone_tyrant.swing",
+        "roar": "animation.wan_redcave.redstone_tyrant.roar",
+        "eat": "animation.wan_redcave.redstone_tyrant.eat",
+        "death": "animation.wan_redcave.redstone_tyrant.death",
+        "spit": "animation.wan_redcave.redstone_tyrant.shooting",
+        "moving_power_1": "animation.wan_redcave.redstone_tyrant.moving_power_1",
+        "moving_power_2": "animation.wan_redcave.redstone_tyrant.moving_power_2",
+        "moving_power_3": "animation.wan_redcave.redstone_tyrant.moving_power_3",
+        "bite": "animation.wan_redcave.redstone_tyrant.bite",
+        "move_ctrl": "controller.animation.wan_redcave.redstone_tyrant.move",
+        "attack_ctrl": "controller.animation.wan_redcave.redstone_tyrant.attack",
+        "charge_ctrl": "controller.animation.wan_redcave.redstone_tyrant.charge"
+      },
+      "scripts": {
+        "animate": [
+          "move_ctrl",
+          "attack_ctrl",
+          "charge_ctrl"
+        ],
+        "initialize": [
+          "v.stop_walking_anim = 0;",
+          "v.charge_timer = 0;"
+        ]
+      },
+      "particle_effects": {
+        "step": "wan_redcave:tyrant.step.1",
+        "roar.1": "wan_redcave:tyrant.roar.1",
+        "roar.2": "wan_redcave:tyrant.roar.2",
+        "roar.3": "wan_redcave:tyrant.roar.3",
+        "roar.4": "wan_redcave:tyrant.roar.4"
+      },
+      "sound_effects": {
+        "bite": "wan_redcave.redstone_tyrant.bite",
+        "death": "wan_redcave.redstone_tyrant.death",
+        "eat": "wan_redcave.redstone_tyrant.eat",
+        "move_power": "wan_redcave.redstone_tyrant.move_power",
+        "roar": "wan_redcave.redstone_tyrant.roar",
+        "shooting": "wan_redcave.redstone_tyrant.shooting",
+        "smash": "wan_redcave.redstone_tyrant.smash",
+        "swing": "wan_redcave.redstone_tyrant.swing",
+        "walk": "wan_redcave.redstone_tyrant.walk"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "texture": "wan_redcave:redstone_tyrant_spawn_egg"
+      }
+    }
+  }
+}

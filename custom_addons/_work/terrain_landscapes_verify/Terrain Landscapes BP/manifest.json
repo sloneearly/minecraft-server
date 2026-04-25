@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Selective terrain variants for some plains and savanna chunks.",
+    "name": "Terrain Landscapes 2.0 Selective",
+    "uuid": "12e50689-5e90-49c7-be47-0697be1f69b9",
+    "version": [
+      2,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Selective terrain variants for some plains and savanna chunks.",
+      "type": "data",
+      "uuid": "91485798-2cd7-40cb-8f69-5c0ba8acbb11",
+      "version": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "type": "script",
+      "uuid": "95d1a88b-3bf9-4c99-899f-bd908075a74c",
+      "version": [
+        2,
+        0,
+        1
+      ],
+      "entry": "scripts/main.js",
+      "language": "javascript"
+    }
+  ],
+  "dependencies": [
+    {
+      "version": "2.3.0",
+      "module_name": "@minecraft/server"
+    }
+  ]
+}

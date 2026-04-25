@@ -1,0 +1,9 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:sequence_feature": {
+		"description": {
+			"identifier": "shapescape:bush_jungle_check_area"
+		},
+		"features": ["shapescape:bush_check_area_1", "shapescape:bush_check_area_2", "shapescape:bush_jungle"]
+	}
+}

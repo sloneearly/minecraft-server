@@ -1,0 +1,9 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_mountain_support_bottom_and_floor_parts"
+		},
+		"features": ["shapescape:terrain_mountain_support_bottom_and_floor_check", "shapescape:terrain_mountain_support_bottom_top"]
+	}
+}

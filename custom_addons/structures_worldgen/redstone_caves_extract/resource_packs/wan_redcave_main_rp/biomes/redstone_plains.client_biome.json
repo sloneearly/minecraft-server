@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.111",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "wan_redcave:redstone_plains"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#000000"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#b53a3f"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#9f2d34"
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "wan_redcave:redstone_cave_fog"
+      },
+      "minecraft:biome_music": {
+        "music_definition": "",
+        "volume_multiplier": 0
+      },
+      "minecraft:ambient_sounds": {
+        "loop": "ambient.redstone_plains.loop"
+      }
+    }
+  }
+}

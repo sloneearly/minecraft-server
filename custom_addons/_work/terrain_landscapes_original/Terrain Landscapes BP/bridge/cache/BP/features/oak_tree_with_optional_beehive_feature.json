@@ -1,0 +1,71 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\flourishing trees\\features\\oak_tree_with_optional_beehive_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "e8f554db_b189_4ce8_93ce_e44cd508c674",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:aggregate_feature": {
+						"description": {
+							"identifier": "minecraft:oak_tree_with_optional_beehive_feature"
+						},
+						"early_out": "first_failure",
+						"features": [
+							"minecraft:oak_tree_feature",
+							"minecraft:optional_beehive_feature",
+							"minecraft:optional_beehive_feature",
+							"minecraft:optional_beehive_feature",
+							"minecraft:optional_beehive_feature"
+						]
+					}
+				},
+				"key": "minecraft:aggregate_feature",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:oak_tree_with_optional_beehive_feature"
+						}
+					},
+					{
+						"data": "first_failure",
+						"key": "early_out"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:oak_tree_with_optional_beehive_feature"
+							},
+							"early_out": "first_failure",
+							"features": [
+								"minecraft:oak_tree_feature",
+								"minecraft:optional_beehive_feature",
+								"minecraft:optional_beehive_feature",
+								"minecraft:optional_beehive_feature",
+								"minecraft:optional_beehive_feature"
+							]
+						},
+						"key": "features",
+						"is_minified": true,
+						"children": [
+							"minecraft:oak_tree_feature",
+							"minecraft:optional_beehive_feature",
+							"minecraft:optional_beehive_feature",
+							"minecraft:optional_beehive_feature",
+							"minecraft:optional_beehive_feature"
+						]
+					}
+				]
+			}
+		]
+	}
+}

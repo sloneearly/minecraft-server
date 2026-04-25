@@ -1,0 +1,204 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\savanna_tree_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "4982a19d_c0ba_4c4b_8d85_ac4b437689b0",
+	"file_version": 18,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "minecraft:savanna_tree_feature"
+						},
+						"features": [
+							[
+								"flour_tree:savanna_tree_medium",
+								200
+							],
+							[
+								"flour_tree:small_savanna_tree",
+								1
+							],
+							[
+								"flour_tree:savanna_tree_big",
+								20
+							],
+							[
+								"flour_tree:baobab_like_tree",
+								10
+							]
+						]
+					}
+				},
+				"key": "minecraft:weighted_random_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:savanna_tree_feature"
+							},
+							"features": [
+								[
+									"flour_tree:savanna_tree_medium",
+									200
+								],
+								[
+									"flour_tree:small_savanna_tree",
+									1
+								],
+								[
+									"flour_tree:savanna_tree_big",
+									20
+								],
+								[
+									"flour_tree:baobab_like_tree",
+									10
+								]
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:savanna_tree_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:savanna_tree_feature"
+							},
+							"features": [
+								[
+									"flour_tree:savanna_tree_medium",
+									200
+								],
+								[
+									"flour_tree:small_savanna_tree",
+									1
+								],
+								[
+									"flour_tree:savanna_tree_big",
+									20
+								],
+								[
+									"flour_tree:baobab_like_tree",
+									10
+								]
+							]
+						},
+						"key": "features",
+						"children": [
+							{
+								"open": [
+									[
+										"flour_tree:savanna_tree_medium",
+										200
+									],
+									[
+										"flour_tree:small_savanna_tree",
+										1
+									],
+									[
+										"flour_tree:savanna_tree_big",
+										20
+									],
+									[
+										"flour_tree:baobab_like_tree",
+										10
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:savanna_tree_medium",
+									200
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:savanna_tree_medium",
+										200
+									],
+									[
+										"flour_tree:small_savanna_tree",
+										1
+									],
+									[
+										"flour_tree:savanna_tree_big",
+										20
+									],
+									[
+										"flour_tree:baobab_like_tree",
+										10
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:small_savanna_tree",
+									1
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:savanna_tree_medium",
+										200
+									],
+									[
+										"flour_tree:small_savanna_tree",
+										1
+									],
+									[
+										"flour_tree:savanna_tree_big",
+										20
+									],
+									[
+										"flour_tree:baobab_like_tree",
+										10
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:savanna_tree_big",
+									20
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:savanna_tree_medium",
+										200
+									],
+									[
+										"flour_tree:small_savanna_tree",
+										1
+									],
+									[
+										"flour_tree:savanna_tree_big",
+										20
+									],
+									[
+										"flour_tree:baobab_like_tree",
+										10
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:baobab_like_tree",
+									10
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

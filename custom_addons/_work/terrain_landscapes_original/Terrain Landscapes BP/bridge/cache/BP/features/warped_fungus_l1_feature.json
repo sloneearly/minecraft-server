@@ -1,0 +1,931 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\warped_fungus_l1_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "bc8cd8e4_67f6_4722_a046_174c33572981",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:structure_template_feature": {
+						"description": {
+							"identifier": "flour_tree:warped_fungus_l1_feature"
+						},
+						"structure_name": "mystructure:warped_fungus_l1",
+						"adjustment_radius": 10,
+						"facing_direction": "random",
+						"constraints": {
+							"grounded": {},
+							"unburied": {},
+							"block_intersection": {
+								"block_allowlist": [
+									{
+										"name": "minecraft:stone"
+									},
+									{
+										"name": "minecraft:dirt"
+									},
+									{
+										"name": "minecraft:air"
+									},
+									{
+										"name": "minecraft:log"
+									},
+									{
+										"name": "minecraft:log2"
+									},
+									{
+										"name": "minecraft:grass"
+									},
+									{
+										"name": "minecraft:grass_path"
+									},
+									{
+										"name": "minecraft:cobblestone"
+									},
+									{
+										"name": "minecraft:water"
+									},
+									{
+										"name": "minecraft:gravel"
+									},
+									{
+										"name": "minecraft:sand"
+									},
+									{
+										"name": "minecraft:clay"
+									},
+									{
+										"name": "minecraft:warped_roots"
+									},
+									{
+										"name": "minecraft:warped_stem"
+									},
+									{
+										"name": "minecraft:warped_wart_block"
+									},
+									{
+										"name": "minecraft:warped_fungus"
+									},
+									{
+										"name": "minecraft:twisting_vines"
+									},
+									{
+										"name": "minecraft:nether_sprouts"
+									},
+									{
+										"name": "minecraft:warped_nylium"
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:structure_template_feature",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:warped_fungus_l1_feature"
+						}
+					},
+					{
+						"data": "mystructure:warped_fungus_l1",
+						"key": "structure_name"
+					},
+					{
+						"data": "10",
+						"key": "adjustment_radius"
+					},
+					{
+						"data": "random",
+						"key": "facing_direction"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:warped_fungus_l1_feature"
+							},
+							"structure_name": "mystructure:warped_fungus_l1",
+							"adjustment_radius": 10,
+							"facing_direction": "random",
+							"constraints": {
+								"grounded": {},
+								"unburied": {},
+								"block_intersection": {
+									"block_allowlist": [
+										{
+											"name": "minecraft:stone"
+										},
+										{
+											"name": "minecraft:dirt"
+										},
+										{
+											"name": "minecraft:air"
+										},
+										{
+											"name": "minecraft:log"
+										},
+										{
+											"name": "minecraft:log2"
+										},
+										{
+											"name": "minecraft:grass"
+										},
+										{
+											"name": "minecraft:grass_path"
+										},
+										{
+											"name": "minecraft:cobblestone"
+										},
+										{
+											"name": "minecraft:water"
+										},
+										{
+											"name": "minecraft:gravel"
+										},
+										{
+											"name": "minecraft:sand"
+										},
+										{
+											"name": "minecraft:clay"
+										},
+										{
+											"name": "minecraft:warped_roots"
+										},
+										{
+											"name": "minecraft:warped_stem"
+										},
+										{
+											"name": "minecraft:warped_wart_block"
+										},
+										{
+											"name": "minecraft:warped_fungus"
+										},
+										{
+											"name": "minecraft:twisting_vines"
+										},
+										{
+											"name": "minecraft:nether_sprouts"
+										},
+										{
+											"name": "minecraft:warped_nylium"
+										}
+									]
+								}
+							}
+						},
+						"key": "constraints",
+						"children": [
+							{
+								"open": {
+									"grounded": {},
+									"unburied": {},
+									"block_intersection": {
+										"block_allowlist": [
+											{
+												"name": "minecraft:stone"
+											},
+											{
+												"name": "minecraft:dirt"
+											},
+											{
+												"name": "minecraft:air"
+											},
+											{
+												"name": "minecraft:log"
+											},
+											{
+												"name": "minecraft:log2"
+											},
+											{
+												"name": "minecraft:grass"
+											},
+											{
+												"name": "minecraft:grass_path"
+											},
+											{
+												"name": "minecraft:cobblestone"
+											},
+											{
+												"name": "minecraft:water"
+											},
+											{
+												"name": "minecraft:gravel"
+											},
+											{
+												"name": "minecraft:sand"
+											},
+											{
+												"name": "minecraft:clay"
+											},
+											{
+												"name": "minecraft:warped_roots"
+											},
+											{
+												"name": "minecraft:warped_stem"
+											},
+											{
+												"name": "minecraft:warped_wart_block"
+											},
+											{
+												"name": "minecraft:warped_fungus"
+											},
+											{
+												"name": "minecraft:twisting_vines"
+											},
+											{
+												"name": "minecraft:nether_sprouts"
+											},
+											{
+												"name": "minecraft:warped_nylium"
+											}
+										]
+									}
+								},
+								"key": "grounded",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "unburied",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"grounded": {},
+									"unburied": {},
+									"block_intersection": {
+										"block_allowlist": [
+											{
+												"name": "minecraft:stone"
+											},
+											{
+												"name": "minecraft:dirt"
+											},
+											{
+												"name": "minecraft:air"
+											},
+											{
+												"name": "minecraft:log"
+											},
+											{
+												"name": "minecraft:log2"
+											},
+											{
+												"name": "minecraft:grass"
+											},
+											{
+												"name": "minecraft:grass_path"
+											},
+											{
+												"name": "minecraft:cobblestone"
+											},
+											{
+												"name": "minecraft:water"
+											},
+											{
+												"name": "minecraft:gravel"
+											},
+											{
+												"name": "minecraft:sand"
+											},
+											{
+												"name": "minecraft:clay"
+											},
+											{
+												"name": "minecraft:warped_roots"
+											},
+											{
+												"name": "minecraft:warped_stem"
+											},
+											{
+												"name": "minecraft:warped_wart_block"
+											},
+											{
+												"name": "minecraft:warped_fungus"
+											},
+											{
+												"name": "minecraft:twisting_vines"
+											},
+											{
+												"name": "minecraft:nether_sprouts"
+											},
+											{
+												"name": "minecraft:warped_nylium"
+											}
+										]
+									}
+								},
+								"key": "block_intersection",
+								"children": [
+									{
+										"open": {
+											"block_allowlist": [
+												{
+													"name": "minecraft:stone"
+												},
+												{
+													"name": "minecraft:dirt"
+												},
+												{
+													"name": "minecraft:air"
+												},
+												{
+													"name": "minecraft:log"
+												},
+												{
+													"name": "minecraft:log2"
+												},
+												{
+													"name": "minecraft:grass"
+												},
+												{
+													"name": "minecraft:grass_path"
+												},
+												{
+													"name": "minecraft:cobblestone"
+												},
+												{
+													"name": "minecraft:water"
+												},
+												{
+													"name": "minecraft:gravel"
+												},
+												{
+													"name": "minecraft:sand"
+												},
+												{
+													"name": "minecraft:clay"
+												},
+												{
+													"name": "minecraft:warped_roots"
+												},
+												{
+													"name": "minecraft:warped_stem"
+												},
+												{
+													"name": "minecraft:warped_wart_block"
+												},
+												{
+													"name": "minecraft:warped_fungus"
+												},
+												{
+													"name": "minecraft:twisting_vines"
+												},
+												{
+													"name": "minecraft:nether_sprouts"
+												},
+												{
+													"name": "minecraft:warped_nylium"
+												}
+											]
+										},
+										"key": "block_allowlist",
+										"children": [
+											{
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:stone"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:dirt"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:air"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:log"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:log2"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:grass"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:grass_path"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:cobblestone"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:water"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:gravel"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:sand"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:clay"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:warped_roots"
+													},
+													{
+														"name": "minecraft:warped_stem"
+													},
+													{
+														"name": "minecraft:warped_wart_block"
+													},
+													{
+														"name": "minecraft:warped_fungus"
+													},
+													{
+														"name": "minecraft:twisting_vines"
+													},
+													{
+														"name": "minecraft:nether_sprouts"
+													},
+													{
+														"name": "minecraft:warped_nylium"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:warped_roots"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:warped_roots"
+													},
+													{
+														"name": "minecraft:warped_stem"
+													},
+													{
+														"name": "minecraft:warped_wart_block"
+													},
+													{
+														"name": "minecraft:warped_fungus"
+													},
+													{
+														"name": "minecraft:twisting_vines"
+													},
+													{
+														"name": "minecraft:nether_sprouts"
+													},
+													{
+														"name": "minecraft:warped_nylium"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:warped_stem"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:warped_roots"
+													},
+													{
+														"name": "minecraft:warped_stem"
+													},
+													{
+														"name": "minecraft:warped_wart_block"
+													},
+													{
+														"name": "minecraft:warped_fungus"
+													},
+													{
+														"name": "minecraft:twisting_vines"
+													},
+													{
+														"name": "minecraft:nether_sprouts"
+													},
+													{
+														"name": "minecraft:warped_nylium"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:warped_wart_block"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:warped_roots"
+													},
+													{
+														"name": "minecraft:warped_stem"
+													},
+													{
+														"name": "minecraft:warped_wart_block"
+													},
+													{
+														"name": "minecraft:warped_fungus"
+													},
+													{
+														"name": "minecraft:twisting_vines"
+													},
+													{
+														"name": "minecraft:nether_sprouts"
+													},
+													{
+														"name": "minecraft:warped_nylium"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:warped_fungus"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:warped_roots"
+													},
+													{
+														"name": "minecraft:warped_stem"
+													},
+													{
+														"name": "minecraft:warped_wart_block"
+													},
+													{
+														"name": "minecraft:warped_fungus"
+													},
+													{
+														"name": "minecraft:twisting_vines"
+													},
+													{
+														"name": "minecraft:nether_sprouts"
+													},
+													{
+														"name": "minecraft:warped_nylium"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:twisting_vines"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:warped_roots"
+													},
+													{
+														"name": "minecraft:warped_stem"
+													},
+													{
+														"name": "minecraft:warped_wart_block"
+													},
+													{
+														"name": "minecraft:warped_fungus"
+													},
+													{
+														"name": "minecraft:twisting_vines"
+													},
+													{
+														"name": "minecraft:nether_sprouts"
+													},
+													{
+														"name": "minecraft:warped_nylium"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:nether_sprouts"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:warped_roots"
+													},
+													{
+														"name": "minecraft:warped_stem"
+													},
+													{
+														"name": "minecraft:warped_wart_block"
+													},
+													{
+														"name": "minecraft:warped_fungus"
+													},
+													{
+														"name": "minecraft:twisting_vines"
+													},
+													{
+														"name": "minecraft:nether_sprouts"
+													},
+													{
+														"name": "minecraft:warped_nylium"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:warped_nylium"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

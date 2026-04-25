@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_mountain_cave_floor__column"
+		},
+		"iterations": "return t.terrain_mountain_cave_floor__iterations;",
+		"places_feature": "shapescape:terrain_stone",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": {
+			"step_size": 1,
+			"extent": [0, "t.terrain_mountain_cave_floor__iterations-1"],
+			"distribution": "fixed_grid"
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "wan_redcave:electric_drill_t2",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/wan/redcave/attachables/drills/1",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.wan_redcave.electric_drill_t2"
+      },
+      "animations": {
+        "fp": "animation.wan_redcave.electric_drill.fp"
+      },
+      "scripts": {
+        "parent_setup": "v.item_use_normalized = 0.0;",
+        "pre_animation": [
+          "v.player_first_person = c.is_first_person && !q.is_in_ui && q.is_local_player;"
+        ],
+        "animate": [
+          {
+            "fp": "v.player_first_person"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.item_default"
+      ]
+    }
+  }
+}

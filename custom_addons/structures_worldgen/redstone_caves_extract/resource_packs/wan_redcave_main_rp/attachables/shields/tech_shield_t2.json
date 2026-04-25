@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "wan_redcave:tech_shield_t2",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/wan/redcave/attachables/shields/2",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.wan_redcave.tech_shield_t2"
+      },
+      "animations": {
+        "fp": "animation.wan_redcave.tech_shield.fp",
+        "tp": "animation.wan_redcave.tech_shield.tp"
+      },
+      "scripts": {
+        "parent_setup": "v.item_use_normalized = 0.0;",
+        "pre_animation": [
+          "v.is_first_person = c.is_first_person && !q.is_in_ui && q.is_local_player;"
+        ],
+        "animate": [
+          {
+            "fp": "c.is_first_person"
+          },
+          {
+            "tp": "!c.is_first_person"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.item_default"
+      ]
+    }
+  }
+}

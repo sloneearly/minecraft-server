@@ -1,0 +1,283 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.wan_redcave.redstone_tyrant.move": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "idle": "!v.stop_walking_anim"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "idle": {
+          "animations": [
+            "idle"
+          ],
+          "transitions": [
+            {
+              "default": "v.stop_walking_anim"
+            },
+            {
+              "walk": "q.modified_move_speed > 0.1"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "walk": {
+          "animations": [
+            "walk"
+          ],
+          "transitions": [
+            {
+              "default": "v.stop_walking_anim"
+            },
+            {
+              "idle": "q.modified_move_speed <= 0.1"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "walk"
+            }
+          ],
+          "blend_transition": 0.2
+        }
+      }
+    },
+    "controller.animation.wan_redcave.redstone_tyrant.attack": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "bite": "q.variant == 2"
+            },
+            {
+              "roar": "q.variant == 3"
+            },
+            {
+              "swing": "q.variant == 4"
+            },
+            {
+              "smash": "q.variant == 5"
+            },
+            {
+              "eat": "q.variant == 6"
+            },
+            {
+              "spit": "q.variant == 7"
+            },
+            {
+              "death": "q.variant == 10"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "bite": {
+          "animations": [
+            "bite"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            },
+            {
+              "death": "q.variant == 10"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "bite"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "roar": {
+          "on_entry": [
+            "v.stop_walking_anim = 1;"
+          ],
+          "animations": [
+            "roar"
+          ],
+          "sound_effects": [
+            {
+              "effect": "roar"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            },
+            {
+              "death": "q.variant == 10"
+            }
+          ],
+          "blend_transition": 0.1,
+          "on_exit": [
+            "v.stop_walking_anim = 0;"
+          ]
+        },
+        "swing": {
+          "on_entry": [
+            "v.stop_walking_anim = 1;"
+          ],
+          "animations": [
+            "swing"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            },
+            {
+              "death": "q.variant == 10"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "swing"
+            }
+          ],
+          "on_exit": [
+            "v.stop_walking_anim = 0;"
+          ],
+          "blend_transition": 0.1
+        },
+        "smash": {
+          "on_entry": [
+            "v.stop_walking_anim = 1;"
+          ],
+          "animations": [
+            "smash"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            },
+            {
+              "death": "q.variant == 10"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "smash"
+            }
+          ],
+          "on_exit": [
+            "v.stop_walking_anim = 0;"
+          ],
+          "blend_transition": 0.1
+        },
+        "eat": {
+          "on_entry": [
+            "v.stop_walking_anim = 1;"
+          ],
+          "animations": [
+            "eat"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            },
+            {
+              "death": "q.variant == 10"
+            }
+          ],
+          "on_exit": [
+            "v.stop_walking_anim = 0;"
+          ],
+          "sound_effects": [
+            {
+              "effect": "eat"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "spit": {
+          "on_entry": [
+            "v.stop_walking_anim = 1;"
+          ],
+          "animations": [
+            "spit"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            },
+            {
+              "death": "q.variant == 10"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "shooting"
+            }
+          ],
+          "on_exit": [
+            "v.stop_walking_anim = 0;"
+          ],
+          "blend_transition": 0.1
+        },
+        "death": {
+          "on_entry": [
+            "v.stop_walking_anim = 1;"
+          ],
+          "animations": [
+            "death"
+          ],
+          "sound_effects": [
+            {
+              "effect": "death"
+            },
+            {
+              "effect": "roar"
+            }
+          ],
+          "blend_transition": 0.1
+        }
+      }
+    },
+    "controller.animation.wan_redcave.redstone_tyrant.charge": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "charged": "q.property('wan_redcave:charge')"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "charged": {
+          "on_entry": [
+            "v.charge_timer = 0;"
+          ],
+          "animations": [
+            {
+              "moving_power_1": "v.charge_timer < 5"
+            },
+            {
+              "moving_power_2": "v.charge_timer >= 5 && v.charge_timer < 10"
+            },
+            {
+              "moving_power_3": "v.charge_timer >= 10"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "v.charge_timer=v.charge_timer+q.delta_time; return !q.property('wan_redcave:charge');"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "move_power"
+            }
+          ],
+          "blend_transition": 1
+        }
+      }
+    }
+  }
+}

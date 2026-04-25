@@ -1,0 +1,140 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\manifest.json",
+	"file_type": "manifest_bp",
+	"format_version": 1,
+	"file_uuid": "b308bddf_a39c_4c75_8f61_9c80584d1b81",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "2",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "atlas_trees",
+						"description": "pack.description",
+						"uuid": "64f66656-4659-45a7-bef0-0bea6cee0791",
+						"version": [
+							1,
+							0,
+							0
+						],
+						"min_engine_version": [
+							1,
+							20,
+							30
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "e8f69c57-f6da-431d-938c-8937243950c7",
+							"version": [
+								1,
+								0,
+								0
+							]
+						}
+					],
+					"metadata": {
+						"generated_with": {
+							"bridge": [
+								"1.8.4",
+								"1.8.5"
+							]
+						}
+					}
+				},
+				"key": "header",
+				"children": [
+					{
+						"data": "atlas_trees",
+						"key": "name"
+					},
+					{
+						"data": "pack.description",
+						"key": "description"
+					},
+					{
+						"data": "64f66656-4659-45a7-bef0-0bea6cee0791",
+						"key": "uuid"
+					},
+					{
+						"key": "version",
+						"is_minified": true,
+						"children": [
+							1,
+							0,
+							0
+						]
+					},
+					{
+						"open": {
+							"name": "atlas_trees",
+							"description": "pack.description",
+							"uuid": "64f66656-4659-45a7-bef0-0bea6cee0791",
+							"version": [
+								1,
+								0,
+								0
+							],
+							"min_engine_version": [
+								1,
+								20,
+								30
+							]
+						},
+						"key": "min_engine_version",
+						"is_minified": true,
+						"children": [
+							1,
+							20,
+							30
+						]
+					}
+				]
+			},
+			{
+				"key": "modules",
+				"is_minified": true,
+				"children": [
+					{
+						"type": "data",
+						"uuid": "e8f69c57-f6da-431d-938c-8937243950c7",
+						"version": [
+							1,
+							0,
+							0
+						]
+					}
+				]
+			},
+			{
+				"key": "metadata",
+				"children": [
+					{
+						"open": {
+							"generated_with": {
+								"bridge": [
+									"1.8.4",
+									"1.8.5"
+								]
+							}
+						},
+						"key": "generated_with",
+						"is_minified": true,
+						"children": {
+							"bridge": [
+								"1.8.4",
+								"1.8.5"
+							]
+						}
+					}
+				]
+			}
+		]
+	}
+}

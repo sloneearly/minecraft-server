@@ -1,0 +1,23 @@
+{
+  "name": "minecraft-terrain-improvement",
+  "version": "1.0.0",
+  "description": "Minecraft PE Terrain Improvement Scripts",
+  "main": "dist/Main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minecraft",
+    "bedrock",
+    "terrain",
+    "generation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.0",
+    "@types/node": "^18.0.0"
+  }
+}

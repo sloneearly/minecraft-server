@@ -1,0 +1,69 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.wan_redcave.blaster.fp": {
+      "loop": "hold_on_last_frame",
+      "bones": {
+        "rightItem": {
+          "rotation": [
+            -17.95561,
+            64.0464,
+            -61.67529
+          ],
+          "position": [
+            -6.48046,
+            4.71483,
+            4.66175
+          ]
+        }
+      }
+    },
+    "animation.wan_redcave.blaster.use": {
+      "loop": true,
+      "bones": {
+        "laser": {
+          "rotation": [
+            0,
+            "-q.anim_time * 1000",
+            0
+          ],
+          "scale": [
+            1,
+            15,
+            1
+          ]
+        }
+      }
+    },
+    "animation.wan_redcave.blaster.script.hold": {
+      "loop": true,
+      "animation_length": 1000,
+      "bones": {
+        "rightArm": {
+          "rotation": [
+            "v.is_first_person ? 0 : (q.is_swimming ? -170 : -90 + query.target_x_rotation - query.is_sneaking * 27 -this)",
+            "v.is_first_person ? 0 : math.clamp(query.target_y_rotation, -60, 45) -this",
+            0
+          ],
+          "position": [
+            "v.is_first_person ? 0 : math.sin(q.head_y_rotation(0) - q.body_y_rotation(0)) * -1",
+            "v.is_first_person ? 0 : math.sin(q.head_x_rotation(0)) * -1",
+            0
+          ]
+        }
+      }
+    },
+    "animation.wan_redcave.blaster.reset_use": {
+      "loop": true,
+      "bones": {
+        "laser": {
+          "scale": [
+            1,
+            0,
+            1
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wan_redcave:magnetite_redlight_curve",
+      "menu_category": {
+        "category": "nature"
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:display_name": "wan_redcave:magnetite_redlight_curve.name",
+      "minecraft:selection_box": true,
+      "minecraft:collision_box": true,
+      "minecraft:loot": "loot_tables/wan/redcave/block/redstone.json",
+      "minecraft:geometry": {
+        "identifier": "geometry.wan_redcave.full_block_box"
+      },
+      "minecraft:light_emission": 10,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 100
+      },
+      "tag:minecraft:is_pickaxe_item_destructible": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "wan_redcave:magnetite_redlight_curve_n",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "wan_redcave:magnetite_redlight_curve_e",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              -90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "wan_redcave:magnetite_redlight_curve_s",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "wan_redcave:magnetite_redlight_curve_w",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

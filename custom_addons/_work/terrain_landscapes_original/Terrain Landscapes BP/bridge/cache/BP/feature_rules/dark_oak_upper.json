@@ -1,0 +1,511 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\feature_rules\\dark_oak_upper.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "be1a60e4_a84b_4ccb_8119_e9c56d73d5cf",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:dark_oak_upper",
+							"places_feature": "flour_tree:dark_oak_ag"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "roofed"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "forest"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 120,
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"z": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"extent": [
+									81,
+									180
+								],
+								"distribution": "uniform"
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:dark_oak_upper",
+							"places_feature": "flour_tree:dark_oak_ag"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "roofed"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "forest"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 120,
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"z": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"extent": [
+									81,
+									180
+								],
+								"distribution": "uniform"
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:dark_oak_upper",
+								"places_feature": "flour_tree:dark_oak_ag"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "roofed"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 120,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										81,
+										180
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:dark_oak_upper",
+							"places_feature": "flour_tree:dark_oak_ag"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:dark_oak_upper",
+								"places_feature": "flour_tree:dark_oak_ag"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "roofed"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 120,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										81,
+										180
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"data": "surface_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "surface_pass",
+									"minecraft:biome_filter": {
+										"all_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "roofed"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "forest"
+											}
+										]
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": {
+											"all_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "roofed"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "forest"
+												}
+											]
+										},
+										"key": "all_of",
+										"children": [
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "roofed"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "roofed"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "forest"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:dark_oak_upper",
+								"places_feature": "flour_tree:dark_oak_ag"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "roofed"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 120,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										81,
+										180
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"open": {
+									"iterations": 120,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											81,
+											180
+										],
+										"distribution": "uniform"
+									}
+								},
+								"data": "120",
+								"key": "iterations"
+							},
+							{
+								"open": {
+									"iterations": 120,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											81,
+											180
+										],
+										"distribution": "uniform"
+									}
+								},
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							},
+							{
+								"open": {
+									"iterations": 120,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											81,
+											180
+										],
+										"distribution": "uniform"
+									}
+								},
+								"key": "z",
+								"children": [
+									{
+										"open": {
+											"extent": [
+												0,
+												16
+											],
+											"distribution": "uniform"
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											0,
+											16
+										]
+									},
+									{
+										"data": "uniform",
+										"key": "distribution"
+									}
+								]
+							},
+							{
+								"open": {
+									"iterations": 120,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											81,
+											180
+										],
+										"distribution": "uniform"
+									}
+								},
+								"key": "y",
+								"children": [
+									{
+										"open": {
+											"extent": [
+												81,
+												180
+											],
+											"distribution": "uniform"
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											81,
+											180
+										]
+									},
+									{
+										"data": "uniform",
+										"key": "distribution"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,225 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\scatter_eyeblossom_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "ec304b12_55a2_4b1d_8047_6a394c55004a",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:scatter_feature": {
+						"description": {
+							"identifier": "minecraft:scatter_eyeblossom_feature"
+						},
+						"iterations": 18,
+						"x": {
+							"distribution": "gaussian",
+							"extent": [
+								0,
+								8
+							]
+						},
+						"y": "query.heightmap(variable.worldx, variable.worldz)",
+						"z": {
+							"distribution": "gaussian",
+							"extent": [
+								0,
+								8
+							]
+						},
+						"places_feature": "minecraft:eyeblossom_feature"
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:scatter_feature": {
+						"description": {
+							"identifier": "minecraft:scatter_eyeblossom_feature"
+						},
+						"iterations": 18,
+						"x": {
+							"distribution": "gaussian",
+							"extent": [
+								0,
+								8
+							]
+						},
+						"y": "query.heightmap(variable.worldx, variable.worldz)",
+						"z": {
+							"distribution": "gaussian",
+							"extent": [
+								0,
+								8
+							]
+						},
+						"places_feature": "minecraft:eyeblossom_feature"
+					}
+				},
+				"key": "minecraft:scatter_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:scatter_eyeblossom_feature"
+							},
+							"iterations": 18,
+							"x": {
+								"distribution": "gaussian",
+								"extent": [
+									0,
+									8
+								]
+							},
+							"y": "query.heightmap(variable.worldx, variable.worldz)",
+							"z": {
+								"distribution": "gaussian",
+								"extent": [
+									0,
+									8
+								]
+							},
+							"places_feature": "minecraft:eyeblossom_feature"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:scatter_eyeblossom_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:scatter_eyeblossom_feature"
+							},
+							"iterations": 18,
+							"x": {
+								"distribution": "gaussian",
+								"extent": [
+									0,
+									8
+								]
+							},
+							"y": "query.heightmap(variable.worldx, variable.worldz)",
+							"z": {
+								"distribution": "gaussian",
+								"extent": [
+									0,
+									8
+								]
+							},
+							"places_feature": "minecraft:eyeblossom_feature"
+						},
+						"data": "18",
+						"key": "iterations"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:scatter_eyeblossom_feature"
+							},
+							"iterations": 18,
+							"x": {
+								"distribution": "gaussian",
+								"extent": [
+									0,
+									8
+								]
+							},
+							"y": "query.heightmap(variable.worldx, variable.worldz)",
+							"z": {
+								"distribution": "gaussian",
+								"extent": [
+									0,
+									8
+								]
+							},
+							"places_feature": "minecraft:eyeblossom_feature"
+						},
+						"key": "x",
+						"children": [
+							{
+								"data": "gaussian",
+								"key": "distribution"
+							},
+							{
+								"open": {
+									"distribution": "gaussian",
+									"extent": [
+										0,
+										8
+									]
+								},
+								"key": "extent",
+								"is_minified": true,
+								"children": [
+									0,
+									8
+								]
+							}
+						]
+					},
+					{
+						"data": "query.heightmap(variable.worldx, variable.worldz)",
+						"key": "y"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:scatter_eyeblossom_feature"
+							},
+							"iterations": 18,
+							"x": {
+								"distribution": "gaussian",
+								"extent": [
+									0,
+									8
+								]
+							},
+							"y": "query.heightmap(variable.worldx, variable.worldz)",
+							"z": {
+								"distribution": "gaussian",
+								"extent": [
+									0,
+									8
+								]
+							},
+							"places_feature": "minecraft:eyeblossom_feature"
+						},
+						"key": "z",
+						"children": [
+							{
+								"data": "gaussian",
+								"key": "distribution"
+							},
+							{
+								"open": {
+									"distribution": "gaussian",
+									"extent": [
+										0,
+										8
+									]
+								},
+								"key": "extent",
+								"is_minified": true,
+								"children": [
+									0,
+									8
+								]
+							}
+						]
+					},
+					{
+						"data": "minecraft:eyeblossom_feature",
+						"key": "places_feature"
+					}
+				]
+			}
+		]
+	}
+}

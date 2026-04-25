@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "wan_redcave:blue_network_core",
+                    "weight": 1,
+                    "count": 1
+                }
+            ]
+        }
+    ]
+}

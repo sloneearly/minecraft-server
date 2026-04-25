@@ -1,0 +1,9 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:sequence_feature": {
+		"description": {
+			"identifier": "shapescape:boulder_medium_9_check_area"
+		},
+		"features": ["shapescape:boulder_check_area_1", "shapescape:boulder_check_area_2", "shapescape:boulder_medium_9"]
+	}
+}

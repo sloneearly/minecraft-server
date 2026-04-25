@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:tree_oak_small_4"
+		},
+		"iterations": "v.tree_oak_small_4__i=-1;return 28;",
+		"places_feature": "shapescape:tree_oak_small_4__offset",
+		"project_input_to_floor": false,
+		"coordinate_eval_order": "xzy",
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

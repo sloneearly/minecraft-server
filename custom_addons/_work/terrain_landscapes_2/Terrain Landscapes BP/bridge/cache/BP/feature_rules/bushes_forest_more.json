@@ -1,0 +1,606 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\feature_rules\\bushes_forest_more.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "16707758_9414_41ce_b5d1_4ae7324151e8",
+	"file_version": 13,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:bushes_forest_more",
+							"places_feature": "flour_tree:forest_bushes"
+						},
+						"conditions": {
+							"placement_pass": "final_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "birch"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "forest"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "taiga"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "jungle"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 3,
+							"x": {
+								"extent": [
+									1,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"z": {
+								"extent": [
+									1,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"extent": [
+									"query.heightmap(variable.worldx, variable.worldz)",
+									"query.heightmap(variable.worldx, variable.worldz) + 1"
+								],
+								"distribution": "uniform"
+							},
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 12
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:bushes_forest_more",
+							"places_feature": "flour_tree:forest_bushes"
+						},
+						"conditions": {
+							"placement_pass": "final_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "birch"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "forest"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "taiga"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "!=",
+										"value": "jungle"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 3,
+							"x": {
+								"extent": [
+									1,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"z": {
+								"extent": [
+									1,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"extent": [
+									"query.heightmap(variable.worldx, variable.worldz)",
+									"query.heightmap(variable.worldx, variable.worldz) + 1"
+								],
+								"distribution": "uniform"
+							},
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 12
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:bushes_forest_more",
+								"places_feature": "flour_tree:forest_bushes"
+							},
+							"conditions": {
+								"placement_pass": "final_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "birch"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "taiga"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "jungle"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 3,
+								"x": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"z": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.heightmap(variable.worldx, variable.worldz)",
+										"query.heightmap(variable.worldx, variable.worldz) + 1"
+									],
+									"distribution": "uniform"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 12
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:bushes_forest_more",
+							"places_feature": "flour_tree:forest_bushes"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:bushes_forest_more",
+								"places_feature": "flour_tree:forest_bushes"
+							},
+							"conditions": {
+								"placement_pass": "final_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "birch"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "taiga"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "jungle"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 3,
+								"x": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"z": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.heightmap(variable.worldx, variable.worldz)",
+										"query.heightmap(variable.worldx, variable.worldz) + 1"
+									],
+									"distribution": "uniform"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 12
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"data": "final_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "final_pass",
+									"minecraft:biome_filter": {
+										"all_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "birch"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "forest"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "taiga"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "jungle"
+											}
+										]
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"is_minified": true,
+								"children": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "birch"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "taiga"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "jungle"
+										}
+									]
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:bushes_forest_more",
+								"places_feature": "flour_tree:forest_bushes"
+							},
+							"conditions": {
+								"placement_pass": "final_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "birch"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "taiga"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "jungle"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 3,
+								"x": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"z": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.heightmap(variable.worldx, variable.worldz)",
+										"query.heightmap(variable.worldx, variable.worldz) + 1"
+									],
+									"distribution": "uniform"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 12
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"open": {
+									"iterations": 3,
+									"x": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"z": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.heightmap(variable.worldx, variable.worldz)",
+											"query.heightmap(variable.worldx, variable.worldz) + 1"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 12
+									}
+								},
+								"data": "3",
+								"key": "iterations"
+							},
+							{
+								"open": {
+									"iterations": 3,
+									"x": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"z": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.heightmap(variable.worldx, variable.worldz)",
+											"query.heightmap(variable.worldx, variable.worldz) + 1"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 12
+									}
+								},
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								}
+							},
+							{
+								"open": {
+									"iterations": 3,
+									"x": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"z": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.heightmap(variable.worldx, variable.worldz)",
+											"query.heightmap(variable.worldx, variable.worldz) + 1"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 12
+									}
+								},
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								}
+							},
+							{
+								"open": {
+									"iterations": 3,
+									"x": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"z": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.heightmap(variable.worldx, variable.worldz)",
+											"query.heightmap(variable.worldx, variable.worldz) + 1"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 12
+									}
+								},
+								"key": "y",
+								"children": [
+									{
+										"open": {
+											"extent": [
+												"query.heightmap(variable.worldx, variable.worldz)",
+												"query.heightmap(variable.worldx, variable.worldz) + 1"
+											],
+											"distribution": "uniform"
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											"query.heightmap(variable.worldx, variable.worldz)",
+											"query.heightmap(variable.worldx, variable.worldz) + 1"
+										]
+									},
+									{
+										"data": "uniform",
+										"key": "distribution"
+									}
+								]
+							},
+							{
+								"open": {
+									"iterations": 3,
+									"x": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"z": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.heightmap(variable.worldx, variable.worldz)",
+											"query.heightmap(variable.worldx, variable.worldz) + 1"
+										],
+										"distribution": "uniform"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 12
+									}
+								},
+								"key": "scatter_chance",
+								"is_minified": true,
+								"children": {
+									"numerator": 1,
+									"denominator": 12
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

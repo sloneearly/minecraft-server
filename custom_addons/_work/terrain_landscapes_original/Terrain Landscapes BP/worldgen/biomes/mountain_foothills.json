@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "feber_studio:mountain_foothills"
+    },
+    "components": {
+      "minecraft:overworld_height": {
+        "noise_type": "lowlands",
+        "height": 22,
+        "offset": 78
+      },
+      "minecraft:surface_parameters": {
+        "top_material": "minecraft:grass_block",
+        "mid_material": "minecraft:dirt",
+        "sea_floor_material": "minecraft:stone"
+      },
+      "minecraft:climate": {
+        "temperature": 0.45,
+        "downfall": 0.45
+      }
+    }
+  }
+}

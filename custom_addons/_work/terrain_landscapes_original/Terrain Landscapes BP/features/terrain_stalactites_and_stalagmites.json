@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_stalactites_and_stalagmites"
+		},
+		"iterations": "t.stalac_noise=math.clamp((q.noise(v.worldx/25, v.worldz/25)-0.2)/0.8, 0, 1);t.stalactite_tip=math.floor(t.stalactite_anchor-(5+math.pow(math.random(0, 1), 2) * 17)*t.stalac_noise*(math.random(0, 1) > 0.8));t.stalagmite_tip=math.floor(t.stalagmite_anchor+(5+math.pow(math.random(0, 1), 2) * 17)*t.stalac_noise*(math.random(0, 1) > 0.8));t.stala_touch=t.stalactite_tip <= t.stalagmite_tip;t.stalagmite_tip=t.stala_touch ? t.stalactite_tip-1 : t.stalagmite_tip;return (t.stalac_noise > 0) != 0;",
+		"places_feature": "shapescape:terrain_stalactites_and_stalagmites_aggregate",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

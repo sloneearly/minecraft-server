@@ -1,0 +1,420 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.wan_redcave.redstone_crawler.move": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "idle": "!v.stop_walking_anim"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "idle": {
+          "animations": [
+            "idle",
+            "tail",
+            "script"
+          ],
+          "transitions": [
+            {
+              "default": "v.stop_walking_anim"
+            },
+            {
+              "walk": "q.modified_move_speed > 0.1 && q.mark_variant != 1"
+            },
+            {
+              "walk_hostile": "q.modified_move_speed > 0.1 && q.mark_variant == 1"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "walk": {
+          "animations": [
+            "walk",
+            "tail",
+            "script"
+          ],
+          "transitions": [
+            {
+              "default": "v.stop_walking_anim"
+            },
+            {
+              "idle": "q.modified_move_speed <= 0.1"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "walk"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "walk_hostile": {
+          "animations": [
+            "walk",
+            "tail",
+            "script"
+          ],
+          "transitions": [
+            {
+              "default": "v.stop_walking_anim"
+            },
+            {
+              "idle": "q.modified_move_speed <= 0.1"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "walk_hostile"
+            }
+          ],
+          "blend_transition": 0.2
+        }
+      }
+    },
+    "controller.animation.wan_redcave.redstone_crawler.attack": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "off": "q.variant == 2 && q.mark_variant != 1"
+            },
+            {
+              "off_hostile": "q.variant == 2 && q.mark_variant == 1"
+            },
+            {
+              "on": "q.variant == 3 && q.mark_variant != 1"
+            },
+            {
+              "on_hostile": "q.variant == 3 && q.mark_variant == 1"
+            },
+            {
+              "bite": "q.variant == 4 && q.mark_variant != 1"
+            },
+            {
+              "bite_hostile": "q.variant == 4 && q.mark_variant == 1"
+            },
+            {
+              "jump_player": "!q.is_on_ground && q.vertical_speed>0 && q.has_rider && q.mark_variant != 1"
+            },
+            {
+              "jump": "q.variant == 5 && q.mark_variant != 1"
+            },
+            {
+              "jump_hostile": "q.variant == 5 && q.mark_variant == 1"
+            },
+            {
+              "sit": "q.variant == 6"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "off": {
+          "on_entry": [
+            "v.stop_walking_anim = 1;"
+          ],
+          "animations": [
+            "off",
+            {
+              "off_post": "query.any_animation_finished"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "query.variant != 2"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "off"
+            }
+          ],
+          "on_exit": [
+            "v.stop_walking_anim = 0;"
+          ],
+          "blend_transition": 0.1
+        },
+        "off_hostile": {
+          "on_entry": [
+            "v.stop_walking_anim = 1;"
+          ],
+          "animations": [
+            "off",
+            {
+              "off_post": "query.any_animation_finished"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "query.variant != 2"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "off_hostile"
+            }
+          ],
+          "on_exit": [
+            "v.stop_walking_anim = 0;"
+          ],
+          "blend_transition": 0.1
+        },
+        "on": {
+          "animations": [
+            "on"
+          ],
+          "transitions": [
+            {
+              "default": "query.variant != 3"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "on"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "on_hostile": {
+          "animations": [
+            "on"
+          ],
+          "transitions": [
+            {
+              "default": "query.variant != 3"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "on_hostile"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "bite": {
+          "animations": [
+            "bite"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "bite"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "bite_hostile": {
+          "animations": [
+            "bite"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "bite_hostile"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "jump": {
+          "on_entry": [
+            "v.stop_walking_anim = 1;"
+          ],
+          "animations": [
+            "jump"
+          ],
+          "transitions": [
+            {
+              "jump_loop": "query.any_animation_finished"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "jump"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "jump_player": {
+          "on_entry": [
+            "v.stop_walking_anim = 1;"
+          ],
+          "animations": [
+            "jump_sit"
+          ],
+          "transitions": [
+            {
+              "jump_loop_player": "query.any_animation_finished"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "jump"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "jump_loop_player": {
+          "animations": [
+            "jump_sit_loop"
+          ],
+          "transitions": [
+            {
+              "jump_land_player": "q.is_on_ground"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "jump_loop"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "jump_land_player": {
+          "animations": [
+            "jump_sit_land"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "jump_land"
+            }
+          ],
+          "on_exit": [
+            "v.stop_walking_anim = 0;"
+          ],
+          "blend_transition": 0.1
+        },
+        "jump_hostile": {
+          "on_entry": [
+            "v.stop_walking_anim = 1;"
+          ],
+          "animations": [
+            "jump"
+          ],
+          "transitions": [
+            {
+              "jump_loop_hostile": "query.any_animation_finished"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "jump_hostile"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "jump_loop": {
+          "animations": [
+            "jump_loop"
+          ],
+          "transitions": [
+            {
+              "jump_land": "q.variant != 5"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "jump_loop"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "jump_loop_hostile": {
+          "animations": [
+            "jump_loop"
+          ],
+          "transitions": [
+            {
+              "jump_land_hostile": "q.variant != 5"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "jump_loop_hostile"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "jump_land": {
+          "animations": [
+            "jump_land"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "jump_land"
+            }
+          ],
+          "on_exit": [
+            "v.stop_walking_anim = 0;"
+          ],
+          "blend_transition": 0.1
+        },
+        "jump_land_hostile": {
+          "animations": [
+            "jump_land"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "jump_land_hostile"
+            }
+          ],
+          "on_exit": [
+            "v.stop_walking_anim = 0;"
+          ],
+          "blend_transition": 0.1
+        },
+        "sit": {
+          "animations": [
+            "sit"
+          ],
+          "transitions": [
+            {
+              "sit_up": "query.variant != 6"
+            }
+          ],
+          "blend_transition": 0
+        },
+        "sit_up": {
+          "animations": [
+            "up"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ],
+          "on_exit": [
+            "v.stop_walking_anim = 0;"
+          ],
+          "blend_transition": 0.1
+        }
+      }
+    }
+  }
+}

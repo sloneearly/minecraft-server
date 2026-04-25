@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_mountain_below_surface_layer__elif_2"
+		},
+		"iterations": "v.terrain_mountain_below_surface_layer__switch == 2",
+		"places_feature": "shapescape:terrain_mountain_cave_floor",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

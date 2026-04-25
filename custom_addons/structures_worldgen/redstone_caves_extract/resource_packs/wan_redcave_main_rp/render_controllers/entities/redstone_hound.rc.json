@@ -1,0 +1,48 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.wan_redcave.redstone_hound": {
+      "geometry": "Geometry.default",
+      "part_visibility": [
+        {
+          "Laser": "q.variant == 4",
+          "rotation": "q.variant == 4",
+          "laser_center": "q.variant == 4"
+        }
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        },
+        {
+          "Laser": "Material.laser",
+          "rotation": "Material.laser",
+          "laser_center": "Material.laser"
+        }
+      ],
+      "arrays": {
+        "textures": {
+          "Array.textures": [
+            "Texture.empty",
+            "Texture.hostile",
+            "Texture.deactivated",
+            "Texture.pacific"
+          ]
+        }
+      },
+      "textures": [
+        "Array.textures[q.mark_variant]"
+      ],
+      "uv_anim": {
+        "offset": [
+          0,
+          "math.mod(math.floor(q.life_time * 20), 3) / 3"
+        ],
+        "scale": [
+          1,
+          "1 / 3"
+        ]
+      }
+    }
+  }
+}

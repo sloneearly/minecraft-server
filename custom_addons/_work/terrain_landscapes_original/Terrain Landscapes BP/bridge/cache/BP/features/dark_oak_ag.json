@@ -1,0 +1,92 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\dark_oak_ag.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "d6d4376a_80e3_4093_8e47_5f8500412c64",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:aggregate_feature": {
+						"description": {
+							"identifier": "flour_tree:dark_oak_ag"
+						},
+						"features": [
+							"minecraft:roofed_tree_feature",
+							"flour_tree:dark_oak_random",
+							"flour_tree:dark_oak_random",
+							"flour_tree:dark_oak_random",
+							"flour_tree:dark_oak_random"
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:aggregate_feature": {
+						"description": {
+							"identifier": "flour_tree:dark_oak_ag"
+						},
+						"features": [
+							"minecraft:roofed_tree_feature",
+							"flour_tree:dark_oak_random",
+							"flour_tree:dark_oak_random",
+							"flour_tree:dark_oak_random",
+							"flour_tree:dark_oak_random"
+						]
+					}
+				},
+				"key": "minecraft:aggregate_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:dark_oak_ag"
+							},
+							"features": [
+								"minecraft:roofed_tree_feature",
+								"flour_tree:dark_oak_random",
+								"flour_tree:dark_oak_random",
+								"flour_tree:dark_oak_random",
+								"flour_tree:dark_oak_random"
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:dark_oak_ag"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:dark_oak_ag"
+							},
+							"features": [
+								"minecraft:roofed_tree_feature",
+								"flour_tree:dark_oak_random",
+								"flour_tree:dark_oak_random",
+								"flour_tree:dark_oak_random",
+								"flour_tree:dark_oak_random"
+							]
+						},
+						"key": "features",
+						"is_minified": true,
+						"children": [
+							"minecraft:roofed_tree_feature",
+							"flour_tree:dark_oak_random",
+							"flour_tree:dark_oak_random",
+							"flour_tree:dark_oak_random",
+							"flour_tree:dark_oak_random"
+						]
+					}
+				]
+			}
+		]
+	}
+}

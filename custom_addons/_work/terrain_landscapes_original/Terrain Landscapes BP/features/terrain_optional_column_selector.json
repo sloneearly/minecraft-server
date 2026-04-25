@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_optional_column_selector"
+		},
+		"iterations": "t.heightmap=q.heightmap(v.worldx, v.worldz);t.above_top_solid=q.above_top_solid(v.worldx, v.worldz);t.top_solid_heightmap_min=math.min(t.heightmap, t.above_top_solid);t.noise_to_top_offset=v.terrain.main.noise_val-t.top_solid_heightmap_min;v.surface_layer_height=20;v.terrain_optional_column_selector__switch = (t.noise_to_top_offset >= 1) ? 0 : 1;return 1;",
+		"places_feature": "shapescape:terrain_optional_column_selector__cond_aggr",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "shapescape:groupped_stones_fern"
+		},
+		"places_block": {
+			"name": "minecraft:tallgrass",
+			"states": {
+				"dirt_type": "fern"
+			}
+		},
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": true,
+		"may_attach_to": {
+			"bottom": ["minecraft:grass", "minecraft:dirt"]
+		}
+	}
+}

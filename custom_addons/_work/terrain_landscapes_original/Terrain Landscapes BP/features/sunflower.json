@@ -1,0 +1,36 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:growing_plant_feature": {
+		"description": {
+			"identifier": "shapescape:sunflower"
+		},
+		"height_distribution": [[{ "range_min": 2, "range_max": 2 }, 1]],
+		"growth_direction": "UP",
+		"body_blocks": [
+			[
+				{
+					"name": "minecraft:double_plant",
+					"states": {
+						"double_plant_type": "sunflower",
+						"upper_block_bit": false
+					}
+				},
+				1
+			]
+		],
+
+		"head_blocks": [
+			[
+				{
+					"name": "minecraft:double_plant",
+					"states": {
+						"double_plant_type": "sunflower",
+						"upper_block_bit": true
+					}
+				},
+				1
+			]
+		],
+		"allow_water": false
+	}
+}

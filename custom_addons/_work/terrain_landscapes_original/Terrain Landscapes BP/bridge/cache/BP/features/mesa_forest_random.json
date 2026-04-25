@@ -1,0 +1,177 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\mesa_forest_random.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "01cb83dd_fc4d_4c50_a291_264c75d1ff37",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "flour_tree:mesa_forest_random"
+						},
+						"features": [
+							[
+								"flour_tree:medium_oak_tree",
+								40
+							],
+							[
+								"minecraft:oak_tree_with_vines_feature",
+								20
+							],
+							[
+								"minecraft:oak_tree_with_beehive_feature",
+								10
+							]
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "flour_tree:mesa_forest_random"
+						},
+						"features": [
+							[
+								"flour_tree:medium_oak_tree",
+								40
+							],
+							[
+								"minecraft:oak_tree_with_vines_feature",
+								20
+							],
+							[
+								"minecraft:oak_tree_with_beehive_feature",
+								10
+							]
+						]
+					}
+				},
+				"key": "minecraft:weighted_random_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:mesa_forest_random"
+							},
+							"features": [
+								[
+									"flour_tree:medium_oak_tree",
+									40
+								],
+								[
+									"minecraft:oak_tree_with_vines_feature",
+									20
+								],
+								[
+									"minecraft:oak_tree_with_beehive_feature",
+									10
+								]
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:mesa_forest_random"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:mesa_forest_random"
+							},
+							"features": [
+								[
+									"flour_tree:medium_oak_tree",
+									40
+								],
+								[
+									"minecraft:oak_tree_with_vines_feature",
+									20
+								],
+								[
+									"minecraft:oak_tree_with_beehive_feature",
+									10
+								]
+							]
+						},
+						"key": "features",
+						"children": [
+							{
+								"open": [
+									[
+										"flour_tree:medium_oak_tree",
+										40
+									],
+									[
+										"minecraft:oak_tree_with_vines_feature",
+										20
+									],
+									[
+										"minecraft:oak_tree_with_beehive_feature",
+										10
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:medium_oak_tree",
+									40
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:medium_oak_tree",
+										40
+									],
+									[
+										"minecraft:oak_tree_with_vines_feature",
+										20
+									],
+									[
+										"minecraft:oak_tree_with_beehive_feature",
+										10
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"minecraft:oak_tree_with_vines_feature",
+									20
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:medium_oak_tree",
+										40
+									],
+									[
+										"minecraft:oak_tree_with_vines_feature",
+										20
+									],
+									[
+										"minecraft:oak_tree_with_beehive_feature",
+										10
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"minecraft:oak_tree_with_beehive_feature",
+									10
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

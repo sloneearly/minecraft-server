@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:forest_sparse_cold_160_top"
+		},
+		"features": [
+			["shapescape:tree_spruce_small_random", 24],
+			["shapescape:bush_spruce_check_area", 50],
+			["shapescape:moss", 4],
+			["shapescape:ferns", 15]
+		]
+	}
+}

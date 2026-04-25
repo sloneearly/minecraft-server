@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.111",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "wan_redcave:quarry"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "IPI",
+      "ICI",
+      "III"
+    ],
+    "key": {
+      "I": {
+        "item": "wan_redcave:magnetite_ingot"
+      },
+      "C": {
+        "item": "wan_redcave:redstone_chip"
+      },
+      "P": {
+        "item": "minecraft:diamond_pickaxe"
+      }
+    },
+    "unlock": [
+      {
+        "item": "wan_redcave:bluestone"
+      }
+    ],
+    "result": {
+      "item": "wan_redcave:quarry"
+    }
+  }
+}

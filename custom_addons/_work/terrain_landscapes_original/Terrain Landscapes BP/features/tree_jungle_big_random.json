@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:tree_jungle_big_random"
+		},
+		"features": [
+			["shapescape:tree_jungle_big_1_check_area", 1],
+			["shapescape:tree_jungle_big_2_check_area", 1],
+			["shapescape:tree_jungle_big_3_check_area", 1],
+			["shapescape:tree_jungle_big_4_check_area", 1],
+			["shapescape:tree_jungle_big_5_check_area", 1],
+			["shapescape:tree_jungle_big_6_check_area", 1]
+		]
+	}
+}

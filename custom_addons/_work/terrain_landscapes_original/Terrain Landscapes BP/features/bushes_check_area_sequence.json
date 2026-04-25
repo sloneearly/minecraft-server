@@ -1,0 +1,9 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:sequence_feature": {
+		"description": {
+			"identifier": "shapescape:bushes_check_area_sequence"
+		},
+		"features": ["shapescape:bushes_check_area_1", "shapescape:bushes_check_area_2", "shapescape:bushes_choice"]
+	}
+}

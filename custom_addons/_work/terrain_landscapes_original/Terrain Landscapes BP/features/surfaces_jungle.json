@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:surfaces_jungle"
+		},
+		"iterations": "v.surfaces_jungle__switch = (v.worldy+1.5 > v.terrain.main.noise_val) ? 0 : (v.worldy+5.1 > v.terrain.main.noise_val) ? 1 : 2;return 1;",
+		"places_feature": "shapescape:surfaces_jungle__cond_aggr",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

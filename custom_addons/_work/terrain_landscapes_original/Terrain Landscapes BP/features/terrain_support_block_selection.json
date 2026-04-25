@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_support_block_selection"
+		},
+		"iterations": "v.terrain_support_block_selection__switch = (v.terrain.wall.noise_val > 0.4) ? 0 : 1;return 1;",
+		"places_feature": "shapescape:terrain_support_block_selection__cond_aggr",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

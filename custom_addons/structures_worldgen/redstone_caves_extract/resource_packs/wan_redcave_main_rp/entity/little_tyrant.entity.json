@@ -1,0 +1,56 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "wan_redcave:little_tyrant",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "laser": "entity_alphablend"
+      },
+      "textures": {
+        "empty": "textures/wan/redcave/empty",
+        "hostile": "textures/wan/redcave/empty",
+        "pacific": "textures/wan/redcave/entity/little_tyrant/pacific",
+        "deactivated": "textures/wan/redcave/entity/little_tyrant/off"
+      },
+      "geometry": {
+        "default": "geometry.wan_redcave.little_tyrant"
+      },
+      "animations": {
+        "idle": "animation.wan_redcave.little_tyrant.idle",
+        "walk": "animation.wan_redcave.little_tyrant.walk",
+        "bite": "animation.wan_redcave.little_tyrant.bite",
+        "shooting": "animation.wan_redcave.little_tyrant.shooting",
+        "on": "animation.wan_redcave.little_tyrant.on",
+        "off": "animation.wan_redcave.little_tyrant.off",
+        "off_post": "animation.wan_redcave.little_tyrant.off_post",
+        "sit": "animation.wan_redcave.little_tyrant.sit",
+        "up": "animation.wan_redcave.little_tyrant.up",
+        "move_ctrl": "controller.animation.wan_redcave.little_tyrant.move",
+        "attack_ctrl": "controller.animation.wan_redcave.little_tyrant.attack"
+      },
+      "scripts": {
+        "animate": [
+          "move_ctrl",
+          "attack_ctrl"
+        ],
+        "initialize": [
+          "v.stop_walking_anim = 0;"
+        ]
+      },
+      "sound_effects": {
+        "on": "wan_redcave.generic_mob.on",
+        "off": "wan_redcave.generic_mob.off",
+        "bite": "wan_redcave.little_tyrant.bite",
+        "shooting": "wan_redcave.little_tyrant.shooting",
+        "walk": "wan_redcave.little_tyrant.walk"
+      },
+      "render_controllers": [
+        "controller.render.wan_redcave.redstone_mob"
+      ],
+      "spawn_egg": {
+        "texture": "wan_redcave:little_tyrant_spawn_egg"
+      }
+    }
+  }
+}

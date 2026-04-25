@@ -1,0 +1,92 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "shapescape:terrain__cold_200",
+			"places_feature": "shapescape:terrain__cold_200"
+		},
+		"conditions": {
+			"placement_pass": "first_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"all_of": [
+							{
+								"test": "has_biome_tag",
+								"value": "bee_habitat"
+							},
+							{
+								"test": "has_biome_tag",
+								"value": "mountains"
+							}
+						]
+					},
+					{
+						"all_of": [
+							{
+								"test": "has_biome_tag",
+								"value": "taiga"
+							},
+							{
+								"test": "has_biome_tag",
+								"value": "hills"
+							},
+							{
+								"test": "has_biome_tag",
+								"value": "mutated"
+							}
+						]
+					},
+					{
+						"all_of": [
+							{
+								"test": "has_biome_tag",
+								"value": "taiga"
+							},
+							{
+								"test": "has_biome_tag",
+								"value": "hills"
+							},
+							{
+								"test": "has_biome_tag",
+								"value": "mega"
+							}
+						]
+					},
+					{
+						"all_of": [
+							{
+								"test": "has_biome_tag",
+								"value": "taiga"
+							},
+							{
+								"test": "has_biome_tag",
+								"value": "mega"
+							},
+							{
+								"test": "has_biome_tag",
+								"value": "rare"
+							}
+						]
+					}
+				]
+			}
+		},
+		"distribution": {
+			"scatter_chance": 100.0,
+			"iterations": 256,
+			"coordinate_eval_order": "zxy",
+			"x": {
+				"step_size": 1,
+				"extent": [0, 15],
+				"distribution": "fixed_grid"
+			},
+			"y": 200,
+			"z": {
+				"step_size": 1,
+				"extent": [0, 15],
+				"distribution": "fixed_grid"
+			}
+		}
+	}
+}

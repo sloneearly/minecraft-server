@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_mountain_surface_layer"
+		},
+		"iterations": "t.terrain_unsafe_bottom=v.terrain.main.noise_val-v.surface_layer_height-1-math.floor(math.random(0, 1.1));t.terrain_safe_bottom=t.above_top_solid > v.terrain.main.noise_val ? t.heightmap + v.surface_layer_height : t.above_top_solid;t.terrain_bottom=math.max(t.terrain_unsafe_bottom, t.terrain_safe_bottom);t.terrain_bottom=math.min(t.terrain_bottom, v.terrain.main.noise_val);t.terrain_mountain_surface_layer__bottom=t.terrain_bottom;t.terrain_mountain_surface_layer__top=v.terrain.main.noise_val;t.terrain_mountain_surface_layer__iterations=math.max(0, t.terrain_mountain_surface_layer__top-t.terrain_mountain_surface_layer__bottom);return 1;",
+		"places_feature": "shapescape:terrain_mountain_surface_layer__column",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": "t.terrain_mountain_surface_layer__bottom"
+	}
+}

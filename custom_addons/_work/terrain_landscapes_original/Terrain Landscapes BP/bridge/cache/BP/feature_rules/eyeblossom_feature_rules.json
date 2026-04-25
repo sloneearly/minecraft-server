@@ -1,0 +1,358 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\feature_rules\\eyeblossom_feature_rules.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "b051b72e_f840_4928_8148_c575396c7ed1",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "minecraft:eyeblossom_feature_rules",
+							"places_feature": "minecraft:scatter_eyeblossom_feature"
+						},
+						"conditions": {
+							"minecraft:biome_filter": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "pale_garden"
+								}
+							],
+							"placement_pass": "surface_pass"
+						},
+						"distribution": {
+							"iterations": 30,
+							"y": 0,
+							"x": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"z": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "minecraft:eyeblossom_feature_rules",
+							"places_feature": "minecraft:scatter_eyeblossom_feature"
+						},
+						"conditions": {
+							"minecraft:biome_filter": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "pale_garden"
+								}
+							],
+							"placement_pass": "surface_pass"
+						},
+						"distribution": {
+							"iterations": 30,
+							"y": 0,
+							"x": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"z": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:eyeblossom_feature_rules",
+								"places_feature": "minecraft:scatter_eyeblossom_feature"
+							},
+							"conditions": {
+								"minecraft:biome_filter": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "pale_garden"
+									}
+								],
+								"placement_pass": "surface_pass"
+							},
+							"distribution": {
+								"iterations": 30,
+								"y": 0,
+								"x": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:eyeblossom_feature_rules",
+							"places_feature": "minecraft:scatter_eyeblossom_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:eyeblossom_feature_rules",
+								"places_feature": "minecraft:scatter_eyeblossom_feature"
+							},
+							"conditions": {
+								"minecraft:biome_filter": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "pale_garden"
+									}
+								],
+								"placement_pass": "surface_pass"
+							},
+							"distribution": {
+								"iterations": 30,
+								"y": 0,
+								"x": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "pale_garden"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "pale_garden"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:biome_filter": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "pale_garden"
+										}
+									],
+									"placement_pass": "surface_pass"
+								},
+								"data": "surface_pass",
+								"key": "placement_pass"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:eyeblossom_feature_rules",
+								"places_feature": "minecraft:scatter_eyeblossom_feature"
+							},
+							"conditions": {
+								"minecraft:biome_filter": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "pale_garden"
+									}
+								],
+								"placement_pass": "surface_pass"
+							},
+							"distribution": {
+								"iterations": 30,
+								"y": 0,
+								"x": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"open": {
+									"iterations": 30,
+									"y": 0,
+									"x": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									}
+								},
+								"data": "30",
+								"key": "iterations"
+							},
+							{
+								"data": "0",
+								"key": "y"
+							},
+							{
+								"open": {
+									"iterations": 30,
+									"y": 0,
+									"x": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									}
+								},
+								"key": "x",
+								"children": [
+									{
+										"open": {
+											"extent": [
+												0,
+												16
+											],
+											"distribution": "uniform"
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											0,
+											16
+										]
+									},
+									{
+										"data": "uniform",
+										"key": "distribution"
+									}
+								]
+							},
+							{
+								"open": {
+									"iterations": 30,
+									"y": 0,
+									"x": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									}
+								},
+								"key": "z",
+								"children": [
+									{
+										"open": {
+											"extent": [
+												0,
+												16
+											],
+											"distribution": "uniform"
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											0,
+											16
+										]
+									},
+									{
+										"data": "uniform",
+										"key": "distribution"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

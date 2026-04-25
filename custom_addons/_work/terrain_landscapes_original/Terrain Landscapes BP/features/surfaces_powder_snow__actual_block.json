@@ -1,0 +1,11 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "shapescape:surfaces_powder_snow__actual_block"
+		},
+		"places_block": "minecraft:powder_snow",
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false
+	}
+}

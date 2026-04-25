@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "wan_redcave:blaster_t1",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/wan/redcave/attachables/blasters/1"
+      },
+      "geometry": {
+        "default": "geometry.wan_redcave.blaster_t1"
+      },
+      "animations": {
+        "fp": "animation.wan_redcave.blaster.fp"
+      },
+      "scripts": {
+        "parent_setup": "v.item_use_normalized = 0.0;",
+        "pre_animation": [
+          "v.player_first_person = c.is_first_person && !q.is_in_ui && q.is_local_player;"
+        ],
+        "animate": [
+          {
+            "fp": "v.player_first_person"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

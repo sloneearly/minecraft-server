@@ -1,0 +1,9 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "shapescape:surfaces_mushrooms_top__cond_aggr"
+		},
+		"features": ["shapescape:surfaces_mushrooms_top__elif_0", "shapescape:surfaces_mushrooms_top__elif_1"]
+	}
+}

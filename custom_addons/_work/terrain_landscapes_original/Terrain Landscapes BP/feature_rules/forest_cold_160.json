@@ -1,0 +1,68 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "shapescape:forest_cold_160",
+			"places_feature": "shapescape:forest_cold_160_scatter"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"all_of": [
+							{
+								"test": "has_biome_tag",
+								"value": "taiga"
+							},
+							{
+								"test": "has_biome_tag",
+								"value": "cold",
+								"operator": "!="
+							},
+							{
+								"test": "has_biome_tag",
+								"value": "mega",
+								"operator": "!="
+							}
+						]
+					},
+					{
+						"all_of": [
+							{
+								"test": "has_biome_tag",
+								"value": "taiga"
+							},
+							{
+								"test": "has_biome_tag",
+								"value": "mutated"
+							},
+							{
+								"test": "has_biome_tag",
+								"value": "overworld_generation",
+								"operator": "!="
+							}
+						]
+					}
+				]
+			}
+		},
+		"distribution": {
+			"scatter_chance": {
+				"numerator": 99,
+				"denominator": 100
+			},
+			"iterations": "(1) * (math.abs(q.noise(v.originx/400, v.originz/400)) > 0.3)",
+			"coordinate_eval_order": "zxy",
+			"x": {
+				"distribution": "fixed_grid",
+				"extent": [0, 15]
+			},
+			"y": "q.above_top_solid(v.worldx, v.worldz)",
+			"z": {
+				"distribution": "fixed_grid",
+				"extent": [0, 15]
+			}
+		}
+	}
+}

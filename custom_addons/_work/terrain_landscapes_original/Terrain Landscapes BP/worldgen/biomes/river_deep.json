@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "feber_studio:river_deep"
+    },
+    "components": {
+      "minecraft:overworld_height": {
+        "noise_type": "river",
+        "height": -18,
+        "offset": 56
+      },
+      "minecraft:surface_parameters": {
+        "top_material": "minecraft:stone",
+        "mid_material": "minecraft:stone",
+        "sea_floor_material": "minecraft:gravel"
+      },
+      "minecraft:climate": {
+        "temperature": 0.45,
+        "downfall": 0.7
+      }
+    }
+  }
+}

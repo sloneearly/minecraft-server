@@ -1,0 +1,385 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\feature_rules\\mangrove_big_1_feature_rule.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "52e38a1a_c055_49a0_8706_d1529cebb8a6",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.19.10",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:mangrove_big_1_feature_rule",
+							"places_feature": "flour_tree:mangrove_mix_large"
+						},
+						"conditions": {
+							"placement_pass": "first_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "mangrove_swamp"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 1,
+							"x": {
+								"extent": [
+									1,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"z": {
+								"extent": [
+									1,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"extent": [
+									"query.heightmap(variable.worldx, variable.worldz) - 4",
+									"query.heightmap(variable.worldx, variable.worldz) - 3"
+								],
+								"distribution": "uniform"
+							}
+						}
+					}
+				},
+				"data": "1.19.10",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.19.10",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:mangrove_big_1_feature_rule",
+							"places_feature": "flour_tree:mangrove_mix_large"
+						},
+						"conditions": {
+							"placement_pass": "first_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "mangrove_swamp"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 1,
+							"x": {
+								"extent": [
+									1,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"z": {
+								"extent": [
+									1,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"extent": [
+									"query.heightmap(variable.worldx, variable.worldz) - 4",
+									"query.heightmap(variable.worldx, variable.worldz) - 3"
+								],
+								"distribution": "uniform"
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:mangrove_big_1_feature_rule",
+								"places_feature": "flour_tree:mangrove_mix_large"
+							},
+							"conditions": {
+								"placement_pass": "first_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "mangrove_swamp"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 1,
+								"x": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"z": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.heightmap(variable.worldx, variable.worldz) - 4",
+										"query.heightmap(variable.worldx, variable.worldz) - 3"
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:mangrove_big_1_feature_rule",
+							"places_feature": "flour_tree:mangrove_mix_large"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:mangrove_big_1_feature_rule",
+								"places_feature": "flour_tree:mangrove_mix_large"
+							},
+							"conditions": {
+								"placement_pass": "first_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "mangrove_swamp"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 1,
+								"x": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"z": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.heightmap(variable.worldx, variable.worldz) - 4",
+										"query.heightmap(variable.worldx, variable.worldz) - 3"
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"data": "first_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "first_pass",
+									"minecraft:biome_filter": {
+										"all_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "mangrove_swamp"
+											}
+										]
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": {
+											"all_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "mangrove_swamp"
+												}
+											]
+										},
+										"key": "all_of",
+										"children": [
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "mangrove_swamp"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "mangrove_swamp"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:mangrove_big_1_feature_rule",
+								"places_feature": "flour_tree:mangrove_mix_large"
+							},
+							"conditions": {
+								"placement_pass": "first_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "mangrove_swamp"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 1,
+								"x": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"z": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.heightmap(variable.worldx, variable.worldz) - 4",
+										"query.heightmap(variable.worldx, variable.worldz) - 3"
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"data": "1",
+								"key": "iterations"
+							},
+							{
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								}
+							},
+							{
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										1,
+										16
+									],
+									"distribution": "uniform"
+								}
+							},
+							{
+								"open": {
+									"iterations": 1,
+									"x": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"z": {
+										"extent": [
+											1,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.heightmap(variable.worldx, variable.worldz) - 4",
+											"query.heightmap(variable.worldx, variable.worldz) - 3"
+										],
+										"distribution": "uniform"
+									}
+								},
+								"key": "y",
+								"children": [
+									{
+										"open": {
+											"extent": [
+												"query.heightmap(variable.worldx, variable.worldz) - 4",
+												"query.heightmap(variable.worldx, variable.worldz) - 3"
+											],
+											"distribution": "uniform"
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											"query.heightmap(variable.worldx, variable.worldz) - 4",
+											"query.heightmap(variable.worldx, variable.worldz) - 3"
+										]
+									},
+									{
+										"open": {
+											"extent": [
+												"query.heightmap(variable.worldx, variable.worldz) - 4",
+												"query.heightmap(variable.worldx, variable.worldz) - 3"
+											],
+											"distribution": "uniform"
+										},
+										"data": "uniform",
+										"key": "distribution"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

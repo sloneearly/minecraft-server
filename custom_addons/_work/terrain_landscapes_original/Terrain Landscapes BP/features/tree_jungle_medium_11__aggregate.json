@@ -1,0 +1,9 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "shapescape:tree_jungle_medium_11__aggregate"
+		},
+		"features": ["shapescape:tree_jungle_medium_11__condition_1", "shapescape:tree_jungle_medium_11__condition_2", "shapescape:tree_jungle_medium_11__condition_3", "shapescape:tree_jungle_medium_11__condition_4", "shapescape:tree_jungle_medium_11__condition_5", "shapescape:tree_jungle_medium_11__condition_6", "shapescape:tree_jungle_medium_11__condition_7", "shapescape:tree_jungle_medium_11__condition_8"]
+	}
+}

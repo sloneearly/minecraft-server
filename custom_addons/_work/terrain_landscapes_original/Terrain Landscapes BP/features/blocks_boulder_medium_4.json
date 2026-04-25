@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:blocks_boulder_medium_4"
+		},
+		"features": [
+			["minecraft:stone", 10],
+			["minecraft:cobblestone", 5],
+			["minecraft:mossy_cobblestone", 3],
+			["minecraft:moss_block", 1]
+		]
+	}
+}

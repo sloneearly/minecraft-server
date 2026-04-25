@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:forest_sparse_cold_120_bottom"
+		},
+		"features": [
+			["shapescape:tree_spruce_small_random", 24],
+			["shapescape:bush_spruce_check_area", 32],
+			["shapescape:bush_azalea_flowered_check_area", 4],
+			["shapescape:moss", 4],
+			["shapescape:ferns", 6],
+			["shapescape:short_grass_patch", 10],
+			["shapescape:azure_bluets", 2],
+			["shapescape:lilies", 2],
+			["shapescape:peonies", 2],
+			["shapescape:oxeye_daisies", 1],
+			["shapescape:podzol_patch", 10],
+			["shapescape:boulder_medium_random", 1]
+		]
+	}
+}

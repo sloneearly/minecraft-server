@@ -1,0 +1,132 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\mushroom_mix.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "154a158a_a338_4b14_8e23_a7246d276907",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "flour_tree:mushroom_mix"
+						},
+						"features": [
+							[
+								"flour_tree:large_mushroom_1_feature",
+								30
+							],
+							[
+								"flour_tree:large_red_mushroom_1_feature",
+								30
+							]
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "flour_tree:mushroom_mix"
+						},
+						"features": [
+							[
+								"flour_tree:large_mushroom_1_feature",
+								30
+							],
+							[
+								"flour_tree:large_red_mushroom_1_feature",
+								30
+							]
+						]
+					}
+				},
+				"key": "minecraft:weighted_random_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:mushroom_mix"
+							},
+							"features": [
+								[
+									"flour_tree:large_mushroom_1_feature",
+									30
+								],
+								[
+									"flour_tree:large_red_mushroom_1_feature",
+									30
+								]
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:mushroom_mix"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:mushroom_mix"
+							},
+							"features": [
+								[
+									"flour_tree:large_mushroom_1_feature",
+									30
+								],
+								[
+									"flour_tree:large_red_mushroom_1_feature",
+									30
+								]
+							]
+						},
+						"key": "features",
+						"children": [
+							{
+								"open": [
+									[
+										"flour_tree:large_mushroom_1_feature",
+										30
+									],
+									[
+										"flour_tree:large_red_mushroom_1_feature",
+										30
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:large_mushroom_1_feature",
+									30
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:large_mushroom_1_feature",
+										30
+									],
+									[
+										"flour_tree:large_red_mushroom_1_feature",
+										30
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:large_red_mushroom_1_feature",
+									30
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

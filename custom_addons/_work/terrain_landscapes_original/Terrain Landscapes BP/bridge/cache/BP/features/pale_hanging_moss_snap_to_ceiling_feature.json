@@ -1,0 +1,187 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\pale_hanging_moss_snap_to_ceiling_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "f6cb7362_8752_4dd3_9781_d6c1577c73e6",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:snap_to_surface_feature": {
+						"description": {
+							"identifier": "minecraft:pale_hanging_moss_snap_to_ceiling_feature"
+						},
+						"feature_to_snap": "minecraft:pale_hanging_moss_feature",
+						"vertical_search_range": 32,
+						"surface": "ceiling",
+						"allowed_surface_blocks": [
+							{
+								"name": "minecraft:pale_oak_leaves",
+								"states": {
+									"persistent_bit": true
+								}
+							},
+							{
+								"name": "minecraft:pale_oak_log"
+							},
+							{
+								"name": "minecraft:pale_oak_leaves"
+							}
+						]
+					}
+				},
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:snap_to_surface_feature": {
+						"description": {
+							"identifier": "minecraft:pale_hanging_moss_snap_to_ceiling_feature"
+						},
+						"feature_to_snap": "minecraft:pale_hanging_moss_feature",
+						"vertical_search_range": 32,
+						"surface": "ceiling",
+						"allowed_surface_blocks": [
+							{
+								"name": "minecraft:pale_oak_leaves",
+								"states": {
+									"persistent_bit": true
+								}
+							},
+							{
+								"name": "minecraft:pale_oak_log"
+							},
+							{
+								"name": "minecraft:pale_oak_leaves"
+							}
+						]
+					}
+				},
+				"key": "minecraft:snap_to_surface_feature",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:pale_hanging_moss_snap_to_ceiling_feature"
+						}
+					},
+					{
+						"data": "minecraft:pale_hanging_moss_feature",
+						"key": "feature_to_snap"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:pale_hanging_moss_snap_to_ceiling_feature"
+							},
+							"feature_to_snap": "minecraft:pale_hanging_moss_feature",
+							"vertical_search_range": 32,
+							"surface": "ceiling",
+							"allowed_surface_blocks": [
+								{
+									"name": "minecraft:pale_oak_leaves",
+									"states": {
+										"persistent_bit": true
+									}
+								},
+								{
+									"name": "minecraft:pale_oak_log"
+								},
+								{
+									"name": "minecraft:pale_oak_leaves"
+								}
+							]
+						},
+						"data": "32",
+						"key": "vertical_search_range"
+					},
+					{
+						"data": "ceiling",
+						"key": "surface"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:pale_hanging_moss_snap_to_ceiling_feature"
+							},
+							"feature_to_snap": "minecraft:pale_hanging_moss_feature",
+							"vertical_search_range": 32,
+							"surface": "ceiling",
+							"allowed_surface_blocks": [
+								{
+									"name": "minecraft:pale_oak_leaves",
+									"states": {
+										"persistent_bit": true
+									}
+								},
+								{
+									"name": "minecraft:pale_oak_log"
+								},
+								{
+									"name": "minecraft:pale_oak_leaves"
+								}
+							]
+						},
+						"key": "allowed_surface_blocks",
+						"children": [
+							{
+								"open": [
+									{
+										"name": "minecraft:pale_oak_leaves",
+										"states": {
+											"persistent_bit": true
+										}
+									},
+									{
+										"name": "minecraft:pale_oak_log"
+									},
+									{
+										"name": "minecraft:pale_oak_leaves"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:pale_oak_leaves",
+									"states": {
+										"persistent_bit": true
+									}
+								}
+							},
+							{
+								"open": [
+									{
+										"name": "minecraft:pale_oak_leaves",
+										"states": {
+											"persistent_bit": true
+										}
+									},
+									{
+										"name": "minecraft:pale_oak_log"
+									},
+									{
+										"name": "minecraft:pale_oak_leaves"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:pale_oak_log"
+								}
+							},
+							{
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:pale_oak_leaves"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

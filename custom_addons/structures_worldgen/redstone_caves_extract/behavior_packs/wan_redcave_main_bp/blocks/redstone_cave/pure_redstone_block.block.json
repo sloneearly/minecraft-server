@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wan_redcave:pure_redstone_block",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:display_name": "wan_redcave:pure_redstone_block.name",
+      "minecraft:selection_box": true,
+      "minecraft:collision_box": true,
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.full_block"
+      },
+      "minecraft:light_emission": 10,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 20
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2
+      },
+      "tag:minecraft:is_pickaxe_item_destructible": {}
+    }
+  }
+}

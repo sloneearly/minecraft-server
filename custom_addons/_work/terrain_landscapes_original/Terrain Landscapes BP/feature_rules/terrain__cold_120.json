@@ -1,0 +1,32 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "shapescape:terrain__cold_120",
+			"places_feature": "shapescape:terrain__cold_120"
+		},
+		"conditions": {
+			"placement_pass": "first_pass",
+			"minecraft:biome_filter": {
+				"test": "has_biome_tag",
+				"value": "extreme_hills"
+			}
+		},
+		"distribution": {
+			"scatter_chance": 100.0,
+			"iterations": 256,
+			"coordinate_eval_order": "zxy",
+			"x": {
+				"step_size": 1,
+				"extent": [0, 15],
+				"distribution": "fixed_grid"
+			},
+			"y": 200,
+			"z": {
+				"step_size": 1,
+				"extent": [0, 15],
+				"distribution": "fixed_grid"
+			}
+		}
+	}
+}

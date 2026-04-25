@@ -1,0 +1,21 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:groupped_stones_dirt_replacement"
+		},
+		"places_feature": "shapescape:groupped_stones_dirt_choice",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"iterations": "v.patch_size = math.random_integer(6, 15);return math.round(math.pow(v.patch_size, 2) * 0.8);",
+		"x": {
+			"distribution": "gaussian",
+			"extent": [0, "v.patch_size"]
+		},
+		"y": "q.above_top_solid(v.worldx, v.worldz)-1",
+		"z": {
+			"distribution": "gaussian",
+			"extent": [0, "v.patch_size"]
+		}
+	}
+}

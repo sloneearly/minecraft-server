@@ -1,0 +1,89 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\warped_ag.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "5406dff0_d5e9_42db_8325_0323441aef6d",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:aggregate_feature": {
+						"description": {
+							"identifier": "flour_tree:warped_ag"
+						},
+						"early_out": "none",
+						"features": [
+							"flour_tree:warped_fungus_l1_feature"
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:aggregate_feature": {
+						"description": {
+							"identifier": "flour_tree:warped_ag"
+						},
+						"early_out": "none",
+						"features": [
+							"flour_tree:warped_fungus_l1_feature"
+						]
+					}
+				},
+				"key": "minecraft:aggregate_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:warped_ag"
+							},
+							"early_out": "none",
+							"features": [
+								"flour_tree:warped_fungus_l1_feature"
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:warped_ag"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:warped_ag"
+							},
+							"early_out": "none",
+							"features": [
+								"flour_tree:warped_fungus_l1_feature"
+							]
+						},
+						"data": "none",
+						"key": "early_out"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:warped_ag"
+							},
+							"early_out": "none",
+							"features": [
+								"flour_tree:warped_fungus_l1_feature"
+							]
+						},
+						"key": "features",
+						"is_minified": true,
+						"children": [
+							"flour_tree:warped_fungus_l1_feature"
+						]
+					}
+				]
+			}
+		]
+	}
+}

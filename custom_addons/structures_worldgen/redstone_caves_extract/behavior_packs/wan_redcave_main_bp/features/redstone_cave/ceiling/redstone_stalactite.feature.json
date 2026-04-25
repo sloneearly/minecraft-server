@@ -1,0 +1,38 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:growing_plant_feature": {
+    "description": {
+      "identifier": "wan_redcave:redstone_cave/ceiling/redstone_stalactite.feature"
+    },
+    "height_distribution": [
+      [
+        {
+          "range_min": 2,
+          "range_max": 2
+        },
+        1
+      ],
+      [
+        {
+          "range_min": 2,
+          "range_max": 5
+        },
+        2
+      ]
+    ],
+    "growth_direction": "DOWN",
+    "body_blocks": [
+      [
+        "wan_redcave:hematite",
+        1
+      ]
+    ],
+    "head_blocks": [
+      [
+        "wan_redcave:redstone_drip",
+        1
+      ]
+    ],
+    "allow_water": true
+  }
+}

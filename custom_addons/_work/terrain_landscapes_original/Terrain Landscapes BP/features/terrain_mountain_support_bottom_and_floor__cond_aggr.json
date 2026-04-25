@@ -1,0 +1,9 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_mountain_support_bottom_and_floor__cond_aggr"
+		},
+		"features": ["shapescape:terrain_mountain_support_bottom_and_floor__elif_0", "shapescape:terrain_mountain_support_bottom_and_floor__elif_1"]
+	}
+}

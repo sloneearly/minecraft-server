@@ -1,0 +1,114 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\flourishing trees\\feature_rules\\roofed_forest_first_foliage_feature.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "9db4adf8_251c_473a_b4e5_6c59f3992f6d",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "minecraft:roofed_forest_first_foliage_feature",
+							"places_feature": "minecraft:legacy:roofed_forest_foliage_feature"
+						},
+						"conditions": {
+							"placement_pass": "first_pass",
+							"minecraft:biome_filter": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "forest"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "roofed"
+								}
+							]
+						},
+						"distribution": {
+							"iterations": 0,
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:roofed_forest_first_foliage_feature",
+							"places_feature": "minecraft:legacy:roofed_forest_foliage_feature"
+						}
+					},
+					{
+						"key": "conditions",
+						"is_minified": true,
+						"children": {
+							"placement_pass": "first_pass",
+							"minecraft:biome_filter": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "forest"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "roofed"
+								}
+							]
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:roofed_forest_first_foliage_feature",
+								"places_feature": "minecraft:legacy:roofed_forest_foliage_feature"
+							},
+							"conditions": {
+								"placement_pass": "first_pass",
+								"minecraft:biome_filter": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "forest"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "roofed"
+									}
+								]
+							},
+							"distribution": {
+								"iterations": 0,
+								"x": 0,
+								"y": 0,
+								"z": 0
+							}
+						},
+						"key": "distribution",
+						"is_minified": true,
+						"children": {
+							"iterations": 0,
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				]
+			}
+		]
+	}
+}

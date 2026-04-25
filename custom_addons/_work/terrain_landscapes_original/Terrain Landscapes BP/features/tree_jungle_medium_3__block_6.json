@@ -1,0 +1,13 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "shapescape:tree_jungle_medium_3__block_6"
+		},
+		"places_block": {
+			"name": "minecraft:dirt_with_roots"
+		},
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false
+	}
+}

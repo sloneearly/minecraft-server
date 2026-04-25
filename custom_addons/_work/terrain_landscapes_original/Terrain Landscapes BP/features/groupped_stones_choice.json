@@ -1,0 +1,14 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:groupped_stones_choice"
+		},
+		"features": [
+			["shapescape:groupped_stones_tall_fern", 2],
+			["shapescape:groupped_stones_fern", 4],
+			["shapescape:groupped_stones_azalea", 1],
+			["shapescape:groupped_stones_rock", 8]
+		]
+	}
+}

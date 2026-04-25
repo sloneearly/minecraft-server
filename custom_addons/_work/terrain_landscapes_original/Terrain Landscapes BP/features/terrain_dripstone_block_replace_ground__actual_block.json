@@ -1,0 +1,46 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_dripstone_block_replace_ground__actual_block"
+		},
+		"places_block": "minecraft:dripstone_block",
+		"may_replace": [
+			"minecraft:iron_ore",
+			"minecraft:coal_ore",
+			"minecraft:copper_ore",
+			"minecraft:gravel",
+			"minecraft:clay",
+			"minecraft:grass_block",
+			"minecraft:stone",
+			"minecraft:dirt",
+			"minecraft:sand",
+			"minecraft:cactus",
+			"minecraft:hardened_clay",
+			"minecraft:brown_terracotta",
+			"minecraft:light_gray_terracotta",
+			"minecraft:orange_terracotta",
+			"minecraft:red_terracotta",
+			"minecraft:yellow_terracotta",
+			"minecraft:white_terracotta",
+			"minecraft:red_sandstone",
+			{
+				"name": "minecraft:sand",
+				"states": {
+					"sand_type": "red"
+				}
+			},
+			{
+				"name": "minecraft:dirt",
+				"states": {
+					"dirt_type": "coarse"
+				}
+			},
+			"minecraft:snow",
+			"minecraft:packed_ice",
+			"minecraft:ice"
+		],
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false
+	}
+}

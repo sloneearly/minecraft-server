@@ -1,0 +1,284 @@
+{
+    "pools": [
+        // Silk Touch
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "match_tool",
+                    "minecraft:match_tool_filter_any": [
+                        "minecraft:iron_tier",
+                        "minecraft:golden_tier",
+                        "minecraft:diamond_tier",
+                        "minecraft:netherite_tier"
+                    ],
+                    "minecraft:match_tool_filter_all": [
+                        "minecraft:is_pickaxe"
+                    ],
+                    "enchantments": [
+                        {
+                            "enchantment": "silk_touch",
+                            "levels": {
+                                "range_min": 1,
+                                "range_max": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone_block"
+                }
+            ]
+        },
+
+        // Normal drop (no enchant)
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "match_tool",
+                    "minecraft:match_tool_filter_any": [
+                        "minecraft:iron_tier",
+                        "minecraft:golden_tier",
+                        "minecraft:diamond_tier",
+                        "minecraft:netherite_tier"
+                    ],
+                    "minecraft:match_tool_filter_all": [
+                        "minecraft:is_pickaxe"
+                    ],
+                    "minecraft:match_tool_filter_none": [
+                        "minecraft:enchantments/silk_touch",
+                        "minecraft:enchantments/fortune"
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 5
+                        }
+                    ]
+                }
+            ]
+        },
+
+        // Fortune I
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "match_tool",
+                    "minecraft:match_tool_filter_any": [
+                        "minecraft:iron_tier",
+                        "minecraft:golden_tier",
+                        "minecraft:diamond_tier",
+                        "minecraft:netherite_tier"
+                    ],
+                    "minecraft:match_tool_filter_all": [
+                        "minecraft:is_pickaxe"
+                    ],
+                    "enchantments": [
+                        {
+                            "enchantment": "fortune",
+                            "levels": {
+                                "range_min": 1,
+                                "range_max": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 5
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 6
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 7
+                        }
+                    ]
+                }
+            ]
+        },
+
+        // Fortune II
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "match_tool",
+                    "minecraft:match_tool_filter_any": [
+                        "minecraft:iron_tier",
+                        "minecraft:golden_tier",
+                        "minecraft:diamond_tier",
+                        "minecraft:netherite_tier"
+                    ],
+                    "minecraft:match_tool_filter_all": [
+                        "minecraft:is_pickaxe"
+                    ],
+                    "enchantments": [
+                        {
+                            "enchantment": "fortune",
+                            "levels": {
+                                "range_min": 2,
+                                "range_max": 2
+                            }
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 6
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 7
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 8
+                        }
+                    ]
+                }
+            ]
+        },
+
+        // Fortune III
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "match_tool",
+                    "minecraft:match_tool_filter_any": [
+                        "minecraft:iron_tier",
+                        "minecraft:golden_tier",
+                        "minecraft:diamond_tier",
+                        "minecraft:netherite_tier"
+                    ],
+                    "minecraft:match_tool_filter_all": [
+                        "minecraft:is_pickaxe"
+                    ],
+                    "enchantments": [
+                        {
+                            "enchantment": "fortune",
+                            "levels": {
+                                "range_min": 3,
+                                "range_max": 3
+                            }
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 7
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 8
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 9
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

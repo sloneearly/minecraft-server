@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "wan_redcave:redstone_cave/floor/cave_core.feature"
+    },
+    "structure_name": "wan_redcave:cave_core",
+    "adjustment_radius": 2,
+    "facing_direction": "random",
+    "constraints": {
+      "unburied": {},
+      "grounded": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air",
+          "wan_redcave:magnetite_redlight_curve",
+          "wan_redcave:magnetite_redlight_horizontal",
+          "wan_redcave:magnetite_redlight_intersection",
+          "wan_redcave:magnetite_redlight_perpendicular",
+          "wan_redcave:magnetite_redlight_vertical",
+          "wan_redcave:polished_magnetite"
+        ]
+      }
+    }
+  }
+}

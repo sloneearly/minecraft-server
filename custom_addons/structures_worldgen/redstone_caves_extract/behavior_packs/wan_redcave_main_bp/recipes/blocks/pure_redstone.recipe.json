@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.111",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "wan_redcave:pure_redstone_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "PPP",
+      "PPP",
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "wan_redcave:pure_redstone"
+      }
+    },
+    "unlock": [
+      {
+        "item": "wan_redcave:pure_redstone_block"
+      }
+    ],
+    "result": {
+      "item": "wan_redcave:pure_redstone_block"
+    }
+  }
+}

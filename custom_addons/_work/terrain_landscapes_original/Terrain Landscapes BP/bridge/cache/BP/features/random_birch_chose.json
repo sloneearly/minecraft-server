@@ -1,0 +1,230 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\random_birch_chose.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "fa728920_f8ab_4289_9342_28a511b91f1b",
+	"file_version": 9,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "flour_tree:random_birch_chose"
+						},
+						"features": [
+							[
+								"minecraft:birch_tree_feature",
+								70
+							],
+							[
+								"minecraft:fallen_birch_tree_feature",
+								15
+							],
+							[
+								"minecraft:super_birch_tree_feature",
+								50
+							],
+							[
+								"minecraft:birch_tree_with_beehive_feature",
+								30
+							]
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "flour_tree:random_birch_chose"
+						},
+						"features": [
+							[
+								"minecraft:birch_tree_feature",
+								70
+							],
+							[
+								"minecraft:fallen_birch_tree_feature",
+								15
+							],
+							[
+								"minecraft:super_birch_tree_feature",
+								50
+							],
+							[
+								"minecraft:birch_tree_with_beehive_feature",
+								30
+							]
+						]
+					}
+				},
+				"key": "minecraft:weighted_random_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:random_birch_chose"
+							},
+							"features": [
+								[
+									"minecraft:birch_tree_feature",
+									70
+								],
+								[
+									"minecraft:fallen_birch_tree_feature",
+									15
+								],
+								[
+									"minecraft:super_birch_tree_feature",
+									50
+								],
+								[
+									"minecraft:birch_tree_with_beehive_feature",
+									30
+								]
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:random_birch_chose"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:random_birch_chose"
+							},
+							"features": [
+								[
+									"minecraft:birch_tree_feature",
+									70
+								],
+								[
+									"minecraft:fallen_birch_tree_feature",
+									15
+								],
+								[
+									"minecraft:super_birch_tree_feature",
+									50
+								],
+								[
+									"minecraft:birch_tree_with_beehive_feature",
+									30
+								]
+							]
+						},
+						"key": "features",
+						"children": [
+							{
+								"open": [
+									[
+										"minecraft:birch_tree_feature",
+										70
+									],
+									[
+										"minecraft:fallen_birch_tree_feature",
+										15
+									],
+									[
+										"minecraft:super_birch_tree_feature",
+										50
+									],
+									[
+										"minecraft:birch_tree_with_beehive_feature",
+										30
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"minecraft:birch_tree_feature",
+									70
+								]
+							},
+							{
+								"open": [
+									[
+										"minecraft:birch_tree_feature",
+										70
+									],
+									[
+										"minecraft:fallen_birch_tree_feature",
+										15
+									],
+									[
+										"minecraft:super_birch_tree_feature",
+										50
+									],
+									[
+										"minecraft:birch_tree_with_beehive_feature",
+										30
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"minecraft:fallen_birch_tree_feature",
+									15
+								]
+							},
+							{
+								"open": [
+									[
+										"minecraft:birch_tree_feature",
+										70
+									],
+									[
+										"minecraft:fallen_birch_tree_feature",
+										15
+									],
+									[
+										"minecraft:super_birch_tree_feature",
+										50
+									],
+									[
+										"minecraft:birch_tree_with_beehive_feature",
+										30
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"minecraft:super_birch_tree_feature",
+									50
+								]
+							},
+							{
+								"open": [
+									[
+										"minecraft:birch_tree_feature",
+										70
+									],
+									[
+										"minecraft:fallen_birch_tree_feature",
+										15
+									],
+									[
+										"minecraft:super_birch_tree_feature",
+										50
+									],
+									[
+										"minecraft:birch_tree_with_beehive_feature",
+										30
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"minecraft:birch_tree_with_beehive_feature",
+									30
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

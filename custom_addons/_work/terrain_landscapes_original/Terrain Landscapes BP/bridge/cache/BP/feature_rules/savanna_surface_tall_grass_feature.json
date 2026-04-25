@@ -1,0 +1,501 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\feature_rules\\savanna_surface_tall_grass_feature.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "15ed8509_a68d_405e_992a_631a0f5dcb5c",
+	"file_version": 13,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "minecraft:savanna_surface_tall_grass_feature",
+							"places_feature": "minecraft:scatter_tall_grass_feature"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": {
+								"any_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "savanna"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "plains"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "forest"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 10,
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+									"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:savanna_surface_tall_grass_feature",
+								"places_feature": "minecraft:scatter_tall_grass_feature"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "savanna"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "plains"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 10,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+										"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:savanna_surface_tall_grass_feature",
+							"places_feature": "minecraft:scatter_tall_grass_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:savanna_surface_tall_grass_feature",
+								"places_feature": "minecraft:scatter_tall_grass_feature"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "savanna"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "plains"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 10,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+										"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"data": "surface_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "surface_pass",
+									"minecraft:biome_filter": {
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "savanna"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "plains"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "forest"
+											}
+										]
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": {
+											"any_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "savanna"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "plains"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "forest"
+												}
+											]
+										},
+										"key": "any_of",
+										"children": [
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "savanna"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "plains"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "savanna"
+												}
+											},
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "savanna"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "plains"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "plains"
+												}
+											},
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "savanna"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "plains"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "forest"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:savanna_surface_tall_grass_feature",
+								"places_feature": "minecraft:scatter_tall_grass_feature"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "savanna"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "plains"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 10,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+										"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"open": {
+									"iterations": 10,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+										]
+									},
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									}
+								},
+								"data": "10",
+								"key": "iterations"
+							},
+							{
+								"open": {
+									"iterations": 10,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+										]
+									},
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									}
+								},
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							},
+							{
+								"open": {
+									"iterations": 10,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+										]
+									},
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									}
+								},
+								"key": "y",
+								"children": [
+									{
+										"data": "uniform",
+										"key": "distribution"
+									},
+									{
+										"open": {
+											"distribution": "uniform",
+											"extent": [
+												"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+												"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+											]
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+										]
+									}
+								]
+							},
+							{
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

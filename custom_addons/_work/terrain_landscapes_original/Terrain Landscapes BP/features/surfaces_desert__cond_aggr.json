@@ -1,0 +1,9 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "shapescape:surfaces_desert__cond_aggr"
+		},
+		"features": ["shapescape:surfaces_desert__elif_0", "shapescape:surfaces_desert__elif_1", "shapescape:surfaces_desert__elif_2", "shapescape:surfaces_desert__elif_3"]
+	}
+}

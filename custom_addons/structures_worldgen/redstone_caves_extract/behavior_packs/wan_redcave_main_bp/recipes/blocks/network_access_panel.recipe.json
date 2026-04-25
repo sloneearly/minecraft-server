@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.111",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "wan_redcave:network_access_panel"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "GGG",
+      "ICI",
+      "III"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "G": {
+        "item": "minecraft:glass"
+      },
+      "C": {
+        "item": "wan_redcave:bluestone_chip"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:glass"
+      }
+    ],
+    "result": {
+      "item": "wan_redcave:network_access_panel"
+    }
+  }
+}

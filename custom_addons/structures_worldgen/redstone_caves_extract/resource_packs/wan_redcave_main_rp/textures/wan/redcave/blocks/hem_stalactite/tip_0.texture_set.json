@@ -1,0 +1,7 @@
+{
+	"format_version": "1.21.30",
+	"minecraft:texture_set": {
+		"color": "tip_0",
+		"metalness_emissive_roughness": "tip_0_mer"
+	}
+}

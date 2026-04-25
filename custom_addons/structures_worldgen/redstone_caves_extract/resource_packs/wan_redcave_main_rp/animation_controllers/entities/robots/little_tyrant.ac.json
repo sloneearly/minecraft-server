@@ -1,0 +1,174 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.wan_redcave.little_tyrant.move": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "idle": "!v.stop_walking_anim"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "idle": {
+          "animations": [
+            "idle"
+          ],
+          "transitions": [
+            {
+              "default": "v.stop_walking_anim"
+            },
+            {
+              "walk": "q.modified_move_speed > 0.1"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "walk": {
+          "animations": [
+            "walk"
+          ],
+          "transitions": [
+            {
+              "default": "v.stop_walking_anim"
+            },
+            {
+              "idle": "q.modified_move_speed <= 0.1"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "walk"
+            }
+          ],
+          "blend_transition": 0.2
+        }
+      }
+    },
+    "controller.animation.wan_redcave.little_tyrant.attack": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "bite": "q.is_delayed_attacking"
+            },
+            {
+              "shooting": "q.variant == 3"
+            },
+            {
+              "on": "q.variant == 4"
+            },
+            {
+              "off": "q.variant == 5"
+            },
+            {
+              "sit": "q.variant == 6"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "bite": {
+          "animations": [
+            "bite"
+          ],
+          "transitions": [
+            {
+              "default": "q.any_animation_finished"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "bite"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "shooting": {
+          "animations": [
+            "shooting"
+          ],
+          "transitions": [
+            {
+              "default": "q.any_animation_finished"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "shooting"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "on": {
+          "animations": [
+            "on"
+          ],
+          "transitions": [
+            {
+              "default": "q.variant != 4"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "on"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "off": {
+          "on_entry": [
+            "v.stop_walking_anim = 1;"
+          ],
+          "animations": [
+            "off",
+            {
+              "off_post": "q.any_animation_finished"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "q.variant != 5"
+            }
+          ],
+          "sound_effects": [
+            {
+              "effect": "off"
+            }
+          ],
+          "on_exit": [
+            "v.stop_walking_anim = 0;"
+          ],
+          "blend_transition": 0.1
+        },
+        "sit": {
+          "animations": [
+            "sit"
+          ],
+          "transitions": [
+            {
+              "sit_up": "q.variant != 6"
+            }
+          ],
+          "blend_transition": 0
+        },
+        "sit_up": {
+          "animations": [
+            "up"
+          ],
+          "transitions": [
+            {
+              "default": "q.any_animation_finished"
+            }
+          ],
+          "on_exit": [
+            "v.stop_walking_anim = 0;"
+          ],
+          "blend_transition": 0.1
+        }
+      }
+    }
+  }
+}

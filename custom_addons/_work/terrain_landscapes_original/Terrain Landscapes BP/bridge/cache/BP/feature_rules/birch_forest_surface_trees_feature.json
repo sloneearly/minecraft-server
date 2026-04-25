@@ -1,0 +1,585 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\feature_rules\\birch_forest_surface_trees_feature.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "b59485fc_8f32_413f_8d23_b774ad6e8a38",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "minecraft:birch_forest_surface_trees_feature",
+							"places_feature": "flour_tree:random_birch_feature"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "forest"
+								},
+								{
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "birch"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "mutated"
+										}
+									]
+								}
+							]
+						},
+						"distribution": {
+							"iterations": 5,
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"z": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"extent": [
+									"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+									"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+								],
+								"distribution": "uniform"
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "minecraft:birch_forest_surface_trees_feature",
+							"places_feature": "flour_tree:random_birch_feature"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "forest"
+								},
+								{
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "birch"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "!=",
+											"value": "mutated"
+										}
+									]
+								}
+							]
+						},
+						"distribution": {
+							"iterations": 5,
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"z": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "uniform"
+							},
+							"y": {
+								"extent": [
+									"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+									"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+								],
+								"distribution": "uniform"
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:birch_forest_surface_trees_feature",
+								"places_feature": "flour_tree:random_birch_feature"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "forest"
+									},
+									{
+										"all_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "birch"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "mutated"
+											}
+										]
+									}
+								]
+							},
+							"distribution": {
+								"iterations": 5,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:birch_forest_surface_trees_feature",
+							"places_feature": "flour_tree:random_birch_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:birch_forest_surface_trees_feature",
+								"places_feature": "flour_tree:random_birch_feature"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "forest"
+									},
+									{
+										"all_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "birch"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "mutated"
+											}
+										]
+									}
+								]
+							},
+							"distribution": {
+								"iterations": 5,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"data": "surface_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "surface_pass",
+									"minecraft:biome_filter": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										},
+										{
+											"all_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "birch"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "!=",
+													"value": "mutated"
+												}
+											]
+										}
+									]
+								},
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "forest"
+											},
+											{
+												"all_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "birch"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "!=",
+														"value": "mutated"
+													}
+												]
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										}
+									},
+									{
+										"children": [
+											{
+												"open": {
+													"all_of": [
+														{
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "birch"
+														},
+														{
+															"test": "has_biome_tag",
+															"operator": "!=",
+															"value": "mutated"
+														}
+													]
+												},
+												"key": "all_of",
+												"children": [
+													{
+														"open": [
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "birch"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "!=",
+																"value": "mutated"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "birch"
+														}
+													},
+													{
+														"open": [
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "birch"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "!=",
+																"value": "mutated"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"test": "has_biome_tag",
+															"operator": "!=",
+															"value": "mutated"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:birch_forest_surface_trees_feature",
+								"places_feature": "flour_tree:random_birch_feature"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "forest"
+									},
+									{
+										"all_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "birch"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "!=",
+												"value": "mutated"
+											}
+										]
+									}
+								]
+							},
+							"distribution": {
+								"iterations": 5,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								},
+								"y": {
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+										"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+									],
+									"distribution": "uniform"
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"open": {
+									"iterations": 5,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+										],
+										"distribution": "uniform"
+									}
+								},
+								"data": "5",
+								"key": "iterations"
+							},
+							{
+								"open": {
+									"iterations": 5,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+										],
+										"distribution": "uniform"
+									}
+								},
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							},
+							{
+								"open": {
+									"iterations": 5,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+										],
+										"distribution": "uniform"
+									}
+								},
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "uniform"
+								}
+							},
+							{
+								"open": {
+									"iterations": 5,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "uniform"
+									},
+									"y": {
+										"extent": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+										],
+										"distribution": "uniform"
+									}
+								},
+								"key": "y",
+								"children": [
+									{
+										"open": {
+											"extent": [
+												"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+												"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+											],
+											"distribution": "uniform"
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1",
+											"query.above_top_solid(variable.worldx, variable.worldz) - 1"
+										]
+									},
+									{
+										"data": "uniform",
+										"key": "distribution"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

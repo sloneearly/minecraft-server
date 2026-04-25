@@ -1,0 +1,114 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\savanna_ag.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "3dde5da2_c3a4_4338_96f2_c7383c936980",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.18.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.18.0",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "flour_tree:savanna_ag"
+						},
+						"features": [
+							[
+								"minecraft:savanna_tree_feature",
+								50
+							],
+							[
+								"flour_tree:savanna_tree_big",
+								20
+							]
+						]
+					}
+				},
+				"key": "minecraft:weighted_random_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:savanna_ag"
+							},
+							"features": [
+								[
+									"minecraft:savanna_tree_feature",
+									50
+								],
+								[
+									"flour_tree:savanna_tree_big",
+									20
+								]
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:savanna_ag"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:savanna_ag"
+							},
+							"features": [
+								[
+									"minecraft:savanna_tree_feature",
+									50
+								],
+								[
+									"flour_tree:savanna_tree_big",
+									20
+								]
+							]
+						},
+						"key": "features",
+						"children": [
+							{
+								"open": [
+									[
+										"minecraft:savanna_tree_feature",
+										50
+									],
+									[
+										"flour_tree:savanna_tree_big",
+										20
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"minecraft:savanna_tree_feature",
+									50
+								]
+							},
+							{
+								"open": [
+									[
+										"minecraft:savanna_tree_feature",
+										50
+									],
+									[
+										"flour_tree:savanna_tree_big",
+										20
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:savanna_tree_big",
+									20
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

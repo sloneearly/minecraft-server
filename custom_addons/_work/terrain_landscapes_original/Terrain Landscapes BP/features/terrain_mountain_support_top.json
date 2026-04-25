@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_mountain_support_top"
+		},
+		"iterations": "t.terrain_mountain_support_top__bottom=t.tops_bottom;t.terrain_mountain_support_top__top=t.tops_top;t.terrain_mountain_support_top__iterations=math.max(0, t.terrain_mountain_support_top__top-t.terrain_mountain_support_top__bottom);return 1;",
+		"places_feature": "shapescape:terrain_mountain_support_top__column",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": 0,
+		"z": 0,
+		"y": "t.terrain_mountain_support_top__bottom"
+	}
+}

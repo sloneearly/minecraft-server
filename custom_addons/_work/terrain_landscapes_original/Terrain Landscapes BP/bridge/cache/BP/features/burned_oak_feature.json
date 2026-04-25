@@ -1,0 +1,1039 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\burned_oak_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "7a1846d8_3005_471f_9452_71694bb6b4a5",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:structure_template_feature": {
+						"description": {
+							"identifier": "flour_tree:burned_oak_feature"
+						},
+						"structure_name": "mystructure:burned_oak",
+						"adjustment_radius": 3,
+						"facing_direction": "random",
+						"constraints": {
+							"grounded": {},
+							"unburied": {},
+							"block_intersection": {
+								"block_allowlist": [
+									{
+										"name": "minecraft:stone"
+									},
+									{
+										"name": "minecraft:dirt"
+									},
+									{
+										"name": "minecraft:air"
+									},
+									{
+										"name": "minecraft:log"
+									},
+									{
+										"name": "minecraft:log2"
+									},
+									{
+										"name": "minecraft:grass"
+									},
+									{
+										"name": "minecraft:grass_path"
+									},
+									{
+										"name": "minecraft:cobblestone"
+									},
+									{
+										"name": "minecraft:water"
+									},
+									{
+										"name": "minecraft:gravel"
+									},
+									{
+										"name": "minecraft:sand"
+									},
+									{
+										"name": "minecraft:clay"
+									},
+									{
+										"name": "minecraft:tallgrass"
+									},
+									{
+										"name": "minecraft:double_plant"
+									},
+									{
+										"name": "minecraft:gravel"
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:structure_template_feature",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:burned_oak_feature"
+						}
+					},
+					{
+						"data": "mystructure:burned_oak",
+						"key": "structure_name"
+					},
+					{
+						"data": "3",
+						"key": "adjustment_radius"
+					},
+					{
+						"data": "random",
+						"key": "facing_direction"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:burned_oak_feature"
+							},
+							"structure_name": "mystructure:burned_oak",
+							"adjustment_radius": 3,
+							"facing_direction": "random",
+							"constraints": {
+								"grounded": {},
+								"unburied": {},
+								"block_intersection": {
+									"block_allowlist": [
+										{
+											"name": "minecraft:stone"
+										},
+										{
+											"name": "minecraft:dirt"
+										},
+										{
+											"name": "minecraft:air"
+										},
+										{
+											"name": "minecraft:log"
+										},
+										{
+											"name": "minecraft:log2"
+										},
+										{
+											"name": "minecraft:grass"
+										},
+										{
+											"name": "minecraft:grass_path"
+										},
+										{
+											"name": "minecraft:cobblestone"
+										},
+										{
+											"name": "minecraft:water"
+										},
+										{
+											"name": "minecraft:gravel"
+										},
+										{
+											"name": "minecraft:sand"
+										},
+										{
+											"name": "minecraft:clay"
+										},
+										{
+											"name": "minecraft:tallgrass"
+										},
+										{
+											"name": "minecraft:double_plant"
+										},
+										{
+											"name": "minecraft:gravel"
+										}
+									]
+								}
+							}
+						},
+						"key": "constraints",
+						"children": [
+							{
+								"key": "grounded",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "unburied",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"grounded": {},
+									"unburied": {},
+									"block_intersection": {
+										"block_allowlist": [
+											{
+												"name": "minecraft:stone"
+											},
+											{
+												"name": "minecraft:dirt"
+											},
+											{
+												"name": "minecraft:air"
+											},
+											{
+												"name": "minecraft:log"
+											},
+											{
+												"name": "minecraft:log2"
+											},
+											{
+												"name": "minecraft:grass"
+											},
+											{
+												"name": "minecraft:grass_path"
+											},
+											{
+												"name": "minecraft:cobblestone"
+											},
+											{
+												"name": "minecraft:water"
+											},
+											{
+												"name": "minecraft:gravel"
+											},
+											{
+												"name": "minecraft:sand"
+											},
+											{
+												"name": "minecraft:clay"
+											},
+											{
+												"name": "minecraft:tallgrass"
+											},
+											{
+												"name": "minecraft:double_plant"
+											},
+											{
+												"name": "minecraft:gravel"
+											}
+										]
+									}
+								},
+								"key": "block_intersection",
+								"children": [
+									{
+										"open": {
+											"block_allowlist": [
+												{
+													"name": "minecraft:stone"
+												},
+												{
+													"name": "minecraft:dirt"
+												},
+												{
+													"name": "minecraft:air"
+												},
+												{
+													"name": "minecraft:log"
+												},
+												{
+													"name": "minecraft:log2"
+												},
+												{
+													"name": "minecraft:grass"
+												},
+												{
+													"name": "minecraft:grass_path"
+												},
+												{
+													"name": "minecraft:cobblestone"
+												},
+												{
+													"name": "minecraft:water"
+												},
+												{
+													"name": "minecraft:gravel"
+												},
+												{
+													"name": "minecraft:sand"
+												},
+												{
+													"name": "minecraft:clay"
+												},
+												{
+													"name": "minecraft:tallgrass"
+												},
+												{
+													"name": "minecraft:double_plant"
+												},
+												{
+													"name": "minecraft:gravel"
+												}
+											]
+										},
+										"key": "block_allowlist",
+										"children": [
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:tallgrass"
+													},
+													{
+														"name": "minecraft:double_plant"
+													},
+													{
+														"name": "minecraft:gravel"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:stone"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:tallgrass"
+													},
+													{
+														"name": "minecraft:double_plant"
+													},
+													{
+														"name": "minecraft:gravel"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:dirt"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:air"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:tallgrass"
+													},
+													{
+														"name": "minecraft:double_plant"
+													},
+													{
+														"name": "minecraft:gravel"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:log"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:tallgrass"
+													},
+													{
+														"name": "minecraft:double_plant"
+													},
+													{
+														"name": "minecraft:gravel"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:log2"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:tallgrass"
+													},
+													{
+														"name": "minecraft:double_plant"
+													},
+													{
+														"name": "minecraft:gravel"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:grass"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:tallgrass"
+													},
+													{
+														"name": "minecraft:double_plant"
+													},
+													{
+														"name": "minecraft:gravel"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:grass_path"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:tallgrass"
+													},
+													{
+														"name": "minecraft:double_plant"
+													},
+													{
+														"name": "minecraft:gravel"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:cobblestone"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:tallgrass"
+													},
+													{
+														"name": "minecraft:double_plant"
+													},
+													{
+														"name": "minecraft:gravel"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:water"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:tallgrass"
+													},
+													{
+														"name": "minecraft:double_plant"
+													},
+													{
+														"name": "minecraft:gravel"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:gravel"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:tallgrass"
+													},
+													{
+														"name": "minecraft:double_plant"
+													},
+													{
+														"name": "minecraft:gravel"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:sand"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:tallgrass"
+													},
+													{
+														"name": "minecraft:double_plant"
+													},
+													{
+														"name": "minecraft:gravel"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:clay"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:tallgrass"
+													},
+													{
+														"name": "minecraft:double_plant"
+													},
+													{
+														"name": "minecraft:gravel"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:tallgrass"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:tallgrass"
+													},
+													{
+														"name": "minecraft:double_plant"
+													},
+													{
+														"name": "minecraft:gravel"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:double_plant"
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "minecraft:stone"
+													},
+													{
+														"name": "minecraft:dirt"
+													},
+													{
+														"name": "minecraft:air"
+													},
+													{
+														"name": "minecraft:log"
+													},
+													{
+														"name": "minecraft:log2"
+													},
+													{
+														"name": "minecraft:grass"
+													},
+													{
+														"name": "minecraft:grass_path"
+													},
+													{
+														"name": "minecraft:cobblestone"
+													},
+													{
+														"name": "minecraft:water"
+													},
+													{
+														"name": "minecraft:gravel"
+													},
+													{
+														"name": "minecraft:sand"
+													},
+													{
+														"name": "minecraft:clay"
+													},
+													{
+														"name": "minecraft:tallgrass"
+													},
+													{
+														"name": "minecraft:double_plant"
+													},
+													{
+														"name": "minecraft:gravel"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "minecraft:gravel"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

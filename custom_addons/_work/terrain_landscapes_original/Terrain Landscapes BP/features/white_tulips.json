@@ -1,0 +1,25 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:vegetation_patch_feature": {
+        "description": {
+            "identifier": "shapescape:white_tulips"
+        },
+        "replaceable_blocks": [
+            "minecraft:stone",
+            "minecraft:grass",
+            "minecraft:dirt",
+            "minecraft:podzol",
+            "minecraft:moss_block"
+        ],
+        "ground_block": "minecraft:grass",
+        "vegetation_feature": "shapescape:white_tulip",
+        "vegetation_chance": 0.2,
+        "surface": "floor",
+        "depth": 1,
+        "extra_deep_block_chance": 0,
+        "extra_edge_column_chance": 0.5,
+        "horizontal_radius": 2,
+        "vertical_range": 3,
+        "waterlogged": false
+    }
+}

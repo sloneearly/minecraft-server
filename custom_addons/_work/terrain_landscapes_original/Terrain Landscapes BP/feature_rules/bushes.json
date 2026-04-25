@@ -1,0 +1,68 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "shapescape:bushes",
+			"places_feature": "shapescape:bushes_check_area_sequence"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": {
+				"all_of": [
+					{
+						"test": "has_biome_tag",
+						"value": "forest"
+					},
+					{
+						"any_of": [
+							{
+								"test": "has_biome_tag",
+								"value": "overworld"
+							},
+							{
+								"test": "has_biome_tag",
+								"value": "overworld_generation"
+							}
+						]
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "!=",
+						"value": "birch"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "!=",
+						"value": "taiga"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "!=",
+						"value": "extreme_hills"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "!=",
+						"value": "roofed"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"scatter_chance": {
+				"numerator": 30,
+				"denominator": 100
+			},
+			"iterations": "v.patch_size = math.random_integer(9, 15);return math.round(math.pow(v.patch_size, 2) * 0.2);",
+			"x": {
+				"distribution": "gaussian",
+				"extent": [0, "v.patch_size"]
+			},
+			"y": "q.above_top_solid(v.worldx, v.worldz)",
+			"z": {
+				"distribution": "gaussian",
+				"extent": [0, "v.patch_size"]
+			}
+		}
+	}
+}

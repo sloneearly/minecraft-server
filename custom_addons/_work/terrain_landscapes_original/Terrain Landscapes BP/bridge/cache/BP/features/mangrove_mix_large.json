@@ -1,0 +1,177 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\mangrove_mix_large.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "3674df8b_6299_47c3_8bd5_62095414030b",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "flour_tree:mangrove_mix_large"
+						},
+						"features": [
+							[
+								"flour_tree:mangrove_big_1_feature",
+								10
+							],
+							[
+								"flour_tree:mangrove_big_2",
+								10
+							],
+							[
+								"flour_tree:mangrove_big_3",
+								10
+							]
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "flour_tree:mangrove_mix_large"
+						},
+						"features": [
+							[
+								"flour_tree:mangrove_big_1_feature",
+								10
+							],
+							[
+								"flour_tree:mangrove_big_2",
+								10
+							],
+							[
+								"flour_tree:mangrove_big_3",
+								10
+							]
+						]
+					}
+				},
+				"key": "minecraft:weighted_random_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:mangrove_mix_large"
+							},
+							"features": [
+								[
+									"flour_tree:mangrove_big_1_feature",
+									10
+								],
+								[
+									"flour_tree:mangrove_big_2",
+									10
+								],
+								[
+									"flour_tree:mangrove_big_3",
+									10
+								]
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:mangrove_mix_large"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:mangrove_mix_large"
+							},
+							"features": [
+								[
+									"flour_tree:mangrove_big_1_feature",
+									10
+								],
+								[
+									"flour_tree:mangrove_big_2",
+									10
+								],
+								[
+									"flour_tree:mangrove_big_3",
+									10
+								]
+							]
+						},
+						"key": "features",
+						"children": [
+							{
+								"open": [
+									[
+										"flour_tree:mangrove_big_1_feature",
+										10
+									],
+									[
+										"flour_tree:mangrove_big_2",
+										10
+									],
+									[
+										"flour_tree:mangrove_big_3",
+										10
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:mangrove_big_1_feature",
+									10
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:mangrove_big_1_feature",
+										10
+									],
+									[
+										"flour_tree:mangrove_big_2",
+										10
+									],
+									[
+										"flour_tree:mangrove_big_3",
+										10
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:mangrove_big_2",
+									10
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:mangrove_big_1_feature",
+										10
+									],
+									[
+										"flour_tree:mangrove_big_2",
+										10
+									],
+									[
+										"flour_tree:mangrove_big_3",
+										10
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:mangrove_big_3",
+									10
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,402 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\feature_rules\\grass_for_extreme_hills.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "ca65f5b0_8b67_4496_8c80_135842f02d9a",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:grass_for_extreme_hills",
+							"places_feature": "minecraft:scatter_tall_grass_feature"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "extreme_hills"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 4,
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									"query.above_top_solid(variable.worldx, variable.worldz)",
+									"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							}
+						}
+					}
+				},
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "flour_tree:grass_for_extreme_hills",
+							"places_feature": "minecraft:scatter_tall_grass_feature"
+						},
+						"conditions": {
+							"placement_pass": "surface_pass",
+							"minecraft:biome_filter": {
+								"all_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "extreme_hills"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 4,
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									"query.above_top_solid(variable.worldx, variable.worldz)",
+									"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:grass_for_extreme_hills",
+								"places_feature": "minecraft:scatter_tall_grass_feature"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "extreme_hills"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 4,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz)",
+										"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flour_tree:grass_for_extreme_hills",
+							"places_feature": "minecraft:scatter_tall_grass_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:grass_for_extreme_hills",
+								"places_feature": "minecraft:scatter_tall_grass_feature"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "extreme_hills"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 4,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz)",
+										"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"data": "surface_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "surface_pass",
+									"minecraft:biome_filter": {
+										"all_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "extreme_hills"
+											}
+										]
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": {
+											"all_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "extreme_hills"
+												}
+											]
+										},
+										"key": "all_of",
+										"children": [
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "extreme_hills"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "extreme_hills"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flour_tree:grass_for_extreme_hills",
+								"places_feature": "minecraft:scatter_tall_grass_feature"
+							},
+							"conditions": {
+								"placement_pass": "surface_pass",
+								"minecraft:biome_filter": {
+									"all_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "extreme_hills"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 4,
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										"query.above_top_solid(variable.worldx, variable.worldz)",
+										"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"open": {
+									"iterations": 4,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											"query.above_top_solid(variable.worldx, variable.worldz)",
+											"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+										]
+									},
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									}
+								},
+								"data": "4",
+								"key": "iterations"
+							},
+							{
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							},
+							{
+								"open": {
+									"iterations": 4,
+									"x": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": {
+										"distribution": "uniform",
+										"extent": [
+											"query.above_top_solid(variable.worldx, variable.worldz)",
+											"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+										]
+									},
+									"z": {
+										"distribution": "uniform",
+										"extent": [
+											0,
+											16
+										]
+									}
+								},
+								"key": "y",
+								"children": [
+									{
+										"data": "uniform",
+										"key": "distribution"
+									},
+									{
+										"open": {
+											"distribution": "uniform",
+											"extent": [
+												"query.above_top_solid(variable.worldx, variable.worldz)",
+												"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+											]
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											"query.above_top_solid(variable.worldx, variable.worldz)",
+											"query.above_top_solid(variable.worldx, variable.worldz) + 1"
+										]
+									}
+								]
+							},
+							{
+								"key": "z",
+								"is_minified": true,
+								"children": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

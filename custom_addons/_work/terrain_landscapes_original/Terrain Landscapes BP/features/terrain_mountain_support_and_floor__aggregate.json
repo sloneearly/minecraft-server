@@ -1,0 +1,9 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_mountain_support_and_floor__aggregate"
+		},
+		"features": ["shapescape:terrain_mountain_support_top", "shapescape:terrain_mountain_support_bottom_and_floor", "shapescape:terrain_stalactites_and_stalagmites"]
+	}
+}

@@ -1,0 +1,801 @@
+{
+	"feature": {
+		"BP/features/oak_tree_feature.json": {
+			"identifiers": [
+				"minecraft:oak_tree_feature"
+			]
+		},
+		"BP/features/oak_tree_with_optional_beehive_feature.json": {
+			"identifiers": [
+				"minecraft:oak_tree_with_optional_beehive_feature"
+			]
+		},
+		"BP/features/oak_tree_with_beehive_feature.json": {
+			"identifiers": [
+				"minecraft:oak_tree_with_beehive_feature"
+			]
+		},
+		"BP/features/fancy_oak_tree_feature.json": {
+			"identifiers": [
+				"minecraft:fancy_oak_tree_feature"
+			]
+		},
+		"BP/features/birch_tree_feature.json": {
+			"identifiers": [
+				"minecraft:birch_tree_feature"
+			]
+		},
+		"BP/features/super_birch_tree_feature.json": {
+			"identifiers": [
+				"minecraft:super_birch_tree_feature"
+			]
+		},
+		"BP/features/fallen_birch_tree_feature.json": {
+			"identifiers": [
+				"minecraft:fallen_birch_tree_feature"
+			]
+		},
+		"BP/features/oak_tree_with_vines_feature.json": {
+			"identifiers": [
+				"minecraft:oak_tree_with_vines_feature"
+			]
+		},
+		"BP/features/jungle_tree_feature.json": {
+			"identifiers": [
+				"minecraft:jungle_tree_feature"
+			]
+		},
+		"BP/features/mega_jungle_tree_feature.json": {
+			"identifiers": [
+				"minecraft:mega_jungle_tree_feature"
+			]
+		},
+		"BP/features/spruce_tree_feature.json": {
+			"identifiers": [
+				"flour_tree:spruce_tree_feature"
+			]
+		},
+		"BP/features/spruce_tree_with_vines_feature.json": {
+			"identifiers": [
+				"minecraft:spruce_tree_with_vines_feature"
+			]
+		},
+		"BP/features/pine_tree_feature.json": {
+			"identifiers": [
+				"minecraft:pine_tree_feature"
+			]
+		},
+		"BP/features/savanna_tree_feature.json": {
+			"identifiers": [
+				"minecraft:savanna_tree_feature"
+			]
+		},
+		"BP/features/roofed_tree_feature.json": {
+			"identifiers": [
+				"minecraft:roofed_tree_feature"
+			]
+		},
+		"BP/features/roofed_tree_with_vines_feature.json": {
+			"identifiers": [
+				"minecraft:roofed_tree_with_vines_feature"
+			]
+		},
+		"BP/features/swamp_tree_feature.json": {
+			"identifiers": [
+				"minecraft:swamp_tree_feature"
+			]
+		},
+		"BP/features/mega_spruce_tree_feature.json": {
+			"identifiers": [
+				"minecraft:mega_spruce_tree_feature"
+			]
+		},
+		"BP/features/brown_mushroom_feature.json": {
+			"identifiers": [
+				"minecraft:brown_mushroom_feature"
+			]
+		},
+		"BP/features/undecorated_jungle_tree_feature.json": {
+			"identifiers": [
+				"minecraft:undecorated_jungle_tree_feature"
+			]
+		},
+		"BP/features/undecorated_jungle_tree_with_vines_feature.json": {
+			"identifiers": [
+				"minecraft:undecorated_jungle_tree_with_vines_feature"
+			]
+		},
+		"BP/features/azalea_tree_feature.json": {
+			"identifiers": [
+				"minecraft:azalea_tree_feature"
+			]
+		},
+		"BP/features/savanna_tree_big.json": {
+			"identifiers": [
+				"flour_tree:savanna_tree_big"
+			]
+		},
+		"BP/features/savanna_ag.json": {
+			"identifiers": [
+				"flour_tree:savanna_ag"
+			]
+		},
+		"BP/features/mega_pine_tree_feature.json": {
+			"identifiers": [
+				"minecraft:mega_pine_tree_feature"
+			]
+		},
+		"BP/features/forest_trees_random.json": {
+			"identifiers": [
+				"flour_tree:forest_trees_random"
+			]
+		},
+		"BP/features/random_taiga_feature.json": {
+			"identifiers": [
+				"flour_tree:random_taiga_feature"
+			]
+		},
+		"BP/features/random_birch_feature.json": {
+			"identifiers": [
+				"flour_tree:random_birch_feature"
+			]
+		},
+		"BP/features/mega_taiga_random.json": {
+			"identifiers": [
+				"flour_tree:mega_taiga_random"
+			]
+		},
+		"BP/features/dark_oak_random.json": {
+			"identifiers": [
+				"flour_tree:dark_oak_random"
+			]
+		},
+		"BP/features/burned_oak_feature.json": {
+			"identifiers": [
+				"flour_tree:burned_oak_feature"
+			]
+		},
+		"BP/features/burned_oak_2_feature.json": {
+			"identifiers": [
+				"flour_tree:burned_oak_2_feature"
+			]
+		},
+		"BP/features/burned_oak_1_feature.json": {
+			"identifiers": [
+				"flour_tree:burned_oak_1_feature"
+			]
+		},
+		"BP/features/burned_jungle_t_3_feature.json": {
+			"identifiers": [
+				"flour_tree:burned_jungle_t_3_feature"
+			]
+		},
+		"BP/features/burned_jungle_t_2_feature.json": {
+			"identifiers": [
+				"flour_tree:burned_jungle_t_2_feature"
+			]
+		},
+		"BP/features/burned_jungle_t_1_feature.json": {
+			"identifiers": [
+				"flour_tree:burned_jungle_t_1_feature"
+			]
+		},
+		"BP/features/big_burned_jungle_t_feature.json": {
+			"identifiers": [
+				"flour_tree:big_burned_jungle_t_feature"
+			]
+		},
+		"BP/features/big_burned_jungle2_feature.json": {
+			"identifiers": [
+				"flour_tree:big_burned_jungle2_feature"
+			]
+		},
+		"BP/features/2x2_b_stump_feature.json": {
+			"identifiers": [
+				"flour_tree:2x2_b_stump_feature"
+			]
+		},
+		"BP/features/2x2_b_stump3_feature.json": {
+			"identifiers": [
+				"flour_tree:2x2_b_stump3_feature"
+			]
+		},
+		"BP/features/2x2_b_stump2_feature.json": {
+			"identifiers": [
+				"flour_tree:2x2_b_stump2_feature"
+			]
+		},
+		"BP/features/crimson_fungus_large_1_feature.json": {
+			"identifiers": [
+				"flour_tree:crimson_fungus_large_1_feature"
+			]
+		},
+		"BP/features/crimson_ag.json": {
+			"identifiers": [
+				"flour_tree:crimson_ag"
+			]
+		},
+		"BP/features/warped_ag.json": {
+			"identifiers": [
+				"flour_tree:warped_ag"
+			]
+		},
+		"BP/features/warped_fungus_l1_feature.json": {
+			"identifiers": [
+				"flour_tree:warped_fungus_l1_feature"
+			]
+		},
+		"BP/features/scatter_tall_grass_around_tree_feature.json": {
+			"identifiers": [
+				"minecraft:scatter_tall_grass_around_tree_feature"
+			]
+		},
+		"BP/features/branched_birch_feature.json": {
+			"identifiers": [
+				"flour_tree:branched_birch_feature"
+			]
+		},
+		"BP/features/mangrove_big_1_feature.json": {
+			"identifiers": [
+				"flour_tree:mangrove_big_1_feature"
+			]
+		},
+		"BP/features/small_oak_tree.json": {
+			"identifiers": [
+				"flour_tree:small_oak_tree"
+			]
+		},
+		"BP/features/forest_bushes.json": {
+			"identifiers": [
+				"flour_tree:forest_bushes"
+			]
+		},
+		"BP/features/jungle_bush_feature.json": {
+			"identifiers": [
+				"minecraft:jungle_bush_feature"
+			]
+		},
+		"BP/features/mountain_spruce_tree_feature.json": {
+			"identifiers": [
+				"minecraft:mountain_spruce_tree_feature"
+			]
+		},
+		"BP/features/giant_birch_tree.json": {
+			"identifiers": [
+				"flour_tree:giant_birch_tree"
+			]
+		},
+		"BP/features/lower_oak_tree.json": {
+			"identifiers": [
+				"flour_tree:lower_oak_tree"
+			]
+		},
+		"BP/features/random_birch_chose.json": {
+			"identifiers": [
+				"flour_tree:random_birch_chose"
+			]
+		},
+		"BP/features/random_small_taiga_feature.json": {
+			"identifiers": [
+				"flour_tree:random_small_taiga_feature"
+			]
+		},
+		"BP/features/small_birch_feature.json": {
+			"identifiers": [
+				"flour_tree:small_birch_feature"
+			]
+		},
+		"BP/features/flower_forest_feature.json": {
+			"identifiers": [
+				"flour_tree:flower_forest_feature"
+			]
+		},
+		"BP/features/small_savanna_tree.json": {
+			"identifiers": [
+				"flour_tree:small_savanna_tree"
+			]
+		},
+		"BP/features/dark_oak_ag.json": {
+			"identifiers": [
+				"flour_tree:dark_oak_ag"
+			]
+		},
+		"BP/features/mangrove_big_2.json": {
+			"identifiers": [
+				"flour_tree:mangrove_big_2"
+			]
+		},
+		"BP/features/mangrove_mix_large.json": {
+			"identifiers": [
+				"flour_tree:mangrove_mix_large"
+			]
+		},
+		"BP/features/mangrove_big_3.json": {
+			"identifiers": [
+				"flour_tree:mangrove_big_3"
+			]
+		},
+		"BP/features/small_roofed.json": {
+			"identifiers": [
+				"flour_tree:small_roofed"
+			]
+		},
+		"BP/features/birch_tree_medium.json": {
+			"identifiers": [
+				"flour_tree:birch_tree_medium"
+			]
+		},
+		"BP/features/medium_oak_tree.json": {
+			"identifiers": [
+				"flour_tree:medium_oak_tree"
+			]
+		},
+		"BP/features/mushroom_mix.json": {
+			"identifiers": [
+				"flour_tree:mushroom_mix"
+			]
+		},
+		"BP/features/roofed_tree_normal.json": {
+			"identifiers": [
+				"flour_tree:roofed_tree_normal"
+			]
+		},
+		"BP/features/mesa_forest_random.json": {
+			"identifiers": [
+				"flour_tree:mesa_forest_random"
+			]
+		},
+		"BP/features/savanna_tree_medium.json": {
+			"identifiers": [
+				"flour_tree:savanna_tree_medium"
+			]
+		},
+		"BP/features/savanna_trees_chose.json": {
+			"identifiers": [
+				"flour_tree:savanna_trees_chose"
+			]
+		},
+		"BP/features/cherry_tree_feature.json": {
+			"identifiers": [
+				"minecraft:cherry_tree_feature"
+			]
+		},
+		"BP/features/baobab_like_tree.json": {
+			"identifiers": [
+				"flour_tree:baobab_like_tree"
+			]
+		},
+		"BP/features/normal_cherry_tree.json": {
+			"identifiers": [
+				"flour_tree:normal_cherry_tree"
+			]
+		},
+		"BP/features/big_cherry_tree.json": {
+			"identifiers": [
+				"flour_tree:big_cherry_tree"
+			]
+		},
+		"BP/features/tiny_spruce.json": {
+			"identifiers": [
+				"flour_tree:tiny_spruce"
+			]
+		},
+		"BP/features/mushroom_choose.json": {
+			"identifiers": [
+				"flour_tree:mushroom_choose"
+			]
+		},
+		"BP/features/large_mushroom_1_feature.json": {
+			"identifiers": [
+				"flour_tree:large_mushroom_1_feature"
+			]
+		},
+		"BP/features/large_red_mushroom_1_feature.json": {
+			"identifiers": [
+				"flour_tree:large_red_mushroom_1_feature"
+			]
+		},
+		"BP/features/creaking_heart_search_feature.json": {
+			"identifiers": [
+				"minecraft:creaking_heart_search_feature"
+			]
+		},
+		"BP/features/pale_oak_tree_feature.json": {
+			"identifiers": [
+				"minecraft:pale_oak_tree_feature"
+			]
+		},
+		"BP/features/pale_hanging_moss_snap_to_ceiling_feature.json": {
+			"identifiers": [
+				"flour_tree:dark_oak_hanging_leaves_snap_to_ceiling_feature"
+			]
+		},
+		"BP/features/scatter_pale_hanging_moss_feature.json": {
+			"identifiers": [
+				"flour_tree:scatter_dark_oak_hanging_leaves_feature"
+			]
+		},
+		"BP/features/pale_oak_tree_standard_feature.json": {
+			"identifiers": [
+				"flour_tree:pale_oak_tree_standard_feature"
+			]
+		},
+		"BP/features/pale_oak_tree_with_decorations_and_creaking_heart_feature.json": {
+			"identifiers": [
+				"minecraft:pale_oak_tree_with_decorations_and_creaking_heart_feature"
+			]
+		},
+		"BP/features/pale_oak_tree_with_decorations_feature.json": {
+			"identifiers": [
+				"minecraft:pale_oak_tree_with_decorations_feature"
+			]
+		},
+		"BP/features/creaking_heart_scatter.json": {
+			"identifiers": [
+				"flour_tree:creaking_heart_scatter"
+			]
+		},
+		"BP/features/scatter_eyeblossom_feature.json": {
+			"identifiers": [
+				"minecraft:scatter_eyeblossom_feature"
+			]
+		},
+		"BP/features/small_pale_oak.json": {
+			"identifiers": [
+				"flour_tree:small_pale_oak"
+			]
+		},
+		"BP/features/random_pale_oak_tree_feature.json": {
+			"identifiers": [
+				"minecraft:random_pale_oak_tree_feature"
+			]
+		},
+		"BP/features/dark_oak_hanging_leaves_feature.json": {
+			"identifiers": [
+				"flour_tree:dark_oak_hanging_leaves_feature"
+			]
+		},
+		"BP/features/dark_oak_hanging_leaves_snap_to_ceiling_feature.json": {
+			"identifiers": [
+				"flour_tree:dark_oak_hanging_leaves_snap_to_ceiling_feature"
+			]
+		},
+		"BP/features/scatter_dark_oak_hanging_leaves_feature.json": {
+			"identifiers": [
+				"flour_tree:scatter_dark_oak_hanging_leaves_feature"
+			]
+		},
+		"BP/features/single_block_pale_oak_sapling.json": {
+			"identifiers": [
+				"flour_tree:single_block_pale_oak_sapling"
+			]
+		}
+	},
+	"feature_rule": {
+		"BP/feature_rules/dark_oak.json": {
+			"identifiers": [
+				"flour_tree:dark_oak"
+			]
+		},
+		"BP/feature_rules/overworld_surface_tall_grass_feature.json": {
+			"identifiers": [
+				"minecraft:overworld_surface_tall_grass_feature"
+			]
+		},
+		"BP/feature_rules/ice_surface_trees_feature.json": {
+			"identifiers": [
+				"minecraft:ice_surface_trees_feature"
+			]
+		},
+		"BP/feature_rules/mega_taiga_surface_trees_feature.json": {
+			"identifiers": [
+				"minecraft:mega_taiga_surface_trees_feature"
+			]
+		},
+		"BP/feature_rules/redwood_taiga_mutated_surface_trees_feature.json": {
+			"identifiers": [
+				"minecraft:redwood_taiga_mutated_surface_trees_feature"
+			]
+		},
+		"BP/feature_rules/roofed_forest_first_foliage_feature.json": {
+			"identifiers": [
+				"minecraft:roofed_forest_first_foliage_feature"
+			]
+		},
+		"BP/feature_rules/jungle_after_surface_vines_feature.json": {
+			"identifiers": [
+				"minecraft:jungle_after_surface_vines_feature"
+			]
+		},
+		"BP/feature_rules/bamboo_jungle_surface_tall_grass_feature.json": {
+			"identifiers": [
+				"minecraft:bamboo_jungle_surface_tall_grass_feature"
+			]
+		},
+		"BP/feature_rules/swamp_surface_swamp_foliage_feature.json": {
+			"identifiers": [
+				"minecraft:swamp_surface_swamp_foliage_feature"
+			]
+		},
+		"BP/feature_rules/plains_surface_tall_grass_feature.json": {
+			"identifiers": [
+				"minecraft:plains_surface_tall_grass_feature"
+			]
+		},
+		"BP/feature_rules/forest_surface_trees_feature.json": {
+			"identifiers": [
+				"minecraft:forest_surface_trees_feature"
+			]
+		},
+		"BP/feature_rules/savanna_surface_trees_feature.json": {
+			"identifiers": [
+				"minecraft:savanna_surface_trees_feature"
+			]
+		},
+		"BP/feature_rules/savanna_surface_tall_grass_feature.json": {
+			"identifiers": [
+				"minecraft:savanna_surface_tall_grass_feature"
+			]
+		},
+		"BP/feature_rules/savanna_big_tree.json": {
+			"identifiers": [
+				"flour_tree:savanna_big_tree"
+			]
+		},
+		"BP/feature_rules/savanna_tree_ag.json": {
+			"identifiers": [
+				"flour_tree:savanna_tree_ag"
+			]
+		},
+		"BP/feature_rules/taiga_surface_trees_feature.json": {
+			"identifiers": [
+				"minecraft:taiga_surface_trees_feature"
+			]
+		},
+		"BP/feature_rules/forest_grass_flour.json": {
+			"identifiers": [
+				"flour_tree:forest_grass_flour"
+			]
+		},
+		"BP/feature_rules/2x2_b_stump2_feature_rule.json": {
+			"identifiers": [
+				"flour_tree:2x2_b_stump2_feature_rule"
+			]
+		},
+		"BP/feature_rules/2x2_b_stump3_feature_rule.json": {
+			"identifiers": [
+				"flour_tree:2x2_b_stump3_feature_rule"
+			]
+		},
+		"BP/feature_rules/2x2_b_stump_feature_rule.json": {
+			"identifiers": [
+				"flour_tree:2x2_b_stump_feature_rule"
+			]
+		},
+		"BP/feature_rules/big_burned_jungle2_feature_rule.json": {
+			"identifiers": [
+				"flour_tree:big_burned_jungle2_feature_rule"
+			]
+		},
+		"BP/feature_rules/burned_jungle_t_2_feature_rule.json": {
+			"identifiers": [
+				"flour_tree:burned_jungle_t_2_feature_rule"
+			]
+		},
+		"BP/feature_rules/burned_jungle_t_3_feature_rule.json": {
+			"identifiers": [
+				"flour_tree:burned_jungle_t_3_feature_rule"
+			]
+		},
+		"BP/feature_rules/burned_oak_1_feature_rule.json": {
+			"identifiers": [
+				"flour_tree:burned_oak_1_feature_rule"
+			]
+		},
+		"BP/feature_rules/burned_oak_2_feature_rule.json": {
+			"identifiers": [
+				"flour_tree:burned_oak_2_feature_rule"
+			]
+		},
+		"BP/feature_rules/burned_oak_feature_rule.json": {
+			"identifiers": [
+				"flour_tree:burned_oak_feature_rule"
+			]
+		},
+		"BP/feature_rules/burned_spruce_feature_rule.json": {
+			"identifiers": [
+				"flour_tree:burned_spruce_feature_rule"
+			]
+		},
+		"BP/feature_rules/mushroom_island_surface_huge_mushroom_feature.json": {
+			"identifiers": [
+				"flour_tree:mushroom_island_surface_huge_mushroom_feature"
+			]
+		},
+		"BP/feature_rules/large_mushroom_1_feature_rule.json": {
+			"identifiers": [
+				"flour_tree:large_mushroom_1_feature_rule"
+			]
+		},
+		"BP/feature_rules/crimson_fungus_large_1_feature_rule.json": {
+			"identifiers": [
+				"flour_tree:crimson_fungus_large_1_feature_rule"
+			]
+		},
+		"BP/feature_rules/huge_crimson_fungus_feature.json": {
+			"identifiers": [
+				"minecraft:huge_crimson_fungus_feature"
+			]
+		},
+		"BP/feature_rules/warped_fungus_l1_feature_rule.json": {
+			"identifiers": [
+				"flour_tree:warped_fungus_l1_feature_rule"
+			]
+		},
+		"BP/feature_rules/plains_super_tall_grass.json": {
+			"identifiers": [
+				"flour_tree:plains_super_tall_grass"
+			]
+		},
+		"BP/feature_rules/mangrove_big_1_feature_rule.json": {
+			"identifiers": [
+				"flour_tree:mangrove_big_1_feature_rule"
+			]
+		},
+		"BP/feature_rules/flower_forest_surface_trees_feature.json": {
+			"identifiers": [
+				"minecraft:flower_forest_surface_trees_feature"
+			]
+		},
+		"BP/feature_rules/oak_forest_brich_clump.json": {
+			"identifiers": [
+				"flour_tree:oak_forest_brich_clump"
+			]
+		},
+		"BP/feature_rules/grass_for_extreme_hills.json": {
+			"identifiers": [
+				"flour_tree:grass_for_extreme_hills"
+			]
+		},
+		"BP/feature_rules/lower_oak_tree_rules.json": {
+			"identifiers": [
+				"flour_tree:lower_oak_tree_rules"
+			]
+		},
+		"BP/feature_rules/birch_forest_surface_trees_feature.json": {
+			"identifiers": [
+				"minecraft:birch_forest_surface_trees_feature"
+			]
+		},
+		"BP/feature_rules/birch_forest_mutated_surface_trees_feature.json": {
+			"identifiers": [
+				"minecraft:birch_forest_mutated_surface_trees_feature"
+			]
+		},
+		"BP/feature_rules/taiga_small_tree_rules.json": {
+			"identifiers": [
+				"flour_tree:taiga_small_tree_rules"
+			]
+		},
+		"BP/feature_rules/small_birch_rules.json": {
+			"identifiers": [
+				"flour_tree:small_birch_rules"
+			]
+		},
+		"BP/feature_rules/taiga_extra_dense_patch.json": {
+			"identifiers": [
+				"flour_tree:taiga_extra_dense_patch"
+			]
+		},
+		"BP/feature_rules/forest_small_clump.json": {
+			"identifiers": [
+				"flour_tree:forest_small_clump"
+			]
+		},
+		"BP/feature_rules/bush_to_stop_trees_jungle.json": {
+			"identifiers": [
+				"flour_tree:bush_to_stop_trees_jungle"
+			]
+		},
+		"BP/feature_rules/flower_forest_trees_features.json": {
+			"identifiers": [
+				"flour_tree:flower_forest_trees_features"
+			]
+		},
+		"BP/feature_rules/bushes_forest_more.json": {
+			"identifiers": [
+				"flour_tree:bushes_forest_more"
+			]
+		},
+		"BP/feature_rules/flower_forest_grass.json": {
+			"identifiers": [
+				"flour_tree:flower_forest_grass"
+			]
+		},
+		"BP/feature_rules/small_savanna_tree_rules.json": {
+			"identifiers": [
+				"flour_tree:small_savanna_tree_rules"
+			]
+		},
+		"BP/feature_rules/dark_oak_upper.json": {
+			"identifiers": [
+				"flour_tree:dark_oak_upper"
+			]
+		},
+		"BP/feature_rules/dark_oak_grass.json": {
+			"identifiers": [
+				"flour_tree:dark_oak_grass"
+			]
+		},
+		"BP/feature_rules/dark_forest_small_clump.json": {
+			"identifiers": [
+				"flour_tree:pale_garden_small_clump"
+			]
+		},
+		"BP/feature_rules/mesa_plateau_stone_surface_trees_feature.json": {
+			"identifiers": [
+				"minecraft:mesa_plateau_stone_surface_trees_feature"
+			]
+		},
+		"BP/feature_rules/ooo_a_mushroom.json": {
+			"identifiers": [
+				"flour_tree:ooo_a_mushroom"
+			]
+		},
+		"BP/feature_rules/baobab_like_savanna.json": {
+			"identifiers": [
+				"flour_tree:baobab_like_savanna"
+			]
+		},
+		"BP/feature_rules/meadow_grass.json": {
+			"identifiers": [
+				"flour_tree:meadow_grass"
+			]
+		},
+		"BP/feature_rules/taiga_small_ferns.json": {
+			"identifiers": [
+				"flour_tree:taiga_small_ferns"
+			]
+		},
+		"BP/feature_rules/tiny_spruce_feature_rules.json": {
+			"identifiers": [
+				"flour_tree:tiny_spruce_feature_rules"
+			]
+		},
+		"BP/feature_rules/pale_garden_pale_oak_tree_feature_rules.json": {
+			"identifiers": [
+				"minecraft:pale_garden_pale_oak_tree_feature_rules"
+			]
+		},
+		"BP/feature_rules/pale_garden_surface_pale_moss_patch_feature_rules.json": {
+			"identifiers": [
+				"flour_tree:pale_garden_sapling_feature_rules"
+			]
+		},
+		"BP/feature_rules/eyeblossom_feature_rules.json": {
+			"identifiers": [
+				"minecraft:eyeblossom_feature_rules"
+			]
+		},
+		"BP/feature_rules/pale_garden_small_clump.json": {
+			"identifiers": [
+				"flour_tree:pale_garden_small_clump"
+			]
+		},
+		"BP/feature_rules/pale_garden_hanging_moss_after.json": {
+			"identifiers": [
+				"flour_tree:pale_garden_hanging_moss_after"
+			]
+		},
+		"BP/feature_rules/dark_oak_hanging_leaves_feature_rule.json": {
+			"identifiers": [
+				"flour_tree:pale_garden_hanging_moss_after"
+			]
+		},
+		"BP/feature_rules/pale_garden_sapling_feature_rules.json": {
+			"identifiers": [
+				"flour_tree:pale_garden_sapling_feature_rules"
+			]
+		}
+	}
+}

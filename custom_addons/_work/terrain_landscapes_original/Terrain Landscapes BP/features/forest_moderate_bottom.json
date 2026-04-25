@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:forest_moderate_bottom"
+		},
+		"features": [
+			["shapescape:tree_birch_big_random", 20],
+			["shapescape:tree_birch_medium_random", 35],
+			["shapescape:tree_birch_small_random", 60],
+			["shapescape:tree_oak_big_random", 4],
+			["shapescape:tree_oak_medium_random", 100],
+			["shapescape:tree_oak_small_random", 120],
+			["shapescape:bush_oak_check_area", 20],
+			["shapescape:bush_birch_check_area", 12],
+			["shapescape:bush_azalea_flowered_check_area", 12],
+			["shapescape:moss", 2],
+			["shapescape:brown_mushrooms", 2],
+			["shapescape:red_mushrooms", 1],
+			["shapescape:ferns", 6],
+			["shapescape:large_ferns", 6],
+			["shapescape:tall_grass_patch", 15],
+			["shapescape:short_grass_patch", 15],
+			["shapescape:alliums", 2],
+			["shapescape:azure_bluets", 2],
+			["shapescape:orchids", 2],
+			["shapescape:lilacs", 4],
+			["shapescape:lilies", 2],
+			["shapescape:oxeye_daisies", 2],
+			["shapescape:peonies", 4],
+			["shapescape:roses", 4],
+			["minecraft:fallen_oak_tree_feature", 5],
+			["minecraft:fallen_birch_tree_feature", 5],
+			["shapescape:boulder_medium_random", 2]
+		]
+	}
+}

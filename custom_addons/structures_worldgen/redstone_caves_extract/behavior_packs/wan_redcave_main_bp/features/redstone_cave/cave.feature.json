@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "wan_redcave:redstone_cave/cave.feature"
+    },
+    "features": [
+      "wan_redcave:redstone_cave/cave_walls.feature",
+      "wan_redcave:redstone_cave/cave_lake.feature",
+      "wan_redcave:redstone_cave/air.feature"
+    ]
+  }
+}

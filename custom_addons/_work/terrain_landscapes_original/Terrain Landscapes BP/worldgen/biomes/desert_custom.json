@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "feber_studio:custom_desert"
+    },
+    "components": {
+      "minecraft:surface_parameters": {
+        "top_material": "minecraft:sand",
+        "mid_material": "minecraft:sandstone",
+        "sea_floor_material": "minecraft:sand"
+      },
+
+      "minecraft:overworld_height": {
+        "noise_type": "plateau",
+        "height": 25,
+        "offset": 73
+      }
+    }
+  }
+}

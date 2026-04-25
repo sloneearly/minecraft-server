@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain"
+		},
+		"places_feature": "shapescape:terrain__per_chunk_math",
+		"scatter_chance": 100.0,
+		"project_input_to_floor": false,
+		"iterations": 1,
+		"x": 0,
+		"y": 0,
+		"z": 0
+	}
+}

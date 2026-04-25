@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain__per_block_math"
+		},
+		"places_feature": "shapescape:terrain__leaf_aggregate",
+		"iterations": "v.terrain.river.noise_val = 1;t.wrappedx = v.worldx + 10*math.sin((36/7)*v.worldz);t.wrappedz = v.worldz + 10*math.sin((36/7)*v.worldx);t.prev_output = v.terrain.river.noise_val*(2.5 - 0.175*math.abs(q.noise((1/20)*v.worldx + 12, (1/20)*v.worldz - 786)))*math.clamp(math.abs(q.noise((1/900)*t.wrappedx - 1921, (1/900)*t.wrappedz)), 0.0, 0.4);v.terrain.river.noise_val = 1.0*(math.hermite_blend(t.prev_output < 0.15 ? 1.333*t.prev_output : t.prev_output <  0.8 ? 0.4615*t.prev_output + 0.1307 : 2.5*t.prev_output + -1.5));v.terrain.sand.noise_val = 1;t.prev_output = v.terrain.sand.noise_val;v.terrain.sand.noise_val = -(v.terrain.river.noise_val)*(0.4*math.abs(q.noise((1/300)*v.worldx + 2562, (1/300)*v.worldz - 22347)) - 1.0)*(0.15*math.abs(q.noise((1/150)*v.worldx - 8032, (1/150)*v.worldz + 8506)) - 1.0)*(0.05*math.abs(q.noise((1/60)*v.worldx + 6845, (1/60)*v.worldz + 1537)) - 1.0)*(0.25*q.noise((1/600)*v.worldx + 247, (1/600)*v.worldz + 24673) + 0.75);v.terrain.path.noise_val = 1;v.terrain.path.noise_val = v.terrain.path.noise_val*math.abs(q.noise((1/600)*v.worldx - 5123, (1/600)*v.worldz));v.terrain.death_hole.noise_val = 1;v.terrain.death_hole.noise_val = v.terrain.death_hole.noise_val*math.abs(q.noise((1/80)*v.worldx + 6234, (1/80)*v.worldz));v.terrain.normal.noise_val = 1;t.prev_output = v.terrain.normal.noise_val;v.terrain.normal.noise_val = (v.terrain.sand.noise_val)*(1.0 - 0.03*math.abs(q.noise((1/20)*v.worldx - 1535, (1/20)*v.worldz + 13232)));v.terrain.mesa.noise_val = 1;t.prev_output = v.terrain.mesa.noise_val;t.prev_output = (v.terrain.normal.noise_val);v.terrain.mesa.noise_val = (0.01*math.sin(t.prev_output*180*40)) + t.prev_output;v.terrain.main.noise_val = 1;t.prev_output = v.terrain.main.noise_val;v.terrain.main.noise_val = 290*(v.biome_group_tag == 'dry_rocks' ? v.terrain.mesa.noise_val : v.biome_group_tag == 'desert' ? v.terrain.sand.noise_val*0.99 : v.terrain.normal.noise_val)*math.clamp(q.noise((1/1500)*v.worldx - 10685, (1/1500)*v.worldz + 8075) + 0.5, 0, 1) + 30;v.terrain.pillar.noise_val = 1;v.terrain.pillar.noise_val = 0.5*v.terrain.pillar.noise_val*(0.2*math.abs(q.noise((1/40)*v.worldx - 15842, (1/40)*v.worldz + 24532)) - 1.0)*(0.12*math.abs(q.noise((1/18)*v.worldx - 18786, (1/18)*v.worldz + 15525)) - 1.0)*(q.noise((1/100)*v.worldx - 15873, (1/100)*v.worldz - 6530) + 1);v.terrain.wall.noise_val = 1;v.terrain.wall.noise_val = v.terrain.wall.noise_val*math.pow(math.abs(q.noise((1/180)*v.worldx - 8583, (1/180)*v.worldz + 9902)) - 1, 6);return 1;",
+		"x": 0,
+		"y": 0,
+		"z": 0
+	}
+}

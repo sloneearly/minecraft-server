@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "feber_studio:mountain_ridge"
+    },
+    "components": {
+      "minecraft:overworld_height": {
+        "noise_type": "ridge",
+        "height": 90,
+        "offset": 84
+      },
+      "minecraft:surface_parameters": {
+        "top_material": "minecraft:stone",
+        "mid_material": "minecraft:stone",
+        "sea_floor_material": "minecraft:gravel"
+      },
+      "minecraft:climate": {
+        "temperature": 0.3,
+        "downfall": 0.3
+      },
+      "minecraft:features": {
+        "lakes": [
+          {
+            "chance": 0.006,
+            "feature": "minecraft:water_lake"
+          }
+        ]
+      },
+      "minecraft:terrain": {
+        "height_gradient": "steep"
+      }
+    }
+  }
+}

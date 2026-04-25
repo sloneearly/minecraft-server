@@ -1,0 +1,22 @@
+import { multiNoise } from "../../lib/utils.js";
+import { config } from "./configB.js";
+import { carveComplexCaves } from "../../lib/caves.js";
+
+export const generateChunk = (entity, chunkX, chunkZ) => {
+    const px = Math.floor(chunkX);
+    const pz = Math.floor(chunkZ);
+
+    for (let i = 0; i < 8; i++) {
+        for (let j = 0; j < 8; j++) {
+            const x = px + i;
+            const z = pz + j;
+            const h = Math.floor(multiNoise(x, z, config.scales) * config.heightMultiplier) + config.baseHeight;
+
+            if (Math.random() < 0.3) {
+                entity.runCommand(`fill ~${i} ~${h-3} ~${j} ~${i} ~${h+2} ~${j} ${config.mainBlock}`);
+            }
+        }
+    }
+
+    carveComplexCaves(entity, chunkX, chunkZ, "the_end");
+};

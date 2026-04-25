@@ -1,0 +1,10 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "shapescape:groupped_stones_features_aggregate"
+		},
+		"features": ["shapescape:groupped_stones_dirt_replacement", "shapescape:groupped_stones_stones"],
+		"early_out": "none"
+	}
+}

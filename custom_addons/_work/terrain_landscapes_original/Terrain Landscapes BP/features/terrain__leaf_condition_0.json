@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:terrain__leaf_condition_0"
+		},
+		"places_feature": "shapescape:terrain_optional_column_selector",
+		"iterations": "return (1.0) != 0;",
+		"x": 0,
+		"y": 0,
+		"z": 0
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "shapescape:forest_desert_scatter"
+		},
+		"iterations": "return (q.above_top_solid(v.worldx, v.worldz) < 180) ? ((q.above_top_solid(v.worldx, v.worldz) < 100) ? math.random_integer(4, 10) : math.random_integer(3, 8)) : math.random_integer(2, 6);",
+		"places_feature": "shapescape:forest_desert_height_check",
+		"project_input_to_floor": false,
+		"scatter_chance": 100.0,
+		"x": {
+			"distribution": "uniform",
+			"extent": [0, 15]
+		},
+		"y": 0,
+		"z": {
+			"distribution": "uniform",
+			"extent": [0, 15]
+		}
+	}
+}

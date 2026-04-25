@@ -1,0 +1,67 @@
+[
+	{
+		"atlas_tile": "wan_redcave:blue_network_core_working",
+		"flipbook_texture": "textures/wan/redcave/blocks/network_core/blue",
+		"ticks_per_frame": 5
+	},
+	{
+		"atlas_tile": "wan_redcave:autofarmer_t1_working",
+		"flipbook_texture": "textures/wan/redcave/blocks/autofarmer/1_work",
+		"ticks_per_frame": 5
+	},
+	{
+		"atlas_tile": "wan_redcave:autofarmer_t2_working",
+		"flipbook_texture": "textures/wan/redcave/blocks/autofarmer/2_work",
+		"ticks_per_frame": 5
+	},
+	{
+		"atlas_tile": "wan_redcave:crusher_t1_working",
+		"flipbook_texture": "textures/wan/redcave/blocks/crusher/1_work",
+		"ticks_per_frame": 5
+	},
+	{
+		"atlas_tile": "wan_redcave:crusher_t2_working",
+		"flipbook_texture": "textures/wan/redcave/blocks/crusher/2_work",
+		"ticks_per_frame": 5
+	},
+	{
+		"atlas_tile": "wan_redcave:electric_oven_t1_working",
+		"flipbook_texture": "textures/wan/redcave/blocks/electric_oven/1_work",
+		"ticks_per_frame": 5
+	},
+	{
+		"atlas_tile": "wan_redcave:electric_oven_t2_working",
+		"flipbook_texture": "textures/wan/redcave/blocks/electric_oven/2_work",
+		"ticks_per_frame": 5
+	},
+	{
+		"atlas_tile": "wan_redcave:generator_t1_working",
+		"flipbook_texture": "textures/wan/redcave/blocks/generator/1",
+		"ticks_per_frame": 5
+	},
+	{
+		"atlas_tile": "wan_redcave:generator_t2_working",
+		"flipbook_texture": "textures/wan/redcave/blocks/generator/2",
+		"ticks_per_frame": 5
+	},
+	{
+		"atlas_tile": "wan_redcave:network_access_panel_working",
+		"flipbook_texture": "textures/wan/redcave/blocks/network_access_panel/work",
+		"ticks_per_frame": 5
+	},
+	{
+		"atlas_tile": "wan_redcave:quarry_working",
+		"flipbook_texture": "textures/wan/redcave/blocks/quarry/work",
+		"ticks_per_frame": 5
+	},
+	{
+		"atlas_tile": "wan_redcave:red_network_core_working",
+		"flipbook_texture": "textures/wan/redcave/blocks/network_core/red",
+		"ticks_per_frame": 5
+	},
+	{
+		"atlas_tile": "wan_redcave:wireless_hopper_working",
+		"flipbook_texture": "textures/wan/redcave/blocks/wireless_hopper/work",
+		"ticks_per_frame": 5
+	}
+]

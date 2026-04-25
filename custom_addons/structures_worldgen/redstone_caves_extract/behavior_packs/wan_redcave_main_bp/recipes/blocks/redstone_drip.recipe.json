@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.111",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "wan_redcave:redstone_drip"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "HHH",
+      "HHH",
+      "RRR"
+    ],
+    "key": {
+      "H": {
+        "item": "wan_redcave:hematite"
+      },
+      "R": {
+        "item": "minecraft:redstone_block"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:redstone_block"
+      }
+    ],
+    "result": {
+      "item": "wan_redcave:redstone_drip",
+      "count": 9
+    }
+  }
+}

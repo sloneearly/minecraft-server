@@ -1,0 +1,39 @@
+{
+  "format_version": "1.21.111",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "wan_redcave:holographic_touchpad"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BBB",
+      "CPC",
+      "III"
+    ],
+    "key": {
+      "B": {
+        "item": "wan_redcave:bluestone"
+      },
+      "C": {
+        "item": "wan_redcave:redstone_chip"
+      },
+      "P": {
+        "item": "wan_redcave:network_access_panel"
+      },
+      "I": {
+        "item": "wan_redcave:magnetite_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "wan_redcave:redstone_chip"
+      }
+    ],
+    "result": {
+      "item": "wan_redcave:holographic_touchpad",
+      "count": 1
+    }
+  }
+}

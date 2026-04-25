@@ -1,0 +1,9 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "shapescape:terrain_support_block_selection__cond_aggr"
+		},
+		"features": ["shapescape:terrain_support_block_selection__elif_0", "shapescape:terrain_support_block_selection__elif_1"]
+	}
+}

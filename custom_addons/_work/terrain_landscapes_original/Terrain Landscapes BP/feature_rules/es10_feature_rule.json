@@ -1,0 +1,51 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "minecraft:es10_feature_rule",
+      "places_feature": "minecraft:es10_feature_mcstructure"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "taiga"
+                },
+              {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "forest"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 20,
+      "scatter_chance": 5.899981,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz) + -10",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          15
+        ]
+      }
+    }
+  }
+}

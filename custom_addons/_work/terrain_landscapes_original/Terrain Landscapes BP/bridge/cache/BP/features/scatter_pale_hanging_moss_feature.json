@@ -1,0 +1,218 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\scatter_pale_hanging_moss_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "ebbdfef6_9f2d_4760_ac8a_135fb314052c",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:scatter_feature": {
+						"description": {
+							"identifier": "minecraft:scatter_pale_hanging_moss_feature"
+						},
+						"iterations": 50,
+						"scatter_chance": 100,
+						"x": {
+							"extent": [
+								-8,
+								8
+							],
+							"distribution": "uniform"
+						},
+						"z": {
+							"extent": [
+								-8,
+								8
+							],
+							"distribution": "uniform"
+						},
+						"y": 2,
+						"project_input_to_floor": false,
+						"places_feature": "minecraft:pale_hanging_moss_snap_to_ceiling_feature"
+					}
+				},
+				"key": "minecraft:scatter_feature",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:scatter_pale_hanging_moss_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:scatter_pale_hanging_moss_feature"
+							},
+							"iterations": 50,
+							"scatter_chance": 100,
+							"x": {
+								"extent": [
+									-8,
+									8
+								],
+								"distribution": "uniform"
+							},
+							"z": {
+								"extent": [
+									-8,
+									8
+								],
+								"distribution": "uniform"
+							},
+							"y": 2,
+							"project_input_to_floor": false,
+							"places_feature": "minecraft:pale_hanging_moss_snap_to_ceiling_feature"
+						},
+						"data": "50",
+						"key": "iterations"
+					},
+					{
+						"data": "100",
+						"key": "scatter_chance"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:scatter_pale_hanging_moss_feature"
+							},
+							"iterations": 50,
+							"scatter_chance": 100,
+							"x": {
+								"extent": [
+									-8,
+									8
+								],
+								"distribution": "uniform"
+							},
+							"z": {
+								"extent": [
+									-8,
+									8
+								],
+								"distribution": "uniform"
+							},
+							"y": 2,
+							"project_input_to_floor": false,
+							"places_feature": "minecraft:pale_hanging_moss_snap_to_ceiling_feature"
+						},
+						"key": "x",
+						"children": [
+							{
+								"open": {
+									"extent": [
+										-8,
+										8
+									],
+									"distribution": "uniform"
+								},
+								"key": "extent",
+								"is_minified": true,
+								"children": [
+									-8,
+									8
+								]
+							},
+							{
+								"data": "uniform",
+								"key": "distribution"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:scatter_pale_hanging_moss_feature"
+							},
+							"iterations": 50,
+							"scatter_chance": 100,
+							"x": {
+								"extent": [
+									-8,
+									8
+								],
+								"distribution": "uniform"
+							},
+							"z": {
+								"extent": [
+									-8,
+									8
+								],
+								"distribution": "uniform"
+							},
+							"y": 2,
+							"project_input_to_floor": false,
+							"places_feature": "minecraft:pale_hanging_moss_snap_to_ceiling_feature"
+						},
+						"key": "z",
+						"children": [
+							{
+								"open": {
+									"extent": [
+										-8,
+										8
+									],
+									"distribution": "uniform"
+								},
+								"key": "extent",
+								"is_minified": true,
+								"children": [
+									-8,
+									8
+								]
+							},
+							{
+								"data": "uniform",
+								"key": "distribution"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:scatter_pale_hanging_moss_feature"
+							},
+							"iterations": 50,
+							"scatter_chance": 100,
+							"x": {
+								"extent": [
+									-8,
+									8
+								],
+								"distribution": "uniform"
+							},
+							"z": {
+								"extent": [
+									-8,
+									8
+								],
+								"distribution": "uniform"
+							},
+							"y": 2,
+							"project_input_to_floor": false,
+							"places_feature": "minecraft:pale_hanging_moss_snap_to_ceiling_feature"
+						},
+						"data": "2",
+						"key": "y"
+					},
+					{
+						"data": "false",
+						"key": "project_input_to_floor"
+					},
+					{
+						"data": "minecraft:pale_hanging_moss_snap_to_ceiling_feature",
+						"key": "places_feature"
+					}
+				]
+			}
+		]
+	}
+}

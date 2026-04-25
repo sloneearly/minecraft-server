@@ -1,0 +1,19 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		// Tries to a dirt block on the air block. It's a hack used in
+		// a parent "sequence" feature to check if the area is clear and
+		// if there is a grass below. The feature after this one will
+		// replace the dirt block back to air unconditionaly.
+		"description": {
+			"identifier": "shapescape:tree_check_area_1"
+		},
+		"places_block": "minecraft:dirt",
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false,
+		"may_attach_to": {
+			"bottom": ["minecraft:grass", "minecraft:dirt", "minecraft:podzol", "minecraft:moss_block", "minecraft:snow"]
+		},
+		"may_replace": ["minecraft:air"]
+	}
+}

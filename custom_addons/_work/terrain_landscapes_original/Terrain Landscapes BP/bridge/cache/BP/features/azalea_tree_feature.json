@@ -1,0 +1,1796 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\azalea_tree_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "0d22fa04_a631_42a1_9d6c_375d584aad6b",
+	"file_version": 38,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:tree_feature": {
+						"description": {
+							"identifier": "minecraft:azalea_tree_feature"
+						},
+						"base_block": [
+							"minecraft:dirt_with_roots"
+						],
+						"may_grow_on": [
+							"minecraft:dirt",
+							"minecraft:grass",
+							"minecraft:podzol",
+							"minecraft:dirt",
+							"minecraft:farmland",
+							"minecraft:dirt_with_roots",
+							"minecraft:moss_block",
+							"minecraft:clay",
+							{
+								"name": "minecraft:mud"
+							}
+						],
+						"may_replace": [
+							"minecraft:leaves",
+							"minecraft:leaves2",
+							"minecraft:azalea",
+							"minecraft:flowering_azalea",
+							"minecraft:azalea_leaves",
+							"minecraft:azalea_leaves_flowered",
+							"minecraft:water",
+							"minecraft:flowing_water",
+							"minecraft:air",
+							{
+								"name": "minecraft:tallgrass"
+							},
+							{
+								"name": "minecraft:double_plant"
+							},
+							{
+								"name": "minecraft:snow_layer"
+							}
+						],
+						"may_grow_through": [
+							"minecraft:dirt",
+							"minecraft:grass",
+							{
+								"name": "minecraft:azalea_leaves_flowered"
+							},
+							{
+								"name": "minecraft:azalea_leaves"
+							},
+							{
+								"name": "minecraft:double_plant"
+							},
+							{
+								"name": "minecraft:tallgrass"
+							},
+							{
+								"name": "minecraft:mud"
+							}
+						],
+						"mega_trunk": {
+							"trunk_height": {
+								"base": 20,
+								"intervals": [
+									4,
+									8
+								]
+							},
+							"trunk_width": 2,
+							"trunk_block": {
+								"name": "minecraft:log",
+								"states": {
+									"old_log_type": "oak"
+								}
+							},
+							"branches": {
+								"branch_length": 4,
+								"branch_slope": 0.1,
+								"branch_interval": {
+									"range_min": 1,
+									"range_max": 2
+								},
+								"branch_altitude_factor": {
+									"min": 0.3,
+									"max": 0.99
+								},
+								"branch_canopy": {
+									"mega_canopy": {
+										"canopy_height": {
+											"range_min": 3,
+											"range_max": 3
+										},
+										"core_width": 1,
+										"base_radius": 1,
+										"simplify_canopy": true,
+										"leaf_block": {
+											"name": "minecraft:azalea_leaves"
+										}
+									}
+								}
+							},
+							"trunk_decoration": {
+								"decoration_chance": {
+									"numerator": 1,
+									"denominator": 10
+								},
+								"decoration_block": {
+									"name": "minecraft:azalea_leaves_flowered"
+								},
+								"num_steps": 3,
+								"step_direction": "down"
+							}
+						},
+						"roofed_canopy": {
+							"canopy_height": 4,
+							"core_width": 2,
+							"outer_radius": 2,
+							"inner_radius": 3,
+							"leaf_block": {
+								"name": "minecraft:azalea_leaves"
+							}
+						}
+					}
+				},
+				"key": "minecraft:tree_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:azalea_tree_feature"
+							},
+							"base_block": [
+								"minecraft:dirt_with_roots"
+							],
+							"may_grow_on": [
+								"minecraft:dirt",
+								"minecraft:grass",
+								"minecraft:podzol",
+								"minecraft:dirt",
+								"minecraft:farmland",
+								"minecraft:dirt_with_roots",
+								"minecraft:moss_block",
+								"minecraft:clay",
+								{
+									"name": "minecraft:mud"
+								}
+							],
+							"may_replace": [
+								"minecraft:leaves",
+								"minecraft:leaves2",
+								"minecraft:azalea",
+								"minecraft:flowering_azalea",
+								"minecraft:azalea_leaves",
+								"minecraft:azalea_leaves_flowered",
+								"minecraft:water",
+								"minecraft:flowing_water",
+								"minecraft:air",
+								{
+									"name": "minecraft:tallgrass"
+								},
+								{
+									"name": "minecraft:double_plant"
+								},
+								{
+									"name": "minecraft:snow_layer"
+								}
+							],
+							"may_grow_through": [
+								"minecraft:dirt",
+								"minecraft:grass",
+								{
+									"name": "minecraft:azalea_leaves_flowered"
+								},
+								{
+									"name": "minecraft:azalea_leaves"
+								},
+								{
+									"name": "minecraft:double_plant"
+								},
+								{
+									"name": "minecraft:tallgrass"
+								},
+								{
+									"name": "minecraft:mud"
+								}
+							],
+							"mega_trunk": {
+								"trunk_height": {
+									"base": 20,
+									"intervals": [
+										4,
+										8
+									]
+								},
+								"trunk_width": 2,
+								"trunk_block": {
+									"name": "minecraft:log",
+									"states": {
+										"old_log_type": "oak"
+									}
+								},
+								"branches": {
+									"branch_length": 4,
+									"branch_slope": 0.1,
+									"branch_interval": {
+										"range_min": 1,
+										"range_max": 2
+									},
+									"branch_altitude_factor": {
+										"min": 0.3,
+										"max": 0.99
+									},
+									"branch_canopy": {
+										"mega_canopy": {
+											"canopy_height": {
+												"range_min": 3,
+												"range_max": 3
+											},
+											"core_width": 1,
+											"base_radius": 1,
+											"simplify_canopy": true,
+											"leaf_block": {
+												"name": "minecraft:azalea_leaves"
+											}
+										}
+									}
+								},
+								"trunk_decoration": {
+									"decoration_chance": {
+										"numerator": 1,
+										"denominator": 10
+									},
+									"decoration_block": {
+										"name": "minecraft:azalea_leaves_flowered"
+									},
+									"num_steps": 3,
+									"step_direction": "down"
+								}
+							},
+							"roofed_canopy": {
+								"canopy_height": 4,
+								"core_width": 2,
+								"outer_radius": 2,
+								"inner_radius": 3,
+								"leaf_block": {
+									"name": "minecraft:azalea_leaves"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:azalea_tree_feature"
+						}
+					},
+					{
+						"key": "base_block",
+						"is_minified": true,
+						"children": [
+							"minecraft:dirt_with_roots"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:azalea_tree_feature"
+							},
+							"base_block": [
+								"minecraft:dirt_with_roots"
+							],
+							"may_grow_on": [
+								"minecraft:dirt",
+								"minecraft:grass",
+								"minecraft:podzol",
+								"minecraft:dirt",
+								"minecraft:farmland",
+								"minecraft:dirt_with_roots",
+								"minecraft:moss_block",
+								"minecraft:clay",
+								{
+									"name": "minecraft:mud"
+								}
+							],
+							"may_replace": [
+								"minecraft:leaves",
+								"minecraft:leaves2",
+								"minecraft:azalea",
+								"minecraft:flowering_azalea",
+								"minecraft:azalea_leaves",
+								"minecraft:azalea_leaves_flowered",
+								"minecraft:water",
+								"minecraft:flowing_water",
+								"minecraft:air",
+								{
+									"name": "minecraft:tallgrass"
+								},
+								{
+									"name": "minecraft:double_plant"
+								},
+								{
+									"name": "minecraft:snow_layer"
+								}
+							],
+							"may_grow_through": [
+								"minecraft:dirt",
+								"minecraft:grass",
+								{
+									"name": "minecraft:azalea_leaves_flowered"
+								},
+								{
+									"name": "minecraft:azalea_leaves"
+								},
+								{
+									"name": "minecraft:double_plant"
+								},
+								{
+									"name": "minecraft:tallgrass"
+								},
+								{
+									"name": "minecraft:mud"
+								}
+							],
+							"mega_trunk": {
+								"trunk_height": {
+									"base": 20,
+									"intervals": [
+										4,
+										8
+									]
+								},
+								"trunk_width": 2,
+								"trunk_block": {
+									"name": "minecraft:log",
+									"states": {
+										"old_log_type": "oak"
+									}
+								},
+								"branches": {
+									"branch_length": 4,
+									"branch_slope": 0.1,
+									"branch_interval": {
+										"range_min": 1,
+										"range_max": 2
+									},
+									"branch_altitude_factor": {
+										"min": 0.3,
+										"max": 0.99
+									},
+									"branch_canopy": {
+										"mega_canopy": {
+											"canopy_height": {
+												"range_min": 3,
+												"range_max": 3
+											},
+											"core_width": 1,
+											"base_radius": 1,
+											"simplify_canopy": true,
+											"leaf_block": {
+												"name": "minecraft:azalea_leaves"
+											}
+										}
+									}
+								},
+								"trunk_decoration": {
+									"decoration_chance": {
+										"numerator": 1,
+										"denominator": 10
+									},
+									"decoration_block": {
+										"name": "minecraft:azalea_leaves_flowered"
+									},
+									"num_steps": 3,
+									"step_direction": "down"
+								}
+							},
+							"roofed_canopy": {
+								"canopy_height": 4,
+								"core_width": 2,
+								"outer_radius": 2,
+								"inner_radius": 3,
+								"leaf_block": {
+									"name": "minecraft:azalea_leaves"
+								}
+							}
+						},
+						"key": "may_grow_on",
+						"is_minified": true,
+						"children": [
+							"minecraft:dirt",
+							"minecraft:grass",
+							"minecraft:podzol",
+							"minecraft:dirt",
+							"minecraft:farmland",
+							"minecraft:dirt_with_roots",
+							"minecraft:moss_block",
+							"minecraft:clay",
+							{
+								"name": "minecraft:mud"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:azalea_tree_feature"
+							},
+							"base_block": [
+								"minecraft:dirt_with_roots"
+							],
+							"may_grow_on": [
+								"minecraft:dirt",
+								"minecraft:grass",
+								"minecraft:podzol",
+								"minecraft:dirt",
+								"minecraft:farmland",
+								"minecraft:dirt_with_roots",
+								"minecraft:moss_block",
+								"minecraft:clay",
+								{
+									"name": "minecraft:mud"
+								}
+							],
+							"may_replace": [
+								"minecraft:leaves",
+								"minecraft:leaves2",
+								"minecraft:azalea",
+								"minecraft:flowering_azalea",
+								"minecraft:azalea_leaves",
+								"minecraft:azalea_leaves_flowered",
+								"minecraft:water",
+								"minecraft:flowing_water",
+								"minecraft:air",
+								{
+									"name": "minecraft:tallgrass"
+								},
+								{
+									"name": "minecraft:double_plant"
+								},
+								{
+									"name": "minecraft:snow_layer"
+								}
+							],
+							"may_grow_through": [
+								"minecraft:dirt",
+								"minecraft:grass",
+								{
+									"name": "minecraft:azalea_leaves_flowered"
+								},
+								{
+									"name": "minecraft:azalea_leaves"
+								},
+								{
+									"name": "minecraft:double_plant"
+								},
+								{
+									"name": "minecraft:tallgrass"
+								},
+								{
+									"name": "minecraft:mud"
+								}
+							],
+							"mega_trunk": {
+								"trunk_height": {
+									"base": 20,
+									"intervals": [
+										4,
+										8
+									]
+								},
+								"trunk_width": 2,
+								"trunk_block": {
+									"name": "minecraft:log",
+									"states": {
+										"old_log_type": "oak"
+									}
+								},
+								"branches": {
+									"branch_length": 4,
+									"branch_slope": 0.1,
+									"branch_interval": {
+										"range_min": 1,
+										"range_max": 2
+									},
+									"branch_altitude_factor": {
+										"min": 0.3,
+										"max": 0.99
+									},
+									"branch_canopy": {
+										"mega_canopy": {
+											"canopy_height": {
+												"range_min": 3,
+												"range_max": 3
+											},
+											"core_width": 1,
+											"base_radius": 1,
+											"simplify_canopy": true,
+											"leaf_block": {
+												"name": "minecraft:azalea_leaves"
+											}
+										}
+									}
+								},
+								"trunk_decoration": {
+									"decoration_chance": {
+										"numerator": 1,
+										"denominator": 10
+									},
+									"decoration_block": {
+										"name": "minecraft:azalea_leaves_flowered"
+									},
+									"num_steps": 3,
+									"step_direction": "down"
+								}
+							},
+							"roofed_canopy": {
+								"canopy_height": 4,
+								"core_width": 2,
+								"outer_radius": 2,
+								"inner_radius": 3,
+								"leaf_block": {
+									"name": "minecraft:azalea_leaves"
+								}
+							}
+						},
+						"key": "may_replace",
+						"children": [
+							{
+								"data": "minecraft:leaves"
+							},
+							{
+								"data": "minecraft:leaves2"
+							},
+							{
+								"data": "minecraft:azalea"
+							},
+							{
+								"data": "minecraft:flowering_azalea"
+							},
+							{
+								"data": "minecraft:azalea_leaves"
+							},
+							{
+								"data": "minecraft:azalea_leaves_flowered"
+							},
+							{
+								"data": "minecraft:water"
+							},
+							{
+								"data": "minecraft:flowing_water"
+							},
+							{
+								"data": "minecraft:air"
+							},
+							{
+								"open": [
+									"minecraft:leaves",
+									"minecraft:leaves2",
+									"minecraft:azalea",
+									"minecraft:flowering_azalea",
+									"minecraft:azalea_leaves",
+									"minecraft:azalea_leaves_flowered",
+									"minecraft:water",
+									"minecraft:flowing_water",
+									"minecraft:air",
+									{
+										"name": "minecraft:tallgrass"
+									},
+									{
+										"name": "minecraft:double_plant"
+									},
+									{
+										"name": "minecraft:snow_layer"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:tallgrass"
+								}
+							},
+							{
+								"open": [
+									"minecraft:leaves",
+									"minecraft:leaves2",
+									"minecraft:azalea",
+									"minecraft:flowering_azalea",
+									"minecraft:azalea_leaves",
+									"minecraft:azalea_leaves_flowered",
+									"minecraft:water",
+									"minecraft:flowing_water",
+									"minecraft:air",
+									{
+										"name": "minecraft:tallgrass"
+									},
+									{
+										"name": "minecraft:double_plant"
+									},
+									{
+										"name": "minecraft:snow_layer"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:double_plant"
+								}
+							},
+							{
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:snow_layer"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:azalea_tree_feature"
+							},
+							"base_block": [
+								"minecraft:dirt_with_roots"
+							],
+							"may_grow_on": [
+								"minecraft:dirt",
+								"minecraft:grass",
+								"minecraft:podzol",
+								"minecraft:dirt",
+								"minecraft:farmland",
+								"minecraft:dirt_with_roots",
+								"minecraft:moss_block",
+								"minecraft:clay",
+								{
+									"name": "minecraft:mud"
+								}
+							],
+							"may_replace": [
+								"minecraft:leaves",
+								"minecraft:leaves2",
+								"minecraft:azalea",
+								"minecraft:flowering_azalea",
+								"minecraft:azalea_leaves",
+								"minecraft:azalea_leaves_flowered",
+								"minecraft:water",
+								"minecraft:flowing_water",
+								"minecraft:air",
+								{
+									"name": "minecraft:tallgrass"
+								},
+								{
+									"name": "minecraft:double_plant"
+								},
+								{
+									"name": "minecraft:snow_layer"
+								}
+							],
+							"may_grow_through": [
+								"minecraft:dirt",
+								"minecraft:grass",
+								{
+									"name": "minecraft:azalea_leaves_flowered"
+								},
+								{
+									"name": "minecraft:azalea_leaves"
+								},
+								{
+									"name": "minecraft:double_plant"
+								},
+								{
+									"name": "minecraft:tallgrass"
+								},
+								{
+									"name": "minecraft:mud"
+								}
+							],
+							"mega_trunk": {
+								"trunk_height": {
+									"base": 20,
+									"intervals": [
+										4,
+										8
+									]
+								},
+								"trunk_width": 2,
+								"trunk_block": {
+									"name": "minecraft:log",
+									"states": {
+										"old_log_type": "oak"
+									}
+								},
+								"branches": {
+									"branch_length": 4,
+									"branch_slope": 0.1,
+									"branch_interval": {
+										"range_min": 1,
+										"range_max": 2
+									},
+									"branch_altitude_factor": {
+										"min": 0.3,
+										"max": 0.99
+									},
+									"branch_canopy": {
+										"mega_canopy": {
+											"canopy_height": {
+												"range_min": 3,
+												"range_max": 3
+											},
+											"core_width": 1,
+											"base_radius": 1,
+											"simplify_canopy": true,
+											"leaf_block": {
+												"name": "minecraft:azalea_leaves"
+											}
+										}
+									}
+								},
+								"trunk_decoration": {
+									"decoration_chance": {
+										"numerator": 1,
+										"denominator": 10
+									},
+									"decoration_block": {
+										"name": "minecraft:azalea_leaves_flowered"
+									},
+									"num_steps": 3,
+									"step_direction": "down"
+								}
+							},
+							"roofed_canopy": {
+								"canopy_height": 4,
+								"core_width": 2,
+								"outer_radius": 2,
+								"inner_radius": 3,
+								"leaf_block": {
+									"name": "minecraft:azalea_leaves"
+								}
+							}
+						},
+						"key": "may_grow_through",
+						"children": [
+							{
+								"data": "minecraft:dirt"
+							},
+							{
+								"data": "minecraft:grass"
+							},
+							{
+								"open": [
+									"minecraft:dirt",
+									"minecraft:grass",
+									{
+										"name": "minecraft:azalea_leaves_flowered"
+									},
+									{
+										"name": "minecraft:azalea_leaves"
+									},
+									{
+										"name": "minecraft:double_plant"
+									},
+									{
+										"name": "minecraft:tallgrass"
+									},
+									{
+										"name": "minecraft:mud"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:azalea_leaves_flowered"
+								}
+							},
+							{
+								"open": [
+									"minecraft:dirt",
+									"minecraft:grass",
+									{
+										"name": "minecraft:azalea_leaves_flowered"
+									},
+									{
+										"name": "minecraft:azalea_leaves"
+									},
+									{
+										"name": "minecraft:double_plant"
+									},
+									{
+										"name": "minecraft:tallgrass"
+									},
+									{
+										"name": "minecraft:mud"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:azalea_leaves"
+								}
+							},
+							{
+								"open": [
+									"minecraft:dirt",
+									"minecraft:grass",
+									{
+										"name": "minecraft:azalea_leaves_flowered"
+									},
+									{
+										"name": "minecraft:azalea_leaves"
+									},
+									{
+										"name": "minecraft:double_plant"
+									},
+									{
+										"name": "minecraft:tallgrass"
+									},
+									{
+										"name": "minecraft:mud"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:double_plant"
+								}
+							},
+							{
+								"open": [
+									"minecraft:dirt",
+									"minecraft:grass",
+									{
+										"name": "minecraft:azalea_leaves_flowered"
+									},
+									{
+										"name": "minecraft:azalea_leaves"
+									},
+									{
+										"name": "minecraft:double_plant"
+									},
+									{
+										"name": "minecraft:tallgrass"
+									},
+									{
+										"name": "minecraft:mud"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:tallgrass"
+								}
+							},
+							{
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:mud"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:azalea_tree_feature"
+							},
+							"base_block": [
+								"minecraft:dirt_with_roots"
+							],
+							"may_grow_on": [
+								"minecraft:dirt",
+								"minecraft:grass",
+								"minecraft:podzol",
+								"minecraft:dirt",
+								"minecraft:farmland",
+								"minecraft:dirt_with_roots",
+								"minecraft:moss_block",
+								"minecraft:clay",
+								{
+									"name": "minecraft:mud"
+								}
+							],
+							"may_replace": [
+								"minecraft:leaves",
+								"minecraft:leaves2",
+								"minecraft:azalea",
+								"minecraft:flowering_azalea",
+								"minecraft:azalea_leaves",
+								"minecraft:azalea_leaves_flowered",
+								"minecraft:water",
+								"minecraft:flowing_water",
+								"minecraft:air",
+								{
+									"name": "minecraft:tallgrass"
+								},
+								{
+									"name": "minecraft:double_plant"
+								},
+								{
+									"name": "minecraft:snow_layer"
+								}
+							],
+							"may_grow_through": [
+								"minecraft:dirt",
+								"minecraft:grass",
+								{
+									"name": "minecraft:azalea_leaves_flowered"
+								},
+								{
+									"name": "minecraft:azalea_leaves"
+								},
+								{
+									"name": "minecraft:double_plant"
+								},
+								{
+									"name": "minecraft:tallgrass"
+								},
+								{
+									"name": "minecraft:mud"
+								}
+							],
+							"mega_trunk": {
+								"trunk_height": {
+									"base": 20,
+									"intervals": [
+										4,
+										8
+									]
+								},
+								"trunk_width": 2,
+								"trunk_block": {
+									"name": "minecraft:log",
+									"states": {
+										"old_log_type": "oak"
+									}
+								},
+								"branches": {
+									"branch_length": 4,
+									"branch_slope": 0.1,
+									"branch_interval": {
+										"range_min": 1,
+										"range_max": 2
+									},
+									"branch_altitude_factor": {
+										"min": 0.3,
+										"max": 0.99
+									},
+									"branch_canopy": {
+										"mega_canopy": {
+											"canopy_height": {
+												"range_min": 3,
+												"range_max": 3
+											},
+											"core_width": 1,
+											"base_radius": 1,
+											"simplify_canopy": true,
+											"leaf_block": {
+												"name": "minecraft:azalea_leaves"
+											}
+										}
+									}
+								},
+								"trunk_decoration": {
+									"decoration_chance": {
+										"numerator": 1,
+										"denominator": 10
+									},
+									"decoration_block": {
+										"name": "minecraft:azalea_leaves_flowered"
+									},
+									"num_steps": 3,
+									"step_direction": "down"
+								}
+							},
+							"roofed_canopy": {
+								"canopy_height": 4,
+								"core_width": 2,
+								"outer_radius": 2,
+								"inner_radius": 3,
+								"leaf_block": {
+									"name": "minecraft:azalea_leaves"
+								}
+							}
+						},
+						"key": "mega_trunk",
+						"children": [
+							{
+								"open": {
+									"trunk_height": {
+										"base": 20,
+										"intervals": [
+											4,
+											8
+										]
+									},
+									"trunk_width": 2,
+									"trunk_block": {
+										"name": "minecraft:log",
+										"states": {
+											"old_log_type": "oak"
+										}
+									},
+									"branches": {
+										"branch_length": 4,
+										"branch_slope": 0.1,
+										"branch_interval": {
+											"range_min": 1,
+											"range_max": 2
+										},
+										"branch_altitude_factor": {
+											"min": 0.3,
+											"max": 0.99
+										},
+										"branch_canopy": {
+											"mega_canopy": {
+												"canopy_height": {
+													"range_min": 3,
+													"range_max": 3
+												},
+												"core_width": 1,
+												"base_radius": 1,
+												"simplify_canopy": true,
+												"leaf_block": {
+													"name": "minecraft:azalea_leaves"
+												}
+											}
+										}
+									},
+									"trunk_decoration": {
+										"decoration_chance": {
+											"numerator": 1,
+											"denominator": 10
+										},
+										"decoration_block": {
+											"name": "minecraft:azalea_leaves_flowered"
+										},
+										"num_steps": 3,
+										"step_direction": "down"
+									}
+								},
+								"key": "trunk_height",
+								"children": [
+									{
+										"open": {
+											"base": 20,
+											"intervals": [
+												4,
+												8
+											]
+										},
+										"data": "20",
+										"key": "base"
+									},
+									{
+										"open": {
+											"base": 20,
+											"intervals": [
+												4,
+												8
+											]
+										},
+										"key": "intervals",
+										"is_minified": true,
+										"children": [
+											4,
+											8
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"trunk_height": {
+										"base": 20,
+										"intervals": [
+											4,
+											8
+										]
+									},
+									"trunk_width": 2,
+									"trunk_block": {
+										"name": "minecraft:log",
+										"states": {
+											"old_log_type": "oak"
+										}
+									},
+									"branches": {
+										"branch_length": 4,
+										"branch_slope": 0.1,
+										"branch_interval": {
+											"range_min": 1,
+											"range_max": 2
+										},
+										"branch_altitude_factor": {
+											"min": 0.3,
+											"max": 0.99
+										},
+										"branch_canopy": {
+											"mega_canopy": {
+												"canopy_height": {
+													"range_min": 3,
+													"range_max": 3
+												},
+												"core_width": 1,
+												"base_radius": 1,
+												"simplify_canopy": true,
+												"leaf_block": {
+													"name": "minecraft:azalea_leaves"
+												}
+											}
+										}
+									},
+									"trunk_decoration": {
+										"decoration_chance": {
+											"numerator": 1,
+											"denominator": 10
+										},
+										"decoration_block": {
+											"name": "minecraft:azalea_leaves_flowered"
+										},
+										"num_steps": 3,
+										"step_direction": "down"
+									}
+								},
+								"data": "2",
+								"key": "trunk_width"
+							},
+							{
+								"open": {
+									"trunk_height": {
+										"base": 20,
+										"intervals": [
+											4,
+											8
+										]
+									},
+									"trunk_width": 2,
+									"trunk_block": {
+										"name": "minecraft:log",
+										"states": {
+											"old_log_type": "oak"
+										}
+									},
+									"branches": {
+										"branch_length": 4,
+										"branch_slope": 0.1,
+										"branch_interval": {
+											"range_min": 1,
+											"range_max": 2
+										},
+										"branch_altitude_factor": {
+											"min": 0.3,
+											"max": 0.99
+										},
+										"branch_canopy": {
+											"mega_canopy": {
+												"canopy_height": {
+													"range_min": 3,
+													"range_max": 3
+												},
+												"core_width": 1,
+												"base_radius": 1,
+												"simplify_canopy": true,
+												"leaf_block": {
+													"name": "minecraft:azalea_leaves"
+												}
+											}
+										}
+									},
+									"trunk_decoration": {
+										"decoration_chance": {
+											"numerator": 1,
+											"denominator": 10
+										},
+										"decoration_block": {
+											"name": "minecraft:azalea_leaves_flowered"
+										},
+										"num_steps": 3,
+										"step_direction": "down"
+									}
+								},
+								"key": "trunk_block",
+								"children": [
+									{
+										"data": "minecraft:log",
+										"key": "name"
+									},
+									{
+										"open": {
+											"name": "minecraft:log",
+											"states": {
+												"old_log_type": "oak"
+											}
+										},
+										"key": "states",
+										"is_minified": true,
+										"children": {
+											"old_log_type": "oak"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"trunk_height": {
+										"base": 20,
+										"intervals": [
+											4,
+											8
+										]
+									},
+									"trunk_width": 2,
+									"trunk_block": {
+										"name": "minecraft:log",
+										"states": {
+											"old_log_type": "oak"
+										}
+									},
+									"branches": {
+										"branch_length": 4,
+										"branch_slope": 0.1,
+										"branch_interval": {
+											"range_min": 1,
+											"range_max": 2
+										},
+										"branch_altitude_factor": {
+											"min": 0.3,
+											"max": 0.99
+										},
+										"branch_canopy": {
+											"mega_canopy": {
+												"canopy_height": {
+													"range_min": 3,
+													"range_max": 3
+												},
+												"core_width": 1,
+												"base_radius": 1,
+												"simplify_canopy": true,
+												"leaf_block": {
+													"name": "minecraft:azalea_leaves"
+												}
+											}
+										}
+									},
+									"trunk_decoration": {
+										"decoration_chance": {
+											"numerator": 1,
+											"denominator": 10
+										},
+										"decoration_block": {
+											"name": "minecraft:azalea_leaves_flowered"
+										},
+										"num_steps": 3,
+										"step_direction": "down"
+									}
+								},
+								"key": "branches",
+								"children": [
+									{
+										"open": {
+											"branch_length": 4,
+											"branch_slope": 0.1,
+											"branch_interval": {
+												"range_min": 1,
+												"range_max": 2
+											},
+											"branch_altitude_factor": {
+												"min": 0.3,
+												"max": 0.99
+											},
+											"branch_canopy": {
+												"mega_canopy": {
+													"canopy_height": {
+														"range_min": 3,
+														"range_max": 3
+													},
+													"core_width": 1,
+													"base_radius": 1,
+													"simplify_canopy": true,
+													"leaf_block": {
+														"name": "minecraft:azalea_leaves"
+													}
+												}
+											}
+										},
+										"data": "4",
+										"key": "branch_length"
+									},
+									{
+										"data": "0.1",
+										"key": "branch_slope"
+									},
+									{
+										"open": {
+											"branch_length": 4,
+											"branch_slope": 0.1,
+											"branch_interval": {
+												"range_min": 1,
+												"range_max": 2
+											},
+											"branch_altitude_factor": {
+												"min": 0.3,
+												"max": 0.99
+											},
+											"branch_canopy": {
+												"mega_canopy": {
+													"canopy_height": {
+														"range_min": 3,
+														"range_max": 3
+													},
+													"core_width": 1,
+													"base_radius": 1,
+													"simplify_canopy": true,
+													"leaf_block": {
+														"name": "minecraft:azalea_leaves"
+													}
+												}
+											}
+										},
+										"key": "branch_interval",
+										"is_minified": true,
+										"children": {
+											"range_min": 1,
+											"range_max": 2
+										}
+									},
+									{
+										"open": {
+											"branch_length": 4,
+											"branch_slope": 0.1,
+											"branch_interval": {
+												"range_min": 1,
+												"range_max": 2
+											},
+											"branch_altitude_factor": {
+												"min": 0.3,
+												"max": 0.99
+											},
+											"branch_canopy": {
+												"mega_canopy": {
+													"canopy_height": {
+														"range_min": 3,
+														"range_max": 3
+													},
+													"core_width": 1,
+													"base_radius": 1,
+													"simplify_canopy": true,
+													"leaf_block": {
+														"name": "minecraft:azalea_leaves"
+													}
+												}
+											}
+										},
+										"key": "branch_altitude_factor",
+										"is_minified": true,
+										"children": {
+											"min": 0.3,
+											"max": 0.99
+										}
+									},
+									{
+										"open": {
+											"branch_length": 4,
+											"branch_slope": 0.1,
+											"branch_interval": {
+												"range_min": 1,
+												"range_max": 2
+											},
+											"branch_altitude_factor": {
+												"min": 0.3,
+												"max": 0.99
+											},
+											"branch_canopy": {
+												"mega_canopy": {
+													"canopy_height": {
+														"range_min": 3,
+														"range_max": 3
+													},
+													"core_width": 1,
+													"base_radius": 1,
+													"simplify_canopy": true,
+													"leaf_block": {
+														"name": "minecraft:azalea_leaves"
+													}
+												}
+											}
+										},
+										"key": "branch_canopy",
+										"children": [
+											{
+												"open": {
+													"mega_canopy": {
+														"canopy_height": {
+															"range_min": 3,
+															"range_max": 3
+														},
+														"core_width": 1,
+														"base_radius": 1,
+														"simplify_canopy": true,
+														"leaf_block": {
+															"name": "minecraft:azalea_leaves"
+														}
+													}
+												},
+												"key": "mega_canopy",
+												"children": [
+													{
+														"open": {
+															"canopy_height": {
+																"range_min": 3,
+																"range_max": 3
+															},
+															"core_width": 1,
+															"base_radius": 1,
+															"simplify_canopy": true,
+															"leaf_block": {
+																"name": "minecraft:azalea_leaves"
+															}
+														},
+														"key": "canopy_height",
+														"is_minified": true,
+														"children": {
+															"range_min": 3,
+															"range_max": 3
+														}
+													},
+													{
+														"data": "1",
+														"key": "core_width"
+													},
+													{
+														"data": "1",
+														"key": "base_radius"
+													},
+													{
+														"open": {
+															"canopy_height": {
+																"range_min": 3,
+																"range_max": 3
+															},
+															"core_width": 1,
+															"base_radius": 1,
+															"simplify_canopy": true,
+															"leaf_block": {
+																"name": "minecraft:azalea_leaves"
+															}
+														},
+														"data": "true",
+														"key": "simplify_canopy"
+													},
+													{
+														"open": {
+															"canopy_height": {
+																"range_min": 3,
+																"range_max": 3
+															},
+															"core_width": 1,
+															"base_radius": 1,
+															"simplify_canopy": true,
+															"leaf_block": {
+																"name": "minecraft:azalea_leaves"
+															}
+														},
+														"key": "leaf_block",
+														"is_minified": true,
+														"children": {
+															"name": "minecraft:azalea_leaves"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"trunk_height": {
+										"base": 20,
+										"intervals": [
+											4,
+											8
+										]
+									},
+									"trunk_width": 2,
+									"trunk_block": {
+										"name": "minecraft:log",
+										"states": {
+											"old_log_type": "oak"
+										}
+									},
+									"branches": {
+										"branch_length": 4,
+										"branch_slope": 0.1,
+										"branch_interval": {
+											"range_min": 1,
+											"range_max": 2
+										},
+										"branch_altitude_factor": {
+											"min": 0.3,
+											"max": 0.99
+										},
+										"branch_canopy": {
+											"mega_canopy": {
+												"canopy_height": {
+													"range_min": 3,
+													"range_max": 3
+												},
+												"core_width": 1,
+												"base_radius": 1,
+												"simplify_canopy": true,
+												"leaf_block": {
+													"name": "minecraft:azalea_leaves"
+												}
+											}
+										}
+									},
+									"trunk_decoration": {
+										"decoration_chance": {
+											"numerator": 1,
+											"denominator": 10
+										},
+										"decoration_block": {
+											"name": "minecraft:azalea_leaves_flowered"
+										},
+										"num_steps": 3,
+										"step_direction": "down"
+									}
+								},
+								"key": "trunk_decoration",
+								"children": [
+									{
+										"open": {
+											"decoration_chance": {
+												"numerator": 1,
+												"denominator": 10
+											},
+											"decoration_block": {
+												"name": "minecraft:azalea_leaves_flowered"
+											},
+											"num_steps": 3,
+											"step_direction": "down"
+										},
+										"key": "decoration_chance",
+										"is_minified": true,
+										"children": {
+											"numerator": 1,
+											"denominator": 10
+										}
+									},
+									{
+										"open": {
+											"decoration_chance": {
+												"numerator": 1,
+												"denominator": 10
+											},
+											"decoration_block": {
+												"name": "minecraft:azalea_leaves_flowered"
+											},
+											"num_steps": 3,
+											"step_direction": "down"
+										},
+										"key": "decoration_block",
+										"is_minified": true,
+										"children": {
+											"name": "minecraft:azalea_leaves_flowered"
+										}
+									},
+									{
+										"open": {
+											"decoration_chance": {
+												"numerator": 1,
+												"denominator": 10
+											},
+											"decoration_block": {
+												"name": "minecraft:azalea_leaves_flowered"
+											},
+											"num_steps": 3,
+											"step_direction": "down"
+										},
+										"data": "3",
+										"key": "num_steps"
+									},
+									{
+										"data": "down",
+										"key": "step_direction"
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:azalea_tree_feature"
+							},
+							"base_block": [
+								"minecraft:dirt_with_roots"
+							],
+							"may_grow_on": [
+								"minecraft:dirt",
+								"minecraft:grass",
+								"minecraft:podzol",
+								"minecraft:dirt",
+								"minecraft:farmland",
+								"minecraft:dirt_with_roots",
+								"minecraft:moss_block",
+								"minecraft:clay",
+								{
+									"name": "minecraft:mud"
+								}
+							],
+							"may_replace": [
+								"minecraft:leaves",
+								"minecraft:leaves2",
+								"minecraft:azalea",
+								"minecraft:flowering_azalea",
+								"minecraft:azalea_leaves",
+								"minecraft:azalea_leaves_flowered",
+								"minecraft:water",
+								"minecraft:flowing_water",
+								"minecraft:air",
+								{
+									"name": "minecraft:tallgrass"
+								},
+								{
+									"name": "minecraft:double_plant"
+								},
+								{
+									"name": "minecraft:snow_layer"
+								}
+							],
+							"may_grow_through": [
+								"minecraft:dirt",
+								"minecraft:grass",
+								{
+									"name": "minecraft:azalea_leaves_flowered"
+								},
+								{
+									"name": "minecraft:azalea_leaves"
+								},
+								{
+									"name": "minecraft:double_plant"
+								},
+								{
+									"name": "minecraft:tallgrass"
+								},
+								{
+									"name": "minecraft:mud"
+								}
+							],
+							"mega_trunk": {
+								"trunk_height": {
+									"base": 20,
+									"intervals": [
+										4,
+										8
+									]
+								},
+								"trunk_width": 2,
+								"trunk_block": {
+									"name": "minecraft:log",
+									"states": {
+										"old_log_type": "oak"
+									}
+								},
+								"branches": {
+									"branch_length": 4,
+									"branch_slope": 0.1,
+									"branch_interval": {
+										"range_min": 1,
+										"range_max": 2
+									},
+									"branch_altitude_factor": {
+										"min": 0.3,
+										"max": 0.99
+									},
+									"branch_canopy": {
+										"mega_canopy": {
+											"canopy_height": {
+												"range_min": 3,
+												"range_max": 3
+											},
+											"core_width": 1,
+											"base_radius": 1,
+											"simplify_canopy": true,
+											"leaf_block": {
+												"name": "minecraft:azalea_leaves"
+											}
+										}
+									}
+								},
+								"trunk_decoration": {
+									"decoration_chance": {
+										"numerator": 1,
+										"denominator": 10
+									},
+									"decoration_block": {
+										"name": "minecraft:azalea_leaves_flowered"
+									},
+									"num_steps": 3,
+									"step_direction": "down"
+								}
+							},
+							"roofed_canopy": {
+								"canopy_height": 4,
+								"core_width": 2,
+								"outer_radius": 2,
+								"inner_radius": 3,
+								"leaf_block": {
+									"name": "minecraft:azalea_leaves"
+								}
+							}
+						},
+						"key": "roofed_canopy",
+						"children": [
+							{
+								"open": {
+									"canopy_height": 4,
+									"core_width": 2,
+									"outer_radius": 2,
+									"inner_radius": 3,
+									"leaf_block": {
+										"name": "minecraft:azalea_leaves"
+									}
+								},
+								"data": "4",
+								"key": "canopy_height"
+							},
+							{
+								"open": {
+									"canopy_height": 4,
+									"core_width": 2,
+									"outer_radius": 2,
+									"inner_radius": 3,
+									"leaf_block": {
+										"name": "minecraft:azalea_leaves"
+									}
+								},
+								"data": "2",
+								"key": "core_width"
+							},
+							{
+								"open": {
+									"canopy_height": 4,
+									"core_width": 2,
+									"outer_radius": 2,
+									"inner_radius": 3,
+									"leaf_block": {
+										"name": "minecraft:azalea_leaves"
+									}
+								},
+								"data": "2",
+								"key": "outer_radius"
+							},
+							{
+								"open": {
+									"canopy_height": 4,
+									"core_width": 2,
+									"outer_radius": 2,
+									"inner_radius": 3,
+									"leaf_block": {
+										"name": "minecraft:azalea_leaves"
+									}
+								},
+								"data": "3",
+								"key": "inner_radius"
+							},
+							{
+								"open": {
+									"canopy_height": 4,
+									"core_width": 2,
+									"outer_radius": 2,
+									"inner_radius": 3,
+									"leaf_block": {
+										"name": "minecraft:azalea_leaves"
+									}
+								},
+								"key": "leaf_block",
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:azalea_leaves"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

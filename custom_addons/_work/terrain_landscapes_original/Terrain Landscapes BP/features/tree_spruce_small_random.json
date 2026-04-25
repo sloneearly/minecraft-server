@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:tree_spruce_small_random"
+		},
+		"features": [
+			["shapescape:tree_spruce_small_1_check_area", 1],
+			["shapescape:tree_spruce_small_2_check_area", 1],
+			["shapescape:tree_spruce_small_3_check_area", 1],
+			["shapescape:tree_spruce_small_4_check_area", 1],
+			["shapescape:tree_spruce_small_5_check_area", 1]
+		]
+	}
+}

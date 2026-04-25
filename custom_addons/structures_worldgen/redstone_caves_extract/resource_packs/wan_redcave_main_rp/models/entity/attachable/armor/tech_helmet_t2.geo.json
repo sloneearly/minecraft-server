@@ -1,0 +1,180 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.wan_redcave.tech_helmet_t2",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [
+          0,
+          0.75,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "root",
+          "pivot": [
+            0,
+            1,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4,
+                1,
+                -4
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "inflate": 0.5,
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -4,
+                1,
+                -4
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "inflate": 0.6,
+              "uv": [
+                0,
+                16
+              ]
+            },
+            {
+              "origin": [
+                -5.3,
+                5,
+                0
+              ],
+              "size": [
+                1,
+                4,
+                4
+              ],
+              "pivot": [
+                -4.8,
+                6.5,
+                2.5
+              ],
+              "rotation": [
+                50,
+                0,
+                0
+              ],
+              "uv": [
+                56,
+                54
+              ]
+            },
+            {
+              "origin": [
+                4.3,
+                5,
+                0
+              ],
+              "size": [
+                1,
+                4,
+                4
+              ],
+              "pivot": [
+                4.8,
+                6.5,
+                2.5
+              ],
+              "rotation": [
+                50,
+                0,
+                0
+              ],
+              "uv": [
+                56,
+                54
+              ],
+              "mirror": true
+            },
+            {
+              "origin": [
+                5,
+                7,
+                -2
+              ],
+              "size": [
+                0,
+                7,
+                6
+              ],
+              "pivot": [
+                5,
+                6.5,
+                1
+              ],
+              "rotation": [
+                -37.5,
+                0,
+                0
+              ],
+              "uv": [
+                0,
+                50
+              ],
+              "mirror": true
+            },
+            {
+              "origin": [
+                -5,
+                7,
+                -2
+              ],
+              "size": [
+                0,
+                7,
+                6
+              ],
+              "pivot": [
+                -5,
+                6.5,
+                1
+              ],
+              "rotation": [
+                -37.5,
+                0,
+                0
+              ],
+              "uv": [
+                0,
+                50
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

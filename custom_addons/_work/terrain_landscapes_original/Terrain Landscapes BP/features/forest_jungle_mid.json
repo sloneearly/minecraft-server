@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "shapescape:forest_jungle_mid"
+		},
+		"features": [
+			["shapescape:tree_jungle_big_random", 20],
+			["shapescape:tree_jungle_medium_random", 90],
+			["shapescape:tree_jungle_small_random", 80],
+			["shapescape:bush_azalea_flowered_check_area", 20],
+			["shapescape:bush_jungle_check_area", 30],
+			["shapescape:tall_grass_patch", 8],
+			["shapescape:short_grass_patch", 5],
+			["shapescape:orchids", 5],
+			["shapescape:alliums", 3],
+			["shapescape:mud_patch", 5],
+			["shapescape:packed_mud_patch", 5],
+			["minecraft:fallen_jungle_tree_feature", 5],
+			["shapescape:boulder_medium_random", 1]
+		]
+	}
+}

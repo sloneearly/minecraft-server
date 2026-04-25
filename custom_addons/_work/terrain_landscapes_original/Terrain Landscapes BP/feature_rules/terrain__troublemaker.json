@@ -1,0 +1,57 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "shapescape:terrain__troublemaker",
+			"places_feature": "shapescape:terrain__troublemaker"
+		},
+		"conditions": {
+			"placement_pass": "first_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"all_of": [
+							{
+								"test": "has_biome_tag",
+								"value": "stone"
+							},
+							{
+								"test": "has_biome_tag",
+								"value": "beach"
+							}
+						]
+					},
+					{
+						"all_of": [
+							{
+								"test": "has_biome_tag",
+								"value": "caves"
+							},
+							{
+								"test": "has_biome_tag",
+								"value": "deep_dark",
+								"operator": "!="
+							}
+						]
+					}
+				]
+			}
+		},
+		"distribution": {
+			"scatter_chance": 100.0,
+			"iterations": 256,
+			"coordinate_eval_order": "zxy",
+			"x": {
+				"step_size": 1,
+				"extent": [0, 15],
+				"distribution": "fixed_grid"
+			},
+			"y": 200,
+			"z": {
+				"step_size": 1,
+				"extent": [0, 15],
+				"distribution": "fixed_grid"
+			}
+		}
+	}
+}

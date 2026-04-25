@@ -1,0 +1,114 @@
+{
+	"file_path": "C:\\Users\\aocea\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\atlas_trees\\features\\cherry_tree_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "62d15142_e781_4dc9_b19a_971b3eb38207",
+	"file_version": 88,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:weighted_random_feature": {
+						"description": {
+							"identifier": "minecraft:cherry_tree_feature"
+						},
+						"features": [
+							[
+								"flour_tree:normal_cherry_tree",
+								200
+							],
+							[
+								"flour_tree:big_cherry_tree",
+								20
+							]
+						]
+					}
+				},
+				"key": "minecraft:weighted_random_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:cherry_tree_feature"
+							},
+							"features": [
+								[
+									"flour_tree:normal_cherry_tree",
+									200
+								],
+								[
+									"flour_tree:big_cherry_tree",
+									20
+								]
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:cherry_tree_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:cherry_tree_feature"
+							},
+							"features": [
+								[
+									"flour_tree:normal_cherry_tree",
+									200
+								],
+								[
+									"flour_tree:big_cherry_tree",
+									20
+								]
+							]
+						},
+						"key": "features",
+						"children": [
+							{
+								"open": [
+									[
+										"flour_tree:normal_cherry_tree",
+										200
+									],
+									[
+										"flour_tree:big_cherry_tree",
+										20
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:normal_cherry_tree",
+									200
+								]
+							},
+							{
+								"open": [
+									[
+										"flour_tree:normal_cherry_tree",
+										200
+									],
+									[
+										"flour_tree:big_cherry_tree",
+										20
+									]
+								],
+								"is_minified": true,
+								"children": [
+									"flour_tree:big_cherry_tree",
+									20
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
