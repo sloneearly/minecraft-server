@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "tt:cthulhu",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/entity/ghast/cthulu"
+			},
+			"geometry": {
+				"default": "geometry.cthulu"
+			},
+			"animations": {
+				"move": "animation.cthulu.walk"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.ghast.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.cow"
+			],
+			"spawn_egg": {
+				"texture": "ojo"
+			}
+		}
+	}
+}

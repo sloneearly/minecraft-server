@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:dummy",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/cc/village/entities/dummy",
+        "variant_1": "textures/cc/village/entities/dummy",
+        "variant_2": "textures/cc/village/entities/dummy.target"
+      },
+      "geometry": {
+        "default": "geometry.cc.dummy"
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:dummy"
+      },
+      "animations": {
+        "controller_grid_snap": "controller.animation.cc.grid_snap",
+        "grid_snap_north": "animation.cc.grid_snap.north",
+        "grid_snap_east": "animation.cc.grid_snap.east",
+        "grid_snap_south": "animation.cc.grid_snap.south",
+        "grid_snap_west": "animation.cc.grid_snap.west",
+        "controller.wiggling": "controller.animation.cc.weapon_stand.wiggle",
+        "wiggle": "animation.cc.weapon_stand.wiggle",
+        "cancel_death_anim": "animation.cc.cancel_death_animation"
+      },
+      "scripts": {
+        "initialize": ["variable.armor_stand.hurt_time = q.hurt_time;"],
+        "animate": [
+          "controller.wiggling",
+          "controller_grid_snap",
+          { "cancel_death_anim": "!q.is_alive" }
+        ]
+      },
+      "render_controllers": ["controller.render.cc.variant.2"],
+      "enable_attachables": true
+    }
+  }
+}

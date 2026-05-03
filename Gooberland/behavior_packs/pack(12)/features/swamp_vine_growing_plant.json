@@ -1,0 +1,48 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:growing_plant_feature": {
+    "description": {
+      "identifier": "cc:swamp_vine_growing_plant"
+    },
+    "height_distribution": [
+      [
+        {
+          "range_min": 1,
+          "range_max": 5
+        },
+        2
+      ],
+      [
+        {
+          "range_min": 5,
+          "range_max": 8
+        },
+        1
+      ]
+    ],
+    "growth_direction": "DOWN",
+    "body_blocks": [
+      [
+        {
+          "name": "cc:hanging_swamp_leaves",
+          "states": {
+            "cc:connect": "inner"
+          }
+        },
+        1
+      ]
+    ],
+    "head_blocks": [
+      [
+        {
+          "name": "cc:hanging_swamp_leaves",
+          "states": {
+            "cc:connect": "end"
+          }
+        },
+        1
+      ]
+    ],
+    "allow_water": false
+  }
+}

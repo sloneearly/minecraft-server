@@ -1,0 +1,167 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "cc:deer",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:brightness_filter": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 8
+        },
+        "minecraft:herd": {
+          "min_size": 2,
+          "max_size": 4
+        },
+
+        "minecraft:biome_filter": {
+          "any_of": [
+            { "test": "has_biome_tag", "operator": "==", "value": "forest" },
+            { "test": "has_biome_tag", "operator": "==", "value": "birch" },
+            { "test": "has_biome_tag", "operator": "==", "value": "plains" },
+            { "test": "has_biome_tag", "operator": "==", "value": "grove" },
+            { "test": "has_biome_tag", "operator": "==", "value": "taiga" },
+            { "test": "has_biome_tag", "operator": "==", "value": "frozen" },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "cold_beach"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "cold_ocean"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "cold_taiga"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "cold_taiga_hills"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "cold_taiga_mutated"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "deep_cold_ocean"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:coniferous_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:field"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:fir_clearing"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:forested_field"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:grassland"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:highland"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:maple_woods"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:mediterranean_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:old_growth_woodland"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:orchard"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:origin_valley"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:overgrown_greens"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:pasture"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:prairie"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:seasonal_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:snowy_coniferous_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:snowy_fir_clearing"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:snowy_maple_woods"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:snowblossom_grove"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:woodland"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

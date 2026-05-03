@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cc.pearl_clam.open": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"top": {
+					"rotation": [-90, 0, 0]
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "bubbles",
+					"locator": "emitter"
+				}
+			}
+		},
+		"animation.cc.pearl_clam.close": {
+			"loop": true
+		}
+	}
+}

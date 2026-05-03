@@ -1,0 +1,57 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:weapon_stand",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/cc/furniture/entities/weapon_stand"
+      },
+      "geometry": {
+        "default": "geometry.cc.weapon_stand"
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:weapon_stand"
+      },
+      "animations": {
+        "controller_grid_snap": "controller.animation.cc.grid_snap",
+        "grid_snap_north": "animation.cc.grid_snap.north",
+        "grid_snap_east": "animation.cc.grid_snap.east",
+        "grid_snap_south": "animation.cc.grid_snap.south",
+        "grid_snap_west": "animation.cc.grid_snap.west",
+        "controller.wiggling": "controller.animation.cc.weapon_stand.wiggle",
+        "wiggle": "animation.cc.weapon_stand.wiggle",
+        "cancel_death_anim": "animation.cc.cancel_death_animation",
+        "trident": "animation.cc.weapon_stand.trident",
+        "bow": "animation.cc.weapon_stand.bow",
+        "ice_bow": "animation.cc.weapon_stand.ice_bow",
+        "crossbow": "animation.cc.weapon_stand.crossbow"
+      },
+      "scripts": {
+        "initialize": ["variable.armor_stand.hurt_time = q.hurt_time;"],
+        "animate": [
+          "controller.wiggling",
+          "controller_grid_snap",
+          { "cancel_death_anim": "!q.is_alive" },
+          {
+            "trident": "query.is_item_name_any('slot.weapon.mainhand', 'minecraft:trident')"
+          },
+          {
+            "bow": "query.is_item_name_any('slot.weapon.mainhand', 'minecraft:bow')"
+          },
+          {
+            "ice_bow": "query.is_item_name_any('slot.weapon.mainhand', 'cc:ice_bow')"
+          },
+          {
+            "crossbow": "query.is_item_name_any('slot.weapon.mainhand', 'minecraft:crossbow')"
+          }
+        ]
+      },
+      "render_controllers": ["controller.render.cc.no_death_color"],
+      "enable_attachables": true
+    }
+  }
+}

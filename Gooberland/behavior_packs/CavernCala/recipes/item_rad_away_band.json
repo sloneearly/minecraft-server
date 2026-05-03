@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rad_away_band_ef8a1eb3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BCB",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:string",
+        "data": 0
+      },
+      "B": {
+        "item": "item:uranium_ingot",
+        "data": 0
+      },
+      "C": {
+        "item": "item:sulfur",
+        "data": 0
+      },
+      "D": {
+        "item": "block:glowing_mushroom",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:rad_away_band",
+      "count": 1
+    }
+  }
+}

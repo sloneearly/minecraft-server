@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:struct_mermaid_shrine_room_3_scatter"
+    },
+    "iterations": 1,
+    "x": 10,
+    "y": 20,
+    "z": 11,
+    "places_feature": "cc:struct_mermaid_shrine_level_0_weight"
+  }
+}

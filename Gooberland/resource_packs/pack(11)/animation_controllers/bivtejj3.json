@@ -1,0 +1,19 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc.quadruped.rotation": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "blend_transition": 1.2,
+          "transitions": [{ "rotate": "q.target_y_rotation>12||q.target_y_rotation<-12" }]
+        },
+        "rotate": {
+          "blend_transition": 0.2,
+          "animations": ["rotate"],
+          "transitions": [{ "default": "q.target_y_rotation<5&&q.target_y_rotation>-5" }]
+        }
+      }
+    }
+  }
+}

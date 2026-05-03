@@ -1,0 +1,21 @@
+{
+  "resource_pack_name": "custom_item_resource_pack",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "vf_sc:shepherds_crook": {
+      "textures": "textures/items/shepherds_crook_ico"
+    },
+    "vf_sc:sickle": {
+      "textures": "textures/items/sickle"
+    },
+    "vf_sc:farmers_hat": {
+      "textures": "textures/items/farmers_hat.png"
+    },
+    "vf_sc:watering_can": {
+      "textures": "textures/items/watering_can.png"
+    },
+    "vf_sc:watering_can_filled": {
+      "textures": "textures/items/watering_can_full.png"
+    }
+  }
+}

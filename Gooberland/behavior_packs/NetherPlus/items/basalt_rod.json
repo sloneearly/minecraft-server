@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "tt:basalt_rod",
+			"menu_category": {
+				"category": "items",
+				"is_hidden_in_commands": false
+			}
+		},
+		"components": {
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:transform_templates"
+				]
+			},
+			"minecraft:icon": {
+				"textures": {
+					"default": "basalt_rod"
+				}
+			}
+		}
+	}
+}

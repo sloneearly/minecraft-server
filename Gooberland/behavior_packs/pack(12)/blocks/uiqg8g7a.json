@@ -1,0 +1,60 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:strawberry_crate",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "tag:solid": {},
+            "tag:crate": {},
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cc:crate_strawberry_side",
+                    "render_method": "alpha_test"
+                },
+                "up": {
+                    "texture": "cc:crate_strawberry_up",
+                    "render_method": "alpha_test"
+                },
+                "down": {
+                    "texture": "cc:crate_down",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:collision_box": true,
+            "minecraft:selection_box": true,
+            "minecraft:light_dampening": 15,
+            "minecraft:map_color": "#669153",
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "tag:minecraft:is_axe_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_axe')"
+                        },
+                        "destroy_speed": 2
+                    }
+                ]
+            }
+        }
+    }
+}

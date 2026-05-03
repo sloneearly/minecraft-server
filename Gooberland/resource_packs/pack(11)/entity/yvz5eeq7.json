@@ -1,0 +1,60 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:penguin",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/cc/animals/entities/penguin",
+        "baby": "textures/cc/animals/entities/penguin_baby",
+        "none": "textures/cc/misc/invisible",
+        "cod": "textures/items/fish_raw",
+        "salmon": "textures/items/fish_salmon_raw"
+      },
+      "geometry": {
+        "adult": "geometry.cc.penguin",
+        "baby": "geometry.cc.penguin.baby"
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:penguin_spawn_egg"
+      },
+      "scripts": {
+        "initialize": ["v.relative_run_speed = 0.55;", "variable.pitch = 0;", "variable.roll = 0;"],
+        "pre_animation": [
+          "variable.pitch = ((math.clamp(q.is_on_ground ? 0 : q.body_x_rotation, -20, 20) - (math.clamp(q.vertical_speed * 1, -90, 5)) + ( 3 * variable.pitch)) / 4);",
+          "variable.roll = ((q.is_on_ground ? 0 : (-q.yaw_speed) / 4) + (4 * v.roll)) / 5;"
+        ],
+        "animate": [
+          "look_at_target",
+          "root",
+          "move_controller",
+          "lay_down_controller",
+          "lay_egg_controller"
+        ]
+      },
+      "animations": {
+        // Controllers
+        "move_controller": "controller.animation.cc.move",
+        "lay_down_controller": "controller.animation.cc.lay_down",
+        "look_at_target": "animation.cc.animal.look_at_target",
+        "lay_egg_controller": "controller.animation.cc.lay_egg",
+        "lay_egg": "animation.cc.penguin.lay_egg",
+
+        "root": "animation.cc.common.root",
+        "idle": "animation.cc.penguin.idle",
+        "walk": "animation.cc.penguin.walk",
+        "run": "animation.cc.penguin.run",
+        "swim": "animation.cc.penguin.swim",
+        "swim_idle": "animation.cc.penguin.swim",
+        "swim_run": "animation.cc.penguin.swim",
+        "sit": "animation.cc.penguin.sit",
+        "fly": "animation.cc.penguin.walk"
+      },
+      "render_controllers": ["controller.render.cc.penguin", "controller.render.cc.penguin.fish"],
+      "enable_attachables": false
+    }
+  }
+}

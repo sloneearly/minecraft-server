@@ -1,0 +1,22 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "cc:biomes/place_plains_tall_grass_weighted"
+    },
+    "features": [
+      [
+        "cc:biomes/place_plains_tall_grass_1",
+        1
+      ],
+      [
+        "cc:biomes/place_plains_tall_grass_2",
+        1
+      ],
+      [
+        "cc:biomes/place_plains_tall_grass_3",
+        1
+      ]
+    ]
+  }
+}

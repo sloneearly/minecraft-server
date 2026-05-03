@@ -1,0 +1,23 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "generation:glowing_jasper_feature"
+		},
+		"count": 5,
+		"replace_rules": [
+			{
+				"places_block": "block:glowing_jasper_block",
+				"may_replace": [
+					"block:jasper_block"
+				]
+			},
+			{
+				"places_block": "block:glowing_jasper_block",
+				"may_replace": [
+					"minecraft:deepslate"
+				]
+			}
+		]
+	}
+}

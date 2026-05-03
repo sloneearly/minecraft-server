@@ -1,0 +1,20 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "ore:cobalt_ore_feature"
+		},
+		"count": 12,
+		"replace_rules": [
+			{
+				"places_block": "ore:cobalt_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:deepslate"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,507 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:wheat",
+                  "quantity": 20,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 2,
+              "max_uses": 16,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:potato",
+                  "quantity": 26,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 2,
+              "max_uses": 16,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:beetroot",
+                  "quantity": 15,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 2,
+              "max_uses": 16,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:carrot",
+                  "quantity": 22,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 2,
+              "max_uses": 16,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:bread",
+                  "quantity": 6
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": 16,
+              "reward_exp": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 10,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:pumpkin",
+                  "quantity": 6,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:pumpkin_pie",
+                  "quantity": 4
+                }
+              ],
+              "trader_exp": 5,
+              "max_uses": 12,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:apple",
+                  "quantity": 4
+                }
+              ],
+              "trader_exp": 5,
+              "max_uses": 16,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {
+                      "item": "cc:banana_seeds"
+                    },
+                    {
+                      "item": "cc:bell_pepper_seeds"
+                    },
+                    {
+                      "item": "cc:broccoli_seeds"
+                    },
+                    {
+                      "item": "cc:cabbage_seeds"
+                    },
+                    {
+                      "item": "cc:cauliflower_seeds"
+                    },
+                    {
+                      "item": "cc:corn_seeds"
+                    },
+                    {
+                      "item": "cc:grape_seeds"
+                    },
+                    {
+                      "item": "cc:lemon_seeds"
+                    },
+                    {
+                      "item": "cc:orange_seeds"
+                    },
+                    {
+                      "item": "cc:pineapple_seeds"
+                    },
+                    {
+                      "item": "cc:tomato_seeds"
+                    }
+                  ],
+                  "quantity": 4
+                }
+              ],
+              "trader_exp": 15,
+              "max_uses": 12,
+              "reward_exp": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 70,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:melon_block",
+                  "quantity": 4,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 20,
+              "max_uses": 12,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 3,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:cookie",
+                  "quantity": 18
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 150,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:suspicious_stew:0",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "random_aux_value",
+                      "values": {
+                        "min": 0,
+                        "max": 5
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 15,
+              "max_uses": 12,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": {
+                    "min": 4,
+                    "max": 6
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:iron_scythe",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 15,
+              "max_uses": 12,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:cake",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 15,
+              "max_uses": 12,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 2,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {
+                      "item": "cc:apple_juice_jar"
+                    },
+                    {
+                      "item": "cc:berry_smoothie_jar"
+                    },
+                    {
+                      "item": "cc:grape_juice_jar"
+                    },
+                    {
+                      "item": "cc:lemonade_jar"
+                    },
+                    {
+                      "item": "cc:orange_juice_jar"
+                    },
+                    {
+                      "item": "cc:peanut_butter_jar"
+                    },
+                    {
+                      "item": "cc:strawberry_jam_jar"
+                    },
+                    {
+                      "item": "cc:tropical_smoothie_jar"
+                    }
+                  ],
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 15,
+              "max_uses": 12,
+              "reward_exp": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 250,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 3,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:golden_carrot",
+                  "quantity": 3
+                }
+              ],
+              "trader_exp": 30,
+              "max_uses": 12,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 4,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:speckled_melon",
+                  "quantity": 3
+                }
+              ],
+              "trader_exp": 30,
+              "max_uses": 12,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": {
+                    "min": 4,
+                    "max": 6
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:diamond_scythe",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "enchant_with_levels",
+                      "levels": {
+                        "min": 12,
+                        "max": 16
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 30,
+              "max_uses": 12,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": {
+                    "min": 20,
+                    "max": 25
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:market_trim_farming_1",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 2,
+              "max_uses": 1,
+              "reward_exp": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

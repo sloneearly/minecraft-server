@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§eFarmer's Toolkit",
+    "description": "Take control of your farm with Farmer’s Toolkit. A collection of essential tools that make managing animals and your crops easier than ever.",
+    "uuid": "bfc163c6-aead-4063-ae3d-a18d9ebe10f7",
+    "version": [2, 2, 0],
+    "min_engine_version": [1, 21, 80]
+  },
+  "modules": [
+    {
+      "description": "Pack Resources",
+      "type": "resources",
+      "uuid": "aeb4e1ed-572b-4059-8a05-8565b89835b8",
+      "version": [2, 2, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "a792af79-ae41-459b-9c28-9069865b474a",
+      "version": [2, 2, 0]
+    }
+  ],
+  "capabilities": ["pbr"]
+}

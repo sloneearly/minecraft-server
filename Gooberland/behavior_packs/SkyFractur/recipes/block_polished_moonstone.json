@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "polished_moonstone_4e056d5c"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:moonstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:polished_moonstone",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cc:grape_juice_jar"
+    },
+    "tags": ["cc:cooking_table"],
+    "pattern": ["&&&", "***", "#J#"],
+    "key": {
+      "J": {
+        "item": "cc:jar"
+      },
+      "#": {
+        "item": "cc:grape"
+      },
+      "*": {
+        "item": "cc:grape"
+      },
+      "&": {
+        "item": "cc:grape"
+      }
+    },
+    "result": "cc:grape_juice_jar"
+  }
+}

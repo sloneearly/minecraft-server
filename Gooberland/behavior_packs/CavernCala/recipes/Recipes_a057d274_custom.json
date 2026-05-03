@@ -1,0 +1,49 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_b1661cc9"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "item:palladium_scrap",
+        "data": 0
+      },
+      {
+        "item": "item:palladium_scrap",
+        "data": 0
+      },
+      {
+        "item": "item:palladium_scrap",
+        "data": 0
+      },
+      {
+        "item": "item:palladium_scrap",
+        "data": 0
+      },
+      {
+        "item": "item:platinum_ingot",
+        "data": 0
+      },
+      {
+        "item": "item:platinum_ingot",
+        "data": 0
+      },
+      {
+        "item": "item:platinum_ingot",
+        "data": 0
+      },
+      {
+        "item": "item:platinum_ingot",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "item:raw_palladium_ingot",
+      "count": 1
+    }
+  }
+}

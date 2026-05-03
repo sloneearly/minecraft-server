@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "item:rad_powder",
+            "menu_category": {
+              "category": "items",
+              "group": "itemGroup.name.items"
+            }
+    },
+    "components": {
+      "tag:minecraft:trim_materials": {},
+      "minecraft:icon": {
+        "texture": "item:rad_powder"
+      },
+      "minecraft:display_name": {
+        "value": "Rad Powder"
+      }
+    }
+  }
+}

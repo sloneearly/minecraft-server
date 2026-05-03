@@ -1,0 +1,151 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cc.weapon_stand",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 10, 0]
+				},
+				{
+					"name": "baseplate",
+					"parent": "root",
+					"pivot": [0, 10, 0],
+					"cubes": [
+						{
+							"origin": [-6, 1, 1],
+							"size": [2, 8, 2],
+							"uv": {
+								"north": {"uv": [16, 18], "uv_size": [2, 8]},
+								"east": {"uv": [18, 18], "uv_size": [2, 8]},
+								"south": {"uv": [0, 20], "uv_size": [2, 8]},
+								"west": {"uv": [20, 0], "uv_size": [2, 8]},
+								"up": {"uv": [20, 9], "uv_size": [2, 2]},
+								"down": {"uv": [20, 13], "uv_size": [2, -2]}
+							}
+						},
+						{
+							"origin": [-6, 1, -3],
+							"size": [2, 8, 2],
+							"uv": {
+								"north": {"uv": [16, 18], "uv_size": [2, 8]},
+								"east": {"uv": [18, 18], "uv_size": [2, 8]},
+								"south": {"uv": [0, 20], "uv_size": [2, 8]},
+								"west": {"uv": [20, 0], "uv_size": [2, 8]},
+								"up": {"uv": [20, 9], "uv_size": [2, 2]},
+								"down": {"uv": [20, 13], "uv_size": [2, -2]}
+							}
+						},
+						{
+							"origin": [4, 1, -3],
+							"size": [2, 8, 2],
+							"uv": {
+								"north": {"uv": [16, 18], "uv_size": [2, 8]},
+								"east": {"uv": [18, 18], "uv_size": [2, 8]},
+								"south": {"uv": [0, 20], "uv_size": [2, 8]},
+								"west": {"uv": [20, 0], "uv_size": [2, 8]},
+								"up": {"uv": [20, 9], "uv_size": [2, 2]},
+								"down": {"uv": [20, 13], "uv_size": [2, -2]}
+							}
+						},
+						{
+							"origin": [4, 1, 1],
+							"size": [2, 8, 2],
+							"uv": {
+								"north": {"uv": [16, 18], "uv_size": [2, 8]},
+								"east": {"uv": [18, 18], "uv_size": [2, 8]},
+								"south": {"uv": [0, 20], "uv_size": [2, 8]},
+								"west": {"uv": [20, 0], "uv_size": [2, 8]},
+								"up": {"uv": [20, 9], "uv_size": [2, 2]},
+								"down": {"uv": [20, 13], "uv_size": [2, -2]}
+							}
+						},
+						{
+							"origin": [-5, 1, -2],
+							"size": [0, 8, 4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0, 8]},
+								"east": {"uv": [16, 0], "uv_size": [4, 8]},
+								"south": {"uv": [0, 0], "uv_size": [0, 8]},
+								"west": {"uv": [16, 8], "uv_size": [4, 8]},
+								"up": {"uv": [0, 0], "uv_size": [0, 4]},
+								"down": {"uv": [0, 4], "uv_size": [0, -4]}
+							}
+						},
+						{
+							"origin": [5, 1, -2],
+							"size": [0, 8, 4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0, 8]},
+								"east": {"uv": [16, 0], "uv_size": [4, 8]},
+								"south": {"uv": [0, 0], "uv_size": [0, 8]},
+								"west": {"uv": [16, 8], "uv_size": [4, 8]},
+								"up": {"uv": [0, 0], "uv_size": [0, 4]},
+								"down": {"uv": [0, 4], "uv_size": [0, -4]}
+							}
+						},
+						{
+							"origin": [-8, 0, -5],
+							"size": [16, 1, 10],
+							"uv": {
+								"north": {"uv": [16, 16], "uv_size": [16, 1]},
+								"east": {"uv": [2, 20], "uv_size": [10, 1]},
+								"south": {"uv": [16, 17], "uv_size": [16, 1]},
+								"west": {"uv": [20, 8], "uv_size": [10, 1]},
+								"up": {"uv": [0, 0], "uv_size": [16, 10]},
+								"down": {"uv": [0, 20], "uv_size": [16, -10]}
+							}
+						}
+					]
+				},
+				{
+					"name": "waist",
+					"parent": "baseplate",
+					"pivot": [0, 5, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 5, 0]
+				},
+				{
+					"name": "leftarm",
+					"parent": "body",
+					"pivot": [5, 5, 0]
+				},
+				{
+					"name": "rightarm",
+					"parent": "body",
+					"pivot": [-5, 5, 0]
+				},
+				{
+					"name": "rightitem",
+					"parent": "rightarm",
+					"pivot": [-6.5, 9, 0],
+					"rotation": [0, -90, 7.5],
+					"locators": {
+						"locator": [-6, 8, -1]
+					}
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 16, 0]
+				},
+				{
+					"name": "hat",
+					"parent": "head",
+					"pivot": [0, 13, 0]
+				}
+			]
+		}
+	]
+}

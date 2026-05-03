@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "magenta_smoke_bomb_40a5e9d2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A",
+      "BC",
+      " D"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:string",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:magenta_dye",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:gunpowder",
+        "data": 0
+      },
+      "D": {
+        "item": "item:sulfur",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:magenta_smoke_bomb",
+      "count": 4
+    }
+  }
+}

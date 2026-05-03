@@ -1,0 +1,90 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:bear",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/cc/animals/entities/bear/brown",
+        "variant_1": "textures/cc/animals/entities/bear/black",
+        "variant_2": "textures/cc/animals/entities/bear/white"
+      },
+      "geometry": {
+        "default": "geometry.cc.bear"
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:bear_spawn_egg"
+      },
+      "particle_effects": {
+        "hunger_2": "cc:friendly",
+        "hunger_1": "cc:friendly_hunger"
+      },
+      "scripts": {
+        "initialize": [
+          "v.relative_run_speed = 0.6;",
+          "variable.pitch = 0;",
+          "variable.roll = 0;",
+          "v.max_leg_rot = 45;",
+          "v.max_leg_pos_h = 1;",
+          "v.max_leg_pos_v = 3;",
+          "v.body_rot = 5;",
+          "v.body_bump = 2;",
+          "v.head_bump = 1;",
+          "v.playback_multiplier = 0.8;"
+        ],
+        "pre_animation": [
+          "variable.pitch = ((math.clamp(q.is_on_ground ? 0 : q.body_x_rotation, -20, 20) - (math.clamp(q.vertical_speed * 1, -90, 5)) + ( 3 * variable.pitch)) / 4);",
+          // plane only rolls in the air
+          "variable.roll = ((q.is_on_ground ? 0 : (-q.yaw_speed) / 4) + (4 * v.roll)) / 5;"
+        ],
+        "animate": [
+          { "look_at_target": "!q.property('cc:is_eating')" },
+          "root",
+          "move_controller",
+          "attack_controller",
+          "lay_down_controller",
+          "hunger_controller",
+          "eat_controller",
+          "rotate_controller",
+          {
+            "baby_transform": "q.is_baby"
+          }
+        ]
+      },
+      "sound_effects": {
+        "eat": "random.eat"
+      },
+      "animations": {
+        // Controllers
+        "move_controller": "controller.animation.cc.move",
+        "attack_controller": "controller.animation.cc.delayed_attack",
+        "lay_down_controller": "controller.animation.cc.lay_down",
+
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.cc.baby_transform",
+
+        "root": "animation.cc.common.root",
+        "fly": "animation.cc.bear.walk",
+
+        "idle": "animation.cc.bear.idle",
+        "walk": "animation.cc.quadruped.walk",
+        "run": "animation.cc.bear.run",
+        "swim": "animation.cc.bear.walk",
+        "swim_idle": "animation.cc.bear.walk",
+        "swim_run": "animation.cc.bear.walk",
+        "sit": "animation.cc.crocodile.walk",
+        "delayed_attack": "animation.cc.bear.attack",
+        "hunger_controller": "controller.animation.cc.hunger.particle",
+        "eat": "animation.cc.bear.eat",
+        "eat_controller": "controller.animation.cc.common.eat",
+        "rotate": "animation.cc.quadruped.rotation",
+        "rotate_controller": "controller.animation.cc.quadruped.rotation"
+      },
+      "render_controllers": ["controller.render.cc.variant.3"],
+      "enable_attachables": true
+    }
+  }
+}

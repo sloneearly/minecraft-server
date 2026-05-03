@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "solarplate_pillar_fda7f811"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:solarplate_tile_slab",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:solarplate_pillar",
+      "count": 1
+    }
+  }
+}

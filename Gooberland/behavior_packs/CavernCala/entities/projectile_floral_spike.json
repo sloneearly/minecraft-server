@@ -1,0 +1,69 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.20.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "projectile:floral_spike",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:snowball"
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.1,
+				"height": 0.1
+			},
+			"minecraft:physics": {
+				"has_gravity": false
+			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			"minecraft:area_attack": {
+				"damage_range": 1,
+				"damage_per_tick": 17,
+				"cause": "contact",
+				"entity_filter": {
+					"all_of": [
+						{
+							"test": "is_family",
+							"value": "player",
+							"subject": "other"
+						}
+					]
+				}
+			},
+			"minecraft:timer": {
+				"time": [
+					8,
+					8
+				],
+				"time_down_event": {
+					"event": "on:hit"
+				}
+			},
+			"minecraft:scale": {
+				"value": 1.5
+			}
+		},
+		"events": {
+			"on:hit": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		}
+	}
+}

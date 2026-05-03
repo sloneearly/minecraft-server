@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "cc:beam",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "textures": {
+          "default": "textures/blocks/wool_colored_white"
+        },
+        "geometry": {
+          "default": "geometry.cc.beam"
+        },
+        "spawn_egg": {
+          "base_color": "#6f9b3c",
+          "overlay_color": "#704e2c"
+        },
+        "particle_effects": {
+          "beam": "cc:beam"
+        },
+  
+        "animations": {
+          "particle": "animation.cc.beam.particle"
+        },
+        "render_controllers": ["controller.render.cc.common"],
+        "enable_attachables": true
+      }
+    }
+  }
+  

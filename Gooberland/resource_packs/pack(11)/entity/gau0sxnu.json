@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:fire_spider",
+      "geometry": {
+        "default": "geometry.cc.spider"
+      },
+      "textures": {
+        "default": "textures/cc/ritual/entities/fire/fire_spider"
+      },
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "sound_effects": {
+        "ground_smash": "cc:ground_smash"
+      },
+      "particle_effects": {
+        "trail": "cc:mob_fire_orange"
+      },
+
+      "animations": {
+        "controller": "controller.animation.cc.charged_ranged_attack",
+        "charged_ranged_attack": "animation.cc.poison_spider.shoot",
+        "default_leg_pose": "animation.spider.default_leg_pose",
+        "look_at_target": "animation.spider.look_at_target",
+        "walk": "animation.spider.walk",
+        "move": "controller.animation.spider.move",
+        "particle": "animation.cc.trail.particle"
+      },
+
+      "scripts": {
+        
+        "animate": ["controller", "move", "particle"]
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:fire_spider_spawn_egg"
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:growing_plant_feature": {
+		"description": {
+			"identifier": "gen:dripping_pale_hanging_moss"
+		},
+		"height_distribution": [
+			[
+				{
+					"range_min": 1,
+					"range_max": 2
+				},
+				2
+			],
+			[
+				{
+					"range_min": 1,
+					"range_max": 3
+				},
+				3
+			],
+			[
+				{
+					"range_min": 1,
+					"range_max": 5
+				},
+				1
+			]
+		],
+		"growth_direction": "DOWN",
+		"age": {
+			"range_min": 2,
+			"range_max": 4
+		},
+		"body_blocks": [
+			[
+				"minecraft:pale_hanging_moss",
+				3
+			],
+			[
+				"minecraft:pale_hanging_moss",
+				1
+			]
+		],
+		"head_blocks": [
+			[
+				"minecraft:pale_hanging_moss",
+				10
+			],
+			[
+				"minecraft:pale_hanging_moss",
+				1
+			]
+		],
+		"allow_water": true
+	}
+}

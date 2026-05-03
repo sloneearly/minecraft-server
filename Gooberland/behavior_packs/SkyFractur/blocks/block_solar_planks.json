@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "block:solar_planks",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.planks"
+			}
+		},
+		"components": {
+			"tag:wood": {},
+			"tag:minecraft:is_axe_item_destructible": {},
+			"tag:planks": {},
+			"tag:minecraft:planks": {},
+			"minecraft:light_emission": 12,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 3
+			},
+			"minecraft:light_dampening": 0
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "cc:tomato_seeds"
+    },
+    "tags": ["cc:cooking_table", "crafting_table"],
+    "ingredients": [
+      {
+        "item": "cc:tomato"
+      }
+    ],
+    "result": {
+      "item": "cc:tomato_seeds"
+    }
+  }
+}

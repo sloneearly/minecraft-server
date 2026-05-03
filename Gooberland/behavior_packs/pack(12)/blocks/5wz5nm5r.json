@@ -1,0 +1,190 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:white_cushion",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "cc:variant": [
+                    "stool",
+                    "chair"
+                ]
+            }
+        },
+        "components": {
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "none"
+            },
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "minecraft:display_name": "%cc.white_cushion\n%cc.category.furniture",
+            "tag:cc:cushion": {},
+            "tag:breathable": {},
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "cc:seat": {},
+            "minecraft:map_color": "#ffffff",
+            "minecraft:geometry": {
+                "identifier": "geometry.cc.cushion",
+                "bone_visibility": {
+                    "stool": false,
+                    "chair": true
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "render_method": "alpha_test",
+                    "texture": "cc:white_cushion"
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -7,
+                    0,
+                    -7
+                ],
+                "size": [
+                    14,
+                    9,
+                    14
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -7,
+                    7,
+                    -7
+                ],
+                "size": [
+                    14,
+                    2,
+                    14
+                ]
+            },
+            "minecraft:transformation": {
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "translation": [
+                    0,
+                    -0.99,
+                    0
+                ],
+                "scale": [
+                    1.05,
+                    1.05,
+                    1.05
+                ]
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up"
+                        ],
+                        "block_filter": [
+                            {
+                                "tags": "query.any_tag('cc:chair', 'cc:stool')"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "can_contain_liquid": true,
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.8,
+                "item_specific_speeds": [
+                    {
+                        "item": "minecraft:shears",
+                        "destroy_speed": 0.1666666666666667
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('cc:variant') == 'stool'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.cc.cushion",
+                        "bone_visibility": {
+                            "stool": true,
+                            "chair": false
+                        }
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            9,
+                            12
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6,
+                            6,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            3,
+                            12
+                        ]
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "translation": [
+                            0,
+                            -0.875,
+                            0
+                        ],
+                        "scale": [
+                            1.05,
+                            1.05,
+                            1.05
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:variant') == 'chair'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.cc.cushion",
+                        "bone_visibility": {
+                            "stool": false,
+                            "chair": true
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

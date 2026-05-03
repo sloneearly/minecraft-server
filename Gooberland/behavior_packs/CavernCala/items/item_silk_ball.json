@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "item:silk_ball",
+            "menu_category": {
+              "category": "equipment",
+              "group": "itemGroup.name.equipment"
+			}
+            },
+    "components": {
+			"minecraft:max_stack_size": 64,
+      "minecraft:icon": {
+        "texture": "silk_ball"
+      },
+      "minecraft:display_name": {
+        "value": "Silk Ball"
+      }, 
+      "minecraft:throwable": {
+        "do_swing_animation": true
+      },
+      "minecraft:projectile": {
+        "projectile_entity": "projectile:silk_ball"
+      }
+    }
+  }
+}

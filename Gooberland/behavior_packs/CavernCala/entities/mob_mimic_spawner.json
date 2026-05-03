@@ -1,0 +1,57 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.20.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mob:mimic_spawner",
+			"runtime_identifier": "minecraft:snowball",
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:timer": {
+				"time": [
+					0,
+					0
+				],
+				"time_down_event": {
+					"event": "e"
+				}
+			},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
+			}
+		},
+		"events": {
+			"e": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"summon mob:mimic",
+								"setblock ~~~ air"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

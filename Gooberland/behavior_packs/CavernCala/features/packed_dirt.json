@@ -1,0 +1,12 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "gen:packed_dirt"
+		},
+		"features": [
+			"gen:packed_dirt_top",
+			"gen:pale_hangning_moss_top"
+		]
+	}
+}

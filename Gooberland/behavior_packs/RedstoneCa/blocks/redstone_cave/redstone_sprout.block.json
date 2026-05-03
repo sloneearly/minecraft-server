@@ -1,0 +1,57 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wan_redcave:redstone_sprout",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:display_name": "wan_redcave:redstone_sprout.name",
+      "minecraft:selection_box": {
+        "origin": [
+          -5,
+          0,
+          -5
+        ],
+        "size": [
+          10,
+          5,
+          10
+        ]
+      },
+      "minecraft:collision_box": false,
+      "minecraft:loot": "loot_tables/wan/redcave/block/redstone.json",
+      "minecraft:geometry": {
+        "identifier": "geometry.wan_redcave.redstone_flora"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "wan_redcave:redstone_sprout",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:light_emission": 6,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.1
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": false,
+            "liquid_type": "water",
+            "on_liquid_touches": "broken"
+          }
+        ]
+      },
+      "tag:minecraft:is_hoe_item_destructible": {},
+      "tag:minecraft:is_shears_item_destructible": {}
+    }
+  }
+}

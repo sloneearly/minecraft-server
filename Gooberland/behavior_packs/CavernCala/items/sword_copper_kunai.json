@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sword:copper_kunai",
+            "menu_category": {
+              "category": "equipment"
+			}
+            },
+    "components": {
+      "minecraft:hand_equipped": true,
+      "minecraft:icon": {
+        "texture": "sword:copper_kunai"
+      },
+      "minecraft:display_name": {
+        "value": "Copper Kunai\n\n\n§93 Throwing damage"
+      }, 
+      "minecraft:max_stack_size": 64,
+      "minecraft:throwable": {
+        "do_swing_animation": true
+      },
+      "minecraft:projectile": {
+        "projectile_entity": "sword:copper_kunai"
+      }
+    }
+  }
+}

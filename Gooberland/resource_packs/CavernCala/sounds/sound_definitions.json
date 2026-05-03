@@ -1,0 +1,68 @@
+{
+	"format_version": "1.20.30",
+	"sound_definitions": {
+		"trumpet": {
+			"category": "record",
+			"sounds": [
+				"sounds/trumpet"
+			],
+			"volume": 5
+		},
+		"clarinet": {
+			"category": "record",
+			"sounds": [
+				"sounds/clarinet"
+			],
+			"volume": 5
+		},
+		"whistle": {
+			"category": "record",
+			"sounds": [
+				"sounds/whistle"
+			],
+			"volume": 5
+		},
+		"cowbell": {
+			"category": "record",
+			"sounds": [
+				"sounds/cowbell"
+			],
+			"volume": 5
+		},
+		"gong": {
+			"category": "record",
+			"sounds": [
+				"sounds/gong"
+			],
+			"volume": 5
+		},
+		"guitar": {
+			"category": "record",
+			"sounds": [
+				"sounds/guitar"
+			],
+			"volume": 5
+		},
+		"drum": {
+			"category": "record",
+			"sounds": [
+				"sounds/drum"
+			],
+			"volume": 5
+		},
+		"harmonica": {
+			"category": "record",
+			"sounds": [
+				"sounds/harmonica"
+			],
+			"volume": 5
+		},
+		"harp": {
+			"category": "record",
+			"sounds": [
+				"sounds/harp"
+			],
+			"volume": 5
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "andesite_pillar_2260e2b9"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:polished_andesite_slab",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:andesite_pillar",
+      "count": 1
+    }
+  }
+}

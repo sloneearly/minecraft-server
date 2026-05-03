@@ -1,0 +1,9 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "cc:reed_sequence"
+    },
+    "features": ["cc:reed_bottom_feature", "cc:reed_top_scatter"]
+  }
+}

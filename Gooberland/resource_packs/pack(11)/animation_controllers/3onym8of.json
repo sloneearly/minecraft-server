@@ -1,0 +1,253 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc.move": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "animations": ["idle"],
+          "transitions": [
+            {
+              "walk": "q.ground_speed >= 0.1 && !q.is_in_water"
+            },
+            {
+              "swim_idle": "q.is_in_water && q.ground_speed < 0.05"
+            },
+            {
+              "swim": "q.is_in_water && q.ground_speed >= 0.1"
+            },
+            {
+              "swim_run": "q.is_in_water && q.modified_move_speed > v.relative_run_speed"
+            },
+            {
+              "fly": "query.can_fly && !q.is_on_ground"
+            }
+          ],
+          "blend_transition": 0.3
+        },
+        "walk": {
+          "animations": ["walk"],
+          "transitions": [
+            {
+              "idle": "q.ground_speed == 0 && !q.is_in_water"
+            },
+            {
+              "run": "q.modified_move_speed > v.relative_run_speed && !q.is_in_water"
+            },
+            {
+              "swim_idle": "q.is_in_water && q.ground_speed < 0.05"
+            },
+            {
+              "swim": "q.is_in_water && q.ground_speed >= 0.1"
+            },
+            {
+              "swim_run": "q.is_in_water && q.modified_move_speed > v.relative_run_speed"
+            },
+            {
+              "fly": "query.can_fly && !q.is_on_ground"
+            }
+          ],
+          "blend_transition": 0.3
+        },
+        "run": {
+          "animations": ["run"],
+          "transitions": [
+            {
+              "idle": "q.ground_speed == 0  && !q.is_in_water"
+            },
+            {
+              "walk": "q.ground_speed >= 0.1 && q.modified_move_speed < v.relative_run_speed && !q.is_in_water"
+            },
+            {
+              "swim_idle": "q.is_in_water && q.ground_speed < 0.05"
+            },
+            {
+              "swim": "q.is_in_water && q.ground_speed >= 0.1"
+            },
+            {
+              "swim_run": "q.is_in_water && q.modified_move_speed > v.relative_run_speed"
+            },
+            {
+              "fly": "query.can_fly && !q.is_on_ground"
+            }
+          ],
+          "blend_transition": 0.3
+        },
+        "swim_idle": {
+          "animations": ["swim_idle"],
+          "transitions": [
+            {
+              "idle": "q.ground_speed < 0.05 && !q.is_in_water"
+            },
+            {
+              "run": "q.modified_move_speed > v.relative_run_speed && !q.is_in_water"
+            },
+            {
+              "walk": "q.ground_speed >= 0.1 && !q.is_in_water"
+            },
+            {
+              "swim": "q.is_in_water && q.ground_speed >= 0.1"
+            },
+            {
+              "swim_run": "q.is_in_water && q.modified_move_speed > v.relative_run_speed"
+            },
+            {
+              "fly": "query.can_fly && !q.is_on_ground"
+            }
+          ],
+          "blend_transition": 0.4
+        },
+        "swim": {
+          "animations": ["swim"],
+          "transitions": [
+            {
+              "idle": "q.ground_speed < 0.05 && !q.is_in_water"
+            },
+            {
+              "walk": "q.ground_speed >= 0.1 && !q.is_in_water"
+            },
+            {
+              "run": "q.modified_move_speed > v.relative_run_speed && !q.is_in_water"
+            },
+            {
+              "swim_idle": "q.is_in_water && q.ground_speed < 0.05"
+            },
+            {
+              "swim_run": "q.is_in_water && q.modified_move_speed > v.relative_run_speed"
+            },
+            {
+              "fly": "query.can_fly && !q.is_on_ground"
+            }
+          ],
+          "blend_transition": 0.4
+        },
+        "swim_run": {
+          "animations": ["swim_run"],
+          "transitions": [
+            {
+              "idle": "q.ground_speed < 0.05 && !q.is_in_water"
+            },
+            {
+              "walk": "q.ground_speed >= 0.1 && !q.is_in_water"
+            },
+            {
+              "run": "q.modified_move_speed > v.relative_run_speed && !q.is_in_water"
+            },
+            {
+              "swim_idle": "q.is_in_water && q.ground_speed < 0.05"
+            },
+            {
+              "swim": "q.is_in_water && q.ground_speed >= 0.1 && q.modified_move_speed < v.relative_run_speed"
+            },
+            {
+              "fly": "query.can_fly && !q.is_on_ground"
+            }
+          ],
+          "blend_transition": 0.4
+        },
+        "fly": {
+          "animations": ["fly"],
+          "transitions": [
+            {
+              "idle": "query.is_on_ground"
+            }
+          ]
+        }
+      }
+    },
+
+    "controller.animation.cc.move.2": {
+      "initial_state": "walk",
+      "states": {
+        "walk": {
+          "animations": ["walk"],
+          "transitions": [
+            {
+              "run": "q.modified_move_speed > v.relative_run_speed && !q.is_in_water"
+            },
+            {
+              "swim_idle": "q.is_in_water && q.ground_speed < 0.05"
+            },
+            {
+              "swim": "q.is_in_water && q.ground_speed >= 0.1"
+            },
+            {
+              "swim_run": "q.is_in_water && q.modified_move_speed > v.relative_run_speed"
+            }
+          ],
+          "blend_transition": 0.3
+        },
+        "run": {
+          "animations": ["run"],
+          "transitions": [
+            {
+              "walk": "q.ground_speed >= 0.1 && q.modified_move_speed < v.relative_run_speed && !q.is_in_water"
+            },
+            {
+              "swim_idle": "q.is_in_water && q.ground_speed < 0.05"
+            },
+            {
+              "swim": "q.is_in_water && q.ground_speed >= 0.1"
+            },
+            {
+              "swim_run": "q.is_in_water && q.modified_move_speed > v.relative_run_speed"
+            }
+          ],
+          "blend_transition": 0.3
+        },
+        "swim_idle": {
+          "animations": ["swim_idle"],
+          "transitions": [
+            {
+              "run": "q.modified_move_speed > v.relative_run_speed && !q.is_in_water"
+            },
+            {
+              "walk": "q.ground_speed >= 0.1 && !q.is_in_water"
+            },
+            {
+              "swim": "q.is_in_water && q.ground_speed >= 0.1"
+            },
+            {
+              "swim_run": "q.is_in_water && q.modified_move_speed > v.relative_run_speed"
+            }
+          ],
+          "blend_transition": 0.4
+        },
+        "swim": {
+          "animations": ["swim"],
+          "transitions": [
+
+            {
+              "walk": "q.ground_speed >= 0.1 && !q.is_in_water"
+            },
+            {
+              "run": "q.modified_move_speed > v.relative_run_speed && !q.is_in_water"
+            },
+            {
+              "swim_idle": "q.is_in_water && q.ground_speed < 0.05"
+            },
+            {
+              "swim_run": "q.is_in_water && q.modified_move_speed > v.relative_run_speed"
+            }
+          ],
+          "blend_transition": 0.4
+        },
+        "swim_run": {
+          "animations": ["swim_run"],
+          "transitions": [
+            {
+              "run": "q.modified_move_speed > v.relative_run_speed && !q.is_in_water"
+            },
+            {
+              "swim_idle": "q.is_in_water && q.ground_speed < 0.05"
+            },
+            {
+              "swim": "q.is_in_water && q.ground_speed >= 0.1 && q.modified_move_speed < v.relative_run_speed"
+            }
+          ],
+          "blend_transition": 0.4
+        }
+      }
+    }
+  }
+}

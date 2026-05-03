@@ -1,0 +1,23 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "cc:pale_oak_tree_structure_1"
+    },
+    "structure_name": "cc:tree/pale_oak_tree.1",
+    "adjustment_radius": 0,
+    "facing_direction": "south",
+    "constraints": {
+      "grounded": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air",
+          "minecraft:pale_oak_leaves",
+          "minecraft:grass",
+          "minecraft:pale_moss_carpet",
+          "minecraft:short_grass"
+        ]
+      }
+    }
+  }
+}

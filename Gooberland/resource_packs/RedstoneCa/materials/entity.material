@@ -1,0 +1,8 @@
+{
+    "materials": {
+        "version": "1.0.0",
+        "wan_redcave_animated_emissive_alpha:entity_emissive_alpha": {
+            "+defines": ["USE_UV_ANIM"]
+        }
+    }
+}

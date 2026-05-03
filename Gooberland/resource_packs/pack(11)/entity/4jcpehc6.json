@@ -1,0 +1,48 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:poison_zombie",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/cc/ritual/entities/poison/poison_zombie"
+      },
+      "geometry": {
+        "default": "geometry.cc.zombie"
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:poison_zombie_spawn_egg"
+      },
+      "animations": {
+        "humanoid_big_head": "animation.humanoid.big_head",
+        "look_at_target_default": "animation.humanoid.look_at_target.default",
+        "move": "animation.humanoid.move",
+        "bob": "animation.humanoid.bob",
+        "zombie_attack_bare_hand": "animation.zombie.attack_bare_hand",
+        "particle": "animation.cc.trail.particle"
+      },
+      "particle_effects": {
+        "trail": "cc:poison_smoke"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+          "v.alpha = 0.7; v.red = 0.2; v.blue = 0.2; v.green = 1.0;"
+        ],
+        "animate": [
+          "move",
+          "zombie_attack_bare_hand",
+          "look_at_target_default",
+          "bob",
+          "particle",
+          { "humanoid_big_head": "q.is_baby" }
+        ]
+      },
+      "render_controllers": ["controller.render.cc.common"],
+      "enable_attachables": true
+    }
+  }
+}

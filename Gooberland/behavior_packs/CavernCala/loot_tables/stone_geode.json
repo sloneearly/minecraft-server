@@ -1,0 +1,86 @@
+//bridge-file-version: #1
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "item:copper_stone_geode",
+					"data": 0,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						},
+						{
+							"function": "set_data",
+							"data": 0
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "item:iron_stone_geode",
+					"data": 0,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						},
+						{
+							"function": "set_data",
+							"data": 0
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "item:gold_stone_geode",
+					"data": 0,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						},
+						{
+							"function": "set_data",
+							"data": 0
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "item:titanium_stone_geode",
+					"data": 0,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						},
+						{
+							"function": "set_data",
+							"data": 0
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,118 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "cc:village/streets/taiga_village_streets"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cc/taiga_village_street_corner1",
+          "processors": "cc:common_path",
+          "projection": "terrain_matching"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cc/taiga_village_street_corner2",
+          "processors": "cc:common_path",
+          "projection": "terrain_matching"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cc/taiga_village_street_corner3",
+          "processors": "cc:common_path",
+          "projection": "terrain_matching"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cc/taiga_village_street_corner4",
+          "processors": "cc:common_path",
+          "projection": "terrain_matching"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cc/taiga_village_street_straight1",
+          "processors": "cc:common_path",
+          "projection": "terrain_matching"
+        },
+        "weight": 3
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cc/taiga_village_street_straight2",
+          "processors": "cc:common_path",
+          "projection": "terrain_matching"
+        },
+        "weight": 3
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cc/taiga_village_street_straight3",
+          "processors": "cc:common_path",
+          "projection": "terrain_matching"
+        },
+        "weight": 2
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cc/taiga_village_street_straight4",
+          "processors": "cc:common_path",
+          "projection": "terrain_matching"
+        },
+        "weight": 3
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cc/taiga_village_street_crossroad1",
+          "processors": "cc:common_path",
+          "projection": "terrain_matching"
+        },
+        "weight": 2
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cc/taiga_village_street_crossroad2",
+          "processors": "cc:common_path",
+          "projection": "terrain_matching"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cc/taiga_village_street_crossroad3",
+          "processors": "cc:common_path",
+          "projection": "terrain_matching"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cc/taiga_village_street_crossroad4",
+          "processors": "cc:common_path",
+          "projection": "terrain_matching"
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

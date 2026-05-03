@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "gen:diorite_caves"
+		},
+		"features": [
+			"gen:diorite_patch_feature",
+			"gen:diorite_top",
+			"gen:diorite_spike1_feature",
+			"gen:diorite_spike2_feature"
+		]
+	}
+}

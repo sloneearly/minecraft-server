@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rose_gold_harmonica_5998a60b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:rose_gold_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:rose_gold_harmonica",
+      "count": 1
+    }
+  }
+}

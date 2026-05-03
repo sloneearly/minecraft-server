@@ -1,0 +1,59 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "cc:bear",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:brightness_filter": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 8
+        },
+        "minecraft:herd": {
+          "min_size": 2,
+          "max_size": 4
+        },
+        "minecraft:spawn_event": {
+          "event": "cc:spawn_white"
+        },
+
+        "minecraft:biome_filter": {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "roofed_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:dead_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:old_growth_dead_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:ominous_woods"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:mystic_grove"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

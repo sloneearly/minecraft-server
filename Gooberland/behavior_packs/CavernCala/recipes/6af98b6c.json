@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_b352ed54"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "B B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "item:energized_sodalite_fragment",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "helmet:energized_mining_helmet",
+      "count": 1
+    }
+  }
+}

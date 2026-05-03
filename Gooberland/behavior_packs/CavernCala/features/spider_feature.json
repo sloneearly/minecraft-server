@@ -1,0 +1,19 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "gen:spider_feature"
+		},
+		"features": [
+			[
+				"gen:spider1_feature",
+				10
+			],
+			[
+				"gen:spider2_feature",
+				1
+			]
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "tt:crimson_rod",
+            "menu_category": {
+                "category": "items",
+                "is_hidden_in_commands": false 
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "crimson_rod"
+                }
+            }
+        }
+    }
+}

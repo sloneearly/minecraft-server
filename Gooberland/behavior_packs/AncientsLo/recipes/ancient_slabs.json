@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ancients:ancient_slabs"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"SSS"
+		],
+		"key": {
+			"S": {
+				"item": "ancients:ancient_planks"
+			}
+		},
+		"unlock":[
+			{
+				"item": "ancients:ancient_planks"
+			}
+		],
+		"result": {
+			"item": "ancients:ancient_slab",
+			"count": 6
+		}
+	}
+}

@@ -1,0 +1,155 @@
+﻿## BLOCKS - Machinery
+wan_redcave:autofarmer_t1.name=Autofarmer I\nÂ§u@Redstone Caves\n\nÂ§gAutomatically produces a selected crop.Â§r
+wan_redcave:autofarmer_t2.name=Autofarmer II\nÂ§u@Redstone Caves\n\nÂ§gHarvests crops in a designated area.Â§r
+wan_redcave:blue_network_core.name=Blue Network Core\nÂ§u@Redstone Caves\n\nÂ§gPower and connec all devices in the area.Â§r
+wan_redcave:crusher_t1.name=Crusher I\nÂ§u@Redstone Caves\n\nÂ§gPulverizes ores and other blocks.Â§r
+wan_redcave:crusher_t2.name=Crusher II\nÂ§u@Redstone Caves\n\nÂ§gPulverizes ores and other blocks.Â§r
+wan_redcave:electric_oven_t1.name=Electric Oven I\nÂ§u@Redstone Caves\n\nÂ§gA fuel-free furnace.Â§r
+wan_redcave:electric_oven_t2.name=Electric Oven II\nÂ§u@Redstone Caves\n\nÂ§gA fuel-free furnace.Â§r
+wan_redcave:generator_t1.name=Generator I\nÂ§u@Redstone Caves\n\nÂ§gAdd 2 RE to the network.Â§r
+wan_redcave:generator_t2.name=Generator II\nÂ§u@Redstone Caves\n\nÂ§gAdd 10 RE to the network.Â§r
+wan_redcave:network_access_panel.name=Network Access Panel\nÂ§u@Redstone Caves\n\nÂ§gActs as interface for the network.Â§r
+wan_redcave:quarry.name=Quarry\nÂ§u@Redstone Caves\n\nÂ§gAutomatically excavates a predefined area.Â§r
+wan_redcave:red_network_core.name=Red Network Core\nÂ§u@Redstone CavesÂ§r
+wan_redcave:wireless_hopper.name=Wireless Hopper\nÂ§u@Redstone Caves\n\nÂ§gTransfers items wirelessly.Â§r
+
+## BLOCKS - Redstone Cave
+wan_redcave:hematite_redstone_inclusion.name=Hematite Redstone Inclusion\nÂ§u@Redstone CavesÂ§r
+wan_redcave:hematite_redstone_ore.name=Hematite Redstone Ore\nÂ§u@Redstone CavesÂ§r
+wan_redcave:hematite_stalactite_tip.name=Hematite Stalactite Tip\nÂ§u@Redstone CavesÂ§r
+wan_redcave:hematite_stalactite.name=Hematite Stalactite\nÂ§u@Redstone CavesÂ§r
+wan_redcave:hematite_stalagmite_tip.name=Hematite Stalagmite Tip\nÂ§u@Redstone CavesÂ§r
+wan_redcave:hematite_stalagmite.name=Hematite Stalagmite\nÂ§u@Redstone CavesÂ§r
+wan_redcave:hematite.name=Hematite\nÂ§u@Redstone CavesÂ§r
+wan_redcave:magnetite_redlight_curve.name=Magnetite Redlight Curve\nÂ§u@Redstone CavesÂ§r
+wan_redcave:magnetite_redlight_horizontal.name=Magnetite Redlight Horizontal\nÂ§u@Redstone CavesÂ§r
+wan_redcave:magnetite_redlight_intersection.name=Magnetite Redlight Intersection\nÂ§u@Redstone CavesÂ§r
+wan_redcave:magnetite_redlight_perpendicular.name=Magnetite Redlight Perpendicular\nÂ§u@Redstone CavesÂ§r
+wan_redcave:magnetite_redlight_vertical.name=Magnetite Redlight Vertical\nÂ§u@Redstone CavesÂ§r
+wan_redcave:magnetite_redstone_inclusion.name=Magnetite Redstone Inclusion\nÂ§u@Redstone CavesÂ§r
+wan_redcave:magnetite_redstone_ore.name=Magnetite Redstone Ore\nÂ§u@Redstone CavesÂ§r
+wan_redcave:magnetite_soil.name=Magnetite Soil\nÂ§u@Redstone CavesÂ§r
+wan_redcave:magnetite.name=Magnetite\nÂ§u@Redstone CavesÂ§r
+wan_redcave:polished_magnetite.name=Polished Magnetite\nÂ§u@Redstone CavesÂ§r
+wan_redcave:pure_redstone_block.name=Pure Redstone Block\nÂ§u@Redstone CavesÂ§r
+wan_redcave:pure_redstone_cluster.name=Pure Redstone Cluster\nÂ§u@Redstone CavesÂ§r
+wan_redcave:pure_redstone_large_bud.name=Pure Redstone Large Bud\nÂ§u@Redstone CavesÂ§r
+wan_redcave:pure_redstone_medium_bud.name=Pure Redstone Medium Bud\nÂ§u@Redstone CavesÂ§r
+wan_redcave:pure_redstone_small_bud.name=Pure Redstone Small Bud\nÂ§u@Redstone CavesÂ§r
+wan_redcave:redstone_drip.name=Redstone Drip\nÂ§u@Redstone CavesÂ§r
+wan_redcave:redstone_glass.name=Redstone Glass\nÂ§u@Redstone CavesÂ§r
+wan_redcave:redstone_growth_short.name=Redstone Growth Short\nÂ§u@Redstone CavesÂ§r
+wan_redcave:redstone_growth_tall.name=Redstone Growth Tall\nÂ§u@Redstone CavesÂ§r
+wan_redcave:redstone_sprout.name=Redstone Sprout\nÂ§u@Redstone CavesÂ§r
+wan_redcave:redstone_dirt.name=Redstone Dirt
+wan_redcave:redstone_grass_block.name=Redstone Grass Block
+
+## ENTITY
+entity.wan_redcave:biome_checker.name= 
+
+## ENTITY - Projectile
+entity.wan_redcave:fireball_spit.name=Fireball Spit
+entity.wan_redcave:laser_projectile.name=Laser Projectile
+
+## ENTITY - Redstone Cave
+entity.wan_redcave:redstone_crawler.name=Redstone Crawler
+entity.wan_redcave:redstone_creeper.name=Redstone Creeper
+entity.wan_redcave:redstone_hound.name=Redstone Hound
+entity.wan_redcave:redstone_longleg.name=Redstone Longleg
+entity.wan_redcave:redstone_tyrant.name=Redstone Tyrant
+entity.wan_redcave:redstone_wing.name=Redstone Wing
+
+## ENTITY - Robots
+entity.wan_redcave:flying_drone.name=Flying Drone
+entity.wan_redcave:little_tyrant.name=Little Tyrant
+
+## ITEM CATALOG
+wan_redcave:hematite=Hematite
+wan_redcave:machinery=Machinery
+wan_redcave:magnetite=Magnetite
+wan_redcave:pure_redstone=Pure Redstone
+wan_redcave:redstone=Redstone
+wan_redcave:tools=Tools
+
+## ITEMS
+wan_redcave:bluestone_chip.name=Bluestone Chip\nÂ§u@Redstone CavesÂ§r
+wan_redcave:bluestone.name=Bluestone\nÂ§u@Redstone CavesÂ§r
+wan_redcave:drone_capsule.name=Drone Capsule\nÂ§u@Redstone CavesÂ§r
+wan_redcave:guide_book.name=Redstone Caves Wiki\nÂ§u@Redstone CavesÂ§r
+wan_redcave:holographic_touchpad.name=Holographic Touchpad\nÂ§u@Redstone Caves\n\nÂ§r
+wan_redcave:magnetite_ingot.name=Magnetite Ingot\nÂ§u@Redstone CavesÂ§r
+wan_redcave:magnetite_shard.name=Magnetite Shard\nÂ§u@Redstone CavesÂ§r
+wan_redcave:portable_generator_t1.name=Portable Generator I\nÂ§u@Redstone Caves\n\nÂ§gAdd 3 RE to your inventory.Â§r
+wan_redcave:portable_generator_t2.name=Portable Generator II\nÂ§u@Redstone Caves\n\nÂ§gAdd 15 RE to your inventory.Â§r
+wan_redcave:pure_redstone.name=Pure Redstone\nÂ§u@Redstone CavesÂ§r
+wan_redcave:redstone_chip.name=Redstone Chip\nÂ§u@Redstone CavesÂ§r
+wan_redcave:redstone_heart.name=Redstone Heart\nÂ§u@Redstone CavesÂ§r
+
+## ITEMS - Tools
+wan_redcave:blaster_t1.name=Bluestone Blaster Tier I\nÂ§u@Redstone Caves\n\nÂ§gCost: 4RE.Â§r
+wan_redcave:blaster_t2.name=Bluestone Blaster Tier II\nÂ§u@Redstone Caves\n\nÂ§gCost: 14RE.Â§r
+wan_redcave:electric_drill_t1.name=Bluestone Drill I\nÂ§u@Redstone Caves\n\nÂ§gCost: 2RE.Â§r
+wan_redcave:electric_drill_t2.name=Bluestone Drill II\nÂ§u@Redstone Caves\n\nÂ§gCost: 8RE.Â§r
+wan_redcave:tech_boots_t1.name=Bluestone Tech Boots I\nÂ§u@Redstone CavesÂ§r
+wan_redcave:tech_boots_t2.name=Bluestone Tech Boots II\nÂ§u@Redstone CavesÂ§r
+wan_redcave:tech_chestplate_t1.name=Bluestone Tech Chestplate I\nÂ§u@Redstone CavesÂ§r
+wan_redcave:tech_chestplate_t2.name=Bluestone Tech Chestplate II\nÂ§u@Redstone CavesÂ§r
+wan_redcave:tech_helmet_t1.name=Bluestone Tech Helmet I\nÂ§u@Redstone CavesÂ§r
+wan_redcave:tech_helmet_t2.name=Bluestone Tech Helmet II\nÂ§u@Redstone CavesÂ§r
+wan_redcave:tech_leggings_t1.name=Bluestone Tech Leggings I\nÂ§u@Redstone CavesÂ§r
+wan_redcave:tech_leggings_t2.name=Bluestone Tech Leggings II\nÂ§u@Redstone CavesÂ§r
+wan_redcave:tech_sword_t1.name=Bluestone Tech Sword I\nÂ§u@Redstone Caves\n\nÂ§gCost: 8RE.Â§r
+wan_redcave:tech_sword_t2.name=Bluestone Tech Sword II\nÂ§u@Redstone Caves\n\nÂ§gCost: 12RE.Â§r
+wan_redcave:tech_shield_t1.name=Bluestone Tech Shield I\nÂ§u@Redstone Caves\n\nÂ§gCost: 12RE.Â§r
+wan_redcave:tech_shield_t2.name=Bluestone Tech Shield II\nÂ§u@Redstone Caves\n\nÂ§gCost: 12RE.Â§r
+wan_redcave:techsuit_control_t1.name=Techsuit Control I\nÂ§u@Redstone Caves\n\nÂ§gCost: 4RE.Â§r
+wan_redcave:techsuit_control_t2.name=Techsuit Control II\nÂ§u@Redstone Caves\n\nÂ§gCost: 15RE.Â§r
+
+## ITEMS - Spawn Eggs
+item.spawn_egg.entity.wan_redcave:flying_drone.name=Flying Drone Spawn Egg\nÂ§u@Redstone CavesÂ§r
+item.spawn_egg.entity.wan_redcave:little_tyrant.name=Little Tyrant Spawn Egg\nÂ§u@Redstone CavesÂ§r
+item.spawn_egg.entity.wan_redcave:redstone_crawler.name=Redstone Crawler Spawn Egg\nÂ§u@Redstone CavesÂ§r
+item.spawn_egg.entity.wan_redcave:redstone_creeper.name=Redstone Creeper Spawn Egg\nÂ§u@Redstone CavesÂ§r
+item.spawn_egg.entity.wan_redcave:redstone_hound.name=Redstone Hound Spawn Egg\nÂ§u@Redstone CavesÂ§r
+item.spawn_egg.entity.wan_redcave:redstone_longleg.name=Redstone Longleg Spawn Egg\nÂ§u@Redstone CavesÂ§r
+item.spawn_egg.entity.wan_redcave:redstone_tyrant.name=Redstone Tyrant Spawn Egg\nÂ§u@Redstone CavesÂ§r
+item.spawn_egg.entity.wan_redcave:redstone_wing.name=Red Wing Spawn Egg\nÂ§u@Redstone CavesÂ§r
+
+## ITEM TEXTS - Drill
+wan_redcave:drill.msg.block_unsupported=Â§cBlock not supported by this drill!
+wan_redcave:drill.msg.mode_tunnel_horizontal=Â§cTunnel mode only works when looking horizontally!
+wan_redcave:drill.msg.mode_unsupported=Â§cThis drill doesn't support %1$s mode!
+wan_redcave:drill.msg.overheated=Â§4Â§lOVERHEATED! Â§rWait for it to cooldown!
+
+## ITEM TEXT - Techsuit
+wan_redcave:techsuit.power.armor_t1=Bluestone Armor I
+wan_redcave:techsuit.power.armor_t2=Bluestone Armor II
+wan_redcave:techsuit.power.aqualungs=Aqua Lungs
+wan_redcave:techsuit.power.dash_ready=Â§2Dash Ready!
+wan_redcave:techsuit.power.dash_cooldown=Â§cDash Cooldown: Â§e%s
+wan_redcave:techsuit.power.energyshield=Energy Shield
+wan_redcave:techsuit.power.flightjetpack=Flight Jetpack
+wan_redcave:techsuit.power.magneticfield=Magnetic Field
+wan_redcave:techsuit.power.nightvisor=Night Visor
+wan_redcave:techsuit.power.superbooster=Super Booster
+wan_redcave:techsuit.ui.activated=Â§bTechsuit Activated!
+wan_redcave:techsuit.ui.deactivated=Â§cTechsuit Deactivated!
+wan_redcave:techsuit.ui.disable_other_armor=Â§cPlease disable other Techsuit armor first!
+wan_redcave:techsuit.ui.disabled=Â§cDisabled
+wan_redcave:techsuit.ui.enabled=Â§2Enabled
+wan_redcave:techsuit.ui.is_now=is now
+wan_redcave:techsuit.ui.manage_power_t1=Manage your available powers below:
+wan_redcave:techsuit.ui.manage_power_t2=Manage your enhanced powers below:
+wan_redcave:techsuit.ui.no_power=Â§cInsufficient energy in Tech Controller!
+wan_redcave:techsuit.ui.on=Â§2On
+wan_redcave:techsuit.ui.off=Â§cOff
+wan_redcave:techsuit.ui.require_fullset=Â§cYou must wear the full Techsuit to access controls.
+wan_redcave:techsuit.ui.status=Status
+wan_redcave:techsuit.ui.text_activated=Activated
+wan_redcave:techsuit.ui.text_not_activated=Not Activated
+wan_redcave:techsuit.ui.title_t1=Techsuit Controls IÂ§r
+wan_redcave:techsuit.ui.title_t2=Techsuit Controls IIÂ§r
+
+## ENTITY TEXTS
+action.hint.exit.wan_redcave:little_tyrant=Press Â§lSHIFT Â§rto dismount!
+action.hint.exit.wan_redcave:redstone_crawler=Press Â§lSHIFT Â§rto dismount!

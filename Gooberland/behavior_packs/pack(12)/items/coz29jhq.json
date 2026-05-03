@@ -1,0 +1,49 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cc:end_stone_slingshot_unusable",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": true
+      }
+    },
+    "components": {
+      "minecraft:icon": "cc:slingshot",
+      "minecraft:use_animation": "none",
+      "cc:charge_weapon": {
+        "default": "cc:end_stone_slingshot",
+        "unusable": "cc:end_stone_slingshot_unusable",
+        "projectile": "cc:end_stone_slingshot_projectile",
+        "shoot_sound": "random.bow",
+        "projectile_item": "cc:end_stone_pebbles",
+        "power": 3,
+        "convert": {
+          "cc:slingshot": "cc:pebbles"
+        }
+      },
+      "minecraft:enchantable": {
+        "slot": "bow",
+        "value": 15
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 6000,
+        "movement_modifier": 1
+      },
+      "minecraft:durability": {
+        "max_durability": 128
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:stick"
+            ],
+            "repair_amount": "Math.floor(128 * 0.25)"
+          }
+        ]
+      }
+    }
+  }
+}

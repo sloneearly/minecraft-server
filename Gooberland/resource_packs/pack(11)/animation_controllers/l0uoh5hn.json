@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.cc.forest_wizard.casting": {
+			"states": {
+				"default": {
+					"animations": ["general"],
+					"transitions": [
+						{"casting": "q.is_casting"},
+						{"shooting": "q.is_charged"}
+					],
+					"blend_transition": 0.1
+				},
+				"casting": {
+					"animations": ["casting", "arms"],
+					"transitions": [
+						{"default": "!q.is_casting"}
+					],
+					"blend_transition": 0.1
+				},
+				"shooting": {
+					"animations": ["shoot", "arms"],
+					"transitions": [
+						{"default": "q.all_animations_finished || !q.facing_target_to_range_attack"}
+					],
+					"blend_transition": 0.25
+				}
+			}
+		}
+	}
+}

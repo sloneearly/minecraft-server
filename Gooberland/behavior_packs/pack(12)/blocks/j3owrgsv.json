@@ -1,0 +1,162 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cc:rice",
+      "menu_category": {
+        "category": "none"
+      },
+      "states": {
+        "cc:grow_state": [1, 2, 3, 4],
+        "cc:wild": [false, true]
+      }
+    },
+    "components": {
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "none"
+      },
+      "tag:plant": {},
+      "tag:crop": {},
+      "tag:nonsolid": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:geometry": "geometry.crop",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["up"],
+            "block_filter": [
+              {
+                "name": "minecraft:farmland"
+              },
+              {
+                "name": "minecraft:mud"
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cc:rice_1",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 5, 16]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:map_color": "#96f092",
+      "cc:crop_grow": {},
+      "minecraft:transformation": {
+        "translation": [0, -0.05, 0]
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "on_liquid_touches": "popped"
+          }
+        ]
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('cc:grow_state') < 4",
+        "components": {
+          "minecraft:loot": "loot_tables/cc/crops/rice.seeds.loot.json"
+        }
+      },
+      {
+        "condition": "q.block_state('cc:grow_state') == 4",
+        "components": {
+          "minecraft:loot": "loot_tables/cc/crops/rice.loot.json"
+        }
+      },
+      {
+        "condition": "query.block_state('cc:wild') == 1",
+        "components": {
+          "minecraft:transformation": {
+            "translation": [0, 0, 0]
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": ["up"],
+                "block_filter": [
+                  {
+                    "name": "minecraft:mud"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('cc:grow_state') == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:rice_2",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 13, 16]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('cc:grow_state') == 3",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:rice_3",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 14, 16]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('cc:grow_state') == 4",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:rice_4",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 16, 16]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "format_version": "1.20.30",
+  "render_controllers": {
+    "controller.render.cc.forgotten_miner": {
+      "geometry": "Geometry.default",
+      "arrays": {
+        "textures": {
+          "Array.texture": [
+            "Texture.default",
+            "Texture.one",
+            "Texture.two",
+            "Texture.three",
+            "Texture.four",
+            "Texture.five",
+            "Texture.six",
+            "Texture.seven"
+          ]
+        }
+      },
+      "materials": [
+        { "*": "material.default" },
+        { "outline*": "material.outline" }
+      ],
+      "part_visibility": [
+        {
+          "*": true
+        },
+        {
+          "outline": false
+        }
+      ],
+      "textures": ["Array.texture[Math.clamp(Math.floor(q.distance_from_camera / 2), 0, 7)]"]
+    },
+    "controller.render.cc.forgotten_miner.outline": {
+      "geometry": "Geometry.default",
+      "arrays": {
+        "textures": {
+          "Array.texture": [
+            "Texture.default",
+            "Texture.one",
+            "Texture.two",
+            "Texture.three",
+            "Texture.four",
+            "Texture.five",
+            "Texture.six",
+            "Texture.seven"
+          ]
+        }
+      },
+      "materials": [
+        { "*": "material.default" },
+        { "outline*": "material.outline" }
+      ],
+      "part_visibility": [
+        {
+          "*": false
+        },
+        {
+          "outline": true
+        }
+      ],
+      "textures": ["Array.texture[Math.clamp(Math.floor(q.distance_from_camera / 2), 0, 7)]"],
+      "ignore_lighting": true
+    }
+  }
+}

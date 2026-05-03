@@ -1,0 +1,60 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:meerkat_burrow",
+            "menu_category": {
+                "category": "nature"
+            },
+            "states": {
+                "cc:spawn_entity": [
+                    true,
+                    false
+                ]
+            }
+        },
+        "components": {
+            "cc:spawn_entity": {},
+            "minecraft:tick": {
+                "interval_range": [
+                    1,
+                    1
+                ],
+                "looping": true
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:map_color": "#554826",
+            "minecraft:collision_box": true,
+            "minecraft:selection_box": true,
+            "minecraft:light_dampening": 15,
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_pickaxe')"
+                        },
+                        "destroy_speed": 1
+                    }
+                ]
+            }
+        }
+    }
+}

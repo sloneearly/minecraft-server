@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "taiga_plant_stem",
+    "heightmap": "taiga_plant_stem_heightmap",
+    "metalness_emissive_roughness_subsurface": "taiga_plant_stem_mers"
+  }
+}

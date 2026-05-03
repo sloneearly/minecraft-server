@@ -1,0 +1,23 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "gen:glowing_mushroom_feature"
+		},
+		"features": [
+			[
+				"gen:glowing_mushroom1_feature",
+				1
+			],
+			[
+				"gen:glowing_mushroom2_feature",
+				1
+			],
+			[
+				"gen:glowing_mushroom3_feature",
+				1
+			]
+		]
+	}
+}

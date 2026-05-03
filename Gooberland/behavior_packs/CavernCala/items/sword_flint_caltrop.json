@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sword:flint_caltrop",
+            "menu_category": {
+              "category": "equipment",
+              "group": "itemGroup.name.equipment"
+			}
+            },
+    "components": {
+      "minecraft:hand_equipped": true,
+      "minecraft:icon": {
+        "texture": "sword:flint_caltrop"
+      },
+      "minecraft:display_name": {
+        "value": "Flint Caltrop\n\n\n§93 Throwing damage\nsticks to the ground\ndealing damage"
+      }, 
+			"minecraft:max_stack_size": 32,
+      "minecraft:cooldown": {
+        "category": "shuriken",
+        "duration": 0
+      },
+      "minecraft:throwable": {
+        "do_swing_animation": true
+      },
+      "minecraft:projectile": {
+        "projectile_entity": "sword:flint_caltrop"
+      }
+    }
+  }
+}

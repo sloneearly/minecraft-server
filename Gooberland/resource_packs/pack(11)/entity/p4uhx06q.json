@@ -1,0 +1,83 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cc:quest_master_fishing",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/villager/villager",
+                "level_1": "textures/cc/custom_villager/levels/base_lvl.1",
+                "level_2": "textures/cc/custom_villager/levels/base_lvl.2",
+                "level_3": "textures/cc/custom_villager/levels/base_lvl.3",
+                "level_4": "textures/cc/custom_villager/levels/base_lvl.4",
+                "level_5": "textures/cc/custom_villager/levels/base_lvl.5",
+                "outfit_0": "textures/cc/custom_villager/master_fishing_npc/outfit_0",
+                "outfit_1": "textures/cc/custom_villager/master_fishing_npc/outfit_1",
+                "outfit_2": "textures/cc/custom_villager/master_fishing_npc/outfit_2",
+                "outfit_3": "textures/cc/custom_villager/master_fishing_npc/outfit_3",
+                "outfit_4": "textures/cc/custom_villager/master_fishing_npc/outfit_4",
+                "outfit_5": "textures/cc/custom_villager/master_fishing_npc/outfit_5",
+                "outfit_6": "textures/cc/custom_villager/master_fishing_npc/outfit_6",
+                "outfit_7": "textures/cc/custom_villager/master_fishing_npc/outfit_7",
+                "outfit_8": "textures/cc/custom_villager/master_fishing_npc/outfit_8",
+                "outfit_9": "textures/cc/custom_villager/master_fishing_npc/outfit_9",
+                "outfit_10": "textures/cc/custom_villager/master_fishing_npc/outfit_10",
+                "outfit_11": "textures/cc/custom_villager/master_fishing_npc/outfit_11",
+                "outfit_12": "textures/cc/custom_villager/master_fishing_npc/outfit_12",
+                "outfit_13": "textures/cc/custom_villager/master_fishing_npc/outfit_13",
+                "outfit_14": "textures/cc/custom_villager/master_fishing_npc/outfit_14",
+                "outfit_15": "textures/cc/custom_villager/master_fishing_npc/outfit_15",
+                "outfit_16": "textures/cc/custom_villager/master_fishing_npc/outfit_16",
+                "outfit_17": "textures/cc/custom_villager/master_fishing_npc/outfit_17",
+                "outfit_18": "textures/cc/custom_villager/master_fishing_npc/outfit_18",
+                "outfit_19": "textures/cc/custom_villager/master_fishing_npc/outfit_19",
+                "outfit_20": "textures/cc/custom_villager/master_fishing_npc/outfit_20",
+                "outfit_21": "textures/cc/custom_villager/master_fishing_npc/outfit_21",
+                "outfit_22": "textures/cc/custom_villager/master_fishing_npc/outfit_22",
+                "outfit_23": "textures/cc/custom_villager/master_fishing_npc/outfit_23",
+                "outfit_24": "textures/cc/custom_villager/master_fishing_npc/outfit_24",
+                "outfit_25": "textures/cc/custom_villager/master_fishing_npc/outfit_25",
+                "outfit_26": "textures/cc/custom_villager/master_fishing_npc/outfit_26",
+                "outfit_27": "textures/cc/custom_villager/master_fishing_npc/outfit_27",
+                "outfit_28": "textures/cc/custom_villager/master_fishing_npc/outfit_28",
+                "outfit_29": "textures/cc/custom_villager/master_fishing_npc/outfit_29"
+            },
+            "geometry": {
+                "default": "geometry.cc.custom_villager"
+            },
+            "scripts": {
+                "pre_animation": [
+                    "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+                ],
+                "animate": [
+                    "controller.general",
+                    "controller.move",
+                    "controller.baby_transform",
+                    "bob"
+                ]
+            },
+            "animations": {
+                "controller.general": "controller.animation.villager.general",
+                "controller.move": "controller.animation.villager.move",
+                "controller.baby_transform": "controller.animation.villager.baby",
+                "general": "animation.villager.general",
+                "look_at_target": "animation.common.look_at_target",
+                "move": "animation.humanoid.move",
+                "baby_transform": "animation.villager.baby_transform",
+                "bob": "animation.humanoid.bob"
+            },
+            "spawn_egg": {
+                "texture": "spawn_egg",
+                "texture_index": 14
+            },
+            "render_controllers": [
+                {
+                    "controller.render.cc.villager.level": "q.variant > 0"
+                },
+                "controller.render.cc.master_fishing_npc.base"
+            ]
+        }
+    }
+}

@@ -1,0 +1,20 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "generation:lava_remove_feature"
+		},
+		"count": 70,
+		"replace_rules": [
+			{
+				"places_block": "minecraft:flowing_water",
+				"may_replace": [
+					{
+						"name": "minecraft:lava"
+					}
+				]
+			}
+		]
+	}
+}

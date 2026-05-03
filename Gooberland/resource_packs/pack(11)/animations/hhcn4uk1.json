@@ -1,0 +1,18 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cc.forgotten_miner.attack": {
+			"animation_length": 0.75,
+			"bones": {
+				"rightarm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.375": [-184.69986, -1.70818, -19.9299],
+						"0.5": [-44.33829, -7.57131, -9.97528],
+						"0.75": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

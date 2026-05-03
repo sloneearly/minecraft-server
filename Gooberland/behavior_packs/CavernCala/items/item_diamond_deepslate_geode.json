@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "item:diamond_deepslate_geode",
+            "menu_category": {
+              "category": "items",
+              "group": "itemGroup.name.items"
+            }
+    },
+    "components": {
+      "tag:minecraft:trim_materials": {},
+      "minecraft:icon": {
+        "texture": "item:diamond_deepslate_geode"
+      },
+      "minecraft:display_name": {
+        "value": "Opened Deepslate Geode\n§8Diamond\n\n§7Use in Stone Cutter"
+      }
+    }
+  }
+}

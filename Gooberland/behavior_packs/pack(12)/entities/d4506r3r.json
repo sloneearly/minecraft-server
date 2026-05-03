@@ -1,0 +1,79 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cc:pharaoh_orb",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:snowball"
+    },
+    "events": {
+      "cc:despawn": {
+        "add": {
+          "component_groups": ["cc:despawn"]
+        }
+      }
+    },
+    "component_groups": {
+      "cc:despawn": {
+        "minecraft:instant_despawn": {
+          "remove_child_entities": false
+        }
+      }
+    },
+    "components": {
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "event": "cc:despawn",
+            "target": "self",
+            "filters": {
+              "test": "in_water",
+              "value": true
+            }
+          }
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": 7,
+            "knockback": true
+          },
+          "remove_on_hit": {}
+        },
+        "anchor": 1,
+        "power": 1,
+        "gravity": 0
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+        "default_values": {
+          "max_optimized_distance": 100.0,
+          "max_dropped_ticks": 7,
+          "use_motion_prediction_hints": true
+        }
+      }
+    }
+  }
+}

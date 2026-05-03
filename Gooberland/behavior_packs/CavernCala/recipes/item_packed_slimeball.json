@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "packed_slimeball_3996b48d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:slime_ball",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:packed_slimeball",
+      "count": 1
+    }
+  }
+}

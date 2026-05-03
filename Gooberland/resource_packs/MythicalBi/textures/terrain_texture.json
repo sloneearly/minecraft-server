@@ -1,0 +1,310 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+// Forsaken Odyssey:
+    "ntk_pot": {
+      "textures": "textures/blocks/ntk_pot"
+    },
+// Mythical Biomes:
+    "ntk_blooming_corrupted_oak_sapling": {
+      "textures": "textures/blocks/ntk_blooming_corrupted_oak_sapling"
+    },
+    "ntk_chiseled_polished_corrupted_stone": {
+      "textures": "textures/blocks/ntk_chiseled_polished_corrupted_stone"
+    },
+    "ntk_corrupted_dirt": {
+      "textures": "textures/blocks/ntk_corrupted_dirt"
+    },
+    "ntk_corrupted_grass": {
+      "textures": "textures/blocks/ntk_corrupted_grass"
+    },
+    "ntk_corrupted_grass_bale_bottom": {
+      "textures": "textures/blocks/ntk_corrupted_grass_bale_bottom"
+    },
+    "ntk_corrupted_grass_bale_side": {
+      "textures": "textures/blocks/ntk_corrupted_grass_bale_side"
+    },
+    "ntk_corrupted_grass_bale_top": {
+      "textures": "textures/blocks/ntk_corrupted_grass_bale_top"
+    },
+    "ntk_corrupted_oak_double_slab": {
+      "textures": "textures/blocks/ntk_corrupted_oak_planks"
+    },
+    "ntk_corrupted_oak_leaves": {
+      "textures": "textures/blocks/ntk_corrupted_oak_leaves"
+    },
+    "ntk_corrupted_oak_log_bottom": {
+      "textures": "textures/blocks/ntk_corrupted_oak_log_bottom"
+    },
+    "ntk_corrupted_oak_log_side": {
+      "textures": "textures/blocks/ntk_corrupted_oak_log_side"
+    },
+    "ntk_corrupted_oak_log_top": {
+      "textures": "textures/blocks/ntk_corrupted_oak_log_top"
+    },
+    "ntk_corrupted_oak_planks": {
+      "textures": "textures/blocks/ntk_corrupted_oak_planks"
+    },
+    "ntk_corrupted_oak_roots": {
+      "textures": "textures/blocks/ntk_corrupted_oak_roots"
+    },
+    "ntk_corrupted_oak_sapling": {
+      "textures": "textures/blocks/ntk_corrupted_oak_sapling"
+    },
+    "ntk_corrupted_oak_slab": {
+      "textures": "textures/blocks/ntk_corrupted_oak_planks"
+    },
+    "ntk_corrupted_oak_stairs": {
+      "textures": "textures/blocks/ntk_corrupted_oak_planks"
+    },
+    "ntk_corrupted_oak_wood": {
+      "textures": "textures/blocks/ntk_corrupted_oak_log_side"
+    },
+    "ntk_corrupted_oak_wood_lamp": {
+      "textures": "textures/blocks/ntk_corrupted_oak_wood_lamp"
+    },
+    "ntk_corrupted_oak_wood_lantern": {
+      "textures": "textures/blocks/ntk_corrupted_oak_wood_lantern"
+    },
+    "ntk_corrupted_stone": {
+      "textures": "textures/blocks/ntk_corrupted_stone"
+    },
+    "ntk_corrupted_stone_brick_double_slab": {
+      "textures": "textures/blocks/ntk_corrupted_stone_bricks"
+    },
+    "ntk_corrupted_stone_brick_lantern": {
+      "textures": "textures/blocks/ntk_corrupted_stone_brick_lantern"
+    },
+    "ntk_corrupted_stone_brick_slab": {
+      "textures": "textures/blocks/ntk_corrupted_stone_bricks"
+    },
+    "ntk_corrupted_stone_brick_soul_lantern": {
+      "textures": "textures/blocks/ntk_corrupted_stone_brick_soul_lantern"
+    },
+    "ntk_corrupted_stone_brick_stairs": {
+      "textures": "textures/blocks/ntk_corrupted_stone_bricks"
+    },
+    "ntk_corrupted_stone_bricks": {
+      "textures": "textures/blocks/ntk_corrupted_stone_bricks"
+    },
+    "ntk_corrupted_stone_double_slab": {
+      "textures": "textures/blocks/ntk_corrupted_stone"
+    },
+    "ntk_corrupted_stone_lantern": {
+      "textures": "textures/blocks/ntk_corrupted_stone_lantern"
+    },
+    "ntk_corrupted_stone_pillar_bottom": {
+      "textures": "textures/blocks/ntk_corrupted_stone_pillar_bottom"
+    },
+    "ntk_corrupted_stone_pillar_side": {
+      "textures": "textures/blocks/ntk_corrupted_stone_pillar_side"
+    },
+    "ntk_corrupted_stone_pillar_top": {
+      "textures": "textures/blocks/ntk_corrupted_stone_pillar_top"
+    },
+    "ntk_corrupted_stone_slab": {
+      "textures": "textures/blocks/ntk_corrupted_stone"
+    },
+    "ntk_corrupted_stone_soul_lantern": {
+      "textures": "textures/blocks/ntk_corrupted_stone_soul_lantern"
+    },
+    "ntk_corrupted_stone_stairs": {
+      "textures": "textures/blocks/ntk_corrupted_stone"
+    },
+    "ntk_cracked_corrupted_stone_bricks": {
+      "textures": "textures/blocks/ntk_cracked_corrupted_stone_bricks"
+    },
+    "ntk_fossiliferous_corrupted_dirt": {
+      "textures": "textures/blocks/ntk_fossiliferous_corrupted_dirt"
+    },
+    "ntk_fossiliferous_corrupted_stone": {
+      "textures": "textures/blocks/ntk_fossiliferous_corrupted_stone"
+    },
+    "ntk_hanging_moss": {
+      "textures": "textures/blocks/ntk_hanging_moss"
+    },
+    "ntk_moss_sprouts_bale_bottom": {
+      "textures": "textures/blocks/ntk_moss_sprouts_bale_bottom"
+    },
+    "ntk_moss_sprouts_bale_side": {
+      "textures": "textures/blocks/ntk_moss_sprouts_bale_side"
+    },
+    "ntk_moss_sprouts_bale_top": {
+      "textures": "textures/blocks/ntk_moss_sprouts_bale_top"
+    },
+    "ntk_mossed_corrupted_oak_log_side": {
+      "textures": "textures/blocks/ntk_mossed_corrupted_oak_log_side"
+    },
+    "ntk_mossed_corrupted_oak_log_top": {
+      "textures": "textures/blocks/ntk_mossed_corrupted_oak_log_top"
+    },
+    "ntk_mossed_mossy_willow_log_side": {
+      "textures": "textures/blocks/ntk_mossed_mossy_willow_log_side"
+    },
+    "ntk_mossed_mossy_willow_log_top": {
+      "textures": "textures/blocks/ntk_mossed_mossy_willow_log_top"
+    },
+    "ntk_mossed_overgrown_jungle_log_side": {
+      "textures": "textures/blocks/ntk_mossed_overgrown_jungle_log_side"
+    },
+    "ntk_mossed_overgrown_jungle_log_top": {
+      "textures": "textures/blocks/ntk_mossed_overgrown_jungle_log_top"
+    },
+    "ntk_mossy_willow_double_slab": {
+      "textures": "textures/blocks/ntk_mossy_willow_planks"
+    },
+    "ntk_mossy_willow_leaves": {
+      "textures": "textures/blocks/ntk_mossy_willow_leaves"
+    },
+    "ntk_mossy_willow_log_bottom": {
+      "textures": "textures/blocks/ntk_mossy_willow_log_bottom"
+    },
+    "ntk_mossy_willow_log_side": {
+      "textures": "textures/blocks/ntk_mossy_willow_log_side"
+    },
+    "ntk_mossy_willow_log_top": {
+      "textures": "textures/blocks/ntk_mossy_willow_log_top"
+    },
+    "ntk_mossy_willow_planks": {
+      "textures": "textures/blocks/ntk_mossy_willow_planks"
+    },
+    "ntk_mossy_willow_roots": {
+      "textures": "textures/blocks/ntk_mossy_willow_roots"
+    },
+    "ntk_mossy_willow_sapling": {
+      "textures": "textures/blocks/ntk_mossy_willow_sapling"
+    },
+    "ntk_mossy_willow_slab": {
+      "textures": "textures/blocks/ntk_mossy_willow_planks"
+    },
+    "ntk_mossy_willow_stairs": {
+      "textures": "textures/blocks/ntk_mossy_willow_planks"
+    },
+    "ntk_mossy_willow_wood": {
+      "textures": "textures/blocks/ntk_mossy_willow_log_side"
+    },
+    "ntk_mossy_willow_wood_lamp": {
+      "textures": "textures/blocks/ntk_mossy_willow_wood_lamp"
+    },
+    "ntk_mossy_willow_wood_lantern": {
+      "textures": "textures/blocks/ntk_mossy_willow_wood_lantern"
+    },
+    "ntk_overgrown_jungle_double_slab": {
+      "textures": "textures/blocks/ntk_overgrown_jungle_planks"
+    },
+    "ntk_overgrown_jungle_leaves": {
+      "textures": "textures/blocks/ntk_overgrown_jungle_leaves"
+    },
+    "ntk_overgrown_jungle_log_bottom": {
+      "textures": "textures/blocks/ntk_overgrown_jungle_log_bottom"
+    },
+    "ntk_overgrown_jungle_log_side": {
+      "textures": "textures/blocks/ntk_overgrown_jungle_log_side"
+    },
+    "ntk_overgrown_jungle_log_top": {
+      "textures": "textures/blocks/ntk_overgrown_jungle_log_top"
+    },
+    "ntk_overgrown_jungle_planks": {
+      "textures": "textures/blocks/ntk_overgrown_jungle_planks"
+    },
+    "ntk_overgrown_jungle_roots": {
+      "textures": "textures/blocks/ntk_overgrown_jungle_roots"
+    },
+    "ntk_overgrown_jungle_sapling": {
+      "textures": "textures/blocks/ntk_overgrown_jungle_sapling"
+    },
+    "ntk_overgrown_jungle_slab": {
+      "textures": "textures/blocks/ntk_overgrown_jungle_planks"
+    },
+    "ntk_overgrown_jungle_stairs": {
+      "textures": "textures/blocks/ntk_overgrown_jungle_planks"
+    },
+    "ntk_overgrown_jungle_wood": {
+      "textures": "textures/blocks/ntk_overgrown_jungle_log_side"
+    },
+    "ntk_overgrown_jungle_wood_lamp": {
+      "textures": "textures/blocks/ntk_overgrown_jungle_wood_lamp"
+    },
+    "ntk_overgrown_jungle_wood_lantern": {
+      "textures": "textures/blocks/ntk_overgrown_jungle_wood_lantern"
+    },
+    "ntk_polished_corrupted_stone": {
+      "textures": "textures/blocks/ntk_polished_corrupted_stone"
+    },
+    "ntk_polished_corrupted_stone_double_slab": {
+      "textures": "textures/blocks/ntk_polished_corrupted_stone"
+    },
+    "ntk_polished_corrupted_stone_slab": {
+      "textures": "textures/blocks/ntk_polished_corrupted_stone"
+    },
+    "ntk_polished_corrupted_stone_stairs": {
+      "textures": "textures/blocks/ntk_polished_corrupted_stone"
+    },
+    "ntk_potted_blooming_corrupted_oak_sapling": {
+      "textures": "textures/blocks/ntk_potted_blooming_corrupted_oak_sapling"
+    },
+    "ntk_potted_corrupted_grass": {
+      "textures": "textures/blocks/ntk_potted_corrupted_grass"
+    },
+    "ntk_potted_corrupted_oak_sapling": {
+      "textures": "textures/blocks/ntk_potted_corrupted_oak_sapling"
+    },
+    "ntk_potted_hanging_moss": {
+      "textures": "textures/blocks/ntk_potted_hanging_moss"
+    },
+    "ntk_potted_moss_sprouts": {
+      "textures": "textures/blocks/ntk_potted_moss_sprouts"
+    },
+    "ntk_potted_mossy_willow_sapling": {
+      "textures": "textures/blocks/ntk_potted_mossy_willow_sapling"
+    },
+    "ntk_potted_overgrown_jungle_sapling": {
+      "textures": "textures/blocks/ntk_potted_overgrown_jungle_sapling"
+    },
+    "ntk_short_moss_sprouts": {
+      "textures": "textures/blocks/ntk_short_moss_sprouts"
+    },
+    "ntk_stripped_corrupted_oak_log_bottom": {
+      "textures": "textures/blocks/ntk_stripped_corrupted_oak_log_bottom"
+    },
+    "ntk_stripped_corrupted_oak_log_side": {
+      "textures": "textures/blocks/ntk_stripped_corrupted_oak_log_side"
+    },
+    "ntk_stripped_corrupted_oak_log_top": {
+      "textures": "textures/blocks/ntk_stripped_corrupted_oak_log_top"
+    },
+    "ntk_stripped_corrupted_oak_wood": {
+      "textures": "textures/blocks/ntk_stripped_corrupted_oak_log_side"
+    },
+    "ntk_stripped_mossy_willow_log_bottom": {
+      "textures": "textures/blocks/ntk_stripped_mossy_willow_log_bottom"
+    },
+    "ntk_stripped_mossy_willow_log_side": {
+      "textures": "textures/blocks/ntk_stripped_mossy_willow_log_side"
+    },
+    "ntk_stripped_mossy_willow_log_top": {
+      "textures": "textures/blocks/ntk_stripped_mossy_willow_log_top"
+    },
+    "ntk_stripped_mossy_willow_wood": {
+      "textures": "textures/blocks/ntk_stripped_mossy_willow_log_side"
+    },
+    "ntk_stripped_overgrown_jungle_log_bottom": {
+      "textures": "textures/blocks/ntk_stripped_overgrown_jungle_log_bottom"
+    },
+    "ntk_stripped_overgrown_jungle_log_side": {
+      "textures": "textures/blocks/ntk_stripped_overgrown_jungle_log_side"
+    },
+    "ntk_stripped_overgrown_jungle_log_top": {
+      "textures": "textures/blocks/ntk_stripped_overgrown_jungle_log_top"
+    },
+    "ntk_stripped_overgrown_jungle_wood": {
+      "textures": "textures/blocks/ntk_stripped_overgrown_jungle_log_side"
+    },
+    "ntk_tall_moss_sprouts": {
+      "textures": "textures/blocks/ntk_tall_moss_sprouts"
+    }
+  }
+}

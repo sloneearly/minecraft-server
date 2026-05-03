@@ -1,0 +1,1 @@
+tp @e[type=item,r=1.5] @p[r=6]

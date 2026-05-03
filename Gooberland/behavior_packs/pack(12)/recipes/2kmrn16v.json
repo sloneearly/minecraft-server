@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cc:copper_battle_axe"
+    },
+    "assume_symmetry": true,
+    "tags": ["crafting_table"],
+    "pattern": ["*A*"],
+    "key": {
+      "*": {
+        "item": "minecraft:copper_ingot"
+      },
+      "A": {
+        "item": "minecraft:copper_axe"
+      }
+    },
+    "result": "cc:copper_battle_axe"
+  }
+}

@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "gen:jasper_caves"
+		},
+		"features": [
+			"gen:jasper_patch_feature",
+			"gen:jasper_top",
+			"gen:jasper_spike1_feature",
+			"gen:jasper_spike2_feature"
+		]
+	}
+}

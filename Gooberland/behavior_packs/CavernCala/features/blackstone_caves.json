@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "gen:blackstone_caves"
+		},
+		"features": [
+			"gen:blackstone_patch_feature",
+			"gen:blackstone_top",
+			"gen:blackstone_spike1_feature",
+			"gen:blackstone_spike2_feature"
+		]
+	}
+}

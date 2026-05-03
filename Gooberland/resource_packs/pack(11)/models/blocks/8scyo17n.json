@@ -1,0 +1,103 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.floating_flower",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-2, 0, -2],
+							"size": [4, 2, 4],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [4, 4], "material_instance": "pistil"},
+								"down": {"uv": [0, 8], "uv_size": [4, -4], "material_instance": "pistil"}
+							}
+						},
+						{
+							"origin": [-2, -0.001, -2],
+							"size": [4, 0, 4],
+							"pivot": [-2, 0, -2],
+							"rotation": [-90, 0, -90],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [4, 4], "material_instance": "small_leaf"}
+							}
+						},
+						{
+							"origin": [-2, -0.001, -2],
+							"size": [4, 0, 4],
+							"pivot": [-2, 0, 0],
+							"rotation": [-180, 0, -90],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [4, 4], "material_instance": "small_leaf"}
+							}
+						},
+						{
+							"origin": [1.99908, -0.00062, -2],
+							"size": [4, 0, 4],
+							"pivot": [1.99908, 0.00038, -6],
+							"rotation": [0, 0, -90],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [4, 4], "material_instance": "small_leaf"}
+							}
+						},
+						{
+							"origin": [6, -0.001, 6],
+							"size": [4, 0, 4],
+							"pivot": [6, 0, 2],
+							"rotation": [90, 0, -90],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [4, 4], "material_instance": "small_leaf"}
+							}
+						},
+						{
+							"origin": [-11.11588, -0.62079, -6],
+							"size": [10, 0, 12],
+							"pivot": [0, 1.91249, -0.5],
+							"rotation": [0, 0, 22.5],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [10, 12], "material_instance": "big_leaf"}
+							}
+						},
+						{
+							"origin": [-11.11588, -0.62079, -5],
+							"size": [10, 0, 12],
+							"pivot": [0, 1.91249, 0.5],
+							"rotation": [-180, 0, 157.5],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [10, 12], "material_instance": "big_leaf"}
+							}
+						},
+						{
+							"origin": [-11.61588, -0.62079, -5.5],
+							"size": [10, 0, 12],
+							"pivot": [-0.5, 1.91249, 0],
+							"rotation": [90, 67.5, 90],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [10, 12], "material_instance": "big_leaf"}
+							}
+						},
+						{
+							"origin": [-10.61588, -0.62079, -5.5],
+							"size": [10, 0, 12],
+							"pivot": [0.5, 1.91249, 0],
+							"rotation": [-90, -67.5, 90],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [10, 12], "material_instance": "big_leaf"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

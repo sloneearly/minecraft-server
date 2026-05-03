@@ -1,0 +1,263 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cc:slingshot_projectile",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "runtime_identifier": "snowball",
+      "properties": {
+        "cc:particle": {
+          "client_sync": true,
+          "type": "bool",
+          "default": true
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": 5,
+            "knockback": true,
+            "semi_random_diff_damage": true,
+            "destroy_on_hit": true,
+            "max_critical_damage": 10,
+            "min_critical_damage": 9,
+            "power_multiplier": 0.97
+          },
+          "remove_on_hit": {
+          }
+        },
+        "power": 5.0,
+        "gravity": 0.05,
+        "uncertainty_base": 1,
+        "uncertainty_multiplier": 0,
+        "anchor": 1,
+        "should_bounce": true,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ]
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:dimension_bound": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+        "default_values": {
+          "max_optimized_distance": 80.0,
+          "max_dropped_ticks": 7,
+          "use_motion_prediction_hints": true
+        }
+      },
+      "minecraft:type_family": {
+        "family": [
+          "cc:arrow"
+        ]
+      }
+    },
+    "component_groups": {
+      "cc:power_1": {
+        "minecraft:projectile": {
+          "on_hit": {
+            "impact_damage": {
+              "damage": 7.5,
+              "knockback": true,
+              "semi_random_diff_damage": true,
+              "destroy_on_hit": true,
+              "max_critical_damage": 10,
+              "min_critical_damage": 9,
+              "power_multiplier": 0.97
+            },
+            "remove_on_hit": {
+            }
+          },
+          "power": 5.0,
+          "gravity": 0.05,
+          "uncertainty_base": 1,
+          "uncertainty_multiplier": 0,
+          "anchor": 1,
+          "should_bounce": true,
+          "offset": [
+            0,
+            -0.1,
+            0
+          ]
+        }
+      },
+      "cc:power_2": {
+        "minecraft:projectile": {
+          "on_hit": {
+            "impact_damage": {
+              "damage": 8.75,
+              "knockback": true,
+              "semi_random_diff_damage": true,
+              "destroy_on_hit": true,
+              "max_critical_damage": 10,
+              "min_critical_damage": 9,
+              "power_multiplier": 0.97
+            },
+            "remove_on_hit": {
+            }
+          },
+          "power": 5.0,
+          "gravity": 0.05,
+          "uncertainty_base": 1,
+          "uncertainty_multiplier": 0,
+          "anchor": 1,
+          "should_bounce": true,
+          "offset": [
+            0,
+            -0.1,
+            0
+          ]
+        }
+      },
+      "cc:power_3": {
+        "minecraft:projectile": {
+          "on_hit": {
+            "impact_damage": {
+              "damage": 10.0,
+              "knockback": true,
+              "semi_random_diff_damage": true,
+              "destroy_on_hit": true,
+              "max_critical_damage": 10,
+              "min_critical_damage": 9,
+              "power_multiplier": 0.97
+            },
+            "remove_on_hit": {
+            }
+          },
+          "power": 5.0,
+          "gravity": 0.05,
+          "uncertainty_base": 1,
+          "uncertainty_multiplier": 0,
+          "anchor": 1,
+          "should_bounce": true,
+          "offset": [
+            0,
+            -0.1,
+            0
+          ]
+        }
+      },
+      "cc:power_4": {
+        "minecraft:projectile": {
+          "on_hit": {
+            "impact_damage": {
+              "damage": 11.25,
+              "knockback": true,
+              "semi_random_diff_damage": true,
+              "destroy_on_hit": true,
+              "max_critical_damage": 10,
+              "min_critical_damage": 9,
+              "power_multiplier": 0.97
+            },
+            "remove_on_hit": {
+            }
+          },
+          "power": 5.0,
+          "gravity": 0.05,
+          "uncertainty_base": 1,
+          "uncertainty_multiplier": 0,
+          "anchor": 1,
+          "should_bounce": true,
+          "offset": [
+            0,
+            -0.1,
+            0
+          ]
+        }
+      },
+      "cc:power_5": {
+        "minecraft:projectile": {
+          "on_hit": {
+            "impact_damage": {
+              "damage": 12.5,
+              "knockback": true,
+              "semi_random_diff_damage": true,
+              "destroy_on_hit": true,
+              "max_critical_damage": 10,
+              "min_critical_damage": 9,
+              "power_multiplier": 0.97
+            },
+            "remove_on_hit": {
+            }
+          },
+          "power": 5.0,
+          "gravity": 0.05,
+          "uncertainty_base": 1,
+          "uncertainty_multiplier": 0,
+          "anchor": 1,
+          "should_bounce": true,
+          "offset": [
+            0,
+            -0.1,
+            0
+          ]
+        }
+      }
+    },
+    "events": {
+      "cc:power_1": {
+        "add": {
+          "component_groups": [
+            "cc:power_1"
+          ]
+        }
+      },
+      "cc:power_2": {
+        "add": {
+          "component_groups": [
+            "cc:power_2"
+          ]
+        }
+      },
+      "cc:power_3": {
+        "add": {
+          "component_groups": [
+            "cc:power_3"
+          ]
+        }
+      },
+      "cc:power_4": {
+        "add": {
+          "component_groups": [
+            "cc:power_4"
+          ]
+        }
+      },
+      "cc:power_5": {
+        "add": {
+          "component_groups": [
+            "cc:power_5"
+          ]
+        }
+      }
+    }
+  }
+}

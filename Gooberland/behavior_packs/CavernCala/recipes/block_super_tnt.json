@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "super_tnt_9125b5ca"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "item:rad_powder",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:tnt",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:super_tnt",
+      "count": 1
+    }
+  }
+}

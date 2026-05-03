@@ -1,0 +1,27 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "gen:top_slime_feature"
+		},
+		"features": [
+			[
+				"gen:top_slime1_feature",
+				1
+			],
+			[
+				"gen:top_slime2_feature",
+				1
+			],
+			[
+				"gen:top_slime3_feature",
+				1
+			],
+			[
+				"gen:top_slime4_feature",
+				1
+			]
+		]
+	}
+}

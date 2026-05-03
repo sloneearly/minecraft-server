@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cc:packed_ice_from_dripice"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["AA", "AA"],
+    "key": {
+      "A": {
+        "item": "cc:dripice"
+      }
+    },
+    "result": {
+      "item": "minecraft:packed_ice",
+      "count": 1
+    }
+  }
+}

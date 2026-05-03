@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "granite_tiles_00942983"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:granite_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:granite_tiles",
+      "count": 4
+    }
+  }
+}

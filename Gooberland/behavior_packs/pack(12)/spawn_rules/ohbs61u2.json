@@ -1,0 +1,45 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "cc:ice_spider",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:spawns_underground": {},
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 20
+        },
+        "minecraft:herd": {
+          "min_size": 2,
+          "max_size": 4
+        },
+        "minecraft:difficulty_filter": {
+          "min": "easy"
+        },
+
+        "minecraft:biome_filter": {
+          "any_of": [
+            { "test": "has_biome_tag", "operator": "==", "value": "ice" },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "frozen"
+            },
+            { "test": "has_biome_tag", "operator": "==", "value": "bop_ks:snowy_coniferous_forest" },
+            { "test": "has_biome_tag", "operator": "==", "value": "bop_ks:snowy_fir_clearing" },
+            { "test": "has_biome_tag", "operator": "==", "value": "bop_ks:snowy_maple_woods" },
+            { "test": "has_biome_tag", "operator": "==", "value": "bop_ks:snowblossom_grove" }
+          ]
+        }
+      }
+    ]
+  }
+}

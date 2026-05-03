@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "minecraft:cold_taiga"
+    },
+    "components": {
+      "minecraft:water_appearance": {
+        "surface_color": "#205e83"
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "cc:cold_fog"
+      }
+    }
+  }
+}

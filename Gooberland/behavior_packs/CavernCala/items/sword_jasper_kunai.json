@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sword:jasper_kunai",
+            "menu_category": {
+              "category": "equipment"
+			}
+            },
+    "components": {
+      "minecraft:hand_equipped": true,
+			"minecraft:icon": {
+				"textures": {
+					"default": "sword:jasper_kunai"
+				}
+			},
+			            "minecraft:fire_resistant": {
+    "value": true
+},
+      "minecraft:display_name": {
+        "value": "Jasper Kunai\n\n\n§95 Throwing damage"
+      }, 
+      "minecraft:max_stack_size": 64,
+      "minecraft:throwable": {
+        "do_swing_animation": true
+      },
+      "minecraft:projectile": {
+        "projectile_entity": "sword:jasper_kunai"
+      }
+    }
+  }
+}

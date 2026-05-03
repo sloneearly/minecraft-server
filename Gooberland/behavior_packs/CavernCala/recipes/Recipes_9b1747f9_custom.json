@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_f9ca35b2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "block:gunpowder_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:gunpowder",
+      "count": 9,
+      "data": 0
+    }
+  }
+}

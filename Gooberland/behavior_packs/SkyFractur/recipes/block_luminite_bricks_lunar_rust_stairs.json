@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "luminite_bricks_lunar_rust_stairs_1b3ee1e4"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:luminite_bricks_lunar_rust",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:luminite_bricks_lunar_rust_stairs",
+      "count": 3
+    }
+  }
+}

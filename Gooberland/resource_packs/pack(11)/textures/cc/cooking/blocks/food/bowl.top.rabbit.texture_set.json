@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "bowl.top.rabbit",
+    "heightmap": "bowl.top.rabbit_heightmap",
+    "metalness_emissive_roughness_subsurface": "bowl.top.rabbit_mers"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "jar.apple_juice.side.1",
+    "heightmap": "jar.apple_juice.side.1_heightmap",
+    "metalness_emissive_roughness_subsurface": "jar.apple_juice.side.1_mers"
+  }
+}

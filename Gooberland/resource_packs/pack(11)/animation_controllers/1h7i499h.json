@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc.charge": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "transitions": [
+            {
+              "charge": "v.is_charging"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "charge": {
+          "animations": ["charge"],
+          "transitions": [
+            {
+              "idle": "!v.is_charging"
+            }
+          ],
+          "blend_transition": 0.2
+        }
+      }
+    }
+  }
+}

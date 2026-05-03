@@ -1,0 +1,247 @@
+{
+  "format_version": "1.21.40",
+// Mythical Biomes:
+  "ntk:blooming_corrupted_oak_sapling": {
+    "sound": "grass"
+  },
+  "ntk:chiseled_polished_corrupted_stone": {
+    "sound": "basalt"
+  },
+  "ntk:corrupted_dirt": {
+    "sound": "grass"
+  },
+  "ntk:corrupted_grass_bale": {
+    "sound": "grass"
+  },
+  "ntk:corrupted_grass": {
+    "sound": "grass"
+  },
+  "ntk:corrupted_oak_double_slab": {
+    "sound": "wood"
+  },
+  "ntk:corrupted_oak_leaves": {
+    "sound": "grass"
+  },
+  "ntk:corrupted_oak_log": {
+    "sound": "wood"
+  },
+  "ntk:corrupted_oak_planks": {
+    "sound": "wood"
+  },
+  "ntk:corrupted_oak_roots": {
+    "sound": "mangrove_roots"
+  },
+  "ntk:corrupted_oak_sapling": {
+    "sound": "grass"
+  },
+  "ntk:corrupted_oak_slab": {
+    "sound": "wood"
+  },
+  "ntk:corrupted_oak_stairs": {
+    "sound": "wood"
+  },
+  "ntk:corrupted_oak_wood": {
+    "sound": "wood"
+  },
+  "ntk:corrupted_oak_wood_lamp": {
+    "sound": "wood"
+  },
+  "ntk:corrupted_oak_wood_lantern": {
+    "sound": "wood"
+  },
+  "ntk:corrupted_stone": {
+    "sound": "basalt"
+  },
+  "ntk:corrupted_stone_brick_double_slab": {
+    "sound": "basalt"
+  },
+  "ntk:corrupted_stone_brick_lantern": {
+    "sound": "basalt"
+  },
+  "ntk:corrupted_stone_brick_slab": {
+    "sound": "basalt"
+  },
+  "ntk:corrupted_stone_brick_soul_lantern": {
+    "sound": "basalt"
+  },
+  "ntk:corrupted_stone_brick_stairs": {
+    "sound": "basalt"
+  },
+  "ntk:corrupted_stone_bricks": {
+    "sound": "basalt"
+  },
+  "ntk:corrupted_stone_double_slab": {
+    "sound": "basalt"
+  },
+  "ntk:corrupted_stone_lantern": {
+    "sound": "basalt"
+  },
+  "ntk:corrupted_stone_soul_lantern": {
+    "sound": "basalt"
+  },
+  "ntk:corrupted_stone_pillar": {
+    "sound": "basalt"
+  },
+  "ntk:corrupted_stone_slab": {
+    "sound": "basalt"
+  },
+  "ntk:corrupted_stone_stairs": {
+    "sound": "basalt"
+  },
+  "ntk:cracked_corrupted_stone_bricks": {
+    "sound": "basalt"
+  },
+  "ntk:fossiliferous_corrupted_dirt": {
+    "sound": "grass"
+  },
+  "ntk:fossiliferous_corrupted_stone": {
+    "sound": "basalt"
+  },
+  "ntk:hanging_moss": {
+    "sound": "hanging_roots"
+  },
+  "ntk:moss_sprouts_bale": {
+    "sound": "grass"
+  },
+  "ntk:mossed_corrupted_oak_log_side": {
+    "sound": "wood"
+  },
+  "ntk:mossed_corrupted_oak_log_top": {
+    "sound": "wood"
+  },
+  "ntk:mossed_mossy_willow_log_side": {
+    "sound": "wood"
+  },
+  "ntk:mossed_mossy_willow_log_top": {
+    "sound": "wood"
+  },
+  "ntk:mossed_overgrown_jungle_log_side": {
+    "sound": "wood"
+  },
+  "ntk:mossed_overgrown_jungle_log_top": {
+    "sound": "wood"
+  },
+  "ntk:mossy_willow_double_slab": {
+    "sound": "wood"
+  },
+  "ntk:mossy_willow_leaves": {
+    "sound": "grass"
+  },
+  "ntk:mossy_willow_log": {
+    "sound": "wood"
+  },
+  "ntk:mossy_willow_planks": {
+    "sound": "wood"
+  },
+  "ntk:mossy_willow_roots": {
+    "sound": "mangrove_roots"
+  },
+  "ntk:mossy_willow_sapling": {
+    "sound": "grass"
+  },
+  "ntk:mossy_willow_slab": {
+    "sound": "wood"
+  },
+  "ntk:mossy_willow_stairs": {
+    "sound": "wood"
+  },
+  "ntk:mossy_willow_wood": {
+    "sound": "wood"
+  },
+  "ntk:mossy_willow_wood_lamp": {
+    "sound": "wood"
+  },
+  "ntk:mossy_willow_wood_lantern": {
+    "sound": "wood"
+  },
+  "ntk:overgrown_jungle_double_slab": {
+    "sound": "wood"
+  },
+  "ntk:overgrown_jungle_leaves": {
+    "sound": "grass"
+  },
+  "ntk:overgrown_jungle_log": {
+    "sound": "wood"
+  },
+  "ntk:overgrown_jungle_planks": {
+    "sound": "wood"
+  },
+  "ntk:overgrown_jungle_roots": {
+    "sound": "mangrove_roots"
+  },
+  "ntk:overgrown_jungle_sapling": {
+    "sound": "grass"
+  },
+  "ntk:overgrown_jungle_slab": {
+    "sound": "wood"
+  },
+  "ntk:overgrown_jungle_stairs": {
+    "sound": "wood"
+  },
+  "ntk:overgrown_jungle_wood": {
+    "sound": "wood"
+  },
+  "ntk:overgrown_jungle_wood_lamp": {
+    "sound": "wood"
+  },
+  "ntk:overgrown_jungle_wood_lantern": {
+    "sound": "wood"
+  },
+  "ntk:polished_corrupted_stone": {
+    "sound": "basalt"
+  },
+  "ntk:polished_corrupted_stone_double_slab": {
+    "sound": "basalt"
+  },
+  "ntk:polished_corrupted_stone_slab": {
+    "sound": "basalt"
+  },
+  "ntk:polished_corrupted_stone_stairs": {
+    "sound": "basalt"
+  },
+  "ntk:potted_blooming_corrupted_oak_sapling": {
+    "sound": "stone"
+  },
+  "ntk:potted_corrupted_grass": {
+    "sound": "stone"
+  },
+  "ntk:potted_corrupted_oak_sapling": {
+    "sound": "stone"
+  },
+  "ntk:potted_hanging_moss": {
+    "sound": "stone"
+  },
+  "ntk:potted_moss_sprouts": {
+    "sound": "stone"
+  },
+  "ntk:potted_mossy_willow_sapling": {
+    "sound": "stone"
+  },
+  "ntk:potted_overgrown_jungle_sapling": {
+    "sound": "stone"
+  },
+  "ntk:short_moss_sprouts": {
+    "sound": "grass"
+  },
+  "ntk:stripped_corrupted_oak_log": {
+    "sound": "wood"
+  },
+  "ntk:stripped_corrupted_oak_wood": {
+    "sound": "wood"
+  },
+  "ntk:stripped_mossy_willow_log": {
+    "sound": "wood"
+  },
+  "ntk:stripped_mossy_willow_wood": {
+    "sound": "wood"
+  },
+  "ntk:stripped_overgrown_jungle_log": {
+    "sound": "wood"
+  },
+  "ntk:stripped_overgrown_jungle_wood": {
+    "sound": "wood"
+  },
+  "ntk:tall_moss_sprouts": {
+    "sound": "grass"
+  }
+}

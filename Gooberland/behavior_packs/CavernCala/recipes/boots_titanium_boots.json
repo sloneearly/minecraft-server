@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "titanium_boots_4b8c8691"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "item:titanium_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "boots:titanium_boots",
+      "count": 1
+    }
+  }
+}

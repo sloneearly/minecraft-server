@@ -1,0 +1,29 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "generation:magma_feature"
+		},
+		"count": 35,
+		"replace_rules": [
+			{
+				"places_block": "minecraft:magma",
+				"may_replace": [
+					"minecraft:stone"
+				]
+			},
+			{
+				"places_block": "minecraft:magma",
+				"may_replace": [
+					"minecraft:deepslate"
+				]
+			},
+			{
+				"places_block": "minecraft:magma",
+				"may_replace": [
+					"minecraft:blackstone"
+				]
+			}
+		]
+	}
+}

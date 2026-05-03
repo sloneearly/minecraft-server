@@ -1,0 +1,65 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:meerkat",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/cc/animals/entities/meerkat"
+      },
+      "geometry": {
+        "default": "geometry.cc.meerkat"
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:meerkat_spawn_egg"
+      },
+      "scripts": {
+        "initialize": ["v.relative_run_speed = 0.55;", "variable.pitch = 0;", "variable.roll = 0;"],
+        "pre_animation": [
+          "variable.pitch = ((math.clamp(q.is_on_ground ? 0 : q.body_x_rotation, -20, 20) - (math.clamp(q.vertical_speed * 1, -90, 5)) + ( 3 * variable.pitch)) / 4);",
+          // plane only rolls in the air
+          "variable.roll = ((q.is_on_ground ? 0 : (-q.yaw_speed) / 4) + (4 * v.roll)) / 5;"
+        ],
+        "animate": [
+          "look_at_target",
+          "root",
+          "move_controller",
+          "lay_down_controller",
+          "emerge_controller",
+          "vanish_controller",
+          { "baby_transform": "q.is_baby" }
+        ]
+      },
+      "particle_effects": {
+        "digging": "cc:meerkat_dig"
+      },
+      "animations": {
+        // Controllers
+        "move_controller": "controller.animation.cc.move",
+        "lay_down_controller": "controller.animation.cc.lay_down",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.cc.baby_transform.half",
+
+        "emerge_controller": "controller.animation.cc.emerge",
+        "vanish_controller": "controller.animation.cc.vanish",
+        "root": "animation.cc.common.root",
+        "idle": "animation.cc.meerkat.idle",
+        "walk": "animation.cc.meerkat.walk",
+        "run": "animation.cc.meerkat.walk",
+        "swim": "animation.cc.meerkat.walk",
+        "swim_idle": "animation.cc.meerkat.walk",
+        "swim_run": "animation.cc.meerkat.walk",
+        "sit": "animation.cc.meerkat.sit",
+        "fly": "animation.cc.meerkat.walk",
+
+        "emerge": "animation.cc.meerkat.emerge",
+        "vanish": "animation.cc.meerkat.vanish"
+      },
+      "render_controllers": ["controller.render.cc.common"],
+      "enable_attachables": true
+    }
+  }
+}

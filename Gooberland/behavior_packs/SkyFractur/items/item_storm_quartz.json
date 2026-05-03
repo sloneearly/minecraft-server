@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "item:storm_quartz",
+            "menu_category": {
+              "category": "items",
+              "group": "itemGroup.name.items"
+            }
+    },
+    "components": {
+      "tag:minecraft:trim_materials": {},
+      "minecraft:icon": {
+        "texture": "item:storm_quartz"
+      },
+      "minecraft:display_name": {
+        "value": "Storm Quartz\n§8Brewing Ingredient"
+      }
+    }
+  }
+}

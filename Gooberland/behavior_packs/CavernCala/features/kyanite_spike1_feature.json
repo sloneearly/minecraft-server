@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "gen:kyanite_spike1_feature"
+		},
+		"structure_name": "mystructure:kyanitespike1",
+		"adjustment_radius": 4,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {},
+			"unburied": {},
+			"block_intersection": {
+				"block_allowlist": [
+					{
+						"name": "minecraft:deepslate"
+					},
+					{
+						"name": "block:kyanite_block"
+					},
+					{
+						"name": "minecraft:air"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,116 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "construction",
+        "groups": [
+          {
+            "items": [
+              "ntk:block_of_rotten_brute_flesh"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "equipment",
+        "groups": [
+          { // Cooked Food
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.cookedFood"
+            },
+            "items": [
+              "ntk:cooked_rat"
+            ]
+          },
+          { // Staffs:
+            "group_identifier": {
+              "icon": "ntk:curserer_staff",
+              "name": "ntk:itemGroup.name.staffs"
+            },
+            "items": [
+              "ntk:curserer_staff",
+              "ntk:piglin_fire_staff"
+            ]
+          },
+          { // Magic Books
+            "group_identifier": {
+              "icon": "ntk:book_of_curses",
+              "name": "ntk:itemGroup.name.magic_books"
+            },
+            "items": [
+              "ntk:book_of_curses"
+            ]
+          },
+          {
+            "items": [
+              "ntk:potion_of_brute",
+              "ntk:piglin_war_hammer"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          { // Trophies:
+            "group_identifier": {
+              "icon": "ntk:stone_brute_zombie_trophy",
+              "name": "ntk:itemGroup.name.trophies"
+            },
+            "items": [
+              "ntk:stone_brute_zombie_trophy",
+              "ntk:stone_rat_curserer_trophy",
+              "ntk:stone_elder_golem_trophy",
+              "ntk:stone_piglin_chief_trophy",
+              "ntk:stone_shulkore_trophy",
+              "ntk:copper_brute_zombie_trophy",
+              "ntk:copper_rat_curserer_trophy",
+              "ntk:copper_elder_golem_trophy",
+              "ntk:copper_piglin_chief_trophy",
+              "ntk:copper_shulkore_trophy",
+              "ntk:iron_brute_zombie_trophy",
+              "ntk:iron_rat_curserer_trophy",
+              "ntk:iron_elder_golem_trophy",
+              "ntk:iron_piglin_chief_trophy",
+              "ntk:iron_shulkore_trophy",
+              "ntk:golden_brute_zombie_trophy",
+              "ntk:golden_rat_curserer_trophy",
+              "ntk:golden_elder_golem_trophy",
+              "ntk:golden_piglin_chief_trophy",
+              "ntk:golden_shulkore_trophy",
+              "ntk:diamond_brute_zombie_trophy",
+              "ntk:diamond_rat_curserer_trophy",
+              "ntk:diamond_elder_golem_trophy",
+              "ntk:diamond_piglin_chief_trophy",
+              "ntk:diamond_shulkore_trophy"
+            ]
+          },
+          {
+            "items": [
+              "ntk:cursed_eye"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "nature",
+        "groups": [
+          { // Raw Food
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.rawFood"
+            },
+            "items": [
+              "ntk:raw_rat"
+            ]
+          },
+          {
+            "items": [
+              "ntk:rotten_brute_flesh"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

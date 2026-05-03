@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:fallen_pinecone",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "geometry": {
+        "default": "geometry.cc.pinecone"
+      },
+      "render_controllers": ["controller.render.cc.common"],
+      "textures": {
+        "default": "textures/cc/foliage/blocks/pinecone"
+      }
+    }
+  }
+}

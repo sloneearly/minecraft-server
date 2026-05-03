@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "fill.vegetable_soup.3",
+    "heightmap": "fill.vegetable_soup.3_heightmap",
+    "metalness_emissive_roughness_subsurface": "fill.vegetable_soup.3_mers"
+  }
+}

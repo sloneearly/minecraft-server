@@ -1,0 +1,52 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.cc.advanced_jungle_villager.base": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "array.tex[q.property('cc:base_index')]"
+            ],
+            "arrays": {
+                "textures": {
+                    "array.tex": [
+                        "Texture.outfit_0",
+                        "Texture.outfit_1",
+                        "Texture.outfit_2",
+                        "Texture.outfit_3",
+                        "Texture.outfit_4",
+                        "Texture.outfit_5",
+                        "Texture.outfit_6",
+                        "Texture.outfit_7",
+                        "Texture.outfit_8",
+                        "Texture.outfit_9",
+                        "Texture.outfit_10",
+                        "Texture.outfit_11",
+                        "Texture.outfit_12",
+                        "Texture.outfit_13",
+                        "Texture.outfit_14",
+                        "Texture.outfit_15",
+                        "Texture.outfit_16",
+                        "Texture.outfit_17",
+                        "Texture.outfit_18",
+                        "Texture.outfit_19",
+                        "Texture.outfit_20",
+                        "Texture.outfit_21",
+                        "Texture.outfit_22",
+                        "Texture.outfit_23",
+                        "Texture.outfit_24",
+                        "Texture.outfit_25",
+                        "Texture.outfit_26",
+                        "Texture.outfit_27",
+                        "Texture.outfit_28",
+                        "Texture.outfit_29"
+                    ]
+                }
+            }
+        }
+    }
+}

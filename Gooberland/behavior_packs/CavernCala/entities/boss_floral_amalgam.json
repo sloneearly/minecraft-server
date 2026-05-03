@@ -1,0 +1,667 @@
+//bridge-file-version: #256
+{
+	"format_version": "1.20.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "boss:floral_amalgam",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"walk"
+				]
+			},
+			"animations": {
+				"walk": "controller.animation.floral_amalgam"
+			}
+		},
+		"component_groups": {
+			"attack1": {
+				"minecraft:shooter": {
+					"def": "projectile:exodium_dash_attack"
+				},
+				"minecraft:timer": {
+					"time": [
+						1,
+						5
+					],
+					"time_down_event": {
+						"event": "resettingattacktimer",
+						"target": "self"
+					},
+					"looping": true
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 1,
+					"entity_types": {
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						"max_dist": 64
+					},
+					"must_see": false
+				},
+				"minecraft:movement": {
+					"value": 0.05
+				},
+				"minecraft:behavior.ranged_attack": {
+					"priority": 1,
+					"attack_interval_min": 1,
+					"attack_interval_max": 2,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 2,
+					"attack_radius": 64,
+					"burst_shots": 50,
+					"burst_interval": 2
+				}
+			},
+			"resettingattacktimer": {
+				"minecraft:timer": {
+					"time": [
+						1,
+						5
+					],
+					"time_down_event": {
+						"event": "attacks"
+					}
+				},
+				"minecraft:movement": {
+					"value": 0.05
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 1,
+					"entity_types": {
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						"max_dist": 64
+					},
+					"must_see": false
+				},
+				"minecraft:behavior.move_towards_target": {
+					"priority": 2,
+					"within_radius": 20,
+					"speed_multiplier": 1.2
+				},
+				"minecraft:physics": {
+					"has_collision": true
+				}
+			},
+			"attack2": {
+				"minecraft:timer": {
+					"time": [
+						1,
+						5
+					],
+					"time_down_event": {
+						"event": "resettingattacktimer"
+					},
+					"looping": true
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 1,
+					"entity_types": {
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						"max_dist": 64
+					},
+					"must_see": false
+				},
+				"minecraft:shooter": {
+					"def": "projectile:floral_laser"
+				},
+				"minecraft:movement": {
+					"value": 0.15
+				},
+				"minecraft:behavior.ranged_attack": {
+					"priority": 1,
+					"attack_interval_min": 1,
+					"attack_interval_max": 2,
+					"charge_charged_trigger": 0,
+					"charge_shoot_trigger": 2,
+					"attack_radius": 64,
+					"burst_shots": 9999,
+					"burst_interval": 0.001
+				}
+			},
+			"chomp": {
+				"minecraft:timer": {
+					"looping": true,
+					"time": [
+						0.3,
+						0.3
+					],
+					"time_down_event": {
+						"event": "finishedchomp",
+						"target": "self"
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:breathable": {
+				"totalSupply": 15,
+				"suffocateTime": 0
+			},
+			"minecraft:fire_immune": true,
+			"minecraft:health": {
+				"value": 1000,
+				"max": 1000
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:experience_reward": {
+				"on_death": 800
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:collision_box": {
+				"width": 2,
+				"height": 2
+			},
+			"minecraft:movement": {
+				"value": 0.008
+			},
+			"minecraft:behavior.move_towards_target": {
+				"priority": 2,
+				"speed_multiplier": 1,
+				"within_radius": 12
+			},
+			"minecraft:can_fly": true,
+			"minecraft:type_family": {
+				"family": [
+					"rush",
+					"boss",
+					"monster"
+				]
+			},
+			"minecraft:on_death": {
+				"event": "on:death",
+				"target": "self"
+			},
+			"minecraft:jump.static": {},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:follow_range": {
+				"value": 64,
+				"max": 64
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 3
+			},
+			"minecraft:physics": {
+				"has_collision": true
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "fire_tick",
+						"deals_damage": false
+					},
+					{
+						"cause": "suffocation",
+						"deals_damage": false
+					},
+					{
+						"deals_damage": false,
+						"cause": "fire"
+					},
+					{
+						"cause": "entity_explosion",
+						"deals_damage": false
+					},
+					{
+						"cause": "block_explosion",
+						"deals_damage": false
+					},
+					{
+						"cause": "magic",
+						"deals_damage": false
+					},
+					{
+						"cause": "projectile",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"value": "boss",
+										"subject": "other"
+									}
+								]
+							}
+						}
+					},
+					{
+						"cause": "contact",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"value": "boss",
+										"subject": "other"
+									}
+								]
+							}
+						}
+					},
+					{
+						"cause": "entity_attack",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"value": "boss",
+										"subject": "other"
+									}
+								]
+							}
+						}
+					},
+					{
+						"cause": "projectile",
+						"damage_multiplier": 0.02
+					}
+				]
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 1,
+				"entity_types": {
+					"filters": {
+						"test": "is_family",
+						"subject": "other",
+						"value": "player"
+					},
+					"max_dist": 128
+				},
+				"must_see": false
+			},
+			"minecraft:boss": {
+				"should_darken_sky": true,
+				"name": "Floral Amalgam",
+				"hud_range": 55
+			},
+			"minecraft:scale": {
+				"value": 1.5
+			},
+			"minecraft:behavior.float_wander": {
+				"priority": 2,
+				"must_reach": true,
+				"y_dist": 2
+			},
+			"minecraft:navigation.float": {
+				"can_path_over_water": true
+			},
+			"minecraft:on_target_acquired": {
+				"event": "defaultattacks",
+				"target": "self"
+			},
+			"minecraft:on_target_escape": {
+				"event": "noattacks",
+				"target": "self"
+			},
+			"minecraft:dimension_bound": {},
+			"minecraft:area_attack": {
+				"damage_range": 0.6,
+				"damage_per_tick": 15,
+				"cause": "contact",
+				"entity_filter": {
+					"any_of": [
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "monster"
+						}
+					]
+				}
+			}
+		},
+		"events": {
+			"attacks": {
+				"sequence": [
+					{
+						"randomize": [
+							{
+								"sequence": [
+									{
+										"add": {
+											"component_groups": [
+												"attack1"
+											]
+										}
+									}
+								],
+								"weight": 2
+							},
+							{
+								"sequence": [
+									{
+										"add": {
+											"component_groups": [
+												"attack2"
+											]
+										}
+									}
+								],
+								"weight": 2
+							},
+							{
+								"queue_command": {
+									"command": [
+										"event entity @s chomp",
+										"tag @s add chomp",
+										"playanimation @s animation.floral_amalgam.chomp"
+									]
+								},
+								"weight": 2
+							},
+							{
+								"queue_command": {
+									"command": [
+										"function floralspike"
+									]
+								},
+								"weight": 2
+							},
+							{
+								"queue_command": {
+									"command": [
+										"function floralspikessummon"
+									]
+								},
+								"weight": 2
+							},
+							{
+								"queue_command": {
+									"command": [
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud",
+										"summon projectile:floral_cloud"
+									]
+								}
+							}
+						]
+					},
+					{
+						"queue_command": {
+							"command": [
+								"execute at @r[r=50] run tp @e[type=boss:floral_amalgam] ^^10^12"
+							]
+						}
+					}
+				]
+			},
+			"resettingattacktimer": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"resettingattacktimer"
+							]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"tag @s remove laser"
+							]
+						}
+					}
+				]
+			},
+			"defaultattacks": {
+				"randomize": [
+					{
+						"sequence": [
+							{
+								"add": {
+									"component_groups": [
+										"attack1"
+									]
+								}
+							}
+						],
+						"weight": 3
+					},
+					{
+						"sequence": [
+							{
+								"add": {
+									"component_groups": [
+										"attack2"
+									]
+								}
+							}
+						],
+						"weight": 3
+					}
+				]
+			},
+			"attacks2": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"resettingattacktimer"
+							]
+						}
+					},
+					{
+						"randomize": [
+							{
+								"sequence": [
+									{
+										"add": {
+											"component_groups": [
+												"attack1"
+											]
+										}
+									}
+								],
+								"weight": 3
+							},
+							{
+								"sequence": [
+									{
+										"add": {
+											"component_groups": [
+												"attack2"
+											]
+										}
+									}
+								],
+								"weight": 3
+							}
+						]
+					},
+					{
+						"randomize": [
+							{
+								"sequence": [
+									{
+										"add": {
+											"component_groups": [
+												"attack1"
+											]
+										}
+									}
+								],
+								"weight": 3
+							},
+							{
+								"sequence": [
+									{
+										"add": {
+											"component_groups": [
+												"attack2"
+											]
+										}
+									}
+								],
+								"weight": 3
+							}
+						]
+					}
+				]
+			},
+			"on:death": {
+				"queue_command": {
+					"command": [
+						"give @a[r=30] item:exodium_forging_template",
+						"title @a[r=30] actionbar You have Been Given a Exodium Forging Template"
+					]
+				}
+			},
+			"chomp": {
+				"sequence": [
+					{
+						"remove": {
+							"component_groups": [
+								"attack1",
+								"attack2",
+								"resettingattacktimer"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"chomp"
+							]
+						}
+					}
+				]
+			},
+			"finishedchomp": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"damage @e[r=3,type=!boss:floral_amalgam] 20 contact entity @s",
+								"particle chompblast",
+								"tag @s remove chomp",
+								"event entity @s defaultattacks",
+								"function spawnspores",
+								"function spawnspores",
+								"function spawnspores",
+								"function spawnspores",
+								"function spawnspores",
+								"function spawnspores"
+							]
+						}
+					}
+				]
+			},
+			"noattacks": {
+				"remove": {
+					"component_groups": [
+						"attack1",
+						"resettingattacktimer",
+						"attack2",
+						"chomp"
+					]
+				}
+			}
+		}
+	}
+}

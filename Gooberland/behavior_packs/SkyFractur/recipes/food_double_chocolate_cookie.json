@@ -1,0 +1,29 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "double_chocolate_cookie_3c1f5b7a"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:cocoa_beans",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:wheat",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "food:double_chocolate_cookie",
+			"count": 8
+		}
+	}
+}

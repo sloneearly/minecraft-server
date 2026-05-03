@@ -1,0 +1,65 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.entity.ntk_deopard.general": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"walking": "query.modified_move_speed"
+						}
+					],
+					"blend_transition": 0.2,
+					"transitions": [
+					  {
+							"attack_melee": "variable.attack_time > 0.0"
+					  },
+						{
+							"sitting": "query.is_sitting"
+						}
+					]
+				},
+				"attack_melee": {
+					"animations": [ "attack_melee" ],
+					"transitions": [
+						{
+							"default": "variable.attack_time <= 0.0"
+						}
+					]
+				},
+				"sitting": {
+					"animations": [ "sitting" ],
+					"blend_transition": 0.2,
+					"transitions": [
+					  {
+					    "default": "!query.is_sitting"
+					  }
+					]
+				}
+			}
+		},
+		"controller.animation.entity.ntk_deopard.interested": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"interested": "query.is_interested"
+						}
+					]
+				},
+				"interested": {
+					"animations": [ "interested" ],
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"default": "!query.is_interested"
+						}
+					]
+				}
+			}
+		}
+	}
+}

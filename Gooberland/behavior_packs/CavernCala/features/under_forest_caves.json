@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "gen:under_forest_caves"
+		},
+		"features": [
+			"gen:under_forest_patch_feature",
+			"gen:under_forest_top",
+			"cc:pale_oak_tree_cave_feature",
+			"cc:pale_oak_tree_cave2_feature",
+			"cc:pale_oak_tree_cave3_feature"
+		]
+	}
+}

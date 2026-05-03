@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "glowshroom_stew_12bc818b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      " C"
+    ],
+    "key": {
+      "A": {
+        "item": "block:glowshroom",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:sugar",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:bowl",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "food:glowshroom_stew",
+      "count": 1
+    }
+  }
+}

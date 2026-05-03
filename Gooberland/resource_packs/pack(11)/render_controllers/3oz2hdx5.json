@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.cc.charge_shooter_weapon": {
+            "materials": [
+                {
+                    "*": "variable.is_enchanted ? material.enchanted : material.default"
+                }
+            ],
+            "arrays": {
+                "textures": {
+                    "Array.texture": [
+                        "Texture.standby",
+                        "Texture.pull0",
+                        "Texture.pull1",
+                        "Texture.pull2"
+                    ]
+                }
+            },
+            "geometry": "Geometry.default",
+            "textures": [
+                "Array.texture[(v.charge_amount > 0) ? 1 + math.floor(v.charge_amount * 2) : 0]",
+                "texture.enchanted"
+            ]
+        }
+    }
+}

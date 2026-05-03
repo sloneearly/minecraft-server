@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ntk:overgrown_jungle_troot",
+      //"enable_attachables": true,
+      "spawn_egg": {
+        "texture": "ntk_spawn_egg_overgrown_jungle_troot"
+      },
+      "render_controllers": [
+        "controller.render.entity.ntk_overgrown_jungle_troot"
+      ],
+      "geometry": {
+        "default": "geometry.entity.ntk_overgrown_jungle_troot"
+      },
+      "materials": {
+        "default": "ntk_entity_emissive_alpha"
+      },
+      "textures": {
+        "variant_0_overgrown_jungle_troot_wild": "textures/entity/ntk_overgrown_jungle_troot_wild",
+        "variant_1_overgrown_jungle_troot_tamed": "textures/entity/ntk_overgrown_jungle_troot_tamed"
+      },
+      "animations": {
+        "controller_general": "controller.animation.entity.ntk_overgrown_jungle_troot.general",
+        "attack_melee": "animation.entity.ntk_overgrown_jungle_troot.attack_melee",
+        "look_at_target": "animation.entity.ntk_overgrown_jungle_troot.look_at_target",
+        "sitting": "animation.entity.ntk_overgrown_jungle_troot.sitting",
+        "walking": "animation.entity.ntk_overgrown_jungle_troot.walking"
+      },
+      "scripts": {
+        "animate": [
+          "controller_general",
+          "look_at_target"
+        ]
+      }
+    }
+  }
+}

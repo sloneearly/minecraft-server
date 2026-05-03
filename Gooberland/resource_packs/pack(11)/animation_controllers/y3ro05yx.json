@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.cc.pearl_clam": {
+            "initial_state": "close",
+            "states": {
+                "close": {
+                    "animations": ["close"],
+                    "transitions": [{ "open": "query.property('cc:open') == 1" }],
+                    "blend_transition": 0.2
+                },
+                "open": {
+                    "animations": ["open"],
+                    "transitions": [{ "close": "query.property('cc:open') == 0" }],
+                    "blend_transition": 0.2
+                }
+            }
+        }
+    }
+}

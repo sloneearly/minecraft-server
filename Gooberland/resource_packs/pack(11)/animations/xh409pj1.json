@@ -1,0 +1,60 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+    "animation.cc.weapon_stand.wiggle": {
+      "loop": true,
+      "bones": {
+        "baseplate": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.05": [0, -5, 0],
+            "0.1": [0, 5, 0],
+            "0.15": [0, -2.5, 0],
+            "0.2": [0, 0, 0]
+          }
+        }
+      }
+    },
+    "animation.cc.weapon_stand.trident": {
+      "loop": true,
+      "animation_length": 0.2,
+      "bones": {
+        "rightitem": {
+          "rotation": [-25, 7.5, 0],
+          "position": [7, 0, 0]
+        }
+      }
+    },
+    "animation.cc.weapon_stand.bow": {
+      "loop": true,
+      "animation_length": 0.2,
+      "bones": {
+        "rightitem": {
+          "rotation": [-96.19695, 1.6284, 83.80305],
+          "position": [5, 0, -2]
+        }
+      }
+    },
+
+    "animation.cc.weapon_stand.ice_bow": {
+      "loop": true,
+      "animation_length": 0.2,
+      "bones": {
+        "rightitem": {
+          "rotation": [-96.19695, 1.6284, 83.80305],
+          "position": [3, 0, -2]
+        }
+      }
+    },
+    "animation.cc.weapon_stand.crossbow": {
+      "loop": true,
+      "animation_length": 0.2,
+      "bones": {
+        "rightitem": {
+          "rotation": [-1.62804, 89.96599, -7.39341],
+          "position": [6, 9, 4]
+        }
+      }
+    }
+  }
+}

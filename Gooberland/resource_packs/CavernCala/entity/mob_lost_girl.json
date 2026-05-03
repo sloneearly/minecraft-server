@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "mob:lost_girl",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/entity/lost_girl"
+      },
+      "geometry": {
+        "default": "geometry.lostgirl"
+      },
+      "scripts": {
+        "animate": [
+          "particles"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.slime"
+      ]
+    }
+  }
+}

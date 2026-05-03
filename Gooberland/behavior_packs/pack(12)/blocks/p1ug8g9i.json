@@ -1,0 +1,151 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cc:churn",
+      "menu_category": {
+        "category": "construction"
+      },
+      "states": {
+        "cc:fill": ["empty", "milk", "water"]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:cardinal_direction"]
+        }
+      }
+    },
+    "components": {
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "none"
+      },
+      "minecraft:display_name": "%cc.churn\n%cc.category.trinkets",
+      "cc:transform_block": {},
+      "cc:interact": {},
+      "minecraft:destructible_by_mining": true,
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:geometry": {
+        "identifier": "geometry.cc.churn",
+        "bone_visibility": {
+          "fill": "q.block_state('cc:fill') != 'empty'"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cc:churn_side",
+          "render_method": "alpha_test"
+        },
+        "churn_top": {
+          "texture": "cc:churn_top",
+          "render_method": "alpha_test"
+        },
+        "churn_bottom": {
+          "texture": "cc:churn_bottom",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": {
+        "origin": [-4, 0, -4],
+        "size": [8, 16, 8]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:map_color": "#5d6665",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": true,
+            "liquid_type": "water",
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('cc:fill') == 'water'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:churn_side",
+              "render_method": "alpha_test"
+            },
+            "churn_top": {
+              "texture": "cc:churn_top",
+              "render_method": "alpha_test"
+            },
+            "churn_bottom": {
+              "texture": "cc:churn_bottom",
+              "render_method": "alpha_test"
+            },
+            "churn_fill": {
+              "texture": "cc:churn_fill_water",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('cc:fill') == 'milk'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:churn_side",
+              "render_method": "alpha_test"
+            },
+            "churn_top": {
+              "texture": "cc:churn_top",
+              "render_method": "alpha_test"
+            },
+            "churn_bottom": {
+              "texture": "cc:churn_bottom",
+              "render_method": "alpha_test"
+            },
+            "churn_fill": {
+              "texture": "cc:churn_fill_milk",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0, 0, 0]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0, -90, 0]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0, 180, 0]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0, 90, 0]
+          }
+        }
+      }
+    ]
+  }
+}

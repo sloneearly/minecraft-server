@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:pearl_clam",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "geometry": {
+        "default": "geometry.cc.pearl_clam"
+      },
+      "render_controllers": ["controller.render.cc.common"],
+      "textures": {
+        "default": "textures/cc/animals/entities/pearl_clam"
+      },
+      "animations": {
+        "animation_controller": "controller.animation.cc.pearl_clam",
+        "open": "animation.cc.pearl_clam.open",
+        "close": "animation.cc.pearl_clam.close",
+        "controller_grid_snap": "controller.animation.cc.grid_snap",
+        "grid_snap_north": "animation.cc.grid_snap.north",
+        "grid_snap_east": "animation.cc.grid_snap.east",
+        "grid_snap_south": "animation.cc.grid_snap.south",
+        "grid_snap_west": "animation.cc.grid_snap.west"
+      },
+      "particle_effects": {
+        "bubbles": "cc:clam_bubble"
+      },
+      "scripts": {
+        "animate": ["animation_controller", "controller_grid_snap"]
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:pearl_clam_spawn_egg"
+      }
+    }
+  }
+}

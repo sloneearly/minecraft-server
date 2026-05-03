@@ -1,0 +1,628 @@
+//bridge-file-version: #36
+{
+	"format_version": "1.20.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mechanic:auto_drill_up",
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:timer": {
+				"time": [
+					0.1,
+					0.1
+				],
+				"looping": true,
+				"time_down_event": {
+					"event": "destroy"
+				}
+			},
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:deny"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:allow"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:border_block"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:barrier"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:command_block"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:chain_command_block"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:repeating_command_block"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:structure_void"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:structure_block"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:trial_spawner"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:reinforced_deepslate"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:vault"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:portal"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:end_portal"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:bedrock"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:end_portal_frame"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:water"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:flowing_water"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:lava"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:flowing_lava"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:light_block_0"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:light_block_1"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:light_block_2"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:light_block_3"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:light_block_4"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:light_block_5"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:light_block_6"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:light_block_7"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:light_block_8"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:light_block_9"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:light_block_10"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:light_block_11"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:light_block_12"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:light_block_13"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:light_block_14"
+						}
+					},
+					{
+						"event": "despawn",
+						"target": "self",
+						"filters": {
+							"test": "in_block",
+							"operator": "==",
+							"value": "minecraft:light_block_15"
+						}
+					}
+				]
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"destroy": {
+				"sequence": [
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:allow",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:deny",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:border_block",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:command_block",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:vault",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:trial_spawner",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:reinforced_deepslate",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:barrier",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:chain_command_block",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:water",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:lava",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:flowing_water",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:flowing_lava",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:air",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:bedrock",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:portal",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:end_portal",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:end_gateway",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:end_portal_frame",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:repeating_command_block",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:light_block_0",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:light_block_1",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:light_block_2",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:light_block_3",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:light_block_4",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:light_block_5",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:light_block_6",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:light_block_7",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:light_block_8",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:light_block_9",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:light_block_10",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:light_block_11",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:light_block_12",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:light_block_13",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:light_block_14",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:light_block_15",
+									"subject": "self"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "block:sodalite",
+									"subject": "self"
+								}
+							]
+						},
+						"queue_command": {
+							"command": [
+								"fill ~~~ ~~~ air destroy"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			},
+			"minecraft:entity_spawned": {
+				"queue_command": {
+					"command": [
+						"tp @s ~~1~"
+					]
+				}
+			}
+		}
+	}
+}

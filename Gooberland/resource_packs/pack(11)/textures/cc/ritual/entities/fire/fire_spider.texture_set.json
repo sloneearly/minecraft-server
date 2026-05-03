@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "fire_spider",
+    "heightmap": "fire_spider_heightmap",
+    "metalness_emissive_roughness_subsurface": "fire_spider_mers"
+  }
+}

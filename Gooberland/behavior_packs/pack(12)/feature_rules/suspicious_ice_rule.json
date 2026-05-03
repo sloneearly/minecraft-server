@@ -1,0 +1,46 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:suspicious_ice_rule",
+      "places_feature": "cc:suspicious_ice_scatter"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": {
+        "any_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "cold"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 7,
+      "scatter_chance": 10.0,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          -8,
+          8
+        ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [
+          -64,
+          55
+        ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          -8,
+          8
+        ]
+      }
+    }
+  }
+}

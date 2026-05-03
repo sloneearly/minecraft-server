@@ -1,0 +1,18 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:feature_rules": {
+    "nether_ores": {
+      "type": "ores",
+      "ore_block": "tt:black_blood_ore",
+      "target_block": "minecraft:netherrack",
+      "min_size": 4,
+      "max_size": 8,
+      "rock_variance": 3,
+      "min_y": 10,
+      "max_y": 128,
+      "block_radius": 2,
+      "frequency": 10,
+      "biome_restrictions": []
+    }
+  }
+}

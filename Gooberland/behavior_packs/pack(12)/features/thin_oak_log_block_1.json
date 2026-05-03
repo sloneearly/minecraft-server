@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "cc:thin_oak_log_block_1"
+    },
+    "places_block": "cc:thin_oak_log",
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false,
+    "may_attach_to": {
+      "auto_rotate": true,
+      "min_sides_must_attach": 1,
+      "sides": [
+        {
+          "name": "minecraft:log",
+          "states": {
+            "old_log_type": "oak"
+          }
+        }
+      ]
+    },
+    "may_replace": [
+      "minecraft:air"
+    ]
+  }
+}

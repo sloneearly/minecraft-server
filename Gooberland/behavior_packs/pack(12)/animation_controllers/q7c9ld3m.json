@@ -1,0 +1,19 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.cc.has_rider": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "on_entry": ["/event entity @s cc:no_rider"],
+                    "transitions": [{"has_rider": "q.has_rider"}]
+                },
+                "has_rider": {
+                    "animations": ["has_rider"],
+                    "on_entry": ["/event entity @s cc:has_rider"],
+                    "transitions": [{"default": "!q.has_rider"}]
+                }
+            }
+        }
+    }
+}

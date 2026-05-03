@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_94331a20"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "item:gold_stone_geode",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:raw_gold",
+      "count": 3,
+      "data": 0
+    }
+  }
+}

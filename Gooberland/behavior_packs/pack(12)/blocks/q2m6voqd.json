@@ -1,0 +1,504 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:books",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "cc:count": {
+                    "values": {
+                        "min": 1,
+                        "max": 4
+                    }
+                }
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0
+                },
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "none"
+            },
+            "minecraft:display_name": "%cc.books\n%cc.category.trinkets",
+            "tag:grass": {},
+            "minecraft:destructible_by_mining": true,
+            "minecraft:destructible_by_explosion": true,
+            "cc:multi_placement": {},
+            "minecraft:geometry": {
+                "identifier": "geometry.cc.books.standing",
+                "bone_visibility": {
+                    "book_1": "q.block_state('cc:count') > 0",
+                    "book_2": "q.block_state('cc:count') > 1",
+                    "book_3": "q.block_state('cc:count') > 2",
+                    "book_4": "q.block_state('cc:count') > 3"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cc:book_1",
+                    "render_method": "alpha_test"
+                },
+                "book_1": {
+                    "texture": "cc:book_1",
+                    "render_method": "alpha_test"
+                },
+                "book_2": {
+                    "texture": "cc:book_2",
+                    "render_method": "alpha_test"
+                },
+                "book_3": {
+                    "texture": "cc:book_3",
+                    "render_method": "alpha_test"
+                },
+                "book_4": {
+                    "texture": "cc:book_4",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up",
+                            "side"
+                        ],
+                        "block_filter": [
+                            "minecraft:stone_bricks",
+                            "minecraft:end_stone",
+                            "minecraft:end_bricks",
+                            {
+                                "tags": "query.any_tag('log', 'stone', 'wood', 'dirt', 'sand', 'solid')"
+                            },
+                            "minecraft:gravel",
+                            "minecraft:stone_bricks",
+                            "minecraft:mossy_stone_bricks",
+                            "minecraft:cracked_stone_bricks",
+                            "minecraft:chiseled_stone_bricks",
+                            "minecraft:cobblestone",
+                            "minecraft:mossy_cobblestone",
+                            "minecraft:andesite",
+                            "minecraft:polished_andesite",
+                            "minecraft:diorite",
+                            "minecraft:polished_diorite",
+                            "minecraft:granite",
+                            "minecraft:polished_granite",
+                            "minecraft:deepslate",
+                            "minecraft:deepslate_bricks",
+                            "minecraft:deepslate_tiles",
+                            "minecraft:cobbled_deepslate",
+                            "minecraft:blackstone",
+                            "minecraft:polished_blackstone",
+                            "minecraft:polished_blackstone_bricks",
+                            "minecraft:tuff",
+                            "minecraft:calcite",
+                            "minecraft:brick_block",
+                            "minecraft:mud_bricks",
+                            "minecraft:prismarine",
+                            "minecraft:prismarine_bricks",
+                            "minecraft:dark_prismarine",
+                            "minecraft:pale_oak_planks",
+                            "minecraft:warped_planks",
+                            "minecraft:warped_stem",
+                            "minecraft:stripped_warped_stem",
+                            "minecraft:crimson_planks",
+                            "minecraft:crimson_stem",
+                            "minecraft:stripped_crimson_stem",
+                            "minecraft:cherry_planks",
+                            "minecraft:mangrove_planks",
+                            "minecraft:tuff_bricks",
+                            "minecraft:ice",
+                            "minecraft:packed_ice",
+                            "minecraft:blue_ice",
+                            "minecraft:bamboo_block",
+                            "minecraft:stripped_bamboo_block",
+                            "minecraft:bamboo_mosaic",
+                            "minecraft:bamboo_planks",
+                            "minecraft:clay"
+                        ]
+                    },
+                    {
+                        "allowed_faces": [
+                            "up",
+                            "side"
+                        ],
+                        "block_filter": [
+                            {
+                                "name": "cc:books",
+                                "states": {
+                                    "cc:count": 1
+                                }
+                            },
+                            {
+                                "name": "cc:books",
+                                "states": {
+                                    "cc:count": 2
+                                }
+                            },
+                            {
+                                "name": "cc:books",
+                                "states": {
+                                    "cc:count": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "allowed_faces": [
+                            "up",
+                            "side"
+                        ],
+                        "block_filter": [
+                            {
+                                "name": "cc:books",
+                                "states": {
+                                    "cc:count": 1
+                                }
+                            },
+                            {
+                                "name": "cc:books",
+                                "states": {
+                                    "cc:count": 2
+                                }
+                            },
+                            {
+                                "name": "cc:books",
+                                "states": {
+                                    "cc:count": 3
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "minecraft:collision_box": true,
+            "minecraft:selection_box": true,
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#997845",
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "can_contain_liquid": true,
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'up' && q.block_state('cc:count') == 1",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            7,
+                            4,
+                            7
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            7,
+                            4,
+                            7
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'up' && q.block_state('cc:count') == 2",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            16,
+                            4,
+                            14
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            16,
+                            4,
+                            14
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'up' && q.block_state('cc:count') == 3",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            16,
+                            8,
+                            14
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            16,
+                            8,
+                            14
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'up' && q.block_state('cc:count') == 4",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            16,
+                            12,
+                            14
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            16,
+                            12,
+                            14
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') != 'up' && q.block_state('cc:count') == 1",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -2,
+                            0,
+                            0
+                        ],
+                        "size": [
+                            7,
+                            7,
+                            4
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -2,
+                            0,
+                            0
+                        ],
+                        "size": [
+                            7,
+                            7,
+                            4
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') != 'up' && q.block_state('cc:count') == 2",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -4,
+                            0,
+                            -4
+                        ],
+                        "size": [
+                            9,
+                            9,
+                            8
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -4,
+                            0,
+                            -4
+                        ],
+                        "size": [
+                            9,
+                            9,
+                            8
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') != 'up' && q.block_state('cc:count') == 3",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -4,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            9,
+                            9,
+                            12
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -4,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            9,
+                            9,
+                            12
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') != 'up' && q.block_state('cc:count') == 4",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -4,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            9,
+                            9,
+                            16
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -4,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            9,
+                            9,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'up'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.cc.books.stacking",
+                        "bone_visibility": {
+                            "book_1": "q.block_state('cc:count') > 0",
+                            "book_2": "q.block_state('cc:count') > 1",
+                            "book_3": "q.block_state('cc:count') > 2",
+                            "book_4": "q.block_state('cc:count') > 3"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

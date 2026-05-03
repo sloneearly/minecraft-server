@@ -1,0 +1,89 @@
+{
+	"format_version": "1.20.50",
+
+	"minecraft:item": {
+		"description": {
+			"identifier": "tool:rose_gold_shovel",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.shovel"
+			}
+		},
+
+		"components": {
+			"minecraft:icon": "tool:rose_gold_shovel",
+			"minecraft:display_name": {
+				"value": "Rose Gold Shovel\n\n\n§7Mining Speed: 48"
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:transformable_items",
+					"minecraft:is_tool",
+					"minecraft:digger",
+					"minecraft:is_shovel",
+					"minecraft:diamond_tier"
+				]
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:stacked_by_data": true,
+			"minecraft:durability": {
+				"max_durability": 232
+			},
+			"minecraft:damage": 3,
+			"minecraft:digger": {
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('dirt', 'sand', 'gravel', 'grass', 'snow', 'shovel_diggable')"
+						},
+						"speed": 96
+					},
+					{"block": "minecraft:bamboo", "speed": 20},
+					{
+						"block": {
+							"tags": "q.any_tag('minecraft:is_shovel_item_destructible')"
+						},
+						"speed": 20
+					},
+					{"block": "minecraft:black_concrete_powder", "speed": 20},
+					{"block": "minecraft:blue_concrete_powder", "speed": 20},
+					{"block": "minecraft:brown_concrete_powder", "speed": 20},
+					{"block": "minecraft:clay", "speed": 20},
+					{"block": "minecraft:cyan_concrete_powder", "speed": 20},
+					{"block": "minecraft:dirt_with_roots", "speed": 20},
+					{"block": "minecraft:dirt", "speed": 20},
+					{"block": "minecraft:farmland", "speed": 20},
+					{"block": "minecraft:grass_path", "speed": 20},
+					{"block": "minecraft:grass", "speed": 20},
+					{"block": "minecraft:gravel", "speed": 20},
+					{"block": "minecraft:gray_concrete_powder", "speed": 20},
+					{"block": "minecraft:green_concrete_powder", "speed": 20},
+					{"block": "minecraft:light_blue_concrete_powder", "speed": 20},
+					{"block": "minecraft:light_gray_concrete_powder", "speed": 20},
+					{"block": "minecraft:lime_concrete_powder", "speed": 20},
+					{"block": "minecraft:magenta_concrete_powder", "speed": 20},
+					{"block": "minecraft:mud", "speed": 20},
+					{"block": "minecraft:muddy_mangrove_roots", "speed": 20},
+					{"block": "minecraft:mycelium", "speed": 20},
+					{"block": "minecraft:orange_concrete_powder", "speed": 20},
+					{"block": "minecraft:pink_concrete_powder", "speed": 20},
+					{"block": "minecraft:podzol", "speed": 20},
+					{"block": "minecraft:purple_concrete_powder", "speed": 20},
+					{"block": "minecraft:red_concrete_powder", "speed": 20},
+					{"block": "minecraft:sand", "speed": 20},
+					{"block": "minecraft:snow_layer", "speed": 20},
+					{"block": "minecraft:snow", "speed": 20},
+					{"block": "minecraft:soul_sand", "speed": 20},
+					{"block": "minecraft:soul_soil", "speed": 20},
+					{"block": "minecraft:suspicious_gravel", "speed": 20},
+					{"block": "minecraft:suspicious_sand", "speed": 20},
+					{"block": "minecraft:white_concrete_powder", "speed": 20},
+					{"block": "minecraft:yellow_concrete_powder", "speed": 20}
+				],
+				"use_efficiency": true
+			},
+			"minecraft:enchantable": {"slot": "shovel", "value": 30}
+		}
+	}
+}

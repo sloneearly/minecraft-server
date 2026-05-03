@@ -1,0 +1,53 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:seagull",
+      "animations": {
+        "fly": "animation.cc.seagull.fly",
+        "idle": "animation.cc.seagull.idle",
+        "call": "animation.cc.distant_call",
+
+        "move_controller": "controller.animation.cc.move",
+        "walk": "animation.cc.biped.walk",
+        "run": "animation.cc.biped.walk",
+        "swim": "animation.cc.biped.walk",
+        "swim_idle": "animation.cc.biped.walk",
+        "swim_run": "animation.cc.biped.walk"
+      },
+      "geometry": {
+        "default": "geometry.cc.seagull"
+      },
+      "textures": {
+        "default": "textures/cc/animals/entities/seagull"
+      },
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "sound_effects": {
+        "call": "cc:seagull_call"
+      },
+      "render_controllers": ["controller.render.default"],
+      "scripts": {
+        "initialize": [
+          "v.relative_run_speed = 0.6;",
+          "v.max_leg_rot = 45;",
+          "v.max_leg_pos_h = 0;",
+          "v.max_leg_pos_v = 7;",
+          "v.body_bump = 2;",
+          "v.body_rot = 2;",
+          "v.head_bump = 0;",
+          "v.max_arm_rot = 45;",
+          "v.max_arm_pos_h = 1;",
+          "v.playback_multiplier = 1.2;"
+        ],
+        "animate": ["move_controller", { "call": "math.random_integer(0,50) == 1" }]
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:seagull_spawn_egg"
+      },
+      "enable_attachables": true
+    }
+  }
+}

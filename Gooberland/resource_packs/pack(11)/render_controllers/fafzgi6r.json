@@ -1,0 +1,14 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.cc.hermit": {
+            "geometry": "q.property('cc:shell_type') == 'nautilus' ? Geometry.default : Geometry.coconut",
+            "textures": ["q.property('cc:shell_type') == 'nautilus' ? Texture.default : Texture.coconut"],
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ]
+        }
+    }
+}

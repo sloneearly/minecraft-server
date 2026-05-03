@@ -1,0 +1,43 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:hollow_oak_log_placement",
+      "places_feature": "cc:hollow_oak_log_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "meadow"
+            }
+          ]
+        }
+      ]
+    },
+
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 30.0,
+      "x": {
+        "distribution": "triangle",
+        "extent": [-8, 8]
+      },
+      "y": "query.heightmap(v.originx, v.originz) + 1",
+      "z": {
+        "distribution": "triangle",
+        "extent": [-8, 8]
+      },
+      "coordinate_eval_order": "zyx"
+    }
+  }
+}

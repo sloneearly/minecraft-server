@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:knotweed_scatter"
+    },
+    "iterations": 5,
+    "x": {
+      "distribution": "gaussian",
+      "extent": [-8, 8]
+    },
+    "y": 0,
+    "z": {
+      "distribution": "gaussian",
+      "extent": [-8, 8]
+    },
+    "coordinate_eval_order": "zyx",
+    "places_feature": "cc:knotweed_feature"
+  }
+}

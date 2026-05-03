@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_27a9afd1"
+    },
+    "tags": [
+      "soul_forge"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "EFE"
+    ],
+    "key": {
+      "A": {
+        "item": "item:platinum_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "item:platinum_forging_template",
+        "data": 0
+      },
+      "C": {
+        "item": "block:cobalt_block",
+        "data": 0
+      },
+      "D": {
+        "item": "sword:titanium_hoe",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:diamond",
+        "data": 0
+      },
+      "F": {
+        "item": "block:platinum_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "tool:platinum_hoe",
+      "count": 1
+    }
+  }
+}

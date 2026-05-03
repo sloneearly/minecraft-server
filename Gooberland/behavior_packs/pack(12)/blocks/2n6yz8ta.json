@@ -1,0 +1,57 @@
+{
+  "format_version": "1.21.130",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cc:dummy_block",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": true
+      }
+    },
+    "components": {
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "none"
+      },
+      "cc:condition_check": {},
+      "minecraft:tick": {
+        "interval_range": [20, 20],
+        "looping": true
+      },
+      "minecraft:collision_box": {
+        "origin": [-6, 0, -6],
+        "size": [12, 16, 12]
+      },
+      "minecraft:selection_box": {
+        "origin": [-3, 0, -3],
+        "size": [6, 16, 6]
+      },
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.full_block"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cc:empty",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:map_color": "#F8BF17",
+      "minecraft:light_dampening": 0,
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": true,
+            "liquid_type": "water",
+            "on_liquid_touches": "no_reaction"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1160 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:wall_plant_yellow",
+            "menu_category": {
+                "category": "none"
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            },
+            "states": {
+                "cc:generated": [
+                    false,
+                    true
+                ],
+                "cc:display": [
+                    true,
+                    false
+                ]
+            }
+        },
+        "components": {
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "none"
+            },
+            "tag:nonsolid": {},
+            "tag:cc:display": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.0
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:geometry": "geometry.wall_plant",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cc:wall_plant_yellow",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    4
+                ],
+                "size": [
+                    16,
+                    16,
+                    4
+                ]
+            },
+            "minecraft:collision_box": false,
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#F3BB20",
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "block_filter": [
+                            "minecraft:stone_bricks",
+                            "minecraft:end_stone",
+                            "minecraft:end_bricks",
+                            {
+                                "tags": "query.any_tag('log', 'stone', 'wood', 'dirt', 'sand', 'solid')"
+                            },
+                            "minecraft:gravel",
+                            "minecraft:stone_bricks",
+                            "minecraft:mossy_stone_bricks",
+                            "minecraft:cracked_stone_bricks",
+                            "minecraft:chiseled_stone_bricks",
+                            "minecraft:cobblestone",
+                            "minecraft:mossy_cobblestone",
+                            "minecraft:andesite",
+                            "minecraft:polished_andesite",
+                            "minecraft:diorite",
+                            "minecraft:polished_diorite",
+                            "minecraft:granite",
+                            "minecraft:polished_granite",
+                            "minecraft:deepslate",
+                            "minecraft:deepslate_bricks",
+                            "minecraft:deepslate_tiles",
+                            "minecraft:cobbled_deepslate",
+                            "minecraft:blackstone",
+                            "minecraft:polished_blackstone",
+                            "minecraft:polished_blackstone_bricks",
+                            "minecraft:tuff",
+                            "minecraft:calcite",
+                            "minecraft:brick_block",
+                            "minecraft:mud_bricks",
+                            "minecraft:prismarine",
+                            "minecraft:prismarine_bricks",
+                            "minecraft:dark_prismarine",
+                            "minecraft:pale_oak_planks",
+                            "minecraft:warped_planks",
+                            "minecraft:warped_stem",
+                            "minecraft:stripped_warped_stem",
+                            "minecraft:crimson_planks",
+                            "minecraft:crimson_stem",
+                            "minecraft:stripped_crimson_stem",
+                            "minecraft:cherry_planks",
+                            "minecraft:mangrove_planks",
+                            "minecraft:tuff_bricks",
+                            "minecraft:ice",
+                            "minecraft:packed_ice",
+                            "minecraft:blue_ice",
+                            "minecraft:bamboo_block",
+                            "minecraft:stripped_bamboo_block",
+                            "minecraft:bamboo_mosaic",
+                            "minecraft:bamboo_planks",
+                            "minecraft:clay"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "on_liquid_touches": "popped"
+                    }
+                ]
+            },
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north' && !q.block_state('cc:display') && !q.block_state('cc:generated')",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:placement_filter": {
+                        "conditions": [
+                            {
+                                "allowed_faces": [
+                                    "north"
+                                ],
+                                "block_filter": [
+                                    "minecraft:stone_bricks",
+                                    "minecraft:end_stone",
+                                    "minecraft:end_bricks",
+                                    {
+                                        "tags": "query.any_tag('log', 'stone', 'wood', 'dirt', 'sand', 'solid')"
+                                    },
+                                    "minecraft:gravel",
+                                    "minecraft:stone_bricks",
+                                    "minecraft:mossy_stone_bricks",
+                                    "minecraft:cracked_stone_bricks",
+                                    "minecraft:chiseled_stone_bricks",
+                                    "minecraft:cobblestone",
+                                    "minecraft:mossy_cobblestone",
+                                    "minecraft:andesite",
+                                    "minecraft:polished_andesite",
+                                    "minecraft:diorite",
+                                    "minecraft:polished_diorite",
+                                    "minecraft:granite",
+                                    "minecraft:polished_granite",
+                                    "minecraft:deepslate",
+                                    "minecraft:deepslate_bricks",
+                                    "minecraft:deepslate_tiles",
+                                    "minecraft:cobbled_deepslate",
+                                    "minecraft:blackstone",
+                                    "minecraft:polished_blackstone",
+                                    "minecraft:polished_blackstone_bricks",
+                                    "minecraft:tuff",
+                                    "minecraft:calcite",
+                                    "minecraft:brick_block",
+                                    "minecraft:mud_bricks",
+                                    "minecraft:prismarine",
+                                    "minecraft:prismarine_bricks",
+                                    "minecraft:dark_prismarine",
+                                    "minecraft:pale_oak_planks",
+                                    "minecraft:warped_planks",
+                                    "minecraft:warped_stem",
+                                    "minecraft:stripped_warped_stem",
+                                    "minecraft:crimson_planks",
+                                    "minecraft:crimson_stem",
+                                    "minecraft:stripped_crimson_stem",
+                                    "minecraft:cherry_planks",
+                                    "minecraft:mangrove_planks",
+                                    "minecraft:tuff_bricks",
+                                    "minecraft:ice",
+                                    "minecraft:packed_ice",
+                                    "minecraft:blue_ice",
+                                    "minecraft:bamboo_block",
+                                    "minecraft:stripped_bamboo_block",
+                                    "minecraft:bamboo_mosaic",
+                                    "minecraft:bamboo_planks",
+                                    "minecraft:clay"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north' && !q.block_state('cc:display') && q.block_state('cc:generated')",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:placement_filter": {
+                        "conditions": [
+                            {
+                                "allowed_faces": [
+                                    "south"
+                                ],
+                                "block_filter": [
+                                    "minecraft:stone_bricks",
+                                    "minecraft:end_stone",
+                                    "minecraft:end_bricks",
+                                    {
+                                        "tags": "query.any_tag('log', 'stone', 'wood', 'dirt', 'sand', 'solid')"
+                                    },
+                                    "minecraft:gravel",
+                                    "minecraft:stone_bricks",
+                                    "minecraft:mossy_stone_bricks",
+                                    "minecraft:cracked_stone_bricks",
+                                    "minecraft:chiseled_stone_bricks",
+                                    "minecraft:cobblestone",
+                                    "minecraft:mossy_cobblestone",
+                                    "minecraft:andesite",
+                                    "minecraft:polished_andesite",
+                                    "minecraft:diorite",
+                                    "minecraft:polished_diorite",
+                                    "minecraft:granite",
+                                    "minecraft:polished_granite",
+                                    "minecraft:deepslate",
+                                    "minecraft:deepslate_bricks",
+                                    "minecraft:deepslate_tiles",
+                                    "minecraft:cobbled_deepslate",
+                                    "minecraft:blackstone",
+                                    "minecraft:polished_blackstone",
+                                    "minecraft:polished_blackstone_bricks",
+                                    "minecraft:tuff",
+                                    "minecraft:calcite",
+                                    "minecraft:brick_block",
+                                    "minecraft:mud_bricks",
+                                    "minecraft:prismarine",
+                                    "minecraft:prismarine_bricks",
+                                    "minecraft:dark_prismarine",
+                                    "minecraft:pale_oak_planks",
+                                    "minecraft:warped_planks",
+                                    "minecraft:warped_stem",
+                                    "minecraft:stripped_warped_stem",
+                                    "minecraft:crimson_planks",
+                                    "minecraft:crimson_stem",
+                                    "minecraft:stripped_crimson_stem",
+                                    "minecraft:cherry_planks",
+                                    "minecraft:mangrove_planks",
+                                    "minecraft:tuff_bricks",
+                                    "minecraft:ice",
+                                    "minecraft:packed_ice",
+                                    "minecraft:blue_ice",
+                                    "minecraft:bamboo_block",
+                                    "minecraft:stripped_bamboo_block",
+                                    "minecraft:bamboo_mosaic",
+                                    "minecraft:bamboo_planks",
+                                    "minecraft:clay"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'south' && !q.block_state('cc:display') && !q.block_state('cc:generated')",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:placement_filter": {
+                        "conditions": [
+                            {
+                                "allowed_faces": [
+                                    "south"
+                                ],
+                                "block_filter": [
+                                    "minecraft:stone_bricks",
+                                    "minecraft:end_stone",
+                                    "minecraft:end_bricks",
+                                    {
+                                        "tags": "query.any_tag('log', 'stone', 'wood', 'dirt', 'sand', 'solid')"
+                                    },
+                                    "minecraft:gravel",
+                                    "minecraft:stone_bricks",
+                                    "minecraft:mossy_stone_bricks",
+                                    "minecraft:cracked_stone_bricks",
+                                    "minecraft:chiseled_stone_bricks",
+                                    "minecraft:cobblestone",
+                                    "minecraft:mossy_cobblestone",
+                                    "minecraft:andesite",
+                                    "minecraft:polished_andesite",
+                                    "minecraft:diorite",
+                                    "minecraft:polished_diorite",
+                                    "minecraft:granite",
+                                    "minecraft:polished_granite",
+                                    "minecraft:deepslate",
+                                    "minecraft:deepslate_bricks",
+                                    "minecraft:deepslate_tiles",
+                                    "minecraft:cobbled_deepslate",
+                                    "minecraft:blackstone",
+                                    "minecraft:polished_blackstone",
+                                    "minecraft:polished_blackstone_bricks",
+                                    "minecraft:tuff",
+                                    "minecraft:calcite",
+                                    "minecraft:brick_block",
+                                    "minecraft:mud_bricks",
+                                    "minecraft:prismarine",
+                                    "minecraft:prismarine_bricks",
+                                    "minecraft:dark_prismarine",
+                                    "minecraft:pale_oak_planks",
+                                    "minecraft:warped_planks",
+                                    "minecraft:warped_stem",
+                                    "minecraft:stripped_warped_stem",
+                                    "minecraft:crimson_planks",
+                                    "minecraft:crimson_stem",
+                                    "minecraft:stripped_crimson_stem",
+                                    "minecraft:cherry_planks",
+                                    "minecraft:mangrove_planks",
+                                    "minecraft:tuff_bricks",
+                                    "minecraft:ice",
+                                    "minecraft:packed_ice",
+                                    "minecraft:blue_ice",
+                                    "minecraft:bamboo_block",
+                                    "minecraft:stripped_bamboo_block",
+                                    "minecraft:bamboo_mosaic",
+                                    "minecraft:bamboo_planks",
+                                    "minecraft:clay"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'south' && !q.block_state('cc:display') && q.block_state('cc:generated')",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:placement_filter": {
+                        "conditions": [
+                            {
+                                "allowed_faces": [
+                                    "north"
+                                ],
+                                "block_filter": [
+                                    "minecraft:stone_bricks",
+                                    "minecraft:end_stone",
+                                    "minecraft:end_bricks",
+                                    {
+                                        "tags": "query.any_tag('log', 'stone', 'wood', 'dirt', 'sand', 'solid')"
+                                    },
+                                    "minecraft:gravel",
+                                    "minecraft:stone_bricks",
+                                    "minecraft:mossy_stone_bricks",
+                                    "minecraft:cracked_stone_bricks",
+                                    "minecraft:chiseled_stone_bricks",
+                                    "minecraft:cobblestone",
+                                    "minecraft:mossy_cobblestone",
+                                    "minecraft:andesite",
+                                    "minecraft:polished_andesite",
+                                    "minecraft:diorite",
+                                    "minecraft:polished_diorite",
+                                    "minecraft:granite",
+                                    "minecraft:polished_granite",
+                                    "minecraft:deepslate",
+                                    "minecraft:deepslate_bricks",
+                                    "minecraft:deepslate_tiles",
+                                    "minecraft:cobbled_deepslate",
+                                    "minecraft:blackstone",
+                                    "minecraft:polished_blackstone",
+                                    "minecraft:polished_blackstone_bricks",
+                                    "minecraft:tuff",
+                                    "minecraft:calcite",
+                                    "minecraft:brick_block",
+                                    "minecraft:mud_bricks",
+                                    "minecraft:prismarine",
+                                    "minecraft:prismarine_bricks",
+                                    "minecraft:dark_prismarine",
+                                    "minecraft:pale_oak_planks",
+                                    "minecraft:warped_planks",
+                                    "minecraft:warped_stem",
+                                    "minecraft:stripped_warped_stem",
+                                    "minecraft:crimson_planks",
+                                    "minecraft:crimson_stem",
+                                    "minecraft:stripped_crimson_stem",
+                                    "minecraft:cherry_planks",
+                                    "minecraft:mangrove_planks",
+                                    "minecraft:tuff_bricks",
+                                    "minecraft:ice",
+                                    "minecraft:packed_ice",
+                                    "minecraft:blue_ice",
+                                    "minecraft:bamboo_block",
+                                    "minecraft:stripped_bamboo_block",
+                                    "minecraft:bamboo_mosaic",
+                                    "minecraft:bamboo_planks",
+                                    "minecraft:clay"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east' && !q.block_state('cc:display') && !q.block_state('cc:generated')",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:placement_filter": {
+                        "conditions": [
+                            {
+                                "allowed_faces": [
+                                    "east"
+                                ],
+                                "block_filter": [
+                                    "minecraft:stone_bricks",
+                                    "minecraft:end_stone",
+                                    "minecraft:end_bricks",
+                                    {
+                                        "tags": "query.any_tag('log', 'stone', 'wood', 'dirt', 'sand', 'solid')"
+                                    },
+                                    "minecraft:gravel",
+                                    "minecraft:stone_bricks",
+                                    "minecraft:mossy_stone_bricks",
+                                    "minecraft:cracked_stone_bricks",
+                                    "minecraft:chiseled_stone_bricks",
+                                    "minecraft:cobblestone",
+                                    "minecraft:mossy_cobblestone",
+                                    "minecraft:andesite",
+                                    "minecraft:polished_andesite",
+                                    "minecraft:diorite",
+                                    "minecraft:polished_diorite",
+                                    "minecraft:granite",
+                                    "minecraft:polished_granite",
+                                    "minecraft:deepslate",
+                                    "minecraft:deepslate_bricks",
+                                    "minecraft:deepslate_tiles",
+                                    "minecraft:cobbled_deepslate",
+                                    "minecraft:blackstone",
+                                    "minecraft:polished_blackstone",
+                                    "minecraft:polished_blackstone_bricks",
+                                    "minecraft:tuff",
+                                    "minecraft:calcite",
+                                    "minecraft:brick_block",
+                                    "minecraft:mud_bricks",
+                                    "minecraft:prismarine",
+                                    "minecraft:prismarine_bricks",
+                                    "minecraft:dark_prismarine",
+                                    "minecraft:pale_oak_planks",
+                                    "minecraft:warped_planks",
+                                    "minecraft:warped_stem",
+                                    "minecraft:stripped_warped_stem",
+                                    "minecraft:crimson_planks",
+                                    "minecraft:crimson_stem",
+                                    "minecraft:stripped_crimson_stem",
+                                    "minecraft:cherry_planks",
+                                    "minecraft:mangrove_planks",
+                                    "minecraft:tuff_bricks",
+                                    "minecraft:ice",
+                                    "minecraft:packed_ice",
+                                    "minecraft:blue_ice",
+                                    "minecraft:bamboo_block",
+                                    "minecraft:stripped_bamboo_block",
+                                    "minecraft:bamboo_mosaic",
+                                    "minecraft:bamboo_planks",
+                                    "minecraft:clay"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east' && !q.block_state('cc:display') && q.block_state('cc:generated')",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:placement_filter": {
+                        "conditions": [
+                            {
+                                "allowed_faces": [
+                                    "west"
+                                ],
+                                "block_filter": [
+                                    "minecraft:stone_bricks",
+                                    "minecraft:end_stone",
+                                    "minecraft:end_bricks",
+                                    {
+                                        "tags": "query.any_tag('log', 'stone', 'wood', 'dirt', 'sand', 'solid')"
+                                    },
+                                    "minecraft:gravel",
+                                    "minecraft:stone_bricks",
+                                    "minecraft:mossy_stone_bricks",
+                                    "minecraft:cracked_stone_bricks",
+                                    "minecraft:chiseled_stone_bricks",
+                                    "minecraft:cobblestone",
+                                    "minecraft:mossy_cobblestone",
+                                    "minecraft:andesite",
+                                    "minecraft:polished_andesite",
+                                    "minecraft:diorite",
+                                    "minecraft:polished_diorite",
+                                    "minecraft:granite",
+                                    "minecraft:polished_granite",
+                                    "minecraft:deepslate",
+                                    "minecraft:deepslate_bricks",
+                                    "minecraft:deepslate_tiles",
+                                    "minecraft:cobbled_deepslate",
+                                    "minecraft:blackstone",
+                                    "minecraft:polished_blackstone",
+                                    "minecraft:polished_blackstone_bricks",
+                                    "minecraft:tuff",
+                                    "minecraft:calcite",
+                                    "minecraft:brick_block",
+                                    "minecraft:mud_bricks",
+                                    "minecraft:prismarine",
+                                    "minecraft:prismarine_bricks",
+                                    "minecraft:dark_prismarine",
+                                    "minecraft:pale_oak_planks",
+                                    "minecraft:warped_planks",
+                                    "minecraft:warped_stem",
+                                    "minecraft:stripped_warped_stem",
+                                    "minecraft:crimson_planks",
+                                    "minecraft:crimson_stem",
+                                    "minecraft:stripped_crimson_stem",
+                                    "minecraft:cherry_planks",
+                                    "minecraft:mangrove_planks",
+                                    "minecraft:tuff_bricks",
+                                    "minecraft:ice",
+                                    "minecraft:packed_ice",
+                                    "minecraft:blue_ice",
+                                    "minecraft:bamboo_block",
+                                    "minecraft:stripped_bamboo_block",
+                                    "minecraft:bamboo_mosaic",
+                                    "minecraft:bamboo_planks",
+                                    "minecraft:clay"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west' && !q.block_state('cc:display') && !q.block_state('cc:generated')",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:placement_filter": {
+                        "conditions": [
+                            {
+                                "allowed_faces": [
+                                    "west"
+                                ],
+                                "block_filter": [
+                                    "minecraft:stone_bricks",
+                                    "minecraft:end_stone",
+                                    "minecraft:end_bricks",
+                                    {
+                                        "tags": "query.any_tag('log', 'stone', 'wood', 'dirt', 'sand', 'solid')"
+                                    },
+                                    "minecraft:gravel",
+                                    "minecraft:stone_bricks",
+                                    "minecraft:mossy_stone_bricks",
+                                    "minecraft:cracked_stone_bricks",
+                                    "minecraft:chiseled_stone_bricks",
+                                    "minecraft:cobblestone",
+                                    "minecraft:mossy_cobblestone",
+                                    "minecraft:andesite",
+                                    "minecraft:polished_andesite",
+                                    "minecraft:diorite",
+                                    "minecraft:polished_diorite",
+                                    "minecraft:granite",
+                                    "minecraft:polished_granite",
+                                    "minecraft:deepslate",
+                                    "minecraft:deepslate_bricks",
+                                    "minecraft:deepslate_tiles",
+                                    "minecraft:cobbled_deepslate",
+                                    "minecraft:blackstone",
+                                    "minecraft:polished_blackstone",
+                                    "minecraft:polished_blackstone_bricks",
+                                    "minecraft:tuff",
+                                    "minecraft:calcite",
+                                    "minecraft:brick_block",
+                                    "minecraft:mud_bricks",
+                                    "minecraft:prismarine",
+                                    "minecraft:prismarine_bricks",
+                                    "minecraft:dark_prismarine",
+                                    "minecraft:pale_oak_planks",
+                                    "minecraft:warped_planks",
+                                    "minecraft:warped_stem",
+                                    "minecraft:stripped_warped_stem",
+                                    "minecraft:crimson_planks",
+                                    "minecraft:crimson_stem",
+                                    "minecraft:stripped_crimson_stem",
+                                    "minecraft:cherry_planks",
+                                    "minecraft:mangrove_planks",
+                                    "minecraft:tuff_bricks",
+                                    "minecraft:ice",
+                                    "minecraft:packed_ice",
+                                    "minecraft:blue_ice",
+                                    "minecraft:bamboo_block",
+                                    "minecraft:stripped_bamboo_block",
+                                    "minecraft:bamboo_mosaic",
+                                    "minecraft:bamboo_planks",
+                                    "minecraft:clay"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west' && !q.block_state('cc:display') && q.block_state('cc:generated')",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:placement_filter": {
+                        "conditions": [
+                            {
+                                "allowed_faces": [
+                                    "east"
+                                ],
+                                "block_filter": [
+                                    "minecraft:stone_bricks",
+                                    "minecraft:end_stone",
+                                    "minecraft:end_bricks",
+                                    {
+                                        "tags": "query.any_tag('log', 'stone', 'wood', 'dirt', 'sand', 'solid')"
+                                    },
+                                    "minecraft:gravel",
+                                    "minecraft:stone_bricks",
+                                    "minecraft:mossy_stone_bricks",
+                                    "minecraft:cracked_stone_bricks",
+                                    "minecraft:chiseled_stone_bricks",
+                                    "minecraft:cobblestone",
+                                    "minecraft:mossy_cobblestone",
+                                    "minecraft:andesite",
+                                    "minecraft:polished_andesite",
+                                    "minecraft:diorite",
+                                    "minecraft:polished_diorite",
+                                    "minecraft:granite",
+                                    "minecraft:polished_granite",
+                                    "minecraft:deepslate",
+                                    "minecraft:deepslate_bricks",
+                                    "minecraft:deepslate_tiles",
+                                    "minecraft:cobbled_deepslate",
+                                    "minecraft:blackstone",
+                                    "minecraft:polished_blackstone",
+                                    "minecraft:polished_blackstone_bricks",
+                                    "minecraft:tuff",
+                                    "minecraft:calcite",
+                                    "minecraft:brick_block",
+                                    "minecraft:mud_bricks",
+                                    "minecraft:prismarine",
+                                    "minecraft:prismarine_bricks",
+                                    "minecraft:dark_prismarine",
+                                    "minecraft:pale_oak_planks",
+                                    "minecraft:warped_planks",
+                                    "minecraft:warped_stem",
+                                    "minecraft:stripped_warped_stem",
+                                    "minecraft:crimson_planks",
+                                    "minecraft:crimson_stem",
+                                    "minecraft:stripped_crimson_stem",
+                                    "minecraft:cherry_planks",
+                                    "minecraft:mangrove_planks",
+                                    "minecraft:tuff_bricks",
+                                    "minecraft:ice",
+                                    "minecraft:packed_ice",
+                                    "minecraft:blue_ice",
+                                    "minecraft:bamboo_block",
+                                    "minecraft:stripped_bamboo_block",
+                                    "minecraft:bamboo_mosaic",
+                                    "minecraft:bamboo_planks",
+                                    "minecraft:clay"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'up' && !q.block_state('cc:display') && !q.block_state('cc:generated')",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:placement_filter": {
+                        "conditions": [
+                            {
+                                "allowed_faces": [
+                                    "up"
+                                ],
+                                "block_filter": [
+                                    "minecraft:stone_bricks",
+                                    "minecraft:end_stone",
+                                    "minecraft:end_bricks",
+                                    {
+                                        "tags": "query.any_tag('log', 'stone', 'wood', 'dirt', 'sand', 'solid')"
+                                    },
+                                    "minecraft:gravel",
+                                    "minecraft:stone_bricks",
+                                    "minecraft:mossy_stone_bricks",
+                                    "minecraft:cracked_stone_bricks",
+                                    "minecraft:chiseled_stone_bricks",
+                                    "minecraft:cobblestone",
+                                    "minecraft:mossy_cobblestone",
+                                    "minecraft:andesite",
+                                    "minecraft:polished_andesite",
+                                    "minecraft:diorite",
+                                    "minecraft:polished_diorite",
+                                    "minecraft:granite",
+                                    "minecraft:polished_granite",
+                                    "minecraft:deepslate",
+                                    "minecraft:deepslate_bricks",
+                                    "minecraft:deepslate_tiles",
+                                    "minecraft:cobbled_deepslate",
+                                    "minecraft:blackstone",
+                                    "minecraft:polished_blackstone",
+                                    "minecraft:polished_blackstone_bricks",
+                                    "minecraft:tuff",
+                                    "minecraft:calcite",
+                                    "minecraft:brick_block",
+                                    "minecraft:mud_bricks",
+                                    "minecraft:prismarine",
+                                    "minecraft:prismarine_bricks",
+                                    "minecraft:dark_prismarine",
+                                    "minecraft:pale_oak_planks",
+                                    "minecraft:warped_planks",
+                                    "minecraft:warped_stem",
+                                    "minecraft:stripped_warped_stem",
+                                    "minecraft:crimson_planks",
+                                    "minecraft:crimson_stem",
+                                    "minecraft:stripped_crimson_stem",
+                                    "minecraft:cherry_planks",
+                                    "minecraft:mangrove_planks",
+                                    "minecraft:tuff_bricks",
+                                    "minecraft:ice",
+                                    "minecraft:packed_ice",
+                                    "minecraft:blue_ice",
+                                    "minecraft:bamboo_block",
+                                    "minecraft:stripped_bamboo_block",
+                                    "minecraft:bamboo_mosaic",
+                                    "minecraft:bamboo_planks",
+                                    "minecraft:clay"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'up' && !q.block_state('cc:display') && q.block_state('cc:generated')",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:placement_filter": {
+                        "conditions": [
+                            {
+                                "allowed_faces": [
+                                    "down"
+                                ],
+                                "block_filter": [
+                                    "minecraft:stone_bricks",
+                                    "minecraft:end_stone",
+                                    "minecraft:end_bricks",
+                                    {
+                                        "tags": "query.any_tag('log', 'stone', 'wood', 'dirt', 'sand', 'solid')"
+                                    },
+                                    "minecraft:gravel",
+                                    "minecraft:stone_bricks",
+                                    "minecraft:mossy_stone_bricks",
+                                    "minecraft:cracked_stone_bricks",
+                                    "minecraft:chiseled_stone_bricks",
+                                    "minecraft:cobblestone",
+                                    "minecraft:mossy_cobblestone",
+                                    "minecraft:andesite",
+                                    "minecraft:polished_andesite",
+                                    "minecraft:diorite",
+                                    "minecraft:polished_diorite",
+                                    "minecraft:granite",
+                                    "minecraft:polished_granite",
+                                    "minecraft:deepslate",
+                                    "minecraft:deepslate_bricks",
+                                    "minecraft:deepslate_tiles",
+                                    "minecraft:cobbled_deepslate",
+                                    "minecraft:blackstone",
+                                    "minecraft:polished_blackstone",
+                                    "minecraft:polished_blackstone_bricks",
+                                    "minecraft:tuff",
+                                    "minecraft:calcite",
+                                    "minecraft:brick_block",
+                                    "minecraft:mud_bricks",
+                                    "minecraft:prismarine",
+                                    "minecraft:prismarine_bricks",
+                                    "minecraft:dark_prismarine",
+                                    "minecraft:pale_oak_planks",
+                                    "minecraft:warped_planks",
+                                    "minecraft:warped_stem",
+                                    "minecraft:stripped_warped_stem",
+                                    "minecraft:crimson_planks",
+                                    "minecraft:crimson_stem",
+                                    "minecraft:stripped_crimson_stem",
+                                    "minecraft:cherry_planks",
+                                    "minecraft:mangrove_planks",
+                                    "minecraft:tuff_bricks",
+                                    "minecraft:ice",
+                                    "minecraft:packed_ice",
+                                    "minecraft:blue_ice",
+                                    "minecraft:bamboo_block",
+                                    "minecraft:stripped_bamboo_block",
+                                    "minecraft:bamboo_mosaic",
+                                    "minecraft:bamboo_planks",
+                                    "minecraft:clay"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'down' && !q.block_state('cc:display') && !q.block_state('cc:generated')",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:placement_filter": {
+                        "conditions": [
+                            {
+                                "allowed_faces": [
+                                    "down"
+                                ],
+                                "block_filter": [
+                                    "minecraft:stone_bricks",
+                                    "minecraft:end_stone",
+                                    "minecraft:end_bricks",
+                                    {
+                                        "tags": "query.any_tag('log', 'stone', 'wood', 'dirt', 'sand', 'solid')"
+                                    },
+                                    "minecraft:gravel",
+                                    "minecraft:stone_bricks",
+                                    "minecraft:mossy_stone_bricks",
+                                    "minecraft:cracked_stone_bricks",
+                                    "minecraft:chiseled_stone_bricks",
+                                    "minecraft:cobblestone",
+                                    "minecraft:mossy_cobblestone",
+                                    "minecraft:andesite",
+                                    "minecraft:polished_andesite",
+                                    "minecraft:diorite",
+                                    "minecraft:polished_diorite",
+                                    "minecraft:granite",
+                                    "minecraft:polished_granite",
+                                    "minecraft:deepslate",
+                                    "minecraft:deepslate_bricks",
+                                    "minecraft:deepslate_tiles",
+                                    "minecraft:cobbled_deepslate",
+                                    "minecraft:blackstone",
+                                    "minecraft:polished_blackstone",
+                                    "minecraft:polished_blackstone_bricks",
+                                    "minecraft:tuff",
+                                    "minecraft:calcite",
+                                    "minecraft:brick_block",
+                                    "minecraft:mud_bricks",
+                                    "minecraft:prismarine",
+                                    "minecraft:prismarine_bricks",
+                                    "minecraft:dark_prismarine",
+                                    "minecraft:pale_oak_planks",
+                                    "minecraft:warped_planks",
+                                    "minecraft:warped_stem",
+                                    "minecraft:stripped_warped_stem",
+                                    "minecraft:crimson_planks",
+                                    "minecraft:crimson_stem",
+                                    "minecraft:stripped_crimson_stem",
+                                    "minecraft:cherry_planks",
+                                    "minecraft:mangrove_planks",
+                                    "minecraft:tuff_bricks",
+                                    "minecraft:ice",
+                                    "minecraft:packed_ice",
+                                    "minecraft:blue_ice",
+                                    "minecraft:bamboo_block",
+                                    "minecraft:stripped_bamboo_block",
+                                    "minecraft:bamboo_mosaic",
+                                    "minecraft:bamboo_planks",
+                                    "minecraft:clay"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'down' && !q.block_state('cc:display') && q.block_state('cc:generated')",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:placement_filter": {
+                        "conditions": [
+                            {
+                                "allowed_faces": [
+                                    "up"
+                                ],
+                                "block_filter": [
+                                    "minecraft:stone_bricks",
+                                    "minecraft:end_stone",
+                                    "minecraft:end_bricks",
+                                    {
+                                        "tags": "query.any_tag('log', 'stone', 'wood', 'dirt', 'sand', 'solid')"
+                                    },
+                                    "minecraft:gravel",
+                                    "minecraft:stone_bricks",
+                                    "minecraft:mossy_stone_bricks",
+                                    "minecraft:cracked_stone_bricks",
+                                    "minecraft:chiseled_stone_bricks",
+                                    "minecraft:cobblestone",
+                                    "minecraft:mossy_cobblestone",
+                                    "minecraft:andesite",
+                                    "minecraft:polished_andesite",
+                                    "minecraft:diorite",
+                                    "minecraft:polished_diorite",
+                                    "minecraft:granite",
+                                    "minecraft:polished_granite",
+                                    "minecraft:deepslate",
+                                    "minecraft:deepslate_bricks",
+                                    "minecraft:deepslate_tiles",
+                                    "minecraft:cobbled_deepslate",
+                                    "minecraft:blackstone",
+                                    "minecraft:polished_blackstone",
+                                    "minecraft:polished_blackstone_bricks",
+                                    "minecraft:tuff",
+                                    "minecraft:calcite",
+                                    "minecraft:brick_block",
+                                    "minecraft:mud_bricks",
+                                    "minecraft:prismarine",
+                                    "minecraft:prismarine_bricks",
+                                    "minecraft:dark_prismarine",
+                                    "minecraft:pale_oak_planks",
+                                    "minecraft:warped_planks",
+                                    "minecraft:warped_stem",
+                                    "minecraft:stripped_warped_stem",
+                                    "minecraft:crimson_planks",
+                                    "minecraft:crimson_stem",
+                                    "minecraft:stripped_crimson_stem",
+                                    "minecraft:cherry_planks",
+                                    "minecraft:mangrove_planks",
+                                    "minecraft:tuff_bricks",
+                                    "minecraft:ice",
+                                    "minecraft:packed_ice",
+                                    "minecraft:blue_ice",
+                                    "minecraft:bamboo_block",
+                                    "minecraft:stripped_bamboo_block",
+                                    "minecraft:bamboo_mosaic",
+                                    "minecraft:bamboo_planks",
+                                    "minecraft:clay"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north' && q.block_state('cc:generated') == false",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north' && q.block_state('cc:generated') == true",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west' && q.block_state('cc:generated') == false",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west' && q.block_state('cc:generated') == true",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'south' && q.block_state('cc:generated') == false",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'south' && q.block_state('cc:generated') == true",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east' && q.block_state('cc:generated') == false",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east' && q.block_state('cc:generated') == true",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'up' && q.block_state('cc:generated') == false",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            90,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'up' && q.block_state('cc:generated') == true",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            -90,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'down' && q.block_state('cc:generated') == false",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            -90,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'down' && q.block_state('cc:generated') == true",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            90,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

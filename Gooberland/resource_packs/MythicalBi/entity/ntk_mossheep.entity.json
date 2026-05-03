@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ntk:mossheep",
+      //"enable_attachables": true,
+      "spawn_egg": {
+        "texture": "ntk_spawn_egg_mossheep"
+      },
+      "render_controllers": [
+        "controller.render.entity.ntk_mossheep"
+      ],
+      "geometry": {
+        "default": "geometry.entity.ntk_mossheep"
+      },
+      "materials": {
+        "default": "ntk_entity_emissive_alpha"
+      },
+      "textures": {
+        "variant_0_mossheep": "textures/entity/ntk_mossheep",
+        "variant_1_mossheep_sheared": "textures/entity/ntk_mossheep_sheared"
+      },
+      "animations": {
+        "controller_movement": "controller.animation.entity.ntk_mossheep.movement",
+        "baby_scaling": "animation.entity.ntk_mossheep.baby_scaling",
+        "grazing": "animation.entity.ntk_mossheep.grazing",
+        "look_at_target": "animation.entity.ntk_mossheep.look_at_target",
+        "walking": "animation.entity.ntk_mossheep.walking"
+      },
+      "scripts": {
+        "animate": [
+          "controller_movement",
+          "look_at_target",
+          {
+            "baby_scaling": "query.is_baby"
+          }
+        ]
+      }
+    }
+  }
+}

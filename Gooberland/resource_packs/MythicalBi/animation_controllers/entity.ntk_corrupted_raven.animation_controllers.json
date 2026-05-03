@@ -1,0 +1,69 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.entity.ntk_corrupted_raven.general": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"walking": "query.modified_move_speed"
+						}
+					],
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"default": "!query.is_moving== 1 && query.all_animations_finished"
+						},
+						{
+							"flying": "!query.is_on_ground"
+						},
+						{
+							"sitting": "query.is_sitting"
+						}
+					]
+				},
+				"flying": {
+					"animations": [ "flying" ],
+					"blend_transition": 0.2,
+					"transitions": [
+					  {
+					    "default": "query.is_on_ground"
+					  }
+					]
+				},
+				"sitting": {
+					"animations": [ "sitting" ],
+					"blend_transition": 0.3,
+					"transitions": [
+						{
+							"default": "!query.is_sitting || !query.is_on_ground || query.is_in_water"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.entity.ntk_corrupted_raven.interested": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"blend_transition": 0.3,
+					"transitions": [
+						{
+							"interested": "query.is_interested"
+						}
+					]
+				},
+				"interested": {
+					"animations": [ "interested" ],
+					"blend_transition": 0.3,
+					"transitions": [
+						{
+							"default": "!query.is_interested"
+						}
+					]
+				}
+			}
+		}
+	}
+}

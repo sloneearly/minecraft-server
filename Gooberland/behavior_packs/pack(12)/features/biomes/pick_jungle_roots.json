@@ -1,0 +1,13 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:biomes/pick_jungle_roots"
+    },
+    "places_feature": "cc:biomes/place_jungle_roots",
+    "iterations": "((t.biome_idx < 1) ? 1 : 0)",
+    "x": 0,
+    "y": 0,
+    "z": 0
+  }
+}

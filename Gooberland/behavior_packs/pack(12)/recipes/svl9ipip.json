@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "cc:bamboo_chandelier"
+        },
+        "tags": [
+            "cc:furniture_table"
+        ],
+        "pattern": [
+            " C ",
+            "CWC",
+            " W "
+        ],
+        "key": {
+            "W": {
+                "item": "minecraft:bamboo_planks"
+            },
+            "C": {
+                "item": "minecraft:candle"
+            }
+        },
+        "result": {
+            "item": "cc:bamboo_chandelier",
+            "count": 1
+        }
+    }
+}

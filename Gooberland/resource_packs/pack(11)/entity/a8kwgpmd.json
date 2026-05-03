@@ -1,0 +1,90 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:birch_iron_golem",
+      "materials": {
+        "default": "iron_golem",
+        "cracks": "iron_golem"
+      },
+      "textures": {
+        "default": "textures/cc/iron_golems/entities/birch_iron_golem",
+        "cracked_high": "textures/cc/iron_golems/entities/default/cracked_high",
+        "cracked_med": "textures/cc/iron_golems/entities/default/cracked_medium",
+        "cracked_low": "textures/cc/iron_golems/entities/default/cracked_low",
+        "cracked_none": "textures/cc/iron_golems/entities/default/cracked_none"
+      },
+      "sound_effects": {
+        "crack": "mob.irongolem.crack",
+        "throw": "mob.irongolem.throw"
+      },
+      "geometry": {
+        "default": "geometry.cc.golem.default"
+      },
+      "animations": {
+        "controller": "controller.animation.cc.charged_ranged_attack",
+        "move_controller": "controller.animation.cc.move",
+        "walk": "animation.cc.biped.walk",
+        "run": "animation.cc.biped.walk",
+        "swim": "animation.cc.biped.walk",
+        "swim_idle": "animation.cc.biped.walk",
+        "swim_run": "animation.cc.biped.walk",
+        "fly": "animation.cc.biped.walk",
+        "idle": "animation.cc.jungle_golem.idle",
+        "charged_ranged_attack": "animation.cc.jungle_golem.throw",
+        "delayed_attack": "animation.cc.jungle_golem.ground_smash",
+        "attack": "animation.cc.golem.attack",
+        "delayed_attack_controller": "controller.animation.cc.delayed_attack",
+        "melee_attack_controller": "controller.animation.cc.attack",
+        "rotate": "animation.cc.biped.rotation",
+        "rotate_controller": "controller.animation.cc.quadruped.rotation",
+        "look_at_target": "animation.common.look_at_target",
+        "crack_1": "controller.animation.cc.golem.crack_1",
+        "crack_2": "controller.animation.cc.golem.crack_2",
+        "crack_3": "controller.animation.cc.golem.crack_3"
+      },
+      "render_controllers": [
+        "controller.render.default",
+        "controller.render.cc.golem.cracks"
+      ],
+      "scripts": {
+        "pre_animation": [
+          "variable.modified_tcos0 = Math.clamp(((Math.cos(query.modified_distance_moved * 13.5) * Math.min(query.modified_move_speed, 0.6) / variable.gliding_speed_value) * 25.0), -12.5, 12.5);",
+          "v.crack_state = 4 - math.floor(((q.health) / q.max_health)*4);",
+          "v.crack_state_difference = v.crack_state - v.last_crack_state;",
+          "v.last_crack_state = 4 - math.floor(((q.health) / q.max_health)*4);"
+        ],
+        "initialize": [
+          "v.relative_run_speed = 0.6;",
+          "v.max_leg_rot = 45;",
+          "v.max_leg_pos_h = 1;",
+          "v.max_leg_pos_v = 3;",
+          "v.body_bump = 2;",
+          "v.body_rot = 2;",
+          "v.head_bump = 0;",
+          "v.max_arm_rot = 45;",
+          "v.max_arm_pos_h = 1;",
+          "v.playback_multiplier = 0.7;",
+          "v.crack_state = 4 - math.floor(((q.health) / q.max_health)*4);",
+          "v.last_crack_state = 4 - math.floor(((q.health) / q.max_health)*4);",
+          "v.crack_state_difference = 0.0;"
+        ],
+        "animate": [
+          "idle",
+          "controller",
+          "delayed_attack_controller",
+          "melee_attack_controller",
+          "move_controller",
+          "rotate_controller",
+          "look_at_target",
+          "crack_1",
+          "crack_2",
+          "crack_3"
+        ]
+      },
+      "spawn_egg": {
+        "texture": "cc:spawn_egg_birch_iron_golem"
+      }
+    }
+  }
+}

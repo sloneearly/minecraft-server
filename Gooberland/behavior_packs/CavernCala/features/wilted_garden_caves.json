@@ -1,0 +1,12 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "gen:wilted_garden_caves"
+		},
+		"features": [
+			"gen:wilted_garden_patch_feature",
+			"gen:wilted_garden_top"
+		]
+	}
+}

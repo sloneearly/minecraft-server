@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "calcite_slab_7c6cc9f9"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:calcite",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:calcite_slab",
+      "count": 6
+    }
+  }
+}

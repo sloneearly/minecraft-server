@@ -1,0 +1,11 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:sequence_feature": {
+    "description": {
+      "identifier": "cc:struct_nether_basalt_castle_snap_sequence"
+    },
+    "features": [
+      "cc:struct_nether_basalt_castle_snap"
+    ]
+  }
+}

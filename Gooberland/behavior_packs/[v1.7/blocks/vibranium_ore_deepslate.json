@@ -1,0 +1,39 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "korbon:vibranium_ore_deepslate",
+			"menu_category": {
+				"category": "nature",
+				"group": "minecraft:itemGroup.name.ore",
+				"states": {
+				}
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#39393A",
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "vibranium_ore_deepslate",
+					"render_method": "opaque",
+					"face_dimming": true,
+					"ambient_occlusion": true
+				}
+			},
+			"minecraft:light_emission": 0.4,
+			"minecraft:loot": "loot_tables/blocks/vibranium.json",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 1
+			},
+			"minecraft:custom_components": [
+				"korbon:spawnxp"
+			],
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 4.3
+			},
+			"tag:minecraft:is_pickaxe_item_destructible": {}
+		},
+		"events": {}
+	}
+}

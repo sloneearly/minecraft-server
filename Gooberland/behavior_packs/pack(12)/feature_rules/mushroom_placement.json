@@ -1,0 +1,60 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:mushroom_placement",
+      "places_feature": "cc:mushroom_weight"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "taiga"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "roofed"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "mooshroom_island"
+            }
+          ],
+          "none_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "cold"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "frozen"
+            }
+          ]
+        }
+      ]
+    },
+
+    "distribution": {
+      "iterations": 20,
+      "scatter_chance": 50.0,
+      "x": {
+        "distribution": "triangle",
+        "extent": [-8, 8]
+      },
+      "y": "query.heightmap(v.originx, v.originz)",
+      "z": {
+        "distribution": "triangle",
+        "extent": [-8, 8]
+      },
+      "coordinate_eval_order": "zyx"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "cc:palm_tree_weighted"
+    },
+    "features": [
+      [
+        "cc:palm_tree_scatter_1",
+        1
+      ],
+      [
+        "cc:palm_tree_scatter_2",
+        2
+      ],
+      [
+        "cc:palm_tree_scatter_3",
+        1
+      ],
+      [
+        "cc:palm_tree_scatter_4",
+        3
+      ]
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "item:cryo_chunk",
+            "menu_category": {
+              "category": "equipment",
+              "group": "itemGroup.name.equipment"
+            }
+    },
+    "components": {
+      "tag:minecraft:trim_materials": {},
+      "minecraft:icon": {
+        "texture": "item:cryo_chunk"
+      },
+      "minecraft:display_name": {
+        "value": "Cryo Chunk\n§8Brewing Ingredient"
+      },
+			"minecraft:throwable": {
+				"do_swing_animation": true
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "projectile:blizzard_shard"
+			
+      }
+    }
+  }
+}

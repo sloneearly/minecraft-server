@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cloud_brick_slab_7a5a767d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:cloud_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:cloud_brick_slab",
+      "count": 6
+    }
+  }
+}

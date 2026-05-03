@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "cc:lemon_from_crate"
+        },
+        "tags": [
+            "cc:cooking_table",
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "cc:lemon_crate"
+            }
+        ],
+        "result": {
+            "item": "cc:lemon",
+            "count": 9
+        }
+    }
+}

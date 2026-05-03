@@ -1,0 +1,38 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "cc:lavender_placement",
+            "places_feature": "cc:lavender_scatter"
+        },
+        "conditions": {
+            "placement_pass": "final_pass",
+            "minecraft:biome_filter": [
+                {
+                    "any_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "plains"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        "distribution": {
+            "iterations": 7,
+            "scatter_chance": 1.0,
+            "x": {
+                "distribution": "triangle",
+                "extent": [ -16, 32 ]
+            },
+            "y": "query.heightmap(v.originx, v.originz)",
+            "z": {
+              "distribution": "triangle",
+              "extent": [-16, 32]
+            },
+            "coordinate_eval_order": "zyx"
+        }
+    }
+}

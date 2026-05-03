@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "mob:ufo",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/ufoling"
+      },
+      "geometry": {
+        "default": "geometry.ufoling"
+      },
+      "animations": {
+        "face_player": "animation.ufoling.general"
+      },
+      "scripts": {
+        "scale": "1.0",
+        "animate": [
+          "face_player"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.skeleton"
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+	"format_version":"1.21.10",
+	"minecraft:item":{
+	   "description":{
+		  "identifier":"tt:crimson_chestplate",
+		  "menu_category": {
+			"category": "equipment",
+			"group": "itemGroup.name.chestplate",
+			"is_hidden_in_commands": false 
+		}
+	   },
+	   "components":{
+		  "minecraft:max_stack_size":1,
+		  "minecraft:enchantable":{
+			 "value":10,
+			 "slot":"armor_torso"
+		  },
+		  "minecraft:durability":{
+			 "max_durability":300,
+			 "damage_chance":{
+				"min":60,
+				"max":100
+			 }
+		  },
+		  "minecraft:wearable":{
+			"protection":10,
+			"slot":"slot.armor.chest"
+		  },
+		  "minecraft:display_name":{
+			"value":"§6Crimson Netherite Chestplate  \n\n§r§9 Gives you regeneration when equipped. \n\n§r§4 Damage to creatures every 3 seconds."
+		  },
+		  "minecraft:creative_category":{
+			 "parent":"itemGroup.name.chestplate"
+		  },
+		  "minecraft:icon":{
+			 "textures":{
+				"default":"crimson_chestplate"
+			 }
+		  }
+	   }
+	}
+ }

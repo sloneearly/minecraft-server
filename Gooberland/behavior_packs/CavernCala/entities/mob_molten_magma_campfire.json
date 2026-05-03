@@ -1,0 +1,48 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.20.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mob:molten_magma_campfire",
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:timer": {
+				"time": [
+					0.05,
+					0.05
+				],
+				"time_down_event": {
+					"event": "timer",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"timer": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"particle campfire_tall_smoke_particle_remake"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

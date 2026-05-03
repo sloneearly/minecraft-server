@@ -1,0 +1,18 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "gen:rocks"
+		},
+		"features": [
+			"gen:scatter_andesite_rock_feature",
+			"gen:scatter_diorite_rock_feature",
+			"gen:scatter_granite_rock_feature",
+			"gen:scatter_sodalite_rock_feature",
+			"gen:scatter_tuff_rock_feature",
+			"gen:scatter_calcite_rock_feature",
+			"gen:scatter_rock_feature",
+			"gen:scatter_deepslate_rock_feature"
+		]
+	}
+}

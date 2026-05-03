@@ -1,0 +1,97 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:dark_oak_candle_stand",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "cc:base": [
+                    true,
+                    false
+                ],
+                "cc:top": [
+                    true,
+                    false
+                ]
+            }
+        },
+        "components": {
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "none"
+            },
+            "minecraft:support": {
+                "shape": "fence"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "minecraft:display_name": "%cc.dark_oak_candle_stand\n%cc.category.furniture",
+            "cc:candle_stand": {},
+            "tag:cc:candle_stand": {},
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:geometry": {
+                "identifier": "geometry.cc.candle_stand",
+                "bone_visibility": {
+                    "top": "q.block_state('cc:top') == true",
+                    "merge": true,
+                    "base": "q.block_state('cc:base') == true"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cc:board_dark_oak",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -3,
+                    0,
+                    -3
+                ],
+                "size": [
+                    6,
+                    16,
+                    6
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -3,
+                    0,
+                    -3
+                ],
+                "size": [
+                    6,
+                    16,
+                    6
+                ]
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#40271a",
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "can_contain_liquid": true,
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "tag:minecraft:is_axe_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_axe')"
+                        },
+                        "destroy_speed": 2
+                    }
+                ]
+            }
+        }
+    }
+}

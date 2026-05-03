@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "gen:jasper_spike2_feature"
+		},
+		"structure_name": "mystructure:jasperspike2",
+		"adjustment_radius": 4,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {},
+			"unburied": {},
+			"block_intersection": {
+				"block_allowlist": [
+					{
+						"name": "minecraft:deepslate"
+					},
+					{
+						"name": "block:jasper_block"
+					},
+					{
+						"name": "minecraft:air"
+					}
+				]
+			}
+		}
+	}
+}

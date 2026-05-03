@@ -1,0 +1,67 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cc.poison_spider.shoot": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1.25,
+			"bones": {
+				"body1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": {
+							"pre": [-12.5, 0, 0],
+							"post": [-12.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5": {
+							"post": [-17.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.75": {
+							"post": [60, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.25": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.cc.poison_spider.walk": {
+			"loop": true,
+			"bones": {
+				"leg0": {
+					"rotation": [0, 45, -45]
+				},
+				"leg1": {
+					"rotation": [0, "-45.0 ", "45.0 "]
+				},
+				"leg2": {
+					"rotation": [0, "22.5 ", "-33.3 "]
+				},
+				"leg3": {
+					"rotation": [0, "-22.5 ", "33.3 "]
+				},
+				"leg4": {
+					"rotation": [0, "-22.5 ", "-33.3 "]
+				},
+				"leg5": {
+					"rotation": [0, "22.5 ", "33.3 "]
+				},
+				"leg6": {
+					"rotation": [0, "-45.0 ", "-45.0 "]
+				},
+				"leg7": {
+					"rotation": [0, "45.0 ", "45.0 "]
+				}
+			}
+		},
+		"animation.cc.poison_spider.look_at_target": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": ["query.target_x_rotation", "query.target_y_rotation", 0]
+				}
+			}
+		}
+	}
+}

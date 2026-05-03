@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "cc:pebbles_block_3"
+    },
+    "places_block": {
+      "name": "cc:pebbles",
+      "states": {
+        "cc:count": 4
+      }
+    },
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false,
+    "may_attach_to": {
+      "bottom": [
+        "minecraft:grass",
+        "minecraft:dirt",
+        "minecraft:coarse_dirt",
+        "minecraft:stone"
+      ]
+    },
+    "may_replace": [
+      "minecraft:air"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "item:copper_stone_geode",
+            "menu_category": {
+              "category": "items",
+              "group": "itemGroup.name.items"
+            }
+    },
+    "components": {
+      "tag:minecraft:trim_materials": {},
+      "minecraft:icon": {
+        "texture": "item:copper_stone_geode"
+      },
+      "minecraft:display_name": {
+        "value": "Opened Stone Geode\n§8Copper\n\n§7Use in Stone Cutter"
+      }
+    }
+  }
+}

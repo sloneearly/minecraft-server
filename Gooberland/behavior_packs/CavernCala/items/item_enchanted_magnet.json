@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "item:enchanted_magnet",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.equipment"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "item:magnet"
+			},
+			"minecraft:glint": true,
+			"minecraft:cooldown": {
+				"category": "quality_of_life",
+				"duration": 5
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": false,
+			"minecraft:display_name": {
+				"value": "Enchanted Magnet\n\n\n§7Pulls in all items and XP in a 50 block radius"
+			}
+		},
+		"events": {}
+	}
+}

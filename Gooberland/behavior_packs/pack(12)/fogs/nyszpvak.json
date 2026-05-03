@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "cc:taiga"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 20.0,
+        "fog_end": 200.0,
+        "fog_color": "#83bbe3",
+        "render_distance_type": "fixed"
+      },
+      "weather": {
+        "fog_start": 0.0,
+        "fog_end": 100.0,
+        "fog_color": "#395a7d",
+        "render_distance_type": "fixed"
+      }
+    }
+  }
+}

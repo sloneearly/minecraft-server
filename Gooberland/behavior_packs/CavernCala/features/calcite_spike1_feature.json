@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "gen:calcite_spike1_feature"
+		},
+		"structure_name": "mystructure:calcitespike1",
+		"adjustment_radius": 4,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {},
+			"unburied": {},
+			"block_intersection": {
+				"block_allowlist": [
+					{
+						"name": "minecraft:deepslate"
+					},
+					{
+						"name": "minecraft:calcite"
+					},
+					{
+						"name": "minecraft:air"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:mesa_oak_tree_scatter_2"
+    },
+    "iterations": 1,
+    "x": -3,
+    "y": 0,
+    "z": -3,
+    "places_feature": "cc:mesa_oak_tree_structure_2"
+  }
+}

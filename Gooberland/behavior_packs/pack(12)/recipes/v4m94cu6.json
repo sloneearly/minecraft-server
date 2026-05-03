@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cc:tropical_smoothie_jar"
+    },
+    "tags": ["cc:cooking_table"],
+    "pattern": ["&&&", "***", "#J#"],
+    "key": {
+      "J": {
+        "item": "cc:jar"
+      },
+      "#": {
+        "item": "cc:cracked_coconut"
+      },
+      "*": {
+        "item": "cc:pineapple"
+      },
+      "&": {
+        "item": "cc:banana"
+      }
+    },
+    "result": "cc:tropical_smoothie_jar"
+  }
+}

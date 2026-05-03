@@ -1,0 +1,50 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:cooking_table",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:collision_box": true,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:crafting_table": {
+                "crafting_tags": [
+                    "cc:cooking_table"
+                ]
+            },
+            "minecraft:map_color": "#7d7d7d",
+            "minecraft:light_dampening": 15,
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "tag:minecraft:is_axe_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2.5,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_axe')"
+                        },
+                        "destroy_speed": 2.53333
+                    }
+                ]
+            }
+        }
+    }
+}

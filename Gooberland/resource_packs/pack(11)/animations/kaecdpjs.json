@@ -1,0 +1,54 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+    "animation.cc.glow.particle": {
+      "loop": true,
+      "animation_length": 4.0,
+      "particle_effects": {
+        "0.0": [
+          {
+            "locator": "glow",
+            "effect": "glow"
+          }
+        ]
+      }
+    },
+    "animation.cc.trail.particle": {
+      "loop": true,
+      "loop_delay": "v.trail_loop_delay ?? 0.1",
+      "animation_length": 0.1,
+      "particle_effects": {
+        "0.0": [
+          {
+            "locator": "trail",
+            "effect": "trail"
+          }
+        ]
+      }
+    },
+    "animation.cc.particle": {
+      "loop": true,
+      "animation_length": 0.05,
+      "particle_effects": {
+        "0.0": [
+          {
+            "effect": "particle",
+            "pre_effect_script": "v.direction.x = math.random(-1, 1);v.direction.y = math.random(-1, 1);v.direction.z = math.random(-1, 1);"
+          }
+        ]
+      }
+    },
+    "animation.cc.particle.hurt": {
+      "loop": true,
+      "animation_length": 0.1,
+      "particle_effects": {
+        "0.0": [
+          {
+            "locator": "hurt",
+            "effect": "hurt"
+          }
+        ]
+      }
+    }
+  }
+}

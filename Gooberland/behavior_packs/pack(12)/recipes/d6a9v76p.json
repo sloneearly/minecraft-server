@@ -1,0 +1,19 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "cc:orange_cushion"
+        },
+        "tags": [
+            "cc:furniture_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:orange_carpet"
+            }
+        ],
+        "result": {
+            "item": "cc:orange_cushion"
+        }
+    }
+}

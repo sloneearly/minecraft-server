@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "item:stone_energizer",
+          "menu_category": {
+              "category": "equipment",
+              "group": "itemGroup.name.equipment"
+            }
+        },
+		"components": {
+			"minecraft:icon": {
+				"texture": "item:stone_energizer"
+			},
+			"minecraft:glint": false,
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:cooldown": {
+				"category": "cooldown",
+				"duration": 30
+			},
+			"minecraft:use_animation": "bow",
+			"minecraft:display_name": {
+				"value": "Stone Energizer"
+			}
+		},
+		"events": {}
+	}
+}

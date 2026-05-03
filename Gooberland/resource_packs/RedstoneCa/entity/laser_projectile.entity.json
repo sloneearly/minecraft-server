@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "wan_redcave:laser_projectile",
+      "materials": {
+        "default": "entity_emissive_alpha_one_sided"
+      },
+      "textures": {
+        "default": "textures/wan/redcave/entity/laser_projectile"
+      },
+      "geometry": {
+        "default": "geometry.wan_redcave.laser_projectile"
+      },
+      "animations": {
+        "shake": "animation.wan_redcave.projectile.shake"
+      },
+      "scripts": {
+        "initialize": [
+          "v.rot = q.camera_rotation(1);"
+        ],
+        "animate": [
+          "shake"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

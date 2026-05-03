@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cc:apple_juice_jar"
+    },
+    "tags": ["cc:cooking_table"],
+    "pattern": ["&&&", "***", "#J#"],
+    "key": {
+      "J": {
+        "item": "cc:jar"
+      },
+      "#": {
+        "item": "minecraft:apple"
+      },
+      "*": {
+        "item": "minecraft:apple"
+      },
+      "&": {
+        "item": "minecraft:apple"
+      }
+    },
+    "result": "cc:apple_juice_jar"
+  }
+}

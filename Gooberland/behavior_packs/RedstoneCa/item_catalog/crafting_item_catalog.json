@@ -1,0 +1,131 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "equipment",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "wan_redcave:tech_sword_t1",
+              "name": "wan_redcave:tools"
+            },
+            "items": [
+              "wan_redcave:tech_sword_t1",
+              "wan_redcave:tech_sword_t2",
+              "wan_redcave:tech_shield_t1",
+              "wan_redcave:tech_shield_t2",
+              "wan_redcave:blaster_t1",
+              "wan_redcave:blaster_off_t2",
+              "wan_redcave:electric_drill_t1",
+              "wan_redcave:electric_drill_t2"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "nature",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "wan_redcave:hematite",
+              "name": "wan_redcave:hematite"
+            },
+            "items": [
+              "wan_redcave:hematite",
+              "wan_redcave:hematite_redstone_inclusion",
+              "wan_redcave:hematite_redstone_ore",
+              "wan_redcave:hematite_stalagmite",
+              "wan_redcave:hematite_stalagmite_tip",
+              "wan_redcave:hematite_stalactite",
+              "wan_redcave:hematite_stalactite_tip"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "wan_redcave:magnetite",
+              "name": "wan_redcave:magnetite"
+            },
+            "items": [
+              "wan_redcave:magnetite",
+              "wan_redcave:magnetite_redlight_curve",
+              "wan_redcave:magnetite_redlight_horizontal",
+              "wan_redcave:magnetite_redlight_intersection",
+              "wan_redcave:magnetite_redlight_perpendicular",
+              "wan_redcave:magnetite_redlight_vertical",
+              "wan_redcave:magnetite_redstone_inclusion",
+              "wan_redcave:magnetite_redstone_ore",
+              "wan_redcave:magnetite_soil",
+              "wan_redcave:polished_magnetite"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "wan_redcave:pure_redstone_block",
+              "name": "wan_redcave:pure_redstone"
+            },
+            "items": [
+              "wan_redcave:pure_redstone_block",
+              "wan_redcave:pure_redstone_cluster",
+              "wan_redcave:pure_redstone_large_bud",
+              "wan_redcave:pure_redstone_medium_bud",
+              "wan_redcave:pure_redstone_small_bud"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "wan_redcave:redstone_drip",
+              "name": "wan_redcave:redstone"
+            },
+            "items": [
+              "wan_redcave:redstone_drip",
+              "wan_redcave:redstone_glass",
+              "wan_redcave:redstone_growth_short",
+              "wan_redcave:redstone_growth_tall",
+              "wan_redcave:redstone_sprout"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "wan_redcave:autofarmer_t1",
+              "name": "wan_redcave:machinery"
+            },
+            "items": [
+              "wan_redcave:autofarmer_t1",
+              "wan_redcave:autofarmer_t2",
+              "wan_redcave:blue_network_core",
+              "wan_redcave:crusher_t1",
+              "wan_redcave:crusher_t2",
+              "wan_redcave:electric_oven_t1",
+              "wan_redcave:electric_oven_t2",
+              "wan_redcave:generator_t1",
+              "wan_redcave:generator_t2",
+              "wan_redcave:network_access_panel",
+              "wan_redcave:quarry",
+              "wan_redcave:red_network_core",
+              "wan_redcave:wireless_hopper"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "wan_redcave:holographic_touchpad",
+              "name": "wan_redcave:tools"
+            },
+            "items": [
+              "wan_redcave:holographic_touchpad",
+              "wan_redcave:portable_generator_t1",
+              "wan_redcave:portable_generator_t2",
+              "wan_redcave:techsuit_control_t1",
+              "wan_redcave:techsuit_control_t2"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

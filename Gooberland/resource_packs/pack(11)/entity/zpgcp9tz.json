@@ -1,0 +1,107 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:elephant",
+      "materials": {
+        "default": "entity_alphatest",
+        "dye": "entity_alphatest_change_color"
+      },
+      "textures": {
+        "default": "textures/cc/animals/entities/elephant",
+        "chested": "textures/cc/animals/entities/elephant",
+        "saddled": "textures/cc/animals/entities/elephant",
+        "has_rider": "textures/cc/animals/entities/elephant",
+        "dye": "textures/cc/animals/entities/elephant.dye"
+      },
+      "geometry": {
+        "default": "geometry.cc.elephant"
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:elephant_spawn_egg"
+      },
+      "scripts": {
+        "initialize": [
+          "v.relative_run_speed = 0.6;",
+          "v.pitch = 0;",
+          "v.roll = 0;",
+          "v.max_leg_rot = 40;",
+          "v.max_leg_pos_h = 5;",
+          "v.max_leg_pos_v = 5;",
+          "v.body_bump = 2;",
+          "v.body_rot = 5;",
+          "v.head_bump = 1;",
+          "v.playback_multiplier = 0.4;"
+        ],
+        "pre_animation": [
+          "v.pitch = ((math.clamp(q.is_on_ground ? 0 : q.body_x_rotation, -20, 20) - (math.clamp(q.vertical_speed * 1, -90, 5)) + ( 3 * v.pitch)) / 4);",
+          // plane only rolls in the air
+          "v.roll = ((q.is_on_ground ? 0 : (-q.yaw_speed) / 4) + (4 * v.roll)) / 5;",
+          "v.playback_multiplier = q.has_rider ? 0.2 : 0.4;",
+          "v.max_leg_pos_h = q.has_rider ? 8 : 5;"
+        ],
+        "animate": [
+          { "look_at_target": "!(q.has_rider && q.is_saddled)" },
+          "root",
+          "move_controller",
+          "attack_controller",
+          "sit_controller",
+          { "has_rider": "q.has_rider && q.is_saddled" },
+          { "walk_trunk": "q.modified_move_speed * 1.5" },
+          "trunk",
+          "trunk_scale",
+          "aim_controller",
+          "rotate_controller",
+          { "baby_transform": "query.is_baby" }
+        ]
+      },
+      "particle_effects": {
+        "shoot": "cc:elephant_shoot",
+        "step": "cc:dust_smoke"
+      },
+      "sound_effects": {
+        "shoot": "mob.llama.spit",
+        "step": "cc:elephant_step"
+      },
+      "animations": {
+        // Controllers
+        "move_controller": "controller.animation.cc.move",
+        "attack_controller": "controller.animation.cc.delayed_attack",
+        "sit_controller": "controller.animation.cc.sit",
+        "aim_controller": "controller.animation.cc.aim",
+
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.cc.baby_transform.half",
+
+        "root": "animation.cc.common.root",
+
+        "idle": "animation.cc.elephant.idle",
+        "walk": "animation.cc.quadruped.walk",
+        "walk_trunk": "animation.cc.elephant.walk_trunk",
+        "fly": "animation.cc.quadruped.walk",
+        "run": "animation.cc.quadruped.walk",
+        "swim": "animation.cc.quadruped.walk",
+        "swim_idle": "animation.cc.quadruped.walk",
+        "swim_run": "animation.cc.quadruped.walk",
+        "sit": "animation.cc.elephant.sit",
+        "trunk": "animation.cc.elephant.trunk",
+        "delayed_attack": "animation.cc.quadruped.walk",
+        "trunk_scale": "animation.cc.elephant.trunk.scale",
+
+        "has_rider": "animation.cc.elephant.has_rider",
+        "aim": "animation.cc.elephant.aim",
+        "rotate": "animation.cc.quadruped.rotation",
+        "rotate_controller": "controller.animation.cc.quadruped.rotation"
+      },
+      "render_controllers": [
+        {"controller.render.cc.dye":  "q.is_saddled"},
+        "controller.render.cc.common",
+        "controller.render.cc.chested",
+        "controller.render.cc.saddled",
+        {"controller.render.cc.has_rider": "q.is_saddled"}
+      ],
+      "enable_attachables": true
+    }
+  }
+}

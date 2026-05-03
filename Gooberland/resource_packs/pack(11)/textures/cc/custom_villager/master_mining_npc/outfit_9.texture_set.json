@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "outfit_9",
+    "heightmap": "outfit_9_heightmap",
+    "metalness_emissive_roughness_subsurface": "outfit_9_mers"
+  }
+}

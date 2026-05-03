@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "item:iron_stone_geode",
+            "menu_category": {
+              "category": "items",
+              "group": "itemGroup.name.items"
+            }
+    },
+    "components": {
+      "tag:minecraft:trim_materials": {},
+      "minecraft:icon": {
+        "texture": "item:iron_stone_geode"
+      },
+      "minecraft:display_name": {
+        "value": "Opened Stone Geode\n§8Iron\n\n§7Use in Stone Cutter"
+      }
+    }
+  }
+}

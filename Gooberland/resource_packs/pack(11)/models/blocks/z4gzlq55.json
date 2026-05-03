@@ -1,0 +1,135 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cc.books.standing",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "book_1",
+					"pivot": [4.75, 6.75, -2],
+					"cubes": [
+						{
+							"origin": [8.75, 0, -0.25],
+							"size": [4, 7, 7],
+							"pivot": [6.75, 6.75, -2],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [7, 0], "uv_size": [4, 7], "material_instance": "book_1"},
+								"east": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "book_1"},
+								"south": {"uv": [0, 9], "uv_size": [4, 7], "material_instance": "book_1"},
+								"west": {"uv": [0, 0], "uv_size": [7, 7], "material_instance": "book_1"},
+								"up": {"uv": [11, 0], "uv_size": [4, 7], "material_instance": "book_1"},
+								"down": {"uv": [11, 7], "uv_size": [4, -7], "material_instance": "book_1"}
+							}
+						}
+					]
+				},
+				{
+					"name": "book_2",
+					"pivot": [1, 5.75, -6],
+					"cubes": [
+						{
+							"origin": [-9, -5.5, -14],
+							"size": [4, 9, 9],
+							"pivot": [-3, 1.75, -6],
+							"rotation": [0, 90, 180],
+							"uv": {
+								"north": {"uv": [12, 7], "uv_size": [4, 9], "material_instance": "book_2"},
+								"east": {"uv": [0, 0], "uv_size": [9, 9], "material_instance": "book_2"},
+								"south": {"uv": [0, 12], "uv_size": [9, 4], "uv_rotation": 90, "material_instance": "book_2"},
+								"west": {"uv": [9, 0], "uv_size": [-9, 9], "material_instance": "book_2"},
+								"up": {"uv": [12, 0], "uv_size": [4, 9], "material_instance": "book_2"},
+								"down": {"uv": [12, 9], "uv_size": [4, -9], "material_instance": "book_2"}
+							}
+						}
+					]
+				},
+				{
+					"name": "book_3",
+					"pivot": [1, 5.75, -6],
+					"cubes": [
+						{
+							"origin": [0, 3.5, -9],
+							"size": [4, 8, 8],
+							"pivot": [2, 5.75, -6],
+							"rotation": [0, 90, -180],
+							"uv": {
+								"north": {"uv": [8, 0], "uv_size": [4, 8], "material_instance": "book_3"},
+								"east": {"uv": [8, 0], "uv_size": [-8, 8], "material_instance": "book_3"},
+								"south": {"uv": [0, 8], "uv_size": [4, 8], "material_instance": "book_3"},
+								"west": {"uv": [0, 0], "uv_size": [8, 8], "material_instance": "book_3"},
+								"up": {"uv": [16, 0], "uv_size": [-4, 8], "material_instance": "book_3"},
+								"down": {"uv": [16, 8], "uv_size": [-4, -8], "material_instance": "book_3"}
+							}
+						}
+					]
+				},
+				{
+					"name": "book_4",
+					"pivot": [-3, 1.75, -6],
+					"cubes": [
+						{
+							"origin": [3, 1.5, 6],
+							"size": [4, 8, 8],
+							"pivot": [1, 4.75, 10],
+							"rotation": [0, 90, -180],
+							"uv": {
+								"north": {"uv": [8, 0], "uv_size": [4, 8], "material_instance": "book_4"},
+								"east": {"uv": [8, 0], "uv_size": [-8, 8], "material_instance": "book_4"},
+								"south": {"uv": [8, 8], "uv_size": [4, 8], "material_instance": "book_4"},
+								"west": {"uv": [0, 0], "uv_size": [8, 8], "material_instance": "book_4"},
+								"up": {"uv": [12, 0], "uv_size": [4, 8], "material_instance": "book_4"},
+								"down": {"uv": [12, 8], "uv_size": [4, -8], "material_instance": "book_4"}
+							}
+						}
+					]
+				}
+			],
+			"item_display_transforms": {
+				"thirdperson_righthand": {
+					"rotation": [0, -90, 0],
+					"translation": [1.5, 3, 0],
+					"scale": [0.76, 0.76, 0.76],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				},
+				"firstperson_righthand": {
+					"rotation": [0, -69, 0],
+					"translation": [0, 6.25, 3.25],
+					"scale": [0.66, 0.66, 0.66],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				},
+				"ground": {
+					"rotation": [0, 0, 0],
+					"translation": [0, 2.75, 0],
+					"scale": [0.72, 0.72, 0.72],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				},
+				"gui": {
+					"rotation": [31, 45, 0],
+					"translation": [-1.5, 4.25, 0],
+					"scale": [1, 1, 1],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0],
+					"fit_to_frame": true
+				},
+				"fixed": {
+					"rotation": [0, -90, 0],
+					"translation": [2, 4.5, -0.75],
+					"scale": [1, 1, 1],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				}
+			}
+		}
+	]
+}

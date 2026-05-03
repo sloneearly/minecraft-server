@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "staballoy_chestplate_4efc2be5"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:staballoy_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "chestplate:staballoy_chestplate",
+      "count": 1
+    }
+  }
+}

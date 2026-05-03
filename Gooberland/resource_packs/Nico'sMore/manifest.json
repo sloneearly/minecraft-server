@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Nico's More Dungeon (v1.7.2) [Resource Pack]",
+    "description": "Discover more dungeon structures and bosses.",
+    "uuid": "b196c105-4795-44df-bfe2-03463afee370",
+    "pack_scope": "world",
+    "version": [ 1, 7, 2 ],
+    "min_engine_version": [ 1, 26, 0 ]
+  },
+  "capabilities": [ "pbr" ],
+  "metadata": {
+    "product_type": "addon",
+		"authors": [ "NicoTheKid" ],
+		"url": "https://www.curseforge.com/members/nicothekid/projects"
+	},
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "73b7d427-39e1-465b-9f4a-bcfb0036ed5a",
+      "version": [ 1, 7, 2 ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "c410d468-bded-42c2-9df3-016d696ce9b5",
+      "version": [ 1, 7, 2 ]
+    }
+  ]
+}

@@ -1,0 +1,511 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "weight": 10,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 64
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:market_trim_mining_5"
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "stone",
+                  "quantity": 32
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "granite",
+                  "quantity": 32
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "diorite",
+                  "quantity": 32
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "andesite",
+                  "quantity": 32
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "copper_ingot",
+                  "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "iron_ingot",
+                  "quantity": 4
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "coal",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "redstone",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "lapis_lazuli",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "torch",
+                  "quantity": 64
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "gold_ingot",
+                  "quantity": 3
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 6
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "quartz",
+                  "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 4
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "glowstone_dust",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 3
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "iron_pickaxe",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 2
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "diamond",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 8
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 8
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "prismarine_shard",
+                  "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 6
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "diamond_pickaxe",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 5
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "coal",
+                  "quantity": 16,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "torch",
+                  "quantity": 64,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 6
+                }
+              ],
+              "gives": [
+                {
+                  "item": "gold_ingot",
+                  "quantity": 3,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 4
+                }
+              ],
+              "gives": [
+                {
+                  "item": "quartz",
+                  "quantity": 8,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 3
+                }
+              ],
+              "gives": [
+                {
+                  "item": "glowstone_dust",
+                  "quantity": 16,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 2
+                }
+              ],
+              "gives": [
+                {
+                  "item": "iron_pickaxe",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "enchant_with_levels",
+                      "levels": {
+                        "min": 25,
+                        "max": 35
+                      }
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "diamond",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "emerald",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 6
+                }
+              ],
+              "gives": [
+                {
+                  "item": "prismarine_shard",
+                  "quantity": 8,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 5
+                }
+              ],
+              "gives": [
+                {
+                  "item": "diamond_pickaxe",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "enchant_with_levels",
+                      "levels": {
+                        "min": 25,
+                        "max": 35
+                      }
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "flipbook_texture": "textures/cc/cooking/blocks/cooking_pot/fill.water",
+    "atlas_tile": "cc:cooking_pot_fill_water",
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/cc/cooking/blocks/cooking_pot/fill.mushroom_stew.1",
+    "atlas_tile": "cc:cooking_pot_fill_mushroom_stew_1",
+    "ticks_per_frame": 16
+  },
+  {
+    "flipbook_texture": "textures/cc/cooking/blocks/cooking_pot/fill.mushroom_stew.2",
+    "atlas_tile": "cc:cooking_pot_fill_mushroom_stew_2",
+    "ticks_per_frame": 16
+  },
+  {
+    "flipbook_texture": "textures/cc/cooking/blocks/cooking_pot/fill.rabbit_stew.1",
+    "atlas_tile": "cc:cooking_pot_fill_rabbit_stew_1",
+    "ticks_per_frame": 16
+  },
+  {
+    "flipbook_texture": "textures/cc/cooking/blocks/cooking_pot/fill.rabbit_stew.2",
+    "atlas_tile": "cc:cooking_pot_fill_rabbit_stew_2",
+    "ticks_per_frame": 16
+  },
+  {
+    "flipbook_texture": "textures/cc/cooking/blocks/cooking_pot/fill.rabbit_stew.3",
+    "atlas_tile": "cc:cooking_pot_fill_rabbit_stew_3",
+    "ticks_per_frame": 16
+  },
+  {
+    "flipbook_texture": "textures/cc/cooking/blocks/cooking_pot/fill.beetroot_soup.1",
+    "atlas_tile": "cc:cooking_pot_fill_beetroot_soup_1",
+    "ticks_per_frame": 16
+  },
+  {
+    "flipbook_texture": "textures/cc/cooking/blocks/cooking_pot/fill.tomato_soup.1",
+    "atlas_tile": "cc:cooking_pot_fill_tomato_soup_1",
+    "ticks_per_frame": 16
+  },
+  {
+    "flipbook_texture": "textures/cc/cooking/blocks/cooking_pot/fill.tomato_soup.2",
+    "atlas_tile": "cc:cooking_pot_fill_tomato_soup_2",
+    "ticks_per_frame": 16
+  },
+  {
+    "flipbook_texture": "textures/cc/cooking/blocks/cooking_pot/fill.tomato_soup.3",
+    "atlas_tile": "cc:cooking_pot_fill_tomato_soup_3",
+    "ticks_per_frame": 16
+  },
+  {
+    "flipbook_texture": "textures/cc/cooking/blocks/cooking_pot/fill.vegetable_soup.1",
+    "atlas_tile": "cc:cooking_pot_fill_vegetable_soup_1",
+    "ticks_per_frame": 16
+  },
+  {
+    "flipbook_texture": "textures/cc/cooking/blocks/cooking_pot/fill.vegetable_soup.2",
+    "atlas_tile": "cc:cooking_pot_fill_vegetable_soup_2",
+    "ticks_per_frame": 16
+  },
+  {
+    "flipbook_texture": "textures/cc/cooking/blocks/cooking_pot/fill.vegetable_soup.3",
+    "atlas_tile": "cc:cooking_pot_fill_vegetable_soup_3",
+    "ticks_per_frame": 16
+  },
+  {
+    "flipbook_texture": "textures/cc/cooking/blocks/cooking_pot/fill.rice.1",
+    "atlas_tile": "cc:cooking_pot_fill_rice_1",
+    "ticks_per_frame": 16
+  },
+  {
+    "flipbook_texture": "textures/cc/cooking/blocks/stove/front.on",
+    "atlas_tile": "cc:stove_front_on",
+    "ticks_per_frame": 4
+  },
+  {
+    "flipbook_texture": "textures/cc/animals/blocks/capybara.mud",
+    "atlas_tile": "cc:capybara_mud",
+    "ticks_per_frame": 16
+  }
+]

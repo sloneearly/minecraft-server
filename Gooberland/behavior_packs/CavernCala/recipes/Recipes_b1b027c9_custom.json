@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_f11c37eb"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "item:titanium_stone_geode",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "item:raw_titanium",
+      "count": 3
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "duckweed",
+    "heightmap": "duckweed_heightmap",
+    "metalness_emissive_roughness_subsurface": "duckweed_mers"
+  }
+}

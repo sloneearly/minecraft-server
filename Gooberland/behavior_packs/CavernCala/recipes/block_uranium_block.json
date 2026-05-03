@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "uranium_block_6b5f614d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:uranium_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:uranium_block",
+      "count": 1
+    }
+  }
+}

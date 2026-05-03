@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "cc:thrown_stone_javelin",
+        "materials": {
+          "default": "entity_alphatest",
+          "enchanted": "cc_entity_enchant"
+        },
+        "textures": {
+          "default": "textures/cc/weapons/items/javelin/stone",
+          "enchanted": "textures/cc/misc/enchanted_entity_glint"
+        },
+        "geometry": {
+          "default": "geometry.cc.thrown_javelin"
+        },
+        "animations": {
+          "move": "animation.cc.javelin.rotate"
+        },
+        "scripts": {
+          "animate": [
+            "move"
+          ]
+        },
+        "render_controllers": [
+          "controller.render.default",
+          {"controller.render.cc_entity_enchanted": "q.property('cc:is_enchanted')"}
+        ]
+      }
+    }
+  }

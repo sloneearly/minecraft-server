@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:snap_to_surface_feature": {
+    "description": {
+      "identifier": "wan_redcave:redstone_cave/floor/pure_crystal_snap.feature"
+    },
+    "feature_to_snap": "wan_redcave:redstone_cave/floor/pure_crystal_random.feature",
+    "vertical_search_range": 100,
+    "surface": "floor",
+    "allow_air_placement": true,
+    "allow_underwater_placement": true
+  }
+}

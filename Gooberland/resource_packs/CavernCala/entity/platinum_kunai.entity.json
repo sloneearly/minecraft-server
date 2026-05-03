@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "sword:platinum_kunai",
+      "materials": {
+        "default": "arrow"
+      },
+      "textures": {
+        "default": "textures/items/sword_platinum_kunai"
+      },
+      "geometry": {
+        "default": "geometry.knife"
+      },
+      "animations": {
+        "move": "animation.knife.move"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.arrow" ]
+    }
+  }
+}

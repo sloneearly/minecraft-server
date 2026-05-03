@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_3bb1d2bb"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:gold_cart",
+      "count": 1
+    }
+  }
+}

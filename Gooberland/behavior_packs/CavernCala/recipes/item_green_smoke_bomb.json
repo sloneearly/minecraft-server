@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "green_smoke_bomb_dcc75f78"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A",
+      "BC",
+      " D"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:string",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:green_dye",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:gunpowder",
+        "data": 0
+      },
+      "D": {
+        "item": "item:sulfur",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:green_smoke_bomb",
+      "count": 4
+    }
+  }
+}

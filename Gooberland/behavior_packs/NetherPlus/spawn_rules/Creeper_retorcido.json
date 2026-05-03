@@ -1,0 +1,35 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "tt:creeper_magmatico_retorcido",
+			"population_control": "monster"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_underground": {},
+				"minecraft:spawns_on_block_prevented_filter": [
+					"minecraft:magma",
+					"minecraft:lava"
+				],
+				"minecraft:difficulty_filter": {
+					"min": "easy",
+					"max": "hard"
+				},
+				"minecraft:weight": {
+					"default": 20
+				},
+				"minecraft:herd": {
+					"min_size": 1,
+					"max_size": 2
+				},
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "warped_forest"
+				}
+			}
+		]
+	}
+}

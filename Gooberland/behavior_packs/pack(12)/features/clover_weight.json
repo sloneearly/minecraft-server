@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "cc:clover_weight"
+    },
+    "features": [
+      ["cc:clover_1_feature", 1],
+      ["cc:clover_2_feature", 1],
+      ["cc:clover_3_feature", 1],
+      ["cc:clover_4_feature", 1]
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "minecraft:overworld_cave_carver_feature",
+      "places_feature": "minecraft:underground_cave_carver_feature"
+    },
+    "conditions": {
+      "placement_pass": "pregeneration_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "overworld_generation"
+            }
+          ]
+        }
+      ],
+		"distribution": {
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					-58,
+					55
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+    }
+  }
+}

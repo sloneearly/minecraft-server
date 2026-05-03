@@ -1,0 +1,32 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "cc:dummy_rock_projectile",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "runtime_identifier": "snowball"
+        },
+        "components": {
+            "minecraft:projectile": {
+                "anchor": 1,
+                "power": 1.5,
+                "gravity": 0.03,
+                "angle_offset": 0.0,
+                "offset": [
+                    0,
+                    -0.1,
+                    0
+                ]
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            }
+        }
+    }
+}

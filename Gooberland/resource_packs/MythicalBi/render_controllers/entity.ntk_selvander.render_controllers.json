@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.entity.ntk_selvander": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "array.skins[query.variant]"
+      ],
+      "arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.variant_0_selvander_brown",
+						"Texture.variant_1_selvander_dark_green",
+						"Texture.variant_2_selvander_green",
+						"Texture.variant_3_selvander_lush",
+						"Texture.variant_4_selvander_yellow"
+					]
+				}
+			}
+    }
+  }
+}

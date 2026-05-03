@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "staballoy_boots_2353b74d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "item:staballoy_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "boots:staballoy_boots",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cc:strawberry",
+      "menu_category": {
+        "category": "none"
+      },
+      "states": {
+        "cc:grow_state": [1, 2, 3, 4]
+      }
+    },
+    "components": {
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "none"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "on_liquid_touches": "popped"
+          }
+        ]
+      },
+      "tag:plant": {},
+      "tag:crop": {},
+      "tag:nonsolid": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:geometry": "geometry.cc.cross",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cc:strawberry_1",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-4, 0, -4],
+        "size": [8, 7, 8]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:map_color": "#da6161",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["up"],
+            "block_filter": [
+              "grass_block",
+              "dirt",
+              "podzol",
+              "dirt_with_roots",
+              "coarse_dirt",
+              {
+                "tags": "query.any_tag('dirt') || query.any_tag('grass')"
+              }
+            ]
+          }
+        ]
+      },
+      "cc:crop_grow": {},
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('cc:grow_state') < 4",
+        "components": {
+          "minecraft:loot": "loot_tables/cc/crops/strawberry.seeds.loot.json"
+        }
+      },
+      {
+        "condition": "q.block_state('cc:grow_state') == 4",
+        "components": {
+          "minecraft:loot": "loot_tables/cc/crops/strawberry.loot.json"
+        }
+      },
+      {
+        "condition": "query.block_state('cc:grow_state') == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:strawberry_2",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 11, 8]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('cc:grow_state') == 3",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:strawberry_3",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [-5, 0, -5],
+            "size": [10, 12, 10]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('cc:grow_state') == 4",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:strawberry_4",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [-6, 0, -6],
+            "size": [12, 16, 12]
+          }
+        }
+      }
+    ]
+  }
+}

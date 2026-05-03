@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "lightning_spider",
+    "heightmap": "lightning_spider_heightmap",
+    "metalness_emissive_roughness_subsurface": "lightning_spider_mers"
+  }
+}

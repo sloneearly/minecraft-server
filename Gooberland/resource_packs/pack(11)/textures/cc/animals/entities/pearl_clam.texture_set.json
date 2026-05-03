@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "pearl_clam",
+    "heightmap": "pearl_clam_heightmap",
+    "metalness_emissive_roughness_subsurface": "pearl_clam_mers"
+  }
+}

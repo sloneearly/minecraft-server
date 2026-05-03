@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "aetherium_boots_9a9c8fe9"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "item:aetherium",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "boots:aetherium_boots",
+      "count": 1
+    }
+  }
+}

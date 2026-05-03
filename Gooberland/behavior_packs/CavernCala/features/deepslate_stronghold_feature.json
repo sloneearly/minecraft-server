@@ -1,0 +1,103 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "generation:deepslate_stronghold_feature"
+		},
+		"count": 99,
+		"replace_rules": [
+			{
+				"places_block": "minecraft:cracked_deepslate_bricks",
+				"may_replace": [
+					"minecraft:cracked_stone_bricks"
+				]
+			},
+			{
+				"places_block": "minecraft:cracked_deepslate_bricks",
+				"may_replace": [
+					"minecraft:infested_cracked_stone_bricks"
+				]
+			},
+			{
+				"places_block": "minecraft:deepslate_bricks",
+				"may_replace": [
+					"minecraft:stone_bricks"
+				]
+			},
+			{
+				"places_block": "minecraft:deepslate_bricks",
+				"may_replace": [
+					"minecraft:infested_stone_bricks"
+				]
+			},
+			{
+				"places_block": "minecraft:chiseled_deepslate",
+				"may_replace": [
+					"minecraft:chiseled_stone_bricks"
+				]
+			},
+			{
+				"places_block": "minecraft:chiseled_deepslate",
+				"may_replace": [
+					"minecraft:infested_chiseled_stone_bricks"
+				]
+			},
+			{
+				"places_block": "block:mossy_deepslate_bricks",
+				"may_replace": [
+					"minecraft:mossy_stone_bricks"
+				]
+			},
+			{
+				"places_block": "block:mossy_deepslate_bricks",
+				"may_replace": [
+					"minecraft:infested_mossy_stone_bricks"
+				]
+			},
+			{
+				"places_block": "minecraft:deepslate_brick_slab",
+				"may_replace": [
+					"minecraft:stone_brick_slab"
+				]
+			},
+			{
+				"places_block": "minecraft:polished_deepslate_slab",
+				"may_replace": [
+					"minecraft:smooth_stone_slab"
+				]
+			},
+			{
+				"places_block": "minecraft:polished_deepslate",
+				"may_replace": [
+					"minecraft:oak_log",
+					"minecraft:smooth_stone_double_slab"
+				]
+			},
+			{
+				"places_block": "minecraft:cracked_deepslate_tiles",
+				"may_replace": [
+					"minecraft:cobblestone"
+				]
+			},
+			{
+				"places_block": "minecraft:cracked_deepslate_tiles",
+				"may_replace": [
+					"minecraft:cobblestone"
+				]
+			},
+			{
+				"places_block": "minecraft:deepslate_brick_wall",
+				"may_replace": [
+					"minecraft:oak_fence"
+				]
+			},
+			{
+				"places_block": "minecraft:deepslate_tiles",
+				"may_replace": [
+					"minecraft:mossy_cobblestone",
+					"minecraft:oak_planks"
+				]
+			}
+		]
+	}
+}

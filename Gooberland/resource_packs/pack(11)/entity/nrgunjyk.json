@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:forest_wizard",
+      "geometry": {
+        "default": "geometry.cc.forest_wizard"
+      },
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/cc/monsters/entities/forest_wizard"
+      },
+      "animations": {
+        "casting": "animation.cc.forest_wizard.casting",
+        "move": "animation.cc.forest_wizard.move",
+        "general": "animation.cc.forest_wizard.general",
+        "casting_controller": "controller.animation.cc.forest_wizard.casting",
+        "look_at_target": "animation.common.look_at_target",
+        "shoot": "animation.cc.forest_wizard.shoot",
+        "arms": "animation.cc.forest_wizard.arms"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "move": "q.modified_move_speed"
+          },
+          "casting_controller",
+          "look_at_target"
+        ]
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:forest_wizard_spawn_egg"
+      }
+    }
+  }
+}

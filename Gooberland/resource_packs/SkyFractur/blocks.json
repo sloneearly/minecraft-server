@@ -1,0 +1,1739 @@
+{
+  "block:solar_planks": {
+    "textures": "block_solar_planks",
+    "sound": "wood"
+  },
+  "block:solar_plank_slab": {
+    "textures": "block_solar_plank_slab",
+    "sound": "wood"
+  },
+	"block:light_paper_lantern": {
+		"textures": "empty",
+		"sound": "normal"
+	},
+  "block:solar_mosaic": {
+    "textures": "block_solar_mosaic",
+    "sound": "wood"
+  },
+  "block:solar_log": {
+    "textures": {
+      "up": "block_solar_log_up",
+      "down": "block_solar_log_down",
+      "side": "block_solar_log_side"
+    },
+    "sound": "wood"
+  },
+  "block:aero_slime_block": {
+    "textures": "block_aero_slime_block",
+    "sound": "slime"
+  },
+  "block:chiseled_sky_stone": {
+    "textures": "block_chiseled_sky_stone",
+    "sound": "basalt"
+  },
+  "block:polished_solarslag": {
+    "textures": "block_polished_solarslag",
+    "sound": "deepslate"
+  },
+  "block:polished_sky_stone_slab": {
+    "textures": "block_polished_sky_stone_slab",
+    "sound": "basalt"
+  },
+  "block:polished_sky_stone": {
+    "textures": "block_polished_sky_stone",
+    "sound": "basalt"
+  },
+  "block:sky_stone_bricks": {
+    "textures": "block_sky_stone_bricks",
+    "sound": "basalt"
+  },
+  "block:polished_solarslag_slab": {
+    "textures": "block_polished_solarslag_slab",
+    "sound": "deepslate"
+  },
+  "block:sky_stone_brick_slab": {
+    "textures": "block_sky_stone_brick_slab",
+    "sound": "basalt"
+  },
+  "block:sky_stone_tile_slab": {
+    "textures": "block_sky_stone_tile_slab",
+    "sound": "basalt"
+  },
+  "block:sky_stone_tiles": {
+    "textures": "block_sky_stone_tiles",
+    "sound": "basalt"
+  },
+  "block:solar_lamp": {
+    "textures": "block_solar_lamp",
+    "sound": "glass"
+  },
+  "block:solarplate_brick_slab": {
+    "textures": "block_solarplate_brick_slab",
+    "sound": "deepslate"
+  },
+  "block:solarplate_bricks": {
+    "textures": "block_solarplate_bricks",
+    "sound": "deepslate"
+  },
+  "block:solarplate_tile_slab": {
+    "textures": "block_solarplate_tile_slab",
+    "sound": "deepslate"
+  },
+  "block:sky_stone_pillar": {
+    "textures": {
+      "up": "block_sky_stone_pillar_up",
+      "down": "block_sky_stone_pillar_down",
+      "side": "block_sky_stone_pillar_side"
+    },
+    "sound": "basalt"
+  },
+  "block:solarplate_pillar": {
+    "textures": {
+      "up": "block_solarplate_pillar_up",
+      "down": "block_solarplate_pillar_down",
+      "side": "block_solarplate_pillar_side"
+    },
+    "sound": "deepslate"
+  },
+  "block:solarplate_tiles": {
+    "textures": "block_solarplate_tiles",
+    "sound": "deepslate"
+  },
+  "block:stellar_crystal": {
+    "textures": "ani_block_stellar_crystal",
+    "sound": "amethyst_block"
+  },
+  "block:space_crystal": {
+    "textures": "ani_block_space_crystal",
+    "sound": "amethyst_block"
+  },
+  "ore:cryo_iron_ore": {
+    "textures": "ore_cryo_iron_ore",
+    "sound": "normal"
+  },
+  "ore:cryo_diamond_ore": {
+    "textures": "ore_cryo_diamond_ore",
+    "sound": "normal"
+  },
+  "block:solar_soul_forge": {
+    "textures": {
+      "up": "block_solar_soul_forge_up",
+      "down": "block_solar_soul_forge_down",
+      "side": "block_solar_soul_forge_side"
+    },
+    "sound": "normal"
+  },
+  "block:sky_dirt": {
+    "textures": "block_sky_dirt",
+    "sound": "gravel"
+  },
+  "block:sky_stone": {
+    "textures": "block_sky_stone",
+    "sound": "basalt"
+  },
+  "block:meteorite": {
+    "textures": "ani_block_meteorite",
+    "sound": "ancient_debris"
+  },
+  "block:sky_stone_slab": {
+    "textures": "block_sky_stone_slab",
+    "sound": "tuff"
+  },
+  "block:cloud_planks": {
+    "textures": "block_cloud_planks",
+    "sound": "wood"
+  },
+  "block:star_flower": {
+    "textures": "block_star_flower",
+    "sound": "grass"
+  },
+  "block:cloud_log": {
+    "textures": {
+      "up": "block_cloud_log_up",
+      "down": "block_cloud_log_down",
+      "side": "block_cloud_log_side"
+    },
+    "sound": "wood"
+  },
+  "block:cloud_plank_slab": {
+    "textures": "block_cloud_plank_slab",
+    "sound": "wood"
+  },
+  "block:cloud_mosaic": {
+    "textures": "block_cloud_mosaic",
+    "sound": "wood"
+  },
+  "block:cloud": {
+    "textures": "block_cloud",
+    "sound": "powder_snow"
+  },
+  "block:nimbus_cloud": {
+    "textures": "block_nimbus_cloud",
+    "sound": "powder_snow"
+  },
+  "block:star_leaves": {
+    "textures": "block_star_leaves",
+    "sound": "grass"
+  },
+  "block:star_grass": {
+    "textures": "block_star_grass",
+    "sound": "grass"
+  },
+  "block:star_mushroom": {
+    "textures": "block_star_mushroom",
+    "sound": "grass"
+  },
+  "block:sky_grass_block": {
+    "textures": {
+      "up": "block_sky_grass_block_up",
+      "down": "block_sky_grass_block_down",
+      "side": "block_sky_grass_block_side"
+    },
+    "sound": "grass"
+  },
+  "block:cloud_bricks": {
+    "textures": "block_cloud_bricks",
+    "sound": "powder_snow"
+  },
+  "block:cloud_brick_slab": {
+    "textures": "block_cloud_brick_slab",
+    "sound": "powder_snow"
+  },
+  "block:polished_cloud_slab": {
+    "textures": "block_polished_cloud_slab",
+    "sound": "powder_snow"
+  },
+  "block:polished_cloud": {
+    "textures": "block_polished_cloud",
+    "sound": "powder_snow"
+  },
+  "ore:starlite_ore": {
+    "textures": "ore_starlite_ore",
+    "sound": "basalt"
+  },
+  "block:aquamarine_block": {
+    "textures": "block_aquamarine_block",
+    "sound": "amethyst_block"
+  },
+  "block:starlite_block": {
+    "textures": "block_starlite_block",
+    "sound": "amethyst_block"
+  },
+  "ore:aquamarine_ore": {
+    "textures": "ore_aquamarine_ore",
+    "sound": "basalt"
+  },
+  "block:lunargem_block": {
+    "textures": "block_lunargem_block",
+    "sound": "amethyst_block"
+  },
+  "block:solargem_block": {
+    "textures": "block_solargem_block",
+    "sound": "amethyst_block"
+  },
+  "block:nightglow_grass": {
+    "textures": "block_nightglow_grass",
+    "sound": "grass"
+  },
+  "block:moonstone": {
+    "textures": "block_moonstone",
+    "sound": "tuff"
+  },
+  "block:nightglow_mushroom_block": {
+    "textures": "block_nightglow_mushroom_block",
+    "sound": "wood"
+  },
+  "block:moonstone_bricks": {
+    "textures": "block_moonstone_bricks",
+    "sound": "wood"
+  },
+  "block:nimbus_cloud_bricks": {
+    "textures": "block_nimbus_cloud_bricks",
+    "sound": "powder_snow"
+  },
+  "block:nimbus_cloud_brick_slab": {
+    "textures": "block_nimbus_cloud_brick_slab",
+    "sound": "powder_snow"
+  },
+  "block:cloud_slab": {
+    "textures": "block_cloud_slab",
+    "sound": "powder_snow"
+  },
+  "block:polished_nimbus_cloud_slab": {
+    "textures": "block_polished_nimbus_cloud_slab",
+    "sound": "powder_snow"
+  },
+  "block:polished_nimbus_cloud": {
+    "textures": "block_polished_nimbus_cloud",
+    "sound": "powder_snow"
+  },
+  "block:star_vines": {
+    "textures": "block_star_vines",
+    "sound": "vines"
+  },
+  "block:sky_grass": {
+    "textures": "block_sky_grass",
+    "sound": "grass"
+  },
+  "block:star_litter": {
+    "textures": "block_star_litter",
+    "sound": "amethyst_cluster"
+  },
+  "block:eclipsed_nightglow_mushroom_block": {
+    "textures": "block_eclipsed_nightglow_mushroom_block",
+    "sound": "wood"
+  },
+  "block:eclipsed_nightglow_lamp": {
+    "textures": "block_eclipsed_nightglow_lamp",
+    "sound": "glass"
+  },
+  "block:eclipsed_nightglow_stem": {
+    "textures": "block_eclipsed_nightglow_stem",
+    "sound": "wood"
+  },
+  "block:nightglow_lamp": {
+    "textures": "block_nightglow_lamp",
+    "sound": "glass"
+  },
+  "block:eclipsed_nightglow_mushroom": {
+    "textures": "block_eclipsed_nightglow_mushroom",
+    "sound": "wood"
+  },
+  "block:eclipsed_nightglow_grass": {
+    "textures": "block_eclipsed_nightglow_grass",
+    "sound": "grass"
+  },
+  "block:eclipsed_nightglow_vines": {
+    "textures": "block_eclipsed_nightglow_vines",
+    "sound": "vines"
+  },
+  "block:nightglow_vines": {
+    "textures": "block_nightglow_vines",
+    "sound": "vines"
+  },
+  "block:cloud_trapdoor": {
+    "textures": "block_cloud_trapdoor",
+    "sound": "wood"
+  },
+  "block:nightglow_brick_slab": {
+    "textures": "block_nightglow_brick_slab",
+    "sound": "stone"
+  },
+  "block:nightglow_bricks": {
+    "textures": "block_nightglow_bricks",
+    "sound": "stone"
+  },
+  "block:nightglow_tiles": {
+    "textures": "block_nightglow_tiles",
+    "sound": "stone"
+  },
+  "block:eclipsed_nightglow_brick_slab": {
+    "textures": "block_eclipsed_nightglow_brick_slab",
+    "sound": "stone"
+  },
+  "block:eclipsed_nightglow_tiles": {
+    "textures": "block_eclipsed_nightglow_tiles",
+    "sound": "stone"
+  },
+  "block:eclipsed_nightglow_bricks": {
+    "textures": "block_eclipsed_nightglow_bricks",
+    "sound": "stone"
+  },
+  "block:cloud_vines": {
+    "textures": "block_cloud_vines",
+    "sound": "grass"
+  },
+  "block:sky_stone_spike": {
+    "textures": "block_sky_stone_spike",
+    "sound": "basalt"
+  },
+  "block:tall_cloud_grass": {
+    "textures": "block_tall_cloud_grass",
+    "sound": "grass"
+  },
+  "block:cloud_door": {
+    "textures": "block_cloud_door",
+    "sound": "wood"
+  },
+  "block:solar_vines": {
+    "textures": "block_solar_vines",
+    "sound": "vines"
+  },
+  "block:small_sky_stone_spike": {
+    "textures": "block_small_sky_stone_spike",
+    "sound": "basalt"
+  },
+  "block:enchanted_lightning_rod": {
+    "textures": "ani_block_enchanted_lightning_rod",
+    "sound": "copper_block"
+  },
+  "block:nightglow_mushroom_stem": {
+    "textures": "block_nightglow_mushroom_stem",
+    "sound": "wood"
+  },
+  "block:moonrock": {
+    "textures": "block_moonrock",
+    "sound": "wood"
+  },
+  "block:nightglow_mushroom": {
+    "textures": "block_nightglow_mushroom",
+    "sound": "wood"
+  },
+  "block:moonstone_brick_slab": {
+    "textures": "block_moonstone_brick_slab",
+    "sound": "tuff"
+  },
+  "block:moonstone_tiles": {
+    "textures": "block_moonstone_tiles",
+    "sound": "tuff"
+  },
+  "block:stellarslate": {
+    "textures": "block_stellarslate",
+    "sound": "normal"
+  },
+  "block:yellow_stellar_light": {
+    "textures": "block_yellow_stellar_light",
+    "sound": "shroomlight"
+  },
+  "block:purple_stellar_light": {
+    "textures": "block_purple_stellar_light",
+    "sound": "shroomlight"
+  },
+  "block:stellarslate_bricks": {
+    "textures": "block_stellarslate_bricks",
+    "sound": "normal"
+  },
+  "block:stellarslate_brick_slab": {
+    "textures": "block_stellarslate_brick_slab",
+    "sound": "normal"
+  },
+  "block:solarplate": {
+    "textures": "block_solarplate",
+    "sound": "deepslate"
+  },
+  "block:sun_block": {
+    "textures": "block_sun_block",
+    "sound": "slime"
+  },
+  "block:purple_stellarslate_bricks": {
+    "textures": "ani_block_purple_stellarslate_bricks",
+    "sound": "normal"
+  },
+  "block:yellow_stellarslate_bricks": {
+    "textures": "ani_block_yellow_stellarslate_bricks",
+    "sound": "normal"
+  },
+  "block:yellow_stellarslate_brick_slab": {
+    "textures": "ani_block_yellow_stellarslate_brick_slab",
+    "sound": "normal"
+  },
+  "block:purple_stellarslate_brick_slab": {
+    "textures": "ani_block_purple_stellarslate_brick_slab",
+    "sound": "normal"
+  },
+  "block:solar_leaves": {
+    "textures": "block_solar_leaves",
+    "sound": "grass"
+  },
+  "block:cloud_leaves": {
+    "textures": "block_cloud_leaves",
+    "sound": "grass"
+  },
+  "block:solarplate_bricks": {
+    "textures": "block_solarplate_bricks",
+    "sound": "deepslate"
+  },
+  "block:solarplate_brick_slab": {
+    "textures": "block_solarplate_brick_slab",
+    "sound": "deepslate"
+  },
+  "block:solar_trapdoor": {
+    "textures": "block_solar_trapdoor",
+    "sound": "wood"
+  },
+  "ore:solargem_ore": {
+    "textures": "ore_solargem_ore",
+    "sound": "deepslate"
+  },
+  "ore:solar_gold_ore": {
+    "textures": "ore_solar_gold_ore",
+    "sound": "deepslat"
+  },
+  "block:sun_sludge": {
+    "textures": "block_sun_sludge",
+    "sound": "slime"
+  },
+  "ore:moon_diamond_ore": {
+    "textures": "ore_moon_diamond_ore",
+    "sound": "tuff"
+  },
+  "ore:moon_lapis_ore": {
+    "textures": "ore_moon_lapis_ore",
+    "sound": "tuff"
+  },
+  "ore:solar_redstone_ore": {
+    "textures": "ore_solar_redstone_ore",
+    "sound": "deepslate"
+  },
+  "block:star_block": {
+    "textures": "block_star_block",
+    "sound": "amethyst_block"
+  },
+  "block:hardened_red_stained_glass": {
+    "textures": "block_hardened_red_stained_glass",
+    "sound": "glass"
+  },
+  "block:hardened_orange_stained_glass": {
+    "textures": "block_hardened_orange_stained_glass",
+    "sound": "glass"
+  },
+  "block:bright_star_block": {
+    "textures": "block_bright_star_block",
+    "sound": "amethyst_block"
+  },
+  "block:eclipsed_nightglow_selium": {
+    "textures": {
+      "up": "block_eclipsed_nightglow_selium_up",
+      "down": "block_eclipsed_nightglow_selium_down",
+      "side": "block_eclipsed_nightglow_selium_side"
+    },
+    "sound": "nylium"
+  },
+  "block:nightglow_selium": {
+    "textures": {
+      "up": "block_nightglow_selium_up",
+      "down": "block_nightglow_selium_down",
+      "side": "block_nightglow_selium_side"
+    },
+    "sound": "nylium"
+  },
+  "block:bubble_block": {
+    "textures": "ani_block_bubble_block",
+    "sound": "slime"
+  },
+  "block:hardened_lime_stained_glass": {
+    "textures": "block_hardened_lime_stained_glass",
+    "sound": "glass"
+  },
+  "block:hardened_yellow_stained_glass": {
+    "textures": "block_hardened_yellow_stained_glass",
+    "sound": "glass"
+  },
+  "block:hardened_green_stained_glass": {
+    "textures": "block_hardened_green_stained_glass",
+    "sound": "glass"
+  },
+  "block:hardened_blue_stained_glass": {
+    "textures": "block_hardened_blue_stained_glass",
+    "sound": "glass"
+  },
+  "block:hardened_pink_stained_glass": {
+    "textures": "block_hardened_pink_stained_glass",
+    "sound": "glass"
+  },
+  "block:hardened_light_blue_stained_glass": {
+    "textures": "block_hardened_light_blue_stained_glass",
+    "sound": "glass"
+  },
+  "block:hardened_cyan_stained_glass": {
+    "textures": "block_hardened_cyan_stained_glass",
+    "sound": "glass"
+  },
+  "block:hardened_purple_stained_glass": {
+    "textures": "block_hardened_purple_stained_glass",
+    "sound": "glass"
+  },
+  "block:hardened_light_gray_stained_glass": {
+    "textures": "block_hardened_light_gray_stained_glass",
+    "sound": "glass"
+  },
+  "block:hardened_magenta_stained_glass": {
+    "textures": "block_hardened_magenta_stained_glass",
+    "sound": "glass"
+  },
+  "block:hardened_gray_stained_glass": {
+    "textures": "block_hardened_gray_stained_glass",
+    "sound": "glass"
+  },
+  "block:hardened_brown_stained_glass": {
+    "textures": "block_hardened_brown_stained_glass",
+    "sound": "glass"
+  },
+  "block:hardened_white_stained_glass": {
+    "textures": "block_hardened_white_stained_glass",
+    "sound": "glass"
+  },
+  "block:hardened_black_stained_glass": {
+    "textures": "block_hardened_black_stained_glass",
+    "sound": "glass"
+  },
+  "block:nightglow_torch": {
+    "textures": "block_nightglow_torch",
+    "sound": "wood"
+  },
+  "block:eclipsed_nightglow_torch": {
+    "textures": "block_eclipsed_nightglow_torch",
+    "sound": "wood"
+  },
+  "block:raw_sunplate_block": {
+    "textures": "block_raw_sunplate_block",
+    "sound": "nether_gold_ore"
+  },
+  "block:extinguished_torch": {
+    "textures": "block_extinguished_torch",
+    "sound": "wood"
+  },
+  "block:lunar_torch": {
+    "textures": "block_lunar_torch",
+    "sound": "wood"
+  },
+  "block:star_torch": {
+    "textures": "block_star_torch",
+    "sound": "wood"
+  },
+  "block:solar_torch": {
+    "textures": "block_solar_torch",
+    "sound": "wood"
+  },
+  "block:setted_sunplate_grate": {
+    "textures": "block_setted_sunplate_grate",
+    "sound": "copper_grate"
+  },
+  "block:setted_sunplate_block": {
+    "textures": "block_setted_sunplate_block",
+    "sound": "netherite"
+  },
+  "block:nooned_sunplate_tiles": {
+    "textures": "block_nooned_sunplate_tiles",
+    "sound": "netherite"
+  },
+  "block:nooned_sunplate_tile_slab": {
+    "textures": "block_nooned_sunplate_tile_slab",
+    "sound": "netherite"
+  },
+  "block:nooned_sunplate_block": {
+    "textures": "block_nooned_sunplate_block",
+    "sound": "netherite"
+  },
+  "block:setted_sunplate_tile_slab": {
+    "textures": "block_setted_sunplate_tile_slab",
+    "sound": "netherite"
+  },
+  "block:setted_sunplate_tiles": {
+    "textures": "block_setted_sunplate_tiles",
+    "sound": "netherite"
+  },
+  "block:nooned_sunplate_trapdoor": {
+    "textures": "block_nooned_sunplate_trapdoor",
+    "sound": "netherite"
+  },
+  "ore:sunplate_ore": {
+    "textures": "ore_sunplate_ore",
+    "sound": "nether_gold_ore"
+  },
+  "block:nooned_sunplate_grate": {
+    "textures": "block_nooned_sunplate_grate",
+    "sound": "copper_grate"
+  },
+  "block:setted_sunplate_trapdoor": {
+    "textures": "block_setted_sunplate_trapdoor",
+    "sound": "netherite"
+  },
+  "block:setted_sunplate_door": {
+    "textures": "block_setted_sunplate_door",
+    "sound": "netherite"
+  },
+  "block:nooned_sunplate_door": {
+    "textures": "block_nooned_sunplate_door",
+    "sound": "netherite"
+  },
+  "block:setted_sunplate_torch": {
+    "textures": "block_setted_sunplate_torch",
+    "sound": "wood"
+  },
+  "block:nooned_sunplate_torch": {
+    "textures": "block_nooned_sunplate_torch",
+    "sound": "wood"
+  },
+  "block:raw_luminite_block": {
+    "textures": "block_raw_luminite_block",
+    "sound": "nether_gold_ore"
+  },
+  "ore:luminite_ore": {
+    "textures": "ore_luminite_ore",
+    "sound": "nether_gold_ore"
+  },
+  "block:luminite_block_cosmic_ember": {
+    "textures": "block_luminite_block_cosmic_ember",
+    "sound": "netherite"
+  },
+  "block:luminite_block_cryocore": {
+    "textures": "block_luminite_block_cryocore",
+    "sound": "netherite"
+  },
+  "block:luminite_block_astra": {
+    "textures": "block_luminite_block_astra",
+    "sound": "netherite"
+  },
+  "block:luminite_block_classic": {
+    "textures": "block_luminite_block_classic",
+    "sound": "netherite"
+  },
+  "block:luminite_block_lunar_rust": {
+    "textures": "block_luminite_block_lunar_rust",
+    "sound": "netherite"
+  },
+  "block:luminite_block_heavenforge": {
+    "textures": "block_luminite_block_heavenforge",
+    "sound": "netherite"
+  },
+  "block:luminite_block_mercury": {
+    "textures": "block_luminite_block_mercury",
+    "sound": "netherite"
+  },
+  "block:luminite_block_star_royal": {
+    "textures": "block_luminite_block_star_royal",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_cosmic_ember": {
+    "textures": "block_luminite_bricks_cosmic_ember",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_heavenforge": {
+    "textures": "block_luminite_bricks_heavenforge",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_cryocore": {
+    "textures": "block_luminite_bricks_cryocore",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_mercury": {
+    "textures": "block_luminite_bricks_mercury",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_astra": {
+    "textures": "block_luminite_bricks_astra",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_classic": {
+    "textures": "block_luminite_bricks_classic",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_lunar_rust": {
+    "textures": "block_luminite_bricks_lunar_rust",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_star_royal": {
+    "textures": "block_luminite_bricks_star_royal",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_astra": {
+    "textures": "ani_block_luminite_tiles_astra",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_classic": {
+    "textures": "ani_block_luminite_tiles_classic",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_lunar_rust": {
+    "textures": "ani_block_luminite_tiles_lunar_rust",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_mercury": {
+    "textures": "ani_block_luminite_tiles_mercury",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_heavenforge": {
+    "textures": "ani_block_luminite_tiles_heavenforge",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_star_royal": {
+    "textures": "ani_block_luminite_tiles_star_royal",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_cosmic_ember": {
+    "textures": "ani_block_luminite_tiles_cosmic_ember",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_cryocore": {
+    "textures": "ani_block_luminite_tiles_cryocore",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_astra_slab": {
+    "textures": "block_luminite_bricks_astra_slab",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_cryocore_slab": {
+    "textures": "block_luminite_bricks_cryocore_slab",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_classic_slab": {
+    "textures": "block_luminite_bricks_classic_slab",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_cosmic_ember_slab": {
+    "textures": "block_luminite_bricks_cosmic_ember_slab",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_lunar_rust_slab": {
+    "textures": "block_luminite_bricks_lunar_rust_slab",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_star_royal_slab": {
+    "textures": "block_luminite_bricks_star_royal_slab",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_heavenforge_slab": {
+    "textures": "block_luminite_bricks_heavenforge_slab",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_mercury_slab": {
+    "textures": "block_luminite_bricks_mercury_slab",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_astra_slab": {
+    "textures": "ani_block_luminite_tiles_astra_slab",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_cosmic_ember_slab": {
+    "textures": "ani_block_luminite_tiles_cosmic_ember_slab",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_classic_slab": {
+    "textures": "ani_block_luminite_tiles_classic_slab",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_cryocore_slab": {
+    "textures": "ani_block_luminite_tiles_cryocore_slab",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_lunar_rust_slab": {
+    "textures": "ani_block_luminite_tiles_lunar_rust_slab",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_heavenforge_slab": {
+    "textures": "ani_block_luminite_tiles_heavenforge_slab",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_mercury_slab": {
+    "textures": "ani_block_luminite_tiles_mercury_slab",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_star_royal_slab": {
+    "textures": "ani_block_luminite_tiles_star_royal_slab",
+    "sound": "netherite"
+  },
+  "block:nooned_sunplate_chain": {
+    "textures": "block_nooned_sunplate_chain",
+    "sound": "chain"
+  },
+  "block:setted_sunplate_chain": {
+    "textures": "block_setted_sunplate_chain",
+    "sound": "chain"
+  },
+  "block:solar_door": {
+    "textures": "block_solar_door",
+    "sound": "wood"
+  },
+  "block:setted_sunplate_lantern": {
+    "textures": "ani_block_setted_sunplate_lantern",
+    "sound": "lantern"
+  },
+  "block:eclipsed_nightglow_lantern": {
+    "textures": "ani_block_eclipsed_nightglow_lantern",
+    "sound": "lantern"
+  },
+  "block:solar_lantern": {
+    "textures": "ani_block_solar_lantern",
+    "sound": "lantern"
+  },
+  "block:nooned_sunplate_lantern": {
+    "textures": "ani_block_nooned_sunplate_lantern",
+    "sound": "lantern"
+  },
+  "block:star_lantern": {
+    "textures": "ani_block_star_lantern",
+    "sound": "lantern"
+  },
+  "block:lunar_lantern": {
+    "textures": "ani_block_lunar_lantern",
+    "sound": "lantern"
+  },
+  "block:nightglow_lantern": {
+    "textures": "ani_block_nightglow_lantern",
+    "sound": "lantern"
+  },
+  "block:chiseled_setted_sunplate": {
+    "textures": "block_chiseled_setted_sunplate",
+    "sound": "netherite"
+  },
+  "block:chiseled_nooned_sunplate": {
+    "textures": "block_chiseled_nooned_sunplate",
+    "sound": "netherite"
+  },
+  "block:chiseled_luminite_cryocore": {
+    "textures": "block_chiseled_luminite_cryocore",
+    "sound": "netherite"
+  },
+  "block:hardened_glass": {
+    "textures": "block_hardened_glass",
+    "sound": "glass"
+  },
+  "block:chiseled_luminite_classic": {
+    "textures": "block_chiseled_luminite_classic",
+    "sound": "netherite"
+  },
+  "block:chiseled_luminite_heavenforge": {
+    "textures": "block_chiseled_luminite_heavenforge",
+    "sound": "netherite"
+  },
+  "block:chiseled_luminite_cosmic_ember": {
+    "textures": "block_chiseled_luminite_cosmic_ember",
+    "sound": "netherite"
+  },
+  "block:chiseled_luminite_astra": {
+    "textures": "block_chiseled_luminite_astra",
+    "sound": "netherite"
+  },
+  "block:stellarslate_spike": {
+    "textures": "block_stellarslate_spike",
+    "sound": "normal"
+  },
+  "block:chiseled_luminite_lunar_rust": {
+    "textures": "block_chiseled_luminite_lunar_rust",
+    "sound": "netherite"
+  },
+  "block:solarplate_spike": {
+    "textures": "block_solarplate_spike",
+    "sound": "deepslate"
+  },
+  "block:chiseled_luminite_star_royal": {
+    "textures": "block_chiseled_luminite_star_royal",
+    "sound": "netherite"
+  },
+  "block:moonstone_spike": {
+    "textures": "block_moonstone_spike",
+    "sound": "tuff"
+  },
+  "block:chiseled_luminite_mercury": {
+    "textures": "block_chiseled_luminite_mercury",
+    "sound": "netherite"
+  },
+  "block:small_moonstone_spike": {
+    "textures": "block_small_moonstone_spike",
+    "sound": "tuff"
+  },
+  "block:small_stellarslate_spike": {
+    "textures": "block_small_stellarslate_spike",
+    "sound": "normal"
+  },
+  "block:purple_stellar_light_bricks": {
+    "textures": "block_purple_stellar_light_bricks",
+    "sound": "shroomlight"
+  },
+  "block:purple_stellar_light_tiles": {
+    "textures": "block_purple_stellar_light_tiles",
+    "sound": "shroomlight"
+  },
+  "block:yellow_stellar_light_tiles": {
+    "textures": "block_yellow_stellar_light_tiles",
+    "sound": "shroomlight"
+  },
+  "block:purple_stellar_light_tile_slab": {
+    "textures": "block_purple_stellar_light_tile_slab",
+    "sound": "shroomlight"
+  },
+  "block:yellow_stellar_light_bricks": {
+    "textures": "block_yellow_stellar_light_bricks",
+    "sound": "shroomlight"
+  },
+  "block:purple_stellar_light_brick_slab": {
+    "textures": "block_purple_stellar_light_brick_slab",
+    "sound": "shroomlight"
+  },
+  "block:yellow_stellar_light_brick_slab": {
+    "textures": "block_yellow_stellar_light_brick_slab",
+    "sound": "shroomlight"
+  },
+  "block:small_solarplate_spike": {
+    "textures": "block_small_solarplate_spike",
+    "sound": "deepslate"
+  },
+  "block:stellarslate_tile_slab": {
+    "textures": "block_stellarslate_tile_slab",
+    "sound": "normal"
+  },
+  "block:solarplate_tile_slab": {
+    "textures": "block_solarplate_tile_slab",
+    "sound": "deepslate"
+  },
+  "block:solarplate_tiles": {
+    "textures": "block_solarplate_tiles",
+    "sound": "deepslate"
+  },
+  "block:stellarslate_tiles": {
+    "textures": "block_stellarslate_tiles",
+    "sound": "normal"
+  },
+  "block:yellow_stellar_light_tile_slab": {
+    "textures": "block_yellow_stellar_light_tile_slab",
+    "sound": "shroomlight"
+  },
+  "block:purple_stellarslate_tile_slab": {
+    "textures": "ani_block_purple_stellarslate_tile_slab",
+    "sound": "normal"
+  },
+  "block:purple_stellarslate_tiles": {
+    "textures": "ani_block_purple_stellarslate_tiles",
+    "sound": "normal"
+  },
+  "block:yellow_stellarslate_tiles": {
+    "textures": "ani_block_yellow_stellarslate_tiles",
+    "sound": "normal"
+  },
+  "block:yellow_stellarslate_tile_slab": {
+    "textures": "ani_block_yellow_stellarslate_tile_slab",
+    "sound": "normal"
+  },
+  "block:cloud_straw_1": {
+    "textures": "block_cloud_straw_1",
+    "sound": "grass"
+  },
+  "block:cloud_straw_2": {
+    "textures": "block_cloud_straw_2",
+    "sound": "grass"
+  },
+  "block:cloud_straw_3": {
+    "textures": "block_cloud_straw_3",
+    "sound": "grass"
+  },
+  "block:cloud_straw_bale": {
+    "textures": {
+      "up": "block_cloud_straw_bale_up",
+      "down": "block_cloud_straw_bale_down",
+      "side": "block_cloud_straw_bale_side"
+    },
+    "sound": "grass"
+  },
+  "block:cloud_cake": {
+    "textures": "block_cloud_cake",
+    "sound": "powder_snow"
+  },
+  "ore:lignite_ore": {
+    "textures": "ore_lignite_ore",
+    "sound": "basalt"
+  },
+  "block:lignite_block": {
+    "textures": "block_lignite_block",
+    "sound": "netherrack"
+  },
+  "block:cloud_cake_3": {
+    "textures": "block_cloud_cake_3",
+    "sound": "powder_snow"
+  },
+  "block:cloud_cake_6": {
+    "textures": "block_cloud_cake_6",
+    "sound": "powder_snow"
+  },
+  "block:cloud_cake_1": {
+    "textures": "block_cloud_cake_1",
+    "sound": "powder_snow"
+  },
+  "block:cloud_cake_4": {
+    "textures": "block_cloud_cake_4",
+    "sound": "powder_snow"
+  },
+  "block:cloud_cake_5": {
+    "textures": "block_cloud_cake_5",
+    "sound": "powder_snow"
+  },
+  "block:cloud_cake_2": {
+    "textures": "block_cloud_cake_2",
+    "sound": "powder_snow"
+  },
+  "block:chocolate_cake_1": {
+    "textures": "block_chocolate_cake_1",
+    "sound": "powder_snow"
+  },
+  "block:chocolate_cake": {
+    "textures": "block_chocolate_cake",
+    "sound": "powder_snow"
+  },
+  "block:chocolate_cake_2": {
+    "textures": "block_chocolate_cake_2",
+    "sound": "powder_snow"
+  },
+  "block:chocolate_cake_3": {
+    "textures": "block_chocolate_cake_3",
+    "sound": "powder_snow"
+  },
+  "block:chocolate_cake_4": {
+    "textures": "block_chocolate_cake_4",
+    "sound": "powder_snow"
+  },
+  "block:chocolate_cake_5": {
+    "textures": "block_chocolate_cake_5",
+    "sound": "powder_snow"
+  },
+  "block:chocolate_cake_6": {
+    "textures": "block_chocolate_cake_6",
+    "sound": "powder_snow"
+  },
+  "block:chiseled_purple_stellar_light": {
+    "textures": "block_chiseled_purple_stellar_light",
+    "sound": "stone"
+  },
+  "block:chiseled_yellow_stellar_light": {
+    "textures": "block_chiseled_yellow_stellar_light",
+    "sound": "stone"
+  },
+  "block:starfruit_bush": {
+    "textures": "block_starfruit_bush",
+    "sound": "grass"
+  },
+  "block:glacier_ice": {
+    "textures": "block_glacier_ice",
+    "sound": "glass"
+  },
+  "block:cryo_ice": {
+    "textures": "block_cryo_ice",
+    "sound": "glass"
+  },
+  "block:polished_cryo_ice": {
+    "textures": "block_polished_cryo_ice",
+    "sound": "normal"
+  },
+  "block:cryo_ice_bricks": {
+    "textures": "block_cryo_ice_bricks",
+    "sound": "normal"
+  },
+  "block:cryo_ice_tiles": {
+    "textures": "block_cryo_ice_tiles",
+    "sound": "normal"
+  },
+  "block:hail_block": {
+    "textures": "block_hail_block",
+    "sound": "glass"
+  },
+  "block:cryo_ice_chain": {
+    "textures": "block_cryo_ice_chain",
+    "sound": "chain"
+  },
+  "block:cryo_ice_lantern": {
+    "textures": "block_cryo_ice_lantern",
+    "sound": "lantern"
+  },
+  "block:cryo_ice_grate": {
+    "textures": "block_cryo_ice_grate",
+    "sound": "normal"
+  },
+  "block:hail": {
+    "textures": "block_hail",
+    "sound": "normal"
+  },
+  "block:fuzzy_carrot_1": {
+    "textures": "block_fuzzy_carrot_1",
+    "sound": "grass"
+  },
+  "block:cloudberry_bush": {
+    "textures": "block_cloudberry_bush",
+    "sound": "sweet_berry_bush"
+  },
+  "block:fuzzy_carrot_2": {
+    "textures": "block_fuzzy_carrot_2",
+    "sound": "grass"
+  },
+  "block:fuzzy_carrot_3": {
+    "textures": "block_fuzzy_carrot_3",
+    "sound": "grass"
+  },
+  "block:polished_star": {
+    "textures": "block_polished_star",
+    "sound": "amethyst_block"
+  },
+  "block:polished_star_slab": {
+    "textures": "block_polished_star",
+    "sound": "amethyst_block"
+  },
+  "block:chiseled_star": {
+    "textures": "block_chiseled_star",
+    "sound": "amethyst_block"
+  },
+  "block:smooth_storm_quartz_slab": {
+    "textures": "block_smooth_storm_quartz_slab",
+    "sound": "normal"
+  },
+  "block:chiseled_solarslag": {
+    "textures": "block_chiseled_solarslag",
+    "sound": "deepslate"
+  },
+  "block:smooth_storm_quartz": {
+    "textures": "block_smooth_storm_quartz",
+    "sound": "normal"
+  },
+  "block:chiseled_storm_quartz": {
+    "textures": {
+      "up": "block_chiseled_storm_quartz_up",
+      "down": "block_chiseled_storm_quartz_down",
+      "side": "block_chiseled_storm_quartz_side"
+    },
+    "sound": "normal"
+  },
+  "block:star_tile_slab": {
+    "textures": "block_star_tile_slab",
+    "sound": "amethyst_block"
+  },
+  "block:star_bricks": {
+    "textures": "block_star_bricks",
+    "sound": "amethyst_block"
+  },
+  "block:storm_quartz_bricks": {
+    "textures": "block_storm_quartz_bricks",
+    "sound": "normal"
+  },
+  "block:star_brick_slab": {
+    "textures": "block_star_brick_slab",
+    "sound": "amethyst_block"
+  },
+  "block:storm_quartz_block": {
+    "textures": "block_storm_quartz_block",
+    "sound": "normal"
+  },
+  "block:star_tiles": {
+    "textures": "block_star_tiles",
+    "sound": "amethyst_block"
+  },
+  "block:storm_quartz_brick_slab": {
+    "textures": "block_storm_quartz_brick_slab",
+    "sound": "normal"
+  },
+  "block:star_pillar": {
+    "textures": {
+      "up": "block_star_pillar_up",
+      "down": "block_star_pillar_down",
+      "side": "block_star_pillar_side"
+    },
+    "sound": "amethyst_block"
+  },
+  "block:storm_quartz_slab": {
+    "textures": "block_storm_quartz_slab",
+    "sound": "normal"
+  },
+  "block:storm_quartz_pillar": {
+    "textures": {
+      "up": "block_storm_quartz_pillar_up",
+      "down": "block_storm_quartz_pillar_down",
+      "side": "block_storm_quartz_pillar_side"
+    },
+    "sound": "normal"
+  },
+  "ore:storm_quartz_ore": {
+    "textures": "ore_storm_quartz_ore",
+    "sound": "normal"
+  },
+  "block:solar_crate": {
+    "textures": "block_solar_crate",
+    "sound": "vault"
+  },
+  "block:thin_cloud": {
+    "textures": "block_thin_cloud",
+    "sound": "powder_snow"
+  },
+  "block:lunar_crate": {
+    "textures": "block_lunar_crate",
+    "sound": "vault"
+  },
+  "block:ice_barrier": {
+    "textures": "block_ice_barrier",
+    "sound": "glass"
+  },
+  "block:star_grate": {
+    "textures": "block_star_grate",
+    "sound": "amethyst_block"
+  },
+  "block:chiseled_moonstone": {
+    "textures": "block_chiseled_moonstone",
+    "sound": "tuff"
+  },
+  "block:luminite_pillar_cosmic_ember": {
+    "textures": {
+      "up": "block_luminite_pillar_cosmic_ember_up",
+      "down": "block_luminite_pillar_cosmic_ember_down",
+      "side": "block_luminite_pillar_cosmic_ember_side"
+    },
+    "sound": "netherite"
+  },
+  "block:luminite_pillar_heavenforge": {
+    "textures": {
+      "up": "block_luminite_pillar_heavenforge_up",
+      "down": "block_luminite_pillar_heavenforge_down",
+      "side": "block_luminite_pillar_heavenforge_side"
+    },
+    "sound": "netherite"
+  },
+  "block:luminite_pillar_cryocore": {
+    "textures": {
+      "up": "block_luminite_pillar_cryocore_up",
+      "down": "block_luminite_pillar_cryocore_down",
+      "side": "block_luminite_pillar_cryocore_side"
+    },
+    "sound": "netherite"
+  },
+  "block:luminite_pillar_lunar_rust": {
+    "textures": {
+      "up": "block_luminite_pillar_lunar_rust_up",
+      "down": "block_luminite_pillar_lunar_rust_down",
+      "side": "block_luminite_pillar_lunar_rust_side"
+    },
+    "sound": "netherite"
+  },
+  "block:luminite_pillar_classic": {
+    "textures": {
+      "up": "block_luminite_pillar_classic_up",
+      "down": "block_luminite_pillar_classic_down",
+      "side": "block_luminite_pillar_classic_side"
+    },
+    "sound": "netherite"
+  },
+  "block:luminite_pillar_mercury": {
+    "textures": {
+      "up": "block_luminite_pillar_mercury_up",
+      "down": "block_luminite_pillar_mercury_down",
+      "side": "block_luminite_pillar_mercury_side"
+    },
+    "sound": "netherite"
+  },
+  "block:luminite_pillar_astra": {
+    "textures": {
+      "up": "block_luminite_pillar_astra_up",
+      "down": "block_luminite_pillar_astra_down",
+      "side": "block_luminite_pillar_astra_side"
+    },
+    "sound": "netherite"
+  },
+  "block:moonstone_bricks": {
+    "textures": "block_moonstone_bricks",
+    "sound": "tuff"
+  },
+  "block:moonstone_tiles": {
+    "textures": "block_moonstone_tiles",
+    "sound": "tuff"
+  },
+  "block:moonstone_brick_slab": {
+    "textures": "block_moonstone_brick_slab",
+    "sound": "tuff"
+  },
+  "block:moonstone_tile_slab": {
+    "textures": "block_moonstone_tile_slab",
+    "sound": "tuff"
+  },
+  "block:polished_moonstone": {
+    "textures": "block_polished_moonstone",
+    "sound": "tuff"
+  },
+  "block:lunar_crystal": {
+    "textures": "ani_block_lunar_crystal",
+    "sound": "amethyst_block"
+  },
+  "block:luminite_pillar_star_royal": {
+    "textures": {
+      "up": "block_luminite_pillar_star_royal_up",
+      "down": "block_luminite_pillar_star_royal_down",
+      "side": "block_luminite_pillar_star_royal_side"
+    },
+    "sound": "netherite"
+  },
+  "block:moonstone_pillar": {
+    "textures": {
+      "up": "block_moonstone_pillar_up",
+      "down": "block_moonstone_pillar_down",
+      "side": "block_moonstone_pillar_side"
+    },
+    "sound": "normal"
+  },
+  "block:polished_moonstone_slab": {
+    "textures": "block_polished_moonstone_slab",
+    "sound": "tuff"
+  },
+  "block:solar_crystal": {
+    "textures": "ani_block_solar_crystal",
+    "sound": "amethyst_block"
+  },
+  "block:eclipsed_nightglow_tile_slab": {
+    "textures": "block_eclipsed_nightglow_tile_slab",
+    "sound": "wood"
+  },
+  "block:chiseled_eclipsed_nightglow": {
+    "textures": "block_chiseled_eclipsed_nightglow",
+    "sound": "wood"
+  },
+  "block:chiseled_nightglow": {
+    "textures": "block_chiseled_nightglow",
+    "sound": "wood"
+  },
+  "block:cryo_ice_tile_slab": {
+    "textures": "block_cryo_ice_tile_slab",
+    "sound": "normal"
+  },
+  "block:chiseled_cryo_ice": {
+    "textures": "block_chiseled_cryo_ice",
+    "sound": "normal"
+  },
+  "block:cryo_ice_pillar": {
+    "textures": {
+      "up": "block_cryo_ice_pillar_up",
+      "down": "block_cryo_ice_pillar_down",
+      "side": "block_cryo_ice_pillar_side"
+    },
+    "sound": "normal"
+  },
+  "block:eclipsed_nightglow_pillar": {
+    "textures": {
+      "up": "block_eclipsed_nightglow_pillar_up",
+      "down": "block_eclipsed_nightglow_pillar_down",
+      "side": "block_eclipsed_nightglow_pillar_side"
+    },
+    "sound": "wood"
+  },
+  "block:nightglow_pillar": {
+    "textures": {
+      "up": "block_nightglow_pillar_up",
+      "down": "block_nightglow_pillar_down",
+      "side": "block_nightglow_pillar_side"
+    },
+    "sound": "wood"
+  },
+  "block:nightglow_tile_slab": {
+    "textures": "block_nightglow_tile_slab",
+    "sound": "wood"
+  },
+  "block:stellarslate_pillar": {
+    "textures": {
+      "up": "block_stellarslate_pillar_up",
+      "down": "block_stellarslate_pillar_down",
+      "side": "block_stellarslate_pillar_side"
+    },
+    "sound": "normal"
+  },
+  "block:luminite_chain_murcury": {
+    "textures": "block_luminite_chain_murcury",
+    "sound": "chain"
+  },
+  "block:luminite_chain_lunar_rust": {
+    "textures": "block_luminite_chain_lunar_rust",
+    "sound": "chain"
+  },
+  "block:luminite_chain_astra": {
+    "textures": "block_luminite_chain_astra",
+    "sound": "chain"
+  },
+  "block:luminite_chain_cosmic_ember": {
+    "textures": "block_luminite_chain_cosmic_ember",
+    "sound": "chain"
+  },
+  "block:luminite_chain_heavenforge": {
+    "textures": "block_luminite_chain_heavenforge",
+    "sound": "chain"
+  },
+  "block:luminite_chain_star_royal": {
+    "textures": "block_luminite_chain_star_royal",
+    "sound": "chain"
+  },
+  "block:luminite_chain_classic": {
+    "textures": "block_luminite_chain_classic",
+    "sound": "chain"
+  },
+  "block:luminite_chain_cryocore": {
+    "textures": "block_luminite_chain_cryocore",
+    "sound": "chain"
+  },
+  "block:luminite_lamp_classic": {
+    "textures": "ani_block_luminite_lamp_classic",
+    "sound": "glass"
+  },
+  "block:luminite_lamp_cryocore": {
+    "textures": "ani_block_luminite_lamp_cryocore",
+    "sound": "glass"
+  },
+  "block:luminite_lamp_astra": {
+    "textures": "ani_block_luminite_lamp_astra",
+    "sound": "glass"
+  },
+  "block:luminite_lamp_star_royal": {
+    "textures": "ani_block_luminite_lamp_star_royal",
+    "sound": "glass"
+  },
+  "block:luminite_lamp_cosmic_ember": {
+    "textures": "ani_block_luminite_lamp_cosmic_ember",
+    "sound": "glass"
+  },
+  "block:luminite_lamp_heavenforge": {
+    "textures": "ani_block_luminite_lamp_heavenforge",
+    "sound": "glass"
+  },
+  "block:luminite_lamp_lunar_rust": {
+    "textures": "ani_block_luminite_lamp_lunar_rust",
+    "sound": "glass"
+  },
+  "block:luminite_lamp_mercury": {
+    "textures": "ani_block_luminite_lamp_mercury",
+    "sound": "glass"
+  },
+  "block:luminite_lantern_cosmic_ember": {
+    "textures": "ani_block_luminite_lantern_cosmic_ember",
+    "sound": "lantern"
+  },
+  "block:luminite_lantern_astra": {
+    "textures": "ani_block_luminite_lantern_astra",
+    "sound": "lantern"
+  },
+  "block:luminite_lantern_classic": {
+    "textures": "ani_block_luminite_lantern_classic",
+    "sound": "lantern"
+  },
+  "block:luminite_lantern_heavenforge": {
+    "textures": "ani_block_luminite_lantern_heavenforge",
+    "sound": "lantern"
+  },
+  "block:luminite_lantern_mercury": {
+    "textures": "ani_block_luminite_lantern_mercury",
+    "sound": "lantern"
+  },
+  "block:luminite_lantern_cryocore": {
+    "textures": "ani_block_luminite_lantern_cryocore",
+    "sound": "lantern"
+  },
+  "block:luminite_lantern_lunar_rust": {
+    "textures": "ani_block_luminite_lantern_lunar_rust",
+    "sound": "lantern"
+  },
+  "block:luminite_lantern_star_royal": {
+    "textures": "ani_block_luminite_lantern_star_royal",
+    "sound": "lantern"
+  },
+  "block:luminite_bricks_astra_stairs": {
+    "textures": "block_luminite_bricks_astra_stairs",
+    "sound": "netherite"
+  },
+  "block:eclipsed_nightglow_tile_stairs": {
+    "textures": "block_eclipsed_nightglow_tile_stairs",
+    "sound": "normal"
+  },
+  "block:eclipsed_nightglow_brick_stairs": {
+    "textures": "block_eclipsed_nightglow_brick_stairs",
+    "sound": "normal"
+  },
+  "block:cloud_stairs": {
+    "textures": "block_cloud_stairs",
+    "sound": "powder_snow"
+  },
+  "block:luminite_bricks_cosmic_ember_stairs": {
+    "textures": "block_luminite_bricks_cosmic_ember_stairs",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_classic_stairs": {
+    "textures": "block_luminite_bricks_classic_stairs",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_cryocore_stairs": {
+    "textures": "block_luminite_bricks_cryocore_stairs",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_heavenforge_stairs": {
+    "textures": "block_luminite_bricks_heavenforge_stairs",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_classic_stairs": {
+    "textures": "block_luminite_tiles_classic_stairs",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_mercury_stairs": {
+    "textures": "block_luminite_bricks_mercury_stairs",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_star_royal_stairs": {
+    "textures": "block_luminite_bricks_star_royal_stairs",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_heavenforge_stairs": {
+    "textures": "block_luminite_tiles_heavenforge_stairs",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_cryocore_stairs": {
+    "textures": "block_luminite_tiles_cryocore_stairs",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_cosmic_ember_stairs": {
+    "textures": "block_luminite_tiles_cosmic_ember_stairs",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_astra_stairs": {
+    "textures": "block_luminite_tiles_astra_stairs",
+    "sound": "netherite"
+  },
+  "block:luminite_bricks_lunar_rust_stairs": {
+    "textures": "block_luminite_bricks_lunar_rust_stairs",
+    "sound": "netherite"
+  },
+  "block:luminite_tiles_star_royal_stairs": {
+    "textures": "block_luminite_tiles_star_royal_stairs",
+    "sound": "netherite"
+  },
+  "block:moonstone_brick_stairs": {
+    "textures": "block_moonstone_brick_stairs",
+    "sound": "tuff"
+  },
+  "block:nightglow_tile_stairs": {
+    "textures": "block_nightglow_tile_stairs",
+    "sound": "normal"
+  },
+  "block:luminite_tiles_mercury_stairs": {
+    "textures": "block_luminite_tiles_mercury_stairs",
+    "sound": "netherite"
+  },
+  "block:moonstone_tile_stairs": {
+    "textures": "block_moonstone_tile_stairs",
+    "sound": "tuff"
+  },
+  "block:luminite_tiles_lunar_rust_stairs": {
+    "textures": "block_luminite_tiles_lunar_rust_stairs",
+    "sound": "netherite"
+  },
+  "block:nightglow_brick_stairs": {
+    "textures": "block_nightglow_brick_stairs",
+    "sound": "normal"
+  },
+  "block:nimbus_cloud_brick_stairs": {
+    "textures": "block_nimbus_cloud_brick_stairs",
+    "sound": "powder_snow"
+  },
+  "block:polished_cloud_stairs": {
+    "textures": "block_polished_cloud_stairs",
+    "sound": "powder_snow"
+  },
+  "block:polished_solarslag_stairs": {
+    "textures": "block_polished_solarslag_stairs",
+    "sound": "deepslate"
+  },
+  "block:polished_sky_stone_stairs": {
+    "textures": "block_polished_sky_stone_stairs",
+    "sound": "basalt"
+  },
+  "block:polished_nimbus_cloud_stairs": {
+    "textures": "block_polished_nimbus_cloud_stairs",
+    "sound": "powder_snow"
+  },
+  "block:polished_plank_stairs": {
+    "textures": "block_polished_plank_stairs",
+    "sound": "wood"
+  },
+  "block:polished_brick_stairs": {
+    "textures": "block_polished_brick_stairs",
+    "sound": "powder_snow"
+  },
+  "block:nooned_sunplate_tile_stairs": {
+    "textures": "block_nooned_sunplate_tile_stairs",
+    "sound": "netherite"
+  },
+  "block:polished_moonstone_stairs": {
+    "textures": "block_polished_moonstone_stairs",
+    "sound": "tuff"
+  },
+  "block:purple_stellarslate_tile_stairs": {
+    "textures": "block_purple_stellarslate_tile_stairs",
+    "sound": "normal"
+  },
+  "block:setted_sunplate_tile_stairs": {
+    "textures": "block_setted_sunplate_tile_stairs",
+    "sound": "netherite"
+  },
+  "block:polished_star_stairs": {
+    "textures": "block_polished_star_stairs",
+    "sound": "amethyst_block"
+  },
+  "block:sky_stone_brick_stairs": {
+    "textures": "block_sky_stone_brick_stairs",
+    "sound": "basalt"
+  },
+  "block:purple_stellarslate_brick_stairs": {
+    "textures": "block_purple_stellarslate_brick_stairs",
+    "sound": "normal"
+  },
+  "block:purple_stellar_brick_stairs": {
+    "textures": "block_purple_stellar_brick_stairs",
+    "sound": "shroomlight"
+  },
+  "block:purple_stellar_tile_stairs": {
+    "textures": "block_purple_stellar_tile_stairs",
+    "sound": "shroomlight"
+  },
+  "block:sky_stone_stairs": {
+    "textures": "block_sky_stone_stairs",
+    "sound": "basalt"
+  },
+  "block:solarslag_brick_stairs": {
+    "textures": "block_solarslag_brick_stairs",
+    "sound": "deepslate"
+  },
+  "block:smooth_storm_quartz_stairs": {
+    "textures": "block_smooth_storm_quartz_stairs",
+    "sound": "normal"
+  },
+  "block:stellarslate_brick_stairs": {
+    "textures": "block_stellarslate_brick_stairs",
+    "sound": "normal"
+  },
+  "block:sky_stone_tile_stairs": {
+    "textures": "block_sky_stone_tile_stairs",
+    "sound": "basalt"
+  },
+  "block:star_tile_stairs": {
+    "textures": "block_star_tile_stairs",
+    "sound": "amethyst_block"
+  },
+  "block:solar_plank_stairs": {
+    "textures": "block_solar_plank_stairs",
+    "sound": "wood"
+  },
+  "block:star_brick_stairs": {
+    "textures": "block_star_brick_stairs",
+    "sound": "amethyst_block"
+  },
+  "block:solarslag_tile_stairs": {
+    "textures": "block_solarslag_tile_stairs",
+    "sound": "deepslate"
+  },
+  "block:stellarslate_tile_stairs": {
+    "textures": "block_stellarslate_tile_stairs",
+    "sound": "normal"
+  },
+  "block:yellow_stellarslate_tile_stairs": {
+    "textures": "block_yellow_stellarslate_tile_stairs",
+    "sound": "normal"
+  },
+  "block:storm_quartz_brick_stairs": {
+    "textures": "block_storm_quartz_brick_stairs",
+    "sound": "normal"
+  },
+  "block:yellow_stellar_brick_stairs": {
+    "textures": "block_yellow_stellar_brick_stairs",
+    "sound": "shroomlight"
+  },
+  "block:storm_quartz_stairs": {
+    "textures": "block_storm_quartz_stairs",
+    "sound": "normal"
+  },
+  "block:yellow_stellar_tile_stairs": {
+    "textures": "block_yellow_stellar_tile_stairs",
+    "sound": "shroomlight"
+  },
+  "block:yellow_stellarslate_brick_stairs": {
+    "textures": "block_yellow_stellarslate_brick_stairs",
+    "sound": "normal"
+  },
+  "format_version": [
+    1,
+    1,
+    0
+  ]
+}

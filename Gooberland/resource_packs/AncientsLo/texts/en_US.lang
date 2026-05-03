@@ -1,0 +1,83 @@
+pack.description=Explore ancient altars, activate runic pillars and unleash the ancient power hidden in each biome. Forge powerful artifacts and master rune magic to transform the world around you.
+
+item.ancients:iron_amulet=Iron Amulet
+item.ancients:iron_amulet_powered=Iron Amulet Charged
+item.ancients:ancient_mystic_bark=Ancient Mystic Bark
+item.ancients:ancient_rune_fragment=Ancient Rune Fragment
+item.ancients:ancient_rune=Ancient Rune
+item.ancients:ancient_rune_charged=Ancient Rune Charged
+item.ancients:bottle_of_runic_essence=Bottle Of Runic Essence
+item.ancients:runic_apple=Runic Apple
+item.ancients:runic_essence=Runic Essence
+item.ancients:ancient_sapling=Ancient Sapling
+item.ancients:runic_staff=Runic Staff
+item.ancients:runic_staff_charged=Runic Staff
+item.ancient:ancient_door=Ancient Door
+item.ancients:ancient_book=Ancient Book
+item.ancients:lost_scroll=Lost Scroll
+item.ancients:forest_guardian_mask=Ancient Forest Guardian Mask
+item.ancients:forest_guardian_mask_item=Ancient Forest Guardian Mask
+
+
+item.ancients.bottle_of_runic_essence=Bottle Of Runic Essence
+item.ancients.forest_guardian_mask=Ancient Forest Guardian Mask
+
+effect.ancients.runic=Runic
+
+tooltip.equipped=When Equipped:
+tooltip.applied=When Applied:
+
+tooltip.runic=Allows advanced transformations in the Altar
+tooltip.forestmask=Improves uses and damage of the Runic Staff
+
+tile.ancients:ancient_forest_altar.name=Ancient Forest Altar
+tile.ancients:ancient_forest_pillar_cracked.name=Ancient Forest Pillar Cracked
+tile.ancients:ancient_forest_pillar_mossy.name=Ancient Forest Pillar Mossy
+tile.ancients:ancient_forest_pillar.name=Ancient Forest Pillar
+tile.ancients:deepslate_rune.name=Deepslate Runes
+tile.ancients:ancient_leaves.name=Ancient Leaves
+tile.ancients:ancient_log.name=Ancient Log
+tile.ancients:ancient_planks.name=Ancient Planks
+tile.ancients:ancient_slab.name=Ancient Slab
+tile.ancients:ancient_sapling.name=Ancient Sapling
+tile.ancients:ancient_log_stripped.name=Stripped Ancient Log
+tile.ancients:ancient_wood_stripped.name=Stripped Ancient Wood
+tile.ancients:ancient_wood.name=Ancient Wood
+tile.ancients:ancient_stair.name=Ancient Stair
+tile.ancients:ancient_fence.name=Ancient Fence
+tile.ancients:ancient_fence_gate.name=Ancient Fence Gate
+tile.ancients:ancient_door.name=Ancient Door
+
+interact.ancients.ancient_book=Open Book
+
+book.ancients.entry=Ancient Book
+book.ancients.chapter.forest=Forest
+book.ancients.notfound=[ Locked Chapter ]
+
+book.ancient.entry.description=Description
+book.ancient.entry.extra=Additional
+book.ancient.entry.image=Altar
+book.ancients.entry.chapter=Chapter
+
+book.ancients.chapter1=- The Runic Essence
+book.ancients.chapter2=- The Amulet
+book.ancients.chapter3=- The Runic Apple
+book.ancients.chapter4=- The Ancestral Rune
+book.ancients.chapter5=- The Runic Staff
+book.ancients.chapter6=- Captured Essence
+book.ancients.chapter7=- The Mask
+
+
+book.ancients.chapter1.text=Long ago, the trees of the Ancient Forest absorbed mystical energies from the earth. To unlock this power, you must strip the bark of these ancestral trees. Only a few trunks carry the Runic Bark, infused with ancient energy. Combine this bark with the glowstone dust from the Nether and place the bark in one of the surrounding pillars, then the glowstone in the altar. A burst of ancient power will reveal Runic Essence, a key to unlocking deeper magic.
+
+book.ancients.chapter2.text=The Iron Amulet was once worn by the protectors of the forest, imbuing them with regenerative powers. To create the Charged Iron Amulet, craft a simple iron amulet, and place four Runic Essences on the pillars. Finally, place the iron amulet on the altar to let it absorb the essence's energy. This amulet will grant you Regeneration upon use, but it can only be used five times before it needs to be recharged. Such power comes with a price, as the ancient protectors knew.
+
+book.ancients.chapter3.text=Legends say that the Runic Apple holds the very life force of the forest, offering immense power to those who consume it. To create this apple, place eight Runic Essences on the surrounding pillars and a Golden Apple in the center of the altar. Once transformed, the Runic Apple not only heals but also grants the Runic Effect, a mysterious boon required to perform advanced transformations at the altar. It's said this effect links you directly to the forest's ancient magic.
+
+book.ancients.chapter4.text=Hidden in the depths of the caves lie scattered Fragments of Ancestral Runes, relics of a long past era. When combined, these fragments form the powerful Ancestral Rune. To charge it, consume a Runic Apple or activate the Runic Effect, then place the rune on the altar with four Runic Essences on the pillars. The Charged Ancestral Rune holds vast power, enabling transformations beyond the reach of mortal hands.
+
+book.ancients.chapter5.text=The Runic Staff was once wielded by the Elders of the forest. To obtain the Charged Runic Staff, you must first craft a basic staff. Then, gather four Charged Ancestral Runes, four Runic Essences, and consume a Runic Apple. Place the essences and runes in the pillars, and the staff on the altar. Once charged, this staff can unleash devastating Runic Orbs. When crouched, the staff will cast the Runic Effect on nearby monsters, weakening them with ancient energy.
+
+book.ancients.chapter6.text=Ancient scholars believed the essence of the forest could be captured, but only when the forest's wrath is focused. When a creature is under the Runic Effect, interact with it using an empty bottle. This process extracts the Runic Essence in a Bottle, a potion that grants you the Runic Effect for 40 seconds, allowing you to complete the most powerful transformations at the altar. Handle this essence with care it holds the forest's fury.
+
+book.ancients.chapter7.text=Deep within the ancient forest lies a hidden temple, home of the Ancient Forest Guardian Mask. To claim this mask, you must drink pure Runic Essence. This essence is only obtained by extracting it from monsters. Only under the effect of the essence will the temple allow access to the mask. Hurry, as the power of the essence fades quickly.

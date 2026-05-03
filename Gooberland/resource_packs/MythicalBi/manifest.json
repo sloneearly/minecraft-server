@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Mythical Biomes (v1.10.2) [Resource Pack]",
+    "description": "Mythical Biomes is a add-on that will add some new biomes to your world.",
+    "uuid": "9af4d0b9-46e3-4237-97d4-f27e34c84e98",
+    "pack_scope": "world",
+    "version": [ 1, 10, 2 ],
+    "min_engine_version": [ 1, 26, 10 ]
+  },
+  "capabilities": [ "pbr" ],
+  "metadata": {
+    "product_type": "addon",
+		"authors": [ "NicoTheKid" ],
+		"url": "https://www.curseforge.com/members/nicothekid/projects"
+	},
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "7ec0a65c-d8d4-48d3-91b9-2d9078b5af3a",
+      "version": [ 1, 10, 2 ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "ad8e720d-a30d-46af-a826-1298079457dc",
+      "version": [ 1, 10, 2 ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rose_gold_chain_3b73759b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "item:rose_gold_nugget",
+        "data": 0
+      },
+      "B": {
+        "item": "item:rose_gold_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:rose_gold_chain",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cobalt_helmet_60f23963"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "item:cobalt_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "helmet:cobalt_helmet",
+      "count": 1
+    }
+  }
+}

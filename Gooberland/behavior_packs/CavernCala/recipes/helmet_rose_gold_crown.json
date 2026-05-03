@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rose_gold_crown_89cf2df6"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:rose_gold_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:amethyst_shard",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "helmet:rose_gold_crown",
+      "count": 1
+    }
+  }
+}

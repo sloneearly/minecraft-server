@@ -1,0 +1,20 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "generation:hyperion_log_feature"
+		},
+		"count": 64,
+		"replace_rules": [
+			{
+				"places_block": "block:hyperion_log",
+				"may_replace": [
+					{
+						"name": "block:hyperion_roots"
+					}
+				]
+			}
+		]
+	}
+}

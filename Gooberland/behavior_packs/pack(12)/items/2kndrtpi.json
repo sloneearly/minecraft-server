@@ -1,0 +1,24 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "cc:acacia_candle_stand",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "%cc.acacia_candle_stand\n%cc.category.furniture"
+            },
+            "minecraft:fuel": {
+                "duration": 2
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:block_placer": {
+                "replace_block_item": true,
+                "block": "cc:acacia_candle_stand"
+            }
+        }
+    }
+}

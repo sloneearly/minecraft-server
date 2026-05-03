@@ -1,0 +1,76 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "cc:seat",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": ["furniture"]
+            },
+            "minecraft:collision_box": {
+                "width": 0,
+                "height": 0
+            },
+            "minecraft:health": {
+                "value": 1,
+                "max": 1
+            },
+            "minecraft:rideable": {
+                "seat_count": 1,
+                "interact_text": "Sit",
+                "seats": [
+                  {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                ]
+              },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:physics": {
+                "has_gravity": false,
+                "has_collision": false
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:conditional_bandwidth_optimization": {},
+            "minecraft:fire_immune": {}
+        },
+        "component_groups": {
+            "cc:despawn": {"minecraft:instant_despawn": {}},
+            "cc:has_rider": {
+                "minecraft:environment_sensor": {
+                    "triggers": [
+                        {
+                            "event": "cc:despawn",
+                            "target": "self",
+                            "filters": {
+                                "test": "rider_count",
+                                "value": 0
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "events": {
+            "cc:despawn": {"add": {"component_groups": ["cc:despawn"]}},
+            "cc:has_rider": {"add": {"component_groups": ["cc:has_rider"]}}
+        }
+    }
+}

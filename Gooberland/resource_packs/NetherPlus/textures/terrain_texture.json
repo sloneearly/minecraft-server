@@ -1,0 +1,159 @@
+{
+	"resource_pack_name": "NETHERPLUS",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"block": {
+			"textures": [
+				"textures/blocks/glowmushroom"
+			]
+		},
+		"volcano": {
+			"textures": [
+				"textures/blocks/pilarvolcano1"
+			]
+		},
+		"brain_bottle": {
+			"textures": [
+				"textures/blocks/brain_bottle"
+			]
+		},
+		"black_blood_ore": {
+			"textures": [
+				"textures/blocks/black_blood_ore"
+			]
+		},
+		"black_blood_ore_top": {
+			"textures": [
+				"textures/blocks/black_blood_ore_top"
+			]
+		},
+		"black_nether_gold_ore": {
+			"textures": [
+				"textures/blocks/black_nether_gold_ore"
+			]
+		},
+		"black_nether_gold_ore_top": {
+			"textures": [
+				"textures/blocks/black_nether_gold_ore_top"
+			]
+		},
+		"black_netherrack": {
+			"textures": [
+				"textures/blocks/black_netherrack"
+			]
+		},
+		"black_quartz_ore": {
+			"textures": [
+				"textures/blocks/black_quartz_ore"
+			]
+		},
+		"black_quartz_ore_top": {
+			"textures": [
+				"textures/blocks/black_quartz_ore_top"
+			]
+		},
+		"blood_block": {
+			"textures": [
+				"textures/blocks/blood_block"
+			]
+		},
+		"bloode_ore": {
+			"textures": [
+				"textures/blocks/blood_ore"
+			]
+		},
+		"bricks_basalt": {
+			"textures": [
+				"textures/blocks/bricks_basalt"
+			]
+		},
+		"bricks_black_netherrack": {
+			"textures": [
+				"textures/blocks/bricks_black_netherrack"
+			]
+		},
+		"bricks_netherrack": {
+			"textures": [
+				"textures/blocks/bricks_netherrack"
+			]
+		},
+		"circular_basalt": {
+			"textures": [
+				"textures/blocks/circular_basalt"
+			]
+		},
+		"circular_black_netherrack": {
+			"textures": [
+				"textures/blocks/circular_black_netherrack"
+			]
+		},
+		"circular_netherrack": {
+			"textures": [
+				"textures/blocks/circular_netherrack"
+			]
+		},
+		"magma_basalt": {
+			"textures": [
+				"textures/blocks/magma_basalt_side"
+			]
+		},
+		"magma_blackstone": {
+			"textures": [
+				"textures/blocks/magma_blackstone"
+			]
+		},
+		"magma_obsidian": {
+			"textures": [
+				"textures/blocks/magma_obsidian"
+			]
+		},
+		"mosaic_basalt": {
+			"textures": [
+				"textures/blocks/mosaic_basalt"
+			]
+		},
+		"mosaic_black_netherrack": {
+			"textures": [
+				"textures/blocks/mosaic_black_netherrack"
+			]
+		},
+		"mosaic_netherrack": {
+			"textures": [
+				"textures/blocks/mosaic_netherrack"
+			]
+		},
+		"pillarside_basalt": {
+			"textures": [
+				"textures/blocks/pillarside_basalt"
+			]
+		},
+		"pillarside_black_netherrack": {
+			"textures": [
+				"textures/blocks/pillarside_black_netherrack"
+			]
+		},
+		"pillarside_netherrack": {
+			"textures": [
+				"textures/blocks/pillarside_netherrack"
+			]
+		},
+		"tiles_medium_basalt": {
+			"textures": [
+				"textures/blocks/tiles_medium_basalt"
+			]
+		},
+		"tiles_medium_black_netherrack": {
+			"textures": [
+				"textures/blocks/tiles_medium_black_netherrack"
+			]
+		},
+		"tiles_medium_netherrack": {
+			"textures": [
+				"textures/blocks/tiles_medium_netherrack"
+			]
+		}
+	}
+
+}

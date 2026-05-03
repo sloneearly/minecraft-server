@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "ancients:bottle_of_runic_essence",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:lightning_zombie",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/cc/ritual/entities/lightning/lightning_zombie"
+      },
+      "geometry": {
+        "default": "geometry.cc.zombie"
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:lightning_zombie_spawn_egg"
+      },
+      "particle_effects": {
+        "trail": "cc:mob_fire_blue"
+      },
+      "animations": {
+        "humanoid_big_head": "animation.humanoid.big_head",
+        "look_at_target_default": "animation.humanoid.look_at_target.default",
+        "move": "animation.humanoid.move",
+        "bob": "animation.humanoid.bob",
+        "zombie_attack_bare_hand": "animation.zombie.attack_bare_hand",
+        "charged_ranged_attack": "animation.cc.zombie.throw",
+        "controller": "controller.animation.cc.charged_ranged_attack",
+        "particle": "animation.cc.trail.particle"
+      },
+      "scripts": {
+        "initialize": ["v.trail_loop_delay = 0.1;"],
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+          "v.alpha = 0.7; v.red = 1; v.blue = 0; v.green = 0.5;"
+        ],
+        "animate": [
+          "move",
+          "zombie_attack_bare_hand",
+          "look_at_target_default",
+          "bob",
+          "controller",
+          "particle",
+          { "humanoid_big_head": "q.is_baby" }
+        ]
+      },
+      "render_controllers": ["controller.render.cc.common"],
+      "enable_attachables": true
+    }
+  }
+}

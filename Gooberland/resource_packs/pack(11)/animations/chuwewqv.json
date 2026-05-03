@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cc.player.swing.third_person": {
+			"animation_length": 0.25,
+			"bones": {
+				"rightArm": {
+					"rotation": [
+						"!v.is_first_person ? (-(math.sin((1 - math.pow((1 - (q.anim_time * (1 / 0.25))), 4)) * 180) * 1.2 + math.sin((q.anim_time * (1 / 0.25)) * 180)) * 30.0) : 0.0",
+						"!v.is_first_person ? (-(math.sin((1 - math.pow((1 - (q.anim_time * (1 / 0.25))), 4)) * 180) ? (-90.0 * math.sin((1 - math.pow((1 - (q.anim_time * (1 / 0.25))), 4)) * 180)) + 30.0 : 0.0)) : 0",
+						0
+					]
+				}
+			}
+		}
+	}
+}

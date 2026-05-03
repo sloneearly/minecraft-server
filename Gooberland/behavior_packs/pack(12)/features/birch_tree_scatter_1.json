@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:birch_tree_scatter_1"
+    },
+    "iterations": 1,
+    "x": -3,
+    "y": 0,
+    "z": -2,
+    "places_feature": "cc:birch_tree_structure_1"
+  }
+}

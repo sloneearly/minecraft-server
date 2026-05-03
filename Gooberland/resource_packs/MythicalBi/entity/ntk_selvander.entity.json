@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ntk:selvander",
+      //"enable_attachables": true,
+      "spawn_egg": {
+        "texture": "ntk_spawn_egg_selvander"
+      },
+      "render_controllers": [
+        "controller.render.entity.ntk_selvander"
+      ],
+      "geometry": {
+        "default": "geometry.entity.ntk_selvander"
+      },
+      "materials": {
+        "default": "ntk_entity_emissive_alpha"
+      },
+      "textures": {
+        "variant_0_selvander_brown": "textures/entity/ntk_selvander_brown",
+        "variant_1_selvander_dark_green": "textures/entity/ntk_selvander_dark_green",
+        "variant_2_selvander_green": "textures/entity/ntk_selvander_green",
+        "variant_3_selvander_lush": "textures/entity/ntk_selvander_lush",
+        "variant_4_selvander_yellow": "textures/entity/ntk_selvander_yellow"
+      },
+      "animations": {
+        "controller_general": "controller.animation.entity.ntk_selvander.general",
+        "attack_melee": "animation.entity.ntk_selvander.attack_melee",
+        "look_at_target": "animation.entity.ntk_selvander.look_at_target",
+        "sitting": "animation.entity.ntk_selvander.sitting",
+        "swimming": "animation.entity.ntk_selvander.swimming",
+        "walking": "animation.entity.ntk_selvander.walking"
+      },
+      "scripts": {
+        "animate": [
+          "controller_general",
+          "look_at_target"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:jigsaw": {
+    "description": {
+      "identifier": "cc:mesa_village"
+    },
+    "biome_filters": [
+      {
+        "all_of": [
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "mesa"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:crag"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:volcanic_plains"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:jade_cliffs"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "step": "surface_structures",
+    "start_pool": "cc:village/centers/mesa_village_centers",
+    "max_depth": 5,
+    "start_height": {
+      "type": "constant",
+      "value": { "absolute": -1 }
+    },
+    "heightmap_projection": "world_surface",
+    "terrain_adaptation": "beard_thin"
+  }
+}

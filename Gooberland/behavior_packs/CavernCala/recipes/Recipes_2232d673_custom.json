@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_74155b78"
+    },
+    "tags": [
+      "soul_forge"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "AEA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:diamond",
+        "data": 0
+      },
+      "B": {
+        "item": "item:palladium_forging_template",
+        "data": 0
+      },
+      "C": {
+        "item": "block:cobalt_block",
+        "data": 0
+      },
+      "D": {
+        "item": "helmet:cobalt_helmet",
+        "data": 0
+      },
+      "E": {
+        "item": "item:palladium_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "helmet:palladium_helmet",
+      "count": 1
+    }
+  }
+}

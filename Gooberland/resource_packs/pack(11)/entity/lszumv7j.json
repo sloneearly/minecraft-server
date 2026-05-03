@@ -1,0 +1,35 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "cc:shark",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "textures": {
+          "default": "textures/cc/animals/entities/shark"
+        },
+        "geometry": {
+          "default": "geometry.shark"
+        },
+        "spawn_egg": {
+          "texture_index": 0,
+        "texture": "cc:shark_spawn_egg"
+        },
+        "particle_effects": {
+          "breach_splash": "cc:breach_splash",
+          "breach_cloud": "cc:breach_cloud"
+        },
+        "scripts": {
+          //"initialize": ["variable.pitch = 0;", "variable.roll = 0;"],
+          "animate": ["swim"]
+        },
+        "animations": {
+          "swim": "animation.cc.shark.swim"
+        },
+        "render_controllers": ["controller.render.cc.common"],
+        "enable_attachables": true
+      }
+    }
+  }
+  

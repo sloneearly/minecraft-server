@@ -1,0 +1,55 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:raven",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/cc/animals/entities/raven"
+      },
+      "geometry": {
+        "default": "geometry.cc.raven"
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:raven_spawn_egg"
+      },
+      "scripts": {
+        "initialize": ["v.relative_run_speed = 0.6;", "variable.pitch = 0;", "variable.roll = 0;"],
+        "pre_animation": [
+          "variable.pitch = ((math.clamp(q.is_on_ground ? 0 : q.body_x_rotation, -20, 20) - (math.clamp(q.vertical_speed * 1, -90, 5)) + ( 3 * variable.pitch)) / 4);",
+          // plane only rolls in the air
+          "variable.roll = ((q.is_on_ground ? 0 : (-q.yaw_speed) / 4) + (4 * v.roll)) / 5;"
+        ],
+        "animate": [
+          "root",
+          "move_controller",
+          "look_at_target",
+          { "call": "math.random_integer(0,50) == 1" }
+        ]
+      },
+      "sound_effects": {
+        "call": "cc:raven_call"
+      },
+      "animations": {
+        // Controllers
+        "move_controller": "controller.animation.cc.move",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.cc.baby_transform",
+        "root": "animation.cc.common.root",
+        "idle": "animation.cc.raven.fly",
+        "walk": "animation.cc.raven.fly",
+        "run": "animation.cc.raven.fly",
+        "fly": "animation.cc.raven.fly",
+        "swim": "animation.cc.raven.fly",
+        "swim_idle": "animation.cc.raven.fly",
+        "swim_run": "animation.cc.raven.fly",
+        "call": "animation.cc.distant_call"
+      },
+      "render_controllers": ["controller.render.cc.common"],
+      "enable_attachables": true
+    }
+  }
+}

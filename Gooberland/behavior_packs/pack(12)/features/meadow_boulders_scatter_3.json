@@ -1,0 +1,19 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:meadow_boulders_scatter_3"
+    },
+    "iterations": 1,
+    "x": -3,
+    "y": {
+      "distribution": "uniform",
+      "extent": [
+        -4,
+        -2
+      ]
+    },
+    "z": -3,
+    "places_feature": "cc:meadow_boulders_structure_3"
+  }
+}

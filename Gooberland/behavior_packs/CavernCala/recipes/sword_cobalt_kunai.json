@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cobalt_kunai_cc1a9d5a"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  B",
+      " B ",
+      "C  "
+    ],
+    "key": {
+      "B": {
+        "item": "item:cobalt_ingot",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "sword:cobalt_kunai",
+      "count": 16
+    }
+  }
+}

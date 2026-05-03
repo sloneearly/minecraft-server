@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cc:gold_chandelier"
+    },
+    "tags": ["cc:furniture_table"],
+    "pattern": [" C ", "CWC", " W "],
+    "key": {
+      "W": {
+        "item": "minecraft:gold_block"
+      },
+      "C": {
+        "item": "minecraft:candle"
+      }
+    },
+    "result": {
+      "item": "cc:gold_chandelier",
+      "count": 1
+    }
+  }
+}

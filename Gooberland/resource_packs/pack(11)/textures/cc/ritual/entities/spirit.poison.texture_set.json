@@ -1,0 +1,7 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "spirit.poison",
+    "metalness_emissive_roughness_subsurface": "spirit.poison_mers"
+  }
+}

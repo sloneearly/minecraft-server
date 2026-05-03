@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "cc:wide_fern_block_1"
+    },
+    "places_block": "cc:wide_fern",
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false,
+    "may_attach_to": {
+      "min_sides_must_attach": 1,
+      "bottom": [
+        "minecraft:grass",
+        "minecraft:dirt",
+        "minecraft:coarse_dirt",
+        "cc:jungle_roots"
+      ]
+    },
+    "may_replace": [
+      "minecraft:air"
+    ]
+  }
+}

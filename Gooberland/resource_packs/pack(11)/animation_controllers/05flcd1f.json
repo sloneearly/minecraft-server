@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc.block": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "transitions": [
+            {
+              "block": "query.property('cc:is_blocking') == 1"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "block": {
+          "animations": ["block"],
+          "transitions": [
+            {
+              "idle": "query.property('cc:is_blocking') == 0"
+            }
+          ],
+          "blend_transition": 0.2
+        }
+      }
+    }
+  }
+}

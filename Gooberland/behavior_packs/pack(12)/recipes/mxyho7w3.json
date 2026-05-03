@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "cc:potato_crate"
+        },
+        "tags": [
+            "cc:cooking_table"
+        ],
+        "pattern": [
+            "***",
+            "***",
+            "***"
+        ],
+        "key": {
+            "*": {
+                "item": "minecraft:potato"
+            }
+        },
+        "result": "cc:potato_crate"
+    }
+}

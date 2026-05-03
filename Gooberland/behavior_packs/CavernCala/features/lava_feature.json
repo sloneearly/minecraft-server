@@ -1,0 +1,23 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "generation:lava_feature"
+		},
+		"count": 15,
+		"replace_rules": [
+			{
+				"places_block": "minecraft:flowing_lava",
+				"may_replace": [
+					"minecraft:stone"
+				]
+			},
+			{
+				"places_block": "minecraft:flowing_lava",
+				"may_replace": [
+					"minecraft:deepslate"
+				]
+			}
+		]
+	}
+}

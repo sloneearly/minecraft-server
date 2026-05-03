@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "cc:furniture_wiki_trinket"
+        },
+        "tags": [
+            "cc:furniture_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:book",
+                "count": 1
+            },
+            {
+                "item": "cc:furniture_table",
+                "count": 1
+            }
+        ],
+        "result": {
+            "item": "cc:furniture_wiki_trinket"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "bowl.top.chicken",
+    "heightmap": "bowl.top.chicken_heightmap",
+    "metalness_emissive_roughness_subsurface": "bowl.top.chicken_mers"
+  }
+}

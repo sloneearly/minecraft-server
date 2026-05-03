@@ -1,0 +1,41 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:growing_plant_feature": {
+    "description": {
+      "identifier": "cc:birch_vine_growing_plant"
+    },
+    "height_distribution": [
+      [
+        {
+          "range_min": 2,
+          "range_max": 4
+        },
+        1
+      ]
+    ],
+    "growth_direction": "DOWN",
+    "body_blocks": [
+      [
+        {
+          "name": "cc:hanging_birch_leaves",
+          "states": {
+            "cc:connect": "inner"
+          }
+        },
+        1
+      ]
+    ],
+    "head_blocks": [
+      [
+        {
+          "name": "cc:hanging_birch_leaves",
+          "states": {
+            "cc:connect": "end"
+          }
+        },
+        1
+      ]
+    ],
+    "allow_water": false
+  }
+}

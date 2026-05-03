@@ -1,0 +1,100 @@
+//bridge-file-version: #27
+{
+	"format_version": "1.21.70",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mob:sodalite_energizer",
+			"spawn_category": "monster",
+			"is_spawnable": true,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:experience_reward": {
+				"on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
+			},
+			"minecraft:fire_immune": true,
+			"minecraft:health": {
+				"value": 30,
+				"max": 30
+			},
+			"minecraft:collision_box": {
+				"width": 0.8933333333,
+				"height": 0.8888888889
+			},
+			"minecraft:movement": {
+				"value": 0.006
+			},
+			"minecraft:navigation.float": {
+				"can_path_over_water": true
+			},
+			"minecraft:behavior.float_wander": {
+				"priority": 2,
+				"must_reach": true,
+				"random_reselect": true,
+				"float_duration": [
+					2,
+					7
+				],
+				"float_wander_has_move_control": false
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/sodalite.json"
+			},
+			"minecraft:type_family": {
+				"family": [
+					"sodalite",
+					"monster",
+					"mob"
+				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "fall",
+					"deals_damage": "no"
+				}
+			},
+			"minecraft:jump.static": {},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:follow_range": {
+				"value": 64,
+				"max": 64
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						"max_dist": 28
+					}
+				],
+				"must_see": true
+			},
+			"minecraft:physics": {},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:shooter": {
+				"def": "projectile:heros_sword_projectile"
+			},
+			"minecraft:behavior.ranged_attack": {
+				"priority": 1,
+				"attack_radius": 28,
+				"charge_shoot_trigger": 2,
+				"charge_charged_trigger": 1
+			}
+		},
+		"component_groups": {},
+		"events": {}
+	}
+}

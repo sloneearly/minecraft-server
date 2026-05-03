@@ -1,0 +1,38 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mob:phantling",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"blue": "textures/entity/phantling_blue",
+				"green": "textures/entity/phantling_green",
+				"red_blue": "textures/entity/phantling_red",
+				"yellow_blue": "textures/entity/phantling_white",
+				"grey": "textures/entity/phantling_black"
+			},
+			"geometry": {
+				"default": "geometry.phantling"
+			},
+			"animations": {
+				"face_player": "animation.phantling.base"
+			},
+			"scripts": {
+				"scale": 1,
+				"animate": [
+					"face_player"
+				]
+			},
+			"render_controllers": [
+				"controller.render.parrot"
+			],
+			"spawn_egg": {
+				"base_color": "#1E1626",
+				"overlay_color": "#64FF6A"
+			}
+		}
+	}
+}

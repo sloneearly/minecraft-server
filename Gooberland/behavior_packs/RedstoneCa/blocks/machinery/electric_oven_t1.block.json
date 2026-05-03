@@ -1,0 +1,214 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wan_redcave:electric_oven_t1",
+      "menu_category": {
+        "category": "items"
+      },
+      "states": {
+        "wan_redcave:status": [
+          "offline",
+          "online_unpowered",
+          "online_powered",
+          "online_no_links",
+          "online_no_input",
+          "online_no_output",
+          "working"
+        ]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:display_name": "wan_redcave:electric_oven_t1.name",
+      "minecraft:selection_box": true,
+      "minecraft:collision_box": true,
+      "minecraft:geometry": {
+        "identifier": "geometry.wan_redcave.electric_oven"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "wan_redcave:electric_oven_t1_off",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": {
+          "identifier": "geometry.wan_redcave.electric_oven"
+        },
+        "material_instances": {
+          "*": {
+            "texture": "wan_redcave:electric_oven_t1_off",
+            "render_method": "blend",
+            "face_dimming": false,
+            "ambient_occlusion": false
+          }
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3600000
+      },
+      "minecraft:movable": {
+        "movement_type": "immovable"
+      },
+      "minecraft:light_emission": 0,
+      "tag:minecraft:is_pickaxe_item_destructible": {},
+      "tag:minecraft:stone_tier_destructible": {},
+      "tag:wan_redcave:machine": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('wan_redcave:status') == 'offline'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "wan_redcave:electric_oven_t1_off",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('wan_redcave:status') == 'online_unpowered'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "wan_redcave:electric_oven_t1_unpowered",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('wan_redcave:status') == 'online_powered'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "wan_redcave:electric_oven_t1_powered",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          },
+          "minecraft:light_emission": 6
+        }
+      },
+      {
+        "condition": "q.block_state('wan_redcave:status') == 'online_no_links'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "wan_redcave:electric_oven_t1_no_links",
+              "render_method": "blend",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('wan_redcave:status') == 'online_no_input'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "wan_redcave:electric_oven_t1_no_input",
+              "render_method": "blend",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('wan_redcave:status') == 'online_no_output'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "wan_redcave:electric_oven_t1_no_output",
+              "render_method": "blend",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('wan_redcave:status') == 'working'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "wan_redcave:electric_oven_t1_working",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          },
+          "minecraft:light_emission": 13
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

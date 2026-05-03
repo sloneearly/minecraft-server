@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.cc.illager.riding_offset": {
+            "loop": true,
+            "bones": {
+                "waist": {
+                    "position": [0, -8, 0]
+                }
+            }
+        }
+    }
+}

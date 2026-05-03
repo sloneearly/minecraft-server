@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "kyanite_boots_ccff6777"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "item:kyanite_shard",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "boots:kyanite_boots",
+      "count": 1
+    }
+  }
+}

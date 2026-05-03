@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "kyanite_helmet_5020d709"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "item:kyanite_shard",
+        "data": 0
+      },
+      "B": {
+        "item": "block:compact_kyanite_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "helmet:kyanite_helmet",
+      "count": 1
+    }
+  }
+}

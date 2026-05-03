@@ -1,0 +1,30 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cc:web_projectile",
+            "geometry": {
+                "default": "geometry.cc.web_projectile"
+            },
+            "textures": {
+                "default": "textures/cc/projectiles/entities/web_projectile"
+            },
+            "materials": {
+                "default": "entity_emissive_alpha"
+            },
+            "animations": {
+                "rotate": "animation.cc.rock_projectile.rotate",
+                "spin": "animation.cc.rock_projectile.spin"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "scripts": {
+                "animate": [
+                    "spin",
+                    "rotate"
+                ]
+            }
+        }
+    }
+}

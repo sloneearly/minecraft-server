@@ -1,0 +1,7 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "astral.fire.outline",
+    "metalness_emissive_roughness_subsurface": "astral.fire.outline_mers"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cc:penguin_egg",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": false
+      },
+      "states": {
+        "cc:grow_state": [1, 2]
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.cc.penguin_egg",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cc:penguin_egg",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [-3, 0, -3],
+        "size": [6, 8, 6]
+      },
+      "minecraft:selection_box": {
+        "origin": [-3, 0, -3],
+        "size": [6, 8, 6]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.75
+      },
+      "minecraft:map_color": "#ecdbad",
+      "minecraft:light_dampening": 4,
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "on_liquid_touches": "popped"
+          }
+        ]
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('cc:grow_state') < 2",
+        "components": {
+          "cc:crop_grow": {},
+          "cc:step_on": {}
+        }
+      },
+      {
+        "condition": "q.block_state('cc:grow_state') == 2",
+        "components": {
+          "cc:crop_grow": {},
+          "cc:step_on": {},
+          "cc:spawn_entity": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:penguin_egg_cracked",
+              "render_method": "opaque"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

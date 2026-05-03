@@ -1,0 +1,139 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:bamboo_wall_plank",
+            "menu_category": {
+                "category": "construction"
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 180
+                }
+            }
+        },
+        "components": {
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "none"
+            },
+            "minecraft:support": {
+                "shape": "fence"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "tag:solid": {},
+            "minecraft:display_name": "%cc.bamboo_wall_plank\n%cc.category.furniture",
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:geometry": {
+                "identifier": "geometry.cc.wall_plank"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cc:board_bamboo",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    13,
+                    -6
+                ],
+                "size": [
+                    16,
+                    3,
+                    14
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    3,
+                    -6
+                ],
+                "size": [
+                    16,
+                    13,
+                    14
+                ]
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#bfab37",
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "can_contain_liquid": true,
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "tag:minecraft:is_axe_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_axe')"
+                        },
+                        "destroy_speed": 2
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "cc:light_gray_cushion"
+        },
+        "tags": [
+            "cc:furniture_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:light_gray_carpet"
+            }
+        ],
+        "result": {
+            "item": "cc:light_gray_cushion"
+        }
+    }
+}

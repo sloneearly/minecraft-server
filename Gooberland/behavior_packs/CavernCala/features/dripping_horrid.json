@@ -1,0 +1,57 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:growing_plant_feature": {
+		"description": {
+			"identifier": "gen:dripping_horrid"
+		},
+		"height_distribution": [
+			[
+				{
+					"range_min": 1,
+					"range_max": 4
+				},
+				2
+			],
+			[
+				{
+					"range_min": 1,
+					"range_max": 6
+				},
+				3
+			],
+			[
+				{
+					"range_min": 1,
+					"range_max": 8
+				},
+				1
+			]
+		],
+		"growth_direction": "DOWN",
+		"age": {
+			"range_min": 2,
+			"range_max": 4
+		},
+		"body_blocks": [
+			[
+				"block:horrid_spore_block",
+				3
+			],
+			[
+				"block:horrid_spore_block",
+				2
+			]
+		],
+		"head_blocks": [
+			[
+				"block:horrid_spore_block",
+				4
+			],
+			[
+				"block:horrid_spore_block",
+				2
+			]
+		],
+		"allow_water": true
+	}
+}

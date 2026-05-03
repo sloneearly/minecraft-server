@@ -1,0 +1,18 @@
+{
+    "format_version": "1.21.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "cc:adventure_4_1_quest",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:icon": "cc:adventure_4_1_quest",
+            "minecraft:max_stack_size": 1,
+            "minecraft:display_name": {
+                "value": "%cc.adventure_4_1_quest_name\n%cc.adventure_4_1_quest_rarity"
+            }
+        }
+    }
+}

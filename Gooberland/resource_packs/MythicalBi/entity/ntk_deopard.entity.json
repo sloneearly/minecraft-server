@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ntk:deopard",
+      //"enable_attachables": true,
+      "spawn_egg": {
+        "texture": "ntk_spawn_egg_deopard"
+      },
+      "render_controllers": [
+        "controller.render.entity.ntk_deopard"
+      ],
+      "geometry": {
+        "default": "geometry.entity.ntk_deopard"
+      },
+      "materials": {
+        "default": "ntk_entity_emissive_alpha"
+      },
+      "textures": {
+        "variant_0_deopard": "textures/entity/ntk_deopard",
+        "variant_1_deopard": "textures/entity/ntk_deopard"
+      },
+      "animations": {
+        "controller_general": "controller.animation.entity.ntk_deopard.general",
+        "controller_interested": "controller.animation.entity.ntk_deopard.interested",
+        "attack_melee": "animation.entity.ntk_deopard.attack_melee",
+        "baby_scaling": "animation.entity.ntk_deopard.baby_scaling",
+        "interested": "animation.entity.ntk_deopard.interested",
+        "look_at_target": "animation.entity.ntk_deopard.look_at_target",
+        "sitting": "animation.entity.ntk_deopard.sitting",
+        "walking": "animation.entity.ntk_deopard.walking"
+      },
+      "scripts": {
+				"animate": [
+          "controller_general",
+          "controller_interested",
+          {
+            "baby_scaling": "query.is_baby"
+          },
+					{
+						"look_at_target": 0.8
+					}
+				]
+			}
+    }
+  }
+}

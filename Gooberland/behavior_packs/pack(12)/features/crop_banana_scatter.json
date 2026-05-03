@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:crop_banana_scatter"
+    },
+    "iterations": "math.random(3, 8)",
+    "x": {
+      "distribution": "triangle",
+      "extent": [-3, 3]
+    },
+    "y": 1,
+    "z": {
+      "distribution": "triangle",
+      "extent": [-3, 3]
+    },
+    "coordinate_eval_order": "zyx",
+    "places_feature": "cc:crop_banana_sequence"
+  }
+}

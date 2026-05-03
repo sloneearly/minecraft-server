@@ -1,0 +1,62 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:jigsaw": {
+    "description": {
+      "identifier": "cc:arctic_village"
+    },
+    "biome_filters": [
+      {
+        "all_of": [
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "snowy"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "ice"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:cold_desert"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:snowy_coniferous_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:snowy_fir_clearing"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:snowy_maple_woods"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:snowblossom_grove"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "step": "surface_structures",
+    "start_pool": "cc:village/centers/arctic_village_centers",
+    "max_depth": 5,
+    "start_height": {
+      "type": "constant",
+      "value": { "absolute": -1 }
+    },
+    "heightmap_projection": "world_surface",
+    "terrain_adaptation": "beard_thin"
+  }
+}

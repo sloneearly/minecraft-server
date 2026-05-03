@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "meteorite_leggings_053ea941"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "B B",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:meteorite",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:diamond",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "leggings:meteorite_leggings",
+      "count": 1
+    }
+  }
+}

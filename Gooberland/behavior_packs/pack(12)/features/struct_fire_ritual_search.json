@@ -1,0 +1,22 @@
+{
+  "format_version": "1.13",
+  "minecraft:search_feature": {
+    "description": {
+      "identifier": "cc:struct_fire_ritual_search"
+    },
+    "places_feature": "cc:struct_fire_ritual_feature",
+    "search_volume": {
+      "min": [
+        0,
+        -9,
+        0
+      ],
+      "max": [
+        0,
+        -8,
+        0
+      ]
+    },
+    "search_axis": "-y"
+  }
+}

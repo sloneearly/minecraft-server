@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "sandstone_side.2",
+    "heightmap": "sandstone_side.2_heightmap",
+    "metalness_emissive_roughness_subsurface": "sandstone_side.2_mers"
+  }
+}

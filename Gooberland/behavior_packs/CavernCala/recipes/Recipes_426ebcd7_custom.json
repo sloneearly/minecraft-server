@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_b5a172fe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " AA",
+      " AA",
+      "B  "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:birch_planks",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "sword:wooden_greatsword",
+      "count": 1
+    }
+  }
+}

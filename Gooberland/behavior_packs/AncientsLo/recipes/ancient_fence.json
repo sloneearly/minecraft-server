@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ancients:ancient_fence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"SAS",
+			"SAS"
+		],
+		"key": {
+			"S": {
+				"item": "ancients:ancient_planks"
+			},
+			"A": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock":[
+			{
+				"item": "ancients:ancient_planks"
+			}
+		],
+		"result": {
+			"item": "ancients:ancient_fence",
+			"count": 3
+		}
+	}
+}

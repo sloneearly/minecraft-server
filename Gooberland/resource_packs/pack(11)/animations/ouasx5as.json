@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cc.pharaoh_staff.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [152.70764, 19.46129, 49.632],
+					"position": [4, 24, 4]
+				}
+			}
+		},
+		"animation.cc.pharaoh_staff.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [90.12198, 0.69177, -90.04834],
+					"position": [1, 21.5, 4.5]
+				}
+			}
+		}
+	}
+}

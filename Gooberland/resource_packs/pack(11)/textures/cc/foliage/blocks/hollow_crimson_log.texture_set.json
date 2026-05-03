@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "hollow_crimson_log",
+    "heightmap": "hollow_crimson_log_heightmap",
+    "metalness_emissive_roughness_subsurface": "hollow_crimson_log_mers"
+  }
+}

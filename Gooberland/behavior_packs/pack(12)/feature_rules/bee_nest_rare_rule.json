@@ -1,0 +1,47 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:bee_nest_rare_rule",
+      "places_feature": "cc:bee_nest_rare_scatter"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": {
+        "any_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "bee_habitat"
+          }
+        ],
+        "none_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "meadow"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 100,
+      "scatter_chance": 50.0,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          -8,
+          15
+        ]
+      },
+      "y": "query.heightmap(v.originx, v.originz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          -8,
+          15
+        ]
+      }
+    }
+  }
+}

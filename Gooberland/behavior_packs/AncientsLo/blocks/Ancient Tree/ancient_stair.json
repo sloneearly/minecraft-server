@@ -1,0 +1,103 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ancients:ancient_stair",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.stairs"
+			},
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": ["minecraft:vertical_half"]
+				},
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			},
+            "states": {
+                "ancients:item": [false, true]
+            }
+		},
+		"components": {
+			"minecraft:light_dampening": 0,
+			"minecraft:map_color": "#B3895C",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2
+			},
+			"minecraft:flammable": true,
+			"minecraft:geometry": {
+				"identifier": "geometry.ancient_stair",
+				"bone_visibility": {
+					"main": "query.block_state('ancients:item') == false",
+					"top": "query.block_state('minecraft:vertical_half')== 'top' && query.block_state('ancients:item') == true",
+					"bottom": "query.block_state('minecraft:vertical_half')== 'bottom' && query.block_state('ancients:item') == true"
+					
+				}
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "ancient_planks",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:custom_components": ["ancients:stair"],
+			"tag:stairs": {},
+			"tag:stone": {},
+            "tag:ancients:isSolid":{},
+            "tag:minecraft:is_hatchet_item_destructible":{}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:vertical_half')== 'bottom'",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-8,0,-8],
+						"size": [16,8,16]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:vertical_half')== 'top'",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-8,8,-8],
+						"size": [16,8,16]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0,180,0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0,0,0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0,-90,0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0,90,0]
+					}
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "cc:mist"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 1.0,
+        "fog_end": 30.0,
+        "fog_color": "#a9b5bb",
+        "render_distance_type": "fixed"
+      },
+      "weather": {
+        "fog_start": 0.0,
+        "fog_end": 30.0,
+        "fog_color": "#395a7d",
+        "render_distance_type": "fixed"
+      }
+    }
+  }
+}

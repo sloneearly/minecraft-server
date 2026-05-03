@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "andesite_tiles_43896cab"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:andesite_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:andesite_tiles",
+      "count": 4
+    }
+  }
+}

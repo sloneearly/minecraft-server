@@ -1,0 +1,26 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ancients:pillar_item",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/entity/steve"
+			},
+			"geometry": {
+				"default": "geometry.pillar_item"
+			},
+			"spawn_egg": {
+				"base_color": "#00daff",
+				"overlay_color": "#00adff"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"enable_attachables": true,
+			"held_item_ignores_lighting": true
+		}
+	}
+}

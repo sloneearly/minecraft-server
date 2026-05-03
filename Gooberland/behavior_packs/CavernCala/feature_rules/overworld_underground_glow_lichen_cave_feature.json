@@ -1,0 +1,38 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "gen:overworld_underground_glow_lichen_cave_feature",
+      "places_feature": "gen:glow_lichen_cave_feature"
+    },
+    "conditions": {
+      "placement_pass": "after_underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "lichen_caves"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": "Math.Random(500, 700)",
+      "x": {
+        "distribution": "uniform",
+        "extent": [ 0, 16 ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [ -55, 55 ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [ 0, 16 ]
+      }
+    }
+  }
+}

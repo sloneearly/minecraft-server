@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:item": {
+    "description": {
+      "identifier": "wan_redcave:techsuit_control_t1",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": "wan_redcave:techsuit_control_t1",
+      "minecraft:display_name": {
+        "value": "wan_redcave:techsuit_control_t1.name"
+      }
+    }
+  }
+}

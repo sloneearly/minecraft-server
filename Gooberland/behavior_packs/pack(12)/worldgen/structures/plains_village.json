@@ -1,0 +1,119 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:jigsaw": {
+    "description": {
+      "identifier": "cc:plains_village"
+    },
+    "biome_filters": [
+      {
+        "all_of": [
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "plains"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:forested_field"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:maple_woods"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:mediterranean_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:old_growth_woodland"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:orchard"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:seasonal_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:dead_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:old_growth_dead_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:ominous_woods"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:mystic_grove"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:field"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:grassland"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:highland"
+              }
+            ],
+            "none_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "cold"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "frozen"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "taiga"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "birch"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "step": "surface_structures",
+    "start_pool": "cc:village/centers/plains_village_centers",
+    "max_depth": 5,
+    "start_height": {
+      "type": "constant",
+      "value": { "absolute": -2 }
+    },
+    "heightmap_projection": "world_surface",
+    "terrain_adaptation": "beard_thin"
+  }
+}

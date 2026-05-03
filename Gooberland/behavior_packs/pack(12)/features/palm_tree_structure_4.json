@@ -1,0 +1,24 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "cc:palm_tree_structure_4"
+    },
+    "structure_name": "cc:tree/palm_tree.4",
+    "adjustment_radius": 0,
+    "facing_direction": "south",
+    "constraints": {
+      "grounded": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air",
+          "minecraft:grass",
+          "minecraft:short_grass",
+          "minecraft:leaves",
+          "minecraft:jungle_leaves",
+          "cc:palm_leaves"
+        ]
+      }
+    }
+  }
+}

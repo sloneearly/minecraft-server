@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block_culling_rules": {
+    "description": {
+      "identifier": "cc:culling.leaves"
+    },
+    "rules": [
+      {
+        "condition": "same_block",
+        "direction": "down",
+        "geometry_part": {
+          "bone": "root",
+          "cube": 0,
+          "face": "down"
+        }
+      },
+      {
+        "condition": "same_block",
+        "direction": "north",
+        "geometry_part": {
+          "bone": "root",
+          "cube": 0,
+          "face": "north"
+        }
+      },
+      {
+        "condition": "same_block",
+        "direction": "east",
+        "geometry_part": {
+          "bone": "root",
+          "cube": 0,
+          "face": "east"
+        }
+      }
+    ]
+  }
+}

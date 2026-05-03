@@ -1,0 +1,31 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ancients:forest_guardian_mask",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.helmet"
+            }
+        },
+        "components": {
+            "minecraft:icon": "ancient_mask",
+            "minecraft:rarity": "epic",
+            "minecraft:max_stack_size": 1,
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "armor_head"
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.head",
+                "protection": 3
+            },
+            "minecraft:durability": {
+                "max_durability": 300
+            },
+            "minecraft:display_name": {
+                "value": "%item.ancients.forest_guardian_mask\n\n§5%tooltip.equipped\n§9%tooltip.forestmask§r"
+            }
+        }
+    }
+}

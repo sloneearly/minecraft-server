@@ -1,0 +1,78 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "cc:ice_bow",
+      "geometry": {
+        "default": "geometry.cc.charge_shooter_weapon",
+        "outline.standby": "geometry.cc.charge_shooter_weapon.outline.standby",
+        "outline.pull0": "geometry.cc.charge_shooter_weapon.outline.pull0",
+        "outline.pull1": "geometry.cc.charge_shooter_weapon.outline.pull1",
+        "outline.pull2": "geometry.cc.charge_shooter_weapon.outline.pull2"
+      },
+      "materials": {
+        "default": "outline_base",
+        "enchanted": "outline_base_enchant",
+        "outline": "outline"
+      },
+      "textures": {
+        "standby": "textures/cc/charge_item/ice_bow/standby",
+        "pull0": "textures/cc/charge_item/ice_bow/pulling0",
+        "pull1": "textures/cc/charge_item/ice_bow/pulling1",
+        "pull2": "textures/cc/charge_item/ice_bow/pulling2",
+        "enchanted": "textures/misc/enchanted_item_glint",
+        "outline": "textures/cc/weapons/items/outline/freeze"
+      },
+      "animations": {
+        "first_person": "animation.cc.bow.first_person_hold",
+        "third_person": "animation.cc.bow.third_person_hold",
+        "charge": "animation.cc.bow.charge",
+        "controller": "controller.animation.cc.charge_shooter_weapon",
+        "charging": "animation.cc.weapon.charging",
+        "charged": "animation.cc.weapon.charged",
+        "glow": "animation.cc.weapon.glow.third_person"
+      },
+      "scripts": {
+        "initialize": [
+          "v.shake = 0.0;",
+          "v.shake_direction = 0.0;",
+          "v.charge_time = 400;"
+        ],
+        "pre_animation": [
+          "variable.charge_amount = query.main_hand_item_use_duration > 0 ? ((math.clamp(((q.main_hand_item_max_duration - q.main_hand_item_use_duration) / 20) * 1.25, 0.5, 1.0f)) - 0.49) * 2 : 0;",
+          "v.shake > 10 ? {v.shake_direction = -1.0;} : v.shake < -10 ? {v.shake_direction = 1.0;} : {v.shake_direction = v.shake_direction;};",
+          "(q.is_using_item && (q.item_in_use_duration / 200) > 0.66) ? {v.shake = v.shake + v.shake_direction;} : {v.shake = 0.0;v.shake_direction = -1.0;};",
+          "v.is_charged = q.is_using_item && query.item_in_use_duration >= v.charge_time && query.is_selected_item;;",
+          "v.is_charging = q.is_using_item && query.item_in_use_duration < v.charge_time;"
+        ],
+        "animate": [
+          {
+            "controller": "c.is_first_person"
+          },
+          {
+            "third_person": "!c.is_first_person"
+          },
+          {
+            "charged": "v.is_charged"
+          },
+          {
+            "charging": "v.is_charging"
+          },
+          {
+            "glow": "!c.is_first_person"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.cc.charge_shooter_weapon",
+        {
+          "controller.render.cc.bow.outline": "v.is_charged"
+        }
+      ],
+      "particle_effects": {
+        "charging": "cc:ice_bow_charge",
+        "charged": "cc:ice_bow_charged"
+      }
+    }
+  }
+}

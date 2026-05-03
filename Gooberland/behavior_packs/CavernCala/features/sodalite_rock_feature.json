@@ -1,0 +1,27 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "gen:sodalite_rock_feature"
+		},
+		"features": [
+			[
+				"gen:sodalite_rock1_feature",
+				1
+			],
+			[
+				"gen:sodalite_rock2_feature",
+				1
+			],
+			[
+				"gen:sodalite_rock3_feature",
+				1
+			],
+			[
+				"gen:sodalite_rock4_feature",
+				1
+			]
+		]
+	}
+}

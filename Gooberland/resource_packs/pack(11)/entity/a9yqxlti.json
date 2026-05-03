@@ -1,0 +1,58 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:big_foot",
+      "geometry": {
+        "default": "geometry.cc.big_foot"
+      },
+      "textures": {
+        "default": "textures/cc/boss/entities/big_foot"
+      },
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "sound_effects": {
+        "ground_smash": "cc:ground_smash"
+      },
+      "particle_effects": {
+        "ground_smash": "cc:jungle_golem_smash"
+      },
+      "animations": {
+        "move_controller": "controller.animation.cc.move",
+        "idle": "animation.cc.biped.idle",
+        "walk": "animation.cc.biped.walk",
+        "run": "animation.cc.biped.walk",
+        "swim": "animation.cc.biped.walk",
+        "swim_idle": "animation.cc.biped.walk",
+        "swim_run": "animation.cc.biped.walk",
+        "fly": "animation.cc.biped.walk",
+        "rotate": "animation.cc.biped.rotation",
+        "rotate_controller": "controller.animation.cc.quadruped.rotation",
+        "look_at": "animation.cc.big_foot.look_at_target",
+        "delayed_attack": "animation.cc.big_foot.ground_smash",
+        "attack_controller": "controller.animation.cc.delayed_attack"
+      },
+      "scripts": {
+        "initialize": [
+          "v.relative_run_speed = 0.6;",
+          "v.max_leg_rot = 45;",
+          "v.max_leg_pos_h = 1;",
+          "v.max_leg_pos_v = 3;",
+          "v.body_bump = 1;",
+          "v.body_rot = 1;",
+          "v.head_bump = 1;",
+          "v.max_arm_rot = 45;",
+          "v.max_arm_pos_h = 1;",
+          "v.playback_multiplier = 0.4;"
+        ],
+        "animate": ["attack_controller", "move_controller", "look_at", "rotate_controller"]
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:big_foot_spawn_egg"
+      }
+    }
+  }
+}

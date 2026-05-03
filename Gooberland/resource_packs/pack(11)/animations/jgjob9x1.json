@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cc.rock_projectile.spin": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"block": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [360, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.cc.rock_projectile.rotate": {
+			"loop": true,
+			"bones": {
+				"main": {
+					"rotation": ["-q.target_x_rotation", "-q.target_y_rotation", 0]
+				}
+			}
+		}
+	}
+}

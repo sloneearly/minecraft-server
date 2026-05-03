@@ -1,0 +1,58 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cc:follow_marker",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["follow_marker", "marker"]
+      },
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:timer": {
+        "time": 30,
+        "looping": true,
+        "time_down_event": {
+            "event": "cc:despawn",
+            "target": "self"
+        }
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:fire_immune": {}
+    },
+    "component_groups": {
+      "cc:despawn": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "events": {
+      "cc:despawn": {
+        "add": {
+          "component_groups": ["cc:despawn"]
+        }
+      }
+    }
+  }
+}

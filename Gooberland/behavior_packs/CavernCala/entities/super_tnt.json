@@ -1,0 +1,67 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.12.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mob:super_tnt",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:creeper"
+		},
+		"component_groups": {
+			"from_explosion": {
+				"minecraft:explode": {
+					"fuse_length": {
+						"range_min": 1.5,
+						"range_max": 4
+					},
+					"fuse_lit": true,
+					"power": 8,
+					"causes_fire": false
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"tnt",
+					"inanimate"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0.98,
+				"height": 0.98
+			},
+			"minecraft:explode": {
+				"fuse_length": 7,
+				"fuse_lit": true,
+				"power": 12,
+				"causes_fire": false
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			}
+		},
+		"events": {
+			"from_explosion": {
+				"add": {
+					"component_groups": [
+						"from_explosion"
+					]
+				}
+			}
+		}
+	}
+}

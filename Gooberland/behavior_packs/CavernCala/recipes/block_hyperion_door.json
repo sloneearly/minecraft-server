@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hyperion_door_77792927"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:hyperion_planks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:hyperion_door",
+      "count": 3
+    }
+  }
+}

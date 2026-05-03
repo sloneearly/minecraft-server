@@ -1,0 +1,54 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§l§aNetherPlus §fAdd-on v3 §4[B]",
+		"description": "New Nether Plus 1.21.+ Update! §6[By: BubbleStudio and MarcoGamer]",
+		"uuid": "c4c1a9fd-17d6-4484-850e-46c0dd7e91ef",
+        "version": [3, 0, 0], 
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "fd5ed3b2-12f4-49f2-842f-54e5a2a70e0a",
+			"version": [2, 2, 0]
+		},
+		{
+            "description": "Scripting module",
+            "type": "script",
+            "uuid": "da5802ff-6c19-46d8-a27a-1f717580968b",
+            "language": "javascript",
+            "version": [
+                0,
+                0,
+                1
+            ],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "a2d69c3c-2668-4ba7-8d92-7ce241c15814",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.11.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.1.0"
+        }
+    ],
+    "metadata": {
+        "product_type": "addon"
+    }
+}

@@ -1,0 +1,54 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mob:creeder",
+			"materials": {
+				"default": "enderman",
+				"charged": "charged_creeper"
+			},
+			"animations": {
+				"creeder_head": "animation.common.look_at_target",
+				"default_leg_pose": "animation.spider.default_leg_pose",
+				"walk": "animation.spider.walk",
+				"creeper_swelling": "animation.creeder.swelling",
+				"move": "controller.animation.creeder.move",
+				"creeder_head_controller": "controller.animation.creeder.head"
+			},
+			"textures": {
+				"default": "textures/entity/creeder",
+				"flashing": "textures/entity/creeder_flash",
+				"charged": "textures/entity/creeper/creeper_armor"
+			},
+			"geometry": {
+				"default": "geometry.creeder",
+				"charged": "geometry.creeder"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
+					"variable.swelling_scale1 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.4 + 1.0) * variable.wobble;",
+					"variable.swelling_scale2 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.1 + 1.0) / variable.wobble;",
+					"variable.leg_rot = Math.cos(query.modified_distance_moved * 38.17326) * 80.22 * query.modified_move_speed;",
+					"variable.flash = Math.mod(Math.Round(query.swell_amount * 10.0), 2.0);"
+				],
+				"animate": [
+					{
+						"creeper_swelling": "query.is_saddled"
+					},
+					"move",
+					"creeder_head_controller"
+				]
+			},
+			"render_controllers": [
+				"controller.render.creeper",
+				"controller.render.creeper_armor"
+			],
+			"spawn_egg": {
+				"base_color": "#7B2626",
+				"overlay_color": "#000000"
+			}
+		}
+	}
+}

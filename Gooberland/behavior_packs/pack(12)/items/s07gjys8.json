@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cc:dry_bush",
+      "menu_category": {
+        "category": "nature",
+        "group": "minecraft:itemGroup.name.grass"
+      }
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "cc:dry_bush",
+        "use_on": [],
+        "replace_block_item": true
+      },
+      "minecraft:icon": "cc:dry_bush",
+      "minecraft:max_stack_size": 64,
+      "minecraft:compostable": {
+        "composting_chance": 30
+      }
+    }
+  }
+}

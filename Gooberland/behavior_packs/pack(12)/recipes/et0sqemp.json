@@ -1,0 +1,19 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "cc:dark_oak_log_pile"
+        },
+        "tags": [
+            "cc:furniture_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:dark_oak_log"
+            }
+        ],
+        "result": {
+            "item": "cc:dark_oak_log_pile"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rope_coil_ca87ecc7"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:rope",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:rope_coil",
+      "count": 1
+    }
+  }
+}

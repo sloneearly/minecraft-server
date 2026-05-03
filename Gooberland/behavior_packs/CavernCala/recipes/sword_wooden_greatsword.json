@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "wooden_greatsword_41e79eaf"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " AA",
+      " AA",
+      "B  "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:cherry_planks",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "sword:wooden_greatsword",
+      "count": 1
+    }
+  }
+}

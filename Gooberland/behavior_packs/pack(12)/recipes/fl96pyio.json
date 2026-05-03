@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "cc:grape_crate"
+        },
+        "tags": [
+            "cc:cooking_table"
+        ],
+        "pattern": [
+            "***",
+            "***",
+            "***"
+        ],
+        "key": {
+            "*": {
+                "item": "cc:grape"
+            }
+        },
+        "result": "cc:grape_crate"
+    }
+}

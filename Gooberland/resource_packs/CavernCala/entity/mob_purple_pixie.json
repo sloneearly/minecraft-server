@@ -1,0 +1,34 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mob:purple_pixie",
+			"materials": {
+				"default": "entity_beam_additive"
+			},
+			"textures": {
+				"default": "textures/entity/purple_pixie"
+			},
+			"geometry": {
+				"default": "geometry.pixie"
+			},
+			"animations": {
+				"face_player": "animation.bee.flying"
+			},
+			"scripts": {
+				"scale": 1,
+				"animate": [
+					"face_player"
+				]
+			},
+			"render_controllers": [
+				"controller.render.skeleton"
+			],
+			"spawn_egg": {
+				"base_color": "#E881FF",
+				"overlay_color": "#D06CFF"
+			}
+		}
+	}
+}

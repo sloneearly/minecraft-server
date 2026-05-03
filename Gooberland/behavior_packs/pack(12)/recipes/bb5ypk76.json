@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cc:peanut_butter_jar"
+    },
+    "tags": ["cc:cooking_table"],
+    "pattern": ["&&&", "***", "#J#"],
+    "key": {
+      "J": {
+        "item": "cc:jar"
+      },
+      "#": {
+        "item": "minecraft:sugar"
+      },
+      "*": {
+        "item": "cc:peeled_peanut"
+      },
+      "&": {
+        "item": "cc:peeled_peanut"
+      }
+    },
+    "result": "cc:peanut_butter_jar"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc.graze": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "transitions": [
+            {
+              "graze": "query.property('cc:graze') == 1 || q.is_grazing"
+            }
+          ],
+          "blend_transition": 0.5
+        },
+        "graze": {
+          "animations": ["graze"],
+          "transitions": [
+            {
+              "idle": "query.property('cc:graze') == 0 && !q.is_grazing"
+            }
+          ],
+          "blend_transition": 0.5
+        }
+      }
+    }
+  }
+}

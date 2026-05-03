@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "kyanite_brick_stairs_202c2efa"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:kyanite_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:kyanite_brick_stairs",
+      "count": 3
+    }
+  }
+}

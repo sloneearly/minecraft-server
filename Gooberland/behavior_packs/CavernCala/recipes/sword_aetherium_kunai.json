@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "aetherium_kunai_5ba50211"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "key": {
+      "B": {
+        "item": "block:aetherium_block",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:cobbled_deepslate",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "sword:aetherium_kunai",
+      "count": 32
+    }
+  }
+}

@@ -1,0 +1,32 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "block:gold_cart",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.items"
+			}
+		},
+		"components": {
+			"minecraft:entity_placer": {
+				"entity": "mob:gold_cart",
+				"use_on": [
+					"minecraft:golden_rail",
+					"minecraft:detector_rail",
+					"minecraft:rail",
+					"minecraft:activator_rail"
+				]
+			},
+			"minecraft:icon": {
+				"texture": "gold_cart"
+			},
+			"minecraft:display_name": {
+				"value": "Golden Minecart"
+			},
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true
+		}
+	}
+}

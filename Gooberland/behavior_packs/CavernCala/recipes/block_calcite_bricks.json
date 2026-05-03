@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "calcite_bricks_4e6c3264"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:polished_calcite",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:calcite_bricks",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+	"sound_definitions": {
+		"mob.bloodymeat.hurt": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/bloodymeat/hurt1",
+				"sounds/mob/bloodymeat/hurt2",
+				"sounds/mob/bloodymeat/hurt3"
+			]
+		},
+		"mob.bloodymeat.say": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/bloodymeat/say1",
+					"load_on_low_memory": true
+				},
+				"sounds/mob/bloodymeat/say2",
+				"sounds/mob/bloodymeat/say3",
+				"sounds/mob/bloodymeat/say4"
+			]
+		},
+		"mob.bloodymeat.step": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/bloodymeat/step1",
+				"sounds/mob/bloodymeat/step2",
+				"sounds/mob/bloodymeat/step3",
+				"sounds/mob/bloodymeat/step4"
+			]
+		},
+		"mob.bloodymeat.milk": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/bloodymeat/milk1",
+				"sounds/mob/bloodymeat/milk2",
+				"sounds/mob/bloodymeat/milk3"
+			]
+		},
+		"mob.infernalgolem1.hurt": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/infernalgolem1/hurt1",
+				"sounds/mob/infernalgolem1/hurt2",
+				"sounds/mob/infernalgolem1/hurt3"
+			]
+		},
+		"mob.infernalgolem1.say": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/infernalgolem1/say1",
+					"load_on_low_memory": true
+				},
+				"sounds/mob/infernalgolem1/say2",
+				"sounds/mob/infernalgolem1/say3",
+				"sounds/mob/infernalgolem1/say4"
+			]
+		},
+		"mob.infernalgolem1.step": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/infernalgolem1/step1",
+				"sounds/mob/infernalgolem1/step2",
+				"sounds/mob/infernalgolem1/step3",
+				"sounds/mob/infernalgolem1/step4"
+			]
+		},
+		"mob.infernalgolem1.milk": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/infernalgolem1/milk1",
+				"sounds/mob/infernalgolem1/milk2",
+				"sounds/mob/infernalgolem1/milk3"
+			]
+		},
+		"mob.creepycreeper.breathe": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/creepycreeper/breathe1",
+				"sounds/mob/creepycreeper/breathe2",
+				"sounds/mob/creepycreeper/breathe3",
+				"sounds/mob/creepycreeper/breathe4"
+			]
+		},
+		"mob.creepycreeper.death": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/creepycreeper/death"
+			]
+		},
+		"mob.creepycreeper.hit": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/creepycreeper/hit1",
+				"sounds/mob/creepycreeper/hit2",
+				"sounds/mob/creepycreeper/hit3",
+				"sounds/mob/creepycreeper/hit4"
+			]
+		},
+		"mob.creepycreeper.shoot": {
+			"sounds": [
+				{
+					"name": "sounds/mob/ghast/fireball4",
+					"volume": 3
+				}
+			],
+			"subtitle": "subtitles.entity.blaze.shoot"
+		},
+		"mob.creeper_magmatico.death": {
+			"__use_legacy_max_distance": "true",
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/creeper_magmatico/death"
+			]
+		},
+		"mob.creeper_magmatico.say": {
+			"__use_legacy_max_distance": "true",
+			"category": "hostile",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/mob/creeper_magmatico/say1"
+				},
+				"sounds/mob/creeper_magmatico/say2",
+				"sounds/mob/creeper_magmatico/say3",
+				"sounds/mob/creeper_magmatico/say4"
+			]
+		}
+	}
+}

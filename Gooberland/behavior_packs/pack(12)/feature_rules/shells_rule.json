@@ -1,0 +1,57 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:shells_rule",
+      "places_feature": "cc:shells_scatter"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": {
+        "any_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "beach"
+          }
+        ],
+        "none_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "frozen"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "ice"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "cold"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 20,
+      "scatter_chance": 50.0,
+      "x": {
+        "distribution": "triangle",
+        "extent": [
+          -8,
+          8
+        ]
+      },
+      "y": "query.heightmap(v.originx, v.originz)",
+      "z": {
+        "distribution": "triangle",
+        "extent": [
+          -8,
+          8
+        ]
+      }
+    }
+  }
+}

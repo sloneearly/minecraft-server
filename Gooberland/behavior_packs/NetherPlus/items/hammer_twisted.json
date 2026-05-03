@@ -1,0 +1,46 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "tt:mazo_twisted",
+            "menu_category": {
+                "category": "equipment",
+                "is_hidden_in_commands": false 
+            }
+	},
+		"components": {
+			"minecraft:icon":{
+				"textures":{
+				   "default":"mazo_twisted"
+				}
+			},
+			"minecraft:display_name": {
+				"value": "§dWarped Mace  \n\n§r§9 Grants you the Mining Rush effect"
+			},
+			"minecraft:damage": {
+				"value": 7
+			},
+			"minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": ["tt:warped_rod"],
+						"repair_amount": 525
+                    }
+                ]
+            },
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:glint": true,
+			"minecraft:allow_off_hand": true,
+			"minecraft:hand_equipped": true,
+			"minecraft:stacked_by_data": false,
+			"minecraft:max_stack_size": 1,
+			"minecraft:durability": {
+				"max_durability": 1730,
+				"damage_chance": {
+					"min": 1,
+					"max": 1
+				}
+			}
+	    }
+	}
+}

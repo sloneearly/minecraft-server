@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cc:jar"
+    },
+    "tags": ["cc:cooking_table"],
+    "pattern": [" # ", "# #", "###"],
+    "key": {
+      "#": {
+        "item": "minecraft:glass"
+      }
+    },
+    "result": {
+      "item": "cc:jar",
+      "count": 3
+    }
+  }
+}

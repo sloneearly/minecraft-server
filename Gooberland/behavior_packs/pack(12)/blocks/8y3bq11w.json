@@ -1,0 +1,70 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cc:swamp_fern",
+      "menu_category": {
+        "category": "none"
+      }
+    },
+    "components": {
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "none"
+      },
+      "minecraft:replaceable": {},
+      "tag:plant": {},
+      "tag:nonsolid": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:geometry": "geometry.cc.cross.tall",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cc:swamp_fern",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-6, 0, -6],
+        "size": [12, 16, 12]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:map_color": "#225226",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["up"],
+            "block_filter": [
+              "grass_block",
+              "dirt",
+              "podzol",
+              "dirt_with_roots",
+              "coarse_dirt",
+              "cc:jungle_roots"
+            ]
+          }
+        ]
+      },
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "on_liquid_touches": "popped"
+          }
+        ]
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      }
+    }
+  }
+}

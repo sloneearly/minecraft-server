@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "flint_caltrop_a67249a1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "   ",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:flint",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "sword:flint_caltrop",
+      "count": 4
+    }
+  }
+}

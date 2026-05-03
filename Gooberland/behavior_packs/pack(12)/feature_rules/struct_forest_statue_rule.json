@@ -1,0 +1,157 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:struct_forest_statue_rule",
+      "places_feature": "cc:struct_forest_statue_feature"
+    },
+    "conditions": {
+      "placement_pass": "first_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "plains"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:forested_field"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:maple_woods"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:mediterranean_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:old_growth_woodland"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:orchard"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:seasonal_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:woodland"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:coniferous_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:redwood_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:dead_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:old_growth_dead_forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:ominous_woods"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:mystic_grove"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:field"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:grassland"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:highland"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:lavender_field"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:origin_valley"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:overgrown_greens"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:pasture"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:prairie"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:pumpkin_patch"
+            }
+          ],
+          "none_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "cold"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "frozen"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 0.1,
+      "x": "-16",
+      "y": "((Math.pow(q.heightmap(v.originx, v.originz) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx - 16, v.originz - 16) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx - 16, v.originz + 16) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx + 16, v.originz - 16) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx + 16, v.originz + 16) - q.heightmap(v.originx, v.originz), 2)) / 4) <= 5 && q.heightmap(v.originx, v.originz) > 63 && q.heightmap(v.originx - 16, v.originz - 16) > 63 && q.heightmap(v.originx - 16, v.originz + 16) > 63 && q.heightmap(v.originx + 16, v.originz - 16) > 63 && q.heightmap(v.originx + 16, v.originz + 16) > 63 ? (q.heightmap(v.originx, v.originz) + q.heightmap(v.originx - 16, v.originz - 16) + q.heightmap(v.originx - 16, v.originz + 16) + q.heightmap(v.originx + 16, v.originz - 16) + q.heightmap(v.originx + 16, v.originz + 16)) / 5 - 5 : -9999",
+      "z": "-16"
+    }
+  }
+}

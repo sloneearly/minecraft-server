@@ -1,0 +1,22 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "cc:pebbles_weighted"
+    },
+    "features": [
+      [
+        "cc:pebbles_block_1",
+        1
+      ],
+      [
+        "cc:pebbles_block_2",
+        1
+      ],
+      [
+        "cc:pebbles_block_3",
+        1
+      ]
+    ]
+  }
+}

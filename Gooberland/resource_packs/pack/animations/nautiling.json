@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.wypnt_bab.nautiling.flop": {
+			"loop": true,
+			"bones": {
+				"entity": {
+					"rotation": ["-19.561-5* math.sin(q.life_time * 450)", "-0.2801+1* math.sin(q.life_time * 850)", "90.7126+2* math.sin(q.life_time * 1150 )"]
+				},
+				"body": {
+					"rotation": ["-5* math.sin(q.life_time * 450)", "1* math.sin(q.life_time * 850)", "2* math.sin(q.life_time * 1150 )"]
+				}
+			}
+		},
+		"animation.wypnt_bab.nautiling.swim": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["-2* math.sin(q.life_time * 100)", "2* math.sin(q.life_time * 200)", "4* math.sin(q.life_time * 150)"],
+					"position": [0, 0, "1* math.sin(q.life_time * 350) *0.02"]
+				},
+				"shell": {
+					"rotation": ["10* math.sin(q.life_time * 300)", "1* math.sin(q.life_time * 1500)", "1.9* math.sin(q.life_time * 1500)"]
+				},
+				"entity": {
+					"rotation": ["-5* math.sin(q.life_time * 450)", "1* math.sin(q.life_time * 850)", "2* math.sin(q.life_time * 1150 )"]
+				},
+				"bone2": {
+					"position": [0, 0, 0],
+					"scale": 0.5
+				}
+			}
+		}
+	}
+}

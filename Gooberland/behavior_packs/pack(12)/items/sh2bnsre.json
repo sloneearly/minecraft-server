@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cc:hanging_oak_leaves",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "cc:hanging_oak_leaves",
+        "use_on": [],
+        "replace_block_item": true
+      },
+      "minecraft:icon": "cc:hanging_oak_leaves",
+      "minecraft:max_stack_size": 64,
+      "minecraft:compostable": {
+        "composting_chance": 30
+      }
+    }
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cc:ice_skeleton",
+      "is_experimental": false,
+      "is_spawnable": true,
+      "is_summonable": true,
+      "properties": {
+        "cc:shield": {
+          "client_sync": true,
+          "default": 3,
+          "type": "int",
+          "range": [
+            0,
+            3
+          ]
+        },
+        "cc:is_blocking": {
+          "client_sync": true,
+          "default": false,
+          "type": "bool"
+        }
+      }
+    },
+    "component_groups": {
+      "cc:persistence": {
+        "minecraft:persistent": {}
+      },
+      "cc:blocking": {
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "cause": "projectile",
+              "deals_damage": false
+            },
+            {
+              "cause": "entity_attack",
+              "deals_damage": false,
+              "on_damage": {
+                "event": "cc:hit_shield",
+                "target": "self"
+              }
+            }
+          ]
+        },
+        "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+        "minecraft:timer": {
+          "time": [
+            1,
+            3
+          ],
+          "looping": false,
+          "time_down_event": {
+            "event": "cc:unblock",
+            "target": "self"
+          }
+        },
+        "minecraft:reflect_projectiles": {
+          "reflected_projectiles": [
+            "xp_bottle",
+            "thrown_trident",
+            "shulker_bullet",
+            "dragon_fireball",
+            "arrow",
+            "snowball",
+            "egg",
+            "fireball",
+            "splash_potion",
+            "ender_pearl",
+            "wither_skull",
+            "wither_skull_dangerous",
+            "small_fireball",
+            "lingering_potion",
+            "llama_spit",
+            "fireworks_rocket",
+            "fishing_hook"
+          ],
+          "azimuth_angle": 180,
+          "reflection_scale": "0.15",
+          "elevation_angle": -10
+        },
+        "minecraft:movement": {
+          "value": 0.115
+        }
+      },
+      "cc:timer": {
+        "minecraft:timer": {
+          "time": [
+            0,
+            1
+          ],
+          "looping": true,
+          "time_down_event": {
+            "filters": {
+              "test": "has_target",
+              "subject": "self",
+              "value": true
+            },
+            "event": "cc:try_block",
+            "target": "self"
+          }
+        },
+        "minecraft:movement": {
+          "value": 0.23
+        }
+      }
+    },
+    "components": {
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
+      },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 10 : 0"
+      },
+      "minecraft:type_family": {
+        "family": [
+          "ice_skeleton",
+          "mob",
+          "monster"
+        ]
+      },
+      "minecraft:equipment": {
+        "table": "loot_tables/cc/monsters/ice_skeleton.equipment.json"
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/skeleton.json"
+      },
+      "minecraft:movement": {
+        "value": 0.23
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_pass_doors": true,
+        "can_walk": true,
+        "can_break_doors": true
+      },
+      "minecraft:physics": {},
+      "minecraft:behavior.delayed_attack": {
+        "attack_duration": 0.5,
+        "reach_multiplier": 3.0,
+        "hit_delay_pct": 0.5,
+        "track_target": true
+      },
+      "minecraft:attack": {
+        "damage": 1
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "must_see": true,
+        "reselect_targets": true,
+        "within_radius": 25.0,
+        "must_see_forget_duration": 17.0,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "snowgolem"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "irongolem"
+                }
+              ]
+            },
+            "max_dist": 35
+          },
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "villager"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "wandering_trader"
+                }
+              ]
+            },
+            "max_dist": 35,
+            "must_see": false
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "baby_turtle"
+                },
+                {
+                  "test": "in_water",
+                  "subject": "other",
+                  "operator": "!=",
+                  "value": true
+                }
+              ]
+            },
+            "max_dist": 35
+          }
+        ]
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 7,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 8,
+        "look_distance": 6,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 9
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1,
+        "entity_types": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "operator": "!=",
+              "value": "breeze"
+            }
+          }
+        ]
+      },
+      "minecraft:jump.static": {}
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "cc:timer"
+          ]
+        }
+      },
+      "cc:unblock": {
+        "set_property": {
+          "cc:is_blocking": false
+        },
+        "remove": {
+          "component_groups": [
+            "cc:blocking"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "cc:timer"
+          ]
+        }
+      },
+      "cc:try_block": {
+        "filters": [
+          {
+            "test": "int_property",
+            "subject": "self",
+            "domain": "cc:shield",
+            "operator": "!=",
+            "value": 0
+          }
+        ],
+        "trigger": {
+          "event": "cc:block",
+          "target": "self"
+        }
+      },
+      "cc:block": {
+        "sequence": [
+          {
+            "add": {
+              "component_groups": [
+                "cc:blocking"
+              ]
+            }
+          },
+          {
+            "set_property": {
+              "cc:is_blocking": true
+            }
+          },
+          {
+            "queue_command": {
+              "command": "playsound item.shield.block @a[r=15] ~~~ 1 2.5 1"
+            }
+          }
+        ]
+      },
+      "cc:hit_shield": {
+        "sequence": [
+          {
+            "filters": {
+              "test": "int_property",
+              "domain": "cc:shield",
+              "subject": "self",
+              "operator": "!=",
+              "value": 1
+            },
+            "queue_command": {
+              "command": "playsound item.shield.block @a[r=15] ~~~ 1 1 1"
+            },
+            "set_property": {
+              "cc:shield": "q.property('cc:shield') - 1"
+            }
+          },
+          {
+            "filters": {
+              "test": "int_property",
+              "domain": "cc:shield",
+              "subject": "self",
+              "value": 1
+            },
+            "queue_command": {
+              "command": "playsound item.shield.block @a[r=15] ~~~ 1 1 1"
+            },
+            "set_property": {
+              "cc:shield": 0
+            },
+            "trigger": "cc:destroy_shield"
+          }
+        ]
+      },
+      "cc:destroy_shield": {
+        "queue_command": {
+          "command": [
+            "playsound random.break @a[r=15] ~~~ 1 1 1",
+            "scriptevent cc:entity_event shield_break"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "cc:blocking"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "cc:timer"
+          ]
+        },
+        "set_property": {
+          "cc:is_blocking": false
+        }
+      },
+      "cc:persistence": {
+        "add": {
+          "component_groups": [
+            "cc:persistence"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vf_sc:capture_crate"
+    },
+
+    "tags": ["crafting_table"],
+    "pattern": ["XXX", "X#X", "XXX"],
+    "key": {
+      "X": {
+        "tag": "minecraft:planks"
+      },
+      "#": {
+        "item": "minecraft:iron_bars"
+      }
+    },
+    "unlock": [
+      {
+        "tag": "minecraft:planks"
+      }
+    ],
+    "result": {
+      "item": "vf_sc:capture_crate"
+    }
+  }
+}

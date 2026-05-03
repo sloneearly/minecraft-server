@@ -1,0 +1,59 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "morr:gen:overworld_underground_cryo_iron_ore_feature",
+			"places_feature": "ore:cryo_iron_ore_feature"
+		},
+		"conditions": {
+			"placement_pass": "final_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "cold"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "frozen"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "taiga"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 65,
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "triangle",
+				"extent": [
+					265,
+					315
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rose_gold_berry_902b25d0"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:rose_gold_nugget",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:glow_berries",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "food:rose_gold_berry",
+      "count": 1
+    }
+  }
+}

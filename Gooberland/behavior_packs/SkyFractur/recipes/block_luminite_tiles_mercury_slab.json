@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "luminite_tiles_mercury_slab_18fdc830"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:luminite_tiles_mercury",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:luminite_tiles_mercury_slab",
+      "count": 6
+    }
+  }
+}

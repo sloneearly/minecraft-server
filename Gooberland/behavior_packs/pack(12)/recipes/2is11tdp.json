@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "cc:cauliflower_from_crate"
+        },
+        "tags": [
+            "cc:cooking_table",
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "cc:cauliflower_crate"
+            }
+        ],
+        "result": {
+            "item": "cc:cauliflower",
+            "count": 9
+        }
+    }
+}

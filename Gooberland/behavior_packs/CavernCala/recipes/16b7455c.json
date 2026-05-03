@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_6fa6ace5"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      " A ",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "item:energized_sodalite_fragment",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:stone_energizer",
+      "count": 1
+    }
+  }
+}

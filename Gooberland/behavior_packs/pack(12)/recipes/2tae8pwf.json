@@ -1,0 +1,19 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "cc:spruce_log_pile"
+        },
+        "tags": [
+            "cc:furniture_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:spruce_log"
+            }
+        ],
+        "result": {
+            "item": "cc:spruce_log_pile"
+        }
+    }
+}

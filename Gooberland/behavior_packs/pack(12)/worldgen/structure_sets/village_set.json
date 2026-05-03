@@ -1,0 +1,57 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "cc:village_set"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 10334412,
+      "separation": 6,
+      "spread_type": "linear",
+      "spacing": 50
+    },
+    "structures": [
+      {
+        "structure": "cc:arctic_village",
+        "weight": 1
+      },
+      {
+        "structure": "cc:birch_village",
+        "weight": 1
+      },
+      {
+        "structure": "cc:cherry_village",
+        "weight": 1
+      },
+      {
+        "structure": "cc:desert_village",
+        "weight": 1
+      },
+      {
+        "structure": "cc:jungle_village",
+        "weight": 1
+      },
+      {
+        "structure": "cc:mesa_village",
+        "weight": 1
+      },
+      {
+        "structure": "cc:plains_village",
+        "weight": 1
+      },
+      {
+        "structure": "cc:savanna_village",
+        "weight": 1
+      },
+      {
+        "structure": "cc:swamp_village",
+        "weight": 1
+      },
+      {
+        "structure": "cc:taiga_village",
+        "weight": 1
+      }
+    ]
+  }
+}

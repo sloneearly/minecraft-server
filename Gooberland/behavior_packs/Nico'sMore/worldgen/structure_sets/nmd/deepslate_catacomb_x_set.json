@@ -1,0 +1,21 @@
+{
+	"format_version": "1.26.10",
+	"minecraft:structure_set": {
+		"description": {
+			"identifier": "ntk:deepslate_catacomb_x_set"
+		},
+		"placement": {
+			"type": "minecraft:random_spread",
+			"spread_type": "triangular",
+			"salt": 4633910,
+			"spacing": 22,
+			"separation": 1
+		},
+		"structures": [
+			{
+				"structure": "ntk:deepslate_catacomb",
+				"weight": 100
+			}
+		]
+	}
+}

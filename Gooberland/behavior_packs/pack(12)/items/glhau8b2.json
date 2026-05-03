@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cc:chicken_feast_bowl",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.cookedFood"
+      }
+    },
+    "components": {
+      "minecraft:tags": {
+        "tags": ["minecraft:is_cooked", "minecraft:is_food"]
+      },
+      "minecraft:icon": "cc:chicken_feast_bowl",
+      "minecraft:food": {
+        "nutrition": 10,
+        "saturation_modifier": 1.0,
+        "can_always_eat": false,
+        "using_converts_to": "minecraft:bowl"
+      },
+      "minecraft:use_modifiers": {
+        "movement_modifier": 0.35,
+        "use_duration": 1.6
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:max_stack_size": 4
+    }
+  }
+}

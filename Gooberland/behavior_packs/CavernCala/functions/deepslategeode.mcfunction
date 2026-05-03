@@ -1,0 +1,1 @@
+loot spawn ~~~ loot "deepslate_geode"

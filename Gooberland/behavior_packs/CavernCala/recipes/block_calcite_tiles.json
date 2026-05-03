@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "calcite_tiles_df6200a3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:calcite_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:calcite_tiles",
+      "count": 4
+    }
+  }
+}

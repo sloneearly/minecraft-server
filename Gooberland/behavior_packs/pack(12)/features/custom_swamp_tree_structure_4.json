@@ -1,0 +1,29 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "cc:custom_swamp_tree_structure_4"
+    },
+    "structure_name": "cc:tree/swamp_tree.4",
+    "adjustment_radius": 0,
+    "facing_direction": "south",
+    "constraints": {
+      "grounded": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air",
+          "minecraft:leaves",
+          "minecraft:oak_leaves",
+          "minecraft:grass",
+          "minecraft:water",
+          "cc:swamp_grass",
+          "cc:swamp_fern",
+          "cc:knotweed",
+          "cc:tall_brown_mushrooms",
+          "cc:tall_red_mushrooms",
+          "minecraft:short_grass"
+        ]
+      }
+    }
+  }
+}

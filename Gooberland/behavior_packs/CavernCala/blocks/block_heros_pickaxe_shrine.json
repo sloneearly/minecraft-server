@@ -1,0 +1,50 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "block:heros_pickaxe_shrine",
+			"menu_category": {
+				"category": "items"
+			
+		}
+        },        
+        "components": {
+"minecraft:liquid_detection": {
+    "detection_rules": [
+        {
+            "liquid_type": "water",
+            "can_contain_liquid": true
+        }
+    ]
+},
+			"minecraft:item_visual": {
+				"geometry": "geometry.animated_item",
+				"material_instances": {
+					"*": {
+						"texture": "block_heros_pickaxe_shrine",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+					}
+				}
+			},
+            "minecraft:geometry": "geometry.plant",
+            "minecraft:light_dampening": 0,
+	    "minecraft:collision_box": false,
+	    "minecraft:loot": "loot_tables/blocks/block_heros_pickaxe_shrine.json",
+            "minecraft:destructible_by_mining": { 
+                "seconds_to_destroy": 0
+            },
+            "minecraft:destructible_by_explosion": { 
+                "explosion_resistance": 4.2
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "block_heros_pickaxe_shrine", 
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            }
+        }
+    }
+}

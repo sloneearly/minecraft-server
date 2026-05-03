@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_1b31801e"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "item:copper_stone_geode",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:raw_copper",
+      "count": 9,
+      "data": 0
+    }
+  }
+}

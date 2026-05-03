@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc.beam": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "blend_transition": 0.5,
+          "transitions": [
+            {
+              "beam": "v.shooting_beam && q.is_alive"
+            }
+          ]
+        },
+        "beam": {
+          "animations": ["beam"],
+          "blend_transition": 0.5,
+          "transitions": [
+            {
+              "default": "!v.shooting_beam || !q.is_alive"
+            }
+          ],
+          "particle_effects": [
+            {
+              "effect": "shoot",
+              "locator": "beam"
+            },
+            {
+              "effect": "beam_dust",
+              "locator": "beam"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

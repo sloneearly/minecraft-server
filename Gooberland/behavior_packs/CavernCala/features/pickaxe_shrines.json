@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "gen:pickaxe_shrines"
+		},
+		"features": [
+			"gen:scatter_wooden_pickaxe_shrine_feature",
+			"gen:scatter_heros_pickaxe_shrine_feature",
+			"gen:scatter_iron_pickaxe_shrine_feature"
+		]
+	}
+}

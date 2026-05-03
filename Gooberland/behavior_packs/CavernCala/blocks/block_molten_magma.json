@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "block:molten_magma",
+            "menu_category": {
+                "category": "nature",
+                "group": "itemGroup.name.stone"
+            }
+        },
+        "components": {
+            "tag:stone": {},
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "minecraft:light_emission": 8,
+			"minecraft:custom_components": [
+				"test:molten_magma_campfire",
+				"test:molten_magma"
+			],
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 3
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "block_molten_magma", 
+                    "render_method": "opaque",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+		}
+            }
+        }
+    }
+}

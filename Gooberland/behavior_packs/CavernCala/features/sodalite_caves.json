@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "gen:sodalite_caves"
+		},
+		"features": [
+			"gen:sodalite_patch_feature",
+			"gen:sodalite_top",
+			"gen:sodalite_spike1_feature",
+			"gen:sodalite_spike2_feature"
+		]
+	}
+}

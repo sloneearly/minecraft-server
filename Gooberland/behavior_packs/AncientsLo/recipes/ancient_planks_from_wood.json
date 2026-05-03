@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ancients:ancient_planks_from_wood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "ancients:ancient_wood"
+			}
+		},
+		"unlock":[
+			{
+				"item": "ancients:ancient_wood"
+			}
+		],
+		"result": {
+			"item": "ancients:ancient_planks",
+			"count": 4
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:struct_nether_soul_castle_placement",
+      "places_feature": "cc:struct_nether_soul_castle_snap_sequence"
+    },
+    "conditions": {
+      "placement_pass": "first_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "soulsand_valley"
+            }
+          ],
+          "none_of": []
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 0.1,
+      "x": "-16",
+      "y": {
+        "distribution": "uniform",
+        "extent": [
+          32,
+          95
+        ]
+      },
+      "z": "-16",
+      "coordinate_eval_order": "zyx"
+    }
+  }
+}

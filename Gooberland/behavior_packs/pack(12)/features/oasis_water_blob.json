@@ -1,0 +1,20 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:oasis_water_blob"
+    },
+    "iterations": 300,
+    "scatter_chance": 60,
+    "x": {
+      "extent": [-3, 3],
+      "distribution": "gaussian"
+    },
+    "z": {
+      "extent": [-3, 3],
+      "distribution": "gaussian"
+    },
+    "y": 0,
+    "places_feature": "cc:oasis_water_feature"
+  }
+}

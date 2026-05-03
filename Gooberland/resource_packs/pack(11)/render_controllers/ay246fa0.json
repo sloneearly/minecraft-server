@@ -1,0 +1,39 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.cc.orangutan": {
+            "part_visibility": [
+                {
+                    "*": true
+                },
+                {
+                    "banana": false
+                }
+            ],
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "textures": ["Texture.default"]
+        },
+    "controller.render.cc.orangutan.banana": {
+            "part_visibility": [
+                {
+                    "*": false
+                },
+                {
+                    "banana": "q.is_admiring || q.is_charged"
+                }
+            ],
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "textures": ["Texture.banana"]
+        }
+    }
+}

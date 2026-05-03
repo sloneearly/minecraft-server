@@ -1,0 +1,38 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "cc:struct_nether_soul_castle_level_2_weight"
+    },
+    "features": [
+      [
+        "cc:struct_nether_soul_castle_room_14_feature",
+        1
+      ],
+      [
+        "cc:struct_nether_soul_castle_room_15_feature",
+        1
+      ],
+      [
+        "cc:struct_nether_soul_castle_room_16_feature",
+        1
+      ],
+      [
+        "cc:struct_nether_soul_castle_room_17_feature",
+        1
+      ],
+      [
+        "cc:struct_nether_soul_castle_room_18_feature",
+        1
+      ],
+      [
+        "cc:struct_nether_soul_castle_room_19_feature",
+        1
+      ],
+      [
+        "cc:struct_nether_soul_castle_room_20_feature",
+        1
+      ]
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "item:genesis_seed",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "item:genesis_seed"
+			},
+			"minecraft:display_name": {
+				"value": "Genesis Seed\n\n§7Placeable on Withered Moss\nWilts away if not below Y=0\nneeds to be planted in the Wilted Garden"
+			},
+			"minecraft:entity_placer": {
+				"entity": "item:genesis_seed",
+				"use_on": [
+					"block:withered_moss"
+				]
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "kyanite_brick_slab_ba35367a"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:kyanite_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:kyanite_brick_slab",
+      "count": 6
+    }
+  }
+}

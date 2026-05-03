@@ -1,0 +1,40 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:thin_birch_log_rule",
+      "places_feature": "cc:thin_birch_log_scatter"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": {
+        "all_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "forest"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 20,
+      "scatter_chance": 100.0,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          -8,
+          15
+        ]
+      },
+      "y": "query.heightmap(v.originx, v.originz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          -8,
+          15
+        ]
+      }
+    }
+  }
+}

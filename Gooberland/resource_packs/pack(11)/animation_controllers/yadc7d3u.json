@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.cc.admire": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "blend_transition": 0.5,
+                    "transitions": [
+                        {
+                            "admire": "q.is_admiring"
+                        }
+                    ]
+                },
+                "admire": {
+                    "animations": ["admire"],
+                    "blend_transition": 0.5,
+                    "transitions": [
+                        {
+                            "default": "!q.is_admiring"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

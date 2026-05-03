@@ -1,0 +1,76 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:block": {
+        "description": {
+            "identifier": "ancients:ancient_forest_pillar",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "ancients:type":["bottom","mid","top"],
+                "ancients:powered":[false,true]
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.ancient_pillar",
+                "bone_visibility": {
+                    "bottom": "query.block_state('ancients:type') == 'bottom'",
+                    "top": "query.block_state('ancients:type') == 'top'",
+                    "mid": "query.block_state('ancients:type') == 'mid'"
+                }
+            },
+            "minecraft:material_instances":{
+                "*": {
+                    "texture": "stonebrick",
+                    "render_method": "opaque"
+                },
+                "stone": {
+                    "texture": "mid_pillar_rune",
+                    "render_method": "opaque"
+                },
+                "top": {
+                    "texture": "top_pillar_rune",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:custom_components": ["ancients:interact"],
+            "tag:ancientPillar":{},
+            "minecraft:selection_box":{
+                "origin": [-5,0,-5],
+                "size": [10,16,10]
+            },
+            "minecraft:tick": {
+                "looping": true,
+                "interval_range": [15,25]
+            },
+            "minecraft:destructible_by_mining":{
+                "seconds_to_destroy": 4
+            },
+            "tag:minecraft:is_pickaxe_item_destructible": {}
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('ancients:powered') == true",
+                "components": {
+                    "minecraft:material_instances":{
+                        "*": {
+                            "texture": "stonebrick",
+                            "render_method": "opaque"
+                        },
+                        "stone": {
+                            "texture": "mid_pillar_rune_powered",
+                            "render_method": "opaque",
+                            "face_dimming": false
+                        },
+                        "top": {
+                            "texture": "top_pillar_rune",
+                            "render_method": "opaque"
+                        }
+                    },
+                    "minecraft:light_emission": 8
+                }
+            }
+        ]
+    }
+}

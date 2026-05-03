@@ -1,0 +1,96 @@
+{
+  "format_version": "1.20.30",
+  "render_controllers": {
+    "controller.render.cc.item": {
+      "geometry": "Geometry.default",
+      "materials": [{ "*": "variable.is_enchanted ? material.enchanted : material.default" }],
+      "textures": ["texture.default", "texture.enchanted"],
+      "ignore_lighting": true
+    },
+    "controller.render.cc.item.outline": {
+      "geometry": "Geometry.outline",
+      "materials": [{ "*": "material.outline" }],
+      "textures": ["texture.outline"],
+      "ignore_lighting": true
+    },
+    "controller.render.cc.item.glow": {
+      "geometry": "Geometry.glow",
+      "materials": [{ "*": "material.glow" }],
+      "textures": ["texture.glow"],
+      "ignore_lighting": true
+    },
+    "controller.render.cc.bow": {
+      "arrays": {
+        "textures": {
+          "array.bow_texture_frames": [
+            "texture.default",
+            "texture.bow_pulling_0",
+            "texture.bow_pulling_1",
+            "texture.bow_pulling_2"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [{ "*": "variable.is_enchanted ? material.enchanted : material.default" }],
+      "textures": [
+        "array.bow_texture_frames[v.has_ammo && query.is_using_item  ? math.clamp(query.item_in_use_duration / 100,0,3) : 0]",
+        "texture.enchanted"
+      ]
+    },
+    "controller.render.cc.bow.outline": {
+      "arrays": {
+        "geometries": {
+          "array.bow_geo_frames": [
+            "geometry.outline.standby",
+            "geometry.outline.pull0",
+            "geometry.outline.pull1",
+            "geometry.outline.pull2"
+          ]
+        }
+      },
+      "geometry": "array.bow_geo_frames[math.clamp(query.item_in_use_duration / 100,0,3)]",
+      "materials": [{ "*": "material.outline" }],
+      "textures": ["texture.outline"]
+    },
+    "controller.render.cc.item.anim_4": {
+      "arrays": {
+        "textures": {
+          "array.textures": [
+            "texture.frame_1",
+            "texture.frame_2",
+            "texture.frame_3",
+            "texture.frame_4"
+          ]
+        },
+        "geometries": {
+          "array.geometries": [
+            "Geometry.frame_1",
+            "Geometry.frame_2",
+            "Geometry.frame_3",
+            "Geometry.frame_4"
+          ]
+        }
+      },
+      "geometry": "array.geometries[q.life_time * 10]",
+      "materials": [{ "*": "variable.is_enchanted ? material.enchanted : material.default" }],
+      "textures": ["array.textures[q.life_time * 10]", "texture.enchanted"],
+      "ignore_lighting": true
+    },
+    "controller.render.cc.item.outline.anim_4": {
+      "arrays": {
+        "geometries": {
+          "array.geometries": [
+            "Geometry.outline_frame_1",
+            "Geometry.outline_frame_2",
+            "Geometry.outline_frame_3",
+            "Geometry.outline_frame_4"
+          ]
+        }
+      },
+      "geometry": "array.geometries[q.life_time * 10]",
+      "materials": [{ "*": "material.outline" }],
+      "textures": ["texture.outline"],
+      "ignore_lighting": true
+    }
+  }
+}

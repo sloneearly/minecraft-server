@@ -1,0 +1,322 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:cherry_chair",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "cc:connect": [
+                    "sneaked",
+                    "single",
+                    "end_left",
+                    "end_right",
+                    "inner",
+                    "corner_ne",
+                    "corner_se",
+                    "corner_sw",
+                    "corner_nw"
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0
+                }
+            }
+        },
+        "components": {
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "none"
+            },
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "minecraft:display_name": "%cc.cherry_chair\n%cc.category.furniture",
+            "cc:connect_chair": {},
+            "cc:seat": {},
+            "minecraft:map_color": "#f097e5",
+            "tag:cc:chair": {},
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:geometry": {
+                "identifier": "geometry.cc.chair.single"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "render_method": "alpha_test",
+                    "texture": "cc:board_cherry"
+                },
+                "back_board": {
+                    "render_method": "alpha_test",
+                    "texture": "cc:chair_back_cherry"
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -7,
+                    0,
+                    -7
+                ],
+                "size": [
+                    14,
+                    9,
+                    14
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -7,
+                    0,
+                    -7
+                ],
+                "size": [
+                    14,
+                    9,
+                    14
+                ]
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "can_contain_liquid": true,
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:light_dampening": 5,
+            "tag:minecraft:is_axe_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_axe')"
+                        },
+                        "destroy_speed": 2
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:connect') == 'single' || q.block_state('cc:connect') == 'sneaked'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.cc.chair.single"
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:connect') == 'corner_ne' && q.block_state('cc:connect') != 'sneaked'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.cc.chair.corner"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:connect') == 'corner_se' && q.block_state('cc:connect') != 'sneaked'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.cc.chair.corner"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:connect') == 'corner_sw' && q.block_state('cc:connect') != 'sneaked'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.cc.chair.corner"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:connect') == 'corner_nw' && q.block_state('cc:connect') != 'sneaked'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.cc.chair.corner"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:connect') == 'inner' && q.block_state('cc:connect') != 'sneaked'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.cc.chair.merge"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            16,
+                            9,
+                            14
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            16,
+                            9,
+                            14
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:connect') == 'end_left' && q.block_state('cc:connect') != 'sneaked'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.cc.chair.end.left"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            15,
+                            9,
+                            14
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            15,
+                            9,
+                            14
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:connect') == 'end_right' && q.block_state('cc:connect') != 'sneaked'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.cc.chair.end.right"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            15,
+                            9,
+                            14
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            15,
+                            9,
+                            14
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

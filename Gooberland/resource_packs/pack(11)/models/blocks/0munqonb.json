@@ -1,0 +1,127 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cc.big_foot_head_45",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0.25, 0],
+					"rotation": [0, 45, 0]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 0.25, 0]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 0.25, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0.25, -5],
+							"size": [10, 12, 10],
+							"inflate": 0.15,
+							"uv": {
+								"north": {"uv": [3, 4], "uv_size": [10, 12], "material_instance": "front"},
+								"east": {"uv": [14, 4], "uv_size": [-10, 12], "material_instance": "sides"},
+								"south": {"uv": [3, 4], "uv_size": [10, 12], "material_instance": "back"},
+								"west": {"uv": [4, 4], "uv_size": [10, 12], "material_instance": "sides"},
+								"up": {"uv": [13, 13], "uv_size": [-10, -10], "material_instance": "top"},
+								"down": {"uv": [13, 13], "uv_size": [-10, -10], "material_instance": "bottom"}
+							}
+						},
+						{
+							"origin": [-3, 0.25, -7],
+							"size": [6, 5, 2],
+							"uv": {
+								"north": {"uv": [5, 11], "uv_size": [6, 5], "material_instance": "face"},
+								"east": {"uv": [4, 11], "uv_size": [-2, 5], "material_instance": "sides"},
+								"west": {"uv": [2, 11], "uv_size": [2, 5], "material_instance": "sides"},
+								"up": {"uv": [11, 15], "uv_size": [-6, -2], "material_instance": "top"},
+								"down": {"uv": [11, 15], "uv_size": [-6, -2], "material_instance": "bottom"}
+							}
+						},
+						{
+							"origin": [-5, 0.25, -5],
+							"size": [10, 12, 10],
+							"uv": {
+								"north": {"uv": [3, 4], "uv_size": [10, 12], "material_instance": "face"},
+								"down": {"uv": [13, 13], "uv_size": [-10, -10], "material_instance": "bottom"}
+							}
+						}
+					]
+				},
+				{
+					"name": "horns",
+					"parent": "head",
+					"pivot": [-10.25, -25.5, 3],
+					"cubes": [
+						{
+							"origin": [5, 7.25, -2],
+							"size": [3, 3, 3],
+							"uv": {
+								"north": {"uv": [13, 6], "uv_size": [3, 3], "material_instance": "front"},
+								"south": {"uv": [0, 6], "uv_size": [3, 3], "material_instance": "front"},
+								"west": {"uv": [0, 6], "uv_size": [3, 3], "material_instance": "sides"},
+								"up": {"uv": [13, 9], "uv_size": [3, -3], "material_instance": "top"},
+								"down": {"uv": [13, 9], "uv_size": [3, -3], "material_instance": "botom"}
+							}
+						},
+						{
+							"origin": [-8, 10.25, -2],
+							"size": [2, 4, 3],
+							"uv": {
+								"north": {"uv": [0, 2], "uv_size": [2, 4], "material_instance": "front"},
+								"east": {"uv": [3, 2], "uv_size": [-3, 4], "material_instance": "sides"},
+								"south": {"uv": [14, 2], "uv_size": [2, 4], "material_instance": "front"},
+								"west": {"uv": [0, 5], "uv_size": [3, 4], "material_instance": "sides"},
+								"up": {"uv": [0, 6], "uv_size": [2, 3], "material_instance": "top"}
+							}
+						},
+						{
+							"origin": [6, 10.25, -2],
+							"size": [2, 4, 3],
+							"uv": {
+								"north": {"uv": [14, 2], "uv_size": [2, 4], "material_instance": "front"},
+								"east": {"uv": [3, 5], "uv_size": [-3, 4], "material_instance": "sides"},
+								"south": {"uv": [0, 2], "uv_size": [2, 4], "material_instance": "front"},
+								"west": {"uv": [0, 2], "uv_size": [3, 4], "material_instance": "sides"},
+								"up": {"uv": [14, 6], "uv_size": [2, 3], "material_instance": "top"}
+							}
+						},
+						{
+							"origin": [-8, 7.25, -2],
+							"size": [3, 3, 3],
+							"uv": {
+								"north": {"uv": [0, 6], "uv_size": [3, 3], "material_instance": "front"},
+								"east": {"uv": [3, 6], "uv_size": [-3, 3], "material_instance": "sides"},
+								"south": {"uv": [13, 6], "uv_size": [3, 3], "material_instance": "front"},
+								"up": {"uv": [0, 9], "uv_size": [3, -3], "material_instance": "top"},
+								"down": {"uv": [0, 9], "uv_size": [3, -3], "material_instance": "bottom"}
+							}
+						}
+					]
+				}
+			],
+			"item_display_transforms": {
+				"gui": {
+					"rotation": [30, -135, 0],
+					"translation": [0.5, 0.5, 0],
+					"scale": [0.8, 0.8, 0.8],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0],
+					"fit_to_frame": false
+				}
+			}
+		}
+	]
+}

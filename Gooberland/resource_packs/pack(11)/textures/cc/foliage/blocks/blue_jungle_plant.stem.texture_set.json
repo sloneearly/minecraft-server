@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "blue_jungle_plant.stem",
+    "heightmap": "blue_jungle_plant.stem_heightmap",
+    "metalness_emissive_roughness_subsurface": "blue_jungle_plant.stem_mers"
+  }
+}

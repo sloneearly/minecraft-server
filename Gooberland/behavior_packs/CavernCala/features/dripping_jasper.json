@@ -1,0 +1,57 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:growing_plant_feature": {
+		"description": {
+			"identifier": "gen:dripping_jasper"
+		},
+		"height_distribution": [
+			[
+				{
+					"range_min": 1,
+					"range_max": 3
+				},
+				2
+			],
+			[
+				{
+					"range_min": 1,
+					"range_max": 5
+				},
+				3
+			],
+			[
+				{
+					"range_min": 1,
+					"range_max": 7
+				},
+				1
+			]
+		],
+		"growth_direction": "DOWN",
+		"age": {
+			"range_min": 2,
+			"range_max": 4
+		},
+		"body_blocks": [
+			[
+				"block:jasper_block",
+				3
+			],
+			[
+				"block:jasper_block",
+				2
+			]
+		],
+		"head_blocks": [
+			[
+				"block:jasper_block",
+				5
+			],
+			[
+				"block:glowing_jasper_block",
+				1
+			]
+		],
+		"allow_water": true
+	}
+}

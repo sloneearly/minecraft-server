@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.entity.ntk_mossy_willow_troot": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"array.skins[query.variant]"
+			],
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.variant_0_mossy_willow_troot_wild",
+						"Texture.variant_1_mossy_willow_troot_tamed"
+					]
+				}
+			}
+		}
+	}
+}

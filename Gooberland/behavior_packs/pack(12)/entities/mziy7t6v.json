@@ -1,0 +1,913 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cc:cassowary",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "cc:hunger_state": {
+          "client_sync": true,
+          "default": 0,
+          "range": [0, 2],
+          "type": "int"
+        },
+        "cc:is_pregnant": {
+          "client_sync": false,
+          "default": false,
+          "type": "bool"
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["cassowary", "mob", "animal"]
+      },
+      "minecraft:attack": {
+        "damage": 2
+      },
+      "minecraft:behavior.delayed_attack": {
+        "attack_duration": 0.125,
+        "attack_once": false,
+        "attack_types": "",
+        "hit_delay_pct": 0.12,
+        "random_stop_interval": 0,
+        "reach_multiplier": 2,
+        "require_complete_path": true,
+        "track_target": false
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_water": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:collision_box": {
+        "width": 1.2,
+        "height": 2
+      },
+      "minecraft:nameable": {},
+      "minecraft:health": {
+        "value": 16,
+        "max": 16
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:movement": {
+        "value": 0.2
+      },
+      "minecraft:sittable": {},
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.mount_pathing": {
+        "priority": 2,
+        "speed_multiplier": 1.25,
+        "target_dist": 0.0,
+        "track_target": true
+      },
+      "minecraft:behavior.breed": {
+        "priority": 1,
+        "speed_multiplier": 1.0
+      },
+      "minecraft:behavior.tempt": {
+        "priority": 4,
+        "speed_multiplier": 0.75,
+        "items": [
+          "beetroot_seeds",
+          "melon_seeds",
+          "pumpkin_seeds",
+          "wheat_seeds",
+          "torchflower_seeds",
+          "cc:banana_seeds",
+          "cc:bell_pepper_seeds",
+          "cc:broccoli_seeds",
+          "cc:cabbage_seeds",
+          "cc:corn_seeds",
+          "cc:grape_seeds",
+          "cc:lemon_seeds",
+          "cc:orange_seeds",
+          "cc:pineapple_seeds",
+          "cc:tomato_seeds"
+        ]
+      },
+      "minecraft:behavior.follow_parent": {
+        "priority": 5,
+        "speed_multiplier": 1.1
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 0.5
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 9
+      },
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0
+      },
+      "minecraft:balloonable": {},
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:home": {}
+    },
+    "component_groups": {
+      "cc:persistence": {
+        "minecraft:persistent": {}
+      },
+      "cc:transform": {
+        "minecraft:transformation": {
+          "into": "cc:cassowary<minecraft:ageable_grow_up>",
+          "delay": 0
+        }
+      },
+      "minecraft:animal_adult": {
+        "minecraft:experience_reward": {
+          "on_bred": "Math.Random(1,7)",
+          "on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/animals/cassowary.loot.json"
+        },
+        "minecraft:behavior.breed": {
+          "priority": 0,
+          "speed_multiplier": 1.0
+        },
+        "minecraft:breedable": {
+          "require_tame": false,
+          "breed_items": [
+            "beetroot_seeds",
+            "melon_seeds",
+            "pumpkin_seeds",
+            "wheat_seeds",
+            "torchflower_seeds",
+            "cc:banana_seeds",
+            "cc:bell_pepper_seeds",
+            "cc:broccoli_seeds",
+            "cc:cabbage_seeds",
+            "cc:corn_seeds",
+            "cc:grape_seeds",
+            "cc:lemon_seeds",
+            "cc:orange_seeds",
+            "cc:pineapple_seeds",
+            "cc:tomato_seeds"
+          ],
+          "causes_pregnancy": true,
+          "breeds_with": {
+            "mate_type": "cc:cassowary",
+            "breed_event": {
+              "event": "cc:become_pregnant",
+              "target": "self"
+            }
+          }
+        },
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "use_item": true,
+              "swing": true,
+              "interact_text": "action.interact.feed",
+              "on_interact": {
+                "filters": [
+                  {
+                    "all_of": [
+                      {
+                        "any_of": [
+                          {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "domain": "hand",
+                            "operator": "==",
+                            "value": "minecraft:beetroot_seeds"
+                          },
+                          {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "domain": "hand",
+                            "operator": "==",
+                            "value": "minecraft:pumpkin_seeds"
+                          },
+                          {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "domain": "hand",
+                            "operator": "==",
+                            "value": "minecraft:melon_seeds"
+                          },
+                          {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "domain": "hand",
+                            "operator": "==",
+                            "value": "minecraft:wheat_seeds"
+                          },
+                          {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "domain": "hand",
+                            "operator": "==",
+                            "value": "cc:banana_seeds"
+                          },
+                          {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "domain": "hand",
+                            "operator": "==",
+                            "value": "torchflower_seeds"
+                          },
+                          {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "domain": "hand",
+                            "operator": "==",
+                            "value": "cc:bell_pepper_seeds"
+                          },
+                          {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "domain": "hand",
+                            "operator": "==",
+                            "value": "cc:broccoli_seeds"
+                          },
+                          {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "domain": "hand",
+                            "operator": "==",
+                            "value": "cc:cabbage_seeds"
+                          },
+                          {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "domain": "hand",
+                            "operator": "==",
+                            "value": "cc:corn_seeds"
+                          },
+                          {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "domain": "hand",
+                            "operator": "==",
+                            "value": "cc:grape_seeds"
+                          },
+                          {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "domain": "hand",
+                            "operator": "==",
+                            "value": "cc:lemon_seeds"
+                          },
+                          {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "domain": "hand",
+                            "operator": "==",
+                            "value": "cc:orange_seeds"
+                          },
+                          {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "domain": "hand",
+                            "operator": "==",
+                            "value": "cc:pineapple_seeds"
+                          },
+                          {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "domain": "hand",
+                            "operator": "==",
+                            "value": "cc:tomato_seeds"
+                          }
+                        ]
+                      },
+                      {
+                        "test": "int_property",
+                        "domain": "cc:hunger_state",
+                        "operator": "<",
+                        "value": 2
+                      },
+                      {
+                        "test": "int_property",
+                        "domain": "cc:hunger_state",
+                        "operator": ">",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "event": "cc:reset_hunger"
+              }
+            }
+          ]
+        }
+      },
+      "minecraft:animal_baby": {
+        "minecraft:is_baby": {},
+        "minecraft:scale": {
+          "value": 0.5
+        },
+        "minecraft:ageable": {
+          "duration": 1200,
+          "feed_items": [
+            "beetroot_seeds",
+            "melon_seeds",
+            "pumpkin_seeds",
+            "wheat_seeds",
+            "torchflower_seeds",
+            "cc:banana_seeds",
+            "cc:bell_pepper_seeds",
+            "cc:broccoli_seeds",
+            "cc:cabbage_seeds",
+            "cc:corn_seeds",
+            "cc:grape_seeds",
+            "cc:lemon_seeds",
+            "cc:orange_seeds",
+            "cc:pineapple_seeds",
+            "cc:tomato_seeds"
+          ],
+          "grow_up": {
+            "event": "minecraft:ageable_grow_up",
+            "target": "self"
+          }
+        },
+        "minecraft:behavior.follow_parent": {
+          "priority": 6,
+          "speed_multiplier": 1.1
+        }
+      },
+      "cc:normal_targeting": {
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 4,
+          "scan_interval": 10,
+          "attack_owner": true,
+          "reselect_targets": true,
+          "entity_types": [
+            {
+              "filters": {
+                "any_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "undead"
+                  },
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "monster"
+                  },
+                  {
+                    "all_of": [
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "minecraft:beetroot_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "minecraft:pumpkin_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "minecraft:melon_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "minecraft:wheat_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:banana_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "torchflower_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:bell_pepper_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:broccoli_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:cabbage_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:corn_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:grape_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:lemon_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:orange_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:pineapple_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:tomato_seeds"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "max_dist": 16
+            }
+          ]
+        }
+      },
+      "cc:tameable": {
+        "minecraft:tameable": {
+          "probability": 1,
+          "tame_items": [
+            "beetroot_seeds",
+            "melon_seeds",
+            "pumpkin_seeds",
+            "wheat_seeds",
+            "torchflower_seeds",
+            "cc:banana_seeds",
+            "cc:bell_pepper_seeds",
+            "cc:broccoli_seeds",
+            "cc:cabbage_seeds",
+            "cc:corn_seeds",
+            "cc:grape_seeds",
+            "cc:lemon_seeds",
+            "cc:orange_seeds",
+            "cc:pineapple_seeds",
+            "cc:tomato_seeds"
+          ],
+          "tame_event": {
+            "event": "cc:tamed",
+            "target": "self"
+          }
+        }
+      },
+      "cc:tamed": {
+        "minecraft:behavior.owner_hurt_by_target": {
+          "priority": 1
+        },
+        "minecraft:behavior.owner_hurt_target": {
+          "priority": 1
+        },
+        "minecraft:type_family": {
+          "family": ["tamed_cassowary", "cassowary", "mob", "animal"]
+        },
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 4,
+          "scan_interval": 10,
+          "attack_owner": false,
+          "reselect_targets": true,
+          "entity_types": [
+            {
+              "filters": {
+                "any_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "undead"
+                  },
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "monster"
+                  },
+                  {
+                    "all_of": [
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "minecraft:beetroot_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "minecraft:pumpkin_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "minecraft:melon_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "minecraft:wheat_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:banana_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "torchflower_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:bell_pepper_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:broccoli_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:cabbage_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:corn_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:grape_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:lemon_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:orange_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:pineapple_seeds"
+                      },
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:tomato_seeds"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "max_dist": 16
+            }
+          ]
+        },
+        "minecraft:timer": {
+          "time": 60,
+          "looping": true,
+          "time_down_event": {
+            "event": "cc:hunger_tick",
+            "target": "self"
+          }
+        },
+        "minecraft:behavior.follow_owner": {
+          "start_distance": 10,
+          "stop_distance": 3,
+          "priority": 2,
+          "can_teleport": false
+        },
+        "minecraft:behavior.follow_mob": {
+          "search_range": 10,
+          "stop_distance": 2,
+          "priority": 2,
+          "speed_multiplier": 1.25
+        }
+      },
+      "cc:wants_to_lay_egg": {
+        "minecraft:behavior.lay_egg": {
+          "goal_radius": 3.0,
+          "search_height": 4,
+          "search_range": 16,
+          "priority": 0,
+          "egg_type": "minecraft:air",
+          "target_blocks": [
+            "minecraft:sand",
+            "minecraft:ice",
+            "minecraft:snow",
+            "minecraft:grass_block",
+            "minecraft:packed_ice",
+            "cc:jungle_roots"
+          ],
+          "lay_egg_sound": "random.pop",
+          "speed_multiplier": 0.8,
+          "use_default_animation": false,
+          "on_lay": {
+            "event": "cc:lay_egg",
+            "target": "self"
+          }
+        }
+      },
+      "cc:pregnant": {
+        "minecraft:behavior.go_home": {
+          "priority": 0,
+          "goal_radius": 4,
+          "interval": 1,
+          "speed_multiplier": 1.3,
+          "on_home": {
+            "target": "self",
+            "event": "cc:reach_home"
+          }
+        }
+      }
+    },
+    "events": {
+      "cc:lay_egg": {
+        "sequence": [
+          {
+            "queue_command": {
+              "command": ["setblock ~ ~ ~ cc:cassowary_egg"]
+            }
+          },
+          {
+            "remove": {
+              "component_groups": ["cc:wants_to_lay_egg"]
+            }
+          },
+          {
+            "set_property": {
+              "cc:is_pregnant": false
+            }
+          }
+        ]
+      },
+
+      "cc:hunger_tick": {
+        "sequence": [
+          {
+            "filters": [
+              {
+                "all_of": [
+                  {
+                    "test": "int_property",
+                    "domain": "cc:hunger_state",
+                    "operator": ">",
+                    "value": 1
+                  },
+                  {
+                    "test": "bool_property",
+                    "domain": "cc:is_pregnant",
+                    "operator": "!=",
+                    "value": true
+                  }
+                ]
+              }
+            ],
+            "set_property": {
+              "cc:hunger_state": "q.property('cc:hunger_state') - 1"
+            }
+          },
+          {
+            "filters": [
+              {
+                "all_of": [
+                  {
+                    "test": "bool_property",
+                    "domain": "cc:is_pregnant",
+                    "operator": "!=",
+                    "value": true
+                  },
+                  {
+                    "test": "int_property",
+                    "domain": "cc:hunger_state",
+                    "operator": "==",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "set_property": {
+              "cc:hunger_state": 0
+            },
+            "add": {
+              "component_groups": ["cc:transform"]
+            },
+            "trigger": "cc:restart_tame"
+          }
+        ]
+      },
+      "cc:reach_home": {
+        "add": {
+          "component_groups": ["cc:wants_to_lay_egg"]
+        },
+        "remove": {
+          "component_groups": ["cc:pregnant"]
+        }
+      },
+      "cc:become_pregnant": {
+        "add": {
+          "component_groups": ["cc:pregnant"]
+        },
+        "set_property": {
+          "cc:is_pregnant": true
+        }
+      },
+      "cc:stop_riding": {},
+      "cc:reset_hunger": {
+        "set_property": {
+          "cc:hunger_state": 2
+        },
+        "queue_command": {
+          "command": ["playsound random.eat @a[r=15] ~~~ 1 1 1"]
+        }
+      },
+      "cc:tamed": {
+        "remove": {
+          "component_groups": ["cc:normal_targeting"]
+        },
+        "add": {
+          "component_groups": ["cc:tamed"]
+        },
+        "set_property": {
+          "cc:hunger_state": 2
+        }
+      },
+      "cc:restart_tame": {
+        "remove": {
+          "component_groups": ["cc:tamed"]
+        },
+        "add": {
+          "component_groups": ["cc:normal_targeting", "cc:tameable"]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 95,
+            "add": {
+              "component_groups": [
+                "minecraft:animal_adult",
+                "cc:tameable",
+                "cc:normal_targeting"
+              ]
+            }
+          },
+          {
+            "weight": 5,
+            "add": {
+              "component_groups": ["minecraft:animal_baby"]
+            }
+          }
+        ]
+      },
+      "minecraft:entity_transformed": {
+        "add": {
+          "component_groups": ["minecraft:animal_baby"]
+        }
+      },
+      "minecraft:entity_born": {
+        "add": {
+          "component_groups": ["minecraft:animal_baby"]
+        }
+      },
+      "cc:entity_born": {
+        "add": {
+          "component_groups": ["minecraft:animal_baby"]
+        },
+        "remove": {
+          "component_groups": ["minecraft:animal_adult", "cc:tameable"]
+        }
+      },
+      "minecraft:ageable_grow_up": {
+        "remove": {
+          "component_groups": ["minecraft:animal_baby"]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:animal_adult",
+            "cc:tameable",
+            "cc:normal_targeting"
+          ]
+        }
+      },
+      "cc:persistence": {
+        "add": {
+          "component_groups": ["cc:persistence"]
+        }
+      }
+    }
+  }
+}

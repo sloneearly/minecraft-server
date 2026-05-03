@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "0_cauliflower",
+    "heightmap": "0_cauliflower_heightmap",
+    "metalness_emissive_roughness_subsurface": "0_cauliflower_mers"
+  }
+}

@@ -1,0 +1,94 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "ancients:ancient_pillar3_feature_rule",
+			"places_feature": "ancients:ancient_pillar3_feature"
+		},
+		"conditions": {
+			"placement_pass": "first_pass",
+			"minecraft:biome_filter": [
+                {
+                    "all_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "forest"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "birch"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "taiga"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "jungle"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "desert"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "savanna"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "river"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "ocean"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "warm_ocean"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "deep_lukewarm_ocean"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "deep_ocean"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "beach"
+                        }
+                    ]
+                }
+            ]
+		},
+		"distribution": {
+			"iterations": 1,
+			"x": {
+				"extent": [0, 24],
+				"distribution": "uniform"
+			},
+			"y": "query.heightmap(variable.worldx, variable.worldz)",
+			"z": {
+				"extent": [0, 24],
+				"distribution": "uniform"
+			},
+			"scatter_chance": {
+				"numerator": 1,
+				"denominator": 80
+			}
+		}
+	}
+}

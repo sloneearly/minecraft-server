@@ -1,0 +1,144 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "block:auto_drill",
+			"menu_category": {
+				"category": "items"
+			
+		},
+                        "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            }
+        },
+        "permutations": [
+		{
+                "condition": "query.block_state('minecraft:block_face') == 'north'",
+                "components": {
+            "minecraft:custom_components": ["test:auto_drill_north"],
+                    "minecraft:transformation": {
+                        "rotation": [
+                            -90,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+          {
+                "condition": "query.block_state('minecraft:block_face') == 'south'",
+                "components": {
+            "minecraft:custom_components": ["test:auto_drill_south"],
+                    "minecraft:transformation": {
+                        "rotation": [
+                            90,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+          {
+                "condition": "query.block_state('minecraft:block_face') == 'east'",
+                "components": {
+            "minecraft:custom_components": ["test:auto_drill_east"],
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            -90
+                        ]
+                    }
+                }
+            },
+          {
+                "condition": "query.block_state('minecraft:block_face') == 'west'",
+                "components": {
+            "minecraft:custom_components": ["test:auto_drill_west"],
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            90
+                        ]
+                    }
+                }
+            },
+          {
+                "condition": "query.block_state('minecraft:block_face') == 'down'",
+                "components": {
+            "minecraft:custom_components": ["test:auto_drill_down"],
+                    "minecraft:transformation": {
+                        "rotation": [
+                            180,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+          {
+                "condition": "query.block_state('minecraft:block_face') == 'up'",
+                "components": {
+            "minecraft:custom_components": ["test:auto_drill_up"],
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],         
+        "components": {
+"minecraft:liquid_detection": {
+    "detection_rules": [
+        {
+            "liquid_type": "water",
+            "can_contain_liquid": true
+        }
+    ]
+},
+			"minecraft:item_visual": {
+				"geometry": "geometry.animated_item",
+				"material_instances": {
+					"*": {
+						"texture": "block_auto_drill",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+					}
+				}
+			},
+            "minecraft:geometry": "geometry.plant",
+            "minecraft:light_dampening": 0,
+            "minecraft:light_emission": 5,
+	    "minecraft:collision_box": false,
+	    "minecraft:loot": "loot_tables/blocks/block_auto_drill.json",
+            "minecraft:destructible_by_mining": { 
+                "seconds_to_destroy": 0
+            },
+			"minecraft:tick": {
+				"interval_range": [
+					10,
+					10
+				]
+			},
+            "minecraft:destructible_by_explosion": { 
+                "explosion_resistance": 4.2
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "block_auto_drill", 
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            }
+        }
+    }
+}

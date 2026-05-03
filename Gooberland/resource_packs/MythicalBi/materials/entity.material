@@ -1,0 +1,7 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "ntk_entity_alpha:entity_alphatest": {},
+    "ntk_entity_emissive_alpha:entity_emissive_alpha": {}
+  }
+}

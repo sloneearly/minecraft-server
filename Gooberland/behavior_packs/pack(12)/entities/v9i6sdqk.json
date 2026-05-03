@@ -1,0 +1,240 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cc:big_foot",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "animations": {
+        "delayed_attack": "controller.animation.cc.delayed_attack"
+      },
+      "scripts": {
+        "animate": ["delayed_attack"]
+      },
+      "properties": {
+        "cc:attack_mode": {
+          "client_sync": false,
+          "type": "enum",
+          "default": "ramming",
+          "values": ["ramming", "melee"]
+        }
+      }
+    },
+    "components": {
+      "minecraft:loot": {
+        "table": "loot_tables/cc/boss/big_foot.loot.json"
+      },
+      "minecraft:behavior.delayed_attack": {
+        "priority": 1,
+        "attack_duration": 0.5,
+        "cooldown_time": 5,
+        "hit_delay_pct": 1.0,
+        "reach_multiplier": 2,
+        "track_target": true
+      },
+      "minecraft:attack": {
+        "damage": 7
+      },
+      "minecraft:knockback_resistance": {
+        "value": 0.5,
+        "max": 0.5
+      },
+      "minecraft:collision_box": {
+        "height": 3,
+        "width": 1.25
+      },
+      "minecraft:physics": {},
+      "minecraft:health": {
+        "value": 250,
+        "max": 250
+      },
+      "minecraft:boss": {
+        "hud_range": 55,
+        "name": "entity.cc:big_foot.name",
+        "should_darken_sky": false
+      },
+      "minecraft:movement": {
+        "value": 0.37,
+        "max": 0.37
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 8
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 8
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1,
+        "entity_types": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "operator": "!=",
+              "value": "breeze"
+            }
+          }
+        ]
+      },
+      "minecraft:jump.static": {},
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "avoid_sun": true,
+        "avoid_water": true
+      },
+      "minecraft:type_family": {
+        "family": ["big_foot", "monster", "mob"]
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "must_see": true,
+        "reselect_targets": true,
+        "within_radius": 48.0,
+        "must_see_forget_duration": 32.0,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "snowgolem"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "irongolem"
+                }
+              ]
+            },
+            "max_dist": 35
+          },
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "villager"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "wandering_trader"
+                }
+              ]
+            },
+            "max_dist": 35,
+            "must_see": false
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "baby_turtle"
+                },
+                {
+                  "test": "in_water",
+                  "subject": "other",
+                  "operator": "!=",
+                  "value": true
+                }
+              ]
+            },
+            "max_dist": 35
+          }
+        ]
+      },
+      "minecraft:timer": {
+        "time": 0.1,
+        "looping": true,
+        "time_down_event": {
+          "event": "cc:mode_switcher",
+          "target": "self"
+        }
+      }
+    },
+    "events": {
+      "cc:delayed_attack": {
+        "queue_command": {
+          "command": ["scriptevent cc:entity_event ground_smash"]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "trigger": "cc:melee_mode"
+      },
+      "cc:mode_switcher": {
+        "sequence": [
+          {
+            "filters": [
+              {
+                "all_of": [
+                  {
+                    "test": "target_distance",
+                    "operator": "<=",
+                    "value": 12
+                  },
+                  {
+                    "test": "enum_property",
+                    "domain": "cc:attack_mode",
+                    "operator": "!=",
+                    "value": "melee"
+                  }
+                ]
+              }
+            ],
+            "trigger": "cc:melee_mode"
+          },
+          {
+            "filters": [
+              {
+                "all_of": [
+                  {
+                    "test": "target_distance",
+                    "operator": ">",
+                    "value": 12
+                  },
+                  {
+                    "test": "enum_property",
+                    "domain": "cc:attack_mode",
+                    "operator": "!=",
+                    "value": "ramming"
+                  }
+                ]
+              }
+            ],
+            "trigger": "cc:ramming_mode"
+          }
+        ]
+      },
+      "cc:melee_mode": {
+        "set_property": {
+          "cc:attack_mode": "melee"
+        }
+      },
+      "cc:ramming_mode": {
+        "sequence": [
+          {
+            "set_property": {
+              "cc:attack_mode": "ramming"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

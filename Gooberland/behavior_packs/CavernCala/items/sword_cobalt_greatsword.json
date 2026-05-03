@@ -1,0 +1,46 @@
+{
+	"format_version": "1.21.110",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sword:cobalt_greatsword",
+          "menu_category": {
+              "category": "equipment"
+            }
+        },
+		"components": {
+			"minecraft:icon": {
+				"textures": {
+					"default": "sword:cobalt_greatsword"
+				}
+			},
+            "minecraft:cooldown": {
+                "category": "greatsword",
+                "duration": 1,
+                "type": "attack"
+            },
+            "minecraft:swing_duration": {
+                "value": 1
+            },
+			"minecraft:glint": false,
+          	"minecraft:tags": {
+				"tags": [
+					"minecraft:transformable_items",
+					"minecraft:is_sword",
+					"minecraft:digger",
+					"minecraft:diamond_tier"
+				]
+			},
+			"minecraft:enchantable": {"slot": "sword", "value": 30},
+			"minecraft:max_stack_size": 1,
+			"minecraft:durability": {
+				"max_durability": 450
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 11,
+			"minecraft:use_animation": "bow",
+			"minecraft:display_name": {
+				"value": "Cobalt Greatsword"
+			}
+		}
+	}
+}

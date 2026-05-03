@@ -1,0 +1,15 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ancients:iron_amulet",
+            "menu_category": {
+                "category": "nature"
+            }
+        },
+        "components": {
+            "minecraft:icon": "iron_amulet",
+            "minecraft:max_stack_size": 1
+        }
+    }
+}

@@ -1,0 +1,286 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:sandstone_big_flower_pot",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "cc:flower": [
+                    "empty",
+                    "rose_bush",
+                    "lilac",
+                    "peony",
+                    "blue_jungle_plant",
+                    "yellow_jungle_plant",
+                    "taiga_red_plant",
+                    "taiga_orange_plant"
+                ]
+            }
+        },
+        "components": {
+            "cc:on_break": {},
+            "minecraft:display_name": "%cc.sandstone_big_flower_pot\n%cc.category.furniture",
+            "cc:transform_block": {},
+            "tag:grass": {},
+            "cc:interact": {},
+            "tag:cc:flower_pot": {},
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:geometry": {
+                "identifier": "geometry.cc.big_flower_pot",
+                "bone_visibility": {
+                    "flower": "q.block_state('cc:flower') != 'empty'"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cc:sandstone_big_flower_pot_side",
+                    "render_method": "alpha_test"
+                },
+                "top": {
+                    "texture": "cc:sandstone_big_flower_pot_top",
+                    "render_method": "alpha_test"
+                },
+                "bottom": {
+                    "texture": "cc:sandstone_big_flower_pot_bottom",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -6,
+                    0,
+                    -6
+                ],
+                "size": [
+                    12,
+                    14,
+                    12
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -6,
+                    0,
+                    -6
+                ],
+                "size": [
+                    12,
+                    14,
+                    12
+                ]
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#ecdea0",
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "can_contain_liquid": true,
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "cc:item_tier": {
+                "tool": "pickaxe",
+                "tier": 1
+            },
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 5,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_pickaxe')"
+                        },
+                        "destroy_speed": 1.5333
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('cc:flower') == 'rose_bush'",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:sandstone_big_flower_pot_side",
+                            "render_method": "alpha_test"
+                        },
+                        "top": {
+                            "texture": "cc:sandstone_big_flower_pot_top",
+                            "render_method": "alpha_test"
+                        },
+                        "bottom": {
+                            "texture": "cc:sandstone_big_flower_pot_bottom",
+                            "render_method": "alpha_test"
+                        },
+                        "flower": {
+                            "texture": "cc:pot_rose_bush",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:flower') == 'peony'",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:sandstone_big_flower_pot_side",
+                            "render_method": "alpha_test"
+                        },
+                        "top": {
+                            "texture": "cc:sandstone_big_flower_pot_top",
+                            "render_method": "alpha_test"
+                        },
+                        "bottom": {
+                            "texture": "cc:sandstone_big_flower_pot_bottom",
+                            "render_method": "alpha_test"
+                        },
+                        "flower": {
+                            "texture": "cc:pot_peony",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:flower') == 'lilac'",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:sandstone_big_flower_pot_side",
+                            "render_method": "alpha_test"
+                        },
+                        "top": {
+                            "texture": "cc:sandstone_big_flower_pot_top",
+                            "render_method": "alpha_test"
+                        },
+                        "bottom": {
+                            "texture": "cc:sandstone_big_flower_pot_bottom",
+                            "render_method": "alpha_test"
+                        },
+                        "flower": {
+                            "texture": "cc:pot_lilac",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:flower') == 'blue_jungle_plant'",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:sandstone_big_flower_pot_side",
+                            "render_method": "alpha_test"
+                        },
+                        "top": {
+                            "texture": "cc:sandstone_big_flower_pot_top",
+                            "render_method": "alpha_test"
+                        },
+                        "bottom": {
+                            "texture": "cc:sandstone_big_flower_pot_bottom",
+                            "render_method": "alpha_test"
+                        },
+                        "flower": {
+                            "texture": "cc:pot_blue_jungle_plant",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:flower') == 'yellow_jungle_plant'",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:sandstone_big_flower_pot_side",
+                            "render_method": "alpha_test"
+                        },
+                        "top": {
+                            "texture": "cc:sandstone_big_flower_pot_top",
+                            "render_method": "alpha_test"
+                        },
+                        "bottom": {
+                            "texture": "cc:sandstone_big_flower_pot_bottom",
+                            "render_method": "alpha_test"
+                        },
+                        "flower": {
+                            "texture": "cc:pot_yellow_jungle_plant",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:flower') == 'taiga_red_plant'",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:sandstone_big_flower_pot_side",
+                            "render_method": "alpha_test"
+                        },
+                        "top": {
+                            "texture": "cc:sandstone_big_flower_pot_top",
+                            "render_method": "alpha_test"
+                        },
+                        "bottom": {
+                            "texture": "cc:sandstone_big_flower_pot_bottom",
+                            "render_method": "alpha_test"
+                        },
+                        "flower": {
+                            "texture": "cc:pot_taiga_red_plant",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:flower') == 'taiga_orange_plant'",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:sandstone_big_flower_pot_side",
+                            "render_method": "alpha_test"
+                        },
+                        "top": {
+                            "texture": "cc:sandstone_big_flower_pot_top",
+                            "render_method": "alpha_test"
+                        },
+                        "bottom": {
+                            "texture": "cc:sandstone_big_flower_pot_bottom",
+                            "render_method": "alpha_test"
+                        },
+                        "flower": {
+                            "texture": "cc:pot_taiga_orange_plant",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

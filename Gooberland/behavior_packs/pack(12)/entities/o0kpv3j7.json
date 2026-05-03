@@ -1,0 +1,287 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "cc:hermit",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false,
+            "properties": {
+                "cc:is_dancing": {
+                    "client_sync": true,
+                    "type": "bool",
+                    "default": false
+                },
+                "cc:shell_type": {
+                    "client_sync": true,
+                    "type": "enum",
+                    "default": "nautilus",
+                    "values": [
+                        "nautilus",
+                        "coconut"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": [
+                    "hermit",
+                    "mob",
+                    "animal"
+                ]
+            },
+            "minecraft:breathable": {
+                "total_supply": 15,
+                "suffocate_time": 0
+            },
+            "minecraft:attack": {
+                "damage": 1
+            },
+            "minecraft:behavior.melee_attack": {
+                "priority": 3
+            },
+            "minecraft:behavior.hurt_by_target": {
+                "priority": 1
+            },
+            "minecraft:navigation.walk": {
+                "is_amphibious": true,
+                "can_path_over_water": true,
+                "avoid_water": false,
+                "avoid_damage_blocks": true
+            },
+            "minecraft:movement.basic": {},
+            "minecraft:jump.static": {},
+            "minecraft:can_climb": {},
+            "minecraft:collision_box": {
+                "width": 0.4,
+                "height": 0.3
+            },
+            "minecraft:nameable": {},
+            "minecraft:health": {
+                "value": 10,
+                "max": 10
+            },
+            "minecraft:hurt_on_condition": {
+                "damage_conditions": [
+                    {
+                        "filters": {
+                            "test": "in_lava",
+                            "subject": "self",
+                            "operator": "==",
+                            "value": true
+                        },
+                        "cause": "lava",
+                        "damage_per_tick": 4
+                    }
+                ]
+            },
+            "minecraft:movement": {
+                "value": 0.3
+            },
+            "minecraft:sittable": {},
+            "minecraft:despawn": {
+                "despawn_from_distance": {}
+            },
+            "minecraft:behavior.panic": {
+                "priority": 1,
+                "speed_multiplier": 1.0
+            },
+            "minecraft:behavior.mount_pathing": {
+                "priority": 2,
+                "speed_multiplier": 1.0,
+                "target_dist": 0.0,
+                "track_target": true
+            },
+            "minecraft:inventory": {
+                "inventory_size": 1,
+                "private": true
+            },
+            "minecraft:behavior.follow_parent": {
+                "priority": 5,
+                "speed_multiplier": 1.0
+            },
+            "minecraft:behavior.random_stroll": {
+                "priority": 6,
+                "speed_multiplier": 0.5
+            },
+            "minecraft:behavior.lay_down": {
+                "priority": 5,
+                "interval": 240,
+                "random_stop_interval": 120
+            },
+            "minecraft:behavior.look_at_player": {
+                "priority": 7,
+                "look_distance": 6.0,
+                "probability": 0.02
+            },
+            "minecraft:behavior.random_look_around": {
+                "priority": 9
+            },
+            "minecraft:leashable": {
+                "soft_distance": 4.0,
+                "hard_distance": 6.0,
+                "max_distance": 10.0
+            },
+            "minecraft:balloonable": {},
+            "minecraft:physics": {},
+            "minecraft:pushable": {
+                "is_pushable": true,
+                "is_pushable_by_piston": true
+            },
+            "minecraft:conditional_bandwidth_optimization": {},
+            "minecraft:behavior.avoid_mob_type": {
+                "priority": 4,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "any_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "seagull"
+                                }
+                            ]
+                        },
+                        "max_dist": 10,
+                        "walk_speed_multiplier": 1.0,
+                        "sprint_speed_multiplier": 1.2
+                    }
+                ]
+            }
+        },
+        "component_groups": {
+            "cc:persistence": {
+                "minecraft:persistent": {}
+            },
+            "minecraft:hermit_adult": {
+                "minecraft:experience_reward": {
+                    "on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
+                }
+            },
+            "cc:dancing": {
+                "minecraft:movement": {
+                    "value": 0.0
+                }
+            },
+            "cc:movement": {
+                "minecraft:movement": {
+                    "value": 0.25
+                }
+            },
+            "cc:pickup_coconut": {
+                "minecraft:behavior.pickup_items": {
+                    "priority": 0,
+                    "max_dist": 10,
+                    "goal_radius": 1,
+                    "speed_multiplier": 0.8,
+                    "pickup_based_on_chance": false,
+                    "can_pickup_any_item": false,
+                    "cooldown_after_being_attacked": 20.0,
+                    "can_pickup_to_hand_or_equipment": true
+                },
+                "minecraft:inventory": {
+                    "inventory_size": 1,
+                    "private": true
+                },
+                "minecraft:shareables": {
+                    "singular_pickup": true,
+                    "items": [
+                        {
+                            "priority": 0,
+                            "item": "cc:coconut",
+                            "barter": true,
+                            "admire": true,
+                            "pickup_limit": 1
+                        }
+                    ]
+                },
+                "minecraft:behavior.admire_item": {
+                    "priority": 0,
+                    "on_admire_item_stop": {
+                        "event": "cc:coconut_shell",
+                        "target": "self"
+                    }
+                },
+                "minecraft:admire_item": {
+                    "cooldown_after_being_attacked": 20,
+                    "duration": 0
+                }
+            }
+        },
+        "events": {
+            "cc:coconut_shell": {
+                "set_property": {
+                    "cc:shell_type": "coconut"
+                },
+                "remove": {
+                    "component_groups": [
+                        "cc:pickup_coconut"
+                    ]
+                },
+                "queue_command": {
+                    "command": "loot spawn ~ ~ ~ loot \"cc/animals/hermit_nautilus.loot\""
+                }
+            },
+            "cc:dance": {
+                "add": {
+                    "component_groups": [
+                        "cc:dancing"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "cc:movement"
+                    ]
+                }
+            },
+            "cc:stop_dancing": {
+                "add": {
+                    "component_groups": [
+                        "cc:movement"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "cc:dancing"
+                    ]
+                }
+            },
+            "minecraft:entity_spawned": {
+                "sequence": [
+                    {
+                        "add": {
+                            "component_groups": [
+                                "cc:pickup_coconut",
+                                "minecraft:hermit_adult",
+                                "cc:movement"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "minecraft:entity_born": {
+                "add": {
+                    "component_groups": [
+                        "minecraft:hermit_adult"
+                    ]
+                }
+            },
+            "minecraft:entity_transformed": {
+                "remove": {},
+                "add": {
+                    "component_groups": [
+                        "minecraft:hermit_adult"
+                    ]
+                }
+            },
+            "cc:persistence": {
+                "add": {
+                    "component_groups": [
+                        "cc:persistence"
+                    ]
+                }
+            }
+        }
+    }
+}

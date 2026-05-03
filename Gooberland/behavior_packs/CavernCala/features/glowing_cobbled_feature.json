@@ -1,0 +1,25 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "generation:glowing_cobbled_feature"
+		},
+		"count": 80,
+		"replace_rules": [
+			{
+				"places_block": "block:glowing_cobblestone",
+				"may_replace": [
+					"minecraft:cobblestone"
+				]
+			},
+			{
+				"places_block": "block:glowing_deepslate",
+				"may_replace": [
+					{
+						"name": "minecraft:cobbled_deepslate"
+					}
+				]
+			}
+		]
+	}
+}

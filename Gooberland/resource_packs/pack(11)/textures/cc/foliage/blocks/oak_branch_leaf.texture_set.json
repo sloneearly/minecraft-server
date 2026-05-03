@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "oak_branch_leaf",
+    "heightmap": "oak_branch_leaf_heightmap",
+    "metalness_emissive_roughness_subsurface": "oak_branch_leaf_mers"
+  }
+}

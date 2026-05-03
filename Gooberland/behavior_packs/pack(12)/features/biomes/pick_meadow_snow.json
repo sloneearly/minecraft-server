@@ -1,0 +1,13 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:biomes/pick_meadow_snow"
+    },
+    "places_feature": "cc:biomes/place_meadow_snow",
+    "iterations": "((t.biome_idx < 1) ? 1 : 0)",
+    "x": 0,
+    "y": 0,
+    "z": 0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:desert_grass_rule",
+      "places_feature": "cc:desert_grass_scatter"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": {
+        "any_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "beach"
+          }
+        ],
+        "none_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "cold"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 15,
+      "scatter_chance": 30.0,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          -10,
+          10
+        ]
+      },
+      "y": "query.heightmap(v.originx, v.originz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          -10,
+          10
+        ]
+      }
+    }
+  }
+}

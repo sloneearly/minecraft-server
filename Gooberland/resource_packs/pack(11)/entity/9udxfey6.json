@@ -1,0 +1,81 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:crocodile",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/cc/animals/entities/crocodile"
+      },
+      "geometry": {
+        "default": "geometry.crocodile"
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:crocodile_spawn_egg"
+      },
+      "scripts": {
+        "initialize": [
+          "v.relative_run_speed = 0.6;",
+          "variable.pitch = 0;",
+          "variable.roll = 0;",
+          "v.max_leg_rot = 45;",
+          "v.max_leg_pos_h = 2;",
+          "v.max_leg_pos_v = 1;",
+          "v.body_bump = 0.5;",
+          "v.body_rot = 5;",
+          "v.head_bump = 0.5;",
+          "v.playback_multiplier = 0.5;"
+        ],
+        "pre_animation": [
+          "variable.pitch = ((math.clamp(q.is_on_ground ? 0 : q.body_x_rotation, -20, 20) - (math.clamp(q.vertical_speed * 1, -90, 5)) + ( 3 * variable.pitch)) / 4);",
+          "variable.roll = ((q.is_on_ground ? 0 : (-q.yaw_speed) / 4) + (4 * v.roll)) / 5;"
+        ],
+        "animate": [
+          "root",
+          "move_controller",
+          //"tail_controller",
+          "tail",
+          "attack_controller",
+          "lay_down_controller",
+          "look_at_target",
+          "rotate_controller",
+          "lay_egg_controller",
+          { "baby_transform": "query.is_baby" }
+        ]
+      },
+      "sound_effects": {
+        "snap": "cc:crocodile_snap"
+      },
+      "animations": {
+        // Controllers
+        "move_controller": "controller.animation.cc.move",
+        //"tail_controller": "controller.animation.cc.tail",
+        "attack_controller": "controller.animation.cc.delayed_attack",
+        "lay_down_controller": "controller.animation.cc.lay_down",
+        "lay_egg_controller": "controller.animation.cc.lay_egg",
+        "lay_egg": "animation.cc.crocodile.lay_egg",
+
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.cc.baby_transform.half",
+        "root": "animation.cc.common.root",
+        "idle": "animation.cc.common.idle",
+        "walk": "animation.cc.quadruped.walk",
+        "fly": "animation.cc.crocodile.walk",
+        "run": "animation.cc.crocodile.run",
+        "tail": "animation.cc.common.tail",
+        "swim": "animation.cc.crocodile.swim",
+        "swim_idle": "animation.cc.crocodile.swim",
+        "swim_run": "animation.cc.crocodile.swim",
+        "sit": "animation.cc.crocodile.sit",
+        "delayed_attack": "animation.cc.crocodile.attack",
+        "rotate": "animation.cc.quadruped.rotation",
+        "rotate_controller": "controller.animation.cc.quadruped.rotation"
+      },
+      "render_controllers": ["controller.render.cc.common"],
+      "enable_attachables": true
+    }
+  }
+}

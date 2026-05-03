@@ -1,0 +1,57 @@
+{
+  "format_version":"1.8.0",
+  "animation_controllers": {
+	  "controller.animation.spider_illager.move": {
+			"states": {
+				"default": {
+          "parameters": [ "query.modified_move_speed" ],
+					"animations": [
+						{ "default_leg_pose": [] },
+            { 
+							"walk": [
+								{
+									"0.0": 0.0,
+									"1.0": 1.0
+								}
+							]
+						},
+						{	"general": [] },
+						{	"look_at_target": [] }
+					],
+					"transitions": [
+						{ "casting": "query.is_casting" }
+					]
+				},
+				"casting": {
+					"parameters": [ "query.modified_move_speed" ],
+					"animations": [
+						{ "default_leg_pose": [] },
+						{ 
+							"walk": [
+								{
+									"0.0": 0.0,
+									"1.0": 1.0
+								}
+							]
+						},
+						{	"general": [] },
+						{	"look_at_target": [] }
+					],
+					"particle_effects": [
+						{
+							"effect": "spell",
+							"locator": "left_hand"
+						},
+						{
+							"effect": "spell",
+							"locator": "right_hand"
+						}
+					],
+					"transitions": [
+						{ "default": "!query.is_casting" }
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cc:dummy"
+    },
+    "assume_symmetry": true,
+    "tags": ["crafting_table"],
+    "pattern": ["H", "*"],
+    "key": {
+      "*": {
+        "item": "minecraft:fence"
+      },
+      "H": {
+        "item": "minecraft:hay_block"
+      }
+    },
+    "result": "cc:dummy"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "wan_redcave:tech_shield_t2",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "wan_redcave:tech_shield_t2.name"
+      },
+      "minecraft:icon": "wan_redcave:tech_shield_t2",
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:allow_off_hand": true,
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_shield"
+        ]
+      },
+      "minecraft:cooldown": {
+        "category": "wan_redcave:tech_shield_t2",
+        "duration": 6
+      },
+      "minecraft:enchantable": {
+        "slot": "sword",
+        "value": 15
+      },
+      "minecraft:damage": {
+        "value": 12
+      },
+      "minecraft:durability": {
+        "max_durability": 750
+      },
+      "minecraft:can_destroy_in_creative": false
+    }
+  }
+}

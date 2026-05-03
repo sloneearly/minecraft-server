@@ -1,0 +1,23 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "generation:glowing_amethyst_feature"
+		},
+		"count": 5,
+		"replace_rules": [
+			{
+				"places_block": "block:glowing_amethyst_block",
+				"may_replace": [
+					"minecraft:amethyst_block"
+				]
+			},
+			{
+				"places_block": "block:glowing_amethyst_block",
+				"may_replace": [
+					"minecraft:deepslate"
+				]
+			}
+		]
+	}
+}

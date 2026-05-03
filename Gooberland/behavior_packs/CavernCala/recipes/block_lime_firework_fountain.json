@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lime_firework_fountain_b4cfd8bf"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "CEC"
+    ],
+    "key": {
+      "A": {
+        "item": "item:sulfur",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:string",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:paper",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:lime_dye",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:gunpowder",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:lime_firework_fountain",
+      "count": 1
+    }
+  }
+}

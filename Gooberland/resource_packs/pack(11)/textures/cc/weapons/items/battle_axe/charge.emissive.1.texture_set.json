@@ -1,0 +1,7 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "charge.emissive.1",
+    "metalness_emissive_roughness_subsurface": "charge.emissive.1_mers"
+  }
+}

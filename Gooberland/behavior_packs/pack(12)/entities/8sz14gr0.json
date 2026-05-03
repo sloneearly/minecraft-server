@@ -1,0 +1,243 @@
+{
+  "format_version": "1.16.210",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cc:weapon_stand",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "animations": {
+        "grid_snap": "controller.animation.cc.grid_snap"
+      },
+      "scripts": {
+        "animate": ["grid_snap"]
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["armor_stand", "inanimate", "mob"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.0,
+        "height": 0
+      },
+      "minecraft:custom_hit_test": {
+        "hitboxes": [
+          {
+            "width": 1,
+            "height": 0.5,
+            "pivot": [0, 0, 0]
+          }
+        ]
+      },
+      "minecraft:inventory": {
+        "inventory_size": 2
+      },
+      "minecraft:despawn": {
+        "despawn_from_inactivity": false
+      },
+      "minecraft:health": {
+        "value": 6,
+        "max": 6
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/armor_stand.json"
+      },
+      "minecraft:nameable": {},
+      "minecraft:persistent": {},
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {}
+    },
+
+    "component_groups": {
+      "cc:has_item": {
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    }
+                  ]
+                },
+                "event": "cc:no_item",
+                "target": "self"
+              },
+              "swing": true,
+              "take_item": true,
+              "give_item": true,
+              "play_sounds": "",
+              "interact_text": "cc.weapon_stand.take"
+            }
+          ]
+        }
+      },
+      "cc:no_item": {
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    },
+                    {
+                      "any_of": [
+                        {
+                          "test": "has_equipment_tag",
+                          "subject": "other",
+                          "domain": "hand",
+                          "operator": "==",
+                          "value": "minecraft:is_axe"
+                        },
+                        {
+                          "test": "has_equipment_tag",
+                          "subject": "other",
+                          "domain": "hand",
+                          "operator": "==",
+                          "value": "minecraft:is_hoe"
+                        },
+                        {
+                          "test": "has_equipment_tag",
+                          "subject": "other",
+                          "domain": "hand",
+                          "operator": "==",
+                          "value": "minecraft:is_sword"
+                        },
+                        {
+                          "test": "has_equipment_tag",
+                          "subject": "other",
+                          "domain": "hand",
+                          "operator": "==",
+                          "value": "minecraft:is_pickaxe"
+                        },
+                        {
+                          "test": "has_equipment_tag",
+                          "subject": "other",
+                          "domain": "hand",
+                          "operator": "==",
+                          "value": "minecraft:is_shovel"
+                        },
+                        {
+                          "test": "has_equipment_tag",
+                          "subject": "other",
+                          "domain": "hand",
+                          "operator": "==",
+                          "value": "minecraft:is_tool"
+                        },
+                        {
+                          "test": "has_equipment_tag",
+                          "subject": "other",
+                          "domain": "hand",
+                          "operator": "==",
+                          "value": "minecraft:is_trident"
+                        },
+                        {
+                          "test": "has_equipment_tag",
+                          "subject": "other",
+                          "domain": "hand",
+                          "operator": "==",
+                          "value": "minecraft:is_bow"
+                        },
+                        {
+                          "test": "has_equipment",
+                          "subject": "other",
+                          "domain": "hand",
+                          "operator": "==",
+                          "value": "minecraft:bow"
+                        },
+                        {
+                          "test": "has_equipment",
+                          "subject": "other",
+                          "domain": "hand",
+                          "operator": "==",
+                          "value": "minecraft:crossbow"
+                        },
+                        {
+                          "test": "has_equipment",
+                          "subject": "other",
+                          "domain": "hand",
+                          "operator": "==",
+                          "value": "cc:pharaoh_staff"
+                        },
+                        {
+                          "test": "has_equipment",
+                          "subject": "other",
+                          "domain": "hand",
+                          "operator": "==",
+                          "value": "cc:siren_staff"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "event": "cc:has_item",
+                "target": "self"
+              },
+              "swing": true,
+              "give_item": true,
+              "take_item": true,
+              "play_sounds": "item.book.put",
+              "interact_text": "cc.weapon_stand.give"
+            }
+          ]
+        }
+      }
+    },
+
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": ["cc:no_item"]
+        },
+        "queue_command": {
+          "command": "playsound mob.armor_stand.land @a "
+        }
+      },
+      "cc:has_item": {
+        "remove": {
+          "component_groups": ["cc:no_item"]
+        },
+        "add": {
+          "component_groups": ["cc:has_item"]
+        }
+      },
+      "cc:no_item": {
+        "remove": {
+          "component_groups": ["cc:has_item"]
+        },
+        "add": {
+          "component_groups": ["cc:no_item"]
+        }
+      }
+    }
+  }
+}

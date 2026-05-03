@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hardened_cyan_stained_glass_8f7c8cb3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:cyan_stained_glass",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:iron_nugget",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:hardened_cyan_stained_glass",
+      "count": 8
+    }
+  }
+}

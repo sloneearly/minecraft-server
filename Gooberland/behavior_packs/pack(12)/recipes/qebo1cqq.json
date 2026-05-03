@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cc:stone_javelin"
+    },
+    "assume_symmetry": true,
+    "tags": ["crafting_table"],
+    "pattern": ["**&"],
+    "key": {
+      "*": {
+        "item": "minecraft:stick"
+      },
+      "&": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    "result": "cc:stone_javelin"
+  }
+}

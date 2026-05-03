@@ -1,0 +1,71 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:leaf_litter_rule",
+      "places_feature": "cc:leaf_litter_scatter"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": {
+        "any_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "forest"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "jungle"
+          },
+          {
+            "all_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "mesa"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "plateau"
+              }
+            ]
+          }
+        ],
+        "none_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "cold"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "plains"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 30,
+      "scatter_chance": 40.0,
+      "x": {
+        "distribution": "triangle",
+        "extent": [
+          -8,
+          8
+        ]
+      },
+      "y": "query.heightmap(v.originx, v.originz)",
+      "z": {
+        "distribution": "triangle",
+        "extent": [
+          -8,
+          8
+        ]
+      }
+    }
+  }
+}

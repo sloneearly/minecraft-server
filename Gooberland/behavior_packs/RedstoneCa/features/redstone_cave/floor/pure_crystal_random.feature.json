@@ -1,0 +1,70 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "wan_redcave:redstone_cave/floor/pure_crystal_random.feature"
+    },
+    "features": [
+      [
+        "wan_redcave:redstone_cave/floor/crys_structures/crys_1_0.feature",
+        10
+      ],
+      [
+        "wan_redcave:redstone_cave/floor/crys_structures/crys_1_1.feature",
+        10
+      ],
+      [
+        "wan_redcave:redstone_cave/floor/crys_structures/crys_1_2.feature",
+        10
+      ],
+      [
+        "wan_redcave:redstone_cave/floor/crys_structures/crys_1_3.feature",
+        10
+      ],
+      [
+        "wan_redcave:redstone_cave/floor/crys_structures/crys_2_0.feature",
+        4
+      ],
+      [
+        "wan_redcave:redstone_cave/floor/crys_structures/crys_2_1.feature",
+        4
+      ],
+      [
+        "wan_redcave:redstone_cave/floor/crys_structures/crys_3_0.feature",
+        1
+      ],
+      [
+        "wan_redcave:redstone_cave/floor/crys_structures/crys_3_1.feature",
+        2
+      ],
+      [
+        "wan_redcave:redstone_cave/floor/crys_structures/crys_3_2.feature",
+        2
+      ],
+      [
+        "wan_redcave:redstone_cave/floor/crys_structures/crys_3_3.feature",
+        2
+      ],
+      [
+        "wan_redcave:redstone_cave/floor/crys_structures/crys_3_4.feature",
+        2
+      ],
+      [
+        "wan_redcave:redstone_cave/floor/crys_structures/crys_3_5.feature",
+        2
+      ],
+      [
+        "wan_redcave:redstone_cave/floor/crys_structures/crys_3_6.feature",
+        2
+      ],
+      [
+        "wan_redcave:redstone_cave/floor/crys_structures/crys_3_7.feature",
+        2
+      ],
+      [
+        "wan_redcave:redstone_cave/floor/crys_structures/crys_3_8.feature",
+        2
+      ]
+    ]
+  }
+}

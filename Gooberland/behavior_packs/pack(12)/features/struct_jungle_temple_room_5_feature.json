@@ -1,0 +1,12 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "cc:struct_jungle_temple_room_5_feature"
+    },
+    "structure_name": "cc:jungle_temple/room.5",
+    "adjustment_radius": 0,
+    "facing_direction": "south",
+    "constraints": {}
+  }
+}

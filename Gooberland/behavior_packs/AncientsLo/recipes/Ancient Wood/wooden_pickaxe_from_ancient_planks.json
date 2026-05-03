@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ancients:wooden_pickaxe_from_ancient_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			" Q ",
+			" Q "
+		],
+		"key": {
+			"A": {
+				"item": "ancients:ancient_planks"
+			},
+			"Q": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock":[
+			{
+				"item": "minecraft:stick"
+			}
+		],
+		"result": {
+			"item": "minecraft:wooden_pickaxe"
+		}
+	}
+}

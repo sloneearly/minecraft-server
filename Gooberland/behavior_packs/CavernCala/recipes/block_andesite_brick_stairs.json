@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "andesite_brick_stairs_ec7fef04"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:andesite_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:andesite_brick_stairs",
+      "count": 3
+    }
+  }
+}

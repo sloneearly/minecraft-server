@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:struct_swamp_temple_room_6_scatter"
+    },
+    "iterations": 1,
+    "x": 0,
+    "y": 0,
+    "z": 32,
+    "places_feature": "cc:struct_swamp_temple_level_0_weight"
+  }
+}

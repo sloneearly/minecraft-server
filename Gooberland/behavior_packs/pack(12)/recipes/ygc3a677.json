@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "cc:pineapple_crate"
+        },
+        "tags": [
+            "cc:cooking_table"
+        ],
+        "pattern": [
+            "***",
+            "***",
+            "***"
+        ],
+        "key": {
+            "*": {
+                "item": "cc:pineapple"
+            }
+        },
+        "result": "cc:pineapple_crate"
+    }
+}

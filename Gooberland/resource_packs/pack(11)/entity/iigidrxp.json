@@ -1,0 +1,85 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:moose",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "one": "textures/cc/animals/entities/moose/1",
+        "two": "textures/cc/animals/entities/moose/2",
+        "three": "textures/cc/animals/entities/moose/3",
+        "four": "textures/cc/animals/entities/moose/4"
+      },
+      "geometry": {
+        "default": "geometry.cc.moose"
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:moose_spawn_egg"
+      },
+      "scripts": {
+        "initialize": [
+          "v.relative_run_speed = 0.6;",
+          "variable.pitch = 0;",
+          "variable.roll = 0;",
+          "v.max_leg_rot = 45;",
+          "v.max_leg_pos_h = 1;",
+          "v.max_leg_pos_v = 3;",
+          "v.body_bump = 2;",
+          "v.body_rot = 5;",
+          "v.head_bump = 1;",
+          "v.playback_multiplier = 0.5;"
+        ],
+        "pre_animation": [
+          "variable.pitch = ((math.clamp(q.is_on_ground ? 0 : q.body_x_rotation, -20, 20) - (math.clamp(q.vertical_speed * 1, -90, 5)) + ( 3 * variable.pitch)) / 4);",
+          // plane only rolls in the air
+          "variable.roll = ((q.is_on_ground ? 0 : (-q.yaw_speed) / 4) + (4 * v.roll)) / 5;"
+        ],
+        "animate": [
+          "look_at_target",
+          "root",
+          "move_controller",
+          "attack_controller",
+          "graze_controller",
+          "lay_down_controller",
+          "rotate_controller",
+          { "call": "math.random_integer(0,150) == 1" },
+          { "baby_transform": "q.is_baby" }
+        ]
+      },
+      "sound_effects": {
+        "call": "cc:moose_call"
+      },
+      "animations": {
+        // Controllers
+        "move_controller": "controller.animation.cc.move",
+        "attack_controller": "controller.animation.cc.delayed_attack",
+        "graze_controller": "controller.animation.cc.graze",
+        "lay_down_controller": "controller.animation.cc.lay_down",
+
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.cc.baby_transform.half",
+
+        "root": "animation.cc.common.root",
+
+        "idle": "animation.cc.moose.idle",
+        "walk": "animation.cc.quadruped.walk",
+        "fly": "animation.cc.moose.walk",
+        "run": "animation.cc.moose.run",
+        "swim": "animation.cc.moose.walk",
+        "swim_idle": "animation.cc.moose.walk",
+        "swim_run": "animation.cc.moose.walk",
+        "sit": "animation.cc.crocodile.walk",
+        "delayed_attack": "animation.cc.filler",
+        "graze": "animation.cc.moose.graze",
+        "call": "animation.cc.distant_call",
+        "rotate": "animation.cc.quadruped.rotation",
+        "rotate_controller": "controller.animation.cc.quadruped.rotation"
+      },
+      "render_controllers": ["controller.render.cc.deer"],
+      "enable_attachables": true
+    }
+  }
+}

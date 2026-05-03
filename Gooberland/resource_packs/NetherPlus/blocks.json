@@ -1,0 +1,16 @@
+{
+	"format_version": [
+		0,
+		1,
+		2
+	],
+	"tt:pilarvolcano": {
+		"textures": "volcano",
+		"brightness_gamma": 0.9,
+		"sound": "netherrack"
+	},
+	"tt:glowmushroom": {
+		"textures": "glowmushroom",
+		"sound": "stone"
+	}
+}

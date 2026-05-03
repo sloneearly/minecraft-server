@@ -1,0 +1,121 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.cc.golem.arms": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "animations": [
+                        {
+                            "walk.arms": "!q.has_target"
+                        },
+                        {
+                            "walk.arms.target": "q.has_target"
+                        }
+                    ],
+                    "transitions": [
+                        {
+                            "ranged_attack": "q.is_charged"
+                        },
+                        {
+                            "attacking": "v.attack_time > 0.0"
+                        }
+                    ]
+                },
+                "attacking": {
+                    "animations": [
+                        "attack"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "q.all_animations_finished"
+                        }
+                    ]
+                },
+                "ranged_attack": {
+                    "animations": [
+                        "ranged_attack"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "q.all_animations_finished || !q.facing_target_to_range_attack"
+                        }
+                    ],
+                    "blend_transition": 0.2
+                }
+            }
+        },
+        "controller.animation.cc.golem.crack_1": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "crack": "v.crack_state == 2 && v.crack_state_difference > 0"
+                        }
+                    ]
+                },
+                "crack": {
+                    "sound_effects": [
+                        {
+                            "effect": "crack"
+                        }
+                    ],
+                    "transitions": [
+                        {
+                            "default": "v.crack_state_difference == 0"
+                        }
+                    ]
+                }
+            }
+        },
+        "controller.animation.cc.golem.crack_2": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "crack": "v.crack_state == 3 && v.crack_state_difference > 0"
+                        }
+                    ]
+                },
+                "crack": {
+                    "sound_effects": [
+                        {
+                            "effect": "crack"
+                        }
+                    ],
+                    "transitions": [
+                        {
+                            "default": "v.crack_state_difference == 0"
+                        }
+                    ]
+                }
+            }
+        },
+        "controller.animation.cc.golem.crack_3": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "crack": "v.crack_state == 4 && v.crack_state_difference > 0"
+                        }
+                    ]
+                },
+                "crack": {
+                    "sound_effects": [
+                        {
+                            "effect": "crack"
+                        }
+                    ],
+                    "transitions": [
+                        {
+                            "default": "v.crack_state_difference == 0"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

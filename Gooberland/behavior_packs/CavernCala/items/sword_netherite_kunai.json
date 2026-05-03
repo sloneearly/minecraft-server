@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sword:netherite_kunai",
+            "menu_category": {
+              "category": "equipment"
+			}
+            },
+    "components": {
+      "minecraft:hand_equipped": true,
+			"minecraft:icon": {
+				"textures": {
+					"default": "sword:netherite_kunai"
+				}
+			},
+			
+      "minecraft:display_name": {
+        "value": "Netherite Kunai\n\n\n§96 Throwing damage"
+      }, 
+      "minecraft:max_stack_size": 64,
+      "minecraft:throwable": {
+        "do_swing_animation": true
+      },
+      "minecraft:projectile": {
+        "projectile_entity": "sword:netherite_kunai"
+      }
+    }
+  }
+}

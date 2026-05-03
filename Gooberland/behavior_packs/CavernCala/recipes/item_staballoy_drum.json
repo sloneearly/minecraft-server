@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "staballoy_drum_6d0b5f0f"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "BB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:white_carpet",
+        "data": 0
+      },
+      "B": {
+        "item": "item:staballoy_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:staballoy_drum",
+      "count": 1
+    }
+  }
+}

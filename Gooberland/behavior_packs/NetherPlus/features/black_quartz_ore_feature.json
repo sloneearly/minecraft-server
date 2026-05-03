@@ -1,0 +1,17 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "tt:black_quartz_ore_feature"
+		},
+
+		"count": 15,
+		"replace_rules": [
+			{
+				"places_block": "tt:black_quartz_ore",
+				"may_replace": ["minecraft:basalt"]
+			}
+		]
+	}
+}

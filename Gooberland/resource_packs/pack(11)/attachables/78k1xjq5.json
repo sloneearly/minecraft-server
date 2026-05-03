@@ -1,0 +1,53 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "cc:poison_javelin",
+      "materials": {
+        "default": "outline_base_glow",
+        "enchanted": "outline_base_glow",
+        "outline": "outline",
+        "glow": "glow"
+      },
+      "textures": {
+        "default": "textures/cc/weapons/items/javelin/poison",
+        "enchanted": "textures/misc/enchanted_item_glint",
+        "outline": "textures/cc/weapons/items/outline/poison",
+        "glow": "textures/cc/weapons/items/glow/poison"
+      },
+      "geometry": {
+        "default": "geometry.cc.mesh_attachable",
+        "outline": "geometry.cc.outline.attachable",
+        "glow": "geometry.cc.glow.attachable"
+      },
+      "animations": {
+        "wield": "controller.animation.trident.wield",
+        "wield_first_person": "animation.cc.weapon.wield.first_person",
+        "wield_third_person": "animation.cc.weapon.wield.third_person",
+        "wield_first_person_raise": "animation.cc.trident.wield_first_person_raise",
+        "wield_first_person_raise_shake": "animation.cc.trident.wield_first_person_raise_shake",
+        "wield_first_person_riptide": "animation.cc.trident.wield_first_person_riptide",
+        "wield_third_person_raise": "animation.cc.trident.wield_third_person_raise",
+        "scale": "animation.cc.weapon.scale.20px",
+        "glow": "animation.cc.weapon.glow.third_person"
+      },
+      "scripts": {
+        "initialize": ["v.charge_time = 400;"],
+        "pre_animation": [
+          "variable.charge_amount = math.clamp((query.main_hand_item_max_duration - (query.main_hand_item_use_duration - query.frame_alpha + 1.0)) / 10.0, 0.0, 1.0f);",
+          "v.has_ammo = 1;",
+          "v.is_charged = v.has_ammo && q.is_using_item && query.item_in_use_duration >= v.charge_time && query.is_selected_item;;",
+          "v.is_charging = v.has_ammo && q.is_using_item && query.item_in_use_duration < v.charge_time;"
+        ],
+        "animate": ["wield", "scale", { "glow": "!c.is_first_person" }]
+      },
+      "render_controllers": [
+        "controller.render.cc.item",
+        {
+          "controller.render.cc.item.outline": "v.is_charged"
+        },
+        { "controller.render.cc.item.glow": "v.is_charged" }
+      ]
+    }
+  }
+}

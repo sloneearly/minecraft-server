@@ -1,0 +1,144 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cc.golem.attack": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.4167,
+			"bones": {
+				"rightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2083": [-150, 0, 0],
+						"0.4167": [0, 0, 0]
+					}
+				},
+				"leftArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2083": [-150, 0, 0],
+						"0.4167": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "throw"
+				}
+			}
+		},
+		"animation.cc.golem.walk": {
+			"loop": true,
+			"bones": {
+				"waist": {
+					"rotation": [0, 0, "variable.modified_tcos0 / 1.5"]
+				},
+				"Head": {
+					"rotation": [0, 0, "variable.modified_tcos0 / 1.5"]
+				},
+				"rightLeg": {
+					"rotation": ["variable.modified_tcos0 * 6.0", 0, 0]
+				},
+				"leftLeg": {
+					"rotation": ["-variable.modified_tcos0 * 6.0", 0, 0]
+				}
+			}
+		},
+		"animation.cc.golem.walk.arms": {
+			"loop": true,
+			"bones": {
+				"waist": {
+					"rotation": [0, 0, "variable.modified_tcos0 / 1.5"]
+				},
+				"Head": {
+					"rotation": [0, 0, "variable.modified_tcos0 / 1.5"]
+				},
+				"rightArm": {
+					"rotation": ["-variable.modified_tcos0 * 6.0", 0, 0]
+				},
+				"leftArm": {
+					"rotation": ["variable.modified_tcos0 * 6.0", 0, 0]
+				}
+			}
+		},
+		"animation.cc.golem.walk.target": {
+			"loop": true,
+			"bones": {
+				"waist": {
+					"rotation": [0, 0, "2.0 * (math.abs(math.mod(query.modified_distance_moved + 6, 13.0) - 6.5) - 3.25)"]
+				},
+				"Head": {
+					"rotation": [0, 0, "2.0 * (math.abs(math.mod(query.modified_distance_moved + 6, 13.0) - 6.5) - 3.25)"]
+				},
+				"rightLeg": {
+					"rotation": ["(math.cos(query.modified_distance_moved * 38.17) * 40.0)", 0, 0]
+				},
+				"leftLeg": {
+					"rotation": ["(math.cos(query.modified_distance_moved * 38.17 + 180) * 40.0)", 0, 0]
+				}
+			}
+		},
+		"animation.cc.golem.walk.arms.target": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": ["((math.abs(math.mod(query.modified_distance_moved, 13) - 6.5) - 3.25) / 2.25) * 30.0", 0, 0]
+				},
+				"leftArm": {
+					"rotation": ["((math.abs(math.mod(query.modified_distance_moved, 13) - 6.5) - 3.25) / 2.25) * -30.0", 0, 0]
+				}
+			}
+		},
+		"animation.cc.golem.ranged_attack": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2,
+			"bones": {
+				"rightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-46.1453, -12.8091, -12.025],
+						"0.8333": [-102.88, -4.27, -4.01],
+						"2.0": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [1, -4, -2],
+						"0.8333": [0, 0, 0]
+					}
+				},
+				"leftArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-46.1453, 12.80911, 12.02501],
+						"0.8333": [-102.88, 4.27, 4.01],
+						"2.0": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [-1, -4, -2],
+						"0.8333": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.cc.golem.hold_ranged": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 3,
+			"bones": {
+				"rightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-92.58807, -14.98539, 0.66963],
+						"2.75": [-92.58807, -14.98539, 0.66963],
+						"3.0": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 6],
+						"2.75": [0, 0, 6],
+						"3.0": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

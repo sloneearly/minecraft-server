@@ -1,0 +1,54 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:test_boss",
+      "geometry": {
+        "default": "geometry.cc.big_foot"
+      },
+      "textures": {
+        "default": "textures/cc/boss/entities/big_foot"
+      },
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "sound_effects": {
+        "ground_smash": "cc:ground_smash"
+      },
+      "particle_effects": {
+        "ground_smash": "cc:jungle_golem_smash"
+      },
+      "animations": {
+        "walk": "animation.cc.big_foot.walk",
+        "idle": "animation.cc.big_foot.idle",
+        "look_at": "animation.cc.big_foot.look_at_target",
+        "delayed_attack": "animation.cc.big_foot.delayed_attack",
+        "smash": "animation.cc.big_foot.ground_smash",
+        "smash_controller": "controller.animation.cc.smash",
+        "attack_controller": "controller.animation.cc.delayed_attack",
+        "casting_controller": "controller.animation.cc.casting",
+        "casting": "animation.cc.big_foot.casting",
+        "charged_ranged_attack_controller": "controller.animation.cc.charged_ranged_attack",
+        "charged_ranged_attack": "animation.cc.jungle_golem.throw"
+      },
+      "scripts": {
+        "animate": [
+          "idle",
+          "smash_controller",
+          "attack_controller",
+          {
+            "walk": "q.modified_move_speed * (q.is_charging ? 2 : 1)"
+          },
+          "look_at",
+          "casting_controller",
+          "charged_ranged_attack_controller"
+        ]
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": {
+        "base_color": "#432c1a",
+        "overlay_color": "#b58c6b"
+      }
+    }
+  }
+}

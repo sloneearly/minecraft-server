@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ancients:runic_staff_unpowered"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" GA",
+			" SG",
+            "S  "
+		],
+		"key": {
+			"A": {
+				"item": "ancients:ancient_rune_fragment"
+			},
+			"G": {
+				"item": "minecraft:gold_ingot"
+			},
+			"S": {
+				"item": "minecraft:stone"
+			}
+		},
+		"unlock":[
+			{
+				"item": "minecraft:gold_ingot"
+			},
+			{
+				"item": "ancients:ancient_rune_fragment"
+			}
+		],
+		"result": {
+			"item": "ancients:runic_staff"
+		}
+	}
+}

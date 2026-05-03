@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:jungle_wide_fern_scatter"
+    },
+    "iterations": 50,
+    "x": {
+      "distribution": "triangle",
+      "extent": [-8, 8]
+    },
+    "y": {
+      "distribution": "triangle",
+      "extent": [-4, 4]
+    },
+    "z": {
+      "distribution": "triangle",
+      "extent": [-8, 8]
+    },
+    "coordinate_eval_order": "zyx",
+    "places_feature": "cc:wide_fern_feature"
+  }
+}

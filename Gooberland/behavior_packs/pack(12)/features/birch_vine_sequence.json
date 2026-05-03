@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "cc:birch_vine_sequence"
+    },
+    "early_out": "first_failure",
+    "features": [
+      "cc:birch_vine_block_check",
+      "cc:birch_vine_growing_plant"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "cc:cauliflower_crate"
+        },
+        "tags": [
+            "cc:cooking_table"
+        ],
+        "pattern": [
+            "***",
+            "***",
+            "***"
+        ],
+        "key": {
+            "*": {
+                "item": "cc:cauliflower"
+            }
+        },
+        "result": "cc:cauliflower_crate"
+    }
+}

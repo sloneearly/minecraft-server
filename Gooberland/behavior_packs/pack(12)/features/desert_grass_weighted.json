@@ -1,0 +1,18 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "cc:desert_grass_weighted"
+    },
+    "features": [
+      [
+        "cc:desert_grass_block_1",
+        1
+      ],
+      [
+        "cc:desert_grass_block_2",
+        3
+      ]
+    ]
+  }
+}

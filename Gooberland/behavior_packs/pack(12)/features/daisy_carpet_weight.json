@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "cc:daisy_carpet_weight"
+    },
+    "features": [
+      ["cc:daisy_carpet_1_feature", 1],
+      ["cc:daisy_carpet_2_feature", 1],
+      ["cc:daisy_carpet_3_feature", 1],
+      ["cc:daisy_carpet_4_feature", 1]
+    ]
+  }
+}

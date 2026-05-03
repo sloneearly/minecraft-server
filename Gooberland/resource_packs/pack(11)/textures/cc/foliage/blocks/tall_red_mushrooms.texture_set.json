@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "tall_red_mushrooms",
+    "heightmap": "tall_red_mushrooms_heightmap",
+    "metalness_emissive_roughness_subsurface": "tall_red_mushrooms_mers"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_8a8f4dd0"
+    },
+    "tags": [
+      "soul_forge"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "ACA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:redstone_block",
+        "data": 0
+      },
+      "B": {
+        "item": "item:jasper_forging_template",
+        "data": 0
+      },
+      "C": {
+        "item": "block:compact_jasper_block",
+        "data": 0
+      },
+      "D": {
+        "item": "helmet:kyanite_helmet",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "helmet:jasper_helmet",
+      "count": 1
+    }
+  }
+}

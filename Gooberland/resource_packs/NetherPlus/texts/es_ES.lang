@@ -1,0 +1,134 @@
+##items
+item.tt:black_paper=§0Papel §6Negro
+
+item.spawn_egg.entity.tt:creeper_magmatico.name=§l§6Creeper Magmatico
+item.spawn_egg.entity.tt:creeper_magmatico_retorcido.name=§l§6Creeper Magmatico Retorcido
+item.spawn_egg.entity.tt:pig_nethercandy.name=§l§6Cerdo de Carmesí
+item.spawn_egg.entity.tt:pig_nethercandy2.name=§l§6Cerdo Retorcido
+item.spawn_egg.entity.tt:pig_nethercandy3.name=§l§6Cerdo de Basalto
+item.spawn_egg.entity.tt:pig_nethercandy4.name=§l§6Cerdo de Soul Sand 
+item.spawn_egg.entity.tt:blazecarmesi.name=§l§6Blaze Carmesí
+item.spawn_egg.entity.tt:blazesould.name=§l§6Blaze de Arena de Alma
+item.spawn_egg.entity.tt:blazeretorcido.name=§l§6Blaze Retorcido
+item.spawn_egg.entity.tt:blazebasalto.name=§l§6Blaze de Basalto
+item.spawn_egg.entity.tt:demonio.name=§l§6Ghast Demoniaco Azul 
+item.spawn_egg.entity.tt:demonio_blood.name=§l§6Ghast Demoniaco Sangriento
+item.spawn_egg.entity.tt:cthulhu.name=§l§6Ojo de Cthulhu
+item.spawn_egg.entity.tt:golem_carmesi.name=§l§6Golem de Carmesí
+item.spawn_egg.entity.tt:golem_carmesi2.name=§l§6Golem Semi Corrupto Carmesí Beta 
+item.spawn_egg.entity.tt:golem_retorcido.name=§l§6Golem Retorcido
+item.spawn_egg.entity.tt:golem_retorcido2.name=§l§6Golem Semi Retorcido Beta
+item.spawn_egg.entity.tt:hongo_carmesi.name=§l§aHongo Mascota Carmesí
+item.spawn_egg.entity.tt:hongo_torcidoblack.name=§l§6Hongo Retorcido Negro
+item.spawn_egg.entity.tt:hongo_carmesiblack.name=§l§6Hongo Carmesí Negro
+item.spawn_egg.entity.tt:hongo_torcido.name=§l§aHongo Mascota Retorcida
+item.spawn_egg.entity.tt:petcarmesi.name=§l§6Patitas §4Crimson
+item.spawn_egg.entity.tt:pettwisted.name=§l§6Patitas §bTwisted
+item.spawn_egg.entity.tt:petblackstone.name=§l§6Patitas §8Blackstone
+item.spawn_egg.entity.tt:bloodymeat.name=§l§4Carne Sangrienta
+item.spawn_egg.entity.tt:crimsoncreeper.name=§l§6Creeper Carmesí
+item.spawn_egg.entity.tt:twistedcreeper.name=§l§6Creeper Retorcido
+item.spawn_egg.entity.tt:soulstrider.name=§l§6Soul Strider
+item.spawn_egg.entity.tt:creepycreeper.name=§l§6Creeper Siniestro
+item.spawn_egg.entity.tt:creeper_pet_crimson.name=§l§6Creeper Mascota Carmesi
+item.spawn_egg.entity.tt:creeper_pet_twisted.name=§l§6Creeper Mascota Retorcido
+item.spawn_egg.entity.tt:fulgor.name=§l§6Fulgor
+
+item.tt:blood=§l§4Blood
+item.tt:basalt_rod=§l§8Basalt Rod
+item.tt:crimson_rod=§l§4Crimson Rod
+item.tt:soul_rod=§l§bSoul Sand Rod
+item.tt:warped_rod=§l§5Warped Rod 
+item.spawn_egg.entity.tt:glare.name=§l§4Glare
+item.tt:crimson_helmet=§lCasco Inframundita Carmesí
+item.tt:crimson_chestplate=§lPechero Inframundita Carmesí
+item.tt:crimson_leggings=§lPantalones Inframundita Carmesí
+item.tt:crimson_boots=§lBotas Inframundita Carmesí
+
+##Entidades
+
+entity.tt:creeper_magmatico_retoricido.name=Creeper Magmatico Retorcido
+entity.tt:creeper_magmatico.name=Creeper Magmatico
+entity.tt:pig_nethercandy.name=Cerdo de Carmesí
+entity.tt:pig_nethercandy2.name=Cerdo Retorcido
+entity.tt:pig_nethercandy3.name=Cerdo de Basalto
+entity.tt:pig_nethercandy4.name=Cerdo de Soul Sand
+entity.tt:golem_carmesi.name=Golem Carmesí 
+entity.tt:golem_carmesi2.name=Golem Semi-Carmesí
+entity.tt:golem_retorcido.name=Golem Retorcido 
+entity.tt:golem_retorcido2.name=Golem Semi-Retorcido 
+entity.tt:cthulhu.name=Ojo de Cthulhu
+entity.tt:demonio.name=Ghast Demoniaco Azul 
+entity.tt:demonio_blood.name=Ghast Demoniaco Sangriento
+entity.tt:hongo_carmesi.name=Hongo Carmesí Mascota
+entity.tt:hongo_torcido.name=Hongo Retorcido Mascota
+entity.tt:hongo_torcidoblack.name=Hongo Retorcido Negro
+entity.tt:hongo_carmesiblack.name=Hongo Carmesí Negro
+entity.tt:blazebasalto.name=Basalto Blaze
+entity.tt:blazecarmesi.name=Carmesí Blaze
+entity.tt:blazesould.name=Soul Sand Blaze
+entity.tt:blazeretorcido.name=Retorcido Blaze
+entity.tt:petcarmesi.name=Patitas Crimson  
+entity.tt:pettwisted.name=Patitas Twisted 
+entity.tt:bloodymeat.name=Carne Sangrienta
+entity.tt:petblackstone.name=Patitas Blackstone
+entity.tt:twistedcreeper.name=Creeper Retorcido
+entity.tt:crimsoncreeper.name=Creeper Carmesí
+entity.tt:creepycreeper.name=Creepycreeper
+entity.tt:soulstrider.name=Soul Strider
+entity.tt:creeper_pet_crimson.name=Creeper Mascota Carmesi
+entity.tt:creeper_pet_twisted.name=Creeper Mascota Retorcido
+entity.tt:fulgor.name=Fulgor Magmatico
+entity.tt:glare.name=Glare
+
+##Blocks
+
+tile.tt:black_netherrack.name=Black Netherrack
+tile.tt:black_blood_ore.name=Black Blood Ore
+tile.tt:black_nether_gold_ore.name=Black Nether Gold Ore
+tile.tile.tt:black_netherrack.name=Black Netherrack
+tile.tt:black_quartz_ore.name=Black Quartz Ore
+tile.tt:blood_block.name=Blood Block
+tile.tt:blood_ore.name=Blood Ore
+tile.tt:bricks_basalt.name=Bricks Basalt
+tile.tt:bricks_black_netherrack.name=Bricks Black Netherrack
+tile.tt:bricks_netherrack.name=Bricks Netherrack
+tile.tt:circular_basalt.name=Circular Basalt
+tile.tt:circular_black_netherrack.name=Circular Black Netherrack
+tile.tt:circular_netherrack.name=Circular Netherrack
+tile.tt:magma_basalt.name=Magma Basalt
+tile.tt:magma_blackstone.name=Magma Blackstone
+tile.tt:magma_obsidian.name=Magma Obsidian
+tile.tt:mosaic_basalt.name=Mosaic Basalt
+tile.tt:mosaic_black_netherrack.name=Mosaic Black Netherrack
+tile.tt:mosaic_netherrack.name=Mosaic Netherrack
+tile.tt:pillarside_basalt.name=Pillarside Basalt
+tile.tt:pillarside_black_netherrack.name=Pillarside Black Netherrack
+tile.tt:pillarside_netherrack.name=Pillarside Netherrack
+tile.tt:tiles_medium_basalt.name=Tiles Medium Basalt
+tile.tt:tiles_medium_black_netherrack.name=Tiles Medium Black Netherrack
+tile.tt:tiles_medium_netherrack.name=Tiles Medium Netherrack 
+tile.tt:glowmushroom.name=§l§6Hongo Luminoso
+tile.tt:pilarvolcano.name=§l§6Pilar Volcanico
+
+
+entity.villager.glare=§4Glare Shop
+
+
+
+##Grass 
+##BasaltMob 
+##CrimsonMob 
+##WarpedMob 
+##MagmaMob 
+##GlowStone 
+##Blocks 
+##SoulMob 
+##NetherPlus 
+##Nieve 
+##Hielo 
+##Items 
+##Armor!
+##WEAPONS!
+##AMARILLO 
+##Rojo 

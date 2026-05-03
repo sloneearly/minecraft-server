@@ -1,0 +1,60 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:owl",
+      "materials": {
+        "default": "entity_alphatest",
+        "emissive": "entity_emissive_alpha"
+      },
+      "geometry": {
+        "default": "geometry.cc.owl"
+      },
+      "render_controllers": [
+        { "controller.render.cc.sit": "q.is_sitting" },
+        "controller.render.cc.common",
+        "controller.render.cc.emissive"
+      ],
+      "textures": {
+        "default": "textures/cc/animals/entities/owl",
+        "emissive": "textures/cc/animals/entities/owl",
+        "sit": "textures/cc/animals/entities/owl.sit"
+      },
+      "animations": {
+        "move_controller": "controller.animation.cc.eagle",
+        "ride_controller": "controller.animation.cc.is_riding",
+        "sit_controller": "controller.animation.cc.sit",
+        "walk": "animation.cc.owl.walk",
+        "idle": "animation.cc.owl.idle",
+        "sit": "animation.cc.owl.sit",
+        "riding": "animation.cc.owl.ride",
+        "look_at_target": "animation.common.look_at_target",
+        "fly": "animation.cc.owl.fly",
+        "fly_up": "animation.cc.owl.fly",
+        "dive": "animation.cc.owl.fly",
+        "has_rider": "animation.cc.owl.fly",
+        "baby_transform": "animation.cc.owl.baby_transform",
+        "call": "animation.cc.distant_call",
+        "eye": "animation.cc.common.eye"
+      },
+      "sound_effects": {
+        "call": "cc:owl_call"
+      },
+      "scripts": {
+        "animate": [
+          { "look_at_target": "!q.is_sitting" },
+          { "move_controller": "!q.is_riding" },
+          "ride_controller",
+          "sit_controller",
+          { "baby_transform": "query.is_baby" },
+          { "call": "math.random_integer(0,50) == 1" },
+          "eye"
+        ]
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:owl_spawn_egg"
+      }
+    }
+  }
+}

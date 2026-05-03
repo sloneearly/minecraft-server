@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.wypnt_bab.nautiling": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"uv_anim": {
+				"offset": [
+					0.0,
+					"math.mod(math.floor(query.life_time * 5),4) / 4"
+				],
+				"scale": [
+					1.0,
+					"1 / 4"
+				]
+			},
+			"textures": [
+				"Texture.default"
+			]
+		}
+	}
+}

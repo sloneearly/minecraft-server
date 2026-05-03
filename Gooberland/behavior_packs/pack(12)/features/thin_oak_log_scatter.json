@@ -1,0 +1,31 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:thin_oak_log_scatter"
+    },
+    "places_feature": "cc:thin_oak_log_block_1",
+    "iterations": 1,
+    "x": {
+      "distribution": "uniform",
+      "extent": [
+        -3,
+        3
+      ]
+    },
+    "y": {
+      "distribution": "uniform",
+      "extent": [
+        3,
+        8
+      ]
+    },
+    "z": {
+      "distribution": "uniform",
+      "extent": [
+        -3,
+        3
+      ]
+    }
+  }
+}

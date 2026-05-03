@@ -1,0 +1,193 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:advanced_green_bed",
+            "menu_category": {
+                "category": "items"
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ]
+                }
+            },
+            "states": {
+                "cc:length_x": [
+                    0,
+                    1,
+                    2
+                ]
+            }
+        },
+        "components": {
+            "minecraft:display_name": "%cc.advanced_green_bed\n%cc.category.furniture",
+            "cc:bed": {},
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:map_color": "#268720",
+            "minecraft:support": {
+                "shape": "fence"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.cc.advanced_bed.bottom"
+            },
+            "minecraft:destruction_particles": {
+                "particle_count": 0
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cc:advanced_bed_wood",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false
+                },
+                "cushion": {
+                    "texture": "cc:advanced_bed_cushion",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:transformation": {
+                "translation": [
+                    0,
+                    -1,
+                    0
+                ]
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "can_contain_liquid": true,
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:selection_box": false,
+            "minecraft:collision_box": false,
+            "minecraft:loot": "loot_tables/empty.json",
+            "tag:minecraft:is_axe_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_axe')"
+                        },
+                        "destroy_speed": 2
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('cc:length_x') > 0",
+                "components": {
+                    "minecraft:placement_filter": {
+                        "conditions": [
+                            {
+                                "allowed_faces": [
+                                    "up"
+                                ],
+                                "block_filter": [
+                                    {
+                                        "name": "minecraft:bed"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:length_x') == 1",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.cc.advanced_bed.bottom"
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:length_x') == 2",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.cc.advanced_bed.top"
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "translation": [
+                            0,
+                            -1,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ],
+                        "translation": [
+                            0,
+                            -1,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ],
+                        "translation": [
+                            0,
+                            -1,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ],
+                        "translation": [
+                            0,
+                            -1,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

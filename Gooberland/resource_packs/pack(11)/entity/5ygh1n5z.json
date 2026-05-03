@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:soul_spider",
+      "geometry": {
+        "default": "geometry.cc.spider",
+        "outline": "geometry.cc.spider.outline"
+      },
+      "textures": {
+        "default": "textures/cc/ritual/entities/soul/soul_spider",
+        "outline": "textures/cc/ritual/entities/soul/soul_spider.outline"
+      },
+      "materials": {
+        "default": "outline_base_glow",
+        "outline": "outline"
+      },
+      "sound_effects": {
+        "ground_smash": "cc:ground_smash"
+      },
+      "animations": {
+        "controller": "controller.animation.cc.delayed_attack",
+        "delayed_attack": "animation.cc.lightning_spider.smash",
+        "default_leg_pose": "animation.spider.default_leg_pose",
+        "look_at_target": "animation.spider.look_at_target",
+        "walk": "animation.spider.walk",
+        "move": "controller.animation.spider.move"
+      },
+      "scripts": {
+        "animate": ["controller", "move"]
+      },
+      "render_controllers": [
+        "controller.render.cc.ignore_lighting",
+        "controller.render.cc.item.outline"
+      ],
+       "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:soul_spider_spawn_egg"
+      }
+    }
+  }
+}

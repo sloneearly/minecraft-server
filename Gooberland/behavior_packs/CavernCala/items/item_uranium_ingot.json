@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "item:uranium_ingot",
+            "menu_category": {
+              "category": "items",
+              "group": "itemGroup.name.items"
+            }
+    },
+    "components": {
+      "tag:minecraft:trim_materials": {},
+      "minecraft:icon": {
+        "texture": "item:uranium_ingot"
+      },
+			"minecraft:fuel": {
+				"duration": 800
+			},
+      "minecraft:display_name": {
+        "value": "Uranium Ingot\n§8Boosts Iron and Copper Golems"
+      }
+    }
+  }
+}

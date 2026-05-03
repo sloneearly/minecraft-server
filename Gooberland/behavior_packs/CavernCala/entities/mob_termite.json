@@ -1,0 +1,211 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.20.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mob:termite",
+			"runtime_identifier": "minecraft:silverfish",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"minecraft:silverfish_calm": {
+				"minecraft:on_target_acquired": {
+					"event": "minecraft:become_angry",
+					"target": "self"
+				}
+			},
+			"minecraft:silverfish_angry": {
+				"minecraft:angry": {
+					"duration": -1,
+					"broadcast_anger": true,
+					"broadcast_range": 20,
+					"calm_event": {
+						"event": "minecraft:on_calm",
+						"target": "self"
+					}
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 4,
+					"speed_multiplier": 1,
+					"track_target": true
+				}
+			}
+		},
+		"components": {
+			"minecraft:experience_reward": {
+				"on_death": "query.last_hit_by_player ? 5 : 0"
+			},
+			"minecraft:type_family": {
+				"family": [
+					"silverfish",
+					"monster",
+					"mob",
+					"arthropod"
+				]
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:nameable": {},
+			"minecraft:scale": {
+				"value": 0.75
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/silverfish.json"
+			},
+			"minecraft:health": {
+				"value": 6,
+				"max": 6
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:movement": {
+				"value": 0.25
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:attack": {
+				"damage": 1
+			},
+			"minecraft:collision_box": {
+				"width": 0.4,
+				"height": 0.3
+			},
+			"minecraft:behavior.float": {
+				"priority": 1
+			},
+			"minecraft:break_blocks": {
+				"breakable_blocks": [
+					"planks",
+					"log",
+					"log2",
+					"wood",
+					"wooden_slab",
+					"wooden_pressure_plate",
+					"wooden_button",
+					"oak_stairs",
+					"jungle_stairs",
+					"dark_oak_stairs",
+					"birch_stairs",
+					"acacia_stairs",
+					"dark_oak_door",
+					"birch_trapdoor",
+					"birch_door",
+					"acacia_trapdoor",
+					"acacia_door",
+					"spruce_trapdoor",
+					"spruce_door",
+					"jungle_trapdoor",
+					"dark_oak_trapdoor",
+					"jungle_door",
+					"trapdoor",
+					"wooden_door",
+					"fence",
+					"jungle_fence_gate",
+					"fence_gate",
+					"birch_fence_gate",
+					"dark_oak_fence_gate",
+					"acacia_fence_gate",
+					"spruce_fence_gate",
+					"jukebox",
+					"fletching_table",
+					"crafting_table",
+					"composter",
+					"chest",
+					"loom",
+					"lectern",
+					"jukebox",
+					"smithing_table",
+					"spruce_button",
+					"jungle_button",
+					"dark_oak_button",
+					"birch_button",
+					"acacia_button",
+					"block:hyperion_log",
+					"block:hyperion_roots",
+					"block:hyperion_planks",
+					"block:hyperion_mosaic"
+				]
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								}
+							]
+						},
+						"max_dist": 8,
+						"attack_interval": 10
+					}
+				]
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1,
+				"alert_same_type": true
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"remove": {},
+				"add": {
+					"component_groups": [
+						"minecraft:silverfish_calm"
+					]
+				}
+			},
+			"minecraft:become_angry": {
+				"remove": {
+					"minecraft:silverfish_calm": {}
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:silverfish_angry"
+					]
+				}
+			},
+			"minecraft:on_calm": {
+				"remove": {
+					"minecraft:silverfish_angry": {}
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:silverfish_calm"
+					]
+				}
+			}
+		}
+	}
+}

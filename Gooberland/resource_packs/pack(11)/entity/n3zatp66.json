@@ -1,0 +1,65 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:hermit",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/cc/animals/entities/hermit",
+        "coconut": "textures/cc/animals/entities/hermit_coconut"
+      },
+      "geometry": {
+        "default": "geometry.cc.hermit",
+        "coconut": "geometry.cc.hermit_coconut"
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:hermit_spawn_egg"
+      },
+      "scripts": {
+        "initialize": ["v.relative_run_speed = 0.6;", "variable.pitch = 0;", "variable.roll = 0;"],
+        "pre_animation": [
+          "variable.pitch = ((math.clamp(q.is_on_ground ? 0 : q.body_x_rotation, -20, 20) - (math.clamp(q.vertical_speed * 1, -90, 5)) + ( 3 * variable.pitch)) / 4);",
+          // plane only rolls in the air
+          "variable.roll = ((q.is_on_ground ? 0 : (-q.yaw_speed) / 4) + (4 * v.roll)) / 5;"
+        ],
+        "animate": [
+          "look_at_target",
+          "root",
+          "dance_controller",
+          {"move_controller": "!q.property('cc:is_dancing')"},
+          {"attack_controller": "!q.property('cc:is_dancing')"},
+
+          {"lay_down_controller": "!q.property('cc:is_dancing')"}
+        ]
+      },
+      "animations": {
+        // Controllers
+        "move_controller": "controller.animation.cc.move",
+        "attack_controller": "controller.animation.cc.delayed_attack",
+        "lay_down_controller": "controller.animation.cc.lay_down",
+
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.cc.baby_transform",
+
+        "root": "animation.cc.common.root",
+
+        "idle": "animation.cc.filler",
+        "walk": "animation.cc.hermit.walk",
+        "fly": "animation.cc.hermit.walk",
+        "run": "animation.cc.hermit.walk",
+        "swim": "animation.cc.hermit.walk",
+        "swim_idle": "animation.cc.hermit.walk",
+        "swim_run": "animation.cc.hermit.walk",
+        "sit": "animation.cc.hermit.sit",
+        "delayed_attack": "animation.cc.hermit.walk",
+        "dance": "animation.cc.hermit.dance",
+        "dance_controller": "controller.animation.cc.common.dance"
+      },
+      "render_controllers": ["controller.render.cc.hermit"],
+      "enable_attachables": true
+    }
+  }
+}

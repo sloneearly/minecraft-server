@@ -1,0 +1,20 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "generation:mimic_feature"
+		},
+		"count": 40,
+		"replace_rules": [
+			{
+				"places_block": "block:mimic_chest",
+				"may_replace": [
+					{
+						"name": "minecraft:chest"
+					}
+				]
+			}
+		]
+	}
+}

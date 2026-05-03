@@ -1,0 +1,57 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:growing_plant_feature": {
+		"description": {
+			"identifier": "gen:dripping_spider"
+		},
+		"height_distribution": [
+			[
+				{
+					"range_min": 1,
+					"range_max": 6
+				},
+				2
+			],
+			[
+				{
+					"range_min": 1,
+					"range_max": 8
+				},
+				3
+			],
+			[
+				{
+					"range_min": 1,
+					"range_max": 10
+				},
+				1
+			]
+		],
+		"growth_direction": "DOWN",
+		"age": {
+			"range_min": 2,
+			"range_max": 4
+		},
+		"body_blocks": [
+			[
+				"minecraft:web",
+				3
+			],
+			[
+				"minecraft:web",
+				2
+			]
+		],
+		"head_blocks": [
+			[
+				"minecraft:web",
+				4
+			],
+			[
+				"minecraft:web",
+				2
+			]
+		],
+		"allow_water": true
+	}
+}

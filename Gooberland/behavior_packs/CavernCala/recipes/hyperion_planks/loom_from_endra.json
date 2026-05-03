@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "block:loom_from_hyperion"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "##", 
+            "~~"
+        ],
+        "key": {
+            "~": {
+                "item": "block:hyperion_planks"
+            },
+            "#": {
+                "item": "minecraft:string"
+            }
+        },
+        "result": [
+			{
+				"item": "minecraft:loom",
+				"count": 1
+			}
+		]
+    }
+}

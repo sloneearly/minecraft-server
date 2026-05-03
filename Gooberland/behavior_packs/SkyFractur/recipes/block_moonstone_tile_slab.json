@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "moonstone_tile_slab_c853d967"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:moonstone_brick_slab",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:moonstone_tile_slab",
+      "count": 6
+    }
+  }
+}

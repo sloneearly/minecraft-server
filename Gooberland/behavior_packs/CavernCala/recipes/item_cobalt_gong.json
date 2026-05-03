@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cobalt_gong_d61ec65e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:string",
+        "data": 0
+      },
+      "B": {
+        "item": "item:cobalt_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:cobalt_gong",
+      "count": 1
+    }
+  }
+}

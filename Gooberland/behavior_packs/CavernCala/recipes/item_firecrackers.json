@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "firecrackers_94bd93e7"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " AB",
+      " CD",
+      "EB "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:paper",
+        "data": 0
+      },
+      "C": {
+        "item": "item:sulfur",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:gunpowder",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:string",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:firecrackers",
+      "count": 8
+    }
+  }
+}

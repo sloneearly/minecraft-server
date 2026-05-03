@@ -1,0 +1,70 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:cassowary",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/cc/animals/entities/cassowary"
+      },
+      "geometry": {
+        "default": "geometry.cc.cassowary"
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:cassowary_spawn_egg"
+      },
+      "scripts": {
+        "initialize": ["v.relative_run_speed = 0.55;", "variable.pitch = 0;", "variable.roll = 0;"],
+        "pre_animation": [
+          "variable.pitch = ((math.clamp(q.is_on_ground ? 0 : q.body_x_rotation, -20, 20) - (math.clamp(q.vertical_speed * 1, -90, 5)) + ( 3 * variable.pitch)) / 4);",
+          // plane only rolls in the air
+          "variable.roll = ((q.is_on_ground ? 0 : (-q.yaw_speed) / 4) + (4 * v.roll)) / 5;"
+        ],
+        "animate": [
+          "look_at_target",
+          "root",
+          "move_controller",
+          "lay_down_controller",
+          "delayed_attack_controller",
+          "hunger_controller",
+          "lay_egg_controller",
+          {
+            "baby_transform": "q.is_baby"
+          }
+        ]
+      },
+      "particle_effects": {
+        "hunger_2": "cc:friendly",
+        "hunger_1": "cc:friendly_hunger"
+      },
+      "animations": {
+        // Controllers
+        "move_controller": "controller.animation.cc.move",
+        "lay_down_controller": "controller.animation.cc.lay_down",
+        "look_at_target": "animation.common.look_at_target",
+        "delayed_attack_controller": "controller.animation.cc.delayed_attack",
+
+        "lay_egg_controller": "controller.animation.cc.lay_egg",
+        "lay_egg": "animation.cc.cassowary.lay_egg",
+
+        "baby_transform": "animation.cc.baby_transform.half",
+        "root": "animation.cc.common.root",
+        "idle": "animation.cc.cassowary.idle",
+        "walk": "animation.cc.cassowary.walk",
+        "run": "animation.cc.cassowary.walk",
+        "swim": "animation.cc.cassowary.walk",
+        "swim_idle": "animation.cc.cassowary.walk",
+        "swim_run": "animation.cc.cassowary.walk",
+        "sit": "animation.cc.cassowary.walk",
+        "fly": "animation.cc.cassowary.walk",
+        "delayed_attack": "animation.cc.cassowary.attack",
+        "hunger_controller": "controller.animation.cc.hunger.particle"
+      },
+      "render_controllers": ["controller.render.cc.common"],
+      "enable_attachables": true
+    }
+  }
+}

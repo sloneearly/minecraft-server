@@ -1,0 +1,57 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "minecraft:deepslateruins3_feature_rule",
+			"places_feature": "generation:deepslateruins3_feature_mcstructure"
+		},
+		"conditions": {
+			"placement_pass": "after_underground_pass",
+			"minecraft:biome_filter": [
+				{
+					"all_of": [
+						{
+							"all_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "overworld"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "notlivable"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 1,
+			"scatter_chance": 6,
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					7,
+					8
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					-50,
+					-10
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					7,
+					8
+				]
+			}
+		}
+	}
+}

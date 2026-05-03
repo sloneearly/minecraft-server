@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "corn.bottom.4",
+    "heightmap": "corn.bottom.4_heightmap",
+    "metalness_emissive_roughness_subsurface": "corn.bottom.4_mers"
+  }
+}

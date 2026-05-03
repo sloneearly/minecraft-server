@@ -1,0 +1,54 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:soul_spirit",
+      "materials": {
+        "default": "outline_base_glow",
+        "outline": "outline"
+      },
+      "textures": {
+        "default": "textures/cc/ritual/entities/spirit.soul",
+        "outline": "textures/cc/ritual/entities/spirit.soul.outline"
+      },
+      "geometry": {
+        "default": "geometry.cc.spirit",
+        "outline": "geometry.cc.spirit.outline"
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:soul_spirit_spawn_egg"
+      },
+      "scripts": {
+        "initialize": [
+          "v.relative_run_speed = 0.6;",
+          "variable.pitch = 0;",
+          "variable.roll = 0;"
+        ],
+        "pre_animation": [
+          "variable.pitch = ((math.clamp(q.is_on_ground ? 0 : q.body_x_rotation, -20, 20) - (math.clamp(q.vertical_speed * 1, -90, 5)) + ( 3 * variable.pitch)) / 4);",
+          "variable.roll = ((q.is_on_ground ? 0 : (-q.yaw_speed) / 4) + (4 * v.roll)) / 5;"
+        ],
+        "animate": ["look_at_target", "root", "glow", "trail"]
+      },
+      "particle_effects": {
+        "glow": "cc:spirit_soul_glow",
+        "trail": "cc:soul_spirit_trail"
+      },
+      "animations": {
+        // Controllers
+        "glow": "animation.cc.glow.particle",
+        "trail": "animation.cc.trail.particle",
+
+        "look_at_target": "animation.common.look_at_target",
+
+        "root": "animation.cc.common.root"
+      },
+      "render_controllers": [
+        "controller.render.cc.ignore_lighting",
+        "controller.render.cc.item.outline"
+      ],
+      "enable_attachables": true
+    }
+  }
+}

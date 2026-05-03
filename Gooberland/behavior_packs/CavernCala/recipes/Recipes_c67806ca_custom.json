@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_a38acb83"
+    },
+    "tags": [
+      "soul_forge"
+    ],
+    "pattern": [
+      "ABA",
+      "ACA",
+      "DED"
+    ],
+    "key": {
+      "A": {
+        "item": "item:exodium_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "item:exodium_forging_template",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:netherite_sword",
+        "data": 0
+      },
+      "D": {
+        "item": "block:titanium_block",
+        "data": 0
+      },
+      "E": {
+        "item": "block:aetherium_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "sword:exodium_sword",
+      "count": 1
+    }
+  }
+}

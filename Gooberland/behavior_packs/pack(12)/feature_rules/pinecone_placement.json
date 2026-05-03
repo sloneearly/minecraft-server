@@ -1,0 +1,62 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "cc:pinecone_placement",
+            "places_feature": "cc:pinecone_feature"
+        },
+        "conditions": {
+            "placement_pass": "final_pass",
+            "minecraft:biome_filter": [
+                {
+                    "any_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "taiga"
+                        }
+                    ],
+                    "none_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "birch"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "savanna"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "frozen"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "ice"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        "distribution": {
+            "iterations": 250,
+            "scatter_chance": 50.0,
+            "x": {
+                "distribution": "triangle",
+                "extent": [ -8, 8 ]
+            },
+            "y": {
+                "distribution": "triangle",
+                "extent": ["query.above_top_solid(v.originx,v.originz)", "query.above_top_solid(v.originx,v.originz) + 10"]
+            },
+            "z": {
+                "distribution": "triangle",
+                "extent": [ -8, 8 ]
+            }
+        }
+    }
+}

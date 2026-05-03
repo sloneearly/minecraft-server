@@ -1,0 +1,29 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "item:deepslate_geode",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.items"
+			}
+		},
+		"components": {
+			"tag:minecraft:trim_materials": {},
+			"minecraft:icon": {
+				"texture": "item:deepslate_geode"
+			},
+			"minecraft:display_name": {
+				"value": "Fractured Deepslate Geode\n\n§7Throw to break open"
+			},
+			"minecraft:throwable": {
+				"do_swing_animation": true
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "item:deepslate_geode"
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,874 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:market_stand",
+            "menu_category": {
+                "category": "items"
+            },
+            "states": {
+                "cc:market_type": [
+                    "none",
+                    "farming",
+                    "fishing",
+                    "mining",
+                    "adventure",
+                    "cooking"
+                ],
+                "cc:market_level": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "none"
+            },
+            "cc:interact": {},
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:light_dampening": 0,
+            "cc:market_stand": {},
+            "cc:transform_block": {},
+            "minecraft:tick": {
+                "interval_range": [
+                    20,
+                    20
+                ],
+                "looping": true
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    4
+                ],
+                "size": [
+                    16,
+                    12,
+                    4
+                ]
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    4
+                ],
+                "size": [
+                    16,
+                    12,
+                    4
+                ]
+            },
+            "minecraft:map_color": "#a17746",
+            "minecraft:geometry": {
+                "identifier": "geometry.cc.market_stand"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cc:market_stand_top_side",
+                    "render_method": "alpha_test_single_sided"
+                },
+                "front": {
+                    "texture": "cc:market_stand_front",
+                    "render_method": "alpha_test_single_sided"
+                },
+                "type": {
+                    "texture": "cc:market_stand_front",
+                    "render_method": "alpha_test_single_sided"
+                },
+                "level": {
+                    "texture": "cc:market_stand_front",
+                    "render_method": "alpha_test_single_sided"
+                },
+                "level_side": {
+                    "texture": "cc:market_stand_top_side",
+                    "render_method": "alpha_test_single_sided"
+                }
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "on_liquid_touches": "popped"
+                    }
+                ]
+            },
+            "tag:minecraft:is_axe_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_axe')"
+                        },
+                        "destroy_speed": 2
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('cc:market_type') == 'mining' && q.block_state('cc:market_level') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_mining",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:empty",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_mining_1.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'mining' && q.block_state('cc:market_level') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_level_side_2",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_mining",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_2",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_2",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_mining_2.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'mining' && q.block_state('cc:market_level') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_mining",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_3",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_3",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_mining_3.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'mining' && q.block_state('cc:market_level') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_mining",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_4",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_4",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_mining_4.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'mining' && q.block_state('cc:market_level') == 5",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_mining",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_5",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_5",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_mining_5.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'fishing' && q.block_state('cc:market_level') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_fishing",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:empty",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_fishing_1.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'fishing' && q.block_state('cc:market_level') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_fishing",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_2",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_2",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_fishing_2.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'fishing' && q.block_state('cc:market_level') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_fishing",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_3",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_3",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_fishing_3.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'fishing' && q.block_state('cc:market_level') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_fishing",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_4",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_4",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_fishing_4.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'fishing' && q.block_state('cc:market_level') == 5",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_fishing",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_5",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_5",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_fishing_5.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'adventure' && q.block_state('cc:market_level') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_adventure",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:empty",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_adventure_1.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'adventure' && q.block_state('cc:market_level') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_adventure",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_2",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_2",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_adventure_2.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'adventure' && q.block_state('cc:market_level') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_adventure",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_3",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_3",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_adventure_3.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'adventure' && q.block_state('cc:market_level') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_adventure",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_4",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_4",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_adventure_4.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'adventure' && q.block_state('cc:market_level') == 5",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_adventure",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_5",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_5",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_adventure_5.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'cooking' && q.block_state('cc:market_level') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_cooking",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:empty",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_cooking_1.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'cooking' && q.block_state('cc:market_level') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_cooking",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_2",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_2",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_cooking_2.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'cooking' && q.block_state('cc:market_level') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_cooking",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_3",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_3",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_cooking_3.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'cooking' && q.block_state('cc:market_level') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_cooking",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_4",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_4",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_cooking_4.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'cooking' && q.block_state('cc:market_level') == 5",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_cooking",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_5",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_5",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_cooking_5.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'farming' && q.block_state('cc:market_level') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_farming",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:empty",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_farming_1.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'farming' && q.block_state('cc:market_level') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_farming",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_2",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_2",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_farming_2.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'farming' && q.block_state('cc:market_level') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_farming",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_3",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_3",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_farming_3.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'farming' && q.block_state('cc:market_level') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_farming",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_4",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_4",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_farming_4.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('cc:market_type') == 'farming' && q.block_state('cc:market_level') == 5",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:market_stand_top_side",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "front": {
+                            "texture": "cc:market_stand_front",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "type": {
+                            "texture": "cc:market_stand_type_farming",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level": {
+                            "texture": "cc:market_stand_level_front_5",
+                            "render_method": "alpha_test_single_sided"
+                        },
+                        "level_side": {
+                            "texture": "cc:market_stand_level_side_5",
+                            "render_method": "alpha_test_single_sided"
+                        }
+                    },
+                    "minecraft:loot": "loot_tables/cc/market/trim_farming_5.loot.json"
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

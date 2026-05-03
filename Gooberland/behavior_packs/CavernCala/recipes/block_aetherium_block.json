@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "aetherium_block_b4e88079"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:aetherium",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:aetherium_block",
+      "count": 1
+    }
+  }
+}

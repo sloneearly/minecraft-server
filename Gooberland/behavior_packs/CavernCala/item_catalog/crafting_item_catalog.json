@@ -1,0 +1,63 @@
+{
+   "format_version": "1.21.60",
+   "minecraft:crafting_items_catalog": {
+      "categories": [
+         {
+            "category_name": "equipment",
+            "groups": [
+               {
+                  "group_identifier": {
+                     "icon": "sword:wooden_greatsword",
+                     "name": "weapons:greatswords"
+                  },
+                  "items": [
+                     "sword:wooden_greatsword",
+                     "sword:stone_greatsword",
+                     "sword:copper_greatsword",
+                     "sword:iron_greatsword",
+                     "sword:gold_greatsword",
+                     "sword:diamond_greatsword",
+                     "sword:netherite_greatsword",
+                     "sword:cobalt_greatsword",
+                     "sword:titanium_greatsword",
+                     "sword:kyanite_greatsword",
+                     "sword:aetherium_greatsword",
+                     "sword:platinum_greatsword",
+                     "sword:jasper_greatsword",
+                     "sword:palladium_greatsword",
+		     "sword:rose_gold_greatsword",
+                     "sword:staballoy_greatsword",
+                     "sword:exodium_greatsword"
+                  ]
+               },
+               {
+                  "group_identifier": {
+                     "icon": "sword:wooden_kunai",
+                     "name": "weapons:kunais"
+                  },
+                  "items": [
+                     "sword:wooden_kunai",
+                     "sword:stone_kunai",
+                     "sword:copper_kunai",
+                     "sword:iron_kunai",
+                     "sword:gold_kunai",
+                     "sword:diamond_kunai",
+                     "sword:netherite_kunai",
+                     "sword:flint_kunai",
+                     "sword:cobalt_kunai",
+                     "sword:titanium_kunai",
+                     "sword:kyanite_kunai",
+                     "sword:aetherium_kunai",
+                     "sword:platinum_kunai",
+                     "sword:jasper_kunai",
+                     "sword:palladium_kunai",
+		     "sword:rose_gold_kunai",
+                     "sword:staballoy_kunai",
+                     "sword:exodium_kunai"
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,43 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:item": {
+    "description": {
+      "identifier": "vf_sc:capture_crate",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.vf_sc:capture_crate_item"
+      },
+      "minecraft:cooldown": {
+        "category": "use",
+        "duration": 2
+      },
+
+      "minecraft:block_placer": {
+        "block": "vf_sc:capture_crate",
+        "replace_block_item": true
+      },
+
+      "minecraft:interact_button": "item.vf_sc:capture_crate_item.capture",
+      "minecraft:max_stack_size": 1,
+
+      "minecraft:can_destroy_in_creative": false,
+
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["planks"],
+            "repair_amount": 10
+          }
+        ]
+      },
+      "minecraft:fuel": {
+        "duration": 5
+      },
+      "minecraft:custom_components": ["vf_sc:capture_crate_use"]
+    }
+  }
+}

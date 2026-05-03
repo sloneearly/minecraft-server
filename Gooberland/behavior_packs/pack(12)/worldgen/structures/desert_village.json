@@ -1,0 +1,52 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:jigsaw": {
+    "description": {
+      "identifier": "cc:desert_village"
+    },
+    "biome_filters": [
+      {
+        "all_of": [
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "desert"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:lush_desert"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:dryland"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:wasteland"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:wasteland_steppe"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "step": "surface_structures",
+    "start_pool": "cc:village/centers/desert_village_centers",
+    "max_depth": 5,
+    "start_height": {
+      "type": "constant",
+      "value": { "absolute": -2 }
+    },
+    "heightmap_projection": "world_surface",
+    "terrain_adaptation": "beard_thin"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "cc:advanced_white_bed",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "%cc.advanced_white_bed\n%cc.category.furniture"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": "cc:advanced_white_bed",
+            "minecraft:block_placer": {
+                "replace_block_item": true,
+                "block": "cc:advanced_white_bed"
+            }
+        }
+    }
+}

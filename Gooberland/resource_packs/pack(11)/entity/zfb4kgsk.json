@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:soul_zombie",
+      "materials": {
+        "default": "outline_base_glow",
+        "outline": "outline"
+      },
+      "textures": {
+        "default": "textures/cc/ritual/entities/soul/soul_zombie",
+        "outline": "textures/cc/ritual/entities/soul/soul_zombie.outline"
+      },
+      "geometry": {
+        "default": "geometry.cc.zombie",
+        "outline": "geometry.cc.zombie.outline"
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:soul_zombie_spawn_egg"
+      },
+      "animations": {
+        "humanoid_big_head": "animation.humanoid.big_head",
+        "look_at_target_default": "animation.humanoid.look_at_target.default",
+        "move": "animation.humanoid.move",
+        "bob": "animation.humanoid.bob",
+        "zombie_attack_bare_hand": "animation.zombie.attack_bare_hand"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+          "v.alpha = 0.7; v.red = 0.2; v.blue = 0.7; v.green = 1;"
+        ],
+        "animate": [
+          "move",
+          "zombie_attack_bare_hand",
+          "look_at_target_default",
+          "bob",
+          {"humanoid_big_head": "q.is_baby"}
+        ]
+      },
+      "render_controllers": [
+        "controller.render.cc.ignore_lighting",
+        "controller.render.cc.item.outline"
+      ],
+      "enable_attachables": true
+    }
+  }
+}

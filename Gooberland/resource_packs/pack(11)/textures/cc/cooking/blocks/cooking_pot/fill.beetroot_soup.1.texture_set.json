@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "fill.beetroot_soup.1",
+    "heightmap": "fill.beetroot_soup.1_heightmap",
+    "metalness_emissive_roughness_subsurface": "fill.beetroot_soup.1_mers"
+  }
+}

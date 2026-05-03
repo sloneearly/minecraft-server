@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_57f3fcbc"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "block:compact_jasper_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:jasper_shard",
+      "count": 9
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cc:liana",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "cc:liana",
+        "use_on": [],
+        "replace_block_item": true
+      },
+      "minecraft:icon": "cc:liana",
+      "minecraft:max_stack_size": 64,
+      "minecraft:compostable": {
+        "composting_chance": 30
+      }
+    }
+  }
+}

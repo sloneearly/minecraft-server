@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc.grid_snap": {
+      "initial_state": "none",
+      "states": {
+        "none": {
+          "transitions": [
+            {
+              "north": "query.cardinal_facing_2d == 2.0"
+            },
+            {
+              "east": "query.cardinal_facing_2d == 5.0"
+            },
+            {
+              "south": "query.cardinal_facing_2d == 3.0"
+            },
+            {
+              "west": "query.cardinal_facing_2d == 4.0"
+            }
+          ]
+        },
+        "north": {
+          "on_entry": ["/tp @s ~~~ 180 0"]
+        },
+        "east": {
+          "on_entry": ["/tp @s  ~~~ 270 0"]
+        },
+        "south": {
+          "on_entry": ["/tp @s  ~~~ 0 0"]
+        },
+        "west": {
+          "on_entry": ["/tp @s  ~~~ 90 0"]
+        }
+      }
+    }
+  }
+}

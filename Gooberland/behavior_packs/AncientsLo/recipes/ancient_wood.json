@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ancients:ancient_wood"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AA",
+			"AA"
+		],
+		"key": {
+			"A": {
+				"item": "ancients:ancient_log"
+			}
+		},
+		"unlock":[
+			{
+				"item": "ancients:ancient_log"
+			}
+		],
+		"result": {
+			"item": "ancients:ancient_wood",
+			"count": 3
+		}
+	}
+}

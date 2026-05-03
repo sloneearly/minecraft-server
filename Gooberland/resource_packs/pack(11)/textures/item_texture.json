@@ -1,0 +1,1536 @@
+{
+    "resource_pack_name": "pack.name",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "cc:slingshot": {
+            "textures": "textures/cc/charge_item/slingshot/standby"
+        },
+        "cc:end_stone_slingshot": {
+            "textures": "textures/cc/charge_item/end_stone_slingshot/standby"
+        },
+        "cc:ruby": {
+            "textures": "textures/cc/ores/items/ruby"
+        },
+        "cc:wooden_javelin": {
+            "textures": "textures/cc/weapons/items/javelin/wood"
+        },
+        "cc:stone_javelin": {
+            "textures": "textures/cc/weapons/items/javelin/stone"
+        },
+        "cc:copper_javelin": {
+            "textures": "textures/cc/weapons/items/javelin/copper"
+        },
+        "cc:iron_javelin": {
+            "textures": "textures/cc/weapons/items/javelin/iron"
+        },
+        "cc:gold_javelin": {
+            "textures": "textures/cc/weapons/items/javelin/gold"
+        },
+        "cc:diamond_javelin": {
+            "textures": "textures/cc/weapons/items/javelin/diamond"
+        },
+        "cc:netherite_javelin": {
+            "textures": "textures/cc/weapons/items/javelin/netherite"
+        },
+        "cc:poison_javelin": {
+            "textures": "textures/cc/weapons/items/javelin/poison"
+        },
+        "cc:pearl": {
+            "textures": "textures/cc/animals/items/pearl"
+        },
+        "cc:deer_antler": {
+            "textures": "textures/cc/animals/items/deer.antler"
+        },
+        "cc:shark_tooth_chestplate": {
+            "textures": "textures/cc/animals/items/shark.chestplate"
+        },
+        "cc:cassowary_feather": {
+            "textures": "textures/cc/animals/items/cassowary_feather"
+        },
+        "cc:deer_antler_helmet": {
+            "textures": "textures/cc/animals/items/deer.antler_helmet"
+        },
+        "cc:moose_antler": {
+            "textures": "textures/cc/animals/items/moose.antler"
+        },
+        "cc:moose_antler_helmet": {
+            "textures": "textures/cc/animals/items/moose.antler_helmet"
+        },
+        "cc:crocodile_scute": {
+            "textures": "textures/cc/animals/items/crocodile.scute"
+        },
+        "cc:crocodile_boots": {
+            "textures": "textures/cc/animals/items/crocodile_boots"
+        },
+        "cc:shark_tooth": {
+            "textures": "textures/cc/animals/items/shark.tooth"
+        },
+        "cc:scorpion_tail": {
+            "textures": "textures/cc/animals/items/scorpion_tail"
+        },
+        "cc:cassowary_egg": {
+            "textures": "textures/cc/animals/items/cassowary_egg"
+        },
+        "cc:crocodile_egg": {
+            "textures": "textures/cc/animals/items/crocodile_egg"
+        },
+        "cc:penguin_egg": {
+            "textures": "textures/cc/animals/items/penguin_egg"
+        },
+        "cc:pebbles": {
+            "textures": "textures/cc/foliage/items/pebbles"
+        },
+        "cc:shells": {
+            "textures": "textures/cc/foliage/items/shells"
+        },
+        "cc:clover": {
+            "textures": "textures/cc/foliage/items/clover"
+        },
+        "cc:forest_bush": {
+            "textures": "textures/cc/foliage/items/forest_bush"
+        },
+        "cc:dry_bush": {
+            "textures": "textures/cc/foliage/items/dry_bush"
+        },
+        "cc:daisy_carpet": {
+            "textures": "textures/cc/foliage/items/daisy_carpet"
+        },
+        "cc:blue_jungle_plant": {
+            "textures": "textures/cc/foliage/items/blue_jungle_plant"
+        },
+        "cc:yellow_jungle_plant": {
+            "textures": "textures/cc/foliage/items/yellow_jungle_plant"
+        },
+        "cc:jungle_carpet": {
+            "textures": "textures/cc/foliage/blocks/jungle_carpet.top"
+        },
+        "cc:barnacles": {
+            "textures": "textures/cc/foliage/items/barnacles"
+        },
+        "cc:duckweed": {
+            "textures": "textures/cc/foliage/blocks/duckweed"
+        },
+        "cc:reed": {
+            "textures": "textures/cc/foliage/items/reed"
+        },
+        "cc:palm_sapling": {
+            "textures": "textures/cc/foliage/blocks/palm_sapling"
+        },
+        "cc:wall_mushrooms": {
+            "textures": "textures/cc/foliage/items/wall_mushrooms"
+        },
+        "cc:wall_plant": {
+            "textures": "textures/cc/foliage/blocks/wall_plant"
+        },
+        "cc:wall_plant_yellow": {
+            "textures": "textures/cc/foliage/blocks/wall_plant_yellow"
+        },
+        "cc:mycelium_grass": {
+            "textures": "textures/cc/foliage/blocks/mycelium_grass"
+        },
+        "cc:lavender": {
+            "textures": "textures/cc/foliage/items/lavender"
+        },
+        "cc:liana": {
+            "textures": "textures/cc/foliage/items/liana"
+        },
+        "cc:dry_grass": {
+            "textures": "textures/cc/foliage/items/dry_grass"
+        },
+        "cc:dry_tall_grass": {
+            "textures": "textures/cc/foliage/items/dry_tall_grass"
+        },
+        "cc:desert_grass": {
+            "textures": "textures/cc/foliage/blocks/desert_grass"
+        },
+        "cc:desert_tall_grass": {
+            "textures": "textures/cc/foliage/items/desert_tall_grass"
+        },
+        "cc:pale_grass": {
+            "textures": "textures/cc/foliage/items/pale_grass"
+        },
+        "cc:jungle_grass": {
+            "textures": "textures/cc/foliage/items/jungle_grass"
+        },
+        "cc:knotweed": {
+            "textures": "textures/cc/foliage/blocks/knotweed"
+        },
+        "cc:wide_fern": {
+            "textures": "textures/cc/foliage/items/wide_fern"
+        },
+        "cc:dripice": {
+            "textures": "textures/cc/foliage/blocks/dripice/dripice.tip"
+        },
+        "cc:icicles": {
+            "textures": "textures/cc/foliage/items/icicles"
+        },
+        "cc:swamp_fern": {
+            "textures": "textures/cc/foliage/items/swamp_fern"
+        },
+        "cc:swamp_grass": {
+            "textures": "textures/cc/foliage/items/swamp_grass"
+        },
+        "cc:small_cactus": {
+            "textures": "textures/cc/foliage/blocks/small_cactus"
+        },
+        "cc:tall_red_mushrooms": {
+            "textures": "textures/cc/foliage/blocks/tall_red_mushrooms"
+        },
+        "cc:tall_pale_mushrooms": {
+            "textures": "textures/cc/foliage/blocks/tall_pale_mushrooms"
+        },
+        "cc:tall_brown_mushrooms": {
+            "textures": "textures/cc/foliage/blocks/tall_brown_mushrooms"
+        },
+        "cc:lily_pad_flower": {
+            "textures": "textures/cc/foliage/items/lily_pad_flower"
+        },
+        "cc:floating_flower": {
+            "textures": "textures/cc/foliage/items/floating_flower"
+        },
+        "cc:small_lily_pads": {
+            "textures": "textures/cc/foliage/blocks/small_lily_pads/small_lily_pads.4"
+        },
+        "cc:ambience_guide": {
+            "textures": "textures/cc/form/ambience"
+        },
+        "cc:wiki_guide": {
+            "textures": "textures/cc/form/wiki"
+        },
+        "cc:quest_book": {
+            "textures": "textures/cc/quest/items/quest_book"
+        },
+        "cc:search_glass": {
+            "textures": "textures/cc/boss/items/search_glass"
+        },
+        "cc:big_foot_quest": {
+            "textures": "textures/cc/quest/items/special/special_1"
+        },
+        "cc:big_foot_quest_solved": {
+            "textures": "textures/cc/quest/items/special/special_1.solved"
+        },
+        "cc:yeti_quest": {
+            "textures": "textures/cc/quest/items/special/special_1"
+        },
+        "cc:yeti_quest_solved": {
+            "textures": "textures/cc/quest/items/special/special_1.solved"
+        },
+        "cc:spirit_bottle_ice": {
+            "textures": "textures/cc/ritual/items/spirit_bottle.ice"
+        },
+        "cc:spirit_bottle_fire": {
+            "textures": "textures/cc/ritual/items/spirit_bottle.fire"
+        },
+        "cc:spirit_bottle_soul": {
+            "textures": "textures/cc/ritual/items/spirit_bottle.soul"
+        },
+        "cc:spirit_bottle_lightning": {
+            "textures": "textures/cc/ritual/items/spirit_bottle.lightning"
+        },
+        "cc:spirit_bottle_poison": {
+            "textures": "textures/cc/ritual/items/spirit_bottle.poison"
+        },
+    // Monsters
+        "cc:forgotten_pickaxe": {
+            "textures": "textures/cc/monsters/items/forgotten_pickaxe"
+        },
+        "cc:pharaoh_staff": {
+            "textures": "textures/cc/monsters/items/pharaoh_staff"
+        },
+        "cc:siren_staff": {
+            "textures": "textures/cc/mermaids/items/siren_staff"
+        },
+    // Market
+        "cc:market_trim_farming_1": {
+            "textures": [
+                "textures/cc/market/items/trim_farming.1"
+            ]
+        },
+        "cc:market_trim_farming_2": {
+            "textures": [
+                "textures/cc/market/items/trim_farming.2"
+            ]
+        },
+        "cc:market_trim_farming_3": {
+            "textures": [
+                "textures/cc/market/items/trim_farming.3"
+            ]
+        },
+        "cc:market_trim_farming_4": {
+            "textures": [
+                "textures/cc/market/items/trim_farming.4"
+            ]
+        },
+        "cc:market_trim_farming_5": {
+            "textures": [
+                "textures/cc/market/items/trim_farming.5"
+            ]
+        },
+        "cc:market_trim_cooking_1": {
+            "textures": [
+                "textures/cc/market/items/trim_cooking.1"
+            ]
+        },
+        "cc:market_trim_cooking_2": {
+            "textures": [
+                "textures/cc/market/items/trim_cooking.2"
+            ]
+        },
+        "cc:market_trim_cooking_3": {
+            "textures": [
+                "textures/cc/market/items/trim_cooking.3"
+            ]
+        },
+        "cc:market_trim_cooking_4": {
+            "textures": [
+                "textures/cc/market/items/trim_cooking.4"
+            ]
+        },
+        "cc:market_trim_cooking_5": {
+            "textures": [
+                "textures/cc/market/items/trim_cooking.5"
+            ]
+        },
+        "cc:market_trim_mining_1": {
+            "textures": [
+                "textures/cc/market/items/trim_mining.1"
+            ]
+        },
+        "cc:market_trim_mining_2": {
+            "textures": [
+                "textures/cc/market/items/trim_mining.2"
+            ]
+        },
+        "cc:market_trim_mining_3": {
+            "textures": [
+                "textures/cc/market/items/trim_mining.3"
+            ]
+        },
+        "cc:market_trim_mining_4": {
+            "textures": [
+                "textures/cc/market/items/trim_mining.4"
+            ]
+        },
+        "cc:market_trim_mining_5": {
+            "textures": [
+                "textures/cc/market/items/trim_mining.5"
+            ]
+        },
+        "cc:market_trim_adventure_1": {
+            "textures": [
+                "textures/cc/market/items/trim_adventure.1"
+            ]
+        },
+        "cc:market_trim_adventure_2": {
+            "textures": [
+                "textures/cc/market/items/trim_adventure.2"
+            ]
+        },
+        "cc:market_trim_adventure_3": {
+            "textures": [
+                "textures/cc/market/items/trim_adventure.3"
+            ]
+        },
+        "cc:market_trim_adventure_4": {
+            "textures": [
+                "textures/cc/market/items/trim_adventure.4"
+            ]
+        },
+        "cc:market_trim_adventure_5": {
+            "textures": [
+                "textures/cc/market/items/trim_adventure.5"
+            ]
+        },
+        "cc:market_trim_fishing_1": {
+            "textures": [
+                "textures/cc/market/items/trim_fishing.1"
+            ]
+        },
+        "cc:market_trim_fishing_2": {
+            "textures": [
+                "textures/cc/market/items/trim_fishing.2"
+            ]
+        },
+        "cc:market_trim_fishing_3": {
+            "textures": [
+                "textures/cc/market/items/trim_fishing.3"
+            ]
+        },
+        "cc:market_trim_fishing_4": {
+            "textures": [
+                "textures/cc/market/items/trim_fishing.4"
+            ]
+        },
+        "cc:market_trim_fishing_5": {
+            "textures": [
+                "textures/cc/market/items/trim_fishing.5"
+            ]
+        },
+    // Farming & Cooking
+        "cc:coconut": {
+            "textures": "textures/cc/cooking/items/crops/coconut"
+        },
+        "cc:coconut_cracked": {
+            "textures": "textures/cc/cooking/items/crops/coconut.cracked"
+        },
+        "cc:peeled_peanut": {
+            "textures": "textures/cc/cooking/items/crops/peanut.peeled"
+        },
+        "cc:pinecone": {
+            "textures": "textures/cc/foliage/items/pinecone"
+        },
+        "cc:stake": {
+            "textures": "textures/cc/cooking/items/tools/stake"
+        },
+        "cc:jar": {
+            "textures": "textures/cc/cooking/items/recipes/jar"
+        },
+        "cc:beef_feast_bowl": {
+            "textures": "textures/cc/cooking/items/recipes/beef_feast.bowl"
+        },
+        "cc:chicken_feast_bowl": {
+            "textures": "textures/cc/cooking/items/recipes/chicken_feast.bowl"
+        },
+        "cc:fish_feast_bowl": {
+            "textures": "textures/cc/cooking/items/recipes/fish_feast.bowl"
+        },
+        "cc:pork_feast_bowl": {
+            "textures": "textures/cc/cooking/items/recipes/pork_feast.bowl"
+        },
+        "cc:mutton_feast_bowl": {
+            "textures": "textures/cc/cooking/items/recipes/mutton_feast.bowl"
+        },
+        "cc:rabbit_feast_bowl": {
+            "textures": "textures/cc/cooking/items/recipes/rabbit_feast.bowl"
+        },
+        "cc:cooked_rice": {
+            "textures": "textures/cc/cooking/items/recipes/rice.cooked"
+        },
+        "cc:tomato_soup": {
+            "textures": "textures/cc/cooking/items/recipes/tomato_soup"
+        },
+        "cc:vegetable_soup": {
+            "textures": "textures/cc/cooking/items/recipes/vegetable_soup"
+        },
+        "cc:peanut_butter_bread": {
+            "textures": "textures/cc/cooking/items/recipes/bread.peanut_butter"
+        },
+        "cc:strawberry_jam_bread": {
+            "textures": "textures/cc/cooking/items/recipes/bread.strawberry_jam"
+        },
+        "cc:pbj_bread": {
+            "textures": "textures/cc/cooking/items/recipes/bread.pbj"
+        },
+        "cc:berry_smoothie": {
+            "textures": "textures/cc/cooking/items/recipes/berry_smoothie"
+        },
+        "cc:tropical_smoothie": {
+            "textures": "textures/cc/cooking/items/recipes/tropical_smoothie"
+        },
+        "cc:lemonade": {
+            "textures": "textures/cc/cooking/items/recipes/lemonade"
+        },
+        "cc:orange_juice": {
+            "textures": "textures/cc/cooking/items/recipes/orange_juice"
+        },
+        "cc:grape_juice": {
+            "textures": "textures/cc/cooking/items/recipes/grape_juice"
+        },
+        "cc:apple_juice": {
+            "textures": "textures/cc/cooking/items/recipes/apple_juice"
+        },
+    // Watering Can
+        "cc:watering_can": {
+            "textures": "textures/cc/foliage/items/diamond"
+        },
+        "cc:filled_watering_can": {
+            "textures": "textures/cc/foliage/items/emerald"
+        },
+        "cc:fertilized_watering_can": {
+            "textures": "textures/cc/foliage/items/bone"
+        },
+        "cc:soul_scythe": {
+            "textures": "textures/cc/weapons/items/scythe/soul"
+        },
+        "cc:diamond_scythe": {
+            "textures": "textures/cc/cooking/items/tools/diamond_scythe"
+        },
+        "cc:golden_scythe": {
+            "textures": "textures/cc/cooking/items/tools/golden_scythe"
+        },
+        "cc:iron_scythe": {
+            "textures": "textures/cc/cooking/items/tools/iron_scythe"
+        },
+        "cc:copper_scythe": {
+            "textures": "textures/cc/cooking/items/tools/copper_scythe"
+        },
+        "cc:netherite_scythe": {
+            "textures": "textures/cc/cooking/items/tools/netherite_scythe"
+        },
+        "cc:stone_scythe": {
+            "textures": "textures/cc/cooking/items/tools/stone_scythe"
+        },
+        "cc:wooden_scythe": {
+            "textures": "textures/cc/cooking/items/tools/wood_scythe"
+        },
+        "cc:end_stone_pebbles": {
+            "textures": "textures/cc/foliage/items/end_stone_pebbles"
+        },
+    // End
+        "cc:yellow_end_hanging_moss": {
+            "textures": "textures/cc/end/blocks/yellow_end_hanging_moss_middle"
+        },
+        "cc:purple_end_dripshroom": {
+            "textures": "textures/cc/end/items/purple_end_dripshroom"
+        },
+        "cc:weapon_stand": {
+            "textures": "textures/cc/furniture/items/weapon_stand"
+        },
+        "cc:hanging_swamp_leaves": {
+            "textures": "textures/cc/foliage/items/hanging_swamp_leaves"
+        },
+        "cc:hanging_oak_leaves": {
+            "textures": "textures/cc/foliage/items/hanging_oak_leaves"
+        },
+        "cc:hanging_birch_leaves": {
+            "textures": "textures/cc/foliage/items/hanging_birch_leaves"
+        },
+        "cc:hanging_palm_leaves": {
+            "textures": "textures/cc/foliage/items/hanging_palm_leaves"
+        },
+        "cc:taiga_red_plant": {
+            "textures": "textures/cc/foliage/items/taiga_red_plant"
+        },
+        "cc:taiga_orange_plant": {
+            "textures": "textures/cc/foliage/items/taiga_orange_plant"
+        },
+    // Spawn Eggs
+        "cc:spear_illager_spawn_egg": {
+            "textures": "textures/cc/village/spawn_eggs/illager_spear"
+        },
+        "cc:shield_illager_spawn_egg": {
+            "textures": "textures/cc/village/spawn_eggs/illager_shield"
+        },
+        "cc:battle_illager_spawn_egg": {
+            "textures": "textures/cc/village/spawn_eggs/illager_battle"
+        },
+        "cc:savanna_villager_spawn_egg": {
+            "textures": "textures/cc/village/spawn_eggs/savanna_villager_spawn_egg"
+        },
+        "cc:jungle_villager_spawn_egg": {
+            "textures": "textures/cc/village/spawn_eggs/jungle_villager_spawn_egg"
+        },
+        "cc:elf_villager_spawn_egg": {
+            "textures": "textures/cc/village/spawn_eggs/elf_villager_spawn_egg"
+        },
+        "cc:cherry_villager_spawn_egg": {
+            "textures": "textures/cc/village/spawn_eggs/cherry_villager_spawn_egg"
+        },
+        "cc:taiga_villager_spawn_egg": {
+            "textures": "textures/cc/village/spawn_eggs/taiga_villager_spawn_egg"
+        },
+        "cc:desert_villager_spawn_egg": {
+            "textures": "textures/cc/village/spawn_eggs/desert_villager_spawn_egg"
+        },
+        "cc:mesa_villager_spawn_egg": {
+            "textures": "textures/cc/village/spawn_eggs/mesa_villager_spawn_egg"
+        },
+        "cc:plains_villager_spawn_egg": {
+            "textures": "textures/cc/village/spawn_eggs/plains_villager_spawn_egg"
+        },
+        "cc:swamp_villager_spawn_egg": {
+            "textures": "textures/cc/village/spawn_eggs/swamp_villager_spawn_egg"
+        },
+        "cc:arctic_villager_spawn_egg": {
+            "textures": "textures/cc/village/spawn_eggs/arctic_villager_spawn_egg"
+        },
+        "cc:big_foot_spawn_egg": {
+            "textures": "textures/cc/boss/items/spawn_eggs/big_foot"
+        },
+        "cc:yeti_spawn_egg": {
+            "textures": "textures/cc/boss/items/spawn_eggs/yeti"
+        },
+        "cc:fire_spirit_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/fire_spirit"
+        },
+        "cc:soul_spirit_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/soul_spirit"
+        },
+        "cc:ice_spirit_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/ice_spirit"
+        },
+        "cc:poison_spirit_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/poison_spirit"
+        },
+        "cc:lightning_spirit_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/lightning_spirit"
+        },
+        "cc:fire_astral_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/fire_astral"
+        },
+        "cc:soul_astral_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/soul_astral"
+        },
+        "cc:ice_astral_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/ice_astral"
+        },
+        "cc:poison_astral_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/poison_astral"
+        },
+        "cc:lightning_astral_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/lightning_astral"
+        },
+        "cc:fire_skeleton_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/fire_skeleton"
+        },
+        "cc:soul_skeleton_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/soul_skeleton"
+        },
+        "cc:ice_skeleton_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/ice_skeleton"
+        },
+        "cc:poison_skeleton_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/poison_skeleton"
+        },
+        "cc:lightning_skeleton_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/lightning_skeleton"
+        },
+        "cc:fire_zombie_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/fire_zombie"
+        },
+        "cc:soul_zombie_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/soul_zombie"
+        },
+        "cc:ice_zombie_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/ice_zombie"
+        },
+        "cc:poison_zombie_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/poison_zombie"
+        },
+        "cc:lightning_zombie_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/lightning_zombie"
+        },
+        "cc:fire_spider_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/fire_spider"
+        },
+        "cc:soul_spider_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/soul_spider"
+        },
+        "cc:ice_spider_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/ice_spider"
+        },
+        "cc:poison_spider_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/poison_spider"
+        },
+        "cc:lightning_spider_spawn_egg": {
+            "textures": "textures/cc/ritual/items/spawn_eggs/lightning_spider"
+        },
+        "cc:bear_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/bear"
+        },
+        "cc:capybara_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/capybara"
+        },
+        "cc:cassowary_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/cassowary"
+        },
+        "cc:crocodile_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/crocodile"
+        },
+        "cc:raven_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/crow"
+        },
+        "cc:deer_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/deer"
+        },
+        "cc:eagle_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/eagle"
+        },
+        "cc:elephant_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/elephant"
+        },
+        "cc:hermit_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/hermit"
+        },
+        "cc:meerkat_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/meerkat"
+        },
+        "cc:moose_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/moose"
+        },
+        "cc:orangutan_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/orangutan"
+        },
+        "cc:owl_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/owl"
+        },
+        "cc:pearl_clam_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/pearl_clam"
+        },
+        "cc:penguin_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/penguin"
+        },
+        "cc:scorpion_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/scorpion"
+        },
+        "cc:seagull_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/seagull"
+        },
+        "cc:shark_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/shark"
+        },
+        "cc:whale_spawn_egg": {
+            "textures": "textures/cc/animals/items/spawn_eggs/whale"
+        },
+        "cc:mermaid_spawn_egg": {
+            "textures": "textures/cc/mermaids/items/spawn_eggs/mermaid"
+        },
+        "cc:siren_spawn_egg": {
+            "textures": "textures/cc/mermaids/items/spawn_eggs/siren"
+        },
+        "cc:pharaoh_spawn_egg": {
+            "textures": "textures/cc/monsters/items/spawn_eggs/pharaoh"
+        },
+        "cc:forest_wizard_spawn_egg": {
+            "textures": "textures/cc/monsters/items/spawn_eggs/forest_wizard"
+        },
+        "cc:jungle_golem_spawn_egg": {
+            "textures": "textures/cc/monsters/items/spawn_eggs/jungle_golem"
+        },
+        "cc:forgotten_miner_spawn_egg": {
+            "textures": "textures/cc/monsters/items/spawn_eggs/forgotten_miner"
+        },
+        "cc:mummy_spawn_egg": {
+            "textures": "textures/cc/monsters/items/spawn_eggs/mummy"
+        },
+    // Iron Golem Spawn Eggs
+        "cc:spawn_egg_arctic_iron_golem": {
+            "textures": "textures/cc/iron_golems/items/arctic"
+        },
+        "cc:spawn_egg_birch_iron_golem": {
+            "textures": "textures/cc/iron_golems/items/birch"
+        },
+        "cc:spawn_egg_cherry_iron_golem": {
+            "textures": "textures/cc/iron_golems/items/cherry"
+        },
+        "cc:spawn_egg_desert_iron_golem": {
+            "textures": "textures/cc/iron_golems/items/desert"
+        },
+        "cc:spawn_egg_jungle_iron_golem": {
+            "textures": "textures/cc/iron_golems/items/jungle"
+        },
+        "cc:spawn_egg_mesa_iron_golem": {
+            "textures": "textures/cc/iron_golems/items/mesa"
+        },
+        "cc:spawn_egg_plains_iron_golem": {
+            "textures": "textures/cc/iron_golems/items/plains"
+        },
+        "cc:spawn_egg_savanna_iron_golem": {
+            "textures": "textures/cc/iron_golems/items/savanna"
+        },
+        "cc:spawn_egg_swamp_iron_golem": {
+            "textures": "textures/cc/iron_golems/items/swamp"
+        },
+        "cc:spawn_egg_taiga_iron_golem": {
+            "textures": "textures/cc/iron_golems/items/taiga"
+        },
+        "cc:netherite_battle_axe": {
+            "textures": "textures/cc/weapons/items/battle_axe/netherite"
+        },
+        "cc:diamond_battle_axe": {
+            "textures": "textures/cc/weapons/items/battle_axe/diamond"
+        },
+        "cc:golden_battle_axe": {
+            "textures": "textures/cc/weapons/items/battle_axe/gold"
+        },
+        "cc:iron_battle_axe": {
+            "textures": "textures/cc/weapons/items/battle_axe/iron"
+        },
+        "cc:copper_battle_axe": {
+            "textures": "textures/cc/weapons/items/battle_axe/copper"
+        },
+        "cc:stone_battle_axe": {
+            "textures": "textures/cc/weapons/items/battle_axe/stone"
+        },
+        "cc:wooden_battle_axe": {
+            "textures": "textures/cc/weapons/items/battle_axe/wood"
+        },
+        "cc:stormbreaker": {
+            "textures": "textures/cc/weapons/items/battle_axe/stormbreaker"
+        },
+        "cc:ice_bow": {
+            "textures": "textures/cc/charge_item/ice_bow/standby"
+        },
+        "cc:fire_sword": {
+            "textures": "textures/cc/weapons/items/fire_sword"
+        },
+        "cc:end_twister": {
+            "textures": "textures/cc/end/blocks/foliage/end_twister.base.png"
+        },
+        "cc:dummy": {
+            "textures": "textures/cc/village/items/dummy"
+        },
+        "cc:banana": {
+            "textures": "textures/cc/cooking/items/crops/banana"
+        },
+        "cc:bell_pepper": {
+            "textures": "textures/cc/cooking/items/crops/bell_pepper"
+        },
+        "cc:blue_berries": {
+            "textures": "textures/cc/cooking/items/crops/blue_berries"
+        },
+        "cc:broccoli": {
+            "textures": "textures/cc/cooking/items/crops/broccoli"
+        },
+        "cc:cabbage": {
+            "textures": "textures/cc/cooking/items/crops/cabbage"
+        },
+        "cc:cauliflower": {
+            "textures": "textures/cc/cooking/items/crops/cauliflower"
+        },
+        "cc:corn": {
+            "textures": "textures/cc/cooking/items/crops/corn"
+        },
+        "cc:garlic": {
+            "textures": "textures/cc/cooking/items/crops/garlic"
+        },
+        "cc:grape": {
+            "textures": "textures/cc/cooking/items/crops/grape"
+        },
+        "cc:lemon": {
+            "textures": "textures/cc/cooking/items/crops/lemon"
+        },
+        "cc:onion": {
+            "textures": "textures/cc/cooking/items/crops/onion"
+        },
+        "cc:orange": {
+            "textures": "textures/cc/cooking/items/crops/orange"
+        },
+        "cc:peanut": {
+            "textures": "textures/cc/cooking/items/crops/peanut"
+        },
+        "cc:pineapple": {
+            "textures": "textures/cc/cooking/items/crops/pineapple"
+        },
+        "cc:rice": {
+            "textures": "textures/cc/cooking/items/crops/rice"
+        },
+        "cc:strawberry": {
+            "textures": "textures/cc/cooking/items/crops/strawberry"
+        },
+        "cc:tomato": {
+            "textures": "textures/cc/cooking/items/crops/tomato"
+        },
+        "cc:banana_seeds": {
+            "textures": "textures/cc/cooking/items/crops/banana.seeds"
+        },
+        "cc:bell_pepper_seeds": {
+            "textures": "textures/cc/cooking/items/crops/bell_pepper.seeds"
+        },
+        "cc:broccoli_seeds": {
+            "textures": "textures/cc/cooking/items/crops/broccoli.seeds"
+        },
+        "cc:cabbage_seeds": {
+            "textures": "textures/cc/cooking/items/crops/cabbage.seeds"
+        },
+        "cc:cauliflower_seeds": {
+            "textures": "textures/cc/cooking/items/crops/cauliflower.seeds"
+        },
+        "cc:corn_seeds": {
+            "textures": "textures/cc/cooking/items/crops/corn.seeds"
+        },
+        "cc:grape_seeds": {
+            "textures": "textures/cc/cooking/items/crops/grape.seeds"
+        },
+        "cc:lemon_seeds": {
+            "textures": "textures/cc/cooking/items/crops/lemon.seeds"
+        },
+        "cc:orange_seeds": {
+            "textures": "textures/cc/cooking/items/crops/orange.seeds"
+        },
+        "cc:pineapple_seeds": {
+            "textures": "textures/cc/cooking/items/crops/pineapple.seeds"
+        },
+        "cc:tomato_seeds": {
+            "textures": "textures/cc/cooking/items/crops/tomato.seeds"
+        },
+        "cc:advanced_black_bed": {
+            "textures": "textures/cc/furniture/items/advanced_bed/black"
+        },
+        "cc:advanced_blue_bed": {
+            "textures": "textures/cc/furniture/items/advanced_bed/blue"
+        },
+        "cc:advanced_brown_bed": {
+            "textures": "textures/cc/furniture/items/advanced_bed/brown"
+        },
+        "cc:advanced_cyan_bed": {
+            "textures": "textures/cc/furniture/items/advanced_bed/cyan"
+        },
+        "cc:advanced_gray_bed": {
+            "textures": "textures/cc/furniture/items/advanced_bed/gray"
+        },
+        "cc:advanced_green_bed": {
+            "textures": "textures/cc/furniture/items/advanced_bed/green"
+        },
+        "cc:advanced_light_blue_bed": {
+            "textures": "textures/cc/furniture/items/advanced_bed/light_blue"
+        },
+        "cc:advanced_light_gray_bed": {
+            "textures": "textures/cc/furniture/items/advanced_bed/light_gray"
+        },
+        "cc:advanced_lime_bed": {
+            "textures": "textures/cc/furniture/items/advanced_bed/lime"
+        },
+        "cc:advanced_magenta_bed": {
+            "textures": "textures/cc/furniture/items/advanced_bed/magenta"
+        },
+        "cc:advanced_orange_bed": {
+            "textures": "textures/cc/furniture/items/advanced_bed/orange"
+        },
+        "cc:advanced_pink_bed": {
+            "textures": "textures/cc/furniture/items/advanced_bed/pink"
+        },
+        "cc:advanced_purple_bed": {
+            "textures": "textures/cc/furniture/items/advanced_bed/purple"
+        },
+        "cc:advanced_red_bed": {
+            "textures": "textures/cc/furniture/items/advanced_bed/red"
+        },
+        "cc:advanced_white_bed": {
+            "textures": "textures/cc/furniture/items/advanced_bed/white"
+        },
+        "cc:advanced_yellow_bed": {
+            "textures": "textures/cc/furniture/items/advanced_bed/yellow"
+        },
+        "cc:dark_end_grass": {
+            "textures": "textures/cc/end/blocks/dark_end_grass"
+        },
+        "cc:dark_end_short_grass": {
+            "textures": "textures/cc/end/blocks/dark_end_short_grass"
+        },
+        "cc:purple_end_grass": {
+            "textures": "textures/cc/end/blocks/purple_end_grass"
+        },
+        "cc:purple_end_short_grass": {
+            "textures": "textures/cc/end/blocks/purple_end_short_grass"
+        },
+        "cc:yellow_end_grass": {
+            "textures": "textures/cc/end/blocks/yellow_end_grass"
+        },
+        "cc:yellow_end_short_grass": {
+            "textures": "textures/cc/end/blocks/yellow_end_short_grass"
+        },
+        "cc:dark_end_dead_bush": {
+            "textures": "textures/cc/end/blocks/dark_end_dead_bush"
+        },
+        "cc:yellow_end_mushroom": {
+            "textures": "textures/cc/end/blocks/yellow_end_mushroom"
+        },
+        "cc:yellow_end_tall_mushroom": {
+            "textures": "textures/cc/end/blocks/yellow_end_tall_mushroom"
+        },
+        "cc:snowy_grass": {
+            "textures": "textures/cc/foliage/items/snowy_grass"
+        },
+        "cc:farming_1_1_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_1"
+        },
+        "cc:farming_1_1_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_1.solved"
+        },
+        "cc:farming_1_2_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_1"
+        },
+        "cc:farming_1_2_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_1.solved"
+        },
+        "cc:farming_1_3_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_1"
+        },
+        "cc:farming_1_3_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_1.solved"
+        },
+        "cc:farming_1_4_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_1"
+        },
+        "cc:farming_1_4_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_1.solved"
+        },
+        "cc:farming_1_5_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_1"
+        },
+        "cc:farming_1_5_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_1.solved"
+        },
+        "cc:farming_2_1_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_2"
+        },
+        "cc:farming_2_1_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_2.solved"
+        },
+        "cc:farming_2_2_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_2"
+        },
+        "cc:farming_2_2_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_2.solved"
+        },
+        "cc:farming_2_3_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_2"
+        },
+        "cc:farming_2_3_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_2.solved"
+        },
+        "cc:farming_2_4_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_2"
+        },
+        "cc:farming_2_4_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_2.solved"
+        },
+        "cc:farming_2_5_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_2"
+        },
+        "cc:farming_2_5_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_2.solved"
+        },
+        "cc:farming_3_1_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_3"
+        },
+        "cc:farming_3_1_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_3.solved"
+        },
+        "cc:farming_3_2_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_3"
+        },
+        "cc:farming_3_2_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_3.solved"
+        },
+        "cc:farming_3_3_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_3"
+        },
+        "cc:farming_3_3_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_3.solved"
+        },
+        "cc:farming_3_4_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_3"
+        },
+        "cc:farming_3_4_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_3.solved"
+        },
+        "cc:farming_3_5_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_3"
+        },
+        "cc:farming_3_5_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_3.solved"
+        },
+        "cc:farming_4_1_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_4"
+        },
+        "cc:farming_4_1_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_4.solved"
+        },
+        "cc:farming_4_2_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_4"
+        },
+        "cc:farming_4_2_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_4.solved"
+        },
+        "cc:farming_4_3_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_4"
+        },
+        "cc:farming_4_3_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_4.solved"
+        },
+        "cc:farming_4_4_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_4"
+        },
+        "cc:farming_4_4_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_4.solved"
+        },
+        "cc:farming_4_5_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_4"
+        },
+        "cc:farming_4_5_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_4.solved"
+        },
+        "cc:farming_5_1_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_5"
+        },
+        "cc:farming_5_1_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_5.solved"
+        },
+        "cc:farming_5_2_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_5"
+        },
+        "cc:farming_5_2_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_5.solved"
+        },
+        "cc:farming_5_3_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_5"
+        },
+        "cc:farming_5_3_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_5.solved"
+        },
+        "cc:farming_5_4_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_5"
+        },
+        "cc:farming_5_4_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_5.solved"
+        },
+        "cc:farming_5_5_quest": {
+            "textures": "textures/cc/quest/items/farming/farming_5"
+        },
+        "cc:farming_5_5_quest_solved": {
+            "textures": "textures/cc/quest/items/farming/farming_5.solved"
+        },
+        "cc:mining_1_1_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_1"
+        },
+        "cc:mining_1_1_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_1.solved"
+        },
+        "cc:mining_1_2_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_1"
+        },
+        "cc:mining_1_2_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_1.solved"
+        },
+        "cc:mining_1_3_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_1"
+        },
+        "cc:mining_1_3_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_1.solved"
+        },
+        "cc:mining_1_4_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_1"
+        },
+        "cc:mining_1_4_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_1.solved"
+        },
+        "cc:mining_1_5_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_1"
+        },
+        "cc:mining_1_5_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_1.solved"
+        },
+        "cc:mining_2_1_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_2"
+        },
+        "cc:mining_2_1_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_2.solved"
+        },
+        "cc:mining_2_2_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_2"
+        },
+        "cc:mining_2_2_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_2.solved"
+        },
+        "cc:mining_2_3_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_2"
+        },
+        "cc:mining_2_3_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_2.solved"
+        },
+        "cc:mining_2_4_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_2"
+        },
+        "cc:mining_2_4_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_2.solved"
+        },
+        "cc:mining_2_5_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_2"
+        },
+        "cc:mining_2_5_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_2.solved"
+        },
+        "cc:mining_3_1_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_3"
+        },
+        "cc:mining_3_1_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_3.solved"
+        },
+        "cc:mining_3_2_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_3"
+        },
+        "cc:mining_3_2_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_3.solved"
+        },
+        "cc:mining_3_3_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_3"
+        },
+        "cc:mining_3_3_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_3.solved"
+        },
+        "cc:mining_3_4_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_3"
+        },
+        "cc:mining_3_4_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_3.solved"
+        },
+        "cc:mining_3_5_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_3"
+        },
+        "cc:mining_3_5_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_3.solved"
+        },
+        "cc:mining_4_1_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_4"
+        },
+        "cc:mining_4_1_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_4.solved"
+        },
+        "cc:mining_4_2_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_4"
+        },
+        "cc:mining_4_2_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_4.solved"
+        },
+        "cc:mining_4_3_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_4"
+        },
+        "cc:mining_4_3_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_4.solved"
+        },
+        "cc:mining_4_4_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_4"
+        },
+        "cc:mining_4_4_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_4.solved"
+        },
+        "cc:mining_4_5_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_4"
+        },
+        "cc:mining_4_5_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_4.solved"
+        },
+        "cc:mining_5_1_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_5"
+        },
+        "cc:mining_5_1_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_5.solved"
+        },
+        "cc:mining_5_2_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_5"
+        },
+        "cc:mining_5_2_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_5.solved"
+        },
+        "cc:mining_5_3_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_5"
+        },
+        "cc:mining_5_3_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_5.solved"
+        },
+        "cc:mining_5_4_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_5"
+        },
+        "cc:mining_5_4_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_5.solved"
+        },
+        "cc:mining_5_5_quest": {
+            "textures": "textures/cc/quest/items/mining/mining_5"
+        },
+        "cc:mining_5_5_quest_solved": {
+            "textures": "textures/cc/quest/items/mining/mining_5.solved"
+        },
+        "cc:fishing_1_1_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_1"
+        },
+        "cc:fishing_1_1_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_1.solved"
+        },
+        "cc:fishing_1_2_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_1"
+        },
+        "cc:fishing_1_2_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_1.solved"
+        },
+        "cc:fishing_1_3_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_1"
+        },
+        "cc:fishing_1_3_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_1.solved"
+        },
+        "cc:fishing_1_4_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_1"
+        },
+        "cc:fishing_1_4_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_1.solved"
+        },
+        "cc:fishing_1_5_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_1"
+        },
+        "cc:fishing_1_5_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_1.solved"
+        },
+        "cc:fishing_2_1_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_2"
+        },
+        "cc:fishing_2_1_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_2.solved"
+        },
+        "cc:fishing_2_2_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_2"
+        },
+        "cc:fishing_2_2_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_2.solved"
+        },
+        "cc:fishing_2_3_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_2"
+        },
+        "cc:fishing_2_3_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_2.solved"
+        },
+        "cc:fishing_2_4_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_2"
+        },
+        "cc:fishing_2_4_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_2.solved"
+        },
+        "cc:fishing_2_5_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_2"
+        },
+        "cc:fishing_2_5_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_2.solved"
+        },
+        "cc:fishing_3_1_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_3"
+        },
+        "cc:fishing_3_1_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_3.solved"
+        },
+        "cc:fishing_3_2_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_3"
+        },
+        "cc:fishing_3_2_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_3.solved"
+        },
+        "cc:fishing_3_3_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_3"
+        },
+        "cc:fishing_3_3_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_3.solved"
+        },
+        "cc:fishing_3_4_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_3"
+        },
+        "cc:fishing_3_4_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_3.solved"
+        },
+        "cc:fishing_3_5_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_3"
+        },
+        "cc:fishing_3_5_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_3.solved"
+        },
+        "cc:fishing_4_1_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_4"
+        },
+        "cc:fishing_4_1_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_4.solved"
+        },
+        "cc:fishing_4_2_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_4"
+        },
+        "cc:fishing_4_2_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_4.solved"
+        },
+        "cc:fishing_4_3_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_4"
+        },
+        "cc:fishing_4_3_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_4.solved"
+        },
+        "cc:fishing_4_4_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_4"
+        },
+        "cc:fishing_4_4_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_4.solved"
+        },
+        "cc:fishing_4_5_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_4"
+        },
+        "cc:fishing_4_5_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_4.solved"
+        },
+        "cc:fishing_5_1_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_5"
+        },
+        "cc:fishing_5_1_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_5.solved"
+        },
+        "cc:fishing_5_2_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_5"
+        },
+        "cc:fishing_5_2_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_5.solved"
+        },
+        "cc:fishing_5_3_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_5"
+        },
+        "cc:fishing_5_3_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_5.solved"
+        },
+        "cc:fishing_5_4_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_5"
+        },
+        "cc:fishing_5_4_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_5.solved"
+        },
+        "cc:fishing_5_5_quest": {
+            "textures": "textures/cc/quest/items/fishing/fishing_5"
+        },
+        "cc:fishing_5_5_quest_solved": {
+            "textures": "textures/cc/quest/items/fishing/fishing_5.solved"
+        },
+        "cc:adventure_1_1_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_1"
+        },
+        "cc:adventure_1_1_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_1.solved"
+        },
+        "cc:adventure_1_2_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_1"
+        },
+        "cc:adventure_1_2_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_1.solved"
+        },
+        "cc:adventure_1_3_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_1"
+        },
+        "cc:adventure_1_3_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_1.solved"
+        },
+        "cc:adventure_1_4_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_1"
+        },
+        "cc:adventure_1_4_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_1.solved"
+        },
+        "cc:adventure_1_5_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_1"
+        },
+        "cc:adventure_1_5_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_1.solved"
+        },
+        "cc:adventure_2_1_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_2"
+        },
+        "cc:adventure_2_1_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_2.solved"
+        },
+        "cc:adventure_2_2_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_2"
+        },
+        "cc:adventure_2_2_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_2.solved"
+        },
+        "cc:adventure_2_3_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_2"
+        },
+        "cc:adventure_2_3_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_2.solved"
+        },
+        "cc:adventure_2_4_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_2"
+        },
+        "cc:adventure_2_4_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_2.solved"
+        },
+        "cc:adventure_2_5_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_2"
+        },
+        "cc:adventure_2_5_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_2.solved"
+        },
+        "cc:adventure_3_1_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_3"
+        },
+        "cc:adventure_3_1_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_3.solved"
+        },
+        "cc:adventure_3_2_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_3"
+        },
+        "cc:adventure_3_2_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_3.solved"
+        },
+        "cc:adventure_3_3_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_3"
+        },
+        "cc:adventure_3_3_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_3.solved"
+        },
+        "cc:adventure_3_4_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_3"
+        },
+        "cc:adventure_3_4_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_3.solved"
+        },
+        "cc:adventure_3_5_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_3"
+        },
+        "cc:adventure_3_5_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_3.solved"
+        },
+        "cc:adventure_4_1_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_4"
+        },
+        "cc:adventure_4_1_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_4.solved"
+        },
+        "cc:adventure_4_2_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_4"
+        },
+        "cc:adventure_4_2_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_4.solved"
+        },
+        "cc:adventure_4_3_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_4"
+        },
+        "cc:adventure_4_3_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_4.solved"
+        },
+        "cc:adventure_4_4_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_4"
+        },
+        "cc:adventure_4_4_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_4.solved"
+        },
+        "cc:adventure_4_5_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_4"
+        },
+        "cc:adventure_4_5_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_4.solved"
+        },
+        "cc:adventure_5_1_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_5"
+        },
+        "cc:adventure_5_1_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_5.solved"
+        },
+        "cc:adventure_5_2_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_5"
+        },
+        "cc:adventure_5_2_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_5.solved"
+        },
+        "cc:adventure_5_3_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_5"
+        },
+        "cc:adventure_5_3_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_5.solved"
+        },
+        "cc:adventure_5_4_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_5"
+        },
+        "cc:adventure_5_4_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_5.solved"
+        },
+        "cc:adventure_5_5_quest": {
+            "textures": "textures/cc/quest/items/adventure/adventure_5"
+        },
+        "cc:adventure_5_5_quest_solved": {
+            "textures": "textures/cc/quest/items/adventure/adventure_5.solved"
+        }
+    }
+}

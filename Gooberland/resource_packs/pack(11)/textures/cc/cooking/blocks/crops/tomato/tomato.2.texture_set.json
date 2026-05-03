@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "tomato.2",
+    "heightmap": "tomato.2_heightmap",
+    "metalness_emissive_roughness_subsurface": "tomato.2_mers"
+  }
+}

@@ -1,0 +1,116 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cc.penguin.walk": {
+			"anim_time_update": "q.anim_time + (q.ground_speed * 0.5) * q.delta_time",
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, 5],
+						"0.25": [0, 0, -5],
+						"0.5": [0, 0, 5]
+					}
+				},
+				"leftWing": {
+					"rotation": {
+						"0.0": [0, 0, -5],
+						"0.25": [0, 0, -15],
+						"0.5": [0, 0, -5]
+					}
+				},
+				"rightWing": {
+					"rotation": {
+						"0.0": [0, 0, 15],
+						"0.25": [0, 0, 5],
+						"0.5": [0, 0, 15]
+					}
+				},
+				"rightLeg": {
+					"position": {
+						"0.0": [0, 0, 3],
+						"0.25": [0, 0, -4],
+						"0.5": [0, 0, 3]
+					}
+				},
+				"leftLeg": {
+					"position": {
+						"0.0": [0, 0, -4],
+						"0.25": [0, 0, 3],
+						"0.5": [0, 0, -4]
+					}
+				}
+			}
+		},
+		"animation.cc.penguin.run": {
+			"anim_time_update": "q.anim_time + (q.ground_speed * 0.5) * q.delta_time",
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [90, 0, 0],
+					"position": [0, 6, 9]
+				}
+			}
+		},
+		"animation.cc.penguin.idle": {
+			"loop": true
+		},
+		"animation.cc.penguin.swim": {
+			"anim_time_update": "q.anim_time + (q.ground_speed * 0.5) * q.delta_time",
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"root": {
+					"rotation": [90, 0, 0],
+					"position": [0, 6, 9]
+				},
+				"leftWing": {
+					"rotation": {
+						"0.0": [0, 0, -90],
+						"0.25": [0, 0, 0],
+						"0.5": [0, 0, -90]
+					}
+				},
+				"rightWing": {
+					"rotation": {
+						"0.0": [0, 0, 90],
+						"0.25": [0, 0, 0],
+						"0.5": [0, 0, 90]
+					}
+				}
+			}
+		},
+		"animation.cc.penguin.sit": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [90, 0, 0],
+					"position": [0, -3, 0]
+				}
+			}
+		},
+		"animation.cc.penguin.lay_egg": {
+			"loop": true,
+			"animation_length": 0.4167,
+			"bones": {
+				"leftWing": {
+					"rotation": {
+						"0.0": [-31.28223, 9.29798, 4.89149],
+						"0.2083": [-29.47028, -14.36495, -33.70348],
+						"0.4167": [-31.28223, 9.29798, 4.89149]
+					},
+					"position": [0, -3, -2]
+				},
+				"rightWing": {
+					"rotation": {
+						"0.0": [-31.28223, -9.29798, -4.89149],
+						"0.2083": [-29.47028, 14.36495, 33.70348],
+						"0.4167": [-31.28223, -9.29798, -4.89149]
+					},
+					"position": [0, -3, -2]
+				}
+			}
+		}
+	}
+}

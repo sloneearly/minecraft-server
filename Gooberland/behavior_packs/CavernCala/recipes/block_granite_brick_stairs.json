@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "granite_brick_stairs_4406a89e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:granite_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:granite_brick_stairs",
+      "count": 3
+    }
+  }
+}

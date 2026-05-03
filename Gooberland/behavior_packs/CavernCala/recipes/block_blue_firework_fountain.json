@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "blue_firework_fountain_8e644189"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "CEC"
+    ],
+    "key": {
+      "A": {
+        "item": "item:sulfur",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:string",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:paper",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:blue_dye",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:gunpowder",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:blue_firework_fountain",
+      "count": 1
+    }
+  }
+}

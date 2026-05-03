@@ -1,0 +1,42 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:jungle_roots",
+            "menu_category": {
+                "category": "nature"
+            }
+        },
+        "components": {
+            "tag:solid": {},
+            "tag:grass": {},
+            "minecraft:map_color": "#6B462E",
+            "minecraft:collision_box": true,
+            "minecraft:selection_box": true,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:light_dampening": 15,
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "tag:minecraft:is_shovel_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.5,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_shovel')"
+                        },
+                        "destroy_speed": 0.5333
+                    }
+                ]
+            }
+        }
+    }
+}

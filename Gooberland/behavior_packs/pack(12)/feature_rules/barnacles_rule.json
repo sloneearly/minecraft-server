@@ -1,0 +1,45 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:barnacles_rule",
+      "places_feature": "cc:barnacles_scatter"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": {
+        "all_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "beach"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "stone"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 10,
+      "scatter_chance": 40.0,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          -10,
+          10
+        ]
+      },
+      "y": "query.above_top_solid(v.originx,v.originz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          -10,
+          10
+        ]
+      }
+    }
+  }
+}

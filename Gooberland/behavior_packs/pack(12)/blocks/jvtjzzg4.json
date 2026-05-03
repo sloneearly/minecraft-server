@@ -1,0 +1,84 @@
+{
+    "format_version": "1.21.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:fire_ritual_block",
+            "menu_category": {
+                "category": "nature"
+            },
+            "states": {
+                "cc:ritual_state": [
+                    "inactive",
+                    "active",
+                    "used"
+                ]
+            }
+        },
+        "components": {
+            "tag:cc:disable_silk_touch": {},
+            "tag:solid": {},
+            "cc:ritual": {},
+            "cc:transform_block": {},
+            "minecraft:map_color": "#787471",
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cc:fire_ritual_side_inactive",
+                    "render_method": "opaque"
+                },
+                "up": {
+                    "texture": "cc:fire_ritual_top_inactive",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 30.0
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 100
+            },
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:light_dampening": 15,
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('cc:ritual_state') == 'active'",
+                "components": {
+                    "cc:ritual": {},
+                    "cc:transform_block": {},
+                    "cc:effect_emitter": {},
+                    "minecraft:tick": {
+                        "interval_range": [
+                            20,
+                            20
+                        ],
+                        "looping": true
+                    },
+                    "minecraft:light_emission": 15,
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:fire_ritual_side_active",
+                            "render_method": "opaque"
+                        },
+                        "up": {
+                            "texture": "cc:fire_ritual_top_active",
+                            "render_method": "opaque"
+                        },
+                        "down": {
+                            "texture": "cc:fire_ritual_top_active",
+                            "render_method": "opaque"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

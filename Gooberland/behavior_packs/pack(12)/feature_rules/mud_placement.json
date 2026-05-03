@@ -1,0 +1,37 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:mud_placement",
+      "places_feature": "cc:mud_scatter"
+    },
+    "conditions": {
+      "placement_pass": "first_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "swamp"
+            }
+          ]
+        }
+      ]
+    },
+
+    "distribution": {
+      "iterations": "math.random_integer(100,200)",
+      "scatter_chance": 40.0,
+      "x": {
+        "distribution": "gaussian",
+        "extent": [-8, 16]
+      },
+      "y": 0,
+      "z": {
+        "distribution": "gaussian",
+        "extent": [-8, 16]
+      }
+    }
+  }
+}

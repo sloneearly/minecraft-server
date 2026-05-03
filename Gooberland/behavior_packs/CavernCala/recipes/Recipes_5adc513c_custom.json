@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_7c20830a"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "item:iron_stone_geode",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:raw_iron",
+      "count": 3,
+      "data": 0
+    }
+  }
+}

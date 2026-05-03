@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:thrown_poison_javelin",
+      "materials": {
+        "default": "outline_base_glow",
+        "enchanted": "outline_base_glow",
+        "outline": "outline"
+      },
+      "textures": {
+        "default": "textures/cc/weapons/items/javelin/poison",
+        "enchanted": "textures/misc/enchanted_item_glint",
+        "outline": "textures/cc/weapons/items/outline/poison"
+      },
+      "geometry": {
+        "default": "geometry.cc.thrown_javelin",
+        "outline": "geometry.cc.thrown_javelin.outline"
+      },
+      "animations": {
+        "move": "animation.cc.javelin.rotate"
+      },
+      "scripts": {
+        "animate": ["move"]
+      },
+      "render_controllers": [
+        "controller.render.default",
+        {"controller.render.cc.item.outline": "q.is_moving"},
+        { "controller.render.cc_entity_enchanted": "q.property('cc:is_enchanted')" }
+      ]
+    }
+  }
+}

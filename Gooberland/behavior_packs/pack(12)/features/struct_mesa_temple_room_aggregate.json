@@ -1,0 +1,18 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "cc:struct_mesa_temple_room_aggregate"
+    },
+    "features": [
+      "cc:struct_mesa_temple_room_1_scatter",
+      "cc:struct_mesa_temple_room_2_scatter",
+      "cc:struct_mesa_temple_room_3_scatter",
+      "cc:struct_mesa_temple_room_4_scatter",
+      "cc:struct_mesa_temple_room_5_scatter",
+      "cc:struct_mesa_temple_room_6_scatter",
+      "cc:struct_mesa_temple_room_7_scatter",
+      "cc:struct_mesa_temple_room_8_scatter"
+    ]
+  }
+}

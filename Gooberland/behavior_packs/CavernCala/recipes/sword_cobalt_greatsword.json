@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cobalt_greatsword_8b75f172"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " AA",
+      " AA",
+      "B  "
+    ],
+    "key": {
+      "A": {
+        "item": "item:cobalt_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "sword:cobalt_greatsword",
+      "count": 1
+    }
+  }
+}

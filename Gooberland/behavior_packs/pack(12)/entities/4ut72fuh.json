@@ -1,0 +1,312 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cc:shark",
+      "spawn_category": "water_ambient",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
+      },
+      "minecraft:type_family": {
+        "family": ["shark", "fish"]
+      },
+      "minecraft:collision_box": {
+        "width": 2,
+        "height": 1.5
+      },
+      "minecraft:health": {
+        "value": 30,
+        "max": 30
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/dolphin.json"
+      },
+      "minecraft:scale": {
+        "value": 1.0
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_air": false,
+        "breathes_water": true
+      },
+      "minecraft:navigation.generic": {
+        // Allows the mob to go through water
+        "is_amphibious": false,
+        "can_path_over_water": false,
+        "can_swim": true,
+        "can_walk": false,
+        "can_breach": false,
+        "can_sink": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:movement.sway": {
+        "sway_amplitude": 0.0
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": {
+          "min_distance": 32,
+          "max_distance": 40
+        }
+      },
+      "minecraft:behavior.swim_idle": {
+        "priority": 5,
+        "idle_time": 5.0,
+        "success_rate": 0.1
+      },
+      "minecraft:behavior.random_swim": {
+        // Randomly selects points to go to, even in water
+        "priority": 3,
+        "speed_multiplier": 1.0,
+        "xz_dist": 16,
+        "y_dist": 4,
+        "interval": 0
+      },
+      "minecraft:behavior.swim_wander": {
+        "priority": 4,
+        "interval": 0.1,
+        "look_ahead": 2.0,
+        "speed_multiplier": 1.0,
+        "wander_time": 5.0
+      },
+      "minecraft:nameable": {},
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "event": "cc:in_water",
+            "target": "self",
+            "filters": {
+              "test": "in_water",
+              "value": true
+            }
+          },
+          {
+            "event": "cc:out_of_water",
+            "target": "self",
+            "filters": {
+              "test": "in_water",
+              "value": false
+            }
+          }
+        ]
+      },
+      "minecraft:behavior.panic": {
+        "priority": 1,
+        "speed_multiplier": 4
+      }
+    },
+    "component_groups": {
+      "attack_mode": {
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 1,
+          "must_see": true,
+          "reselect_targets": true,
+          "within_radius": 25.0,
+          "must_see_forget_duration": 17.0,
+          "entity_types": [
+            {
+              "filters": {
+                "all_of": [
+                  {
+                    "any_of": [
+                      {
+                        "all_of": [
+                          {
+                            "test": "is_family",
+                            "subject": "other",
+                            "value": "player"
+                          },
+                          {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "operator": "not",
+                            "domain": "torso",
+                            "value": "cc:shark_tooth_chestplate"
+                          }
+                        ]
+                      },
+                      {
+                        "test": "is_family",
+                        "subject": "other",
+                        "value": "cod"
+                      },
+                      {
+                        "test": "is_family",
+                        "subject": "other",
+                        "value": "penguin"
+                      },
+                      {
+                        "test": "is_family",
+                        "subject": "other",
+                        "value": "salmon"
+                      },
+                      {
+                        "test": "is_family",
+                        "subject": "other",
+                        "value": "villager"
+                      },
+                      {
+                        "test": "is_family",
+                        "subject": "other",
+                        "value": "wandering_trader"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "in_water",
+                    "subject": "other",
+                    "value": true
+                  },
+                  {
+                    "test": "has_equipment",
+                    "subject": "other",
+                    "domain": "torso",
+                    "operator": "!=",
+                    "value": "cc:shark_tooth_chestplate"
+                  }
+                ]
+              },
+              "max_dist": 24
+            }
+          ]
+        },
+        "minecraft:behavior.melee_box_attack": {
+          "priority": 0,
+          "on_attack": {
+            "event": "cc:drop_teeth",
+            "target": "self"
+          }
+        },
+        "minecraft:attack": {
+          "damage": 6
+        },
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "cause": "entity_attack",
+              "on_damage": {
+                "event": "cc:attack_timer",
+                "target": "self",
+                "filters": [
+                  {
+                    "test": "is_target",
+                    "subject": "other",
+                    "value": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "minecraft:timer": {
+          "time": [10, 15],
+          "looping": true,
+          "time_down_event": {
+            "event": "cc:attack_timer",
+            "target": "self"
+          }
+        },
+        "minecraft:movement": {
+          "value": 0.15
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.15
+        }
+      },
+      "attack_timer": {
+        "minecraft:timer": {
+          "time": [10, 15],
+          "looping": true,
+          "time_down_event": {
+            "event": "cc:attack_mode",
+            "target": "self"
+          }
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.1
+        }
+      },
+      "in_water": {
+        "minecraft:physics": {
+          "has_gravity": false
+        }
+      },
+      "cc:persistence": {
+        "minecraft:persistent": {}
+      },
+      "out_of_water": {
+        "minecraft:physics": {}
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "trigger": "cc:attack_timer"
+      },
+      "cc:in_water": {
+        "remove": {
+          "component_groups": ["out_of_water"]
+        },
+        "add": {
+          "component_groups": ["in_water"]
+        }
+      },
+      "cc:out_of_water": {
+        "remove": {
+          "component_groups": ["in_water"]
+        },
+        "add": {
+          "component_groups": ["out_of_water"]
+        }
+      },
+      "cc:attack_mode": {
+        "remove": {
+          "component_groups": ["attack_timer"]
+        },
+        "add": {
+          "component_groups": ["attack_mode"]
+        }
+      },
+      "cc:attack_timer": {
+        "remove": {
+          "component_groups": ["attack_mode"]
+        },
+        "add": {
+          "component_groups": ["attack_timer"]
+        }
+      },
+      "cc:drop_teeth": {
+        "randomize": [
+          {
+            "weight": 5
+          },
+          {
+            "weight": 1,
+            "queue_command": {
+              "command": "loot spawn ~ ~ ~ loot \"cc/animals/shark_tooth.loot\""
+            }
+          }
+        ]
+      },
+      "cc:persistence": {
+        "add": {
+          "component_groups": [
+            "cc:persistence"
+          ]
+        }
+      }
+    }
+  }
+}

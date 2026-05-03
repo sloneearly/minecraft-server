@@ -1,0 +1,31 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ntk:craft_x_overgrown_jungle_sapling"
+    },
+    "priority": 1,
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "ntk:overgrown_jungle_leaves"
+      },
+      "B": {
+        "item": "minecraft:deadbush"
+      }
+    },
+    "result": {
+      "item": "ntk:overgrown_jungle_sapling",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "ntk:overgrown_jungle_leaves"
+      }
+    ]
+  }
+}

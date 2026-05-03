@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "calcite_stairs_fed95229"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:calcite",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:calcite_stairs",
+      "count": 3
+    }
+  }
+}

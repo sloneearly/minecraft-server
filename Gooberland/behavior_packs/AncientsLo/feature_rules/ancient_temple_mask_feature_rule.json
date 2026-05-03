@@ -1,0 +1,64 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "ancients:ancient_temple_mask_feature_rule",
+			"places_feature": "ancients:forest_ancient_temple_feature"
+		},
+		"conditions": {
+			"placement_pass": "first_pass",
+			"minecraft:biome_filter": [
+                {
+                    "all_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "forest"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "birch"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "taiga"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "jungle"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "desert"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "savanna"
+                        }
+                    ]
+                }
+            ]
+		},
+		"distribution": {
+			"iterations": 1,
+			"x": {
+				"extent": [0, 20],
+				"distribution": "uniform"
+			},
+			"y": "q.heightmap(v.worldx, v.worldz)",
+			"z": {
+				"extent": [0, 20],
+				"distribution": "uniform"
+			},
+			"scatter_chance": {
+				"numerator": 1,
+				"denominator": 90
+			}
+		}
+	}
+}

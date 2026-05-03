@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wan_redcave:magnetite_redlight_intersection",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:display_name": "wan_redcave:magnetite_redlight_intersection.name",
+      "minecraft:selection_box": true,
+      "minecraft:collision_box": true,
+      "minecraft:loot": "loot_tables/wan/redcave/block/redstone.json",
+      "minecraft:geometry": {
+        "identifier": "geometry.wan_redcave.full_block_box"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "wan_redcave:magnetite_redlight_intersection",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:light_emission": 10,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 100
+      },
+      "tag:minecraft:is_pickaxe_item_destructible": {}
+    }
+  }
+}

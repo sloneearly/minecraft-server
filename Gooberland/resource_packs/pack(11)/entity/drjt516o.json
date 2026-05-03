@@ -1,0 +1,35 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cc:snowball",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/items/snowball"
+            },
+            "geometry": {
+                "default": "geometry.cc.snowball"
+            },
+            "animations": {
+                "rotate": "animation.cc.snowball.rotate",
+                "spin": "animation.cc.snowball.spin",
+                "particle": "animation.cc.snowball.particle"
+            },
+            "particle_effects": {
+                "particle": "cc:snowball"
+            },
+            "scripts": {
+                "animate": [
+                    "rotate",
+                    "spin",
+                    "particle"
+                ]
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

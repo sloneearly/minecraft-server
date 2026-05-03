@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cc:stone_battle_axe"
+    },
+    "assume_symmetry": true,
+    "tags": ["crafting_table"],
+    "pattern": ["*A*"],
+    "key": {
+      "*": {
+        "item": "minecraft:cobblestone"
+      },
+      "A": {
+        "item": "minecraft:stone_axe"
+      }
+    },
+    "result": "cc:stone_battle_axe"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.wan_redcave.wireless_hopper",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [
+          0,
+          0.75,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "block",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                0,
+                -8
+              ],
+              "size": [
+                16,
+                9,
+                16
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                9,
+                -7
+              ],
+              "size": [
+                14,
+                3,
+                14
+              ],
+              "uv": [
+                0,
+                45
+              ]
+            },
+            {
+              "origin": [
+                -8,
+                12,
+                -8
+              ],
+              "size": [
+                16,
+                4,
+                16
+              ],
+              "uv": [
+                0,
+                25
+              ]
+            }
+          ]
+        }
+      ],
+      "item_display_transforms": {
+        "firstperson_righthand": {
+          "rotation": [
+            5,
+            -135,
+            0
+          ],
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "rotation_pivot": [
+            0,
+            0,
+            0
+          ],
+          "scale_pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            5,
+            135,
+            0
+          ],
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "rotation_pivot": [
+            0,
+            0,
+            0
+          ],
+          "scale_pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            30,
+            -135,
+            0
+          ],
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.6,
+            0.6,
+            0.6
+          ],
+          "rotation_pivot": [
+            0,
+            0,
+            0
+          ],
+          "scale_pivot": [
+            0,
+            0,
+            0
+          ],
+          "fit_to_frame": false
+        }
+      }
+    }
+  ]
+}

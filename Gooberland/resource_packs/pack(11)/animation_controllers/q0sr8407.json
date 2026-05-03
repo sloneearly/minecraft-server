@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+      "controller.animation.cc.particle.alive": {
+        "initial_state": "default",
+        "states": {
+          "default": {
+            "transitions": [
+              {
+                "alive": "query.is_alive"
+              }
+            ]
+          },
+          "alive": {
+            "transitions": [
+              {
+                "default": "!query.is_alive"
+              }
+            ],
+            "particle_effects": [
+              {
+                "effect": "particle_alive",
+                "locator": "particle"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+  

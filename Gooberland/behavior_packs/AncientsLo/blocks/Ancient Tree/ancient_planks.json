@@ -1,0 +1,31 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:block": {
+        "description": {
+            "identifier": "ancients:ancient_planks",
+            "menu_category": {
+                "category": "construction",
+                "group": "itemGroup.name.planks"
+            }
+        },
+        "components": {
+            "minecraft:map_color": "#B3895C",
+            "minecraft:destructible_by_mining":{
+                "seconds_to_destroy": 1.5
+            },
+            "tag:wood":{},
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:flammable": {
+                "catch_chance_modifier": 5,
+                "destroy_chance_modifier": 20
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "ancient_planks",
+                    "render_method": "opaque"
+                }
+            },
+            "tag:minecraft:is_hatchet_item_destructible":{}
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "diorite_bricks_16a66d0c"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:polished_diorite",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:diorite_bricks",
+      "count": 4
+    }
+  }
+}

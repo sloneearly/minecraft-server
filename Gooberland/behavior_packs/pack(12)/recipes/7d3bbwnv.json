@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "cc:sweet_berries_crate"
+        },
+        "tags": [
+            "cc:cooking_table"
+        ],
+        "pattern": [
+            "***",
+            "***",
+            "***"
+        ],
+        "key": {
+            "*": {
+                "item": "minecraft:sweet_berries"
+            }
+        },
+        "result": "cc:sweet_berries_crate"
+    }
+}

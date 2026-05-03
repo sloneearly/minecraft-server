@@ -1,0 +1,92 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.shark",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "torso",
+					"parent": "root",
+					"pivot": [2, 0, 0],
+					"cubes": [
+						{"origin": [-6.5, 0, -10], "size": [13, 14, 23], "uv": [2, 0]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "torso",
+					"pivot": [0, 6, 12],
+					"cubes": [
+						{"origin": [-4.5, 0, 13], "size": [9, 11, 17], "uv": [0, 37]}
+					]
+				},
+				{
+					"name": "tail2",
+					"parent": "tail",
+					"pivot": [0, 6, 29],
+					"cubes": [
+						{"origin": [-1.5, -4, 28], "size": [3, 21, 10], "uv": [46, 70]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "torso",
+					"pivot": [0, 0, -11]
+				},
+				{
+					"name": "upperJaw",
+					"parent": "head",
+					"pivot": [0, 5, -10],
+					"cubes": [
+						{"origin": [-4.5, 4, -23], "size": [9, 7, 13], "uv": [52, 37]}
+					]
+				},
+				{
+					"name": "lowerJaw",
+					"parent": "head",
+					"pivot": [0, 5, -10.25],
+					"cubes": [
+						{"origin": [-4.5, 0, -21], "size": [9, 4, 11], "uv": [72, 70]},
+						{"origin": [-3.5, 4, -21], "size": [7, 1, 8], "uv": [77, -1]}
+					]
+				},
+				{
+					"name": "topFin",
+					"parent": "torso",
+					"pivot": [0, 15.25, 0],
+					"rotation": [-22.5, 0, 0],
+					"cubes": [
+						{"origin": [-1.5, 12.3074, -3.86142], "size": [3, 9, 8], "uv": [76, 8]}
+					]
+				},
+				{
+					"name": "leftFin",
+					"parent": "torso",
+					"pivot": [6.5, 1, 0],
+					"cubes": [
+						{"origin": [6.5, 1, -5], "size": [13, 3, 10], "uv": [52, 57]}
+					]
+				},
+				{
+					"name": "rightFin",
+					"parent": "torso",
+					"pivot": [-6.5, 1, 0],
+					"cubes": [
+						{"origin": [-19.5, 1, -5], "size": [13, 3, 10], "uv": [52, 57], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,205 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cc:dripice",
+      "menu_category": {
+        "category": "none"
+      },
+      "states": {
+        "cc:variant": ["tip", "base", "merge", "middle", "merge_direction"]
+      },
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": ["minecraft:block_face"]
+        }
+      }
+    },
+    "components": {
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "none"
+      },
+      "minecraft:destruction_particles": {
+        "texture": "ice_packed"
+      },
+      "cc:dripstone": {},
+      "tag:nonsolid": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.1
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:geometry": "geometry.cc.cross",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cc:invisible",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 16, 16]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:map_color": "#8DD0FD",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "on_liquid_touches": "popped"
+          }
+        ]
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up'",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "minecraft:transformation": {
+            "rotation": [180, 0, 0]
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": ["up"],
+                "block_filter": [
+                  "minecraft:stone",
+                  "cc:dripice",
+                  "minecraft:ice",
+                  "minecraft:packed_ice",
+                  "minecraft:blue_ice"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'down'",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "minecraft:transformation": {
+            "rotation": [0, 0, 0]
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": ["up", "down"],
+                "block_filter": [
+                  "minecraft:stone",
+                  "cc:dripice",
+                  "minecraft:air",
+                  "minecraft:ice",
+                  "minecraft:packed_ice",
+                  "minecraft:blue_ice"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('cc:variant') == 'base'",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:dripice_base",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [-6, 0, -6],
+            "size": [12, 16, 12]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('cc:variant') == 'tip'",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:dripice_tip",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [-3, 5, -3],
+            "size": [6, 11, 6]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('cc:variant') == 'merge'",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:dripice_merge",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 16, 8]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('cc:variant') == 'middle'",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:dripice_middle",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [-5, 0, -5],
+            "size": [10, 16, 10]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('cc:variant') == 'merge_direction'",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:dripice_merge_direction",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 16, 8]
+          }
+        }
+      }
+    ]
+  }
+}

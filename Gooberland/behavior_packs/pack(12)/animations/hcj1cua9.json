@@ -1,0 +1,20 @@
+{
+    "format_version": "1.20.30",
+    "animations": {
+
+      "animation.cc.grab_player": {
+        "animation_length": 0.15,
+        "loop": true,
+        "timeline": {
+          "0.1": ["/execute as @s at @s if entity @p[r=1.5] run ride @p start_riding @s","/execute as @s at @s if entity @p[r=2] run event entity @s cc:add_grab_player", "/playanimation @p[r=2] vulture_ride none 0.2 \"!query.is_riding\""]
+        }
+      },
+      "animation.cc.drop_rider": {
+        "animation_length": 10.0,
+        "loop": true,
+        "timeline": {
+          "10.0": [ "/ride @s evict_riders","/execute as @s at @s if entity @p[r=2] run ride @p start_riding @s","/event entity @s cc:remove_grab_player" ]
+        }
+      }
+  }
+}

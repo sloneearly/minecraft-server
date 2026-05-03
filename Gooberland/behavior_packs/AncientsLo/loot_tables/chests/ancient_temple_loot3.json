@@ -1,0 +1,108 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 10,
+				"max": 12
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "ancients:lost_scroll",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 2
+							}
+						}
+					],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:gold_nugget",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 10
+							}
+						}
+					],
+					"weight": 10
+				},
+                {
+					"type": "item",
+					"name": "ancients:ancient_rune",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:gold_ingot",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 6
+							}
+						}
+					],
+					"weight": 23
+				},
+                {
+					"type": "item",
+					"name": "ancients:runic_apple",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_ingot",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 4
+							}
+						}
+					],
+					"weight": 25
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 3
+							}
+						}
+					],
+					"weight": 22
+				},
+				{
+					"type": "empty",
+					"weight": 10
+				}
+			]
+		}
+	]
+}

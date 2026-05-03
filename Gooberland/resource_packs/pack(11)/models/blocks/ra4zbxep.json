@@ -1,0 +1,76 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.hollow_log",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 17, -5],
+					"rotation": [90, 0, 90],
+					"cubes": [
+						{
+							"origin": [3, 26.5, -21.5],
+							"size": [12, 2, 16],
+							"pivot": [9, 20.5, -5],
+							"rotation": [-90, 0, 180],
+							"uv": {
+								"north": {"uv": [8, 0], "uv_size": [48, 8], "material_instance": "hollow_top"},
+								"south": {"uv": [8, 0], "uv_size": [48, 8], "material_instance": "hollow_top"},
+								"up": {"uv": [8, 0], "uv_size": [48, 64], "material_instance": "hollow_outside"},
+								"down": {"uv": [8, 64], "uv_size": [48, -64], "material_instance": "hollow_inside"}
+							}
+						},
+						{
+							"origin": [3, 7.5, -16.5],
+							"size": [12, 2, 16],
+							"pivot": [9, 15.5, -5],
+							"rotation": [-90, 0, 180],
+							"uv": {
+								"north": {"uv": [8, 56], "uv_size": [48, 8], "material_instance": "hollow_top"},
+								"south": {"uv": [8, 56], "uv_size": [48, 8], "material_instance": "hollow_top"},
+								"up": {"uv": [8, 0], "uv_size": [48, 64], "material_instance": "hollow_inside"},
+								"down": {"uv": [8, 64], "uv_size": [48, -64], "material_instance": "hollow_outside"}
+							}
+						},
+						{
+							"origin": [15, 4, -21.99],
+							"size": [2, 16, 16],
+							"pivot": [9, 11, -9.5],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"north": {"uv": [56, 0], "uv_size": [8, 64], "material_instance": "hollow_outside"},
+								"east": {"uv": [0, 0], "uv_size": [64, 64], "material_instance": "hollow_inside"},
+								"south": {"uv": [0, 0], "uv_size": [8, 64], "material_instance": "hollow_outside"},
+								"west": {"uv": [0, 0], "uv_size": [64, 64], "material_instance": "hollow_outside"},
+								"up": {"uv": [56, 0], "uv_size": [8, 64], "material_instance": "hollow_top"},
+								"down": {"uv": [56, 64], "uv_size": [8, -64], "material_instance": "hollow_top"}
+							}
+						},
+						{
+							"origin": [3, 4, -21.99],
+							"size": [2, 16, 16],
+							"pivot": [10, 11, -9.5],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [8, 64], "material_instance": "hollow_outside"},
+								"east": {"uv": [0, 0], "uv_size": [64, 64], "material_instance": "hollow_outside"},
+								"south": {"uv": [56, 0], "uv_size": [8, 64], "material_instance": "hollow_outside"},
+								"west": {"uv": [0, 0], "uv_size": [64, 64], "material_instance": "hollow_inside"},
+								"up": {"uv": [0, 0], "uv_size": [8, 64], "material_instance": "hollow_top"},
+								"down": {"uv": [0, 64], "uv_size": [8, -64], "material_instance": "hollow_top"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cc:mesa_iron_golem_head"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "*H*"
+    ],
+    "key": {
+      "*": {
+        "item": "minecraft:iron_block"
+      },
+      "H": {
+        "item": "cc:mesa_iron_golem_head"
+      }
+    },
+    "result": [
+      {
+        "item": "cc:mesa_iron_golem_head"
+      },
+      {
+        "item": "cc:mesa_iron_golem_head"
+      }
+    ]
+  }
+}

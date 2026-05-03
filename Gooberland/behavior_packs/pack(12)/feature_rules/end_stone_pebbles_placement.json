@@ -1,0 +1,38 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:end_stone_pebbles_placement",
+      "places_feature": "cc:end_stone_pebbles_feature"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "the_end"
+            }
+          ]
+        }
+      ]
+    },
+
+    "distribution": {
+      "iterations": 5,
+      "scatter_chance": 40.0,
+      "x": {
+        "distribution": "triangle",
+        "extent": [-8, 8]
+      },
+      "y": "query.above_top_solid(v.originx, v.originz)",
+      "z": {
+        "distribution": "triangle",
+        "extent": [-8, 8]
+      },
+      "coordinate_eval_order": "zyx"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cc:jungle_carpet",
+      "menu_category": {
+        "category": "none"
+      }
+    },
+    "components": {
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "none"
+      },
+      "minecraft:replaceable": {},
+      "tag:plant": {},
+      "tag:nonsolid": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:geometry": "geometry.jungle_carpet",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cc:jungle_carpet_side",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        },
+        "up": {
+          "texture": "cc:jungle_carpet_top",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 8, 16]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:map_color": "#76e75f",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["up"],
+            "block_filter": [
+              "grass_block",
+              "dirt",
+              "podzol",
+              "dirt_with_roots",
+              "coarse_dirt",
+              {
+                "tags": "query.any_tag('dirt') || query.any_tag('grass')"
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "on_liquid_touches": "popped"
+          }
+        ]
+      },
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      }
+    }
+  }
+}

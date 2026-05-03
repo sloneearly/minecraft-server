@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "titanium_helmet_ab3bce49"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "item:titanium_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "helmet:titanium_helmet",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "cc:dead_bush_block_1"
+    },
+    "places_block": "minecraft:deadbush",
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false,
+    "may_attach_to": {
+      "bottom": [
+        "minecraft:grass",
+        "minecraft:dirt",
+        "minecraft:coarse_dirt"
+      ]
+    },
+    "may_replace": [
+      "minecraft:air"
+    ]
+  }
+}

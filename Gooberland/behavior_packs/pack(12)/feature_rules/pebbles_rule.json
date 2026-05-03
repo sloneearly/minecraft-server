@@ -1,0 +1,77 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:pebbles_rule",
+      "places_feature": "cc:pebbles_scatter"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": {
+        "any_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "forest"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "meadow"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "birch"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "plains"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "stone"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "mesa"
+          }
+        ],
+        "none_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "cold"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "frozen"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 5,
+      "scatter_chance": 100.0,
+      "x": {
+        "distribution": "triangle",
+        "extent": [
+          -8,
+          8
+        ]
+      },
+      "y": "query.heightmap(v.originx, v.originz)",
+      "z": {
+        "distribution": "triangle",
+        "extent": [
+          -8,
+          8
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cc:mesa_rock_projectile",
+            "geometry": {
+                "default": "geometry.cc.rock_projectile"
+            },
+            "textures": {
+                "default": "textures/cc/projectiles/entities/mesa_rock_projectile"
+            },
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "animations": {
+                "rotate": "animation.cc.rock_projectile.rotate",
+                "spin": "animation.cc.rock_projectile.spin"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "scripts": {
+                "animate": [
+                    "spin",
+                    "rotate"
+                ]
+            }
+        }
+    }
+}

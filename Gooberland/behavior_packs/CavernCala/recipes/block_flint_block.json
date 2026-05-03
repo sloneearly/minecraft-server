@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "flint_block_4aabfc38"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:flint",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:flint_block",
+      "count": 1
+    }
+  }
+}

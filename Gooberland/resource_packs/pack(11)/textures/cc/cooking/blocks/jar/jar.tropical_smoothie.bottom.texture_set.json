@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "jar.tropical_smoothie.bottom",
+    "heightmap": "jar.tropical_smoothie.bottom_heightmap",
+    "metalness_emissive_roughness_subsurface": "jar.tropical_smoothie.bottom_mers"
+  }
+}

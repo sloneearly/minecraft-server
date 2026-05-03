@@ -1,0 +1,31 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "gen:wilted_garden_feature"
+		},
+		"features": [
+			[
+				"gen:wilted_garden1_feature",
+				1
+			],
+			[
+				"gen:wilted_garden2_feature",
+				1
+			],
+			[
+				"gen:wilted_garden3_feature",
+				1
+			],
+			[
+				"gen:wilted_garden4_feature",
+				1
+			],
+			[
+				"gen:wilted_garden5_feature",
+				15
+			]
+		]
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc.weapon_stand.wiggle": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "wiggling": "q.hurt_time > 0"
+            }
+          ]
+        },
+        "wiggling": {
+          "animations": ["wiggle"],
+          "transitions": [
+            {
+              "default": "q.hurt_time == 0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

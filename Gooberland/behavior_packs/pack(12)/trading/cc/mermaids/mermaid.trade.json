@@ -1,0 +1,464 @@
+{
+  "tiers": [
+    /* LEVEL 1 */
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "choice": [
+                    {
+                      "item": "cod",
+                      "quantity": {
+                        "min": 4,
+                        "max": 8
+                      }
+                    },
+                    {
+                      "item": "salmon",
+                      "quantity": {
+                        "min": 4,
+                        "max": 8
+                      }
+                    },
+                    {
+                      "item": "pufferfish",
+                      "quantity": 1
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 2
+            },
+            {
+              "wants": [
+                {
+                  "item": "kelp",
+                  "quantity": {
+                    "min": 24,
+                    "max": 32
+                  }
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 2
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:shells",
+                  "quantity": 4
+                }
+              ],
+              "trader_exp": 1
+            },
+            {
+              "wants": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "seagrass",
+                  "quantity": 4
+                }
+              ],
+              "trader_exp": 1
+            },
+            {
+              "wants": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "waterlily",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 1
+            }
+          ]
+        }
+      ]
+    },
+    /* LEVEL 2 */
+    {
+      "total_exp_required": 10,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "cc:shark_tooth",
+                  "quantity": {
+                    "min": 2,
+                    "max": 4
+                  }
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 12
+            },
+            {
+              "wants": [
+                {
+                  "item": "prismarine_shard",
+                  "quantity": {
+                    "min": 2,
+                    "max": 4
+                  }
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 12
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": {
+                    "min": 2,
+                    "max": 4
+                  }
+                }
+              ],
+              "gives": [
+                {
+                  "item": "glow_ink_sac",
+                  "quantity": 10
+                }
+              ],
+              "trader_exp": 6
+            },
+            {
+              "wants": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": {
+                    "min": 2,
+                    "max": 4
+                  }
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:floating_flower",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 6
+            }
+          ]
+        }
+      ]
+    },
+    /* LEVEL 3 */
+    {
+      "total_exp_required": 70,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "cc:barnacles",
+                  "quantity": 4
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 16
+            },
+            {
+              "wants": [
+                {
+                  "item": "cc:lily_pad_flower",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 16
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {
+                      "item": "brain_coral_block",
+                      "quantity": 4
+                    },
+                    {
+                      "item": "bubble_coral_block",
+                      "quantity": 4
+                    },
+                    {
+                      "item": "fire_coral_block",
+                      "quantity": 4
+                    },
+                    {
+                      "item": "horn_coral_block",
+                      "quantity": 4
+                    },
+                    {
+                      "item": "tube_coral_block",
+                      "quantity": 4
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 8
+            },
+            {
+              "wants": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": {
+                    "min": 8,
+                    "max": 12
+                  }
+                }
+              ],
+              "gives": [
+                {
+                  "item": "turtle_egg",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 8
+            }
+          ]
+        }
+      ]
+    },
+    /* LEVEL 4 */
+    {
+      "total_exp_required": 150,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "turtle_scute",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": 2
+                }
+              ],
+              "trader_exp": 20
+            },
+            {
+              "wants": [
+                {
+                  "item": "nautilus_shell",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": 2
+                }
+              ],
+              "trader_exp": 20
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": {
+                    "min": 6,
+                    "max": 10
+                  }
+                }
+              ],
+              "gives": [
+                {
+                  "item": "heart_of_the_sea",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 10
+            },
+            {
+              "wants": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": {
+                    "min": 8,
+                    "max": 12
+                  }
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:shark_tooth_chestplate",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 10
+            }
+          ]
+        }
+      ]
+    },
+    /* LEVEL 5 */
+    {
+      "total_exp_required": 250,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "max_uses": 1,
+              "wants": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": {
+                    "min": 4,
+                    "max": 6
+                  }
+                }
+              ],
+              "gives": [
+                {
+                  "item": "map",
+                  "functions": [
+                    {
+                      "function": "exploration_map",
+                      "destination": "buriedtreasure"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "max_uses": 1,
+              "wants": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": {
+                    "min": 4,
+                    "max": 6
+                  }
+                }
+              ],
+              "gives": [
+                {
+                  "item": "trident",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "enchant_with_levels",
+                      "levels": {
+                        "min": 15,
+                        "max": 20
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "max_uses": 1,
+              "wants": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": {
+                    "min": 24,
+                    "max": 32
+                  }
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:siren_staff",
+                  "quantity": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

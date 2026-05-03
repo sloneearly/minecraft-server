@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "loot_tables/chests/shipwreck.json"
+        },
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "name": "loot_tables/chests/shipwrecktreasure.json"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "loot_tables/cc/chests/presets/pearl.loot.json"
+        }
+      ]
+    }
+  ]
+}

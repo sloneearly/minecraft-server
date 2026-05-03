@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.30",
+  "render_controllers": {
+    "controller.render.cc.muddy": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": ["texture.muddy"]
+    }
+  }
+}

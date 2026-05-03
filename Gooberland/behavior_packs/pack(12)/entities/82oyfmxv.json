@@ -1,0 +1,557 @@
+{
+    "format_version": "1.19.60",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "cc:adventure_market_npc",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false,
+            "properties": {
+                "cc:base_index": {
+                    "range": [
+                        0,
+                        29
+                    ],
+                    "type": "int",
+                    "client_sync": true,
+                    "default": 0
+                }
+            }
+        },
+        "components": {
+            "minecraft:is_hidden_when_invisible": {},
+            "minecraft:type_family": {
+                "family": [
+                    "villager",
+                    "mob",
+                    "market_npc"
+                ]
+            },
+            "minecraft:follow_range": {
+                "value": 64,
+                "max": 64
+            },
+            "minecraft:breathable": {
+                "total_supply": 15,
+                "suffocate_time": 0
+            },
+            "minecraft:health": {
+                "value": 20,
+                "max": 20
+            },
+            "minecraft:hurt_on_condition": {
+                "damage_conditions": [
+                    {
+                        "filters": {
+                            "test": "in_lava",
+                            "subject": "self",
+                            "operator": "==",
+                            "value": true
+                        },
+                        "cause": "lava",
+                        "damage_per_tick": 4
+                    }
+                ]
+            },
+            "minecraft:collision_box": {
+                "width": 0.6,
+                "height": 1.9
+            },
+            "minecraft:nameable": {},
+            "minecraft:movement": {
+                "value": 0.25
+            },
+            "minecraft:navigation.generic": {
+                "avoid_damage_blocks": false,
+                "avoid_portals": false,
+                "avoid_sun": false,
+                "avoid_water": false,
+                "blocks_to_avoid": [],
+                "can_breach": false,
+                "can_break_doors": false,
+                "can_jump": true,
+                "can_open_doors": false,
+                "can_open_iron_doors": false,
+                "can_pass_doors": false,
+                "can_path_from_air": false,
+                "can_path_over_lava": false,
+                "can_path_over_water": false,
+                "can_sink": false,
+                "can_swim": true,
+                "can_walk": true,
+                "can_walk_in_lava": false,
+                "is_amphibious": true
+            },
+            "minecraft:movement.basic": {},
+            "minecraft:jump.static": {
+                "jump_power": 0.42
+            },
+            "minecraft:can_climb": {},
+            "minecraft:inventory": {
+                "inventory_size": 8,
+                "private": true
+            },
+            "minecraft:environment_sensor": {
+                "triggers": [
+                    {
+                        "event": "cc:move_indoors",
+                        "target": "self",
+                        "filters": {
+                            "test": "is_daytime",
+                            "value": false
+                        }
+                    }
+                ]
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "on_damage": {
+                            "filters": {
+                                "test": "is_family",
+                                "subject": "other",
+                                "value": "lightning"
+                            },
+                            "event": "become_witch"
+                        },
+                        "deals_damage": "no"
+                    },
+                    {
+                        "on_damage": {
+                            "filters": {
+                                "any_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "zombie"
+                                    },
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "husk"
+                                    }
+                                ],
+                                "all_of": [
+                                    {
+                                        "test": "has_damage",
+                                        "value": "fatal"
+                                    }
+                                ]
+                            },
+                            "event": "become_zombie"
+                        }
+                    }
+                ]
+            },
+            "minecraft:persistent": {},
+            "minecraft:behavior.float": {
+                "priority": 0
+            },
+            "minecraft:behavior.trade_with_player": {
+                "priority": 6,
+                "filters": {
+                    "all_of": [
+                        {
+                            "all_of": [
+                                {
+                                    "test": "in_water",
+                                    "value": false
+                                }
+                            ]
+                        },
+                        {
+                            "any_of": [
+                                {
+                                    "test": "on_ground",
+                                    "value": true
+                                },
+                                {
+                                    "test": "is_sleeping",
+                                    "value": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "minecraft:behavior.look_at_trading_player": {
+                "priority": 7
+            },
+            "minecraft:behavior.panic": {
+                "priority": 8,
+                "speed_multiplier": 0.6
+            },
+            "minecraft:behavior.avoid_mob_type": {
+                "priority": 8,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "any_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "zombie"
+                                },
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "zombie_villager"
+                                },
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "illager"
+                                },
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "vex"
+                                }
+                            ]
+                        },
+                        "max_dist": 8,
+                        "walk_speed_multiplier": 0.6,
+                        "sprint_speed_multiplier": 0.6
+                    }
+                ]
+            },
+            "minecraft:behavior.restrict_open_door": {
+                "priority": 10
+            },
+            "minecraft:behavior.open_door": {
+                "priority": 11,
+                "close_door_after": true
+            },
+            "minecraft:behavior.share_items": {
+                "priority": 13,
+                "max_dist": 3,
+                "goal_radius": 2.0,
+                "speed_multiplier": 0.5,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "test": "is_family",
+                            "subject": "other",
+                            "value": "villager"
+                        }
+                    }
+                ]
+            },
+            "minecraft:behavior.pickup_items": {
+                "priority": 14,
+                "max_dist": 3,
+                "goal_radius": 2,
+                "speed_multiplier": 0.5,
+                "can_pickup_to_hand_or_equipment": false
+            },
+            "minecraft:behavior.look_at_player": {
+                "priority": 17,
+                "look_distance": 8,
+                "probability": 0.02
+            },
+            "minecraft:physics": {},
+            "minecraft:pushable": {
+                "is_pushable": true,
+                "is_pushable_by_piston": true
+            },
+            "minecraft:conditional_bandwidth_optimization": {}
+        },
+        "component_groups": {
+            "cc:level_1": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "entity.cc:market_npc.adventure.1.name",
+                    "table": "trading/cc/market/adventure.1.trade.json",
+                    "convert_trades_economy": true,
+                    "new_screen": true
+                }
+            },
+            "cc:level_2": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "entity.cc:market_npc.adventure.2.name",
+                    "table": "trading/cc/market/adventure.2.trade.json",
+                    "convert_trades_economy": true,
+                    "new_screen": true
+                }
+            },
+            "cc:level_3": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "entity.cc:market_npc.adventure.3.name",
+                    "table": "trading/cc/market/adventure.3.trade.json",
+                    "convert_trades_economy": true,
+                    "new_screen": true
+                }
+            },
+            "cc:level_4": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "entity.cc:market_npc.adventure.4.name",
+                    "table": "trading/cc/market/adventure.4.trade.json",
+                    "convert_trades_economy": true,
+                    "new_screen": true
+                }
+            },
+            "cc:level_5": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "entity.cc:market_npc.adventure.5.name",
+                    "table": "trading/cc/market/adventure.5.trade.json",
+                    "convert_trades_economy": true,
+                    "new_screen": true
+                }
+            },
+            "cc:look_for_market": {
+                "minecraft:behavior.nearest_attackable_target": {
+                    "priority": 6,
+                    "reselect_targets": true,
+                    "scan_interval": 30,
+                    "must_see": false,
+                    "within_radius": 64.0,
+                    "entity_types": [
+                        {
+                            "filters": {
+                                "any_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "market_stand"
+                                    }
+                                ]
+                            },
+                            "max_dist": 64
+                        }
+                    ]
+                },
+                "minecraft:attack": {
+                    "damage": 1
+                },
+                "minecraft:behavior.delayed_attack": {
+                    "priority": 1,
+                    "reach_multiplier": 1.5,
+                    "hit_delay_pct": 0.8,
+                    "attack_duration": 0.41667,
+                    "track_target": true
+                },
+                "minecraft:entity_sensor": {
+                    "relative_range": true,
+                    "subsensors": [
+                        {
+                            "range": 3,
+                            "event_filters": {
+                                "any_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "market_stand"
+                                    }
+                                ]
+                            },
+                            "event": "cc:market_found"
+                        }
+                    ]
+                }
+            },
+            "cc:is_waiting_for_trade": {
+                "minecraft:environment_sensor": {
+                    "triggers": [
+                        {
+                            "event": "cc:leave_market",
+                            "target": "self",
+                            "filters": {
+                                "test": "has_trade_supply",
+                                "value": false
+                            }
+                        },
+                        {
+                            "event": "cc:leave_market",
+                            "target": "self",
+                            "filters": {
+                                "test": "has_damage",
+                                "value": "attack"
+                            }
+                        }
+                    ]
+                }
+            },
+            "cc:despawn": {
+                "minecraft:instant_despawn": {}
+            },
+            "cc:move_indoors": {
+                "minecraft:behavior.move_indoors": {
+                    "priority": 1,
+                    "speed_multiplier": 0.8
+                },
+                "minecraft:dweller": {
+                    "dwelling_type": "village",
+                    "dweller_role": "inhabitant",
+                    "update_interval_base": 0,
+                    "update_interval_variant": 0,
+                    "can_find_poi": true,
+                    "can_migrate": false,
+                    "first_founding_reward": 0
+                },
+                "minecraft:environment_sensor": {
+                    "triggers": [
+                        {
+                            "event": "cc:move_outdoors",
+                            "target": "self",
+                            "filters": {
+                                "test": "is_daytime",
+                                "value": true
+                            }
+                        }
+                    ]
+                }
+            },
+            "cc:leaving_market": {
+                "minecraft:behavior.avoid_mob_type": {
+                    "priority": 6,
+                    "ignore_visibility": true,
+                    "max_flee": 50.0,
+                    "max_dist": 50.0,
+                    "entity_types": [
+                        {
+                            "filters": {
+                                "any_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "market_stand"
+                                    },
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    }
+                                ]
+                            },
+                            "must_see": false,
+                            "walk_speed_multiplier": 1.0,
+                            "sprint_speed_multiplier": 1.0
+                        }
+                    ]
+                },
+                "minecraft:timer": {
+                    "time": 5,
+                    "looping": true,
+                    "time_down_event": {
+                        "event": "cc:despawn",
+                        "target": "self"
+                    }
+                }
+            }
+        },
+        "events": {
+            "cc:market_level_1": {
+                "add": {
+                    "component_groups": [
+                        "cc:level_1"
+                    ]
+                }
+            },
+            "cc:market_level_2": {
+                "add": {
+                    "component_groups": [
+                        "cc:level_2"
+                    ]
+                }
+            },
+            "cc:market_level_3": {
+                "add": {
+                    "component_groups": [
+                        "cc:level_3"
+                    ]
+                }
+            },
+            "cc:market_level_4": {
+                "add": {
+                    "component_groups": [
+                        "cc:level_4"
+                    ]
+                }
+            },
+            "cc:market_level_5": {
+                "add": {
+                    "component_groups": [
+                        "cc:level_5"
+                    ]
+                }
+            },
+            "minecraft:entity_spawned": {
+                "sequence": [
+                    {
+                        "add": {
+                            "component_groups": [
+                                "cc:look_for_market"
+                            ]
+                        }
+                    },
+                    {
+                        "set_property": {
+                            "cc:base_index": "math.random_integer(0, 29)"
+                        }
+                    }
+                ]
+            },
+            "cc:despawn": {
+                "add": {
+                    "component_groups": [
+                        "cc:despawn"
+                    ]
+                }
+            },
+            "cc:move_indoors": {
+                "add": {
+                    "component_groups": [
+                        "cc:move_indoors"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "cc:is_waiting_for_trade",
+                        "cc:look_for_market"
+                    ]
+                }
+            },
+            "cc:move_outdoors": {
+                "add": {
+                    "component_groups": [
+                        "cc:look_for_market"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "cc:move_indoors"
+                    ]
+                }
+            },
+            "cc:market_found": {
+                "remove": {
+                    "component_groups": [
+                        "cc:look_for_market"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "cc:is_waiting_for_trade"
+                    ]
+                }
+            },
+            "cc:leave_market": {
+                "queue_command": {
+                    "command": [
+                        "scriptevent cc:unlink_market_stand",
+                        "playsound mob.villager.yes @a"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "cc:is_waiting_for_trade"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "cc:leaving_market"
+                    ]
+                }
+            }
+        }
+    }
+}

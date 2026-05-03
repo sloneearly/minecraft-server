@@ -1,0 +1,67 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/block_aetherium_crystal",
+    "atlas_tile": "ani_block_aetherium_crystal",
+    "ticks_per_frame": 400
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_aether_vines",
+    "atlas_tile": "ani_block_aether_vines",
+    "ticks_per_frame": 400
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_aetherium_cluster",
+    "atlas_tile": "ani_block_aetherium_cluster",
+    "ticks_per_frame": 400
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_ancient_soul_forge_side",
+    "atlas_tile": "block_ancient_soul_forge_side",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_ancient_soul_forge_up",
+    "atlas_tile": "block_ancient_soul_forge_up",
+    "ticks_per_frame": 10
+  },
+        {
+    "flipbook_texture": "textures/blocks/block_aetherium_block",
+    "atlas_tile": "ani_block_aetherium_block",
+    "ticks_per_frame": 400
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_energized_sodalite_bricks",
+    "atlas_tile": "ani_block_energized_sodalite_bricks",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_energized_sodalite",
+    "atlas_tile": "ani_block_energized_sodalite",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_energized_sodalite_brick_slab",
+    "atlas_tile": "ani_block_energized_sodalite_brick_slab",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_sodalite_lamp_side",
+    "atlas_tile": "block_sodalite_lamp_side",
+    "ticks_per_frame": 20
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_energized_sodalite_pillar_side",
+    "atlas_tile": "block_energized_sodalite_pillar_side",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_energized_sodalite_pillar_up",
+    "atlas_tile": "block_energized_sodalite_pillar_up",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/block_energized_sodalite_tiles",
+    "atlas_tile": "ani_block_energized_sodalite_tiles",
+    "ticks_per_frame": 10
+  }
+]

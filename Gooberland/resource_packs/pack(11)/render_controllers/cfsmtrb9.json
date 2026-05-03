@@ -1,0 +1,45 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.cc.penguin": {
+            "part_visibility": [
+                {
+                    "*": true
+                },
+                {
+                    "cod": false
+                },
+                {
+                    "salmon": false
+                }
+            ],
+            "geometry": "q.is_baby ? Geometry.baby : Geometry.adult",
+            "textures": ["q.is_baby ? Texture.baby : Texture.default"],
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ]
+        },
+        "controller.render.cc.penguin.fish": {
+            "part_visibility": [
+                {
+                    "*": false
+                },
+                {
+                    "cod": "q.property('cc:holding_fish') == 'cod'"
+                },
+                {
+                    "salmon": "q.property('cc:holding_fish') == 'salmon'"
+                }
+            ],
+            "geometry": "q.is_baby ? Geometry.baby : Geometry.adult",
+            "textures": ["q.property('cc:holding_fish') == 'none' ? Texture.none : q.property('cc:holding_fish') == 'cod' ? Texture.cod : Texture.salmon "],
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ]
+        }
+    }
+}

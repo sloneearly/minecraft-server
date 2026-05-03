@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:struct_nether_basalt_castle_room_8_scatter"
+    },
+    "iterations": 1,
+    "x": 19,
+    "y": 8,
+    "z": 13,
+    "places_feature": "cc:struct_nether_basalt_castle_level_0_weight"
+  }
+}

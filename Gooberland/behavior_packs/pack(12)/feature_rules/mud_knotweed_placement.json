@@ -1,0 +1,37 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:mud_knotweed_placement",
+      "places_feature": "cc:knotweed_scatter"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "swamp"
+            }
+          ]
+        }
+      ]
+    },
+
+    "distribution": {
+      "iterations": "math.random(3,5)",
+      "scatter_chance": 30,
+      "x": {
+        "distribution": "uniform",
+        "extent": [0, 32]
+      },
+      "y": 63,
+      "z": {
+        "distribution": "uniform",
+        "extent": [0, 32]
+      }
+    }
+  }
+}

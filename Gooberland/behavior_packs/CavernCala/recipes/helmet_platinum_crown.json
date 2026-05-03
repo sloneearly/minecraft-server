@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "platinum_crown_355ce0e8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:platinum_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "item:kyanite_shard",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "helmet:platinum_crown",
+      "count": 1
+    }
+  }
+}

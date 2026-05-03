@@ -1,0 +1,36 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Sky Fracture Add-on v4 Custom RES",
+		"description": "made by Sir Rel",
+		"uuid": "5d8b7254-7628-4507-9bd0-d845df42b557",
+		"version": [
+			1,
+			0,
+			4
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "70227337-88bb-4c9a-b5ea-be7d9b864d24",
+			"version": [
+				1,
+				0,
+				4
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"1.8.4"
+			]
+		}
+	}
+}

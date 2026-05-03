@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "polished_amethyst_0f69bdfc"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:amethyst_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:polished_amethyst",
+      "count": 4
+    }
+  }
+}

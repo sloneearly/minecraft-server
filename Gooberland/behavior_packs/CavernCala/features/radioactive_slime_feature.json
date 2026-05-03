@@ -1,0 +1,23 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "generation:radioactive_slime_feature"
+		},
+		"count": 5,
+		"replace_rules": [
+			{
+				"places_block": "block:radioactive_slime",
+				"may_replace": [
+					"minecraft:stone"
+				]
+			},
+			{
+				"places_block": "block:radioactive_slime",
+				"may_replace": [
+					"minecraft:deepslate"
+				]
+			}
+		]
+	}
+}

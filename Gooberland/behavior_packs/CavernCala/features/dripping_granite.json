@@ -1,0 +1,57 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:growing_plant_feature": {
+		"description": {
+			"identifier": "gen:dripping_granite"
+		},
+		"height_distribution": [
+			[
+				{
+					"range_min": 1,
+					"range_max": 3
+				},
+				2
+			],
+			[
+				{
+					"range_min": 1,
+					"range_max": 5
+				},
+				3
+			],
+			[
+				{
+					"range_min": 1,
+					"range_max": 7
+				},
+				1
+			]
+		],
+		"growth_direction": "DOWN",
+		"age": {
+			"range_min": 2,
+			"range_max": 4
+		},
+		"body_blocks": [
+			[
+				"minecraft:granite",
+				3
+			],
+			[
+				"minecraft:granite",
+				2
+			]
+		],
+		"head_blocks": [
+			[
+				"minecraft:granite",
+				5
+			],
+			[
+				"minecraft:granite",
+				1
+			]
+		],
+		"allow_water": true
+	}
+}

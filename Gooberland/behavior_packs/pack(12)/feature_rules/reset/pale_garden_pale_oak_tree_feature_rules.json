@@ -1,0 +1,20 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "minecraft:pale_garden_pale_oak_tree_feature_rules",
+      "places_feature": "cc:empty_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [{ "test": "has_biome_tag", "value": "pale_garden" }]
+    },
+    "distribution": {
+      "iterations": 0,
+      "coordinate_eval_order": "zxy",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  }
+}

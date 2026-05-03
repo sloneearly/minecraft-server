@@ -1,0 +1,61 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.21.110",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "cc:hotsprings_mesa"
+		},
+		"components": {
+			"minecraft:climate": {
+				"downfall": 0,
+				"snow_accumulation": [
+					0,
+					0.125
+				],
+				"temperature": 2
+			},
+			"minecraft:overworld_height": {
+				"noise_type": "lowlands"
+			},
+			"minecraft:surface_builder": {
+				"builder": {
+					"type": "minecraft:mesa",
+					"bryce_pillars": true,
+					"clay_material": "minecraft:basalt",
+					"sea_floor_depth": 2,
+					"sea_floor_material": "minecraft:basalt",
+					"foundation_material": "minecraft:blackstone",
+					"hard_clay_material": "minecraft:blackstone",
+					"has_forest": false,
+					"mid_material": "minecraft:blackstone",
+					"top_material": "minecraft:blackstone",
+					"sea_material": "minecraft:blackstone"
+				}
+			},
+			"minecraft:replace_biomes": {
+				"replacements": [
+					{
+						"dimension": "minecraft:overworld",
+						"targets": [
+							"minecraft:mesa"
+						],
+						"amount": 0.9,
+						"noise_frequency_scale": 1
+					}
+				]
+			},
+			"minecraft:tags": {
+				"tags": [
+					"hotsprings",
+					"basalt_deltas",
+					"monster",
+					"spawn_magma_cubes",
+					"overworld",
+					"spawns_gold_rabbits",
+					"spawns_warm_variant_farm_animals",
+					"spawns_warm_variant_frogs"
+				]
+			}
+		}
+	}
+}

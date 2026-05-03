@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc.has_rider": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "transitions": [
+            {
+              "has_rider": "query.has_rider"
+            }
+          ],
+          "blend_transition": 1.0
+        },
+        "has_rider": {
+          "animations": ["has_rider"],
+          "transitions": [
+            {
+              "idle": "!query.has_rider"
+            }
+          ],
+          "blend_transition": 3.0
+        }
+      }
+    },
+    "controller.animation.cc.is_riding": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "transitions": [
+            {
+              "is_riding": "query.is_riding"
+            }
+          ],
+          "blend_transition": 1.0
+        },
+        "is_riding": {
+          "animations": ["riding"],
+          "transitions": [
+            {
+              "idle": "!query.is_riding"
+            }
+          ],
+          "blend_transition": 3.0
+        }
+      }
+    }
+  }
+}

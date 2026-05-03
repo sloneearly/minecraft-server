@@ -1,0 +1,503 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "choice": [
+                    {
+                      "item": "potato",
+                      "quantity": 16
+                    },
+                    {
+                      "item": "carrot",
+                      "quantity": 16
+                    },
+                    {
+                      "item": "melon",
+                      "quantity": 16
+                    },
+                    {
+                      "item": "pumpkin",
+                      "quantity": 4
+                    },
+                    {
+                      "item": "beetroot",
+                      "quantity": 8
+                    },
+                    {
+                      "item": "wheat",
+                      "quantity": 32
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {
+                      "item": "cc:banana",
+                      "quantity": 6
+                    },
+                    {
+                      "item": "cc:orange",
+                      "quantity": 6
+                    },
+                    {
+                      "item": "cc:strawberry",
+                      "quantity": 6
+                    },
+                    {
+                      "item": "cc:rice",
+                      "quantity": 6
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "choice": [
+                    {
+                      "item": "melon",
+                      "quantity": 8
+                    },
+                    {
+                      "item": "pumpkin",
+                      "quantity": 2
+                    },
+                    {
+                      "item": "beetroot",
+                      "quantity": 4
+                    },
+                    {
+                      "item": "wheat",
+                      "quantity": 16
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {
+                      "item": "cc:broccoli",
+                      "quantity": 4
+                    },
+                    {
+                      "item": "cc:cabbage",
+                      "quantity": 4
+                    },
+                    {
+                      "item": "cc:cauliflower",
+                      "quantity": 4
+                    },
+                    {
+                      "item": "cc:blue_berries",
+                      "quantity": 4
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "choice": [
+                    {
+                      "item": "cc:banana",
+                      "quantity": {
+                        "min": 6,
+                        "max": 8
+                      }
+                    },
+                    {
+                      "item": "cc:orange",
+                      "quantity": {
+                        "min": 6,
+                        "max": 8
+                      }
+                    },
+                    {
+                      "item": "cc:strawberry",
+                      "quantity": {
+                        "min": 6,
+                        "max": 8
+                      }
+                    },
+                    {
+                      "item": "cc:rice",
+                      "quantity": {
+                        "min": 6,
+                        "max": 8
+                      }
+                    },
+                    {
+                      "item": "cc:peanut",
+                      "quantity": {
+                        "min": 6,
+                        "max": 8
+                      }
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {
+                      "item": "cc:bell_pepper",
+                      "quantity": 4
+                    },
+                    {
+                      "item": "cc:corn",
+                      "quantity": 4
+                    },
+                    {
+                      "item": "cc:tomato",
+                      "quantity": 4
+                    },
+                    {
+                      "item": "cc:onion",
+                      "quantity": 4
+                    },
+                    {
+                      "item": "cc:garlic",
+                      "quantity": 4
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 40,
+              "wants": [
+                {
+                  "choice": [
+                    {
+                      "item": "cc:banana",
+                      "quantity": {
+                        "min": 8,
+                        "max": 12
+                      }
+                    },
+                    {
+                      "item": "cc:bell_pepper",
+                      "quantity": {
+                        "min": 8,
+                        "max": 12
+                      }
+                    },
+                    {
+                      "item": "cc:broccoli",
+                      "quantity": {
+                        "min": 8,
+                        "max": 12
+                      }
+                    },
+                    {
+                      "item": "cc:cabbage",
+                      "quantity": {
+                        "min": 8,
+                        "max": 12
+                      }
+                    },
+                    {
+                      "item": "cc:cauliflower",
+                      "quantity": {
+                        "min": 8,
+                        "max": 12
+                      }
+                    },
+                    {
+                      "item": "cc:corn",
+                      "quantity": {
+                        "min": 8,
+                        "max": 12
+                      }
+                    },
+                    {
+                      "item": "cc:grape",
+                      "quantity": {
+                        "min": 8,
+                        "max": 12
+                      }
+                    },
+                    {
+                      "item": "cc:lemon",
+                      "quantity": {
+                        "min": 8,
+                        "max": 12
+                      }
+                    },
+                    {
+                      "item": "cc:orange",
+                      "quantity": {
+                        "min": 8,
+                        "max": 12
+                      }
+                    },
+                    {
+                      "item": "cc:pineapple",
+                      "quantity": {
+                        "min": 8,
+                        "max": 12
+                      }
+                    },
+                    {
+                      "item": "cc:tomato",
+                      "quantity": {
+                        "min": 8,
+                        "max": 12
+                      }
+                    },
+                    {
+                      "item": "cc:blue_berries",
+                      "quantity": {
+                        "min": 8,
+                        "max": 12
+                      }
+                    },
+                    {
+                      "item": "cc:strawberry",
+                      "quantity": {
+                        "min": 8,
+                        "max": 12
+                      }
+                    },
+                    {
+                      "item": "cc:rice",
+                      "quantity": {
+                        "min": 8,
+                        "max": 12
+                      }
+                    },
+                    {
+                      "item": "cc:peanut",
+                      "quantity": {
+                        "min": 8,
+                        "max": 12
+                      }
+                    },
+                    {
+                      "item": "cc:onion",
+                      "quantity": {
+                        "min": 8,
+                        "max": 12
+                      }
+                    },
+                    {
+                      "item": "cc:garlic",
+                      "quantity": {
+                        "min": 8,
+                        "max": 12
+                      }
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 40,
+              "wants": [
+                {
+                  "choice": [
+                    {
+                      "item": "cc:banana_crate",
+                      "quantity": {
+                        "min": 3,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "item": "cc:bell_pepper_crate",
+                      "quantity": {
+                        "min": 3,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "item": "cc:broccoli_crate",
+                      "quantity": {
+                        "min": 3,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "item": "cc:cabbage_crate",
+                      "quantity": {
+                        "min": 3,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "item": "cc:cauliflower_crate",
+                      "quantity": {
+                        "min": 3,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "item": "cc:corn_crate",
+                      "quantity": {
+                        "min": 3,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "item": "cc:grape_crate",
+                      "quantity": {
+                        "min": 3,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "item": "cc:lemon_crate",
+                      "quantity": {
+                        "min": 3,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "item": "cc:orange_crate",
+                      "quantity": {
+                        "min": 3,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "item": "cc:pineapple_crate",
+                      "quantity": {
+                        "min": 3,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "item": "cc:tomato_crate",
+                      "quantity": {
+                        "min": 3,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "item": "cc:blue_berries_crate",
+                      "quantity": {
+                        "min": 3,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "item": "cc:strawberry_crate",
+                      "quantity": {
+                        "min": 3,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "item": "cc:rice_crate",
+                      "quantity": {
+                        "min": 3,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "item": "cc:peanut_crate",
+                      "quantity": {
+                        "min": 3,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "item": "cc:onion_crate",
+                      "quantity": {
+                        "min": 3,
+                        "max": 5
+                      }
+                    },
+                    {
+                      "item": "cc:garlic_crate",
+                      "quantity": {
+                        "min": 3,
+                        "max": 5
+                      }
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 2
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 15
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {
+                      "item": "cc:diamond_scythe",
+                      "quantity": 1,
+                      "functions": [
+                        {
+                          "function": "enchant_with_levels",
+                          "levels": {
+                            "min": 10,
+                            "max": 25
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 10,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 64
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:market_trim_farming_5"
+                }
+              ],
+              "max_uses": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

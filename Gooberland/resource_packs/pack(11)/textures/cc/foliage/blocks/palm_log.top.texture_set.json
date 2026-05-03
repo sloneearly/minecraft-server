@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "palm_log.top",
+    "heightmap": "palm_log.top_heightmap",
+    "metalness_emissive_roughness_subsurface": "palm_log.top_mers"
+  }
+}

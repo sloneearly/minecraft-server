@@ -1,0 +1,41 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "cc:small_lily_pads_placement",
+            "places_feature": "cc:small_lily_pads_weight"
+        },
+        "conditions": {
+            "placement_pass": "final_pass",
+            "minecraft:biome_filter": [
+                {
+                    "any_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "swamp"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "mangrove_swamp"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        "distribution": {
+            "iterations": 20,
+            "x": {
+                "distribution": "triangle",
+                "extent": [ -8, 8 ]
+            },
+            "y": 63,
+            "z": {
+                "distribution": "triangle",
+                "extent": [ -8, 8 ]
+            }
+        }
+    }
+}

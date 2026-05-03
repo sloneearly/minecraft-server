@@ -1,0 +1,22 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "cc:meadow_boulders_weighted"
+    },
+    "features": [
+      [
+        "cc:meadow_boulders_scatter_1",
+        1
+      ],
+      [
+        "cc:meadow_boulders_scatter_2",
+        1
+      ],
+      [
+        "cc:meadow_boulders_scatter_3",
+        1
+      ]
+    ]
+  }
+}

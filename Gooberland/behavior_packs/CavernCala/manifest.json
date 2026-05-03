@@ -1,0 +1,62 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Cavern Calamity v2.1 Hotfix 5 BEH",
+		"description": "made by Sir Rel",
+		"uuid": "fa1d82ef-bc2c-4dff-8300-43bbe7492089",
+		"version": [
+			1,
+			0,
+			5
+		],
+		"min_engine_version": [
+			1,
+			21,
+			100
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "4efdfaf2-8cea-4b96-b38a-43ec776262f5",
+			"version": [
+				1,
+				0,
+				5
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"description": "ScriptAPI",
+			"entry": "main.js",
+			"uuid": "fc639578-dd1e-425c-8160-bcfaad5c7fef",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"1.8.4"
+			]
+		}
+	},
+	"dependencies": [
+		{
+			"version": [
+				1,
+				0,
+				5
+			],
+			"uuid": "520b5bc9-e23b-43c9-bbf6-074efe921c35"
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.19.0"
+		}
+	]
+}

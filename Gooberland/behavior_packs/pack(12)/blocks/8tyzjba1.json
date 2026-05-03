@@ -1,0 +1,208 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:pan_chicken",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "cc:chicken": [
+                    "raw_chicken",
+                    "cooked_chicken"
+                ],
+                "cc:fill_state": [
+                    1,
+                    0
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 180
+                }
+            }
+        },
+        "components": {
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "none"
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "on_liquid_touches": "popped"
+                    }
+                ]
+            },
+            "minecraft:loot": "loot_tables/cc/cooking/pan.raw_chicken.loot.json",
+            "cc:transform_block": {},
+            "cc:cooking_pot": {},
+            "minecraft:tick": {
+                "interval_range": [
+                    1,
+                    1
+                ]
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": [
+                210,
+                200,
+                190
+            ],
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.cc.pan.chicken"
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -7,
+                    0,
+                    -7
+                ],
+                "size": [
+                    14,
+                    3,
+                    14
+                ]
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -7,
+                    0,
+                    -7
+                ],
+                "size": [
+                    14,
+                    3,
+                    14
+                ]
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cc:stove_side",
+                    "render_method": "alpha_test"
+                },
+                "pan_side": {
+                    "texture": "cc:pan_side",
+                    "render_method": "alpha_test"
+                },
+                "pan_top": {
+                    "texture": "cc:pan_top",
+                    "render_method": "alpha_test"
+                },
+                "pan_bottom": {
+                    "texture": "cc:pan_bottom",
+                    "render_method": "alpha_test"
+                },
+                "ingredient": {
+                    "texture": "cc:pan_chicken_raw",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "cc:item_tier": {
+                "tool": "pickaxe",
+                "tier": 1
+            },
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 5,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_pickaxe')"
+                        },
+                        "destroy_speed": 1.5333
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('cc:chicken') == 'cooked_chicken'",
+                "components": {
+                    "minecraft:loot": "loot_tables/cc/cooking/pan.cooked_chicken.loot.json",
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:stove_side",
+                            "render_method": "alpha_test"
+                        },
+                        "pan_side": {
+                            "texture": "cc:pan_side",
+                            "render_method": "alpha_test"
+                        },
+                        "pan_top": {
+                            "texture": "cc:pan_top",
+                            "render_method": "alpha_test"
+                        },
+                        "pan_bottom": {
+                            "texture": "cc:pan_bottom",
+                            "render_method": "alpha_test"
+                        },
+                        "ingredient": {
+                            "texture": "cc:pan_chicken_cooked",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

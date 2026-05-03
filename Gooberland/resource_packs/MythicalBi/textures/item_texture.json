@@ -1,0 +1,64 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+// Mythical Biomes:
+    "ntk_amphibian_gills": {
+      "textures": "textures/items/ntk_amphibian_gills"
+    },
+    "ntk_beetroot_pie": {
+      "textures": "textures/items/ntk_beetroot_pie"
+    },
+    "ntk_blooming_corrupted_oak_sapling": {
+      "textures": "textures/items/ntk_blooming_corrupted_oak_sapling"
+    },
+    "ntk_corrupted_grass": {
+      "textures": "textures/items/ntk_corrupted_grass"
+    },
+    "ntk_corrupted_oak_sapling": {
+      "textures": "textures/items/ntk_corrupted_oak_sapling"
+    },
+    "ntk_deopard_fur": {
+      "textures": "textures/items/ntk_deopard_fur"
+    },
+    "ntk_hanging_moss": {
+      "textures": "textures/items/ntk_hanging_moss"
+    },
+    "ntk_short_moss_sprouts": {
+      "textures": "textures/items/ntk_short_moss_sprouts"
+    },
+    "ntk_spawn_egg_corpse_wood": {
+      "textures": "textures/items/ntk_spawn_egg_corpse_wood"
+    },
+    "ntk_spawn_egg_corrupted_oak_troot": {
+      "textures": "textures/items/ntk_spawn_egg_corrupted_oak_troot"
+    },
+    "ntk_spawn_egg_corrupted_raven": {
+      "textures": "textures/items/ntk_spawn_egg_corrupted_raven"
+    },
+    "ntk_spawn_egg_deopard": {
+      "textures": "textures/items/ntk_spawn_egg_deopard"
+    },
+    "ntk_spawn_egg_mossheep": {
+      "textures": "textures/items/ntk_spawn_egg_mossheep"
+    },
+    "ntk_spawn_egg_mossman": {
+      "textures": "textures/items/ntk_spawn_egg_mossman"
+    },
+    "ntk_spawn_egg_mossy_willow_troot": {
+      "textures": "textures/items/ntk_spawn_egg_mossy_willow_troot"
+    },
+    "ntk_spawn_egg_overgrown_jungle_troot": {
+      "textures": "textures/items/ntk_spawn_egg_overgrown_jungle_troot"
+    },
+    "ntk_spawn_egg_pale_mossheep": {
+      "textures": "textures/items/ntk_spawn_egg_pale_mossheep"
+    },
+    "ntk_spawn_egg_selvander": {
+      "textures": "textures/items/ntk_spawn_egg_selvander"
+    },
+    "ntk_tall_moss_sprouts": {
+      "textures": "textures/items/ntk_tall_moss_sprouts"
+    }
+  }
+}

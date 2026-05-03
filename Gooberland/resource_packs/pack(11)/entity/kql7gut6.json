@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cc:ender_bat_projectile",
+            "geometry": {
+                "default": "geometry.armor_stand"
+            },
+            "textures": {
+                "default": "textures/cc/misc/invisible"
+            },
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "animations": {
+                "particle": "animation.cc.forest_wizard.projectile"
+            },
+            "scripts": {
+                "animate": [
+                    "particle"
+                ]
+            },
+            "particle_effects": {
+                "particle": "cc:ender_bat_projectile"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

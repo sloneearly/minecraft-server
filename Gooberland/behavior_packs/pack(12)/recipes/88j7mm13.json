@@ -1,0 +1,13 @@
+{
+  "format_version": "1.17",
+  "minecraft:recipe_smithing_transform": {
+    "description": {
+      "identifier": "cc:moose_antler_helmet"
+    },
+    "tags": ["smithing_table"],
+    "template": "cc:moose_antler",
+    "base": "minecraft:diamond_helmet",
+    "addition": "minecraft:netherite_ingot",
+    "result": "cc:moose_antler_helmet"
+  }
+}

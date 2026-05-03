@@ -1,0 +1,16 @@
+execute at @a[r=50] run summon projectile:floral_spike ~~~4
+execute at @a[r=50] run summon projectile:floral_spike ~~~-4
+execute at @a[r=50] run summon projectile:floral_spike ~4~~
+execute at @a[r=50] run summon projectile:floral_spike ~-4~~
+execute at @a[r=50] run summon projectile:floral_spike ~-4~~4
+execute at @a[r=50] run summon projectile:floral_spike ~4~~-4
+execute at @a[r=50] run summon projectile:floral_spike ~4~~-4
+execute at @a[r=50] run summon projectile:floral_spike ~-4~~4
+execute at @a[r=50] run summon projectile:floral_spike ~2~~6
+execute at @a[r=50] run summon projectile:floral_spike ~-2~~-6
+execute at @a[r=50] run summon projectile:floral_spike ~6~~2
+execute at @a[r=50] run summon projectile:floral_spike ~-6~~-2
+execute at @a[r=50] run summon projectile:floral_spike ~4~~8
+execute at @a[r=50] run summon projectile:floral_spike ~-4~~-8
+execute at @a[r=50] run summon projectile:floral_spike ~8~~4
+execute at @a[r=50] run summon projectile:floral_spike ~-8~~-4

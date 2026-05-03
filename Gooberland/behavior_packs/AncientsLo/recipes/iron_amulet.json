@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ancients:iron_amulet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" N ",
+			"NFN",
+            " I "
+		],
+		"key": {
+			"I": {
+				"item": "minecraft:iron_ingot"
+			},
+			"N": {
+				"item": "minecraft:iron_nugget"
+			},
+			"F": {
+				"item": "ancients:ancient_rune_fragment"
+			}
+		},
+		"unlock":[
+			{
+				"item": "minecraft:iron_ingot"
+			},
+			{
+				"item": "ancients:ancient_rune_fragment"
+			},
+			{
+				"item": "minecraft:iron_nugget"
+			}
+		],
+		"result": {
+			"item": "ancients:iron_amulet"
+		}
+	}
+}

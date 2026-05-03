@@ -1,0 +1,718 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cc:owl",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "cc:is_riding": {
+          "client_sync": false,
+          "default": false,
+          "type": "bool"
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "owl",
+          "mob",
+          "animal"
+        ]
+      },
+      "minecraft:spell_effects": {
+        "add_effects": [
+          {
+            "effect": "slow_falling",
+            "amplifier": 5,
+            "duration": 9999,
+            "visible": false
+          }
+        ]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "fall",
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              "event": "cc:look_for_tree"
+            },
+            "deals_damage": true
+          }
+        ]
+      },
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "event": "cc:start_riding",
+            "target": "self",
+            "filters": [
+              {
+                "all_of": [
+                  {
+                    "test": "is_riding",
+                    "value": true
+                  },
+                  {
+                    "test": "bool_property",
+                    "domain": "cc:is_riding",
+                    "value": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:movement.glide": {
+        "start_speed": 0.1,
+        "speed_when_turning": 0.2
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:collision_box": {
+        "width": 0.7,
+        "height": 1
+      },
+      "minecraft:nameable": {},
+      "minecraft:health": {
+        "value": 8,
+        "max": 8
+      },
+      "minecraft:follow_range": {
+        "value": 64,
+        "max": 64
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:movement": {
+        "value": 0.35
+      },
+      "minecraft:sittable": {},
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.panic": {
+        "priority": 1,
+        "speed_multiplier": 1.25
+      },
+      "minecraft:behavior.mount_pathing": {
+        "priority": 2,
+        "speed_multiplier": 1.5,
+        "target_dist": 0.0,
+        "track_target": true
+      },
+      "minecraft:behavior.tempt": {
+        "priority": 4,
+        "speed_multiplier": 1.25,
+        "items": [
+          "rabbit"
+        ]
+      },
+      "minecraft:behavior.follow_parent": {
+        "priority": 5,
+        "speed_multiplier": 1.1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 1,
+        "look_distance": 50.0,
+        "probability": 0.02
+      },
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0
+      },
+      "minecraft:balloonable": {},
+      "minecraft:physics": {
+        "has_gravity": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:tameable": {
+        "probability": 0.33,
+        "tame_items": [
+          "rabbit",
+          "cod",
+          "salmon"
+        ],
+        "tame_event": {
+          "event": "cc:tamed",
+          "target": "self"
+        }
+      },
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:behavior.avoid_mob_type": {
+        "priority": 1,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    },
+                    {
+                      "test": "is_sneaking",
+                      "subject": "other",
+                      "operator": "!=",
+                      "value": true
+                    },
+                    {
+                      "test": "is_owner",
+                      "subject": "other",
+                      "operator": "!=",
+                      "value": true
+                    }
+                  ]
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "wolf"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "fox"
+                }
+              ]
+            },
+            "max_dist": 40,
+            "walk_speed_multiplier": 1,
+            "sprint_speed_multiplier": 2
+          }
+        ]
+      }
+    },
+    "component_groups": {
+      "cc:look_for_tree": {
+        "minecraft:behavior.move_to_block": {
+          "start_chance": 1,
+          "search_range": 32,
+          "search_height": 35,
+          "goal_radius": 0.2,
+          "stay_duration": 20,
+          "target_offset": [
+            0,
+            1,
+            0
+          ],
+          "target_blocks": [
+            "minecraft:leaves"
+          ],
+          "on_reach": {
+            "event": "cc:on_tree",
+            "target": "self"
+          }
+        },
+        "minecraft:behavior.random_fly": {
+          "avoid_damage_blocks": true,
+          "can_land_on_trees": true,
+          "xz_dist": 10,
+          "y_dist": 7,
+          "y_offset": 0
+        },
+        "minecraft:behavior.random_stroll": {
+          "priority": 6,
+          "speed_multiplier": 0.8
+        },
+        "minecraft:can_fly": {},
+        "minecraft:navigation.fly": {
+          "avoid_damage_blocks": false,
+          "avoid_portals": false,
+          "avoid_sun": false,
+          "avoid_water": true,
+          "blocks_to_avoid": [],
+          "can_breach": false,
+          "can_break_doors": false,
+          "can_jump": true,
+          "can_open_doors": false,
+          "can_open_iron_doors": false,
+          "can_pass_doors": true,
+          "can_path_from_air": true,
+          "can_path_over_lava": false,
+          "can_path_over_water": false,
+          "can_sink": true,
+          "can_swim": false,
+          "can_walk": true,
+          "can_walk_in_lava": false,
+          "is_amphibious": false
+        }
+      },
+      "minecraft:animal_adult": {
+        "minecraft:experience_reward": {
+          "on_bred": "Math.Random(1,7)",
+          "on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/animals/owl.loot.json"
+        }
+      },
+      "cc:tamed": {
+        "minecraft:sittable": {},
+        "minecraft:behavior.stay_while_sitting": {
+          "priority": 1
+        },
+        "minecraft:mob_effect": {
+          "effect_range": 0.2,
+          "cooldown_time": 0,
+          "effect_time": 11,
+          "mob_effect": "night_vision",
+          "entity_filter": [
+            {
+              "all_of": [
+                {
+                  "test": "is_riding",
+                  "subject": "self",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                }
+              ]
+            }
+          ]
+        },
+        "minecraft:entity_sensor": {
+          "subsensors": [
+            {
+              "cooldown": -1,
+              "event": "cc:eject",
+              "range": [
+                2,
+                2
+              ],
+              "maximum_count": 1,
+              "event_filters": [
+                {
+                  "all_of": [
+                    {
+                      "test": "is_riding",
+                      "subject": "self",
+                      "value": true
+                    },
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    },
+                    {
+                      "any_of": [
+                        {
+                          "all_of": [
+                            {
+                              "test": "on_ground",
+                              "subject": "other",
+                              "value": false
+                            },
+                            {
+                              "test": "is_sneaking",
+                              "subject": "other",
+                              "value": true
+                            }
+                          ]
+                        },
+                        {
+                          "test": "is_underwater",
+                          "subject": "other",
+                          "value": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cooldown": 10,
+              "event": "cc:alert_hostile",
+              "event_filters": [
+                {
+                  "any_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "monster"
+                    }
+                  ]
+                }
+              ],
+              "range": [
+                15,
+                15
+              ]
+            }
+          ]
+        },
+        "minecraft:behavior.follow_owner": {
+          "start_distance": 10,
+          "stop_distance": 3,
+          "priority": 0,
+          "can_teleport": false
+        },
+        "minecraft:follow_range": {
+          "value": 100,
+          "max": 100
+        },
+        "minecraft:movement": {
+          "value": 0.35
+        },
+        "minecraft:can_fly": {},
+        "minecraft:behavior.random_fly": {
+          "avoid_damage_blocks": true,
+          "can_land_on_trees": true,
+          "xz_dist": 10,
+          "y_dist": 7,
+          "y_offset": 0
+        },
+        "minecraft:behavior.random_stroll": {
+          "priority": 6,
+          "speed_multiplier": 0.8
+        },
+        "minecraft:navigation.fly": {
+          "avoid_damage_blocks": false,
+          "avoid_portals": false,
+          "avoid_sun": false,
+          "avoid_water": true,
+          "blocks_to_avoid": [],
+          "can_breach": false,
+          "can_break_doors": false,
+          "can_jump": true,
+          "can_open_doors": false,
+          "can_open_iron_doors": false,
+          "can_pass_doors": true,
+          "can_path_from_air": true,
+          "can_path_over_lava": false,
+          "can_path_over_water": false,
+          "can_sink": true,
+          "can_swim": false,
+          "can_walk": true,
+          "can_walk_in_lava": false,
+          "is_amphibious": false
+        }
+      },
+      "cc:is_riding": {
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "cause": "all",
+              "deals_damage": false
+            },
+            {
+              "on_damage": {
+                "filters": {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                "event": "cc:look_for_tree"
+              },
+              "deals_damage": false
+            }
+          ]
+        },
+        "minecraft:environment_sensor": {
+          "triggers": [
+            {
+              "event": "cc:stop_riding",
+              "target": "self",
+              "filters": [
+                {
+                  "all_of": [
+                    {
+                      "test": "is_riding",
+                      "value": false
+                    },
+                    {
+                      "test": "bool_property",
+                      "domain": "cc:is_riding",
+                      "value": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "cc:find_mount": {
+        "minecraft:type_family": {
+          "family": [
+            "animal",
+            "owl",
+            "parrot_tame",
+            "owl_tame",
+            "mob"
+          ]
+        },
+        "minecraft:behavior.find_mount": {
+          "priority": 3,
+          "within_radius": 16,
+          "avoid_water": true,
+          "start_delay": 100,
+          "target_needed": false,
+          "mount_distance": 2.0
+        }
+      },
+      "cc:mount_timer": {
+        "minecraft:type_family": {
+          "family": [
+            "animal",
+            "owl",
+            "owl_tame",
+            "mob"
+          ]
+        },
+        "minecraft:timer": {
+          "time": 3,
+          "looping": true,
+          "time_down_event": {
+            "event": "cc:find_mount",
+            "target": "self"
+          }
+        }
+      },
+      "cc:persistence": {
+        "minecraft:persistent": {}
+      },
+      "minecraft:animal_baby": {
+        "minecraft:is_baby": {},
+        "minecraft:scale": {
+          "value": 0.5
+        },
+        "minecraft:ageable": {
+          "duration": 1200,
+          "feed_items": [
+            "rabbit",
+            "cod",
+            "salmon"
+          ],
+          "grow_up": {
+            "event": "minecraft:ageable_grow_up",
+            "target": "self"
+          }
+        },
+        "minecraft:behavior.follow_parent": {
+          "priority": 6,
+          "speed_multiplier": 1.1
+        }
+      },
+      "cc:normal": {
+        "minecraft:variant": {
+          "value": 0
+        }
+      },
+      "cc:snow": {
+        "minecraft:variant": {
+          "value": 1
+        }
+      }
+    },
+    "events": {
+      "cc:alert_hostile": {
+        "queue_command": {
+          "command": "playsound cc:owl_warn @a[r=15] ~ ~ ~ 1 3 1"
+        }
+      },
+      "cc:eject": {
+        "sequence": [
+          {
+            "queue_command": {
+              "command": [
+                "ride @s stop_riding"
+              ]
+            }
+          },
+          {
+            "remove": {
+              "component_groups": [
+                "cc:find_mount"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "cc:mount_timer"
+              ]
+            }
+          }
+        ]
+      },
+      "cc:find_mount": {
+        "remove": {
+          "component_groups": [
+            "cc:mount_timer"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "cc:find_mount"
+          ]
+        }
+      },
+      "cc:tamed": {
+        "add": {
+          "component_groups": [
+            "cc:tamed",
+            "cc:find_mount"
+          ]
+        }
+      },
+      "cc:on_tree": {
+        "remove": {
+          "component_groups": [
+            "cc:look_for_tree"
+          ]
+        }
+      },
+      "cc:look_for_tree": {
+        "add": {
+          "component_groups": [
+            "cc:look_for_tree"
+          ]
+        }
+      },
+      "cc:start_riding": {
+        "add": {
+          "component_groups": [
+            "cc:is_riding"
+          ]
+        },
+        "set_property": {
+          "cc:is_riding": true
+        }
+      },
+      "cc:stop_riding": {
+        "remove": {
+          "component_groups": [
+            "cc:is_riding"
+          ]
+        },
+        "set_property": {
+          "cc:is_riding": false
+        }
+      },
+      "minecraft:entity_spawned": {
+        "sequence": [
+          {
+            "randomize": [
+              {
+                "weight": 95,
+                "add": {
+                  "component_groups": [
+                    "minecraft:animal_adult"
+                  ]
+                }
+              },
+              {
+                "weight": 5,
+                "add": {
+                  "component_groups": [
+                    "minecraft:animal_baby"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "filters": {
+              "test": "is_snow_covered",
+              "value": true
+            },
+            "add": {
+              "component_groups": [
+                "cc:snow"
+              ]
+            }
+          },
+          {
+            "filters": {
+              "test": "is_snow_covered",
+              "value": false
+            },
+            "add": {
+              "component_groups": [
+                "cc:normal"
+              ]
+            }
+          },
+          {
+            "trigger": "cc:look_for_tree"
+          }
+        ]
+      },
+      "minecraft:entity_born": {
+        "add": {
+          "component_groups": [
+            "minecraft:animal_baby"
+          ]
+        }
+      },
+      "minecraft:entity_transformed": {
+        "remove": {},
+        "add": {
+          "component_groups": [
+            "minecraft:animal_baby"
+          ]
+        }
+      },
+      "minecraft:ageable_grow_up": {
+        "remove": {
+          "component_groups": [
+            "minecraft:animal_baby"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:animal_adult"
+          ]
+        }
+      },
+      "cc:persistence": {
+        "add": {
+          "component_groups": [
+            "cc:persistence"
+          ]
+        }
+      }
+    }
+  }
+}

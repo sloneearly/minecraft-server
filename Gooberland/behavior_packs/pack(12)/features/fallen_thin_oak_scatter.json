@@ -1,0 +1,31 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:fallen_thin_oak_scatter"
+    },
+    "places_feature": "cc:fallen_thin_oak_feature",
+    "iterations": 1,
+    "x": {
+      "distribution": "uniform",
+      "extent": [
+        -3,
+        3
+      ]
+    },
+    "y": {
+      "distribution": "uniform",
+      "extent": [
+        -3,
+        3
+      ]
+    },
+    "z": {
+      "distribution": "uniform",
+      "extent": [
+        -3,
+        3
+      ]
+    }
+  }
+}

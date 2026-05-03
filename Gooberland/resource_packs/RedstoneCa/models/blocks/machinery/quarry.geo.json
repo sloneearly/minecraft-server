@@ -1,0 +1,245 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.wan_redcave.quarry",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 3.5,
+        "visible_bounds_offset": [
+          0,
+          1.25,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "bb_main",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                0.11323,
+                -8
+              ],
+              "size": [
+                16,
+                6,
+                16
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -4,
+                6,
+                -8
+              ],
+              "size": [
+                8,
+                8,
+                16
+              ],
+              "uv": [
+                56,
+                40
+              ]
+            },
+            {
+              "origin": [
+                -8,
+                14,
+                -8
+              ],
+              "size": [
+                16,
+                2,
+                16
+              ],
+              "uv": [
+                0,
+                22
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                16,
+                -7
+              ],
+              "size": [
+                14,
+                6,
+                14
+              ],
+              "uv": [
+                0,
+                40
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                16.43809,
+                -1.97436
+              ],
+              "size": [
+                14,
+                14,
+                0
+              ],
+              "pivot": [
+                0,
+                22,
+                -2
+              ],
+              "rotation": [
+                -22.5,
+                0,
+                0
+              ],
+              "uv": [
+                64,
+                22
+              ]
+            },
+            {
+              "origin": [
+                4,
+                6,
+                -7
+              ],
+              "size": [
+                3,
+                8,
+                14
+              ],
+              "uv": [
+                0,
+                60
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                6,
+                -7
+              ],
+              "size": [
+                3,
+                8,
+                14
+              ],
+              "uv": [
+                64,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "block",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "item_display_transforms": {
+        "firstperson_righthand": {
+          "rotation": [
+            5,
+            -135,
+            0
+          ],
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "rotation_pivot": [
+            0,
+            0,
+            0
+          ],
+          "scale_pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            5,
+            135,
+            0
+          ],
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "rotation_pivot": [
+            0,
+            0,
+            0
+          ],
+          "scale_pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            30,
+            -135,
+            0
+          ],
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.6,
+            0.6,
+            0.6
+          ],
+          "rotation_pivot": [
+            0,
+            0,
+            0
+          ],
+          "scale_pivot": [
+            0,
+            0,
+            0
+          ],
+          "fit_to_frame": false
+        }
+      }
+    }
+  ]
+}

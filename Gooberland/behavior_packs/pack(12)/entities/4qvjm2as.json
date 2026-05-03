@@ -1,0 +1,462 @@
+{
+    "format_version": "1.21.40",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "cc:adventure_5_5_quest_npc",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false,
+            "properties": {
+                "cc:has_traded_quest": {
+                    "client_sync": false,
+                    "default": false,
+                    "type": "bool"
+                },
+                "cc:base_index": {
+                    "range": [
+                        0,
+                        29
+                    ],
+                    "type": "int",
+                    "client_sync": true,
+                    "default": 0
+                }
+            }
+        },
+        "components": {
+            "minecraft:scheduler": {
+                "min_delay_secs": 0,
+                "max_delay_secs": 10,
+                "scheduled_events": [
+                    {
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "hourly_clock_time",
+                                    "operator": ">=",
+                                    "value": 0
+                                },
+                                {
+                                    "test": "hourly_clock_time",
+                                    "operator": "<",
+                                    "value": 11000
+                                }
+                            ]
+                        },
+                        "event": "cc:remove_sleep"
+                    },
+                    {
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "hourly_clock_time",
+                                    "operator": ">=",
+                                    "value": 12000
+                                },
+                                {
+                                    "test": "hourly_clock_time",
+                                    "operator": "<",
+                                    "value": 24000
+                                }
+                            ]
+                        },
+                        "event": "cc:add_sleep"
+                    }
+                ]
+            },
+            "minecraft:home": {},
+            "minecraft:behavior.go_home": {
+                "goal_radius": 2,
+                "priority": 4,
+                "interval": 120,
+                "speed_multiplier": 1
+            },
+            "minecraft:is_hidden_when_invisible": {},
+            "minecraft:type_family": {
+                "family": [
+                    "mob",
+                    "quest_npc"
+                ]
+            },
+            "minecraft:follow_range": {
+                "value": 64,
+                "max": 64
+            },
+            "minecraft:breathable": {
+                "total_supply": 15,
+                "suffocate_time": 0
+            },
+            "minecraft:health": {
+                "value": 20,
+                "max": 20
+            },
+            "minecraft:hurt_on_condition": {
+                "damage_conditions": [
+                    {
+                        "filters": {
+                            "test": "in_lava",
+                            "subject": "self",
+                            "operator": "==",
+                            "value": true
+                        },
+                        "cause": "lava",
+                        "damage_per_tick": 4
+                    }
+                ]
+            },
+            "minecraft:collision_box": {
+                "width": 0.6,
+                "height": 1.9
+            },
+            "minecraft:nameable": {},
+            "minecraft:movement": {
+                "value": 0.5
+            },
+            "minecraft:navigation.walk": {
+                "is_amphibious": true,
+                "can_path_over_water": true,
+                "can_pass_doors": true,
+                "can_open_doors": true,
+                "can_walk": true,
+                "avoid_water": true
+            },
+            "minecraft:movement.basic": {},
+            "minecraft:jump.static": {},
+            "minecraft:can_climb": {},
+            "minecraft:inventory": {
+                "inventory_size": 8,
+                "private": true
+            },
+            "minecraft:equippable": {
+                "slots": []
+            },
+            "minecraft:behavior.equip_item": {
+                "priority": 2
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "on_damage": {
+                            "filters": {
+                                "test": "is_family",
+                                "subject": "other",
+                                "value": "lightning"
+                            },
+                            "event": "become_witch"
+                        },
+                        "deals_damage": "no"
+                    },
+                    {
+                        "on_damage": {
+                            "filters": {
+                                "test": "is_family",
+                                "subject": "other",
+                                "value": "player"
+                            },
+                            "event": "cc:run_away"
+                        }
+                    },
+                    {
+                        "on_damage": {
+                            "filters": {
+                                "any_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "zombie"
+                                    },
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "husk"
+                                    }
+                                ],
+                                "all_of": [
+                                    {
+                                        "test": "has_damage",
+                                        "value": "fatal"
+                                    }
+                                ]
+                            },
+                            "event": "become_zombie"
+                        }
+                    }
+                ]
+            },
+            "minecraft:behavior.float": {
+                "priority": 0
+            },
+            "minecraft:behavior.trade_with_player": {
+                "priority": 1,
+                "filters": {
+                    "all_of": [
+                        {
+                            "all_of": [
+                                {
+                                    "test": "in_water",
+                                    "value": false
+                                }
+                            ]
+                        },
+                        {
+                            "any_of": [
+                                {
+                                    "test": "on_ground",
+                                    "value": true
+                                },
+                                {
+                                    "test": "is_sleeping",
+                                    "value": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "minecraft:behavior.look_at_trading_player": {
+                "priority": 2
+            },
+            "minecraft:behavior.panic": {
+                "priority": 3,
+                "speed_multiplier": 0.6
+            },
+            "minecraft:behavior.avoid_mob_type": {
+                "priority": 3,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "any_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "zombie"
+                                },
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "zombie_villager"
+                                },
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "illager"
+                                },
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "vex"
+                                }
+                            ]
+                        },
+                        "max_dist": 8,
+                        "walk_speed_multiplier": 0.6,
+                        "sprint_speed_multiplier": 0.6
+                    }
+                ]
+            },
+            "minecraft:behavior.move_indoors": {
+                "priority": 4,
+                "speed_multiplier": 0.8
+            },
+            "minecraft:behavior.restrict_open_door": {
+                "priority": 5
+            },
+            "minecraft:behavior.open_door": {
+                "priority": 6,
+                "close_door_after": true
+            },
+            "minecraft:behavior.share_items": {
+                "priority": 8,
+                "max_dist": 3,
+                "goal_radius": 2.0,
+                "speed_multiplier": 0.5,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "test": "is_family",
+                            "subject": "other",
+                            "value": "villager"
+                        }
+                    }
+                ]
+            },
+            "minecraft:behavior.pickup_items": {
+                "priority": 9,
+                "max_dist": 3,
+                "goal_radius": 2,
+                "speed_multiplier": 0.5,
+                "can_pickup_to_hand_or_equipment": false
+            },
+            "minecraft:behavior.look_at_player": {
+                "priority": 12,
+                "look_distance": 8,
+                "probability": 0.02
+            },
+            "minecraft:physics": {},
+            "minecraft:pushable": {
+                "is_pushable": true,
+                "is_pushable_by_piston": true
+            },
+            "minecraft:conditional_bandwidth_optimization": {},
+            "minecraft:economy_trade_table": {
+                "display_name": "entity.cc:adventure_5_5_quest_npc.name",
+                "table": "trading/cc/quest/adventure_5_5.trade.json",
+                "convert_trades_economy": true,
+                "new_screen": true
+            },
+            "minecraft:despawn": {
+                "despawn_from_distance": {}
+            }
+        },
+        "component_groups": {
+            "cc:has_trade_supply": {
+                "minecraft:environment_sensor": {
+                    "triggers": [
+                        {
+                            "event": "cc:has_traded_quest",
+                            "target": "self",
+                            "filters": {
+                                "test": "has_trade_supply",
+                                "value": false
+                            }
+                        }
+                    ]
+                }
+            },
+            "cc:sleep": {
+                "minecraft:behavior.sleep": {
+                    "priority": 3,
+                    "goal_radius": 1.5,
+                    "speed_multiplier": 0.6,
+                    "sleep_collider_height": 0.3,
+                    "sleep_collider_width": 1.0,
+                    "sleep_y_offset": 0.6,
+                    "timeout_cooldown": 10.0
+                }
+            },
+            "cc:panic": {
+                "minecraft:behavior.panic": {
+                    "priority": 3,
+                    "speed_multiplier": 1.2
+                },
+                "minecraft:behavior.avoid_mob_type": {
+                    "priority": 3,
+                    "entity_types": [
+                        {
+                            "filters": {
+                                "any_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "zombie"
+                                    },
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "zombie_villager"
+                                    },
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "illager"
+                                    },
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "vex"
+                                    },
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    }
+                                ]
+                            },
+                            "max_dist": 8,
+                            "walk_speed_multiplier": 0.6,
+                            "sprint_speed_multiplier": 0.6
+                        }
+                    ]
+                }
+            },
+            "cc:may_despawn": {
+                "minecraft:despawn": {
+                    "despawn_from_distance": {}
+                },
+                "minecraft:timer": {
+                    "time": 20,
+                    "looping": false,
+                    "time_down_event": {
+                        "event": "cc:despawn",
+                        "target": "self"
+                    }
+                }
+            },
+            "cc:despawn": {
+                "minecraft:instant_despawn": {}
+            }
+        },
+        "events": {
+            "minecraft:entity_spawned": {
+                "sequence": [
+                    {
+                        "add": {
+                            "component_groups": [
+                                "cc:has_trade_supply"
+                            ]
+                        }
+                    },
+                    {
+                        "set_property": {
+                            "cc:base_index": "math.random_integer(0, 29)"
+                        }
+                    }
+                ]
+            },
+            "cc:add_sleep": {
+                "add": {
+                    "component_groups": [
+                        "cc:sleep"
+                    ]
+                }
+            },
+            "cc:remove_sleep": {
+                "remove": {
+                    "component_groups": [
+                        "cc:sleep"
+                    ]
+                }
+            },
+            "cc:run_away": {
+                "add": {
+                    "component_groups": [
+                        "cc:may_despawn",
+                        "cc:panic"
+                    ]
+                }
+            },
+            "cc:has_traded_quest": {
+                "set_property": {
+                    "cc:has_traded_quest": true
+                },
+                "remove": {
+                    "component_groups": [
+                        "cc:has_trade_supply"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "cc:may_despawn"
+                    ]
+                }
+            },
+            "cc:despawn": {
+                "add": {
+                    "component_groups": [
+                        "cc:despawn"
+                    ]
+                }
+            }
+        }
+    }
+}

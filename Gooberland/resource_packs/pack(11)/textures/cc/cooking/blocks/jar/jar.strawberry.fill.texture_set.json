@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "jar.strawberry.fill",
+    "heightmap": "jar.strawberry.fill_heightmap",
+    "metalness_emissive_roughness_subsurface": "jar.strawberry.fill_mers"
+  }
+}

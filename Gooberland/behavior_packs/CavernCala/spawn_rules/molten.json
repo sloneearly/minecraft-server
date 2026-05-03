@@ -1,0 +1,63 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "mob:molten",
+			"population_control": "monster"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_lava": {},
+				"minecraft:spawns_underground": {},
+				"minecraft:difficulty_filter": {
+					"min": "peaceful",
+					"max": "hard"
+				},
+				"minecraft:weight": {
+					"default": 20
+				},
+				"minecraft:herd": {
+					"min_size": 2,
+					"max_size": 4
+				},
+				"minecraft:density_limit": {
+					"surface": 3
+				},
+				"minecraft:biome_filter": {
+					"any_of": [
+						{
+							"all_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "monster"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "frozen"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "slime_caves"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "wilted_garden_caves"
+								}
+							]
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "nether"
+						}
+					]
+				}
+			}
+		]
+	}
+}

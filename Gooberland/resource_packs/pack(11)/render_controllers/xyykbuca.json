@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.30",
+  "render_controllers": {
+    "controller.render.cc.dripice": {
+      "geometry": "Geometry.default",
+      "arrays": {
+        "textures": {
+          "Array.textures": [
+            "Texture.tip",
+            "Texture.merge",
+            "Texture.base",
+            "Texture.middle",
+            "Texture.merge_direction"
+          ]
+        }
+      },
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": ["Array.textures[q.variant]"]
+    }
+  }
+}

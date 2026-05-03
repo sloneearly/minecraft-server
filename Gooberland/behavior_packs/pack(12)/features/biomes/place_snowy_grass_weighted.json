@@ -1,0 +1,18 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "cc:biomes/place_snowy_grass_weighted"
+    },
+    "features": [
+      [
+        "cc:biomes/place_snowy_grass_1",
+        1
+      ],
+      [
+        "cc:biomes/place_snowy_grass_2",
+        1
+      ]
+    ]
+  }
+}

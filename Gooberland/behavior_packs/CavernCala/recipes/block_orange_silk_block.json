@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "orange_silk_block_3d129cb8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:silk_block",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:orange_dye",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:orange_silk_block",
+      "count": 8
+    }
+  }
+}

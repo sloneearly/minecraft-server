@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:vegetation_patch_feature": {
+		"description": {
+			"identifier": "gen:blackstone_top"
+		},
+		"replaceable_blocks": [
+			"minecraft:stone"
+		],
+		"ground_block": "minecraft:blackstone",
+		"vegetation_feature": "gen:blackstone_ceiling",
+		"surface": "ceiling",
+		"depth": {
+			"range_min": 1,
+			"range_max": 2
+		},
+		"vertical_range": 5,
+		"vegetation_chance": 0.2,
+		"horizontal_radius": {
+			"range_min": 4,
+			"range_max": 7
+		},
+		"extra_edge_column_chance": 0.3
+	}
+}

@@ -1,0 +1,50 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "cc:icicles_placement",
+            "places_feature": "cc:icicles_feature"
+        },
+        "conditions": {
+            "placement_pass": "final_pass",
+            "minecraft:biome_filter": [
+                {
+                    "any_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "frozen"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "ice"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "cold"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        "distribution": {
+            "iterations": 500,
+            "scatter_chance": 50.0,
+            "x": {
+                "distribution": "triangle",
+                "extent": [ -8, 8 ]
+            },
+            "y": {
+                "distribution": "triangle",
+                "extent": ["query.above_top_solid(v.originx,v.originz) - 50", "query.above_top_solid(v.originx,v.originz) + 10"]
+            },
+            "z": {
+                "distribution": "triangle",
+                "extent": [ -8, 8 ]
+            }
+        }
+    }
+}

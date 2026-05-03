@@ -1,0 +1,31 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:struct_mermaid_shrine_rule",
+      "places_feature": "cc:struct_mermaid_shrine_sequence"
+    },
+    "conditions": {
+      "placement_pass": "first_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "deep"
+            }
+          ],
+          "none_of": []
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 0.1,
+      "x": "-16",
+      "y": "29",
+      "z": "-16"
+    }
+  }
+}

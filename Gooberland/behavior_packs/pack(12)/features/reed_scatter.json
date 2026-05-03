@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:reed_scatter"
+    },
+    "iterations": 20,
+    "x": {
+      "distribution": "triangle",
+      "extent": [-8, 8]
+    },
+    "y": 0,
+    "z": {
+      "distribution": "triangle",
+      "extent": [-8, 8]
+    },
+    "coordinate_eval_order": "zyx",
+    "places_feature": "cc:reed_sequence"
+  }
+}

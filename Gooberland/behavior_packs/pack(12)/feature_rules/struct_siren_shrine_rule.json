@@ -1,0 +1,31 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:struct_siren_shrine_rule",
+      "places_feature": "cc:struct_siren_shrine_sequence"
+    },
+    "conditions": {
+      "placement_pass": "first_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "deep"
+            }
+          ],
+          "none_of": []
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 0.05,
+      "x": "-16",
+      "y": "((Math.pow(q.above_top_solid(v.originx, v.originz) - q.above_top_solid(v.originx, v.originz), 2) + Math.pow(q.above_top_solid(v.originx - 16, v.originz - 16) - q.above_top_solid(v.originx, v.originz), 2) + Math.pow(q.above_top_solid(v.originx - 16, v.originz + 16) - q.above_top_solid(v.originx, v.originz), 2) + Math.pow(q.above_top_solid(v.originx + 16, v.originz - 16) - q.above_top_solid(v.originx, v.originz), 2) + Math.pow(q.above_top_solid(v.originx + 16, v.originz + 16) - q.above_top_solid(v.originx, v.originz), 2)) / 4) <= 5 && q.above_top_solid(v.originx, v.originz) > 63 && q.above_top_solid(v.originx - 16, v.originz - 16) > 63 && q.above_top_solid(v.originx - 16, v.originz + 16) > 63 && q.above_top_solid(v.originx + 16, v.originz - 16) > 63 && q.above_top_solid(v.originx + 16, v.originz + 16) > 63 ? (q.above_top_solid(v.originx, v.originz) + q.above_top_solid(v.originx - 16, v.originz - 16) + q.above_top_solid(v.originx - 16, v.originz + 16) + q.above_top_solid(v.originx + 16, v.originz - 16) + q.above_top_solid(v.originx + 16, v.originz + 16)) / 5 - 13 : -9999",
+      "z": "-16"
+    }
+  }
+}

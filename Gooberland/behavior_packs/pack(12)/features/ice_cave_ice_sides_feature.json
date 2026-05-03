@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "cc:ice_cave_ice_sides_feature"
+    },
+    "places_block": "minecraft:packed_ice",
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false,
+    "may_replace": ["minecraft:stone"],
+    "may_attach_to": {
+      "min_sides_must_attach": 1,
+      "sides": ["minecraft:air"]
+    }
+  }
+}

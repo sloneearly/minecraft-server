@@ -1,0 +1,52 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:fallen_thin_birch_rule",
+      "places_feature": "cc:fallen_thin_birch_scatter"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": {
+        "any_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "birch"
+          }
+        ],
+        "none_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "cold"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "frozen"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 5,
+      "scatter_chance": 50.0,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          -8,
+          15
+        ]
+      },
+      "y": "query.heightmap(v.originx, v.originz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          -8,
+          15
+        ]
+      }
+    }
+  }
+}

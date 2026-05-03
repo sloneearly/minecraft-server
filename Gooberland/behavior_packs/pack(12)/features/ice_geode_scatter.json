@@ -1,0 +1,25 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:ice_geode_scatter"
+    },
+    "places_feature": "cc:ice_cave_geode_feature",
+    "iterations": "math.random_integer(3,8)",
+    "x": {
+      "distribution": "uniform",
+      "extent": [
+        -8,
+        16
+      ]
+    },
+    "y": "0",
+    "z": {
+      "distribution": "uniform",
+      "extent": [
+        -8,
+        16
+      ]
+    }
+  }
+}

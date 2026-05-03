@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "chiseled_onyx_quartz_9bac03b5"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:onyx_quartz_slab",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:chiseled_onyx_quartz",
+      "count": 1
+    }
+  }
+}

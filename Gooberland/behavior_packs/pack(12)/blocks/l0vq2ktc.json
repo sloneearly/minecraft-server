@@ -1,0 +1,187 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:stove",
+            "menu_category": {
+                "category": "items"
+            },
+            "states": {
+                "cc:active": [
+                    false,
+                    true
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 180
+                }
+            }
+        },
+        "components": {
+            "cc:transform_block": {},
+            "cc:interact": {},
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": [
+                210,
+                200,
+                190
+            ],
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:geometry": {
+                "identifier": "minecraft:geometry.full_block"
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cc:stove_side",
+                    "render_method": "alpha_test"
+                },
+                "up": {
+                    "texture": "cc:stove_top",
+                    "render_method": "alpha_test"
+                },
+                "down": {
+                    "texture": "cc:stove_bottom",
+                    "render_method": "alpha_test"
+                },
+                "north": {
+                    "texture": "cc:stove_front_off",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "cc:item_tier": {
+                "tool": "pickaxe",
+                "tier": 1
+            },
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 5,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_pickaxe')"
+                        },
+                        "destroy_speed": 1.5333
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('cc:active') == true",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cc:stove_side",
+                            "render_method": "alpha_test"
+                        },
+                        "up": {
+                            "texture": "cc:stove_top",
+                            "render_method": "alpha_test"
+                        },
+                        "down": {
+                            "texture": "cc:stove_bottom",
+                            "render_method": "alpha_test"
+                        },
+                        "north": {
+                            "texture": "cc:stove_front_on",
+                            "render_method": "alpha_test"
+                        }
+                    },
+                    "minecraft:light_emission": 15
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

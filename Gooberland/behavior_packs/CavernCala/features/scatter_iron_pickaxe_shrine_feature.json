@@ -1,0 +1,33 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "gen:scatter_iron_pickaxe_shrine_feature"
+		},
+		"iterations": 1,
+		"x": {
+			"distribution": "triangle",
+			"extent": [
+				-64,
+				64
+			]
+		},
+		"y": {
+			"distribution": "triangle",
+			"extent": [
+				-2,
+				2
+			]
+		},
+		"z": {
+			"distribution": "triangle",
+			"extent": [
+				-64,
+				64
+			]
+		},
+		"coordinate_eval_order": "zxy",
+		"places_feature": "gen:wooden_iron_shrine_feature"
+	}
+}

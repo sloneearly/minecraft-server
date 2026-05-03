@@ -1,0 +1,77 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cc:small_cactus",
+      "menu_category": {
+        "category": "none"
+      }
+    },
+    "components": {
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "none"
+      },
+      "minecraft:embedded_visual": {
+        "geometry": "geometry.cc.cross.embedded",
+        "material_instances": {
+          "*": {
+            "texture": "cc:small_cactus",
+            "render_method": "alpha_test",
+            "ambient_occlusion": false,
+            "face_dimming": false
+          }
+        }
+      },
+      "minecraft:flower_pottable": {},
+      "tag:plant": {},
+      "tag:nonsolid": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:geometry": "geometry.cc.cross",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cc:small_cactus",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-5, 0, -5],
+        "size": [10, 15, 10]
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["up"],
+            "block_filter": [
+              {
+                "tags": "query.any_tag('sand', 'grass')"
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:light_dampening": 3,
+      "minecraft:map_color": "#477a2e",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "on_liquid_touches": "popped"
+          }
+        ]
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      }
+    }
+  }
+}

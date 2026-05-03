@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cut_cobalt_slab_f03d7deb"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:cut_cobalt",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:cut_cobalt_slab",
+      "count": 6
+    }
+  }
+}

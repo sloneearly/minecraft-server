@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.111",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "wan_redcave:blaster_off_t2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "IG",
+      "IC",
+      "II"
+    ],
+    "key": {
+      "I": {
+        "item": "wan_redcave:magnetite_ingot"
+      },
+      "G": {
+        "item": "minecraft:glass"
+      },
+      "C": {
+        "item": "wan_redcave:blaster_t1"
+      }
+    },
+    "unlock": [
+      {
+        "item": "wan_redcave:blaster_t1"
+      }
+    ],
+    "result": {
+      "item": "wan_redcave:blaster_off_t2"
+    }
+  }
+}

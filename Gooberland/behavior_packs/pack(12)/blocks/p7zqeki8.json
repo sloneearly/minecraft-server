@@ -1,0 +1,80 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cc:dry_grass",
+      "menu_category": {
+        "category": "none"
+      }
+    },
+    "components": {
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "none"
+      },
+      "minecraft:replaceable": {},
+      "tag:plant": {},
+      "tag:grass": {},
+      "tag:nonsolid": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:geometry": "geometry.cc.cross.tint",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cc:dry_grass",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        },
+        "tint": {
+          "texture": "cc:dry_grass_stem",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false,
+          "tint_method": "grass"
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-6, 0, -6],
+        "size": [12, 11, 12]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:map_color": "#E4C382",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["up"],
+            "block_filter": [
+              "grass_block",
+              "dirt",
+              "podzol",
+              "dirt_with_roots",
+              "coarse_dirt",
+              "sand",
+              "red_sand",
+              "cc:jungle_roots"
+            ]
+          }
+        ]
+      },
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "on_liquid_touches": "popped"
+          }
+        ]
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      }
+    }
+  }
+}

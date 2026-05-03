@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "minecraft:plains"
+    },
+    "components": {
+      "minecraft:water_appearance": {
+        "surface_color": "#44AFF5"
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "cc:general_fog"
+      },
+      "minecraft:lighting_identifier": {
+        "lighting_identifier": "cc:default_lighting"
+      }
+    }
+  }
+}

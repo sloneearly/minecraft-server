@@ -1,0 +1,25 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:coarse_dirt_patch_scatter"
+    },
+    "places_feature": "cc:coarse_dirt_patch_block_1",
+    "iterations": 50,
+    "x": {
+      "distribution": "uniform",
+      "extent": [
+        -3,
+        3
+      ]
+    },
+    "y": 0,
+    "z": {
+      "distribution": "uniform",
+      "extent": [
+        -3,
+        3
+      ]
+    }
+  }
+}

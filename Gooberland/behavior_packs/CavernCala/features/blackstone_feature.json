@@ -1,0 +1,211 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "generation:blackstone_feature"
+		},
+		"count": 99,
+		"replace_rules": [
+			{
+				"places_block": "minecraft:blackstone",
+				"may_replace": [
+					"minecraft:stone"
+				]
+			},
+			{
+				"places_block": "minecraft:blackstone",
+				"may_replace": [
+					"minecraft:deepslate"
+				]
+			},
+			{
+				"places_block": "minecraft:flowing_lava",
+				"may_replace": [
+					"minecraft:water"
+				]
+			},
+			{
+				"places_block": "minecraft:magma",
+				"may_replace": [
+					"minecraft:granite"
+				]
+			},
+			{
+				"places_block": "minecraft:magma",
+				"may_replace": [
+					"minecraft:andesite"
+				]
+			},
+			{
+				"places_block": "minecraft:magma",
+				"may_replace": [
+					"minecraft:diorite"
+				]
+			},
+			{
+				"places_block": "minecraft:magma",
+				"may_replace": [
+					"minecraft:tuff"
+				]
+			},
+			{
+				"places_block": "minecraft:magma",
+				"may_replace": [
+					"minecraft:gravel"
+				]
+			},
+			{
+				"places_block": "ore:black_diamond_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:diamond_ore"
+					}
+				]
+			},
+			{
+				"places_block": "ore:black_iron_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:iron_ore"
+					}
+				]
+			},
+			{
+				"places_block": "ore:black_gold_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:gold_ore"
+					}
+				]
+			},
+			{
+				"places_block": "ore:black_redstone_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:redstone_ore"
+					}
+				]
+			},
+			{
+				"places_block": "ore:black_emerald_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:emerald_ore"
+					}
+				]
+			},
+			{
+				"places_block": "ore:black_copper_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:copper_ore"
+					}
+				]
+			},
+			{
+				"places_block": "ore:black_coal_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:coal_ore"
+					}
+				]
+			},
+			{
+				"places_block": "ore:black_lapis_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:lapis_ore"
+					}
+				]
+			},
+			{
+				"places_block": "ore:black_diamond_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:deepslate_diamond_ore"
+					}
+				]
+			},
+			{
+				"places_block": "ore:black_iron_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:deepslate_iron_ore"
+					}
+				]
+			},
+			{
+				"places_block": "ore:black_gold_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:deepslate_gold_ore"
+					}
+				]
+			},
+			{
+				"places_block": "ore:black_redstone_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:deepslate_redstone_ore"
+					}
+				]
+			},
+			{
+				"places_block": "ore:black_emerald_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:deepslate_emerald_ore"
+					}
+				]
+			},
+			{
+				"places_block": "ore:black_sulfur_ore",
+				"may_replace": [
+					{
+						"name": "ore:sulfur_ore"
+					}
+				]
+			},
+			{
+				"places_block": "ore:black_copper_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:deepslate_copper_ore"
+					}
+				]
+			},
+              {
+				"places_block": "ore:black_titanium_ore",
+				"may_replace": [
+					{
+						"name": "ore:deepslate_titanium_ore"
+					}
+				]
+			},
+			{
+				"places_block": "ore:black_titanium_ore",
+				"may_replace": [
+					{
+						"name": "ore:titanium_ore"
+					}
+				]
+			},
+              {
+				"places_block": "ore:black_coal_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:deepslate_coal_ore"
+					}
+				]
+			},
+			{
+				"places_block": "ore:black_lapis_ore",
+				"may_replace": [
+					{
+						"name": "minecraft:deepslate_lapis_ore"
+					}
+				]
+			}
+		]
+	}
+}

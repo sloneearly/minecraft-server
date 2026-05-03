@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cc.villager.disable_body_overlay": {
+			"loop": true,
+			"bones": {
+				"body_overlay": {
+					"scale": [0, 0, 0]
+				}
+			}
+		},
+		"animation.cc.villager.hide_helmet_top": {
+			"loop": true,
+			"bones": {
+				"helmet_top": {
+					"scale": [0, 0, 0]
+				}
+			}
+		},
+		"animation.cc.soldier.get_in_bed": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"waist": {
+					"rotation": [-90, 0, 0],
+					"position": [0, 3, -15]
+				}
+			}
+		}
+	}
+}

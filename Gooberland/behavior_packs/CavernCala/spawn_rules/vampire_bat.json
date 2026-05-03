@@ -1,0 +1,41 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "mob:vampire_bat",
+			"population_control": "monster"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_underground": {},
+				"minecraft:brightness_filter": {
+					"min": 0,
+					"max": 1,
+					"adjust_for_weather": true
+				},
+				"minecraft:difficulty_filter": {
+					"min": "easy",
+					"max": "hard"
+				},
+				"minecraft:weight": {
+					"default": 20
+				},
+				"minecraft:biome_filter": {
+					"all_of": [
+						{
+							"value": "monster",
+							"operator": "==",
+							"test": "has_biome_tag"
+						},
+						{
+							"value": "wilted_garden_caves",
+							"test": "has_biome_tag",
+							"operator": "!="
+						}
+					]
+				}
+			}
+		]
+	}
+}

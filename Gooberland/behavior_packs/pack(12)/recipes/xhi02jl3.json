@@ -1,0 +1,13 @@
+{
+  "format_version": "1.17",
+  "minecraft:recipe_smithing_transform": {
+    "description": {
+      "identifier": "cc:netherite_battle_axe"
+    },
+    "tags": ["smithing_table"],
+    "template": "minecraft:netherite_upgrade_smithing_template",
+    "base": "cc:diamond_battle_axe",
+    "addition": "minecraft:netherite_ingot",
+    "result": "cc:netherite_battle_axe"
+  }
+}

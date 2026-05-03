@@ -1,0 +1,36 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Cavern Calamity v2.3 Hotfix 5 RES",
+		"description": "made by Sir Rel",
+		"uuid": "520b5bc9-e23b-43c9-bbf6-074efe921c35",
+		"version": [
+			1,
+			0,
+			5
+		],
+		"min_engine_version": [
+			1,
+			26,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "040f8fa9-0d16-4f11-b1ce-15ea3d2efb07",
+			"version": [
+				1,
+				0,
+				5
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"1.8.4"
+			]
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rose_gold_grate_62c0dc42"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "A A",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "block:rose_gold_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:rose_gold_grate",
+      "count": 4
+    }
+  }
+}

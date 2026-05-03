@@ -1,0 +1,70 @@
+pack.description=Explora antiguos altares, activa pilares rúnicos y desata el poder ancestral oculto en cada bioma. Forja poderosos artefactos y domina la magia rúnica para transformar el mundo a tu alrededor.
+
+item.ancients:iron_amulet=Amuleto de hierro
+item.ancients:iron_amulet_powered=Amuleto de hierro cargado
+item.ancients:ancient_mystic_bark=Antigua corteza mística
+item.ancients:ancient_rune_fragment=Fragmento de runa antigua
+item.ancients:ancient_rune=Runa antigua
+item.ancients:ancient_rune_charged=Runa antigua cargada
+item.ancients:bottle_of_runic_essence=Frasco de esencia rúnica
+item.ancients:runic_apple=Manzana rúnica
+item.ancients:runic_essence=Esencia rúnica
+item.ancients:ancient_sapling=Brote de árbol ancestral
+item.ancients:runic_staff=Bastón rúnico
+item.ancients:runic_staff_charged=Bastón rúnico
+item.ancient:ancient_door=Puerta antigua
+item.ancients:ancient_book=Libro antiguo
+item.ancients:lost_scroll=Pergamino perdido
+item.ancients:forest_guardian_mask=Máscara del Guardián del Bosque Antiguo
+item.ancients:forest_guardian_mask_item=Máscara del Guardián del Bosque Antiguo
+
+tile.ancients:ancient_forest_altar.name=Altar ancestral del bosque
+tile.ancients:ancient_forest_pillar_cracked.name=Antiguo pilar del bosque agrietado
+tile.ancients:ancient_forest_pillar_mossy.name=Antiguo pilar del bosque musgoso
+tile.ancients:ancient_forest_pillar.name=Antiguo pilar del bosque
+tile.ancients:deepslate_rune.name=Runas de pizarra abismal
+tile.ancients:ancient_leaves.name=Hojas antiguas
+tile.ancients:ancient_log.name=Tronco antiguo
+tile.ancients:ancient_planks.name=Tablones antiguos
+tile.ancients:ancient_slab.name=Losa antigua
+tile.ancients:ancient_sapling.name=Brote de árbol ancestral
+tile.ancients:ancient_log_stripped.name=Tronco antiguo sin corteza
+tile.ancients:ancient_wood_stripped.name=Madera antigua sin corteza
+tile.ancients:ancient_wood.name=Madera antigua
+tile.ancients:ancient_stair.name=Escaleras antiguas
+tile.ancients:ancient_fence.name=Valla antigua
+tile.ancients:ancient_fence_gate.name=Puerta de valla antigua
+tile.ancients:ancient_door.name=Puerta antigua
+
+interact.ancients.ancient_book=Abrir libro
+
+book.ancients.entry=Libro antiguo
+book.ancients.chapter.forest=Bosque
+book.ancients.notfound=[ Capítulo Bloqueado ]
+
+book.ancient.entry.description=Descripción
+book.ancient.entry.extra=Adicional
+book.ancient.entry.image=Altar
+book.ancients.entry.chapter=Capítulo
+
+book.ancients.chapter1=- La esencia rúnica
+book.ancients.chapter2=- El amuleto
+book.ancients.chapter3=- La manzana rúnica
+book.ancients.chapter4=- La runa ancestral
+book.ancients.chapter5=- El bastón rúnico
+book.ancients.chapter6=- Esencia capturada
+book.ancients.chapter7=- La Máscara
+
+book.ancients.chapter1.text=Hace mucho tiempo, los árboles del Bosque Antiguo absorbieron energías místicas de la tierra. Para desbloquear este poder, debes arrancar la corteza de estos árboles ancestrales. Sólo unos pocos troncos contienen la corteza rúnica, impregnada de energía ancestral. Combina esta corteza con el polvo de piedra luminosa del Inframundo y coloca la corteza en uno de los pilares cercanos, luego la piedra luminosa en el altar. Un estallido de poder ancestral revelará la Esencia Rúnica, una llave para desbloquear la magia más profunda.
+
+book.ancients.chapter2.text=El Amuleto de hierro lo llevaban antiguamente los protectores del bosque, imbuyéndolos de poderes regenerativos. Para crear el Amuleto de Hierro Cargado, fabrica un amuleto de hierro sencillo y coloca cuatro Esencias Rúnicas en los pilares. Por último, coloca el amuleto de hierro en el altar para que absorba la energía de la esencia. Este amuleto te otorgará Regeneración al usarlo, pero sólo se puede usar cinco veces antes de tener que recargarlo. Tal poder tiene un precio, como sabían los antiguos protectores.
+
+book.ancients.chapter3.text=Las leyendas dicen que la Manzana Rúnica contiene la fuerza vital misma del bosque, ofreciendo un inmenso poder a aquellos que la consumen. Para crear esta manzana, coloca ocho Esencias Rúnicas en los pilares cercanos y una Manzana Dorada en el centro del altar. Una vez transformada, la Manzana Rúnica no sólo cura, sino que también otorga el Efecto Rúnico, una misteriosa bendición necesaria para realizar transformaciones avanzadas en el altar. Se dice que este efecto te conecta directamente con la magia ancestral del bosque.
+
+book.ancients.chapter4.text=Ocultos en las profundidades de las cuevas yacen esparcidos Fragmentos de Runas Ancestrales, reliquias de una era pasada. Cuando se combinan, estos fragmentos forman la poderosa Runa Ancestral. Para cargarla, consume una Manzana Rúnica o activa el Efecto Rúnico, luego coloca la runa en el altar con cuatro Esencias Rúnicas en los pilares. La Runa Ancestral cargada encierra un vasto poder, que permite transformaciones fuera del alcance de las manos mortales.
+
+book.ancients.chapter5.text=El Bastón rúnico lo usaban antiguamente los Ancianos del bosque. Para obtener el bastón rúnico cargado, primero debes fabricar un bastón básico. Después, reúne cuatro Runas Ancestrales Cargadas, cuatro Esencias Rúnicas y consume una Manzana Rúnica. Coloca las esencias y las runas en los pilares y el bastón en el altar. Una vez cargado, este bastón puede desatar devastadores Orbes Rúnicos. Cuando esté agachado, el bastón lanzará el Efecto Rúnico sobre los monstruos cercanos, debilitándolos con energía ancestral.
+
+book.ancients.chapter6.text=Los antiguos eruditos creían que la esencia del bosque podía capturarse, pero sólo cuando se concentra la ira del bosque. Cuando una criatura esté bajo el Efecto Rúnico, interactúa con ella utilizando una botella vacía. Este proceso extrae la Esencia Rúnica en un Frasco, una poción que te otorga el Efecto Rúnico durante 40 segundos, permitiéndote completar las transformaciones más poderosas en el altar. Maneja esta esencia con cuidado, contiene la furia del bosque.
+
+book.ancients.chapter7.text=En las profundidades del bosque antiguo hay un templo oculto que alberga la Máscara del Guardián del Bosque Antiguo. Para reclamar esta máscara, debes beber Esencia Rúnica pura. Esta esencia sólo se obtiene extrayéndola de monstruos bajo el efecto. Sólo bajo el efecto de la esencia, el templo permitirá el acceso a la máscara. Date prisa, ya que el poder de la esencia se desvanece rápidamente.

@@ -1,0 +1,80 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.entity.ntk_pale_mossheep",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.375,
+				"visible_bounds_offset": [0, 0.8125, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "pale_mossheep",
+					"parent": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "pale_mossheep",
+					"pivot": [0, 16, 0],
+					"cubes": [
+						{"origin": [-4, 12, -8], "size": [8, 6, 16], "uv": [0, 30]},
+						{"origin": [-6, 9, -9], "size": [12, 11, 19], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "leg_back_right",
+					"parent": "body",
+					"pivot": [-3, 12, 7],
+					"cubes": [
+						{"origin": [-5, 0, 5], "size": [4, 12, 4], "uv": [0, 52]}
+					]
+				},
+				{
+					"name": "leg_back_left",
+					"parent": "body",
+					"pivot": [3, 12, 7],
+					"cubes": [
+						{"origin": [1, 0, 5], "size": [4, 12, 4], "uv": [44, 48]}
+					]
+				},
+				{
+					"name": "leg_front_right",
+					"parent": "body",
+					"pivot": [-3, 12, -5],
+					"cubes": [
+						{"origin": [-5, 0, -7], "size": [4, 12, 4], "uv": [0, 30]}
+					]
+				},
+				{
+					"name": "leg_front_left",
+					"parent": "body",
+					"pivot": [3, 12, -5],
+					"cubes": [
+						{"origin": [1, 0, -7], "size": [4, 12, 4], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "pale_mossheep",
+					"pivot": [0, 18, -8],
+					"cubes": [
+						{"origin": [-3, 16, -14], "size": [6, 6, 8], "uv": [43, 0]},
+						{"origin": [-4, 15, -13], "size": [8, 8, 8], "uv": [32, 30]}
+					],
+					"locators": {
+						"lead": [0, 18, -8],
+						"held_item": [0, 17, -13]
+					}
+				}
+			]
+		}
+	]
+}

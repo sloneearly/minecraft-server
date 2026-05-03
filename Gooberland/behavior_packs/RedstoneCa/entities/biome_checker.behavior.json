@@ -1,0 +1,95 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "wan_redcave:biome_checker",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "wan_redcave:in_biome": {
+          "client_sync": true,
+          "type": "bool",
+          "default": false
+        }
+      }
+    },
+    "component_groups": {
+      "wan_redcave:despawn": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "event": "wan_redcave:in_biome",
+            "target": "self",
+            "filters": {
+              "test": "has_biome_tag",
+              "value": "wan_redcave:redstone_plains"
+            }
+          },
+          {
+            "event": "wan_redcave:outside_biome",
+            "target": "self",
+            "filters": {
+              "test": "has_biome_tag",
+              "operator": "not",
+              "value": "wan_redcave:redstone_plains"
+            }
+          }
+        ]
+      },
+      "minecraft:collision_box": {
+        "height": 0,
+        "width": 0
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": "no"
+          }
+        ]
+      },
+      "minecraft:breathable": {
+        "total_supply": 1,
+        "suffocate_time": 1,
+        "inhale_time": 1,
+        "breathes_air": true,
+        "breathes_water": true,
+        "breathes_lava": true,
+        "breathes_solids": true,
+        "generates_bubbles": true
+      },
+      "minecraft:timer": {
+        "time": 1,
+        "looping": true,
+        "time_down_event": {
+          "event": "wan_redcave:despawn",
+          "target": "self"
+        }
+      }
+    },
+    "events": {
+      "wan_redcave:despawn": {
+        "add": {
+          "component_groups": [
+            "wan_redcave:despawn"
+          ]
+        }
+      },
+      "wan_redcave:in_biome": {
+        "set_property": {
+          "wan_redcave:in_biome": true
+        }
+      },
+      "wan_redcave:outside_biome": {
+        "set_property": {
+          "wan_redcave:in_biome": false
+        }
+      }
+    }
+  }
+}

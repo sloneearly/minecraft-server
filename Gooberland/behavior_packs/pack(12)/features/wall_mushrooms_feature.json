@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "cc:wall_mushrooms_feature"
+    },
+    "places_block": {
+      "name": "cc:wall_mushrooms",
+      "states": {
+        "cc:generated": true,
+        "cc:display": false
+      }
+    },
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false,
+    "may_replace": ["minecraft:air"],
+    "may_attach_to": {
+      "auto_rotate": true,
+      "min_sides_must_attach": 1,
+      "sides": ["minecraft:oak_log", "minecraft:birch_log", "minecraft:spruce_log", "minecraft:dark_oak_log"]
+    }
+  }
+}

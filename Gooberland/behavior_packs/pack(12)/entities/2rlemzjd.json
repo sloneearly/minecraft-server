@@ -1,0 +1,91 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cc:siren_bolt",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:snowball"
+    },
+    "component_groups": {
+      "instant_despawn": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["projectile"]
+      },
+      "minecraft:collision_box": {
+        "width": 3.0,
+        "height": 3.0
+      },
+      "minecraft:friction_modifier": {
+        "value": 0
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": 5,
+            "knockback": true,
+            "semi_random_diff_damage": false
+          },
+          "remove_on_hit": {}
+        },
+        "destroy_on_hurt": true,
+        "power": 1,
+        "gravity": 0,
+        "uncertainty_base": 0,
+        "uncertainty_multiplier": 0,
+        "liquid_inertia": 1.0,
+        "anchor": 1,
+        "should_bounce": false,
+        "multiple_targets": true
+      },
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "event": "cc:despawn",
+            "target": "self",
+            "filters": {
+              "test": "in_water",
+              "value": false
+            }
+          }
+        ]
+      },
+      "minecraft:timer": {
+        "time": 5,
+        "looping": true,
+        "time_down_event": {
+          "event": "cc:despawn",
+          "target": "self"
+        }
+      }
+    },
+    "events": {
+      "cc:despawn": {
+        "add": {
+          "component_groups": ["instant_despawn"]
+        }
+      }
+    }
+  }
+}

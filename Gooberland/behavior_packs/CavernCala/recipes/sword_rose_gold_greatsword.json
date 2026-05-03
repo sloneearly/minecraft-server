@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rose_gold_greatsword_9dc0e6c4"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " AA",
+      " AA",
+      "B  "
+    ],
+    "key": {
+      "A": {
+        "item": "item:rose_gold_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "sword:rose_gold_greatsword",
+      "count": 1
+    }
+  }
+}

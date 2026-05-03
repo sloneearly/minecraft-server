@@ -1,0 +1,70 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:soul_astral",
+      "geometry": {
+        "default": "geometry.cc.astral",
+        "outline": "geometry.cc.astral.outline"
+      },
+      "materials": {
+        "default": "outline_base_glow",
+        "outline": "outline"
+      },
+      "textures": {
+        "default": "textures/cc/ritual/entities/astral.soul",
+        "outline": "textures/cc/ritual/entities/astral.soul.outline"
+      },
+      "sound_effects": {
+        "casting": "cc:pharaoh_casting",
+        "shoot": "cc:astral.ice.shoot",
+        "shoot2": "cc:freeze.charge",
+        "shockwave": "cc:astral.ice.shockwave",
+        "shockwave.charge": "cc:astral.ice.shockwave.charge"
+      },
+      "particle_effects": {
+        "casting": "cc:astral_soul_charge",
+        "shoot": "cc:astral_soul_shoot",
+        "trail": "cc:mob_soul_smoke"
+      },
+      "animations": {
+        "move_controller": "controller.animation.cc.move",
+        "idle": "animation.cc.biped.idle",
+        "casting": "animation.cc.astral.smash",
+        "walk": "animation.cc.astral.fly",
+        "run": "animation.cc.astral.fly",
+        "swim": "animation.cc.astral.fly",
+        "swim_idle": "animation.cc.astral.fly",
+        "swim_run": "animation.cc.astral.fly",
+        "fly": "animation.cc.astral.fly",
+        "always": "animation.cc.astral.always",
+        "casting_controller": "controller.animation.cc.casting",
+        "look_at_target": "animation.common.look_at_target",
+
+        "ranged_controller": "controller.animation.cc.charged_ranged_attack",
+        "charged_ranged_attack": "animation.cc.astral.shoot",
+        "particle": "animation.cc.trail.particle"
+      },
+      "scripts": {
+        "initialize": ["v.relative_run_speed = 0.6;"],
+        "animate": [
+          "always",
+          "move_controller",
+          "casting_controller",
+          "look_at_target",
+          "ranged_controller",
+          "particle"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.cc.ignore_lighting",
+        "controller.render.cc.item.outline"
+      ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:soul_astral_spawn_egg"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.13",
+  "minecraft:search_feature": {
+    "description": {
+      "identifier": "cc:struct_nether_basalt_ruin_3_search"
+    },
+    "places_feature": "cc:struct_nether_basalt_ruin_3_feature",
+    "search_volume": {
+      "min": [
+        0,
+        -15,
+        0
+      ],
+      "max": [
+        0,
+        -14,
+        0
+      ]
+    },
+    "search_axis": "-y"
+  }
+}

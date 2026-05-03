@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cc:market_stand"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["DDD", "D#D", "DDD"],
+    "key": {
+      "#": {
+        "tag": "minecraft:sign"
+      },
+      "D": {
+        "item": "minecraft:planks"
+      }
+    },
+    "result": "cc:market_stand"
+  }
+}

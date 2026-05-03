@@ -1,0 +1,18 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+      "controller.animation.cc.summon": {
+        "initial_state": "idle",
+        "states": {
+          "idle": {
+            "transitions": [{ "summon": "q.is_casting" }]
+          },
+          "summon": {
+            "on_exit": ["/event entity @s cc:summon"],
+            "transitions": [{ "idle": "!q.is_casting" }]
+          }
+        }
+      }
+    }
+  }
+  

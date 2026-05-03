@@ -1,0 +1,24 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cc.golem.cracks": {
+      "arrays": {
+        "textures": {
+          "Array.cracks": [
+            "Texture.cracked_high",
+            "Texture.cracked_med",
+            "Texture.cracked_low",
+            "Texture.cracked_none"
+          ]
+        }
+      },
+      "materials": [
+        {
+          "*": "material.cracks"
+        }
+      ],
+      "geometry": "Geometry.default",
+      "textures": [ "Array.cracks[math.clamp((q.health / q.max_health) * 4, 0, 3)]" ]
+    }
+  }
+}

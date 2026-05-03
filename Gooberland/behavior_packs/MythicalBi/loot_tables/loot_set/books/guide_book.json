@@ -1,0 +1,60 @@
+// Mythical Biomes:
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/51_mossheep.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/52_wood_corpse.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/53_overgrown_jungle_troot.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/78_corrupted_oak_troot.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/79_mossman.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/81_corrupted_raven.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/82_mossy_willow_troot.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/83_selvander.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/84_deopard.json"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "loot_tables/loot_set/books/guide_books/99_pale_mossheep.json"
+        }
+      ]
+    }
+  ]
+}

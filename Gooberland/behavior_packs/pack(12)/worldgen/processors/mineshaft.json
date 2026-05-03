@@ -1,0 +1,80 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:processor_list": {
+    "description": {
+      "identifier": "cc:mineshaft"
+    },
+    "processors": [
+      {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "input_predicate": {
+              "block": "minecraft:lever",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:air",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "name": "minecraft:air"
+            }
+          },
+          {
+            "input_predicate": {
+              "block": "minecraft:stripped_spruce_log",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:air",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "name": "minecraft:air"
+            }
+          },
+          {
+            "input_predicate": {
+              "block": "minecraft:spruce_slab",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:air",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "name": "minecraft:air"
+            }
+          },
+          {
+            "input_predicate": {
+              "block": "minecraft:rail",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:air",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "name": "minecraft:air"
+            }
+          },
+          {
+            "input_predicate": {
+              "block": "minecraft:oak_stairs",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:air",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "name": "minecraft:air"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

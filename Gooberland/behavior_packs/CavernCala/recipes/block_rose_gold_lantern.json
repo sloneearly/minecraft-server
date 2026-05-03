@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rose_gold_lantern_3ba1698b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:rose_gold_nugget",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:torch",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:rose_gold_lantern",
+      "count": 1
+    }
+  }
+}

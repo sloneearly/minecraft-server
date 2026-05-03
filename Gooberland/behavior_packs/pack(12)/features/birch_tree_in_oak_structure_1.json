@@ -1,0 +1,24 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "cc:birch_tree_in_oak_structure_1"
+    },
+    "structure_name": "cc:tree/birch_tree.1",
+    "adjustment_radius": 0,
+    "facing_direction": "south",
+    "constraints": {
+      "grounded": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air",
+          "minecraft:grass",
+          "minecraft:short_grass",
+          "minecraft:leaves",
+          "minecraft:oak_leaves",
+          "minecraft:birch_leaves"
+        ]
+      }
+    }
+  }
+}

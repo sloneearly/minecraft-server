@@ -1,0 +1,207 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "wan_redcave:pure_redstone_small_bud",
+      "menu_category": {
+        "category": "nature"
+      },
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": [
+            "minecraft:block_face"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:display_name": "wan_redcave:pure_redstone_small_bud.name",
+      "minecraft:selection_box": {
+        "origin": [
+          -5.5,
+          0,
+          -5.5
+        ],
+        "size": [
+          11,
+          15,
+          11
+        ]
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -5.5,
+          0,
+          -5.5
+        ],
+        "size": [
+          11,
+          15,
+          11
+        ]
+      },
+      "minecraft:loot": "loot_tables/wan/redcave/block/pure_redstone.json",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "wan_redcave:pure_redstone_small_bud",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:light_emission": 7,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 20
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": true,
+            "liquid_type": "water",
+            "on_liquid_touches": "no_reaction",
+            "stops_liquid_flowing_from_direction": [
+              "up",
+              "down",
+              "north",
+              "east",
+              "south",
+              "west"
+            ]
+          }
+        ]
+      },
+      "tag:minecraft:is_pickaxe_item_destructible": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up'",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.wan_redcave.pure_redstone_cluster",
+            "bone_visibility": {
+              "crystal1": false,
+              "crystal2": false,
+              "crystal3": false,
+              "crystal4": true
+            }
+          },
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'down'",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.wan_redcave.pure_redstone_cluster",
+            "bone_visibility": {
+              "crystal1": false,
+              "crystal2": false,
+              "crystal3": false,
+              "crystal4": true
+            }
+          },
+          "minecraft:transformation": {
+            "rotation": [
+              180,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'north'",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.wan_redcave.pure_redstone_cluster",
+            "bone_visibility": {
+              "crystal1": false,
+              "crystal2": false,
+              "crystal3": false,
+              "crystal4": true
+            }
+          },
+          "minecraft:transformation": {
+            "rotation": [
+              -90,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'east'",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.wan_redcave.pure_redstone_cluster",
+            "bone_visibility": {
+              "crystal1": false,
+              "crystal2": false,
+              "crystal3": false,
+              "crystal4": true
+            }
+          },
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              -90
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south'",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.wan_redcave.pure_redstone_cluster",
+            "bone_visibility": {
+              "crystal1": false,
+              "crystal2": false,
+              "crystal3": false,
+              "crystal4": true
+            }
+          },
+          "minecraft:transformation": {
+            "rotation": [
+              90,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'west'",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.wan_redcave.pure_redstone_cluster",
+            "bone_visibility": {
+              "crystal1": false,
+              "crystal2": false,
+              "crystal3": false,
+              "crystal4": true
+            }
+          },
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              90
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

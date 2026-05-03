@@ -1,0 +1,47 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:dead_tree_placement",
+      "places_feature": "cc:dead_tree_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "mesa"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "savanna"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "swamp"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 2.0,
+      "scatter_chance": 5.0,
+      "x": {
+        "distribution": "triangle",
+        "extent": [-8, 8]
+      },
+      "y": "query.heightmap(v.originx, v.originz)",
+      "z": {
+        "distribution": "triangle",
+        "extent": [-8, 8]
+      },
+      "coordinate_eval_order": "zyx"
+    }
+  }
+}

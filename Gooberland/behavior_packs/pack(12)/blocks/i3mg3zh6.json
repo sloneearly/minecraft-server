@@ -1,0 +1,218 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cc:small_lily_pads",
+      "menu_category": {
+        "category": "none"
+      },
+      "states": {
+        "cc:count": {
+          "values": {
+            "min": 1,
+            "max": 4
+          }
+        }
+      }
+    },
+    "components": {
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "none"
+      },
+      "tag:plant": {},
+      "cc:multi_placement": {},
+      "cc:place_on_water": {},
+      "tag:nonsolid": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:geometry": "geometry.cc.carpet",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cc:small_lily_pads_1",
+          "render_method": "alpha_test",
+          "isotropic": true
+        }
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["up"],
+            "block_filter": [
+              "water",
+              "grass_block",
+              "dirt",
+              "podzol",
+              "dirt_with_roots",
+              "coarse_dirt",
+              "clay",
+              "mud",
+              "cc:jungle_roots"
+            ]
+          },
+          {
+            "allowed_faces": ["up"],
+            "block_filter": [
+              {
+                "name": "cc:small_lily_pads",
+                "states": {
+                  "cc:count": 1
+                }
+              },
+              {
+                "name": "cc:small_lily_pads",
+                "states": {
+                  "cc:count": 2
+                }
+              },
+              {
+                "name": "cc:small_lily_pads",
+                "states": {
+                  "cc:count": 3
+                }
+              }
+            ]
+          },
+          {
+            "allowed_faces": ["side"],
+            "block_filter": [
+              {
+                "name": "cc:small_lily_pads",
+                "states": {
+                  "cc:count": 1
+                }
+              },
+              {
+                "name": "cc:small_lily_pads",
+                "states": {
+                  "cc:count": 2
+                }
+              },
+              {
+                "name": "cc:small_lily_pads",
+                "states": {
+                  "cc:count": 3
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 1, 16]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:map_color": "#509B4B",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "on_liquid_touches": "popped"
+          }
+        ]
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('cc:count') == 1",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:small_lily_pads_1",
+              "render_method": "alpha_test",
+              "isotropic": true
+            }
+          },
+          "minecraft:destructible_by_mining": {
+            "seconds_to_destroy": 0.05
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('cc:count') == 2",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:small_lily_pads_2",
+              "render_method": "alpha_test",
+              "isotropic": true
+            }
+          },
+          "minecraft:destructible_by_mining": {
+            "seconds_to_destroy": 0.05
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('cc:count') == 3",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:small_lily_pads_3",
+              "render_method": "alpha_test",
+              "isotropic": true
+            }
+          },
+          "minecraft:destructible_by_mining": {
+            "seconds_to_destroy": 0.05
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('cc:count') == 4",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:small_lily_pads_4",
+              "render_method": "alpha_test",
+              "isotropic": true
+            }
+          },
+          "minecraft:destructible_by_mining": {
+            "seconds_to_destroy": 0.05
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('cc:count') == 4",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:small_lily_pads_4",
+              "render_method": "alpha_test",
+              "isotropic": true
+            }
+          },
+          "minecraft:destructible_by_mining": {
+            "seconds_to_destroy": 0.05
+          }
+        }
+      }
+    ]
+  }
+}

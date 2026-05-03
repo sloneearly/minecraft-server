@@ -1,0 +1,1029 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "silk_ball": {
+      "textures": "textures/items/silk_ball"
+    },
+    "block_small_slime_spike": {
+      "textures": "textures/blocks/block_small_slime_spike"
+    },
+    "block_glowshroom": {
+      "textures": "textures/blocks/block_glowshroom"
+    },
+    "gold_cart": {
+      "textures": "textures/items/gold_cart"
+    },
+    "block_glow_vines": {
+      "textures": "textures/blocks/block_glow_vines"
+    },
+    "food:hyperion_fruit": {
+      "textures": "textures/items/food_hyperion_fruit"
+    },
+    "block_glow_grass": {
+      "textures": "textures/blocks/block_glow_grass"
+    },
+    "block_horrid_shroom": {
+      "textures": "textures/blocks/block_horrid_shroom"
+    },
+    "block_horrid_grass": {
+      "textures": "textures/blocks/block_horrid_grass"
+    },
+    "item:jasper_shard": {
+      "textures": "textures/items/item_jasper_shard"
+    },
+    "item:kyanite_shard": {
+      "textures": "textures/items/item_kyanite_shard"
+    },
+    "item:sulfur": {
+      "textures": "textures/items/item_sulfur"
+    },
+    "item:raw_uranium": {
+      "textures": "textures/items/item_raw_uranium"
+    },
+    "item:uranium_ingot": {
+      "textures": "textures/items/item_uranium_ingot"
+    },
+    "sword:wooden_kunai": {
+      "textures": "textures/items/sword_wooden_kunai"
+    },
+    "block_glowing_mushroom_vines": {
+      "textures": "textures/blocks/block_glowing_mushroom_vines"
+    },
+    "food:aether_fruit": {
+      "textures": "textures/items/food_aether_fruit"
+    },
+    "tool:drill": {
+      "textures": "textures/items/tool_drill"
+    },
+    "sword:netherite_kunai": {
+      "textures": "textures/items/sword_netherite_kunai"
+    },
+    "sword:gold_kunai": {
+      "textures": "textures/items/sword_gold_kunai"
+    },
+    "block_small_granite_spike": {
+      "textures": "textures/blocks/block_small_granite_spike"
+    },
+    "sword:stone_kunai": {
+      "textures": "textures/items/sword_stone_kunai"
+    },
+    "sword:diamond_kunai": {
+      "textures": "textures/items/sword_diamond_kunai"
+    },
+    "sword:iron_kunai": {
+      "textures": "textures/items/sword_iron_kunai"
+    },
+    "block_small_diorite_spike": {
+      "textures": "textures/blocks/block_small_diorite_spike"
+    },
+    "sword:flint_caltrop": {
+      "textures": "textures/items/sword_flint_caltrop"
+    },
+    "food:glowshroom_stew": {
+      "textures": "textures/items/food_glowshroom_stew"
+    },
+    "sword:flint_throwing_knife": {
+      "textures": "textures/items/sword_flint_throwing_knife"
+    },
+    "sword:netherite_greatsword": {
+      "textures": "textures/items/sword_netherite_greatsword"
+    },
+    "item:black_smoke_bomb": {
+      "textures": "textures/items/item_black_smoke_bomb"
+    },
+    "item:blue_smoke_bomb": {
+      "textures": "textures/items/item_blue_smoke_bomb"
+    },
+    "item:brown_smoke_bomb": {
+      "textures": "textures/items/item_brown_smoke_bomb"
+    },
+    "item:green_smoke_bomb": {
+      "textures": "textures/items/item_green_smoke_bomb"
+    },
+    "item:cyan_smoke_bomb": {
+      "textures": "textures/items/item_cyan_smoke_bomb"
+    },
+    "item:lime_smoke_bomb": {
+      "textures": "textures/items/item_lime_smoke_bomb"
+    },
+    "item:light_blue_smoke_bomb": {
+      "textures": "textures/items/item_light_blue_smoke_bomb"
+    },
+    "item:orange_smoke_bomb": {
+      "textures": "textures/items/item_orange_smoke_bomb"
+    },
+    "item:pink_smoke_bomb": {
+      "textures": "textures/items/item_pink_smoke_bomb"
+    },
+    "item:gray_smoke_bomb": {
+      "textures": "textures/items/item_gray_smoke_bomb"
+    },
+    "item:white_smoke_bomb": {
+      "textures": "textures/items/item_white_smoke_bomb"
+    },
+    "item:light_gray_smoke_bomb": {
+      "textures": "textures/items/item_light_gray_smoke_bomb"
+    },
+    "item:red_smoke_bomb": {
+      "textures": "textures/items/item_red_smoke_bomb"
+    },
+    "item:magenta_smoke_bomb": {
+      "textures": "textures/items/item_magenta_smoke_bomb"
+    },
+    "item:purple_smoke_bomb": {
+      "textures": "textures/items/item_purple_smoke_bomb"
+    },
+    "item:yellow_smoke_bomb": {
+      "textures": "textures/items/item_yellow_smoke_bomb"
+    },
+    "block_small_andesite_spike": {
+      "textures": "textures/blocks/block_small_andesite_spike"
+    },
+    "block_small_calcite_spike": {
+      "textures": "textures/blocks/block_small_calcite_spike"
+    },
+    "block_small_blackstone_spike": {
+      "textures": "textures/blocks/block_small_blackstone_spike"
+    },
+    "block_small_stone_spike": {
+      "textures": "textures/blocks/block_small_stone_spike"
+    },
+    "block_small_deepslate_spike": {
+      "textures": "textures/blocks/block_small_deepslate_spike"
+    },
+    "sword:copper_axe": {
+      "textures": "textures/items/sword_copper_axe"
+    },
+    "sword:copper_hoe": {
+      "textures": "textures/items/sword_copper_hoe"
+    },
+    "sword:copper_sword": {
+      "textures": "textures/items/sword_copper_sword"
+    },
+    "sword:copper_shovel": {
+      "textures": "textures/items/sword_copper_shovel"
+    },
+    "sword:copper_pickaxe": {
+      "textures": "textures/items/sword_copper_pickaxe"
+    },
+    "sword:copper_kunai": {
+      "textures": "textures/items/sword_copper_kunai"
+    },
+    "copper_boots": {
+      "textures": [
+        "textures/items/boots_copper_boots"
+      ]
+    },
+    "copper_leggings": {
+      "textures": [
+        "textures/items/leggings_copper_leggings"
+      ]
+    },
+    "copper_helmet": {
+      "textures": [
+        "textures/items/helmet_copper_helmet"
+      ]
+    },
+    "copper_chestplate": {
+      "textures": [
+        "textures/items/chestplate_copper_chestplate"
+      ]
+    },
+    "block_kyanite_cluster": {
+      "textures": "textures/blocks/block_kyanite_cluster"
+    },
+    "item:raw_titanium": {
+      "textures": "textures/items/item_raw_titanium"
+    },
+    "block_jasper_cluster": {
+      "textures": "textures/blocks/block_jasper_cluster"
+    },
+    "item:titanium_ingot": {
+      "textures": "textures/items/item_titanium_ingot"
+    },
+    "block_glowing_vines": {
+      "textures": "textures/blocks/block_glowing_vines"
+    },
+    "block_glowing_mushroom": {
+      "textures": "textures/blocks/block_glowing_mushroom"
+    },
+    "block_glowing_grass": {
+      "textures": "textures/blocks/block_glowing_grass"
+    },
+    "titanium_helmet": {
+      "textures": [
+        "textures/items/helmet_titanium_helmet"
+      ]
+    },
+    "titanium_chestplate": {
+      "textures": [
+        "textures/items/chestplate_titanium_chestplate"
+      ]
+    },
+    "titanium_leggings": {
+      "textures": [
+        "textures/items/leggings_titanium_leggings"
+      ]
+    },
+    "sword:titanium_sword": {
+      "textures": "textures/items/sword_titanium_sword"
+    },
+    "sword:titanium_hoe": {
+      "textures": "textures/items/sword_titanium_hoe"
+    },
+    "sword:titanium_axe": {
+      "textures": "textures/items/sword_titanium_axe"
+    },
+    "sword:titanium_pickaxe": {
+      "textures": "textures/items/sword_titanium_pickaxe"
+    },
+    "sword:titanium_shovel": {
+      "textures": "textures/items/sword_titanium_shovel"
+    },
+    "titanium_boots": {
+      "textures": [
+        "textures/items/boots_titanium_boots"
+      ]
+    },
+    "sword:titanium_kunai": {
+      "textures": "textures/items/sword_titanium_kunai"
+    },
+    "sword:stone_greatsword": {
+      "textures": "textures/items/sword_stone_greatsword"
+    },
+    "sword:copper_greatsword": {
+      "textures": "textures/items/sword_copper_greatsword"
+    },
+    "sword:diamond_greatsword": {
+      "textures": "textures/items/sword_diamond_greatsword"
+    },
+    "sword:titanium_greatsword": {
+      "textures": "textures/items/sword_titanium_greatsword"
+    },
+    "sword:gold_greatsword": {
+      "textures": "textures/items/sword_gold_greatsword"
+    },
+    "sword:wooden_greatsword": {
+      "textures": "textures/items/sword_wooden_greatsword"
+    },
+    "sword:iron_greatsword": {
+      "textures": "textures/items/sword_iron_greatsword"
+    },
+    "sword:flint_kunai": {
+      "textures": "textures/items/sword_flint_kunai"
+    },
+    "block_sewer_vines": {
+      "textures": "textures/blocks/block_sewer_vines"
+    },
+    "sword:radioactive_bomb": {
+      "textures": "textures/items/sword_radioactive_bomb"
+    },
+    "block_pink_firework_fountain": {
+      "textures": "textures/blocks/block_pink_firework_fountain"
+    },
+    "block_magenta_firework_fountain": {
+      "textures": "textures/blocks/block_magenta_firework_fountain"
+    },
+    "block_purple_firework_fountain": {
+      "textures": "textures/blocks/block_purple_firework_fountain"
+    },
+    "block_orange_firework_fountain": {
+      "textures": "textures/blocks/block_orange_firework_fountain"
+    },
+    "block_yellow_firework_fountain": {
+      "textures": "textures/blocks/block_yellow_firework_fountain"
+    },
+    "block_light_blue_firework_fountain": {
+      "textures": "textures/blocks/block_light_blue_firework_fountain"
+    },
+    "block_lime_firework_fountain": {
+      "textures": "textures/blocks/block_lime_firework_fountain"
+    },
+    "block_red_firework_fountain": {
+      "textures": "textures/blocks/block_red_firework_fountain"
+    },
+    "block_cyan_firework_fountain": {
+      "textures": "textures/blocks/block_cyan_firework_fountain"
+    },
+    "block_blue_firework_fountain": {
+      "textures": "textures/blocks/block_blue_firework_fountain"
+    },
+    "block_white_firework_fountain": {
+      "textures": "textures/blocks/block_white_firework_fountain"
+    },
+    "item:gas_bomb": {
+      "textures": "textures/items/item_gas_bomb"
+    },
+    "item:deepslate_geode": {
+      "textures": "textures/items/item_deepslate_geode"
+    },
+    "item:stone_geode": {
+      "textures": "textures/items/item_stone_geode"
+    },
+    "item:rad_powder": {
+      "textures": "textures/items/item_rad_powder"
+    },
+    "item:diamond_deepslate_geode": {
+      "textures": "textures/items/item_diamond_deepslate_geode"
+    },
+    "item:emerald_deepslate_geode": {
+      "textures": "textures/items/item_emerald_deepslate_geode"
+    },
+    "item:amethyst_deepslate_geode": {
+      "textures": "textures/items/item_amethyst_deepslate_geode"
+    },
+    "item:copper_stone_geode": {
+      "textures": "textures/items/item_copper_stone_geode"
+    },
+    "item:titanium_stone_geode": {
+      "textures": "textures/items/item_titanium_stone_geode"
+    },
+    "item:iron_stone_geode": {
+      "textures": "textures/items/item_iron_stone_geode"
+    },
+    "item:lapis_deepslate_geode": {
+      "textures": "textures/items/item_lapis_deepslate_geode"
+    },
+    "item:gold_stone_geode": {
+      "textures": "textures/items/item_gold_stone_geode"
+    },
+    "item:jasper_forging_template": {
+      "textures": "textures/items/item_jasper_forging_template"
+    },
+    "item:spelunker_potion": {
+      "textures": "textures/items/item_spelunker_potion"
+    },
+    "item:platinum_forging_template": {
+      "textures": "textures/items/item_platinum_forging_template"
+    },
+    "item:exodium_forging_template": {
+      "textures": "textures/items/item_exodium_forging_template"
+    },
+    "item:aetherium": {
+      "textures": "textures/items/item_aetherium"
+    },
+    "food:withered_berry": {
+      "textures": "textures/items/food_withered_berry"
+    },
+    "item:exodium_ingot": {
+      "textures": "textures/items/item_exodium_ingot"
+    },
+    "block_withered_lilly": {
+      "textures": "textures/blocks/block_withered_lilly"
+    },
+    "block_withered_grass": {
+      "textures": "textures/blocks/block_withered_grass"
+    },
+    "item:platinum_ingot": {
+      "textures": "textures/items/item_platinum_ingot"
+    },
+    "item:raw_exodium": {
+      "textures": "textures/items/item_raw_exodium"
+    },
+    "item:raw_platinum": {
+      "textures": "textures/items/item_raw_platinum"
+    },
+    "sword:kyanite_sword": {
+      "textures": "textures/items/sword_kyanite_sword"
+    },
+    "tool:kyanite_pickaxe": {
+      "textures": "textures/items/tool_kyanite_pickaxe"
+    },
+    "tool:kyanite_axe": {
+      "textures": "textures/items/tool_kyanite_axe"
+    },
+    "sword:aetherium_sword": {
+      "textures": "textures/items/sword_aetherium_sword"
+    },
+    "tool:aetherium_pickaxe": {
+      "textures": "textures/items/tool_aetherium_pickaxe"
+    },
+    "sword:kyanite_kunai": {
+      "textures": "textures/items/sword_kyanite_kunai"
+    },
+    "sword:kyanite_greatsword": {
+      "textures": "textures/items/sword_kyanite_greatsword"
+    },
+    "tool:kyanite_hoe": {
+      "textures": "textures/items/tool_kyanite_hoe"
+    },
+    "tool:kyanite_shovel": {
+      "textures": "textures/items/tool_kyanite_shovel"
+    },
+    "tool:aetherium_shovel": {
+      "textures": "textures/items/tool_aetherium_shovel"
+    },
+    "tool:aetherium_axe": {
+      "textures": "textures/items/tool_aetherium_axe"
+    },
+    "tool:exodium_shovel": {
+      "textures": "textures/items/tool_exodium_shovel"
+    },
+    "sword:aetherium_greatsword": {
+      "textures": "textures/items/sword_aetherium_greatsword"
+    },
+    "tool:aetherium_hoe": {
+      "textures": "textures/items/tool_aetherium_hoe"
+    },
+    "tool:exodium_pickaxe": {
+      "textures": "textures/items/tool_exodium_pickaxe"
+    },
+    "tool:exodium_axe": {
+      "textures": "textures/items/tool_exodium_axe"
+    },
+    "sword:aetherium_kunai": {
+      "textures": "textures/items/sword_aetherium_kunai"
+    },
+    "tool:exodium_hoe": {
+      "textures": "textures/items/tool_exodium_hoe"
+    },
+    "sword:exodium_sword": {
+      "textures": "textures/items/sword_exodium_sword"
+    },
+    "sword:jasper_sword": {
+      "textures": "textures/items/sword_jasper_sword"
+    },
+    "tool:jasper_axe": {
+      "textures": "textures/items/tool_jasper_axe"
+    },
+    "tool:jasper_hoe": {
+      "textures": "textures/items/tool_jasper_hoe"
+    },
+    "sword:jasper_greatsword": {
+      "textures": "textures/items/sword_jasper_greatsword"
+    },
+    "sword:exodium_kunai": {
+      "textures": "textures/items/sword_exodium_kunai"
+    },
+    "tool:jasper_shovel": {
+      "textures": "textures/items/tool_jasper_shovel"
+    },
+    "tool:jasper_pickaxe": {
+      "textures": "textures/items/tool_jasper_pickaxe"
+    },
+    "sword:exodium_greatsword": {
+      "textures": "textures/items/sword_exodium_greatsword"
+    },
+    "sword:jasper_kunai": {
+      "textures": "textures/items/sword_jasper_kunai"
+    },
+    "sword:platinum_sword": {
+      "textures": "textures/items/sword_platinum_sword"
+    },
+    "tool:platinum_pickaxe": {
+      "textures": "textures/items/tool_platinum_pickaxe"
+    },
+    "tool:platinum_axe": {
+      "textures": "textures/items/tool_platinum_axe"
+    },
+    "tool:platinum_shovel": {
+      "textures": "textures/items/tool_platinum_shovel"
+    },
+    "tool:platinum_hoe": {
+      "textures": "textures/items/tool_platinum_hoe"
+    },
+    "kyanite_helmet": {
+      "textures": [
+        "textures/items/helmet_kyanite_helmet"
+      ]
+    },
+    "kyanite_chestplate": {
+      "textures": [
+        "textures/items/chestplate_kyanite_chestplate"
+      ]
+    },
+    "jasper_chestplate": {
+      "textures": [
+        "textures/items/chestplate_jasper_chestplate"
+      ]
+    },
+    "jasper_leggings": {
+      "textures": [
+        "textures/items/leggings_jasper_leggings"
+      ]
+    },
+    "kyanite_leggings": {
+      "textures": [
+        "textures/items/leggings_kyanite_leggings"
+      ]
+    },
+    "jasper_helmet": {
+      "textures": [
+        "textures/items/helmet_jasper_helmet"
+      ]
+    },
+    "kyanite_boots": {
+      "textures": [
+        "textures/items/boots_kyanite_boots"
+      ]
+    },
+    "jasper_boots": {
+      "textures": [
+        "textures/items/boots_jasper_boots"
+      ]
+    },
+    "aetherium_helmet": {
+      "textures": [
+        "textures/items/helmet_aetherium_helmet"
+      ]
+    },
+    "aetherium_chestplate": {
+      "textures": [
+        "textures/items/chestplate_aetherium_chestplate"
+      ]
+    },
+    "aetherium_boots": {
+      "textures": [
+        "textures/items/boots_aetherium_boots"
+      ]
+    },
+    "exodium_helmet": {
+      "textures": [
+        "textures/items/helmet_exodium_helmet"
+      ]
+    },
+    "exodium_boots": {
+      "textures": [
+        "textures/items/boots_exodium_boots"
+      ]
+    },
+    "exodium_chestplate": {
+      "textures": [
+        "textures/items/chestplate_exodium_chestplate"
+      ]
+    },
+    "exodium_leggings": {
+      "textures": [
+        "textures/items/leggings_exodium_leggings"
+      ]
+    },
+    "platinum_chestplate": {
+      "textures": [
+        "textures/items/chestplate_platinum_chestplate"
+      ]
+    },
+    "platinum_helmet": {
+      "textures": [
+        "textures/items/helmet_platinum_helmet"
+      ]
+    },
+    "aetherium_leggings": {
+      "textures": [
+        "textures/items/leggings_aetherium_leggings"
+      ]
+    },
+    "item:raw_uranium": {
+      "textures": "textures/items/item_raw_uranium"
+    },
+    "sword:platinum_greatsword": {
+      "textures": "textures/items/sword_platinum_greatsword"
+    },
+    "sword:platinum_kunai": {
+      "textures": "textures/items/sword_platinum_kunai"
+    },
+    "item:uranium_ingot": {
+      "textures": "textures/items/item_uranium_ingot"
+    },
+    "platinum_boots": {
+      "textures": [
+        "textures/items/boots_platinum_boots"
+      ]
+    },
+    "platinum_leggings": {
+      "textures": [
+        "textures/items/leggings_platinum_leggings"
+      ]
+    },
+    "item:cobalt_ingot": {
+      "textures": "textures/items/item_cobalt_ingot"
+    },
+    "item:raw_cobalt": {
+      "textures": "textures/items/item_raw_cobalt"
+    },
+    "sword:cobalt_kunai": {
+      "textures": "textures/items/sword_cobalt_kunai"
+    },
+    "tool:cobalt_hoe": {
+      "textures": "textures/items/tool_cobalt_hoe"
+    },
+    "tool:cobalt_shovel": {
+      "textures": "textures/items/tool_cobalt_shovel"
+    },
+    "tool:cobalt_pickaxe": {
+      "textures": "textures/items/tool_cobalt_pickaxe"
+    },
+    "sword:cobalt_sword": {
+      "textures": "textures/items/sword_cobalt_sword"
+    },
+    "tool:cobalt_axe": {
+      "textures": "textures/items/tool_cobalt_axe"
+    },
+    "cobalt_leggings": {
+      "textures": [
+        "textures/items/leggings_cobalt_leggings"
+      ]
+    },
+    "cobalt_chestplate": {
+      "textures": [
+        "textures/items/chestplate_cobalt_chestplate"
+      ]
+    },
+    "cobalt_boots": {
+      "textures": [
+        "textures/items/boots_cobalt_boots"
+      ]
+    },
+    "item:palladium_ingot": {
+      "textures": "textures/items/item_palladium_ingot"
+    },
+    "cobalt_helmet": {
+      "textures": [
+        "textures/items/helmet_cobalt_helmet"
+      ]
+    },
+    "sword:cobalt_greatsword": {
+      "textures": "textures/items/sword_cobalt_greatsword"
+    },
+    "item:palladium_scrap": {
+      "textures": "textures/items/item_palladium_scrap"
+    },
+    "palladium_helmet": {
+      "textures": [
+        "textures/items/helmet_palladium_helmet"
+      ]
+    },
+    "palladium_boots": {
+      "textures": [
+        "textures/items/boots_palladium_boots"
+      ]
+    },
+    "palladium_leggings": {
+      "textures": [
+        "textures/items/leggings_palladium_leggings"
+      ]
+    },
+    "tool:palladium_pickaxe": {
+      "textures": "textures/items/tool_palladium_pickaxe"
+    },
+    "sword:palladium_sword": {
+      "textures": "textures/items/sword_palladium_sword"
+    },
+    "palladium_chestplate": {
+      "textures": [
+        "textures/items/chestplate_palladium_chestplate"
+      ]
+    },
+    "tool:palladium_axe": {
+      "textures": "textures/items/tool_palladium_axe"
+    },
+    "sword:palladium_kunai": {
+      "textures": "textures/items/sword_palladium_kunai"
+    },
+    "item:magnet": {
+      "textures": "textures/items/item_magnet"
+    },
+    "sword:palladium_greatsword": {
+      "textures": "textures/items/sword_palladium_greatsword"
+    },
+    "food:raw_bat": {
+      "textures": "textures/items/food_raw_bat"
+    },
+    "item:enchanted_magnet": {
+      "textures": "textures/items/item_enchanted_magnet"
+    },
+    "tool:palladium_hoe": {
+      "textures": "textures/items/tool_palladium_hoe"
+    },
+    "tool:palladium_shovel": {
+      "textures": "textures/items/tool_palladium_shovel"
+    },
+    "item:palladium_forging_template": {
+      "textures": "textures/items/item_palladium_forging_template"
+    },
+    "food:cooked_bat": {
+      "textures": "textures/items/food_cooked_bat"
+    },
+    "block_lichen_vines": {
+      "textures": "textures/blocks/block_lichen_vines"
+    },
+    "block_withered_vines": {
+      "textures": "textures/blocks/block_withered_vines"
+    },
+    "sword:heros_sword": {
+      "textures": "textures/items/sword_heros_sword"
+    },
+    "block_aether_magnet": {
+      "textures": "textures/blocks/block_aether_magnet"
+    },
+    "block_iron_sword_shrine": {
+      "textures": "textures/blocks/block_iron_sword_shrine"
+    },
+    "block_heros_sword_shrine": {
+      "textures": "textures/blocks/block_heros_sword_shrine"
+    },
+    "block_wooden_sword_shrine": {
+      "textures": "textures/blocks/block_wooden_sword_shrine"
+    },
+    "block_andesite_rock": {
+      "textures": "textures/blocks/block_andesite_rock"
+    },
+    "block_rock": {
+      "textures": "textures/blocks/block_rock"
+    },
+    "block_deepslate_rock": {
+      "textures": "textures/blocks/block_deepslate_rock"
+    },
+    "block_diorite_rock": {
+      "textures": "textures/blocks/block_diorite_rock"
+    },
+    "block_granite_rock": {
+      "textures": "textures/blocks/block_granite_rock"
+    },
+    "block_tuff_rock": {
+      "textures": "textures/blocks/block_tuff_rock"
+    },
+    "block_calcite_rock": {
+      "textures": "textures/blocks/block_calcite_rock"
+    },
+    "item:bomb": {
+      "textures": "textures/items/item_bomb"
+    },
+    "item:mustard_gas_bottle": {
+      "textures": "textures/items/item_mustard_gas_bottle"
+    },
+    "item:splash_mustard_gas_bottle": {
+      "textures": "textures/items/item_splash_mustard_gas_bottle"
+    },
+    "item:trumpet": {
+      "textures": "textures/items/item_trumpet"
+    },
+    "item:whistle": {
+      "textures": "textures/items/item_whistle"
+    },
+    "helmet_gold_crown": {
+      "textures": [
+        "textures/items/helmet_gold_crown"
+      ]
+    },
+    "helmet_platinum_crown": {
+      "textures": [
+        "textures/items/helmet_platinum_crown"
+      ]
+    },
+    "block_sodalite_rock": {
+      "textures": "textures/blocks/block_sodalite_rock"
+    },
+    "block_small_sodalite_spike": {
+      "textures": "textures/blocks/block_small_sodalite_spike"
+    },
+    "tool:magnet_pickaxe": {
+      "textures": "textures/items/tool_magnet_pickaxe"
+    },
+    "food:golden_berry": {
+      "textures": "textures/items/food_golden_berry"
+    },
+    "block_rope": {
+      "textures": "textures/blocks/block_rope"
+    },
+    "item:mining_potion": {
+      "textures": "textures/items/item_mining_potion"
+    },
+    "item:aether_potion": {
+      "textures": "textures/items/item_aether_potion"
+    },
+    "item:genesis_seed": {
+      "textures": "textures/items/item_genesis_seed"
+    },
+    "tool:magnet_axe": {
+      "textures": "textures/items/tool_magnet_axe"
+    },
+    "item:rope_coil": {
+      "textures": "textures/items/item_rope_coil"
+    },
+    "tool:magnet_hoe": {
+      "textures": "textures/items/tool_magnet_hoe"
+    },
+    "tool:magnet_shovel": {
+      "textures": "textures/items/tool_magnet_shovel"
+    },
+    "item:redstone_pulser_staff": {
+      "textures": "textures/items/item_redstone_pulser_staff"
+    },
+    "item:energized_sodalite_fragment": {
+      "textures": "textures/items/item_energized_sodalite_fragment"
+    },
+    "tool:energized_mining_hammer": {
+      "textures": "textures/items/tool_energized_mining_hammer"
+    },
+    "item:copper_bell": {
+      "textures": "textures/items/item_copper_bell"
+    },
+    "helmet_energized_mining_helmet": {
+      "textures": [
+        "textures/items/helmet_energized_mining_helmet"
+      ]
+    },
+    "block_hyperion_root_strings": {
+      "textures": "textures/blocks/block_hyperion_root_strings"
+    },
+    "item:platinum_harp": {
+      "textures": "textures/items/item_platinum_harp"
+    },
+    "item:stone_energizer": {
+      "textures": "textures/items/item_stone_energizer"
+    },
+    "item:rad_away_band": {
+      "textures": "textures/items/item_rad_away_band"
+    },
+    "item:raw_palladium_ingot": {
+      "textures": "textures/items/item_raw_palladium_ingot"
+    },
+    "item:cobalt_gong": {
+      "textures": "textures/items/item_cobalt_gong"
+    },
+    "item:rose_gold_alloy": {
+      "textures": "textures/items/item_rose_gold_alloy"
+    },
+    "food:rose_gold_carrot": {
+      "textures": "textures/items/food_rose_gold_carrot"
+    },
+    "item:rose_gold_ingot": {
+      "textures": "textures/items/item_rose_gold_ingot"
+    },
+    "food:rose_gold_berry": {
+      "textures": "textures/items/food_rose_gold_berry"
+    },
+    "food:rose_gold_apple": {
+      "textures": "textures/items/food_rose_gold_apple"
+    },
+    "item:packed_slimeball": {
+      "textures": "textures/items/item_packed_slimeball"
+    },
+    "item:rose_gold_nugget": {
+      "textures": "textures/items/item_rose_gold_nugget"
+    },
+    "item:staballoy_alloy": {
+      "textures": "textures/items/item_staballoy_alloy"
+    },
+    "tool:rose_gold_pickaxe": {
+      "textures": "textures/items/tool_rose_gold_pickaxe"
+    },
+    "item:staballoy_ingot": {
+      "textures": "textures/items/item_staballoy_ingot"
+    },
+    "tool:rose_gold_shovel": {
+      "textures": "textures/items/tool_rose_gold_shovel"
+    },
+    "tool:rose_gold_axe": {
+      "textures": "textures/items/tool_rose_gold_axe"
+    },
+    "tool:rose_gold_hoe": {
+      "textures": "textures/items/tool_rose_gold_hoe"
+    },
+    "sword:rose_gold_sword": {
+      "textures": "textures/items/sword_rose_gold_sword"
+    },
+    "rose_gold_helmet": {
+      "textures": [
+        "textures/items/helmet_rose_gold_helmet"
+      ]
+    },
+    "rose_gold_chestplate": {
+      "textures": [
+        "textures/items/chestplate_rose_gold_chestplate"
+      ]
+    },
+    "helmet_rose_gold_crown": {
+      "textures": [
+        "textures/items/helmet_rose_gold_crown"
+      ]
+    },
+    "rose_gold_leggings": {
+      "textures": [
+        "textures/items/leggings_rose_gold_leggings"
+      ]
+    },
+    "rose_gold_boots": {
+      "textures": [
+        "textures/items/boots_rose_gold_boots"
+      ]
+    },
+    "sword:rose_gold_kunai": {
+      "textures": "textures/items/sword_rose_gold_kunai"
+    },
+    "staballoy_chestplate": {
+      "textures": [
+        "textures/items/chestplate_staballoy_chestplate"
+      ]
+    },
+    "sword:rose_gold_greatsword": {
+      "textures": "textures/items/sword_rose_gold_greatsword"
+    },
+    "staballoy_helmet": {
+      "textures": [
+        "textures/items/helmet_staballoy_helmet"
+      ]
+    },
+    "tool:staballoy_axe": {
+      "textures": "textures/items/tool_staballoy_axe"
+    },
+    "tool:staballoy_shovel": {
+      "textures": "textures/items/tool_staballoy_shovel"
+    },
+    "sword:staballoy_kunai": {
+      "textures": "textures/items/sword_staballoy_kunai"
+    },
+    "tool:staballoy_pickaxe": {
+      "textures": "textures/items/tool_staballoy_pickaxe"
+    },
+    "tool:staballoy_hoe": {
+      "textures": "textures/items/tool_staballoy_hoe"
+    },
+    "sword:staballoy_sword": {
+      "textures": "textures/items/sword_staballoy_sword"
+    },
+    "staballoy_boots": {
+      "textures": [
+        "textures/items/boots_staballoy_boots"
+      ]
+    },
+    "staballoy_leggings": {
+      "textures": [
+        "textures/items/leggings_staballoy_leggings"
+      ]
+    },
+    "sword:staballoy_greatsword": {
+      "textures": "textures/items/sword_staballoy_greatsword"
+    },
+    "item:exodium_guitar": {
+      "textures": "textures/items/item_exodium_guitar"
+    },
+    "item:rose_gold_harmonica": {
+      "textures": "textures/items/item_rose_gold_harmonica"
+    },
+    "item:onyx_quartz": {
+      "textures": "textures/items/item_onyx_quartz"
+    },
+    "item:titanium_clarinet": {
+      "textures": "textures/items/item_titanium_clarinet"
+    },
+    "item:staballoy_drum": {
+      "textures": "textures/items/item_staballoy_drum"
+    },
+    "block_hyperion_vines_berries": {
+      "textures": "textures/blocks/block_hyperion_vines_berries"
+    },
+    "block_hyperion_vines": {
+      "textures": "textures/blocks/block_hyperion_vines"
+    },
+    "spear:aetherium_spear": {
+      "textures": "textures/items/spear_aetherium_spear"
+    },
+    "spear:cobalt_spear": {
+      "textures": "textures/items/spear_cobalt_spear"
+    },
+    "spear:jasper_spear": {
+      "textures": "textures/items/spear_jasper_spear"
+    },
+    "spear:kyanite_spear": {
+      "textures": "textures/items/spear_kyanite_spear"
+    },
+    "spear:palladium_spear": {
+      "textures": "textures/items/spear_palladium_spear"
+    },
+    "spear:staballoy_spear": {
+      "textures": "textures/items/spear_staballoy_spear"
+    },
+    "spear:platinum_spear": {
+      "textures": "textures/items/spear_platinum_spear"
+    },
+    "spear:exodium_spear": {
+      "textures": "textures/items/spear_exodium_spear"
+    },
+    "spear:rose_gold_spear": {
+      "textures": "textures/items/spear_rose_gold_spear"
+    },
+    "spear:titanium_spear": {
+      "textures": "textures/items/spear_titanium_spear"
+    },
+    "block_heros_pickaxe_shrine": {
+      "textures": "textures/blocks/block_heros_pickaxe_shrine"
+    },
+    "block_iron_pickaxe_shrine": {
+      "textures": "textures/blocks/block_iron_pickaxe_shrine"
+    },
+    "block_auto_drill": {
+      "textures": "textures/blocks/block_auto_drill"
+    },
+    "block_wooden_pickaxe_shrine": {
+      "textures": "textures/blocks/block_wooden_pickaxe_shrine"
+    },
+    "tool:heros_pickaxe": {
+      "textures": "textures/items/tool_heros_pickaxe"
+    },
+    "item:firecrackers": {
+      "textures": "textures/items/item_firecrackers"
+    }
+  }
+}

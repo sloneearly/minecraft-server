@@ -1,0 +1,98 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.crocodile",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"locators": {
+						"lead": [0, 8, -11]
+					}
+				},
+				{
+					"name": "torso",
+					"parent": "root",
+					"pivot": [0, 5, 0],
+					"cubes": [
+						{"origin": [-5, 2, -11], "size": [10, 10, 23], "uv": [0, 0]},
+						{"origin": [-2, 12, -9], "size": [4, 2, 19], "uv": [36, 33]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "torso",
+					"pivot": [0, 2, 12],
+					"cubes": [
+						{"origin": [-3, 2, 10], "size": [6, 7, 24], "inflate": -0.02, "uv": [0, 33]},
+						{"origin": [-1, 9, 13], "size": [2, 2, 19], "uv": [41, 54]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "torso",
+					"pivot": [0, 8, -11]
+				},
+				{
+					"name": "lowerJaw",
+					"parent": "head",
+					"pivot": [0, 6, -12],
+					"cubes": [
+						{"origin": [-5, 4, -25], "size": [10, 4, 14], "uv": [43, 0]},
+						{"origin": [-4, 7, -24], "size": [8, 3, 13], "inflate": 0.1, "uv": [63, 20]}
+					]
+				},
+				{
+					"name": "upperJaw",
+					"parent": "head",
+					"pivot": [0, 8, -11],
+					"cubes": [
+						{"origin": [-4, 8, -24], "size": [8, 2, 13], "uv": [0, 64]},
+						{"origin": [-4, 6, -24], "size": [8, 2, 13], "uv": [63, 36]},
+						{"origin": [-4, 10, -17], "size": [8, 2, 6], "uv": [29, 64]}
+					]
+				},
+				{
+					"name": "frontLeftLeg",
+					"parent": "root",
+					"pivot": [4, 6, -9],
+					"cubes": [
+						{"origin": [4, 0, -11], "size": [4, 7, 4], "inflate": 0.02, "uv": [0, 11]}
+					]
+				},
+				{
+					"name": "frontRightLeg",
+					"parent": "root",
+					"pivot": [-4, 6, -9],
+					"cubes": [
+						{"origin": [-8, 0, -11], "size": [4, 7, 4], "inflate": 0.02, "uv": [0, 11], "mirror": true}
+					]
+				},
+				{
+					"name": "backLeftLeg",
+					"parent": "root",
+					"pivot": [4, 6, 9],
+					"cubes": [
+						{"origin": [4, 0, 7], "size": [4, 7, 4], "inflate": 0.02, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "backRightLeg",
+					"parent": "root",
+					"pivot": [-4, 6, 9],
+					"cubes": [
+						{"origin": [-8, 0, 7], "size": [4, 7, 4], "inflate": 0.02, "uv": [0, 0], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sword:jasper_sword",
+          "menu_category": {
+              "category": "equipment",
+              "group": "itemGroup.name.sword"
+            }
+        },
+		"components": {
+			"minecraft:icon": {
+				"texture": "sword:jasper_sword"
+			},
+			"minecraft:glint": false,
+          	"minecraft:tags": {
+				"tags": [
+					"minecraft:transformable_items",
+					"minecraft:is_sword",
+					"minecraft:digger",
+					"minecraft:diamond_tier"
+				]
+			},
+            "minecraft:fire_resistant": {
+    "value": true
+},
+			"minecraft:enchantable": {"slot": "sword", "value": 30},
+			"minecraft:max_stack_size": 1,
+			"minecraft:durability": {
+				"max_durability": 3200
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 9,
+			"minecraft:use_animation": "bow",
+			"minecraft:display_name": {
+				"value": "Jasper Sword"
+			}
+		}
+	}
+}

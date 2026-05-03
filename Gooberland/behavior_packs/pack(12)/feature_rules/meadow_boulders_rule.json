@@ -1,0 +1,40 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:meadow_boulders_rule",
+      "places_feature": "cc:meadow_boulders_sequence"
+    },
+    "conditions": {
+      "placement_pass": "first_pass",
+      "minecraft:biome_filter": {
+        "any_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "meadow"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 4,
+      "scatter_chance": 50.0,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          -15,
+          15
+        ]
+      },
+      "y": "query.heightmap(v.originx, v.originz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          -15,
+          15
+        ]
+      }
+    }
+  }
+}

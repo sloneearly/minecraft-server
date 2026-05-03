@@ -1,0 +1,70 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cc.projectile.root": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [
+						"-query.body_x_rotation",
+						"-query.body_y_rotation",
+						0
+					]
+				}
+			}
+		},
+		"animation.cc.fire_bolt.particle": {
+			"loop": true,
+			"animation_length": 1,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "trail",
+						"locator": "emitter"
+					}
+				]
+			}
+		},
+		"animation.cc.orb.always": {
+			"loop": true,
+			"animation_length": 0.05,
+			"bones": {
+				"root": {
+					"rotation": [
+						"-query.body_x_rotation",
+						"-query.body_y_rotation",
+						0
+					]
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "orb",
+						"locator": "particle"
+					},
+					{
+						"pre_effect_script": "v.direction_x = query.body_x_rotation; v.direction_y = query.body_y_rotation;",
+						"effect": "trail",
+						"locator": "particle"
+					}
+				]
+			}
+		},
+		"animation.cc.arrow.rotate": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [
+						"-query.body_x_rotation",
+						"-query.body_y_rotation",
+						0
+					]
+				}
+			}
+		}
+	}
+}

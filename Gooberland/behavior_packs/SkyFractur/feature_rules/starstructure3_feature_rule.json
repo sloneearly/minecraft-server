@@ -1,0 +1,57 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "minecraft:starstructure3_feature_rule",
+			"places_feature": "gen:starstructure3"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "birch"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "pale_garden"
+						}
+					]
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "frozen"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "cold"
+				},
+				{
+					"test": "has_biome_tag",
+					"operator": "!=",
+					"value": "taiga"
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 1,
+			"scatter_chance": 1,
+			"x": 2,
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					282,
+					295
+				]
+			},
+			"z": 2
+		}
+	}
+}

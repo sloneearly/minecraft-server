@@ -1,0 +1,29 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "item:stone_geode",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.items"
+			}
+		},
+		"components": {
+			"tag:minecraft:trim_materials": {},
+			"minecraft:icon": {
+				"texture": "item:stone_geode"
+			},
+			"minecraft:display_name": {
+				"value": "Fractured Stone Geode\n\n§7Throw to break open"
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "item:stone_geode"
+			},
+			"minecraft:throwable": {
+				"do_swing_animation": true
+			}
+		},
+		"events": {}
+	}
+}

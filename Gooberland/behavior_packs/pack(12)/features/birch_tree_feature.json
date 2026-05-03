@@ -1,0 +1,15 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "minecraft:birch_tree_feature"
+    },
+    "features": [
+      ["cc:birch_tree_scatter_1", 1],
+      ["cc:birch_tree_scatter_2", 1],
+      ["cc:birch_tree_scatter_3", 1],
+      ["cc:birch_tree_scatter_4", 1],
+      ["cc:birch_tree_scatter_5", 1]
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:capybara_mud",
+            "menu_category": {
+                "category": "nature"
+            }
+        },
+        "components": {
+            "cc:step_on_effect": {},
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    8,
+                    16
+                ]
+            },
+            "minecraft:tick": {
+                "interval_range": [
+                    20,
+                    20
+                ]
+            },
+            "minecraft:map_color": "#393a47",
+            "minecraft:friction": 0.4,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:light_dampening": 15,
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "tag:minecraft:is_shovel_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.5,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_shovel')"
+                        },
+                        "destroy_speed": 0.5333
+                    }
+                ]
+            }
+        }
+    }
+}

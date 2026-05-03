@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rose_gold_boots_9af9d428"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "item:rose_gold_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "boots:rose_gold_boots",
+      "count": 1
+    }
+  }
+}

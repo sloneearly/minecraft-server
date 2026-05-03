@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "raven",
+    "heightmap": "raven_heightmap",
+    "metalness_emissive_roughness_subsurface": "raven_mers"
+  }
+}

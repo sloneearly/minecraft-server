@@ -1,0 +1,72 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:jungle_golem",
+      "geometry": {
+        "default": "geometry.cc.jungle_golem"
+      },
+      "textures": {
+        "default": "textures/cc/monsters/entities/jungle_golem/default",
+        "half": "textures/cc/monsters/entities/jungle_golem/destroyed_half",
+        "full": "textures/cc/monsters/entities/jungle_golem/destroyed_full"
+      },
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "sound_effects": {
+        "ground_smash": "cc:ground_smash",
+        "step": "cc:jungle_golem_step"
+      },
+      "particle_effects": {
+        "step": "cc:dust_smoke",
+        "ground_smash": "cc:jungle_golem_smash",
+        "hurt": "cc:jungle_golem_rock_hit"
+      },
+      "animations": {
+        "controller": "controller.animation.cc.charged_ranged_attack",
+        "move_controller": "controller.animation.cc.move",
+        "walk": "animation.cc.biped.walk",
+        "run": "animation.cc.biped.walk",
+        "swim": "animation.cc.biped.walk",
+        "swim_idle": "animation.cc.biped.walk",
+        "swim_run": "animation.cc.biped.walk",
+        "fly": "animation.cc.biped.walk",
+        "idle": "animation.cc.jungle_golem.idle",
+        "charged_ranged_attack": "animation.cc.jungle_golem.throw",
+        "delayed_attack": "animation.cc.jungle_golem.ground_smash",
+        "attack_controller": "controller.animation.cc.delayed_attack",
+        "rotate": "animation.cc.biped.rotation",
+        "rotate_controller": "controller.animation.cc.quadruped.rotation",
+        "look_at_target": "animation.common.look_at_target"
+      },
+      "scripts": {
+        "initialize": [
+          "v.relative_run_speed = 0.6;",
+          "v.max_leg_rot = 45;",
+          "v.max_leg_pos_h = 1;",
+          "v.max_leg_pos_v = 3;",
+          "v.body_bump = 2;",
+          "v.body_rot = 2;",
+          "v.head_bump = 0;",
+          "v.max_arm_rot = 45;",
+          "v.max_arm_pos_h = 1;",
+          "v.playback_multiplier = 0.8;"
+        ],
+        "animate": [
+          "idle",
+          "controller",
+          "attack_controller",
+          "move_controller",
+          "rotate_controller",
+          "look_at_target"
+        ]
+      },
+      "render_controllers": ["controller.render.cc.jungle_golem"],
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:jungle_golem_spawn_egg"
+      }
+    }
+  }
+}

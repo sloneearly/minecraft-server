@@ -1,0 +1,31 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:hollow_oak_log_scatter"
+    },
+    "places_feature": "cc:hollow_oak_log_feature",
+    "iterations": 1,
+    "x": {
+      "distribution": "triangle",
+      "extent": [
+        0,
+        1
+      ]
+    },
+    "y": {
+      "distribution": "triangle",
+      "extent": [
+        0,
+        1
+      ]
+    },
+    "z": {
+      "distribution": "triangle",
+      "extent": [
+        0,
+        1
+      ]
+    }
+  }
+}

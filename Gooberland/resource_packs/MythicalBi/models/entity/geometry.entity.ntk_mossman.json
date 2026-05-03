@@ -1,0 +1,179 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.entity.ntk_mossman",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "mossman",
+					"parent": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "waist",
+					"parent": "mossman",
+					"pivot": [0, 12, 1]
+				},
+				{
+					"name": "head",
+					"parent": "waist",
+					"pivot": [0, 22, 0],
+					"cubes": [
+						{"origin": [-4, 19, -7], "size": [8, 8, 8], "uv": [32, 28]}
+					]
+				},
+				{
+					"name": "sprouts_head_1",
+					"parent": "head",
+					"pivot": [0, 27, -3],
+					"rotation": [0, 45, 0],
+					"cubes": [
+						{"origin": [0, 27, -8], "size": [0, 4, 10], "uv": [0, 38]}
+					]
+				},
+				{
+					"name": "sprouts_head_2",
+					"parent": "head",
+					"pivot": [0, 27, -3],
+					"rotation": [0, -45, 0],
+					"cubes": [
+						{"origin": [0, 27, -8], "size": [0, 4, 10], "uv": [18, 34]}
+					]
+				},
+				{
+					"name": "hat",
+					"parent": "head",
+					"pivot": [0, 19, -3],
+					"cubes": [
+						{"origin": [-4, 19, -7], "size": [8, 8, 8], "inflate": 0.5, "uv": [32, 12]}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 1],
+					"cubes": [
+						{"origin": [-6, 12, -2], "size": [12, 12, 8], "uv": [0, 0]}
+					],
+					"locators": {
+						"lead": [0, 16, 2]
+					}
+				},
+				{
+					"name": "hips",
+					"parent": "body",
+					"pivot": [0, 12, 2],
+					"cubes": [
+						{"origin": [-6, 6, -2], "size": [12, 6, 8], "uv": [0, 20]}
+					]
+				},
+				{
+					"name": "sprouts_body_1",
+					"parent": "body",
+					"pivot": [0, 24, 2],
+					"rotation": [0, 32.5, 0],
+					"cubes": [
+						{"origin": [-8, 22, 2], "size": [16, 6, 0], "uv": [32, 0]}
+					]
+				},
+				{
+					"name": "sprouts_body_2",
+					"parent": "body",
+					"pivot": [0, 24, 2],
+					"rotation": [0, -32.5, 0],
+					"cubes": [
+						{"origin": [-8, 22, 2], "size": [16, 6, 0], "uv": [0, 34]}
+					]
+				},
+				{
+					"name": "sprouts_body_3",
+					"parent": "body",
+					"pivot": [0, 24, 2],
+					"cubes": [
+						{"origin": [0, 20, -2], "size": [0, 8, 9], "uv": [0, 31]}
+					]
+				},
+				{
+					"name": "rightArm",
+					"parent": "waist",
+					"pivot": [-6, 21, 1],
+					"cubes": [
+						{"origin": [-9, 9, -1], "size": [4, 14, 4], "uv": [16, 48]}
+					],
+					"locators": {
+						"right_hand": [-7, 12, 1],
+						"held_item": [-7, 12, 1],
+						"rightitem": [-7, 12, 1]
+					}
+				},
+				{
+					"name": "sprouts_arm_right_1",
+					"parent": "rightArm",
+					"pivot": [-7, 23, 1],
+					"rotation": [0, 45, 0],
+					"cubes": [
+						{"origin": [-11, 19, 1], "size": [6, 6, 0], "uv": [52, 6]}
+					]
+				},
+				{
+					"name": "rightItem",
+					"parent": "rightArm",
+					"pivot": [-7, 13, 1]
+				},
+				{
+					"name": "leftArm",
+					"parent": "waist",
+					"pivot": [6, 21, 1],
+					"cubes": [
+						{"origin": [5, 9, -1], "size": [4, 14, 4], "uv": [34, 44]}
+					],
+					"locators": {
+						"left_hand": [7, 12, 1],
+						"leftitem": [7, 12, 1]
+					}
+				},
+				{
+					"name": "sprouts_arm_left_01",
+					"parent": "leftArm",
+					"pivot": [7, 23, 1],
+					"rotation": [0, -45, 0],
+					"cubes": [
+						{"origin": [5, 19, 1], "size": [6, 6, 0], "uv": [40, 6]}
+					]
+				},
+				{
+					"name": "leftItem",
+					"parent": "leftArm",
+					"pivot": [7, 13, 1]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "mossman",
+					"pivot": [-3, 12, 1],
+					"cubes": [
+						{"origin": [-5, 0, -1], "size": [4, 12, 4], "uv": [0, 52]}
+					]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "mossman",
+					"pivot": [3, 12, 1],
+					"cubes": [
+						{"origin": [1, 0, -1], "size": [4, 12, 4], "uv": [50, 44]}
+					]
+				}
+			]
+		}
+	]
+}

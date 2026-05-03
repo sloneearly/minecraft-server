@@ -1,0 +1,12 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:sequence_feature": {
+    "description": {
+      "identifier": "cc:meadow_boulders_sequence"
+    },
+    "features": [
+      "cc:meadow_boulders_check_block",
+      "cc:meadow_boulders_weighted"
+    ]
+  }
+}

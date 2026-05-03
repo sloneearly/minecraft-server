@@ -1,0 +1,36 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.cc.advanced_plains_villager.profession": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "array.tex[q.variant - 1]"
+            ],
+            "arrays": {
+                "textures": {
+                    "array.tex": [
+                        "Texture.advanced_plains_villager_farmer",
+                        "Texture.advanced_plains_villager_fisherman",
+                        "Texture.advanced_plains_villager_shepherd",
+                        "Texture.advanced_plains_villager_fletcher",
+                        "Texture.advanced_plains_villager_librarian",
+                        "Texture.advanced_plains_villager_cartographer",
+                        "Texture.advanced_plains_villager_cleric",
+                        "Texture.advanced_plains_villager_armorer",
+                        "Texture.advanced_plains_villager_weapon_smith",
+                        "Texture.advanced_plains_villager_tool_smith",
+                        "Texture.advanced_plains_villager_butcher",
+                        "Texture.advanced_plains_villager_leatherworker",
+                        "Texture.advanced_plains_villager_stonemason",
+                        "Texture.advanced_plains_villager_butcher"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "swamp.top",
+    "heightmap": "swamp.top_heightmap",
+    "metalness_emissive_roughness_subsurface": "swamp.top_mers"
+  }
+}

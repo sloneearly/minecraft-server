@@ -1,0 +1,25 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "gen:sodalite_rock3_feature"
+		},
+		"places_block": {
+			"name": "block:sodalite_rock",
+			"states": {
+				"block:growth": 2
+			}
+		},
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": false,
+		"may_attach_to": {
+			"bottom": [
+				"block:sodalite"
+			]
+		},
+		"may_replace": [
+			"minecraft:air"
+		]
+	}
+}

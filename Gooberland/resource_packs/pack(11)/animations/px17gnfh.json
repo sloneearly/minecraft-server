@@ -1,0 +1,243 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cc.hermit.walk": {
+      "loop": true,
+      "animation_length": 0.5,
+      "bones": {
+        "pincherLeft": {
+          "position": {
+            "0.0": [0, 0, 0.5],
+            "0.25": [0, 0, -0.5],
+            "0.5": [0, 0, 0.5]
+          }
+        },
+        "pincherRight": {
+          "position": {
+            "0.0": [0, 0, -0.5],
+            "0.25": [0, 0, 0.5],
+            "0.5": [0, 0, -0.5]
+          }
+        },
+        "leftLeg1": {
+          "rotation": {
+            "0.0": {
+              "post": [0, 0, 0],
+              "lerp_mode": "catmullrom"
+            },
+            "0.25": {
+              "post": [0, -17.5, 0],
+              "lerp_mode": "catmullrom"
+            },
+            "0.375": {
+              "post": [-1.88622, -9.04034, -17.5982],
+              "lerp_mode": "catmullrom"
+            },
+            "0.5": {
+              "post": [0, 0, 0],
+              "lerp_mode": "catmullrom"
+            }
+          }
+        },
+        "leftLeg2": {
+          "rotation": {
+            "0.0": {
+              "post": [0, -12.5, 0],
+              "lerp_mode": "catmullrom"
+            },
+            "0.125": {
+              "post": [2.90577, -6.0595, -8.04023],
+              "lerp_mode": "catmullrom"
+            },
+            "0.25": {
+              "post": [0, 0, 0],
+              "lerp_mode": "catmullrom"
+            },
+            "0.5": {
+              "post": [0, -12.5, 0],
+              "lerp_mode": "catmullrom"
+            }
+          }
+        },
+        "leftLeg3": {
+          "rotation": {
+            "0.0": {
+              "post": [0, 0, 0],
+              "lerp_mode": "catmullrom"
+            },
+            "0.25": {
+              "post": [-7.09519, -9.68982, 8.67258],
+              "lerp_mode": "catmullrom"
+            },
+            "0.375": {
+              "post": [5.33966, -4.72235, -7.28537],
+              "lerp_mode": "catmullrom"
+            },
+            "0.5": {
+              "post": [0, 0, 0],
+              "lerp_mode": "catmullrom"
+            }
+          }
+        },
+        "rightLeg1": {
+          "rotation": {
+            "0.0": {
+              "post": [0, 17.5, 0],
+              "lerp_mode": "catmullrom"
+            },
+            "0.125": {
+              "post": [-1.88622, 9.04034, 17.5982],
+              "lerp_mode": "catmullrom"
+            },
+            "0.25": {
+              "post": [0, 0, 0],
+              "lerp_mode": "catmullrom"
+            },
+            "0.5": {
+              "post": [0, 17.5, 0],
+              "lerp_mode": "catmullrom"
+            }
+          }
+        },
+        "rightLeg2": {
+          "rotation": {
+            "0.0": {
+              "post": [0, 0, 0],
+              "lerp_mode": "catmullrom"
+            },
+            "0.25": {
+              "post": [0, 12.5, 0],
+              "lerp_mode": "catmullrom"
+            },
+            "0.375": {
+              "post": [2.90577, 6.0595, 8.04023],
+              "lerp_mode": "catmullrom"
+            },
+            "0.5": {
+              "post": [0, 0, 0],
+              "lerp_mode": "catmullrom"
+            }
+          }
+        },
+        "rightLeg3": {
+          "rotation": {
+            "0.0": {
+              "post": [-7.09519, 9.68982, -8.67258],
+              "lerp_mode": "catmullrom"
+            },
+            "0.125": {
+              "post": [5.33966, 4.72235, 7.28537],
+              "lerp_mode": "catmullrom"
+            },
+            "0.25": {
+              "post": [0, 0, 0],
+              "lerp_mode": "catmullrom"
+            },
+            "0.5": {
+              "post": [-7.09519, 9.68982, -8.67258],
+              "lerp_mode": "catmullrom"
+            }
+          }
+        }
+      }
+    },
+    "animation.cc.hermit.sit": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "scale": 0.5
+        },
+        "shell": {
+          "position": [0, -2, -3]
+        }
+      }
+    },
+    "animation.cc.hermit.dance": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "root": {
+          "rotation": {
+            "0.0": [0, 0, 10],
+            "0.5": [0, 0, -10],
+            "1.0": [0, 0, 10]
+          },
+          "position": {
+            "0.0": [-1, 0.75, 0],
+            "0.5": [1, 0.75, 0],
+            "1.0": [-1, 0.75, 0]
+          }
+        },
+        "body": {
+          "position": [0, 0, 0]
+        },
+        "pincherLeft": {
+          "rotation": {
+            "0.25": [0, 0, 0],
+            "0.5": [-20, 0, 0],
+            "0.75": [0, 0, 0]
+          }
+        },
+        "pincherRight": {
+          "rotation": {
+            "0.0": [-20, 0, 0],
+            "0.25": [0, 0, 0],
+            "0.75": [0, 0, 0],
+            "1.0": [-20, 0, 0]
+          }
+        },
+        "leftLeg1": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.5": [0, 0, 45],
+            "1.0": [0, 0, 0]
+          }
+        },
+        "leftLeg2": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.5": [0, 0, 45],
+            "1.0": [0, 0, 0]
+          }
+        },
+        "leftLeg3": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.5": [0, 0, 45],
+            "1.0": [0, 0, 0]
+          }
+        },
+        "rightLeg1": {
+          "rotation": {
+            "0.0": [0, 0, -45],
+            "0.5": [0, 0, 0],
+            "1.0": [0, 0, -45]
+          }
+        },
+        "rightLeg2": {
+          "rotation": {
+            "0.0": [0, 0, -45],
+            "0.5": [0, 0, 0],
+            "1.0": [0, 0, -45]
+          }
+        },
+        "rightLeg3": {
+          "rotation": {
+            "0.0": [0, 0, -45],
+            "0.5": [0, 0, 0],
+            "1.0": [0, 0, -45]
+          }
+        },
+        "shell": {
+          "position": {
+            "0.0": [0, 0, 0],
+            "0.25": [0, 1, 0],
+            "0.5": [0, 0, 0],
+            "0.75": [0, 1, 0],
+            "1.0": [0, 0, 0]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "raw_titanium_caa1502d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "block:raw_titanium_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:raw_titanium",
+      "count": 9
+    }
+  }
+}

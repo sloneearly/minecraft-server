@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cc:cooking_table"
+    },
+    "assume_symmetry": true,
+    "tags": ["crafting_table"],
+    "pattern": ["S","**", "**"],
+    "key": {
+      "*": {
+        "item": "minecraft:planks"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": "cc:cooking_table"
+  }
+}

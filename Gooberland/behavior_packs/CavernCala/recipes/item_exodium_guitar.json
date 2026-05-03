@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "exodium_guitar_ebb5cda2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " AB",
+      "BBA",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:string",
+        "data": 0
+      },
+      "B": {
+        "item": "item:exodium_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:exodium_guitar",
+      "count": 1
+    }
+  }
+}

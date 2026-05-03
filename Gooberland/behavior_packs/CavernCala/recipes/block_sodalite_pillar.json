@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sodalite_pillar_253a40a2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:sodalite_brick_slab",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:sodalite_pillar",
+      "count": 1
+    }
+  }
+}

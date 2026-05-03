@@ -1,0 +1,51 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:river_grass_placement",
+      "places_feature": "cc:river_grass_scatter"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "river"
+            }
+          ],
+          "none_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "cold"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "frozen"
+            }
+          ]
+        }
+      ]
+    },
+
+    "distribution": {
+      "iterations": 20,
+      "x": {
+        "distribution": "uniform",
+        "extent": [0, 50]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [63, 65]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [0, 50]
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "wan_redcave:redstone_heart",
+                    "weight": 1,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rolls": 6,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "wan_redcave:redstone_chip",
+                    "weight": 3,
+                    "count": 1
+                },
+				{
+                    "type": "item",
+                    "name": "wan_redcave:pure_redstone",
+                    "weight": 1,
+                    "count": 1
+                },
+				{
+                    "type": "item",
+                    "name": "wan_redcave:magnetite_ingot",
+                    "weight": 4,
+                    "count": 1
+                }
+            ]
+        }
+    ]
+}

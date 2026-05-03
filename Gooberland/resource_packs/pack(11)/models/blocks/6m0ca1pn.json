@@ -1,0 +1,69 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cc.roof_tiles",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "group",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 8, 16],
+							"uv": {
+								"north": {"uv": [0, 8], "uv_size": [16, 8], "material_instance": "front"},
+								"east": {"uv": [16, 8], "uv_size": [-16, 8], "material_instance": "side"},
+								"south": {"uv": [0, 8], "uv_size": [16, 8], "material_instance": "side"},
+								"west": {"uv": [0, 8], "uv_size": [16, 8], "material_instance": "side"},
+								"up": {"uv": [0, 0], "uv_size": [16, 16], "uv_rotation": 180, "material_instance": "front"},
+								"down": {"uv": [16, 0], "uv_size": [-16, 16], "material_instance": "side"}
+							}
+						},
+						{
+							"origin": [-5, 16, 0],
+							"size": [10, 2, 8],
+							"uv": {
+								"north": {"uv": [13, 12], "uv_size": [-10, 2], "material_instance": "tile"},
+								"east": {"uv": [13, 14], "uv_size": [-8, 2], "material_instance": "tile"},
+								"south": {"uv": [3, 0], "uv_size": [10, 2], "material_instance": "tile"},
+								"west": {"uv": [5, 14], "uv_size": [8, 2], "material_instance": "tile"},
+								"up": {"uv": [13, 3], "uv_size": [-10, 8], "material_instance": "tile"},
+								"down": {"uv": [13, 11], "uv_size": [-10, -8], "material_instance": "tile"}
+							}
+						},
+						{
+							"origin": [-5, 8, -8],
+							"size": [10, 2, 8],
+							"uv": {
+								"north": {"uv": [3, 12], "uv_size": [10, 2], "material_instance": "tile"},
+								"east": {"uv": [13, 14], "uv_size": [-8, 2], "material_instance": "tile"},
+								"west": {"uv": [5, 14], "uv_size": [8, 2], "material_instance": "tile"},
+								"up": {"uv": [3, 3], "uv_size": [10, 8], "material_instance": "tile"},
+								"down": {"uv": [13, 11], "uv_size": [-10, -8], "material_instance": "tile"}
+							}
+						},
+						{
+							"origin": [-8, 8, 0],
+							"size": [16, 8, 8],
+							"uv": {
+								"north": {"uv": [16, 8], "uv_size": [-16, 8], "material_instance": "front"},
+								"east": {"uv": [16, 0], "uv_size": [-8, 8], "material_instance": "side"},
+								"south": {"uv": [0, 0], "uv_size": [16, 8], "material_instance": "side"},
+								"west": {"uv": [8, 0], "uv_size": [8, 8], "material_instance": "side"},
+								"up": {"uv": [0, 8], "uv_size": [16, -8], "material_instance": "front"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

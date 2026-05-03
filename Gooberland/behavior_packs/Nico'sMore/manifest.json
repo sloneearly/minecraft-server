@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Nico's More Dungeon (v1.7.2) [Behavior Pack]",
+    "description": "Discover more dungeon structures and bosses.",
+    "uuid": "c410d468-bded-42c2-9df3-016d696ce9b5",
+    "pack_scope": "world",
+    "version": [ 1, 7, 2 ],
+    "min_engine_version": [ 1, 26, 0 ]
+  },
+  "metadata": {
+    "product_type": "addon",
+		"authors": [ "NicoTheKid" ],
+		"url": "https://www.curseforge.com/members/nicothekid/projects"
+	},
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "f23ddb9e-c1bd-4193-92bc-18791373a8ac",
+      "version": [ 1, 7, 2 ]
+    },
+    {
+			"type": "script",
+			"language": "javascript",
+			"uuid": "65ba1f8b-bfd2-4261-a13e-290d3dbaa072",
+			"entry": "scripts/main.js",
+			"version": [ 1, 7, 2 ]
+		}
+  ],
+  "dependencies": [
+    {
+      "uuid": "b196c105-4795-44df-bfe2-03463afee370",
+      "version": [ 1, 7, 2 ]
+    },
+    {
+			"module_name": "@minecraft/server",
+			"version": "2.6.0"
+		}
+  ]
+}

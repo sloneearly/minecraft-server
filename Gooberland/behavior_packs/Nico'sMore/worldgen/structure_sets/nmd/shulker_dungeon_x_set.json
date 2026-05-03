@@ -1,0 +1,21 @@
+{
+	"format_version": "1.26.10",
+	"minecraft:structure_set": {
+		"description": {
+			"identifier": "ntk:shulker_dungeon_x_set"
+		},
+		"placement": {
+			"type": "minecraft:random_spread",
+			"spread_type": "triangular",
+			"salt": 58491073,
+			"spacing": 22,
+			"separation": 1
+		},
+		"structures": [
+			{
+				"structure": "ntk:shulker_dungeon",
+				"weight": 100
+			}
+		]
+	}
+}

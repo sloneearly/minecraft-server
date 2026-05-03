@@ -1,0 +1,51 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:suspicious_ice",
+            "menu_category": {
+                "category": "nature",
+                "is_hidden_in_commands": false
+            }
+        },
+        "components": {
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "none"
+            },
+            "tag:cc:disable_silk_touch": {},
+            "minecraft:loot": "loot_tables/cc/foliage/suspicious_ice.loot.json",
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.2
+            },
+            "minecraft:map_color": "#A0A0FF",
+            "minecraft:friction": 0.05,
+            "minecraft:light_dampening": 3,
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.5,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_pickaxe')"
+                        },
+                        "destroy_speed": 0.5333
+                    }
+                ]
+            }
+        }
+    }
+}

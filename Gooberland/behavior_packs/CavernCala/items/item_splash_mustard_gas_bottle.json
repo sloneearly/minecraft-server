@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "item:splash_mustard_gas_bottle",
+            "menu_category": {
+              "category": "equipment",
+              "group": "itemGroup.name.equipment"
+			}
+            },
+    "components": {
+      "minecraft:hand_equipped": true,
+      "minecraft:icon": {
+        "texture": "item:splash_mustard_gas_bottle"
+      },
+      "minecraft:display_name": {
+        "value": "Splash Mustard Gas Bottle\n\n\n§7Throw to release damaging Gas"
+      }, 
+      "minecraft:max_stack_size": 1,
+      "minecraft:throwable": {
+        "do_swing_animation": true
+      },
+      "minecraft:projectile": {
+        "projectile_entity": "item:splash_mustard_gas_bottle"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cc:swamp_iron_golem_head",
+      "menu_category": {
+        "category": "nature",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:rarity": "epic",
+      "minecraft:wearable": {
+        "protection": 3,
+        "slot": "slot.armor.head"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_armor"
+        ]
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_head",
+        "value": 15
+      },
+      "minecraft:durability": {
+        "max_durability": 256
+      },
+      "minecraft:block_placer": {
+        "block": "cc:swamp_iron_golem_head",
+        "replace_block_item": true
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

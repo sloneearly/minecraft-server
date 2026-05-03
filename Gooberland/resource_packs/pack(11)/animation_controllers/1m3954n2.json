@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc.lay_egg": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "transitions": [
+            {
+              "lay_egg": "query.is_laying_egg"
+            }
+          ],
+          "blend_transition": 0.5
+        },
+        "lay_egg": {
+          "animations": ["lay_egg"],
+          "transitions": [
+            {
+              "idle": "!query.is_laying_egg"
+            }
+          ],
+          "blend_transition": 0.5
+        }
+      }
+    }
+  }
+}

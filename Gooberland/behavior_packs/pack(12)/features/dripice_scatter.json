@@ -1,0 +1,25 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:dripice_scatter"
+    },
+    "places_feature": "cc:dripice_aggregate",
+    "iterations": 80,
+    "x": {
+      "distribution": "uniform",
+      "extent": [
+        -8,
+        8
+      ]
+    },
+    "y": "0",
+    "z": {
+      "distribution": "uniform",
+      "extent": [
+        -8,
+        8
+      ]
+    }
+  }
+}

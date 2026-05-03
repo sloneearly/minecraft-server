@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "cc:barnacles_block_10"
+    },
+    "places_block": {
+      "name": "cc:barnacles",
+      "states": {
+        "cc:generated": "west",
+        "cc:count": 3
+      }
+    },
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false,
+    "may_attach_to": {
+      "east": [
+        "minecraft:sand",
+        "minecraft:stone"
+      ]
+    },
+    "may_replace": [
+      "minecraft:water",
+      "minecraft:air"
+    ]
+  }
+}

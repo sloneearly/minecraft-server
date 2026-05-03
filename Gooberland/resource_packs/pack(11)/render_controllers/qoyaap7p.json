@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cc_outlineOuter": {
+      "geometry": "geometry.default",
+      "textures": ["texture.default"],
+      "materials": [
+        { "*": "material.default" },
+        { "outline*": "material.outline" }
+      ],
+      "part_visibility": [
+        { "*": false },
+        { "outline*": true }
+      ],
+      "ignore_lighting": true
+    }
+  }
+}

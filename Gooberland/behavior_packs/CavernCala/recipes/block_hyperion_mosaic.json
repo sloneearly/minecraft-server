@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hyperion_mosaic_c410dd89"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:hyperion_plank_slab",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:hyperion_mosaic",
+      "count": 1
+    }
+  }
+}

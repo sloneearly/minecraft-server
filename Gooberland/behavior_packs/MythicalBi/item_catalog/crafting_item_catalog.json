@@ -1,0 +1,271 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "construction",
+        "groups": [
+          { // Planks:
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.planks"
+            },
+            "items": [
+              "ntk:corrupted_oak_planks",
+              "ntk:mossy_willow_planks",
+              "ntk:overgrown_jungle_planks"
+            ]
+          },
+          { // Stairs:
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.stairs"
+            },
+            "items": [
+              "ntk:corrupted_oak_stairs",
+              "ntk:mossy_willow_stairs",
+              "ntk:overgrown_jungle_stairs",
+              "ntk:corrupted_stone_stairs",
+              "ntk:polished_corrupted_stone_stairs",
+              "ntk:corrupted_stone_brick_stairs"
+            ]
+          },
+          { // Slabs:
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.slab"
+            },
+            "items": [
+              "ntk:corrupted_oak_slab",
+              "ntk:mossy_willow_slab",
+              "ntk:overgrown_jungle_slab",
+              "ntk:corrupted_stone_slab",
+              "ntk:polished_corrupted_stone_slab",
+              "ntk:corrupted_stone_brick_slab"
+            ]
+          },
+          { // Stone Bricks:
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.stoneBrick"
+            },
+            "items": [
+              "ntk:corrupted_stone_bricks",
+              "ntk:cracked_corrupted_stone_bricks",
+              "ntk:chiseled_polished_corrupted_stone"
+            ]
+          },
+          { // Pillars:
+            "group_identifier": {
+              "icon": "ntk:corrupted_stone_pillar",
+              "name": "ntk:itemGroup.name.pillars"
+            },
+            "items": [
+              "ntk:corrupted_stone_pillar"
+            ]
+          },
+          { // Bales:
+            "group_identifier": {
+              "icon": "ntk:corrupted_grass_bale",
+              "name": "ntk:itemGroup.name.bales"
+            },
+            "items": [
+              "ntk:corrupted_grass_bale",
+              "ntk:moss_sprouts_bale"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "equipment",
+        "groups": [
+          { // Pies:
+            "group_identifier": {
+              "icon": "ntk:beetroot_pie",
+              "name": "ntk:itemGroup.name.pies"
+            },
+            "items": [
+              "ntk:beetroot_pie"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          { // Wood Lamps:
+            "group_identifier": {
+              "icon": "ntk:corrupted_oak_wood_lamp",
+              "name": "ntk:itemGroup.name.wood_lamps"
+            },
+            "items": [
+              "ntk:corrupted_oak_wood_lamp",
+              "ntk:mossy_willow_wood_lamp",
+              "ntk:overgrown_jungle_wood_lamp"
+            ]
+          },
+          { // Wood Lanterns:
+            "group_identifier": {
+              "icon": "ntk:corrupted_oak_wood_lantern",
+              "name": "ntk:itemGroup.name.wood_lanterns"
+            },
+            "items": [
+              "ntk:corrupted_oak_wood_lantern",
+              "ntk:mossy_willow_wood_lantern",
+              "ntk:overgrown_jungle_wood_lantern"
+            ]
+          },
+          { // Stone Lanterns:
+            "group_identifier": {
+              "icon": "ntk:corrupted_stone_lantern",
+              "name": "ntk:itemGroup.name.stone_lanterns"
+            },
+            "items": [
+              "ntk:corrupted_stone_lantern",
+              "ntk:corrupted_stone_brick_lantern"
+            ]
+          },
+          { // Stone Soul Lanterns:
+            "group_identifier": {
+              "icon": "ntk:corrupted_stone_soul_lantern",
+              "name": "ntk:itemGroup.name.stone_soul_lanterns"
+            },
+            "items": [
+              "ntk:corrupted_stone_soul_lantern",
+              "ntk:corrupted_stone_brick_soul_lantern"
+            ]
+          },
+          { // Potted Plants:
+            "group_identifier": {
+              "icon": "ntk:potted_corrupted_oak_sapling",
+              "name": "ntk:itemGroup.name.potted_plants"
+            },
+            "items": [
+              "ntk:potted_corrupted_oak_sapling",
+              "ntk:potted_blooming_corrupted_oak_sapling",
+              "ntk:potted_mossy_willow_sapling",
+              "ntk:potted_overgrown_jungle_sapling",
+              "ntk:potted_corrupted_grass",
+              "ntk:potted_moss_sprouts",
+              "ntk:potted_hanging_moss"
+            ]
+          },
+          {
+            "items": [
+              "ntk:deopard_fur",
+              "ntk:amphibian_gills"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "nature",
+        "groups": [
+          { // Stones:
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.stone"
+            },
+            "items": [
+              "ntk:corrupted_stone",
+              "ntk:polished_corrupted_stone"
+            ]
+          },
+          { // Log:
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.log"
+            },
+            "items": [
+              "ntk:corrupted_oak_log",
+              "ntk:stripped_corrupted_oak_log",
+              "ntk:mossy_willow_log",
+              "ntk:stripped_mossy_willow_log",
+              "ntk:overgrown_jungle_log",
+              "ntk:stripped_overgrown_jungle_log"
+            ]
+          },
+          { // Wood:
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.wood"
+            },
+            "items": [
+              "ntk:corrupted_oak_wood",
+              "ntk:stripped_corrupted_oak_wood",
+              "ntk:mossy_willow_wood",
+              "ntk:stripped_mossy_willow_wood",
+              "ntk:overgrown_jungle_wood",
+              "ntk:stripped_overgrown_jungle_wood"
+            ]
+          },
+          { // Leaves:
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.leaves"
+            },
+            "items": [
+              "ntk:corrupted_oak_leaves",
+              "ntk:mossy_willow_leaves",
+              "ntk:overgrown_jungle_leaves"
+            ]
+          },
+          { // Saplings:
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.sapling"
+            },
+            "items": [
+              "ntk:corrupted_oak_sapling",
+              "ntk:blooming_corrupted_oak_sapling",
+              "ntk:mossy_willow_sapling",
+              "ntk:overgrown_jungle_sapling"
+            ]
+          },
+          { // Grass:
+            "group_identifier": {
+              "name": "minecraft:itemGroup.name.grass"
+            },
+            "items": [
+              "ntk:corrupted_grass",
+              "ntk:short_moss_sprouts",
+              "ntk:tall_moss_sprouts"
+            ]
+          },
+          { // Fossiliferous Blocks:
+            "group_identifier": {
+              "icon": "ntk:fossiliferous_corrupted_dirt",
+              "name": "ntk:itemGroup.name.fossiliferous_blocks"
+            },
+            "items": [
+              "ntk:fossiliferous_corrupted_dirt",
+              "ntk:fossiliferous_corrupted_stone"
+            ]
+          },
+          { // Mossed Logs:
+            "group_identifier": {
+              "icon": "ntk:mossed_corrupted_oak_log_side",
+              "name": "ntk:itemGroup.name.mossed_logs"
+            },
+            "items": [
+              "ntk:mossed_corrupted_oak_log_side",
+              "ntk:mossed_corrupted_oak_log_top",
+              "ntk:mossed_mossy_willow_log_side",
+              "ntk:mossed_mossy_willow_log_top",
+              "ntk:mossed_overgrown_jungle_log_side",
+              "ntk:mossed_overgrown_jungle_log_top"
+            ]
+          },
+          { // Wood Roots:
+            "group_identifier": {
+              "icon": "ntk:corrupted_oak_roots",
+              "name": "ntk:itemGroup.name.wood_roots"
+            },
+            "items": [
+              "ntk:corrupted_oak_roots",
+              "ntk:mossy_willow_roots",
+              "ntk:overgrown_jungle_roots"
+            ]
+          },
+          {
+            "items": [
+              "ntk:corrupted_dirt",
+              "ntk:hanging_moss"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

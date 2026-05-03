@@ -1,0 +1,80 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ally.idle": {
+			"loop": true,
+			"bones": {
+				"leftArm": {
+					"rotation": {
+						"0.0": [0, 0, -32.34],
+						"0.75": [0, 0, -45],
+						"2.0": [0, 0, -32.34]
+					}
+				},
+				"rightArm": {
+					"rotation": {
+						"0.0": [0, 0, 32.34],
+						"0.75": [0, 0, 45],
+						"2.0": [0, 0, 32.34]
+					}
+				},
+				"leftWing": {
+					"rotation": ["20.7129 - this", "-30.1114-(15.0 + math.cos(query.life_time * 916.8) * 27.0) - this", "-3.4661 - this"]
+				},
+				"rightWing": {
+					"rotation": ["20.7129 - this", "50.1114 + math.cos(query.life_time * 916.8) * 27.0 - this", "3.4661 - this"]
+				},
+				"rightItem": {
+					"scale": 0.7
+				},
+				"leftItem": {
+					"scale": 0.7
+				}
+			}
+		},
+		"animation.vex.charge": {
+			"anim_time_update": "query.modified_distance_moved",
+			"loop": true,
+			"bones": {
+				"rightarm": {
+					"rotation": [
+						"variable.empty_handed ? -70.0 - this : (query.is_item_equipped(0) ? 210.0 - this : this)",
+						"variable.empty_handed ? this : (query.is_item_equipped(0) ? 15.0 - this : this)",
+						"variable.empty_handed ? this : (query.is_item_equipped(0) ? -25.0 - 32.34 - this : this)"
+					]
+				},
+				"leftarm": {
+					"rotation": [
+						"variable.empty_handed ? -70.0 - this : (query.is_item_equipped(1) ? 210.0 - this : this)",
+						"variable.empty_handed ? this : (query.is_item_equipped(1) ? -15.0 - this : this)",
+						"variable.empty_handed ? this : (query.is_item_equipped(1) ? 25.0 + 32.34 - this : this)"
+					]
+				}
+			}
+		},
+		"animation.ally.attack": {
+			"animation_length": 0.625,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0833": [0, 0, 0],
+						"0.625": [0, -715, 0]
+					}
+				},
+				"rightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [30, 0, 77.5],
+						"0.625": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -1, 0],
+						"0.625": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

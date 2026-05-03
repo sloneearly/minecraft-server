@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "andesite_brick_slab_29aeda42"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:andesite_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:andesite_brick_slab",
+      "count": 6
+    }
+  }
+}

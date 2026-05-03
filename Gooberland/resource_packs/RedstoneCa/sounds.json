@@ -1,0 +1,138 @@
+{
+	"individual_named_sounds": {
+		"sounds": {
+			"ambient.redstone_plains.loop": {
+				"pitch": 1,
+				"sound": "ambient.redstone_plains.loop",
+				"volume": 1
+			}
+		}
+	},
+	"entity_sounds": {
+		"entities": {
+			// @todo aggiungere redstone_crawler
+			"wan_redcave:flying_drone": {
+				"events": {
+					"ambient.tame": {
+						"sound": "wan_redcave.flying_drone.idle",
+						"volume": 1,
+						"pitch": 1
+					},
+					"hurt": {
+						"sound": "wan_redcave.flying_drone.hurt",
+						"volume": 1,
+						"pitch": 1
+					},
+					"death": {
+						"sound": "wan_redcave.generic_mob.death",
+						"volume": 1,
+						"pitch": 1
+					}
+				}
+			},
+			"wan_redcave:laser_projectile": {
+				"events": {
+					"hurt": {
+						"sound": "mob.null"
+					},
+					"death": {
+						"sound": "mob.null"
+					}
+				}
+			},
+			"wan_redcave:little_tyrant": {
+				"events": {
+					"ambient.tame": {
+						"sound": "wan_redcave.little_tyrant.idle",
+						"volume": 1,
+						"pitch": 1
+					},
+					"hurt": {
+						"sound": "wan_redcave.little_tyrant.hurt",
+						"volume": 1,
+						"pitch": 1
+					},
+					"death": {
+						"sound": "wan_redcave.generic_mob.death",
+						"volume": 1,
+						"pitch": 1
+					}
+				}
+			},
+			"wan_redcave:redstone_creeper": {
+				"events": {
+					// currently unused: wan_redcave.redstone_creeper.idle
+					"ambient.baby": {
+						"sound": "wan_redcave.redstone_creeper.idle_hostile",
+						"volume": 1,
+						"pitch": 1
+					},
+					"hurt": {
+						"sound": "wan_redcave.redstone_creeper.hurt",
+						"volume": 1,
+						"pitch": 1
+					},
+					"death": {
+						"sound": "wan_redcave.generic_mob.death",
+						"volume": 1,
+						"pitch": 1
+					}
+				}
+			},
+			"wan_redcave:redstone_hound": {
+				"events": {
+					// currently unused: wan_redcave.redstone_hound.idle
+					"ambient.baby": {
+						"sound": "wan_redcave.redstone_hound.idle_hostile",
+						"volume": 1,
+						"pitch": 1
+					},
+					"hurt": {
+						"sound": "wan_redcave.redstone_hound.hurt",
+						"volume": 1,
+						"pitch": 1
+					},
+					"death": {
+						"sound": "wan_redcave.generic_mob.death",
+						"volume": 1,
+						"pitch": 1
+					}
+				}
+			},
+			"wan_redcave:redstone_tyrant": {
+				"events": {
+					"ambient": {
+						"sound": "wan_redcave.redstone_tyrant.idle",
+						"volume": 1,
+						"pitch": 1
+					},
+					"hurt": {
+						"sound": "wan_redcave.redstone_tyrant.hurt",
+						"volume": 1,
+						"pitch": 1
+					}
+				}
+			},
+			"wan_redcave:redstone_wing": {
+				"events": {
+					// currently unused: wan_redcave.redstone_wing.idle
+					"ambient.baby": {
+						"sound": "wan_redcave.redstone_wing.idle_hostile",
+						"volume": 1,
+						"pitch": 1
+					},
+					"hurt": {
+						"sound": "wan_redcave.redstone_wing.hurt",
+						"volume": 1,
+						"pitch": 1
+					},
+					"death": {
+						"sound": "wan_redcave.generic_mob.death",
+						"volume": 1,
+						"pitch": 1
+					}
+				}
+			}
+		}
+	}
+}

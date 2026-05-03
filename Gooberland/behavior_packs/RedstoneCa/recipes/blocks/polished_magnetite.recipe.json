@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.111",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "wan_redcave:polished_magnetite"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "MMM",
+      "MMM",
+      "MMM"
+    ],
+    "key": {
+      "M": {
+        "item": "wan_redcave:magnetite"
+      }
+    },
+    "unlock": [
+      {
+        "item": "wan_redcave:magnetite_shard"
+      }
+    ],
+    "result": {
+      "item": "wan_redcave:polished_magnetite",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Redstone Caves BP",
+		"description": "Explore glowing Redstone Caves, tame robotic mobs, and build your own energy-powered machines with a fully modular Network system!",
+		"uuid": "70868f74-88bf-4a48-a29c-6aaaaa3685c8",
+		"pack_scope": "world",
+		"version": [ 1, 0, 18 ],
+		"min_engine_version": [ 1, 21, 80 ]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "0deb0cbb-82c8-4db5-aefe-19ef030a1aaf",
+			"version": [ 1, 0, 0 ]
+		},
+		{
+			"type": "script",
+			"uuid": "1ddcf43e-a6db-417d-b16e-3c0baded806a",
+			"language": "javascript",
+			"version": [ 1, 0, 0 ],
+			"entry": "scripts/index.js"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "252fbab2-6f95-4264-87ba-a2ef30cde01a",
+			"version": [ 1, 0, 18 ]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.4.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		}
+	],
+	"metadata": {
+		"product_type": "addon",
+		"authors": [
+			"WanMine"
+		]
+	}
+}

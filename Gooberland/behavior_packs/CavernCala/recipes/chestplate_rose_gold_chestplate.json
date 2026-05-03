@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rose_gold_chestplate_1c73a791"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:rose_gold_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "chestplate:rose_gold_chestplate",
+      "count": 1
+    }
+  }
+}

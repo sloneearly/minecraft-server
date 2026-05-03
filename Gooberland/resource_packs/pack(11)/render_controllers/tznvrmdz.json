@@ -1,0 +1,262 @@
+{
+  "format_version": "1.20.30",
+  "render_controllers": {
+    "controller.render.cc.common": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": ["texture.default"],
+      "part_visibility": [
+        { "renderChest*": false },
+        { "renderSaddle*": false },
+        { "renderRider*": false },
+        { "renderProjectile*": false }
+      ]
+    },
+    "controller.render.cc.dye": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.dye"
+        }
+      ],
+      "textures": ["texture.dye"]
+    },
+    "controller.render.cc.projectile": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": ["texture.projectile"],
+      "part_visibility": [{ "*": false }, { "renderProjectile*": true }]
+    },
+    "controller.render.cc.chested": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": ["texture.chested"],
+      "part_visibility": [{ "*": false }, { "renderChest*": "q.is_chested" }]
+    },
+    "controller.render.cc.saddled": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": ["texture.saddled"],
+      "part_visibility": [{ "*": false }, { "renderSaddle*": "q.is_saddled" }]
+    },
+    "controller.render.cc.has_rider": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": ["texture.has_rider"],
+      "part_visibility": [{ "*": false }, { "renderRider*": "q.has_rider" }]
+    },
+    "controller.render.cc.ignore_lighting": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": ["texture.default"],
+      "ignore_lighting": true
+    },
+    "controller.render.cc.variant.2": {
+      "geometry": "Geometry.default",
+      "arrays": {
+        "textures": {
+          "Array.textures": [
+            "Texture.default",
+            "Texture.variant_1",
+            "Texture.variant_2"
+          ]
+        }
+      },
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Array.textures[q.has_property('cc:variant') == 1 ? q.property('cc:variant') : q.variant]"
+      ]
+    },
+    "controller.render.cc.variant.3": {
+      "geometry": "Geometry.default",
+      "arrays": {
+        "textures": {
+          "Array.textures": [
+            "Texture.default",
+            "Texture.variant_1",
+            "Texture.variant_2"
+          ]
+        }
+      },
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Array.textures[q.has_property('cc:variant') == 1 ? q.property('cc:variant') : q.variant]"
+      ]
+    },
+    "controller.render.cc.variant.4": {
+      "geometry": "Geometry.default",
+      "arrays": {
+        "textures": {
+          "Array.textures": [
+            "Texture.default",
+            "Texture.variant_1",
+            "Texture.variant_2",
+            "Texture.variant_3"
+          ]
+        }
+      },
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Array.textures[q.has_property('cc:variant') == 1 ? q.property('cc:variant') : q.variant]"
+      ]
+    },
+    "controller.render.cc.variant.5": {
+      "geometry": "Geometry.default",
+      "arrays": {
+        "textures": {
+          "Array.textures": [
+            "Texture.default",
+            "Texture.variant_1",
+            "Texture.variant_2",
+            "Texture.variant_3",
+            "Texture.variant_4"
+          ]
+        }
+      },
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Array.textures[q.has_property('cc:variant') == 1 ? q.property('cc:variant') : q.variant]"
+      ]
+    },
+    "controller.render.cc.variant.6": {
+      "geometry": "Geometry.default",
+      "arrays": {
+        "textures": {
+          "Array.textures": [
+            "Texture.default",
+            "Texture.variant_1",
+            "Texture.variant_2",
+            "Texture.variant_3",
+            "Texture.variant_4",
+            "Texture.variant_5"
+          ]
+        }
+      },
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Array.textures[q.has_property('cc:variant') == 1 ? q.property('cc:variant') : q.variant]"
+      ]
+    },
+    "controller.render.cc.emissive": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.emissive"
+        }
+      ],
+      "textures": ["Texture.emissive"],
+      "part_visibility": [{ "*": false }, { "emissive": true }]
+    },
+    "controller.render.cc.baby_adult": {
+      "geometry": "q.is_baby ? Geometry.baby : Geometry.default",
+      "materials": [{ "*": "Material.default" }],
+      "textures": ["q.is_baby ? Texture.baby : Texture.default"]
+    },
+
+    "controller.render.cc.armor.detail": {
+      "geometry": "Geometry.detail",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": ["texture.detail"]
+    },
+    "controller.render.cc.no_death_color": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": ["texture.default"],
+      "is_hurt_color": {
+        "a": 0.0,
+        "r": 0.0,
+        "b": 0.0,
+        "g": 0.0
+      }
+    },
+    /* originally from enchanted entity template, modified for my custom trident template */
+    "controller.render.cc_entity_enchanted": {
+      "geometry": "Geometry.default", //If your entity uses a custom model, replace this string accordingly
+      "part_visibility": [{ "*": true }],
+      "materials": [{ "*": "Material.enchanted" }],
+      "textures": ["Texture.enchanted"],
+      "color": {
+        "r": 0.5,
+        "g": 0.0,
+        "b": 1.0,
+        "a": 1.0 //The material I made doesn't support alpha value, don't bother changing it. Use 'light_color_multiplier' instead.
+      },
+      "uv_anim": {
+        "offset": [
+          "(Math.floor(query.life_time * 20.0) + query.frame_alpha) * -0.02", //Coefficient at the end affects speed (even 0.1 is surpisingly fast so be careful). Negative values will make the woosh effect travel to the left, positive travels to the right, zero results in no horizontal movement.
+          "(Math.floor(query.life_time * 20.0) + query.frame_alpha) * 0.03" //Similar case, positive values make the woosh effect travel up, negative goes down, zero gives no vertical movement.
+        ],
+        "scale": [1.0, 1.0]
+      },
+      "light_color_multiplier": 0.2, //This number is essentially just the alpha value, or "opacity."
+      "ignore_lighting": false //I would leave this the way it is, 'true' looks really bad. But you can use another variable here if you really want.
+    },
+    "controller.render.cc.color_overlay": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": ["texture.default"],
+      "overlay_color": {
+        "a": "v.alpha",
+        "r": "v.red",
+        "b": "v.blue",
+        "g": "v.green"
+      }
+    }
+  }
+}

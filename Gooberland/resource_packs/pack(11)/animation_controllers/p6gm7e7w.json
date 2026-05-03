@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc.bath": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "transitions": [
+            {
+              "bath": "query.property('cc:is_bathing') == 1"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "bath": {
+          "animations": ["bath"],
+          "transitions": [
+            {
+              "idle": "query.property('cc:is_bathing') == 0"
+            }
+          ],
+          "blend_transition": 0.2
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "staballoy_alloy_46f06843"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "item:uranium_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "item:titanium_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:staballoy_alloy",
+      "count": 1
+    }
+  }
+}

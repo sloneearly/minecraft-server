@@ -1,0 +1,37 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mob:vampire_bat",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/entity/vampire_bat"
+			},
+			"geometry": {
+				"default": "geometry.bat_v2"
+			},
+			"scripts": {
+				"scale": 1
+			},
+			"animations": {
+				"resting": "animation.bat.resting",
+				"flying": "animation.bat.flying"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.bat.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.bat"
+			],
+			"spawn_egg": {
+				"base_color": "#30130C",
+				"overlay_color": "#291A35"
+			}
+		}
+	}
+}

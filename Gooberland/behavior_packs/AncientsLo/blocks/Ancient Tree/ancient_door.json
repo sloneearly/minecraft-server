@@ -1,0 +1,142 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ancients:ancient_door",
+			"menu_category": {
+				"group": "itemGroup.name.planks",
+				"category": "none",
+				"is_hidden_in_commands": true
+			},
+			"states": {
+				"ancient:type":["bottom", "upper"],
+				"ancient:interact":[false,true],
+				"ancient:double":[false,true]
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			}
+		},
+		"components": {
+			"tag:wood":{},
+			"tag:door":{},
+			"minecraft:geometry": {
+				"identifier": "geometry.custom_door",
+				"bone_visibility": {
+					"main": "query.block_state('ancient:interact') == false && query.block_state('ancient:double') == false",
+					"main_open": "query.block_state('ancient:interact') == true && query.block_state('ancient:double') == false",
+					"main_double": "query.block_state('ancient:interact') == false && query.block_state('ancient:double') == true",
+					"main_double_open": "query.block_state('ancient:interact') == true && query.block_state('ancient:double') == true"
+				}
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:light_emission": 0,
+			"minecraft:collision_box":{
+				"origin": [-8,0,-8],
+				"size": [16,16,3]
+			},
+			"minecraft:selection_box":{
+				"origin": [-8,0,-8],
+				"size": [16,16,3]
+			},
+			"minecraft:destructible_by_mining":{
+				"seconds_to_destroy": 3
+			},
+			"minecraft:custom_components": ["ancients:door_components"],
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": ["up"]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/ancient_door.json",
+            "tag:one_way_collidable": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('ancient:type')== 'bottom'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "door_ancient_lower",
+							"render_method": "blend"
+						}
+					}			
+				}
+			},
+			{
+				"condition": "query.block_state('ancient:type')== 'upper'",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "door_ancient_upper",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0,180,0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0,0,0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0,-90,0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0,90,0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('ancient:interact') == true && query.block_state('ancient:double') == false",
+				"components": {
+					"minecraft:collision_box":{
+						"origin": [-8,0,-8],
+						"size": [3,16,16]
+					},
+					"minecraft:selection_box":{
+						"origin": [-8,0,-8],
+						"size": [3,16,16]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('ancient:interact') == true && query.block_state('ancient:double') == true",
+				"components": {
+					"minecraft:collision_box":{
+						"origin": [5,0,-8],
+						"size": [3,16,16]
+					},
+					"minecraft:selection_box":{
+						"origin": [5,0,-8],
+						"size": [3,16,16]
+					}
+				}
+			}
+			
+		]
+	}
+}

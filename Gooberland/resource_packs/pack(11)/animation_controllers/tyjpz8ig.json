@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc.lay_down": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "transitions": [
+            {
+              "lay_down": "query.is_laying_down"
+            }
+          ],
+          "blend_transition": 0.5
+        },
+        "lay_down": {
+          "animations": ["sit"],
+          "transitions": [
+            {
+              "idle": "!query.is_laying_down || query.has_rider"
+            }
+          ],
+          "blend_transition": 0.5
+        }
+      }
+    },
+    "controller.animation.cc.sit": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "transitions": [
+            {
+              "sit": "query.is_sitting"
+            }
+          ],
+          "blend_transition": 1.0
+        },
+        "sit": {
+          "animations": ["sit"],
+          "transitions": [
+            {
+              "idle": "!query.is_sitting || query.has_rider"
+            }
+          ],
+          "blend_transition": 1.0
+        }
+      }
+    }
+  }
+}

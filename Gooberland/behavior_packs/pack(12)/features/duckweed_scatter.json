@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:duckweed_scatter"
+    },
+    "iterations": 800,
+    "scatter_chance": 100,
+    "x": {
+      "distribution": "triangle",
+      "extent": [-8, 8]
+    },
+    "y": {
+      "distribution": "triangle",
+      "extent": [-4, 4]
+    },
+    "z": {
+      "distribution": "triangle",
+      "extent": [-8, 8]
+    },
+    "coordinate_eval_order": "zyx",
+    "places_feature": "cc:duckweed_feature"
+  }
+}

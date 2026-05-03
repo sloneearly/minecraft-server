@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "formidi_bomb_72d69cc2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:rad_powder",
+        "data": 0
+      },
+      "B": {
+        "item": "block:super_tnt",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:formidi_bomb",
+      "count": 1
+    }
+  }
+}

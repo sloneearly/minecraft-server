@@ -1,0 +1,40 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:swamp_vine_rule",
+      "places_feature": "cc:swamp_vine_scatter"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": {
+        "any_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "swamp"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": 80,
+      "scatter_chance": 100.0,
+      "x": {
+        "distribution": "triangle",
+        "extent": [
+          -8,
+          16
+        ]
+      },
+      "y": "query.heightmap(v.originx, v.originz)",
+      "z": {
+        "distribution": "triangle",
+        "extent": [
+          -8,
+          16
+        ]
+      }
+    }
+  }
+}

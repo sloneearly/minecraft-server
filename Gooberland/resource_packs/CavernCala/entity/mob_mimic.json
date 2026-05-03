@@ -1,0 +1,34 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mob:mimic",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/mimic"
+			},
+			"geometry": {
+				"default": "geometry.mimic"
+			},
+			"animations": {
+				"face_player": "animation.mimic.idle"
+			},
+			"scripts": {
+				"scale": 1,
+				"animate": [
+					"face_player"
+				]
+			},
+			"render_controllers": [
+				"controller.render.skeleton"
+			],
+			"spawn_egg": {
+				"base_color": "#5E300F",
+				"overlay_color": "#A7976E"
+			}
+		}
+	}
+}

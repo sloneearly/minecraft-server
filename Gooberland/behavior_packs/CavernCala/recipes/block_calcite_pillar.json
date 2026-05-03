@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "calcite_pillar_ca499dde"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:calcite_brick_slab",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:calcite_pillar",
+      "count": 1
+    }
+  }
+}

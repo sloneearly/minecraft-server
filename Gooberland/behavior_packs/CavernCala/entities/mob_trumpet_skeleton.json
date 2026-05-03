@@ -1,0 +1,108 @@
+//bridge-file-version: #22
+{
+	"format_version": "1.20.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mob:trumpet_skeleton",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:skeleton"
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"boss",
+					"superboss"
+				]
+			},
+			"minecraft:health": {
+				"value": 20,
+				"max": 20
+			},
+			"minecraft:collision_box": {
+				"height": 1.8,
+				"width": 0.6
+			},
+			"minecraft:movement": {
+				"value": 0.5
+			},
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"can_path_over_water": true,
+				"can_pass_doors": true,
+				"can_open_doors": true,
+				"can_walk": true,
+				"avoid_water": true
+			},
+			"minecraft:annotation.open_door": {},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:behavior.move_indoors": {
+				"priority": 4,
+				"speed_multiplier": 0.8
+			},
+			"minecraft:behavior.restrict_open_door": {
+				"priority": 5
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 11,
+				"speed_multiplier": 0.6
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 12,
+				"look_distance": 8,
+				"probability": 0.02
+			},
+			"minecraft:physics": {},
+			"minecraft:experience_reward": {
+				"on_death": "query.last_hit_by_player ? 10 : 0"
+			},
+			"minecraft:underwater_movement": {
+				"value": 0.02
+			},
+			"minecraft:scale": {
+				"value": 1
+			},
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"event": "nighttime",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_daytime",
+									"value": false
+								}
+							]
+						}
+					},
+					{
+						"event": "daytime",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_daytime",
+									"value": true
+								}
+							]
+						}
+					}
+				]
+			},
+			"minecraft:burns_in_daylight": {},
+			"minecraft:equipment": {
+				"table": "loot_tables/entities/trumpet_skeleton.json",
+				"slot_drop_chance": [
+					{
+						"slot": "slot.weapon.mainhand",
+						"drop_chance": 0.1
+					}
+				]
+			}
+		},
+		"component_groups": {},
+		"events": {}
+	}
+}

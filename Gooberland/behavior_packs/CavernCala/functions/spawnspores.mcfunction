@@ -1,0 +1,12 @@
+summon projectile:floral_spore ~~~
+summon projectile:floral_spore ~~~
+summon projectile:floral_spore ~~~
+summon projectile:floral_spore ~~~
+summon projectile:floral_spore ~~~
+summon projectile:floral_spore ~~~
+summon projectile:floral_spore ~~~
+summon projectile:floral_spore ~~~
+summon projectile:floral_spore ~~~
+summon projectile:floral_spore ~~~
+summon projectile:floral_spore ~~~
+summon projectile:floral_spore ~~~

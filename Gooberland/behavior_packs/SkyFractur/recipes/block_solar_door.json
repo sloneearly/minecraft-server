@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "solar_door_ee0e153d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:solar_planks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:solar_door",
+      "count": 3
+    }
+  }
+}

@@ -1,0 +1,45 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "minecraft:silverfish",
+			"population_control": "monster"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_underground": {},
+				"minecraft:brightness_filter": {
+					"min": 0,
+					"max": 1,
+					"adjust_for_weather": true
+				},
+				"minecraft:difficulty_filter": {
+					"min": "easy",
+					"max": "hard"
+				},
+				"minecraft:weight": {
+					"default": 50
+				},
+				"minecraft:biome_filter": {
+					"all_of": [
+						{
+							"value": "monster",
+							"operator": "==",
+							"test": "has_biome_tag"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "wilted_garden_caves"
+						}
+					]
+				},
+				"minecraft:herd": {
+					"min_size": 1,
+					"max_size": 3
+				}
+			}
+		]
+	}
+}

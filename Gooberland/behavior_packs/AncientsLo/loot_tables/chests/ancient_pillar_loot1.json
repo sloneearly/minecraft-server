@@ -1,0 +1,77 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 8,
+				"max": 10
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "ancients:lost_scroll",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 3
+							}
+						}
+					],
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "ancients:ancient_rune_fragment",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 6
+							}
+						}
+					],
+					"weight": 35
+				},
+                {
+					"type": "item",
+					"name": "ancients:ancient_rune",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "ancients:ancient_book",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"weight": 2
+				},
+                {
+					"type": "item",
+					"name": "ancients:runic_apple",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"weight": 2
+				},
+				{
+					"type": "empty",
+					"weight": 36
+				}
+			]
+		}
+	]
+}

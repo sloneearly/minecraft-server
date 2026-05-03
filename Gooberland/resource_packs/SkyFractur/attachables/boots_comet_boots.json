@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "boots:comet_boots",
+      "materials": {
+        "default": "armor",
+        "enchanted": "entity_beam_additive"
+      },
+      "textures": {
+        "default": "textures/entity/helmet_comet_helmet",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.ascendant_boots"
+      },
+      "scripts": {
+        "parent_setup": "variable.boot_layer_visible = 0.0;"
+      },
+      "render_controllers": [
+        "controller.render.armor"
+      ]
+    }
+  }
+}

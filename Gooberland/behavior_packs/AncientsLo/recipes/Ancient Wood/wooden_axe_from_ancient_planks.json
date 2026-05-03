@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ancients:wooden_axe_from_ancient_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" AA",
+			" QA",
+			" Q "
+		],
+		"assume_symmetry": true,
+		"key": {
+			"A": {
+				"item": "ancients:ancient_planks"
+			},
+			"Q": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock":[
+			{
+				"item": "minecraft:stick"
+			}
+		],
+		"result": {
+			"item": "minecraft:wooden_axe"
+		}
+	}
+}

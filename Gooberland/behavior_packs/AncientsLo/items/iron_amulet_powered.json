@@ -1,0 +1,28 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ancients:iron_amulet_powered",
+            "menu_category": {
+                "category": "nature"
+            }
+        },
+        "components": {
+            "minecraft:icon": "iron_amulet_powered",
+            "minecraft:max_stack_size": 1,
+            "minecraft:rarity": "rare",
+            "minecraft:cooldown": {
+                "category": "amulet",
+                "duration": 60
+            },
+            "minecraft:use_modifiers": {
+                "use_duration": 1
+            },
+            "minecraft:custom_components": ["ancients:use_amulet"],
+            "minecraft:durability": {
+                "max_durability": 5
+            },
+            "minecraft:interact_button": true
+        }
+    }
+}

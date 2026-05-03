@@ -1,0 +1,83 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:tree_feature": {
+      "description": {
+        "identifier": "ancients:ancient_tree_feature"
+      },
+      "trunk": {
+        "trunk_height": {
+          "range_min": 7,
+          "range_max": 9
+        },
+        "height_modifier": {
+          "range_min": -2,
+          "range_max": 4
+        },
+        "trunk_block": "ancients:ancient_log"
+      },
+      "canopy": {
+        "canopy_offset": {
+          "min": -3,
+          "max": 0
+        },
+        "variation_chance": [
+          {
+            "numerator": 1,
+            "denominator": 2
+          },
+          {
+            "numerator": 1,
+            "denominator": 2
+          },
+          {
+            "numerator": 1,
+            "denominator": 2
+          },
+          {
+            "numerator": 1,
+            "denominator": 1
+          }
+        ],
+      "leaf_block": "ancients:ancient_leaves"
+      },
+      "base_block": [
+        "minecraft:dirt"
+      ],
+      "may_grow_on": [
+        "minecraft:dirt",
+        "minecraft:grass",
+        "minecraft:podzol",
+        "minecraft:dirt",
+        "minecraft:farmland",
+        "minecraft:dirt_with_roots",
+        "minecraft:moss_block",
+        "minecraft:clay",
+        "minecraft:mycelium",
+        "minecraft:mud",
+        "minecraft:muddy_mangrove_roots"
+      ],
+      "may_replace": [
+        "minecraft:leaves",
+        "minecraft:leaves2",
+        "minecraft:azalea",
+        "minecraft:flowering_azalea",
+        "minecraft:azalea_leaves",
+        "minecraft:azalea_leaves_flowered",
+        "minecraft:mangrove_leaves",
+        "minecraft:water",
+        "minecraft:flowing_water",
+        "minecraft:moss_carpet",
+        "minecraft:tallgrass",
+        "minecraft:grass",
+        "minecraft:air",
+        "minecraft:double_plant"
+      ],
+      "may_grow_through": [
+        "minecraft:dirt",
+        "minecraft:grass",
+        "minecraft:moss_carpet",
+        "minecraft:tallgrass",
+        "minecraft:double_plant"
+      ]
+    }
+  }

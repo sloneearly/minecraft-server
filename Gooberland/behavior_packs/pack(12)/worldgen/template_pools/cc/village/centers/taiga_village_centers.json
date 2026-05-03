@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "cc:village/centers/taiga_village_centers"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cc/taiga_village_center",
+
+          "projection": "rigid"
+        }
+      }
+    ]
+  }
+}

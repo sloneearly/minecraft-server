@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:item": {
+    "description": {
+      "identifier": "wan_redcave:redstone_chip",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:icon": "wan_redcave:redstone_chip",
+      "minecraft:display_name": {
+        "value": "wan_redcave:redstone_chip.name"
+      }
+    }
+  }
+}

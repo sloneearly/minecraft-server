@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "staballoy_kunai_4856bb88"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  B",
+      " B ",
+      "c  "
+    ],
+    "key": {
+      "B": {
+        "item": "item:staballoy_ingot",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "sword:staballoy_kunai",
+      "count": 16
+    }
+  }
+}

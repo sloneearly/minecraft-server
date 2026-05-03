@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "jasper_lamp_e7812629"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "block:glowing_jasper_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:jasper_lamp",
+      "count": 1
+    }
+  }
+}

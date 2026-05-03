@@ -1,0 +1,333 @@
+//bridge-file-version: #37
+{
+	"pools": [
+		{
+			"rolls": 3,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.9
+							}
+						},
+						{
+							"function": "enchant_randomly"
+						}
+					],
+					"name": "item:raw_titanium"
+				},
+				{
+					"type": "item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					],
+					"name": "item:raw_uranium"
+				},
+				{
+					"type": "item",
+					"weight": 6,
+					"name": "minecraft:raw_iron"
+				},
+				{
+					"type": "item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"name": "minecraft:diamond"
+				},
+				{
+					"type": "item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						}
+					],
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 9
+							}
+						}
+					],
+					"name": "minecraft:iron_nugget"
+				},
+				{
+					"type": "item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					],
+					"name": "minecraft:raw_gold"
+				},
+				{
+					"type": "item",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_data",
+							"data": 6
+						}
+					],
+					"name": "item:sulfur"
+				},
+				{
+					"type": "item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": {
+								"min": 1,
+								"max": 20
+							}
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					],
+					"name": "item:raw_cobalt"
+				},
+				{
+					"type": "item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					],
+					"name": "item:raw_platinum"
+				},
+				{
+					"type": "item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					],
+					"name": "item:rose_gold_alloy"
+				}
+			]
+		},
+		{
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					],
+					"name": "minecraft:bucket"
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					],
+					"name": "minecraft:iron_ingot",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1,
+				"max": 3
+			},
+			"entries": [
+				{
+					"type": "item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					],
+					"name": "sword:iron_kunai",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 10
+							}
+						}
+					],
+					"name": "item:silk_ball",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 6
+							}
+						}
+					],
+					"name": "minecraft:torch",
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							}
+						}
+					],
+					"name": "minecraft:redstone",
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					],
+					"name": "minecraft:stick",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 6
+							}
+						}
+					],
+					"name": "minecraft:coal",
+					"weight": 4
+				},
+				{
+					"type": "item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					],
+					"name": "item:platinum_forging_template",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "tool:magnet_pickaxe"
+				},
+				{
+					"type": "item",
+					"name": "tool:magnet_axe",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "tool:magnet_shovel"
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "tool:magnet_hoe"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "item:enchanted_magnet"
+				},
+				{
+					"type": "item",
+					"weight": 200,
+					"name": "minecraft:air"
+				}
+			]
+		}
+	]
+}

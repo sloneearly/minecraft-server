@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "orange.cloth.up",
+    "heightmap": "orange.cloth.up_heightmap",
+    "metalness_emissive_roughness_subsurface": "orange.cloth.up_mers"
+  }
+}

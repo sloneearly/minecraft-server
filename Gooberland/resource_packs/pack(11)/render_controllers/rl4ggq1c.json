@@ -1,0 +1,10 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.cc.enchant": {
+      "geometry": "geometry.default",
+      "materials": [{ "*": "material.enchanted" }],
+      "textures": ["texture.default", "texture.enchanted"]
+    }
+  }
+}

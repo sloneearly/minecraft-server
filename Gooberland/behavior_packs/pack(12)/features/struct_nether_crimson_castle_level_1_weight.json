@@ -1,0 +1,42 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "cc:struct_nether_crimson_castle_level_1_weight"
+    },
+    "features": [
+      [
+        "cc:struct_nether_crimson_castle_room_9_feature",
+        1
+      ],
+      [
+        "cc:struct_nether_crimson_castle_room_10_feature",
+        1
+      ],
+      [
+        "cc:struct_nether_crimson_castle_room_11_feature",
+        1
+      ],
+      [
+        "cc:struct_nether_crimson_castle_room_12_feature",
+        1
+      ],
+      [
+        "cc:struct_nether_crimson_castle_room_13_feature",
+        1
+      ],
+      [
+        "cc:struct_nether_crimson_castle_room_14_feature",
+        1
+      ],
+      [
+        "cc:struct_nether_crimson_castle_room_15_feature",
+        1
+      ],
+      [
+        "cc:struct_nether_crimson_castle_room_16_feature",
+        1
+      ]
+    ]
+  }
+}

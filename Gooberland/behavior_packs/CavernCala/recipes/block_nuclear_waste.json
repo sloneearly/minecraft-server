@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nuclear_waste_fdc7f385"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:uranium_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "item:packed_slimeball",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:nuclear_waste",
+      "count": 2
+    }
+  }
+}

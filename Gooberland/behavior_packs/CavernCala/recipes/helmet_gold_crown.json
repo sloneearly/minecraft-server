@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "gold_crown_1c6521a1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "item:jasper_shard",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "helmet:gold_crown",
+      "count": 1
+    }
+  }
+}

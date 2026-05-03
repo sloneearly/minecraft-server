@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cobalt_boots_9fcb1092"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "item:cobalt_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "boots:cobalt_boots",
+      "count": 1
+    }
+  }
+}

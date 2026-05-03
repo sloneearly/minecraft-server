@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lime_silk_block_d1410200"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:silk_block",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:lime_dye",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:lime_silk_block",
+      "count": 8
+    }
+  }
+}

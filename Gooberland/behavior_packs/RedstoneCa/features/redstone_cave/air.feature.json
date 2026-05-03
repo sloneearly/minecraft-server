@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "wan_redcave:redstone_cave/air.feature"
+    },
+    "count": 149,
+    "replace_rules": [
+      {
+        "places_block": "minecraft:air",
+        "may_replace": [
+          "minecraft:glow_lichen"
+        ]
+      }
+    ]
+  }
+}

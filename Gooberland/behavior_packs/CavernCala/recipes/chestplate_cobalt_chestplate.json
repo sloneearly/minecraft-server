@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cobalt_chestplate_bc42e52f"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:cobalt_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "chestplate:cobalt_chestplate",
+      "count": 1
+    }
+  }
+}

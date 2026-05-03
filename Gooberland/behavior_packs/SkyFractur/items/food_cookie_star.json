@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "food:cookie_star",
+            "menu_category": {
+              "category": "equipment"
+            }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "food:cookie_star"
+      },
+      						"minecraft:display_name": {
+				"value": "Cookie\n\n\n§8Star"
+			},
+      "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+              "use_duration": 1.8,
+              "movement_modifier": 1
+            },
+
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": 0.4
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "fill.rabbit_stew.1",
+    "heightmap": "fill.rabbit_stew.1_heightmap",
+    "metalness_emissive_roughness_subsurface": "fill.rabbit_stew.1_mers"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cc:ice_bow_unusable",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": true
+      }
+    },
+    "components": {
+      "minecraft:icon": "cc:ice_bow",
+      "minecraft:use_animation": "none",
+      "cc:charge_weapon": {
+        "default": "cc:ice_bow",
+        "unusable": "cc:ice_bow_unusable",
+        "projectile": "cc:ice_bow_projectile",
+        "shoot_sound": "random.bow"
+      },
+      "minecraft:enchantable": {
+        "slot": "bow",
+        "value": 15
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 6000,
+        "movement_modifier": 1
+      },
+      "minecraft:durability": {
+        "max_durability": 600
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:rarity": {
+        "value": "epic"
+      },
+      "minecraft:fire_resistant": {
+        "value": true
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "cc:ice_spirit_bottle"
+            ],
+            "repair_amount": "Math.floor(600 * 0.25)"
+          }
+        ]
+      }
+    }
+  }
+}

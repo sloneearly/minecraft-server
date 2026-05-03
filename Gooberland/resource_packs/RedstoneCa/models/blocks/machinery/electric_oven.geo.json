@@ -1,0 +1,179 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.wan_redcave.electric_oven",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [
+          0,
+          0.75,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "block",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                0,
+                -8
+              ],
+              "size": [
+                16,
+                4,
+                16
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -8,
+                4,
+                -8
+              ],
+              "size": [
+                4,
+                12,
+                16
+              ],
+              "uv": [
+                0,
+                48
+              ]
+            },
+            {
+              "origin": [
+                -1,
+                4,
+                -8
+              ],
+              "size": [
+                9,
+                12,
+                16
+              ],
+              "uv": [
+                0,
+                20
+              ]
+            },
+            {
+              "origin": [
+                -4,
+                4,
+                -7
+              ],
+              "size": [
+                3,
+                11,
+                14
+              ],
+              "uv": [
+                40,
+                48
+              ]
+            }
+          ]
+        }
+      ],
+      "item_display_transforms": {
+        "firstperson_righthand": {
+          "rotation": [
+            5,
+            -135,
+            0
+          ],
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "rotation_pivot": [
+            0,
+            0,
+            0
+          ],
+          "scale_pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            5,
+            135,
+            0
+          ],
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "rotation_pivot": [
+            0,
+            0,
+            0
+          ],
+          "scale_pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            30,
+            -135,
+            0
+          ],
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.6,
+            0.6,
+            0.6
+          ],
+          "rotation_pivot": [
+            0,
+            0,
+            0
+          ],
+          "scale_pivot": [
+            0,
+            0,
+            0
+          ],
+          "fit_to_frame": false
+        }
+      }
+    }
+  ]
+}

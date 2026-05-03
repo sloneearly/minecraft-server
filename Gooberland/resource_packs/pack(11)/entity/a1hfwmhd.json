@@ -1,0 +1,45 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:pharaoh",
+      "geometry": {
+        "default": "geometry.cc.pharaoh"
+      },
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/cc/monsters/entities/desert_pharaoh"
+      },
+      "sound_effects": {
+        "casting": "cc:pharaoh_casting"
+      },
+      "animations": {
+        "casting": "animation.cc.pharaoh.casting",
+        "move": "animation.cc.pharaoh.move",
+        "casting_controller": "controller.animation.cc.pharaoh.casting",
+        "look_at_target": "animation.common.look_at_target",
+        "shoot": "animation.cc.pharaoh.shoot",
+        "arms": "animation.cc.pharaoh.arms"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "move": "q.modified_move_speed"
+          },
+          "arms",
+          "casting_controller",
+          "look_at_target"
+        ]
+      },
+      "render_controllers": ["controller.render.default"],
+      "enable_attachables": true,
+      "hide_armor": false,
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:pharaoh_spawn_egg"
+      }
+    }
+  }
+}

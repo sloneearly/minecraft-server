@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:fire_skeleton",
+
+      "geometry": {
+        "default": "geometry.cc.ice_skeleton"
+      },
+      "textures": {
+        "default": "textures/cc/ritual/entities/fire/fire_skeleton/default",
+        "break": "textures/cc/ritual/entities/fire/fire_skeleton/break",
+        "break2": "textures/cc/ritual/entities/fire/fire_skeleton/break2",
+        "broken": "textures/cc/ritual/entities/fire/fire_skeleton/broken"
+      },
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "particle_effects": {
+        "trail": "cc:mob_fire_orange"
+      },
+      "animations": {
+        "walk": "animation.cc.ice_skeleton.walk",
+        "block": "animation.cc.ice_skeleton.block",
+        "idle": "animation.cc.ice_skeleton.idle",
+        "delayed_attack": "animation.cc.ice_skeleton.attack",
+        "attack_controller": "controller.animation.cc.delayed_attack",
+        "block_controller": "controller.animation.cc.block",
+        "look_at_target": "animation.common.look_at_target",
+        "particle": "animation.cc.trail.particle"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          {
+            "walk": "q.modified_move_speed"
+          },
+          "block_controller",
+          "idle",
+          "attack_controller",
+          "particle"
+        ]
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:fire_skeleton_spawn_egg"
+      },
+      "render_controllers": ["controller.render.cc.ice_skeleton"]
+    }
+  }
+}

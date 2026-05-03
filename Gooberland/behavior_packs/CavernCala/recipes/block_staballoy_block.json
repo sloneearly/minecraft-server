@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "staballoy_block_26e644ac"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:staballoy_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:staballoy_block",
+      "count": 1
+    }
+  }
+}

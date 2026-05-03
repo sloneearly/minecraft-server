@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "cc:small_lily_pads_weight"
+    },
+    "features": [
+      [ "cc:small_lily_pads_1_feature", 1 ],
+      [ "cc:small_lily_pads_2_feature", 1 ],
+      [ "cc:small_lily_pads_3_feature", 1 ],
+      [ "cc:small_lily_pads_4_feature", 1 ]
+    ]
+  }
+}

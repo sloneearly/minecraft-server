@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "cc:jungle_vegetation_weight"
+    },
+    "features": [
+      ["cc:blue_jungle_plant_feature", 3],
+      ["cc:yellow_jungle_plant_feature", 3],
+      ["cc:big_jungle_flower_feature", 1],
+      ["cc:jungle_carpet_feature", 70]
+    ]
+  }
+}

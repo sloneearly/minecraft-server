@@ -1,0 +1,35 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ntk:craft_x_mossy_stone_brick_stairs_x_hanging_moss"
+    },
+    "priority": 4,
+    "tags": [ "crafting_table" ],
+    "group": "mossy_stone_brick_stairs",
+    "assume_symmetry": false,
+    "pattern": [
+      "BM"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:stone_brick_stairs"
+      },
+      "M": {
+        "item": "ntk:hanging_moss"
+      }
+    },
+    "result": {
+      "item": "minecraft:mossy_stone_brick_stairs",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:stone_brick_stairs"
+      },
+      {
+        "item": "ntk:hanging_moss"
+      }
+    ]
+  }
+}

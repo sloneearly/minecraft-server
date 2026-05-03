@@ -1,0 +1,8 @@
+##bridge-file-version: #0
+pack.name=Nether Plus Add-on 1.21
+pack.description=Nether Plus Compatible con la 1.21 New!
+
+item.tt:basalt_rod.name=§l§8Basalt Rod
+item.tt:crimson_rod=§l§4Crimson Rod
+item.tt:soul_rod=§l§bSoul Sand Rod
+item.tt:twisted_rod=§l§5Twisted Rod

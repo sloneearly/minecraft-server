@@ -1,0 +1,120 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"wan_redcave:blaster_t1": {
+			"textures": "textures/wan/redcave/items/tools/blaster_t1"
+		},
+		"wan_redcave:blaster_t2": {
+			"textures": "textures/wan/redcave/items/tools/blaster_t2"
+		},
+		"wan_redcave:bluestone": {
+			"textures": "textures/wan/redcave/items/bluestone"
+		},
+		"wan_redcave:bluestone_chip": {
+			"textures": "textures/wan/redcave/items/bluestone_chip"
+		},
+		"wan_redcave:drone_capsule": {
+			"textures": "textures/wan/redcave/items/drone_capsule"
+		},
+		"wan_redcave:electric_drill_t1": {
+			"textures": "textures/wan/redcave/items/tools/electric_drill_t1"
+		},
+		"wan_redcave:electric_drill_t2": {
+			"textures": "textures/wan/redcave/items/tools/electric_drill_t2"
+		},
+		"wan_redcave:flying_drone_spawn_egg": {
+			"textures": "textures/wan/redcave/items/spawn_eggs/flying_drone"
+		},
+		"wan_redcave:guide_book": {
+			"textures": "textures/wan/redcave/items/guide_book"
+		},
+		"wan_redcave:holographic_touchpad": {
+			"textures": "textures/wan/redcave/items/holographic_touchpad"
+		},
+		"wan_redcave:little_tyrant_spawn_egg": {
+			"textures": "textures/wan/redcave/items/spawn_eggs/little_tyrant"
+		},
+		"wan_redcave:magnetite_ingot": {
+			"textures": "textures/wan/redcave/items/magnetite_ingot"
+		},
+		"wan_redcave:magnetite_shard": {
+			"textures": "textures/wan/redcave/items/magnetite_shard"
+		},
+		"wan_redcave:portable_generator_t1": {
+			"textures": "textures/wan/redcave/items/portable_generator_t1"
+		},
+		"wan_redcave:portable_generator_t2": {
+			"textures": "textures/wan/redcave/items/portable_generator_t2"
+		},
+		"wan_redcave:pure_redstone": {
+			"textures": "textures/wan/redcave/items/pure_redstone"
+		},
+		"wan_redcave:redstone_chip": {
+			"textures": "textures/wan/redcave/items/redstone_chip"
+		},
+		"wan_redcave:redstone_crawler_spawn_egg": {
+			"textures": "textures/wan/redcave/items/spawn_eggs/redstone_crawler"
+		},
+		"wan_redcave:redstone_creeper_spawn_egg": {
+			"textures": "textures/wan/redcave/items/spawn_eggs/redstone_creeper"
+		},
+		"wan_redcave:redstone_heart": {
+			"textures": "textures/wan/redcave/items/redstone_heart"
+		},
+		"wan_redcave:redstone_hound_spawn_egg": {
+			"textures": "textures/wan/redcave/items/spawn_eggs/redstone_hound"
+		},
+		"wan_redcave:redstone_longleg_spawn_egg": {
+			"textures": "textures/wan/redcave/items/spawn_eggs/redstone_longleg"
+		},
+		"wan_redcave:redstone_tyrant_spawn_egg": {
+			"textures": "textures/wan/redcave/items/spawn_eggs/redstone_tyrant"
+		},
+		"wan_redcave:redstone_wing_spawn_egg": {
+			"textures": "textures/wan/redcave/items/spawn_eggs/redstone_wing"
+		},
+		"wan_redcave:tech_boots_t1": {
+			"textures": "textures/wan/redcave/items/armors/tech_boots_t1"
+		},
+		"wan_redcave:tech_boots_t2": {
+			"textures": "textures/wan/redcave/items/armors/tech_boots_t2"
+		},
+		"wan_redcave:tech_chestplate_t1": {
+			"textures": "textures/wan/redcave/items/armors/tech_chestplate_t1"
+		},
+		"wan_redcave:tech_chestplate_t2": {
+			"textures": "textures/wan/redcave/items/armors/tech_chestplate_t2"
+		},
+		"wan_redcave:tech_helmet_t1": {
+			"textures": "textures/wan/redcave/items/armors/tech_helmet_t1"
+		},
+		"wan_redcave:tech_helmet_t2": {
+			"textures": "textures/wan/redcave/items/armors/tech_helmet_t2"
+		},
+		"wan_redcave:tech_leggings_t1": {
+			"textures": "textures/wan/redcave/items/armors/tech_leggings_t1"
+		},
+		"wan_redcave:tech_leggings_t2": {
+			"textures": "textures/wan/redcave/items/armors/tech_leggings_t2"
+		},
+		"wan_redcave:tech_shield_t1": {
+			"textures": "textures/wan/redcave/items/tools/tech_shield_t1"
+		},
+		"wan_redcave:tech_shield_t2": {
+			"textures": "textures/wan/redcave/items/tools/tech_shield_t2"
+		},
+		"wan_redcave:tech_sword_t1": {
+			"textures": "textures/wan/redcave/items/tools/tech_sword_t1"
+		},
+		"wan_redcave:tech_sword_t2": {
+			"textures": "textures/wan/redcave/items/tools/tech_sword_t2"
+		},
+		"wan_redcave:techsuit_control_t1": {
+			"textures": "textures/wan/redcave/items/techsuit_control_t1"
+		},
+		"wan_redcave:techsuit_control_t2": {
+			"textures": "textures/wan/redcave/items/techsuit_control_t2"
+		}
+	}
+}

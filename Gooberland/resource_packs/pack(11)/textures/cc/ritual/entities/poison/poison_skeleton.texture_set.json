@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "poison_skeleton",
+    "heightmap": "poison_skeleton_heightmap",
+    "metalness_emissive_roughness_subsurface": "poison_skeleton_mers"
+  }
+}

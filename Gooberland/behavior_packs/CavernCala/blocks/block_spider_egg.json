@@ -1,0 +1,42 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "block:spider_egg",
+            "menu_category": {
+                "category": "nature",
+                "group": "minecraft:itemGroup.name.nature"
+            }
+        },
+        "components": {
+"minecraft:liquid_detection": {
+    "detection_rules": [
+        {
+            "liquid_type": "water",
+            "can_contain_liquid": false,
+            "on_liquid_touches": "broken"
+        }
+    ]
+},
+            "tag:stone": {},
+	    "minecraft:geometry": "geometry.spider_egg",
+	    "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:custom_components": ["test:spider_egg_step_on", "test:spider_egg_destroy"],
+            "minecraft:light_dampening": 4,
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "block_spider_egg", 
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            }
+        }
+    }
+}

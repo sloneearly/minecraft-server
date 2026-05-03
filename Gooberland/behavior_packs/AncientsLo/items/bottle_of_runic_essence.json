@@ -1,0 +1,30 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ancients:bottle_of_runic_essence",
+            "menu_category": {
+                "category": "nature"
+            }
+        },
+        "components": {
+            "minecraft:icon": "bottle_of_runic_essence",
+            "minecraft:max_stack_size": 64,
+            "minecraft:rarity": "rare",
+            "minecraft:custom_components": ["ancients:place_on_pillar","ancients:runic_effect","ancients:runic_plus_effect"],
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation_modifier": 0,
+                "using_converts_to": "glass_bottle"
+            },
+            "minecraft:use_modifiers": {
+                "use_duration": 1.8,
+                "movement_modifier": 0.5
+            },
+            "minecraft:use_animation": "drink",
+            "minecraft:display_name": {
+                "value": "%item.ancients.bottle_of_runic_essence\n§7%effect.ancients.runic (0:40)\n\n§5%tooltip.applied\n§9%tooltip.runic§r"
+            }
+        }
+    }
+}

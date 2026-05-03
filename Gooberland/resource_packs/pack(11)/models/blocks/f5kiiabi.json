@@ -1,0 +1,102 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cc.bed_overlay",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-1, 26, -1],
+							"size": [2, 2, 2],
+							"uv": {
+								"north": {"uv": [62, 62], "uv_size": [2, 2]},
+								"east": {"uv": [62, 62], "uv_size": [2, 2]},
+								"south": {"uv": [62, 62], "uv_size": [2, 2]},
+								"west": {"uv": [62, 62], "uv_size": [2, 2]},
+								"up": {"uv": [64, 64], "uv_size": [-2, -2]},
+								"down": {"uv": [64, 64], "uv_size": [-2, -2]}
+							}
+						},
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 0, 16],
+							"uv": {
+								"down": {"uv": [16, 16], "uv_size": [-16, -16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "north",
+					"parent": "root",
+					"pivot": [7, 0, -7],
+					"cubes": [
+						{
+							"origin": [-8.25, 0, -8.25],
+							"size": [16.5, 16, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16.5, 16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "west",
+					"parent": "root",
+					"pivot": [7, 0, 7],
+					"cubes": [
+						{
+							"origin": [-8, 0, 6],
+							"size": [16.5, 16, 0],
+							"pivot": [7.25, 0, 7],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16.5, 16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "south",
+					"parent": "root",
+					"pivot": [7, 0, 9],
+					"cubes": [
+						{
+							"origin": [-8.25, 0, 8.25],
+							"size": [16.5, 16, 0],
+							"uv": {
+								"south": {"uv": [0, 0], "uv_size": [16.5, 16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "east",
+					"parent": "root",
+					"pivot": [-9, 0, 7],
+					"cubes": [
+						{
+							"origin": [-24.5, 0, 6],
+							"size": [16.5, 16, 0],
+							"pivot": [-9.25, 0, 7],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"south": {"uv": [0, 0], "uv_size": [16.5, 16]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

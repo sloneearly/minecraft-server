@@ -1,0 +1,1460 @@
+{
+  "format_version": "1.18.20",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cc:biome_marker",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:nameable": {
+        "allow_name_tag_renaming": false,
+        "always_show": false
+      },
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:custom_hit_test": {
+        "hitboxes": [
+          {
+            "width": 0,
+            "height": 0,
+            "pivot": [0, 0, 0]
+          }
+        ]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "void",
+            "deals_damage": true
+          },
+          {
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:rain"
+              },
+              {
+                "test": "weather_at_position",
+                "value": "rain"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_rain"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:animal"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "animal"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_animal"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:bamboo"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "bamboo"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_bamboo"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:basalt_deltas"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "basalt_deltas"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_basalt_deltas"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:beach"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "beach"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_beach"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:bee_habitat"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "bee_habitat"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_bee_habitat"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:birch"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "birch"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_birch"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:caves"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "caves"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_caves"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:cold"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "cold"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_cold"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:crimson_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "crimson_forest"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_crimson_forest"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:deep"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "deep"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_deep"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:deep_dark"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "deep_dark"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_deep_dark"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:desert"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "desert"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_desert"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:dripstone_caves"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "dripstone_caves"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_dripstone_caves"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:edge"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "edge"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_edge"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:extreme_hills"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "extreme_hills"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_extreme_hills"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:flower_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "flower_forest"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_flower_forest"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "forest"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_forest"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:frozen"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "frozen"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_frozen"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:frozen_peaks"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "frozen_peaks"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_frozen_peaks"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:grove"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "grove"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_grove"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:hills"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "hills"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_hills"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:ice"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "ice"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_ice"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:ice_plains"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "ice_plains"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_ice_plains"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:jagged_peaks"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "jagged_peaks"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_jagged_peaks"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:jungle"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "jungle"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_jungle"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:lukewarm"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "lukewarm"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_lukewarm"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:lush_caves"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "lush_caves"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_lush_caves"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:mangrove_swamp"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "mangrove_swamp"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_mangrove_swamp"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:meadow"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "meadow"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_meadow"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:mega"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "mega"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_mega"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:mesa"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "mesa"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_mesa"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:monster"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "monster"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_monster"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:mooshroom_island"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "mooshroom_island"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_mooshroom_island"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:pale_garden"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "pale_garden"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_pale_garden"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:mountain"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "mountain"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_mountain"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:mountains"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "mountains"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_mountains"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:mutated"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "mutated"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_mutated"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:nether"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "nether"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_nether"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:nether_wastes"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "nether_wastes"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_nether_wastes"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:netherwart_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "netherwart_forest"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_netherwart_forest"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:no_legacy_worldgen"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "no_legacy_worldgen"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_no_legacy_worldgen"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:ocean"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "ocean"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_ocean"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:overworld"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "overworld"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_overworld"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:overworld_generation"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "overworld_generation"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_overworld_generation"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:plains"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "plains"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_plains"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:plateau"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "plateau"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_plateau"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:rare"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "rare"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_rare"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:river"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "river"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_river"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:roofed"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "roofed"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_roofed"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:savanna"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "savanna"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_savanna"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:shore"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "shore"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_shore"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:snowy_slopes"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "snowy_slopes"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_snowy_slopes"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:soulsand_valley"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "soulsand_valley"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_soulsand_valley"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:spawn_endermen"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "spawn_endermen"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_spawn_endermen"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:spawn_few_piglins"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "spawn_few_piglins"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_spawn_few_piglins"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:spawn_few_zombified_piglins"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "spawn_few_zombified_piglins"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_spawn_few_zombified_piglins"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:spawn_ghast"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "spawn_ghast"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_spawn_ghast"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:spawn_magma_cubes"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "spawn_magma_cubes"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_spawn_magma_cubes"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:spawn_many_magma_cubes"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "spawn_many_magma_cubes"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_spawn_many_magma_cubes"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:spawn_piglin"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "spawn_piglin"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_spawn_piglin"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:spawn_zombified_piglin"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "spawn_zombified_piglin"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_spawn_zombified_piglin"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:stone"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "stone"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_stone"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:swamp"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "swamp"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_swamp"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:taiga"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "taiga"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_taiga"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:the_end"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "the_end"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_the_end"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:warm"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "warm"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_warm"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:warped_forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "warped_forest"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_warped_forest"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_tag",
+                "operator": "!=",
+                "value": "cc:cherry_grove"
+              },
+              {
+                "test": "has_biome_tag",
+                "value": "cherry_grove"
+              }
+            ],
+            "target": "self",
+            "event": "cc:add_cherry_grove"
+          }
+        ]
+      }
+    },
+    "component_groups": {
+      "cc:despawn": {
+        "minecraft:instant_despawn": {}
+      },
+      "cc:despawn_delay": {
+        "minecraft:timer": {
+          "time": 1,
+          "time_down_event": {
+            "event": "cc:despawn",
+            "target": "self"
+          },
+          "looping": true
+        }
+      }
+    },
+    "events": {
+      "cc:despawn": {
+        "add": {
+          "component_groups": ["cc:despawn"]
+        }
+      },
+      "cc:despawn_delay": {
+        "add": {
+          "component_groups": ["cc:despawn_delay"]
+        }
+      },
+      "cc:add_rain": {
+        "queue_command": {
+          "command": "tag @s add cc:rain"
+        }
+      },
+      "cc:add_animal": {
+        "queue_command": {
+          "command": "tag @s add cc:animal"
+        }
+      },
+      "cc:add_bamboo": {
+        "queue_command": {
+          "command": "tag @s add cc:bamboo"
+        }
+      },
+      "cc:add_basalt_deltas": {
+        "queue_command": {
+          "command": "tag @s add cc:basalt_deltas"
+        }
+      },
+      "cc:add_beach": {
+        "queue_command": {
+          "command": "tag @s add cc:beach"
+        }
+      },
+      "cc:add_bee_habitat": {
+        "queue_command": {
+          "command": "tag @s add cc:bee_habitat"
+        }
+      },
+      "cc:add_birch": {
+        "queue_command": {
+          "command": "tag @s add cc:birch"
+        }
+      },
+      "cc:add_caves": {
+        "queue_command": {
+          "command": "tag @s add cc:caves"
+        }
+      },
+      "cc:add_cold": {
+        "queue_command": {
+          "command": "tag @s add cc:cold"
+        }
+      },
+      "cc:add_crimson_forest": {
+        "queue_command": {
+          "command": "tag @s add cc:crimson_forest"
+        }
+      },
+      "cc:add_deep": {
+        "queue_command": {
+          "command": "tag @s add cc:deep"
+        }
+      },
+      "cc:add_deep_dark": {
+        "queue_command": {
+          "command": "tag @s add cc:deep_dark"
+        }
+      },
+      "cc:add_desert": {
+        "queue_command": {
+          "command": "tag @s add cc:desert"
+        }
+      },
+      "cc:add_dripstone_caves": {
+        "queue_command": {
+          "command": "tag @s add cc:dripstone_caves"
+        }
+      },
+      "cc:add_edge": {
+        "queue_command": {
+          "command": "tag @s add cc:edge"
+        }
+      },
+      "cc:add_extreme_hills": {
+        "queue_command": {
+          "command": "tag @s add cc:extreme_hills"
+        }
+      },
+      "cc:add_flower_forest": {
+        "queue_command": {
+          "command": "tag @s add cc:flower_forest"
+        }
+      },
+      "cc:add_forest": {
+        "queue_command": {
+          "command": "tag @s add cc:forest"
+        }
+      },
+      "cc:add_frozen": {
+        "queue_command": {
+          "command": "tag @s add cc:frozen"
+        }
+      },
+      "cc:add_frozen_peaks": {
+        "queue_command": {
+          "command": "tag @s add cc:frozen_peaks"
+        }
+      },
+      "cc:add_grove": {
+        "queue_command": {
+          "command": "tag @s add cc:grove"
+        }
+      },
+      "cc:add_hills": {
+        "queue_command": {
+          "command": "tag @s add cc:hills"
+        }
+      },
+      "cc:add_ice": {
+        "queue_command": {
+          "command": "tag @s add cc:ice"
+        }
+      },
+      "cc:add_ice_plains": {
+        "queue_command": {
+          "command": "tag @s add cc:ice_plains"
+        }
+      },
+      "cc:add_jagged_peaks": {
+        "queue_command": {
+          "command": "tag @s add cc:jagged_peaks"
+        }
+      },
+      "cc:add_jungle": {
+        "queue_command": {
+          "command": "tag @s add cc:jungle"
+        }
+      },
+      "cc:add_lukewarm": {
+        "queue_command": {
+          "command": "tag @s add cc:lukewarm"
+        }
+      },
+      "cc:add_lush_caves": {
+        "queue_command": {
+          "command": "tag @s add cc:lush_caves"
+        }
+      },
+      "cc:add_mangrove_swamp": {
+        "queue_command": {
+          "command": "tag @s add cc:mangrove_swamp"
+        }
+      },
+      "cc:add_meadow": {
+        "queue_command": {
+          "command": "tag @s add cc:meadow"
+        }
+      },
+      "cc:add_mega": {
+        "queue_command": {
+          "command": "tag @s add cc:mega"
+        }
+      },
+      "cc:add_mesa": {
+        "queue_command": {
+          "command": "tag @s add cc:mesa"
+        }
+      },
+      "cc:add_monster": {
+        "queue_command": {
+          "command": "tag @s add cc:monster"
+        }
+      },
+      "cc:add_mooshroom_island": {
+        "queue_command": {
+          "command": "tag @s add cc:mooshroom_island"
+        }
+      },
+      "cc:add_pale_garden": {
+        "queue_command": {
+          "command": "tag @s add cc:pale_garden"
+        }
+      },
+      "cc:add_mountain": {
+        "queue_command": {
+          "command": "tag @s add cc:mountain"
+        }
+      },
+      "cc:add_mountains": {
+        "queue_command": {
+          "command": "tag @s add cc:mountains"
+        }
+      },
+      "cc:add_mutated": {
+        "queue_command": {
+          "command": "tag @s add cc:mutated"
+        }
+      },
+      "cc:add_nether": {
+        "queue_command": {
+          "command": "tag @s add cc:nether"
+        }
+      },
+      "cc:add_nether_wastes": {
+        "queue_command": {
+          "command": "tag @s add cc:nether_wastes"
+        }
+      },
+      "cc:add_netherwart_forest": {
+        "queue_command": {
+          "command": "tag @s add cc:netherwart_forest"
+        }
+      },
+      "cc:add_no_legacy_worldgen": {
+        "queue_command": {
+          "command": "tag @s add cc:no_legacy_worldgen"
+        }
+      },
+      "cc:add_ocean": {
+        "queue_command": {
+          "command": "tag @s add cc:ocean"
+        }
+      },
+      "cc:add_overworld": {
+        "queue_command": {
+          "command": "tag @s add cc:overworld"
+        }
+      },
+      "cc:add_overworld_generation": {
+        "queue_command": {
+          "command": "tag @s add cc:overworld_generation"
+        }
+      },
+      "cc:add_plains": {
+        "queue_command": {
+          "command": "tag @s add cc:plains"
+        }
+      },
+      "cc:add_plateau": {
+        "queue_command": {
+          "command": "tag @s add cc:plateau"
+        }
+      },
+      "cc:add_rare": {
+        "queue_command": {
+          "command": "tag @s add cc:rare"
+        }
+      },
+      "cc:add_river": {
+        "queue_command": {
+          "command": "tag @s add cc:river"
+        }
+      },
+      "cc:add_roofed": {
+        "queue_command": {
+          "command": "tag @s add cc:roofed"
+        }
+      },
+      "cc:add_savanna": {
+        "queue_command": {
+          "command": "tag @s add cc:savanna"
+        }
+      },
+      "cc:add_shore": {
+        "queue_command": {
+          "command": "tag @s add cc:shore"
+        }
+      },
+      "cc:add_snowy_slopes": {
+        "queue_command": {
+          "command": "tag @s add cc:snowy_slopes"
+        }
+      },
+      "cc:add_soulsand_valley": {
+        "queue_command": {
+          "command": "tag @s add cc:soulsand_valley"
+        }
+      },
+      "cc:add_spawn_endermen": {
+        "queue_command": {
+          "command": "tag @s add cc:spawn_endermen"
+        }
+      },
+      "cc:add_spawn_few_piglins": {
+        "queue_command": {
+          "command": "tag @s add cc:spawn_few_piglins"
+        }
+      },
+      "cc:add_spawn_few_zombified_piglins": {
+        "queue_command": {
+          "command": "tag @s add cc:spawn_few_zombified_piglins"
+        }
+      },
+      "cc:add_spawn_ghast": {
+        "queue_command": {
+          "command": "tag @s add cc:spawn_ghast"
+        }
+      },
+      "cc:add_spawn_magma_cubes": {
+        "queue_command": {
+          "command": "tag @s add cc:spawn_magma_cubes"
+        }
+      },
+      "cc:add_spawn_many_magma_cubes": {
+        "queue_command": {
+          "command": "tag @s add cc:spawn_many_magma_cubes"
+        }
+      },
+      "cc:add_spawn_piglin": {
+        "queue_command": {
+          "command": "tag @s add cc:spawn_piglin"
+        }
+      },
+      "cc:add_spawn_zombified_piglin": {
+        "queue_command": {
+          "command": "tag @s add cc:spawn_zombified_piglin"
+        }
+      },
+      "cc:add_stone": {
+        "queue_command": {
+          "command": "tag @s add cc:stone"
+        }
+      },
+      "cc:add_swamp": {
+        "queue_command": {
+          "command": "tag @s add cc:swamp"
+        }
+      },
+      "cc:add_taiga": {
+        "queue_command": {
+          "command": "tag @s add cc:taiga"
+        }
+      },
+      "cc:add_the_end": {
+        "queue_command": {
+          "command": "tag @s add cc:the_end"
+        }
+      },
+      "cc:add_warm": {
+        "queue_command": {
+          "command": "tag @s add cc:warm"
+        }
+      },
+      "cc:add_warped_forest": {
+        "queue_command": {
+          "command": "tag @s add cc:warped_forest"
+        }
+      },
+      "cc:add_cherry_grove": {
+        "queue_command": {
+          "command": "tag @s add cc:cherry_grove"
+        }
+      }
+    }
+  }
+}

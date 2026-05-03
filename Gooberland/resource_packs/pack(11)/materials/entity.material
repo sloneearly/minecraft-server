@@ -1,0 +1,127 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "cc_test:charged_creeper": {
+      "depthFunc": "Always"
+    },
+    "entity_outline:charged_creeper": {
+      "+defines": [ "ALPHA_TEST" ],
+      "+states": [ "InvertCulling" ]
+    },
+    "cc_outline:entity_static": {
+      "+states": ["InvertCulling", "Blending"],
+      "defines": [
+                "USE_EMISSIVE"
+            ]
+    },
+    "cc_entity_enchant:entity_static": {
+      "+defines": [ "USE_UV_ANIM", "USE_EMISSIVE", "USE_COLOR_MASK" ],
+      "+states": [ "Blending", "DisableCulling" ],
+      "blendSrc": "One",
+      "blendDst": "One",
+      "depthFunc": "Equal",
+      "+samplerStates": [
+        {
+          "samplerIndex": 0,
+          "textureWrap": "Repeat"
+        }
+      ]
+    },
+
+    "outline_base:entity_alphatest": {
+      "+states": [ "EnableStencilTest", "StencilWrite" ],
+      "frontFace": {
+        "stencilFunc": "Always",
+        "stencilFailOp": "Replace",
+        "stencilDepthFailOp": "Replace",
+        "stencilPassOp": "Replace"
+      },
+      "backFace": {
+        "stencilFunc": "Always",
+        "stencilFailOp": "Replace",
+        "stencilDepthFailOp": "Replace",
+        "stencilPassOp": "Replace"
+      },
+      "stencilRef": 2
+    },
+    "outline_base_glow:entity_emissive_alpha": {
+      "+states": [ "EnableStencilTest", "StencilWrite" ],
+      "-defines": ["FANCY"],
+      "frontFace": {
+        "stencilFunc": "Always",
+        "stencilFailOp": "Replace",
+        "stencilDepthFailOp": "Replace",
+        "stencilPassOp": "Replace"
+      },
+      "backFace": {
+        "stencilFunc": "Always",
+        "stencilFailOp": "Replace",
+        "stencilDepthFailOp": "Replace",
+        "stencilPassOp": "Replace"
+      },
+      "stencilRef": 2
+    },
+    "outline_base_enchant:entity_alphatest_glint": {
+      "+states": [ "EnableStencilTest", "StencilWrite" ],
+      "frontFace": {
+        "stencilFunc": "Always",
+        "stencilFailOp": "Replace",
+        "stencilDepthFailOp": "Replace",
+        "stencilPassOp": "Replace"
+      },
+      "backFace": {
+        "stencilFunc": "Always",
+        "stencilFailOp": "Replace",
+        "stencilDepthFailOp": "Replace",
+        "stencilPassOp": "Replace"
+      },
+      "stencilRef": 2
+    },
+    "outline:entity_emissive": {
+      "+states": [ "InvertCulling", "EnableStencilTest", "DisableDepthWrite", "Blending" ],
+      "+defines": [ "USE_OVERLAY", "USE_EMISSIVE"],
+      "-defines": [ "FANCY" ],
+      // "depthFunc": "Always",
+      // ^ Uncomment if you want the outline to be
+      //   rendered behind the block.
+      "frontFace": {
+        "stencilFunc": "NotEqual",
+        "stencilPassOp": "Replace"
+      },
+      "backFace": {
+        "stencilFunc": "Equal",
+        "stencilPassOp": "Replace"
+      },
+      "stencilRef": 2,
+      "stencilReadMark": 2,
+      "blendSrc": "One",
+      "blendDst": "One"
+    },
+    "charge_emissive:entity_alphablend": {
+        "+defines": [
+            "USE_EMISSIVE"
+        ],
+        "+states": [
+            "Blending",
+            "DisableCulling",
+            "DisableDepthWrite",
+            "DisableAlphaWrite"
+        ]
+    },
+    "glow:entity_alphablend": {
+			"+states": [
+				"Blending",
+				"DisableDepthWrite",
+				"DisableCulling"
+			],
+		  "defines": [
+				"DISABLE_TINTING",
+				"USE_EMISSIVE",
+				"COLOR_BASED",
+				"NO_TEXTURE"
+			],
+			"blendSrc": "SourceAlpha",
+			"blendDst": "One"
+    }
+  }
+}

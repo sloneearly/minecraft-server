@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "staballoy_leggings_ae8889be"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "item:staballoy_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "leggings:staballoy_leggings",
+      "count": 1
+    }
+  }
+}

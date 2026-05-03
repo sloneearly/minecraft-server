@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "snowy_grass.stem",
+    "heightmap": "snowy_grass.stem_heightmap",
+    "metalness_emissive_roughness_subsurface": "snowy_grass.stem_mers"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "polished_sky_stone_b4f8857c"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:sky_stone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:polished_sky_stone",
+      "count": 4
+    }
+  }
+}

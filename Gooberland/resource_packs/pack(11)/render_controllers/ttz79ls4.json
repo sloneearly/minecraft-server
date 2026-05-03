@@ -1,0 +1,26 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.cc.ice_skeleton": {
+            "arrays": {
+                "textures": {
+                    "Array.texture": [
+                        "Texture.broken",
+                        "Texture.break2",
+                        "Texture.break",
+                        "Texture.default"
+                    ]
+                }
+            },
+            "geometry": "Geometry.default",
+            "textures": [
+                "Array.texture[q.property('cc:shield')]"
+            ],
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ]
+        }
+    }
+}

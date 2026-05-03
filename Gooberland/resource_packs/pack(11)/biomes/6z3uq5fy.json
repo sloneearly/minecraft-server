@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "minecraft:river"
+    },
+    "components": {
+      "minecraft:water_appearance": {
+        "surface_color": "#0084FF"
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "cc:general_fog"
+      },
+      "minecraft:biome_music": {
+        "underwater_music": true
+      }
+    }
+  }
+}

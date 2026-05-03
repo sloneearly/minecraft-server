@@ -1,0 +1,15 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_brewing_mix": {
+    "description": {
+      "identifier": "recipe:brew_awkward_sulfur_gunpowder"
+    },
+
+    "tags": [ "brewing_stand" ],
+
+    "input": "item:mustard_gas_bottle",
+    "reagent": "minecraft:gunpowder",
+    "output": "item:splash_mustard_gas_bottle"
+  }
+
+}

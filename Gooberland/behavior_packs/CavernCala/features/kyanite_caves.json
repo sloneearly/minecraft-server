@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "gen:kyanite_caves"
+		},
+		"features": [
+			"gen:kyanite_patch_feature",
+			"gen:kyanite_top",
+			"gen:kyanite_spike1_feature",
+			"gen:kyanite_spike2_feature"
+		]
+	}
+}

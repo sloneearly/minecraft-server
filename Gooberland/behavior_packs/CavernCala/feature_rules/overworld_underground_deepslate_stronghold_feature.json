@@ -1,0 +1,36 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "gen:overworld_underground_deepslate_stronghold_feature",
+			"places_feature": "generation:deepslate_stronghold_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "overworld"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 120,
+			"coordinate_eval_order": "zyx",
+			"x": 0,
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					-64,
+					-3
+				]
+			},
+			"z": 0
+		}
+	}
+}

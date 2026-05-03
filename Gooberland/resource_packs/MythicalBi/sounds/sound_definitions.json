@@ -1,0 +1,50 @@
+{
+	"format_version": "1.20.20",
+	"sound_definitions": {
+		"mob.ntk_corrupted_raven.ambient": {
+      "__use_legacy_max_distance": "true",
+      "category": "hostile",
+      "max_distance": null,
+      "min_distance": null,
+			"sounds": [
+			  {
+          "name": "sounds/mb/corrupted_raven/corrupted_raven_ambient_01",
+          "weight": 10
+        },
+        {
+          "name": "sounds/mb/corrupted_raven/corrupted_raven_ambient_02",
+          "weight": 50
+        },
+        {
+          "name": "sounds/mb/corrupted_raven/corrupted_raven_ambient_03",
+          "weight": 100
+        },
+        {
+          "name": "sounds/mb/corrupted_raven/corrupted_raven_ambient_04",
+          "weight": 100
+        }
+			]
+		},
+		"mob.ntk_corrupted_raven.death": {
+      "__use_legacy_max_distance": "true",
+      "category": "hostile",
+      "max_distance": null,
+      "min_distance": null,
+			"sounds": [
+				"sounds/mb/corrupted_raven/corrupted_raven_death_01",
+				"sounds/mb/corrupted_raven/corrupted_raven_death_02"
+			]
+		},
+		"mob.ntk_corrupted_raven.hurt": {
+      "__use_legacy_max_distance": "true",
+      "category": "hostile",
+      "max_distance": null,
+      "min_distance": null,
+			"sounds": [
+				"sounds/mb/corrupted_raven/corrupted_raven_hurt_01",
+				"sounds/mb/corrupted_raven/corrupted_raven_hurt_02",
+				"sounds/mb/corrupted_raven/corrupted_raven_hurt_03"
+			]
+		}
+	}
+}

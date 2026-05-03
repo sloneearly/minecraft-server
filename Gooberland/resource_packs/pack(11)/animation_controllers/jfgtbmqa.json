@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc.breach": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "transitions": [
+            {
+              "breach": "query.property('cc:is_breaching') == 1"
+            }
+          ],
+          "blend_transition": 1.0
+        },
+        "breach": {
+          "animations": ["breach"],
+          "transitions": [
+            {
+              "idle": "query.property('cc:is_breaching') == 0 && q.all_animations_finished"
+            }
+          ],
+          "blend_transition": 3.0
+        }
+      }
+    }
+  }
+}

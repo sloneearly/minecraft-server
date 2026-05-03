@@ -1,0 +1,31 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "block:daylight_sensor_from_hyperion"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "!!!", 
+            "###",
+            "~~~"
+        ],
+        "key": {
+            "~": {
+                "item": "block:hyperion_plank_slab"
+            },
+            "#": {
+                "item": "minecraft:quartz"
+            },
+            "!": {
+                "item": "minecraft:glass"
+            }
+        },
+        "result": [
+			{
+				"item": "minecraft:daylight_detector",
+				"count": 1
+			}
+		]
+    }
+}

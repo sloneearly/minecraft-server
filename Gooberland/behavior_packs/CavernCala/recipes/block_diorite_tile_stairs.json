@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "diorite_tile_stairs_a9fc649a"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:diorite_tiles",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:diorite_tile_stairs",
+      "count": 3
+    }
+  }
+}

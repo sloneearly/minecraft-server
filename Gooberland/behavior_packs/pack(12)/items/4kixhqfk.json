@@ -1,0 +1,54 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cc:wooden_battle_axe",
+      "menu_category": {
+        "category": "equipment",
+        "group": "cc:itemGroup.name.battle_axe"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": {
+        "value": true
+      },
+      "minecraft:durability": {
+        "max_durability": 60
+      },
+      "minecraft:fuel": {
+        "duration": 10
+      },
+      "minecraft:damage": {
+        "value": 4
+      },
+      "minecraft:enchantable": {
+        "value": 6,
+        "slot": "sword"
+      },
+      "minecraft:tags": {
+        "tags": ["minecraft:is_axe", "minecraft:wooden_tier", "minecraft:is_tool", "minecraft:is_sword"]
+      },
+      "minecraft:digger": {
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "query.any_tag('minecraft:is_axe_item_destructible')"
+            },
+            "speed": 2
+          }
+        ],
+        "use_efficiency": true
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["minecraft:planks"],
+            "repair_amount": "Math.floor(60 * 0.25)"
+          }
+        ]
+      },
+      "minecraft:icon": "cc:wooden_battle_axe"
+    }
+  }
+}

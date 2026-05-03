@@ -1,0 +1,29 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "item:storm_pearl",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Storm Pearl"
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:transform_materials"
+				]
+			},
+    		        "minecraft:icon": "item:storm_pearl",
+			"minecraft:throwable": {
+				"do_swing_animation": true
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "projectile:storm_pearl"
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "cc:grape_seeds"
+    },
+    "tags": ["cc:cooking_table", "crafting_table"],
+    "ingredients": [
+      {
+        "item": "cc:grape"
+      }
+    ],
+    "result": {
+      "item": "cc:grape_seeds"
+    }
+  }
+}

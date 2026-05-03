@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "compact_amethyst_block_bf7f5142"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:amethyst_shard",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:compact_amethyst_block",
+      "count": 1
+    }
+  }
+}

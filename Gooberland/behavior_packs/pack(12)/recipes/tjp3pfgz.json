@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "cc:gold_bar"
+    },
+    "tags": ["cc:furniture_table"],
+    "ingredients": [
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "cc:gold_bar"
+    }
+  }
+}

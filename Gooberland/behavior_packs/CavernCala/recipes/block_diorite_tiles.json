@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "diorite_tiles_4e5c8755"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:diorite_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:diorite_tiles",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "coconut.2",
+    "heightmap": "coconut.2_heightmap",
+    "metalness_emissive_roughness_subsurface": "coconut.2_mers"
+  }
+}

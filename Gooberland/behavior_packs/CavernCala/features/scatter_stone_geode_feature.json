@@ -1,0 +1,33 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "gen:scatter_stone_geode_feature"
+		},
+		"iterations": 40,
+		"x": {
+			"distribution": "triangle",
+			"extent": [
+				-256,
+				256
+			]
+		},
+		"y": {
+			"distribution": "triangle",
+			"extent": [
+				-16,
+				16
+			]
+		},
+		"z": {
+			"distribution": "triangle",
+			"extent": [
+				-256,
+				256
+			]
+		},
+		"coordinate_eval_order": "zxy",
+		"places_feature": "gen:stone_geode_feature"
+	}
+}

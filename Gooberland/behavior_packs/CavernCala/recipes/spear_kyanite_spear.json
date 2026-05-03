@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "kyanite_spear_f241cae3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  A",
+      " B ",
+      "B  "
+    ],
+    "key": {
+      "A": {
+        "item": "item:kyanite_shard",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "spear:kyanite_spear",
+      "count": 1
+    }
+  }
+}

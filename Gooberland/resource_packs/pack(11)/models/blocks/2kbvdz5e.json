@@ -1,0 +1,72 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "main",
+					"pivot": [-16, 7.25, 0],
+					"cubes": [
+						{
+							"origin": [-6, 0, -6],
+							"size": [4, 16, 16],
+							"pivot": [0, 11, 2],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 64], "material_instance": "beam_side"},
+								"east": {"uv": [0, 0], "uv_size": [64, 64], "material_instance": "beam_side"},
+								"south": {"uv": [48, 0], "uv_size": [16, 64], "material_instance": "beam_side"},
+								"west": {"uv": [0, 0], "uv_size": [64, 64], "material_instance": "beam_side"},
+								"up": {"uv": [0, 0], "uv_size": [16, 64], "material_instance": "beam_top"},
+								"down": {"uv": [0, 64], "uv_size": [16, -64], "material_instance": "beam_top"}
+							}
+						},
+						{
+							"origin": [-2, 12, -6],
+							"size": [12, 4, 16],
+							"pivot": [0, 11, 2],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [16, 0], "uv_size": [48, 16], "material_instance": "beam_side"},
+								"east": {"uv": [1, 16], "uv_size": [16, 4], "material_instance": "beam_top"},
+								"south": {"uv": [16, 0], "uv_size": [48, 16], "material_instance": "beam_side"},
+								"west": {"uv": [0, 0], "uv_size": [64, 16], "material_instance": "beam_side"},
+								"up": {"uv": [17, 0], "uv_size": [47, 64], "material_instance": "beam_top"},
+								"down": {"uv": [16, 64], "uv_size": [48, -64], "material_instance": "beam_top"}
+							}
+						}
+					]
+				},
+				{
+					"name": "beam",
+					"parent": "main",
+					"pivot": [-16, 7.25, 0],
+					"cubes": [
+						{
+							"origin": [-0.24784, 1.69885, -1],
+							"size": [6, 17.5, 6],
+							"pivot": [0, 11, 2],
+							"rotation": [90, 45, 90],
+							"uv": {
+								"north": {"uv": [24, 1], "uv_size": [24, 62], "material_instance": "beam"},
+								"east": {"uv": [48, 0], "uv_size": [16, 64], "material_instance": "beam"},
+								"south": {"uv": [48, 1], "uv_size": [-24, 62], "material_instance": "beam"},
+								"west": {"uv": [0, 1], "uv_size": [24, 62], "material_instance": "beam"},
+								"up": {"uv": [64, 8], "uv_size": [-8, -8], "material_instance": "beam"},
+								"down": {"uv": [64, 8], "uv_size": [-8, -8], "material_instance": "beam"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

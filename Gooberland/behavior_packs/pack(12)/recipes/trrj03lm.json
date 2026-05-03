@@ -1,0 +1,19 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "cc:white_cushion"
+        },
+        "tags": [
+            "cc:furniture_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:white_carpet"
+            }
+        ],
+        "result": {
+            "item": "cc:white_cushion"
+        }
+    }
+}

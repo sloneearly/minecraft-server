@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "cc:biomes/place_savanna_mud"
+    },
+    "places_block": "minecraft:packed_mud",
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false,
+    "may_replace": [
+      "minecraft:grass"
+    ],
+    "may_attach_to": {
+      "top": [
+        "minecraft:air",
+        "cc:dry_grass"
+      ]
+    }
+  }
+}

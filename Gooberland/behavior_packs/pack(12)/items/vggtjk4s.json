@@ -1,0 +1,51 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cc:netherite_battle_axe",
+      "menu_category": {
+        "category": "equipment",
+        "group": "cc:itemGroup.name.battle_axe"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": {
+        "value": true
+      },
+      "minecraft:durability": {
+        "max_durability": 2032
+      },
+      "minecraft:damage": {
+        "value": 8
+      },
+      "minecraft:enchantable": {
+        "value": 16,
+        "slot": "sword"
+      },
+      "minecraft:tags": {
+        "tags": ["minecraft:is_axe", "minecraft:netherite_tier", "minecraft:is_tool", "minecraft:is_sword"]
+      },
+      "minecraft:digger": {
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "query.any_tag('minecraft:is_axe_item_destructible')"
+            },
+            "speed": 8
+          }
+        ],
+        "use_efficiency": true
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["minecraft:netherite_ingot"],
+            "repair_amount": "Math.floor(2032 * 0.25)"
+          }
+        ]
+      },
+      "minecraft:icon": "cc:netherite_battle_axe"
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.cc.mesh_attachable",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 1.5,
+        "visible_bounds_offset": [0, 0.25, 0]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [0, 0, 0],
+          "binding": "q.item_slot_to_bone_name(c.item_slot)",
+          "texture_meshes": [
+            {
+              "texture": "default",
+              "position": [0, -1, -2],
+              "rotation": [0, 45, -90],
+              "local_pivot": [5, 0.5, 12.5]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.cc.mesh.frame_1.attachable",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 1.5,
+        "visible_bounds_offset": [0, 0.25, 0]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [0, 0, 0],
+          "binding": "q.item_slot_to_bone_name(c.item_slot)",
+          "texture_meshes": [
+            {
+              "texture": "frame_1",
+              "position": [0, -1, -2],
+              "rotation": [0, 45, -90],
+              "local_pivot": [5, 0.5, 12.5]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.cc.mesh.frame_2.attachable",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 1.5,
+        "visible_bounds_offset": [0, 0.25, 0]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [0, 0, 0],
+          "binding": "q.item_slot_to_bone_name(c.item_slot)",
+          "texture_meshes": [
+            {
+              "texture": "frame_2",
+              "position": [0, -1, -2],
+              "rotation": [0, 45, -90],
+              "local_pivot": [5, 0.5, 12.5]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.cc.mesh.frame_3.attachable",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 1.5,
+        "visible_bounds_offset": [0, 0.25, 0]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [0, 0, 0],
+          "binding": "q.item_slot_to_bone_name(c.item_slot)",
+          "texture_meshes": [
+            {
+              "texture": "frame_3",
+              "position": [0, -1, -2],
+              "rotation": [0, 45, -90],
+              "local_pivot": [5, 0.5, 12.5]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.cc.mesh.frame_4.attachable",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 1.5,
+        "visible_bounds_offset": [0, 0.25, 0]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [0, 0, 0],
+          "binding": "q.item_slot_to_bone_name(c.item_slot)",
+          "texture_meshes": [
+            {
+              "texture": "frame_4",
+              "position": [0, -1, -2],
+              "rotation": [0, 45, -90],
+              "local_pivot": [5, 0.5, 12.5]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

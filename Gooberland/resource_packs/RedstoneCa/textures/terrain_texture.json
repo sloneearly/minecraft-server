@@ -1,0 +1,363 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.terrain",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        // MACHINERY
+        "wan_redcave:autofarmer_t1_off": {
+            "textures": "textures/wan/redcave/blocks/autofarmer/1_off"
+        },
+        "wan_redcave:autofarmer_t1_unpowered": {
+            "textures": "textures/wan/redcave/blocks/autofarmer/1_unpow"
+        },
+        "wan_redcave:autofarmer_t1_powered": {
+            "textures": "textures/wan/redcave/blocks/autofarmer/1_pow"
+        },
+        "wan_redcave:autofarmer_t1_no_output": {
+            "textures": "textures/wan/redcave/blocks/autofarmer/1_no_out"
+        },
+        "wan_redcave:autofarmer_t1_working": {
+            "textures": "textures/wan/redcave/blocks/autofarmer/1_work"
+        },
+        "wan_redcave:autofarmer_t2_off": {
+            "textures": "textures/wan/redcave/blocks/autofarmer/2_off"
+        },
+        "wan_redcave:autofarmer_t2_unpowered": {
+            "textures": "textures/wan/redcave/blocks/autofarmer/2_unpow"
+        },
+        "wan_redcave:autofarmer_t2_powered": {
+            "textures": "textures/wan/redcave/blocks/autofarmer/2_pow"
+        },
+        "wan_redcave:autofarmer_t2_no_output": {
+            "textures": "textures/wan/redcave/blocks/autofarmer/2_no_out"
+        },
+        "wan_redcave:autofarmer_t2_working": {
+            "textures": "textures/wan/redcave/blocks/autofarmer/2_work"
+        },
+        "wan_redcave:blue_network_core_working": {
+            "textures": "textures/wan/redcave/blocks/network_core/blue"
+        },
+        "wan_redcave:crusher_t1_off": {
+            "textures": "textures/wan/redcave/blocks/crusher/1_off"
+        },
+        "wan_redcave:crusher_t1_unpowered": {
+            "textures": "textures/wan/redcave/blocks/crusher/1_unpow"
+        },
+        "wan_redcave:crusher_t1_powered": {
+            "textures": "textures/wan/redcave/blocks/crusher/1_pow"
+        },
+        "wan_redcave:crusher_t1_no_links": {
+            "textures": "textures/wan/redcave/blocks/crusher/1_no_link"
+        },
+        "wan_redcave:crusher_t1_no_input": {
+            "textures": "textures/wan/redcave/blocks/crusher/1_no_in"
+        },
+        "wan_redcave:crusher_t1_no_output": {
+            "textures": "textures/wan/redcave/blocks/crusher/1_no_out"
+        },
+        "wan_redcave:crusher_t1_working": {
+            "textures": "textures/wan/redcave/blocks/crusher/1_work"
+        },
+        "wan_redcave:crusher_t2_off": {
+            "textures": "textures/wan/redcave/blocks/crusher/2_off"
+        },
+        "wan_redcave:crusher_t2_unpowered": {
+            "textures": "textures/wan/redcave/blocks/crusher/2_unpow"
+        },
+        "wan_redcave:crusher_t2_powered": {
+            "textures": "textures/wan/redcave/blocks/crusher/2_pow"
+        },
+        "wan_redcave:crusher_t2_no_links": {
+            "textures": "textures/wan/redcave/blocks/crusher/2_no_link"
+        },
+        "wan_redcave:crusher_t2_no_input": {
+            "textures": "textures/wan/redcave/blocks/crusher/2_no_in"
+        },
+        "wan_redcave:crusher_t2_no_output": {
+            "textures": "textures/wan/redcave/blocks/crusher/2_no_out"
+        },
+        "wan_redcave:crusher_t2_working": {
+            "textures": "textures/wan/redcave/blocks/crusher/2_work"
+        },
+        "wan_redcave:electric_oven_t1_off": {
+            "textures": "textures/wan/redcave/blocks/electric_oven/1_off"
+        },
+        "wan_redcave:electric_oven_t1_unpowered": {
+            "textures": "textures/wan/redcave/blocks/electric_oven/1_unpow"
+        },
+        "wan_redcave:electric_oven_t1_powered": {
+            "textures": "textures/wan/redcave/blocks/electric_oven/1_pow"
+        },
+        "wan_redcave:electric_oven_t1_no_links": {
+            "textures": "textures/wan/redcave/blocks/electric_oven/1_no_link"
+        },
+        "wan_redcave:electric_oven_t1_no_input": {
+            "textures": "textures/wan/redcave/blocks/electric_oven/1_no_in"
+        },
+        "wan_redcave:electric_oven_t1_no_output": {
+            "textures": "textures/wan/redcave/blocks/electric_oven/1_no_out"
+        },
+        "wan_redcave:electric_oven_t1_working": {
+            "textures": "textures/wan/redcave/blocks/electric_oven/1_work"
+        },
+        "wan_redcave:electric_oven_t2_off": {
+            "textures": "textures/wan/redcave/blocks/electric_oven/2_off"
+        },
+        "wan_redcave:electric_oven_t2_unpowered": {
+            "textures": "textures/wan/redcave/blocks/electric_oven/2_unpow"
+        },
+        "wan_redcave:electric_oven_t2_powered": {
+            "textures": "textures/wan/redcave/blocks/electric_oven/2_pow"
+        },
+        "wan_redcave:electric_oven_t2_no_links": {
+            "textures": "textures/wan/redcave/blocks/electric_oven/2_no_link"
+        },
+        "wan_redcave:electric_oven_t2_no_input": {
+            "textures": "textures/wan/redcave/blocks/electric_oven/2_no_in"
+        },
+        "wan_redcave:electric_oven_t2_no_output": {
+            "textures": "textures/wan/redcave/blocks/electric_oven/2_no_out"
+        },
+        "wan_redcave:electric_oven_t2_working": {
+            "textures": "textures/wan/redcave/blocks/electric_oven/2_work"
+        },
+        "wan_redcave:generator_t1_working": {
+            "textures": "textures/wan/redcave/blocks/generator/1"
+        },
+        "wan_redcave:generator_t2_working": {
+            "textures": "textures/wan/redcave/blocks/generator/2"
+        },
+        "wan_redcave:network_access_panel_off": {
+            "textures": "textures/wan/redcave/blocks/network_access_panel/off"
+        },
+        "wan_redcave:network_access_panel_unpowered": {
+            "textures": "textures/wan/redcave/blocks/network_access_panel/unpow"
+        },
+        "wan_redcave:network_access_panel_powered": {
+            "textures": "textures/wan/redcave/blocks/network_access_panel/pow"
+        },
+        "wan_redcave:network_access_panel_no_links": {
+            "textures": "textures/wan/redcave/blocks/network_access_panel/no_link"
+        },
+        "wan_redcave:network_access_panel_no_input": {
+            "textures": "textures/wan/redcave/blocks/network_access_panel/no_in"
+        },
+        "wan_redcave:network_access_panel_no_output": {
+            "textures": "textures/wan/redcave/blocks/network_access_panel/no_out"
+        },
+        "wan_redcave:network_access_panel_working": {
+            "textures": "textures/wan/redcave/blocks/network_access_panel/work"
+        },
+        "wan_redcave:red_network_core_working": {
+            "textures": "textures/wan/redcave/blocks/network_core/red"
+        },
+        "wan_redcave:quarry_off": {
+            "textures": "textures/wan/redcave/blocks/quarry/off"
+        },
+        "wan_redcave:quarry_unpowered": {
+            "textures": "textures/wan/redcave/blocks/quarry/unpow"
+        },
+        "wan_redcave:quarry_powered": {
+            "textures": "textures/wan/redcave/blocks/quarry/pow"
+        },
+        "wan_redcave:quarry_no_output": {
+            "textures": "textures/wan/redcave/blocks/quarry/no_out"
+        },
+        "wan_redcave:quarry_working": {
+            "textures": "textures/wan/redcave/blocks/quarry/work"
+        },
+        "wan_redcave:wireless_hopper_off": {
+            "textures": "textures/wan/redcave/blocks/wireless_hopper/off"
+        },
+        "wan_redcave:wireless_hopper_unpowered": {
+            "textures": "textures/wan/redcave/blocks/wireless_hopper/unpow"
+        },
+        "wan_redcave:wireless_hopper_powered": {
+            "textures": "textures/wan/redcave/blocks/wireless_hopper/pow"
+        },
+        "wan_redcave:wireless_hopper_no_links": {
+            "textures": "textures/wan/redcave/blocks/wireless_hopper/no_link"
+        },
+        "wan_redcave:wireless_hopper_no_input": {
+            "textures": "textures/wan/redcave/blocks/wireless_hopper/no_in"
+        },
+        "wan_redcave:wireless_hopper_no_output": {
+            "textures": "textures/wan/redcave/blocks/wireless_hopper/no_out"
+        },
+        "wan_redcave:wireless_hopper_working": {
+            "textures": "textures/wan/redcave/blocks/wireless_hopper/work"
+        },
+
+
+
+        // REDSTONE CAVE
+        "wan_redcave:redstone_dirt": {
+            "textures": "textures/wan/redcave/blocks/red_surface/dirt"
+        },
+        "wan_redcave:redstone_grass_side": {
+            "textures": "textures/wan/redcave/blocks/red_surface/grass_side"
+        },
+        "wan_redcave:redstone_grass_top": {
+            "textures": "textures/wan/redcave/blocks/red_surface/grass_top"
+        },
+        "wan_redcave:hematite_redstone_inclusion": {
+            "textures": {
+                "variations": [
+                    { "path": "textures/wan/redcave/blocks/hem_inclusion/0", "weight": 1 },
+                    { "path": "textures/wan/redcave/blocks/hem_inclusion/1", "weight": 1 }
+                ]
+            }
+        },
+        "wan_redcave:hematite_redstone_ore": {
+            "textures": "textures/wan/redcave/blocks/hem_redstone_ore/0"
+        },
+        "wan_redcave:hematite_stalactite_tip": {
+            "textures": "textures/wan/redcave/blocks/hem_stalactite/tip_0"
+        },
+        "wan_redcave:hematite_stalactite": {
+            "textures": "textures/wan/redcave/blocks/hem_stalactite/0"
+        },
+        "wan_redcave:hematite_stalagmite_tip": {
+            "textures": "textures/wan/redcave/blocks/hem_stalagmite/tip_0"
+        },
+        "wan_redcave:hematite_stalagmite": {
+            "textures": "textures/wan/redcave/blocks/hem_stalagmite/0"
+        },
+        "wan_redcave:hematite": {
+            "textures": {
+                "variations": [
+                    { "path": "textures/wan/redcave/blocks/hematite/0", "weight": 1 },
+                    { "path": "textures/wan/redcave/blocks/hematite/1", "weight": 1 },
+                    { "path": "textures/wan/redcave/blocks/hematite/2", "weight": 1 },
+                    { "path": "textures/wan/redcave/blocks/hematite/3", "weight": 1 }
+                ]
+            }
+        },
+        "wan_redcave:magnetite_redlight_curve_n": {
+            "textures": "textures/wan/redcave/blocks/magn_redlight_curve/n"
+        },
+        "wan_redcave:magnetite_redlight_curve_e": {
+            "textures": "textures/wan/redcave/blocks/magn_redlight_curve/e"
+        },
+        "wan_redcave:magnetite_redlight_curve_s": {
+            "textures": "textures/wan/redcave/blocks/magn_redlight_curve/s"
+        },
+        "wan_redcave:magnetite_redlight_curve_w": {
+            "textures": "textures/wan/redcave/blocks/magn_redlight_curve/w"
+        },
+        "wan_redcave:magnetite_redlight_horizontal": {
+            "textures": "textures/wan/redcave/blocks/magn_redlight_hor/0"
+        },
+        "wan_redcave:magnetite_redlight_intersection": {
+            "textures": "textures/wan/redcave/blocks/magn_redlight_inter/0"
+        },
+        "wan_redcave:magnetite_redlight_perpendicular_n": {
+            "textures": "textures/wan/redcave/blocks/magn_redlight_perp/n"
+        },
+        "wan_redcave:magnetite_redlight_perpendicular_e": {
+            "textures": "textures/wan/redcave/blocks/magn_redlight_perp/e"
+        },
+        "wan_redcave:magnetite_redlight_perpendicular_s": {
+            "textures": "textures/wan/redcave/blocks/magn_redlight_perp/s"
+        },
+        "wan_redcave:magnetite_redlight_perpendicular_w": {
+            "textures": "textures/wan/redcave/blocks/magn_redlight_perp/w"
+        },
+        "wan_redcave:magnetite_redlight_vertical_n": {
+            "textures": "textures/wan/redcave/blocks/magn_redlight_ver/n"
+        },
+        "wan_redcave:magnetite_redlight_vertical_e": {
+            "textures": "textures/wan/redcave/blocks/magn_redlight_ver/e"
+        },
+        "wan_redcave:magnetite_redlight_vertical_s": {
+            "textures": "textures/wan/redcave/blocks/magn_redlight_ver/s"
+        },
+        "wan_redcave:magnetite_redlight_vertical_w": {
+            "textures": "textures/wan/redcave/blocks/magn_redlight_ver/w"
+        },
+        "wan_redcave:magnetite_redstone_inclusion": {
+            "textures": {
+                "variations": [
+                    { "path": "textures/wan/redcave/blocks/magn_inclusion/0", "weight": 1 },
+                    { "path": "textures/wan/redcave/blocks/magn_inclusion/1", "weight": 1 }
+                ]
+            }
+        },
+        "wan_redcave:magnetite_redstone_ore": {
+            "textures": "textures/wan/redcave/blocks/magn_redstone_ore/0"
+        },
+        "wan_redcave:magnetite_soil": {
+            "textures": {
+                "variations": [
+                    { "path": "textures/wan/redcave/blocks/magn_soil/0", "weight": 1 },
+                    { "path": "textures/wan/redcave/blocks/magn_soil/1", "weight": 1 },
+                    { "path": "textures/wan/redcave/blocks/magn_soil/2", "weight": 1 },
+                    { "path": "textures/wan/redcave/blocks/magn_soil/3", "weight": 1 }
+                ]
+            }
+        },
+        "wan_redcave:magnetite": {
+            "textures": {
+                "variations": [
+                    { "path": "textures/wan/redcave/blocks/magnetite/0", "weight": 1 },
+                    { "path": "textures/wan/redcave/blocks/magnetite/1", "weight": 1 },
+                    { "path": "textures/wan/redcave/blocks/magnetite/2", "weight": 1 },
+                    { "path": "textures/wan/redcave/blocks/magnetite/3", "weight": 1 }
+                ]
+            }
+        },
+        "wan_redcave:polished_magnetite": {
+            "textures": {
+                "variations": [
+                    { "path": "textures/wan/redcave/blocks/polished_magnetite/0", "weight": 30 },
+                    { "path": "textures/wan/redcave/blocks/polished_magnetite/1", "weight": 10 },
+                    { "path": "textures/wan/redcave/blocks/polished_magnetite/2", "weight": 10 },
+                    { "path": "textures/wan/redcave/blocks/polished_magnetite/3", "weight": 10 },
+                    { "path": "textures/wan/redcave/blocks/polished_magnetite/4", "weight": 10 },
+                    { "path": "textures/wan/redcave/blocks/polished_magnetite/5", "weight": 10 },
+                    { "path": "textures/wan/redcave/blocks/polished_magnetite/6", "weight": 10 },
+                    { "path": "textures/wan/redcave/blocks/polished_magnetite/7", "weight": 10 }
+                ]
+            }
+        },
+        "wan_redcave:pure_redstone_block": {
+            "textures": "textures/wan/redcave/blocks/pure_red_block/0"
+        },
+        "wan_redcave:pure_redstone_cluster": {
+            "textures": "textures/wan/redcave/blocks/pure_red_cluster/0"
+        },
+        "wan_redcave:pure_redstone_large_bud": {
+            "textures": "textures/wan/redcave/blocks/pure_red_bud/l"
+        },
+        "wan_redcave:pure_redstone_medium_bud": {
+            "textures": "textures/wan/redcave/blocks/pure_red_bud/m"
+        },
+        "wan_redcave:pure_redstone_small_bud": {
+            "textures": "textures/wan/redcave/blocks/pure_red_bud/s"
+        },
+        "wan_redcave:redstone_drip": {
+            "textures": "textures/wan/redcave/blocks/redstone_drip/side"
+        },
+        "wan_redcave:redstone_drip_bottom": {
+            "textures": {
+                "variations": [
+                    { "path": "textures/wan/redcave/blocks/redstone_drip/down_0", "weight": 1 },
+                    { "path": "textures/wan/redcave/blocks/redstone_drip/down_1", "weight": 1 }
+                ]
+            }
+        },
+        "wan_redcave:redstone_glass": {
+            "textures": "textures/wan/redcave/blocks/redstone_glass/0"
+        },
+        "wan_redcave:redstone_growth_short": {
+            "textures": "textures/wan/redcave/blocks/redstone_growth/s"
+        },
+        "wan_redcave:redstone_growth_tall": {
+            "textures": "textures/wan/redcave/blocks/redstone_growth/t"
+        },
+        "wan_redcave:redstone_sprout": {
+            "textures": "textures/wan/redcave/blocks/redstone_sprout/0"
+        }
+    }
+}

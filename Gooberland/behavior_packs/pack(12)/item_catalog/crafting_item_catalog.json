@@ -1,0 +1,818 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "construction",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "cc:oak_counter",
+              "name": "cc:itemGroup.name.counter"
+            },
+            "items": [
+              "cc:oak_counter",
+              "cc:spruce_counter",
+              "cc:birch_counter",
+              "cc:jungle_counter",
+              "cc:acacia_counter",
+              "cc:dark_oak_counter",
+              "cc:mangrove_counter",
+              "cc:cherry_counter",
+              "cc:pale_oak_counter",
+              "cc:bamboo_counter",
+              "cc:crimson_counter",
+              "cc:warped_counter"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:oak_chair",
+              "name": "cc:itemGroup.name.chair"
+            },
+            "items": [
+              "cc:oak_chair",
+              "cc:spruce_chair",
+              "cc:birch_chair",
+              "cc:jungle_chair",
+              "cc:acacia_chair",
+              "cc:dark_oak_chair",
+              "cc:mangrove_chair",
+              "cc:cherry_chair",
+              "cc:pale_oak_chair",
+              "cc:bamboo_chair",
+              "cc:crimson_chair",
+              "cc:warped_chair",
+              "cc:gold_chair"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:oak_stool",
+              "name": "cc:itemGroup.name.stool"
+            },
+            "items": [
+              "cc:oak_stool",
+              "cc:spruce_stool",
+              "cc:birch_stool",
+              "cc:jungle_stool",
+              "cc:acacia_stool",
+              "cc:dark_oak_stool",
+              "cc:mangrove_stool",
+              "cc:cherry_stool",
+              "cc:pale_oak_stool",
+              "cc:bamboo_stool",
+              "cc:crimson_stool",
+              "cc:warped_stool"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:oak_table",
+              "name": "cc:itemGroup.name.table"
+            },
+            "items": [
+              "cc:oak_table",
+              "cc:spruce_table",
+              "cc:birch_table",
+              "cc:jungle_table",
+              "cc:acacia_table",
+              "cc:dark_oak_table",
+              "cc:mangrove_table",
+              "cc:cherry_table",
+              "cc:pale_oak_table",
+              "cc:bamboo_table",
+              "cc:crimson_table",
+              "cc:warped_table",
+              "cc:gold_table"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:oak_chandelier",
+              "name": "cc:itemGroup.name.chandelier"
+            },
+            "items": [
+              "cc:oak_chandelier",
+              "cc:spruce_chandelier",
+              "cc:birch_chandelier",
+              "cc:jungle_chandelier",
+              "cc:acacia_chandelier",
+              "cc:dark_oak_chandelier",
+              "cc:mangrove_chandelier",
+              "cc:cherry_chandelier",
+              "cc:pale_oak_chandelier",
+              "cc:bamboo_chandelier",
+              "cc:crimson_chandelier",
+              "cc:warped_chandelier",
+              "cc:gold_chandelier"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:oak_candle_stand",
+              "name": "cc:itemGroup.name.candle_stand"
+            },
+            "items": [
+              "cc:oak_candle_stand",
+              "cc:spruce_candle_stand",
+              "cc:birch_candle_stand",
+              "cc:jungle_candle_stand",
+              "cc:acacia_candle_stand",
+              "cc:dark_oak_candle_stand",
+              "cc:mangrove_candle_stand",
+              "cc:cherry_candle_stand",
+              "cc:pale_oak_candle_stand",
+              "cc:bamboo_candle_stand",
+              "cc:crimson_candle_stand",
+              "cc:warped_candle_stand",
+              "cc:gold_candle_stand"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:oak_wall_plank",
+              "name": "cc:itemGroup.name.wall_plank"
+            },
+            "items": [
+              "cc:oak_wall_plank",
+              "cc:spruce_wall_plank",
+              "cc:birch_wall_plank",
+              "cc:jungle_wall_plank",
+              "cc:acacia_wall_plank",
+              "cc:dark_oak_wall_plank",
+              "cc:mangrove_wall_plank",
+              "cc:cherry_wall_plank",
+              "cc:pale_oak_wall_plank",
+              "cc:bamboo_wall_plank",
+              "cc:crimson_wall_plank",
+              "cc:warped_wall_plank"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:white_awning",
+              "name": "cc:itemGroup.name.awning"
+            },
+            "items": [
+              "cc:white_awning",
+              "cc:light_gray_awning",
+              "cc:gray_awning",
+              "cc:black_awning",
+              "cc:brown_awning",
+              "cc:red_awning",
+              "cc:orange_awning",
+              "cc:yellow_awning",
+              "cc:lime_awning",
+              "cc:green_awning",
+              "cc:cyan_awning",
+              "cc:light_blue_awning",
+              "cc:blue_awning",
+              "cc:purple_awning",
+              "cc:magenta_awning",
+              "cc:pink_awning"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:white_cushion",
+              "name": "cc:itemGroup.name.cushion"
+            },
+            "items": [
+              "cc:white_cushion",
+              "cc:light_gray_cushion",
+              "cc:gray_cushion",
+              "cc:black_cushion",
+              "cc:brown_cushion",
+              "cc:red_cushion",
+              "cc:orange_cushion",
+              "cc:yellow_cushion",
+              "cc:lime_cushion",
+              "cc:green_cushion",
+              "cc:cyan_cushion",
+              "cc:light_blue_cushion",
+              "cc:blue_cushion",
+              "cc:purple_cushion",
+              "cc:magenta_cushion",
+              "cc:pink_cushion"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:oak_log_pile",
+              "name": "cc:itemGroup.name.log_pile"
+            },
+            "items": [
+              "cc:oak_log_pile",
+              "cc:spruce_log_pile",
+              "cc:birch_log_pile",
+              "cc:jungle_log_pile",
+              "cc:acacia_log_pile",
+              "cc:dark_oak_log_pile",
+              "cc:mangrove_log_pile",
+              "cc:cherry_log_pile",
+              "cc:pale_oak_log_pile",
+              "cc:crimson_log_pile",
+              "cc:warped_log_pile"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:bottles",
+              "name": "cc:itemGroup.name.trinket"
+            },
+            "items": [
+              "cc:bottles",
+              "cc:scroll",
+              "cc:books",
+              "cc:churn",
+              "cc:iron_bar",
+              "cc:gold_bar"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:mobs_wiki_trinket",
+              "name": "cc:itemGroup.name.wiki_books"
+            },
+            "items": [
+              "cc:furniture_wiki_trinket",
+              "cc:mobs_wiki_trinket",
+              "cc:cooking_wiki_trinket"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:banner_pillager",
+              "name": "cc:itemGroup.name.special_banner"
+            },
+            "items": [
+              "cc:banner_pillager",
+              "cc:banner_nether",
+              "cc:banner_end",
+              "cc:banner_savanna",
+              "cc:banner_swamp",
+              "cc:banner_desert",
+              "cc:banner_snow",
+              "cc:banner_mesa",
+              "cc:banner_forest",
+              "cc:banner_jungle"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:decorative_quartz_pillar",
+              "name": "cc:itemGroup.name.decorative_pillar"
+            },
+            "items": [
+              "cc:decorative_quartz_pillar",
+              "cc:decorative_sandstone_pillar",
+              "cc:decorative_stone_pillar",
+              "cc:decorative_deepslate_pillar"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:big_flower_pot",
+              "name": "cc:itemGroup.name.big_flower_pot"
+            },
+            "items": [
+              "cc:big_flower_pot",
+              "cc:quartz_big_flower_pot",
+              "cc:stone_big_flower_pot",
+              "cc:sandstone_big_flower_pot",
+              "cc:deepslate_big_flower_pot"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:clay_vase",
+              "name": "cc:itemGroup.name.vase"
+            },
+            "items": [
+              "cc:clay_vase",
+              "cc:quartz_vase",
+              "cc:stone_vase",
+              "cc:sandstone_vase",
+              "cc:deepslate_vase"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "cc:advanced_white_bed",
+              "name": "cc:itemGroup.name.advanced_bed"
+            },
+            "items": [
+              "cc:advanced_white_bed",
+              "cc:advanced_light_gray_bed",
+              "cc:advanced_gray_bed",
+              "cc:advanced_black_bed",
+              "cc:advanced_brown_bed",
+              "cc:advanced_red_bed",
+              "cc:advanced_orange_bed",
+              "cc:advanced_yellow_bed",
+              "cc:advanced_lime_bed",
+              "cc:advanced_green_bed",
+              "cc:advanced_cyan_bed",
+              "cc:advanced_light_blue_bed",
+              "cc:advanced_blue_bed",
+              "cc:advanced_purple_bed",
+              "cc:advanced_magenta_bed",
+              "cc:advanced_pink_bed"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:market_trim_farming_1",
+              "name": "cc:itemGroup.name.market_trim"
+            },
+            "items": [
+              "cc:market_trim_farming_1",
+              "cc:market_trim_farming_2",
+              "cc:market_trim_farming_3",
+              "cc:market_trim_farming_4",
+              "cc:market_trim_farming_5",
+              "cc:market_trim_fishing_1",
+              "cc:market_trim_fishing_2",
+              "cc:market_trim_fishing_3",
+              "cc:market_trim_fishing_4",
+              "cc:market_trim_fishing_5",
+              "cc:market_trim_adventure_1",
+              "cc:market_trim_adventure_2",
+              "cc:market_trim_adventure_3",
+              "cc:market_trim_adventure_4",
+              "cc:market_trim_adventure_5",
+              "cc:market_trim_cooking_1",
+              "cc:market_trim_cooking_2",
+              "cc:market_trim_cooking_3",
+              "cc:market_trim_cooking_4",
+              "cc:market_trim_cooking_5",
+              "cc:market_trim_mining_1",
+              "cc:market_trim_mining_2",
+              "cc:market_trim_mining_3",
+              "cc:market_trim_mining_4",
+              "cc:market_trim_mining_5"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:cabbage_crate",
+              "name": "cc:itemGroup.name.crop_storage"
+            },
+            "items": [
+              "cc:apple_crate",
+              "cc:beetroot_crate",
+              "cc:blue_berries_crate",
+              "cc:broccoli_crate",
+              "cc:cabbage_crate",
+              "cc:carrot_crate",
+              "cc:tomato_crate",
+              "cc:strawberry_crate",
+              "cc:cauliflower_crate",
+              "cc:corn_crate",
+              "cc:pineapple_crate",
+              "cc:orange_crate",
+              "cc:onion_crate",
+              "cc:lemon_crate",
+              "cc:grape_crate",
+              "cc:garlic_crate",
+              "cc:bell_pepper_crate",
+              "cc:banana_crate",
+              "cc:rice_crate",
+              "cc:coconut_crate",
+              "cc:peanut_crate",
+              "cc:potato_crate",
+              "cc:sweet_berries_crate"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:stove",
+              "name": "cc:itemGroup.name.cooking_utilities"
+            },
+            "items": [
+              "cc:stove",
+              "cc:pan_base",
+              "cc:cooking_pot_base",
+              "cc:cooking_table"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:soul_spirit_bottle",
+              "name": "cc:itemGroup.name.spirit"
+            },
+            "items": [
+              "cc:soul_spirit_bottle",
+              "cc:fire_spirit_bottle",
+              "cc:ice_spirit_bottle",
+              "cc:poison_spirit_bottle",
+              "cc:lightning_spirit_bottle"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:farming_1_1_quest",
+              "name": "cc:itemGroup.name.quest"
+            },
+            "items": [
+              "cc:farming_1_1_quest",
+              "cc:farming_1_2_quest",
+              "cc:farming_1_3_quest",
+              "cc:farming_1_4_quest",
+              "cc:farming_1_5_quest",
+              "cc:farming_2_1_quest",
+              "cc:farming_2_2_quest",
+              "cc:farming_2_3_quest",
+              "cc:farming_2_4_quest",
+              "cc:farming_2_5_quest",
+              "cc:farming_3_1_quest",
+              "cc:farming_3_2_quest",
+              "cc:farming_3_3_quest",
+              "cc:farming_3_4_quest",
+              "cc:farming_3_5_quest",
+              "cc:farming_4_1_quest",
+              "cc:farming_4_2_quest",
+              "cc:farming_4_3_quest",
+              "cc:farming_4_4_quest",
+              "cc:farming_4_5_quest",
+              "cc:farming_5_1_quest",
+              "cc:farming_5_2_quest",
+              "cc:farming_5_3_quest",
+              "cc:farming_5_4_quest",
+              "cc:farming_5_5_quest",
+              "cc:mining_1_1_quest",
+              "cc:mining_1_2_quest",
+              "cc:mining_1_3_quest",
+              "cc:mining_1_4_quest",
+              "cc:mining_1_5_quest",
+              "cc:mining_2_1_quest",
+              "cc:mining_2_2_quest",
+              "cc:mining_2_3_quest",
+              "cc:mining_2_4_quest",
+              "cc:mining_2_5_quest",
+              "cc:mining_3_1_quest",
+              "cc:mining_3_2_quest",
+              "cc:mining_3_3_quest",
+              "cc:mining_3_4_quest",
+              "cc:mining_3_5_quest",
+              "cc:mining_4_1_quest",
+              "cc:mining_4_2_quest",
+              "cc:mining_4_3_quest",
+              "cc:mining_4_4_quest",
+              "cc:mining_4_5_quest",
+              "cc:mining_5_1_quest",
+              "cc:mining_5_2_quest",
+              "cc:mining_5_3_quest",
+              "cc:mining_5_4_quest",
+              "cc:mining_5_5_quest",
+              "cc:fishing_1_1_quest",
+              "cc:fishing_1_2_quest",
+              "cc:fishing_1_3_quest",
+              "cc:fishing_1_4_quest",
+              "cc:fishing_1_5_quest",
+              "cc:fishing_2_1_quest",
+              "cc:fishing_2_2_quest",
+              "cc:fishing_2_3_quest",
+              "cc:fishing_2_4_quest",
+              "cc:fishing_2_5_quest",
+              "cc:fishing_3_1_quest",
+              "cc:fishing_3_2_quest",
+              "cc:fishing_3_3_quest",
+              "cc:fishing_3_4_quest",
+              "cc:fishing_3_5_quest",
+              "cc:fishing_4_1_quest",
+              "cc:fishing_4_2_quest",
+              "cc:fishing_4_3_quest",
+              "cc:fishing_4_4_quest",
+              "cc:fishing_4_5_quest",
+              "cc:fishing_5_1_quest",
+              "cc:fishing_5_2_quest",
+              "cc:fishing_5_3_quest",
+              "cc:fishing_5_4_quest",
+              "cc:fishing_5_5_quest",
+              "cc:adventure_1_1_quest",
+              "cc:adventure_1_2_quest",
+              "cc:adventure_1_3_quest",
+              "cc:adventure_1_4_quest",
+              "cc:adventure_1_5_quest",
+              "cc:adventure_2_1_quest",
+              "cc:adventure_2_2_quest",
+              "cc:adventure_2_3_quest",
+              "cc:adventure_2_4_quest",
+              "cc:adventure_2_5_quest",
+              "cc:adventure_3_1_quest",
+              "cc:adventure_3_2_quest",
+              "cc:adventure_3_3_quest",
+              "cc:adventure_3_4_quest",
+              "cc:adventure_3_5_quest",
+              "cc:adventure_4_1_quest",
+              "cc:adventure_4_2_quest",
+              "cc:adventure_4_3_quest",
+              "cc:adventure_4_4_quest",
+              "cc:adventure_4_5_quest",
+              "cc:adventure_5_1_quest",
+              "cc:adventure_5_2_quest",
+              "cc:adventure_5_3_quest",
+              "cc:adventure_5_4_quest",
+              "cc:adventure_5_5_quest",
+              "cc:farming_1_1_quest_solved",
+              "cc:farming_1_2_quest_solved",
+              "cc:farming_1_3_quest_solved",
+              "cc:farming_1_4_quest_solved",
+              "cc:farming_1_5_quest_solved",
+              "cc:farming_2_1_quest_solved",
+              "cc:farming_2_2_quest_solved",
+              "cc:farming_2_3_quest_solved",
+              "cc:farming_2_4_quest_solved",
+              "cc:farming_2_5_quest_solved",
+              "cc:farming_3_1_quest_solved",
+              "cc:farming_3_2_quest_solved",
+              "cc:farming_3_3_quest_solved",
+              "cc:farming_3_4_quest_solved",
+              "cc:farming_3_5_quest_solved",
+              "cc:farming_4_1_quest_solved",
+              "cc:farming_4_2_quest_solved",
+              "cc:farming_4_3_quest_solved",
+              "cc:farming_4_4_quest_solved",
+              "cc:farming_4_5_quest_solved",
+              "cc:farming_5_1_quest_solved",
+              "cc:farming_5_2_quest_solved",
+              "cc:farming_5_3_quest_solved",
+              "cc:farming_5_4_quest_solved",
+              "cc:farming_5_5_quest_solved",
+              "cc:mining_1_1_quest_solved",
+              "cc:mining_1_2_quest_solved",
+              "cc:mining_1_3_quest_solved",
+              "cc:mining_1_4_quest_solved",
+              "cc:mining_1_5_quest_solved",
+              "cc:mining_2_1_quest_solved",
+              "cc:mining_2_2_quest_solved",
+              "cc:mining_2_3_quest_solved",
+              "cc:mining_2_4_quest_solved",
+              "cc:mining_2_5_quest_solved",
+              "cc:mining_3_1_quest_solved",
+              "cc:mining_3_2_quest_solved",
+              "cc:mining_3_3_quest_solved",
+              "cc:mining_3_4_quest_solved",
+              "cc:mining_3_5_quest_solved",
+              "cc:mining_4_1_quest_solved",
+              "cc:mining_4_2_quest_solved",
+              "cc:mining_4_3_quest_solved",
+              "cc:mining_4_4_quest_solved",
+              "cc:mining_4_5_quest_solved",
+              "cc:mining_5_1_quest_solved",
+              "cc:mining_5_2_quest_solved",
+              "cc:mining_5_3_quest_solved",
+              "cc:mining_5_4_quest_solved",
+              "cc:mining_5_5_quest_solved",
+              "cc:fishing_1_1_quest_solved",
+              "cc:fishing_1_2_quest_solved",
+              "cc:fishing_1_3_quest_solved",
+              "cc:fishing_1_4_quest_solved",
+              "cc:fishing_1_5_quest_solved",
+              "cc:fishing_2_1_quest_solved",
+              "cc:fishing_2_2_quest_solved",
+              "cc:fishing_2_3_quest_solved",
+              "cc:fishing_2_4_quest_solved",
+              "cc:fishing_2_5_quest_solved",
+              "cc:fishing_3_1_quest_solved",
+              "cc:fishing_3_2_quest_solved",
+              "cc:fishing_3_3_quest_solved",
+              "cc:fishing_3_4_quest_solved",
+              "cc:fishing_3_5_quest_solved",
+              "cc:fishing_4_1_quest_solved",
+              "cc:fishing_4_2_quest_solved",
+              "cc:fishing_4_3_quest_solved",
+              "cc:fishing_4_4_quest_solved",
+              "cc:fishing_4_5_quest_solved",
+              "cc:fishing_5_1_quest_solved",
+              "cc:fishing_5_2_quest_solved",
+              "cc:fishing_5_3_quest_solved",
+              "cc:fishing_5_4_quest_solved",
+              "cc:fishing_5_5_quest_solved",
+              "cc:adventure_1_1_quest_solved",
+              "cc:adventure_1_2_quest_solved",
+              "cc:adventure_1_3_quest_solved",
+              "cc:adventure_1_4_quest_solved",
+              "cc:adventure_1_5_quest_solved",
+              "cc:adventure_2_1_quest_solved",
+              "cc:adventure_2_2_quest_solved",
+              "cc:adventure_2_3_quest_solved",
+              "cc:adventure_2_4_quest_solved",
+              "cc:adventure_2_5_quest_solved",
+              "cc:adventure_3_1_quest_solved",
+              "cc:adventure_3_2_quest_solved",
+              "cc:adventure_3_3_quest_solved",
+              "cc:adventure_3_4_quest_solved",
+              "cc:adventure_3_5_quest_solved",
+              "cc:adventure_4_1_quest_solved",
+              "cc:adventure_4_2_quest_solved",
+              "cc:adventure_4_3_quest_solved",
+              "cc:adventure_4_4_quest_solved",
+              "cc:adventure_4_5_quest_solved",
+              "cc:adventure_5_1_quest_solved",
+              "cc:adventure_5_2_quest_solved",
+              "cc:adventure_5_3_quest_solved",
+              "cc:adventure_5_4_quest_solved",
+              "cc:adventure_5_5_quest_solved",
+              "cc:big_foot_quest",
+              "cc:big_foot_quest_solved",
+              "cc:yeti_quest",
+              "cc:yeti_quest_solved"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "nature",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "cc:hollow_oak_log",
+              "name": "cc:itemGroup.name.hollow_log"
+            },
+            "items": [
+              "cc:hollow_oak_log",
+              "cc:stripped_hollow_oak_log",
+              "cc:hollow_spruce_log",
+              "cc:stripped_hollow_spruce_log",
+              "cc:hollow_birch_log",
+              "cc:stripped_hollow_birch_log",
+              "cc:hollow_jungle_log",
+              "cc:stripped_hollow_jungle_log",
+              "cc:hollow_acacia_log",
+              "cc:stripped_hollow_acacia_log",
+              "cc:hollow_dark_oak_log",
+              "cc:stripped_hollow_dark_oak_log",
+              "cc:hollow_mangrove_log",
+              "cc:stripped_hollow_mangrove_log",
+              "cc:hollow_cherry_log",
+              "cc:stripped_hollow_cherry_log",
+              "cc:hollow_pale_oak_log",
+              "cc:stripped_hollow_pale_oak_log",
+              "cc:hollow_crimson_log",
+              "cc:stripped_hollow_crimson_log",
+              "cc:hollow_warped_log",
+              "cc:stripped_hollow_warped_log"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:thin_oak_log",
+              "name": "cc:itemGroup.name.thin_log"
+            },
+            "items": [
+              "cc:thin_oak_log",
+              "cc:stripped_thin_oak_log",
+              "cc:thin_birch_log",
+              "cc:stripped_thin_birch_log"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:hanging_oak_leaves",
+              "name": "cc:itemGroup.name.hanging_plant"
+            },
+            "items": [
+              "cc:hanging_oak_leaves",
+              "cc:hanging_birch_leaves",
+              "cc:hanging_palm_leaves",
+              "cc:hanging_swamp_leaves",
+              "cc:liana"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:lightning_ritual_block",
+              "name": "cc:itemGroup.name.ritual_block"
+            },
+            "items": [
+              "cc:lightning_ritual_block",
+              "cc:fire_ritual_block",
+              "cc:ice_ritual_block",
+              "cc:poison_ritual_block",
+              "cc:soul_ritual_block"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "cc:arctic_iron_golem_head",
+              "name": "cc:itemGroup.name.golem_head"
+            },
+            "items": [
+              "cc:arctic_iron_golem_head",
+              "cc:birch_iron_golem_head",
+              "cc:cherry_iron_golem_head",
+              "cc:desert_iron_golem_head",
+              "cc:jungle_iron_golem_head",
+              "cc:mesa_iron_golem_head",
+              "cc:plains_iron_golem_head",
+              "cc:savanna_iron_golem_head",
+              "cc:swamp_iron_golem_head",
+              "cc:taiga_iron_golem_head"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "equipment",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "cc:wooden_scythe",
+              "name": "cc:itemGroup.name.scythe"
+            },
+            "items": [
+              "cc:wooden_scythe",
+              "cc:stone_scythe",
+              "cc:copper_scythe",
+              "cc:iron_scythe",
+              "cc:golden_scythe",
+              "cc:diamond_scythe",
+              "cc:netherite_scythe"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "equipment",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "cc:wooden_battle_axe",
+              "name": "cc:itemGroup.name.battle_axe"
+            },
+            "items": [
+              "cc:wooden_battle_axe",
+              "cc:stone_battle_axe",
+              "cc:copper_battle_axe",
+              "cc:iron_battle_axe",
+              "cc:golden_battle_axe",
+              "cc:diamond_battle_axe",
+              "cc:netherite_battle_axe"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "equipment",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "cc:wooden_javelin",
+              "name": "cc:itemGroup.name.javelin"
+            },
+            "items": [
+              "cc:wooden_javelin",
+              "cc:stone_javelin",
+              "cc:copper_javelin",
+              "cc:iron_javelin",
+              "cc:golden_javelin",
+              "cc:diamond_javelin",
+              "cc:netherite_javelin"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "equipment",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "cc:stormbreaker",
+              "name": "cc:itemGroup.name.legendary_weapon"
+            },
+            "items": [
+              "cc:stormbreaker",
+              "cc:ice_bow",
+              "cc:fire_sword",
+              "cc:soul_scythe",
+              "cc:poison_javelin"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "equipment",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "cc:pharaoh_staff",
+              "name": "cc:itemGroup.name.rare_weapon"
+            },
+            "items": [
+              "cc:pharaoh_staff",
+              "cc:siren_staff"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

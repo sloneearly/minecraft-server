@@ -1,0 +1,203 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.wan_redcave.tech_chestplate_t1",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 3.5,
+        "visible_bounds_offset": [
+          0,
+          1.25,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "body",
+          "pivot": [
+            0,
+            24,
+            0
+          ]
+        },
+        {
+          "name": "chestplate",
+          "parent": "body",
+          "pivot": [
+            0,
+            24,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4,
+                17,
+                -2
+              ],
+              "size": [
+                8,
+                7,
+                4
+              ],
+              "inflate": 0.5,
+              "uv": [
+                32,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "name": "arm_right",
+          "pivot": [
+            -4,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "RightArm",
+          "parent": "arm_right",
+          "pivot": [
+            -6,
+            21,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -9.3,
+                9.4,
+                -2
+              ],
+              "size": [
+                4,
+                5,
+                4
+              ],
+              "inflate": 0.3,
+              "pivot": [
+                -7.3,
+                18.9,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                2.5
+              ],
+              "uv": [
+                62,
+                31
+              ]
+            },
+            {
+              "origin": [
+                -10,
+                19,
+                -3
+              ],
+              "size": [
+                5,
+                6,
+                6
+              ],
+              "pivot": [
+                -7.5,
+                22,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                7.5
+              ],
+              "uv": [
+                24,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "name": "arm_left",
+          "pivot": [
+            4,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "LeftArm",
+          "parent": "arm_left",
+          "pivot": [
+            6,
+            21,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                5.3,
+                9.4,
+                -2
+              ],
+              "size": [
+                4,
+                5,
+                4
+              ],
+              "inflate": 0.3,
+              "pivot": [
+                7.3,
+                18.9,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -2.5
+              ],
+              "uv": [
+                62,
+                31
+              ],
+              "mirror": true
+            },
+            {
+              "origin": [
+                5,
+                19,
+                -3
+              ],
+              "size": [
+                5,
+                6,
+                6
+              ],
+              "pivot": [
+                7.5,
+                22,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -7.5
+              ],
+              "uv": [
+                24,
+                32
+              ],
+              "mirror": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

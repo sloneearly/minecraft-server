@@ -1,0 +1,87 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:orangutan",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/cc/animals/entities/orangutan",
+        "banana": "textures/cc/cooking/items/crops/banana"
+      },
+      "geometry": {
+        "default": "geometry.cc.orangutan"
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:orangutan_spawn_egg"
+      },
+      "scripts": {
+        "initialize": [
+          "variable.pitch = 0;",
+          "variable.roll = 0;",
+          "v.relative_run_speed = 0.6;",
+          "v.pitch = 0;",
+          "v.roll = 0;",
+          "v.max_leg_rot = 45;",
+          "v.max_arm_rot = 45;",
+          "v.max_leg_pos_h = 5;",
+          "v.max_leg_pos_v = 5;",
+          "v.max_arm_pos_h = 0;",
+          "v.body_bump = 2;",
+          "v.body_rot = 5;",
+          "v.head_bump = 1;",
+          "v.playback_multiplier = 0.4;"
+        ],
+        "pre_animation": [
+          "variable.pitch = ((math.clamp(q.is_on_ground ? 0 : q.body_x_rotation, -20, 20) - (math.clamp(q.vertical_speed * 1, -90, 5)) + ( 3 * variable.pitch)) / 4);",
+          // plane only rolls in the air
+          "variable.roll = ((q.is_on_ground ? 0 : (-q.yaw_speed) / 4) + (4 * v.roll)) / 5;"
+        ],
+        "animate": [
+          "look_at_target",
+          "root",
+          "move_controller",
+          "attack_controller",
+          "lay_down_controller",
+          "admire_controller",
+          "banana_scale",
+          "ranged_controller",
+          "rotate_controller",
+          { "baby_transform": "q.is_baby" }
+        ]
+      },
+      "animations": {
+        // Controllers
+        "move_controller": "controller.animation.cc.move",
+        "admire_controller": "controller.animation.cc.admire",
+        "admire": "animation.cc.orangutan.admire",
+        "attack_controller": "controller.animation.cc.delayed_attack",
+        "lay_down_controller": "controller.animation.cc.lay_down",
+
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.cc.baby_transform.half",
+
+        "root": "animation.cc.common.root",
+
+        "idle": "animation.cc.orangutan.idle",
+        "walk": "animation.cc.orangutan.walk",
+        "fly": "animation.cc.orangutan.walk",
+        "run": "animation.cc.orangutan.walk",
+        "swim": "animation.cc.orangutan.walk",
+        "swim_idle": "animation.cc.orangutan.walk",
+        "swim_run": "animation.cc.orangutan.walk",
+        "sit": "animation.cc.orangutan.sit",
+        "delayed_attack": "animation.cc.bear.attack",
+        "banana_scale": "animation.cc.orangutan.banana_scale",
+        "ranged_controller": "controller.animation.cc.charged_ranged_attack",
+        "charged_ranged_attack": "animation.cc.orangutan.throw",
+        "rotate": "animation.cc.biped.rotation",
+        "rotate_controller": "controller.animation.cc.quadruped.rotation"
+      },
+      "render_controllers": ["controller.render.cc.orangutan", "controller.render.cc.orangutan.banana"],
+      "enable_attachables": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:sequence_feature": {
+    "description": {
+      "identifier": "cc:dripice_down_sequence"
+    },
+    "features": ["cc:dripice_down_check", "cc:dripice_down_offset"]
+  }
+}

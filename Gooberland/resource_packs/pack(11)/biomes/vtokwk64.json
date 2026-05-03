@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "minecraft:warm_ocean"
+    },
+    "components": {
+      "minecraft:water_appearance": {
+        "surface_color": "#02B0E5",
+        "surface_opacity": 0.55
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "cc:general_fog"
+      },
+      "minecraft:biome_music": {
+        "underwater_music": true
+      }
+    }
+  }
+}

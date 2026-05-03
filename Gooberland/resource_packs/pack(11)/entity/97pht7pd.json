@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:fallen_coconut",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "geometry": {
+        "default": "geometry.coconut.center"
+      },
+      "render_controllers": ["controller.render.cc.common"],
+      "textures": {
+        "default": "textures/cc/cooking/entities/coconut"
+      }
+    }
+  }
+}

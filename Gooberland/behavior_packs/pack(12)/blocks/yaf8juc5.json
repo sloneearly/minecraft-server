@@ -1,0 +1,350 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:bottles",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "cc:count": {
+                    "values": {
+                        "min": 1,
+                        "max": 4
+                    }
+                }
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0
+                }
+            }
+        },
+        "components": {
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "none"
+            },
+            "minecraft:display_name": "%cc.bottles\n%cc.category.trinkets",
+            "tag:grass": {},
+            "cc:multi_placement": {},
+            "minecraft:destructible_by_mining": true,
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:geometry": {
+                "identifier": "geometry.cc.bottles",
+                "bone_visibility": {
+                    "bottle_1": "q.block_state('cc:count') > 0",
+                    "bottle_2": "q.block_state('cc:count') > 1",
+                    "bottle_3": "q.block_state('cc:count') > 2",
+                    "bottle_4": "q.block_state('cc:count') > 3"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cc:bottles",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up"
+                        ],
+                        "block_filter": [
+                            "minecraft:stone_bricks",
+                            "minecraft:end_stone",
+                            "minecraft:end_bricks",
+                            {
+                                "tags": "query.any_tag('log', 'stone', 'wood', 'dirt', 'sand', 'solid')"
+                            },
+                            "minecraft:gravel",
+                            "minecraft:stone_bricks",
+                            "minecraft:mossy_stone_bricks",
+                            "minecraft:cracked_stone_bricks",
+                            "minecraft:chiseled_stone_bricks",
+                            "minecraft:cobblestone",
+                            "minecraft:mossy_cobblestone",
+                            "minecraft:andesite",
+                            "minecraft:polished_andesite",
+                            "minecraft:diorite",
+                            "minecraft:polished_diorite",
+                            "minecraft:granite",
+                            "minecraft:polished_granite",
+                            "minecraft:deepslate",
+                            "minecraft:deepslate_bricks",
+                            "minecraft:deepslate_tiles",
+                            "minecraft:cobbled_deepslate",
+                            "minecraft:blackstone",
+                            "minecraft:polished_blackstone",
+                            "minecraft:polished_blackstone_bricks",
+                            "minecraft:tuff",
+                            "minecraft:calcite",
+                            "minecraft:brick_block",
+                            "minecraft:mud_bricks",
+                            "minecraft:prismarine",
+                            "minecraft:prismarine_bricks",
+                            "minecraft:dark_prismarine",
+                            "minecraft:pale_oak_planks",
+                            "minecraft:warped_planks",
+                            "minecraft:warped_stem",
+                            "minecraft:stripped_warped_stem",
+                            "minecraft:crimson_planks",
+                            "minecraft:crimson_stem",
+                            "minecraft:stripped_crimson_stem",
+                            "minecraft:cherry_planks",
+                            "minecraft:mangrove_planks",
+                            "minecraft:tuff_bricks",
+                            "minecraft:ice",
+                            "minecraft:packed_ice",
+                            "minecraft:blue_ice",
+                            "minecraft:bamboo_block",
+                            "minecraft:stripped_bamboo_block",
+                            "minecraft:bamboo_mosaic",
+                            "minecraft:bamboo_planks",
+                            "minecraft:clay"
+                        ]
+                    },
+                    {
+                        "allowed_faces": [
+                            "up"
+                        ],
+                        "block_filter": [
+                            {
+                                "name": "cc:bottles",
+                                "states": {
+                                    "cc:count": 1
+                                }
+                            },
+                            {
+                                "name": "cc:bottles",
+                                "states": {
+                                    "cc:count": 2
+                                }
+                            },
+                            {
+                                "name": "cc:bottles",
+                                "states": {
+                                    "cc:count": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "allowed_faces": [
+                            "side"
+                        ],
+                        "block_filter": [
+                            {
+                                "name": "cc:bottles",
+                                "states": {
+                                    "cc:count": 1
+                                }
+                            },
+                            {
+                                "name": "cc:bottles",
+                                "states": {
+                                    "cc:count": 2
+                                }
+                            },
+                            {
+                                "name": "cc:bottles",
+                                "states": {
+                                    "cc:count": 3
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "minecraft:collision_box": true,
+            "minecraft:selection_box": true,
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#9fe4db",
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "can_contain_liquid": true,
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('cc:count') == 1",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            1
+                        ],
+                        "size": [
+                            5,
+                            8,
+                            5
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            1
+                        ],
+                        "size": [
+                            5,
+                            8,
+                            5
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:count') == 2",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            0
+                        ],
+                        "size": [
+                            14,
+                            8,
+                            7
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            0
+                        ],
+                        "size": [
+                            14,
+                            8,
+                            7
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:count') == 3",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            14,
+                            9,
+                            14
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            14,
+                            9,
+                            14
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:count') == 4",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            14,
+                            9,
+                            14
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            14,
+                            9,
+                            14
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

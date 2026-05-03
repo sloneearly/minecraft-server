@@ -1,0 +1,96 @@
+{
+	"format_version": "1.21.110",
+
+	"minecraft:item": {
+		"description": {
+			"identifier": "tool:jasper_shovel",
+			"menu_category": {
+				"category": "equipment",
+				"group": "minecraft:itemGroup.name.shovel"
+			}
+		},
+
+		"components": {
+			"minecraft:icon": {
+				"textures": {
+					"default": "tool:jasper_shovel"
+				}
+			},
+			            "minecraft:fire_resistant": {
+    "value": true
+},
+			"minecraft:display_name": {
+				"value": "Jasper Shovel\n\n\n§7Crushing I\nMining Speed: 48"
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:transformable_items",
+					"minecraft:is_tool",
+					"minecraft:digger",
+					"minecraft:is_shovel",
+					"minecraft:diamond_tier"
+				]
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:stacked_by_data": true,
+			"minecraft:durability": {
+				"max_durability": 3200
+			},
+			"minecraft:damage": 6,
+			"minecraft:digger": {
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('dirt', 'sand', 'gravel', 'grass', 'snow', 'shovel_diggable')"
+						},
+						"speed": 96
+					},
+					{"block": "minecraft:bamboo", "speed": 48},
+					{
+						"block": {
+							"tags": "q.any_tag('minecraft:is_shovel_item_destructible')"
+						},
+						"speed": 48
+					},
+					{"block": "minecraft:black_concrete_powder", "speed": 48},
+					{"block": "minecraft:blue_concrete_powder", "speed": 48},
+					{"block": "minecraft:brown_concrete_powder", "speed": 48},
+					{"block": "minecraft:clay", "speed": 48},
+					{"block": "minecraft:cyan_concrete_powder", "speed": 48},
+					{"block": "minecraft:dirt_with_roots", "speed": 48},
+					{"block": "minecraft:dirt", "speed": 48},
+					{"block": "minecraft:farmland", "speed": 48},
+					{"block": "minecraft:grass_path", "speed": 48},
+					{"block": "minecraft:grass", "speed": 48},
+					{"block": "minecraft:gravel", "speed": 48},
+					{"block": "minecraft:gray_concrete_powder", "speed": 48},
+					{"block": "minecraft:green_concrete_powder", "speed": 48},
+					{"block": "minecraft:light_blue_concrete_powder", "speed": 48},
+					{"block": "minecraft:light_gray_concrete_powder", "speed": 48},
+					{"block": "minecraft:lime_concrete_powder", "speed": 48},
+					{"block": "minecraft:magenta_concrete_powder", "speed": 48},
+					{"block": "minecraft:mud", "speed": 48},
+					{"block": "minecraft:muddy_mangrove_roots", "speed": 48},
+					{"block": "minecraft:mycelium", "speed": 48},
+					{"block": "minecraft:orange_concrete_powder", "speed": 48},
+					{"block": "minecraft:pink_concrete_powder", "speed": 48},
+					{"block": "minecraft:podzol", "speed": 48},
+					{"block": "minecraft:purple_concrete_powder", "speed": 48},
+					{"block": "minecraft:red_concrete_powder", "speed": 48},
+					{"block": "minecraft:sand", "speed": 48},
+					{"block": "minecraft:snow_layer", "speed": 48},
+					{"block": "minecraft:snow", "speed": 48},
+					{"block": "minecraft:soul_sand", "speed": 48},
+					{"block": "minecraft:soul_soil", "speed": 48},
+					{"block": "minecraft:suspicious_gravel", "speed": 48},
+					{"block": "minecraft:suspicious_sand", "speed": 48},
+					{"block": "minecraft:white_concrete_powder", "speed": 48},
+					{"block": "minecraft:yellow_concrete_powder", "speed": 48}
+				],
+				"use_efficiency": true
+			},
+			"minecraft:enchantable": {"slot": "shovel", "value": 30}
+		}
+	}
+}

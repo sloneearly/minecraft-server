@@ -1,0 +1,70 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cc.penguin.baby",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [3.5, -1, 0]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 7, -0.5],
+					"cubes": [
+						{"origin": [-3.5, 1, -4], "size": [7, 10, 7], "inflate": 0.02, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "baby_head",
+					"parent": "body",
+					"pivot": [0, 11, -1],
+					"cubes": [
+						{"origin": [-3, 11, -4], "size": [6, 4, 6], "uv": [0, 17]},
+						{"origin": [-1, 11, -6], "size": [2, 2, 2], "uv": [16, 27]}
+					]
+				},
+				{
+					"name": "leftWing",
+					"parent": "body",
+					"pivot": [4, 10.5, -0.5],
+					"cubes": [
+						{"origin": [3.5, 3, -3], "size": [1, 8, 5], "uv": [24, 17]}
+					]
+				},
+				{
+					"name": "rightWing",
+					"parent": "body",
+					"pivot": [-4, 10.5, -1],
+					"cubes": [
+						{"origin": [-4.5, 3, -3], "size": [1, 8, 5], "uv": [24, 17], "mirror": true}
+					]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "body",
+					"pivot": [-2.5, 0.5, 0.5],
+					"cubes": [
+						{"origin": [-3.5, 0, -3], "size": [3, 1, 5], "uv": [0, 27]}
+					]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "body",
+					"pivot": [2.5, 0.5, 0.5],
+					"cubes": [
+						{"origin": [0.5, 0, -3], "size": [3, 1, 5], "uv": [28, 0]}
+					]
+				}
+			]
+		}
+	]
+}

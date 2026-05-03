@@ -1,0 +1,65 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.20.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mob:spider_egg",
+			"runtime_identifier": "minecraft:snowball",
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:timer": {
+				"time": [
+					0,
+					0.3
+				],
+				"time_down_event": {
+					"event": "e"
+				}
+			},
+			"minecraft:physics": {
+				"has_gravity": false
+			}
+		},
+		"events": {
+			"e": {
+				"randomize": [
+					{
+						"sequence": [
+							{
+								"queue_command": {
+									"command": [
+										"summon spider ~~~0.1 ~~ smallspider",
+										"summon spider ~0.1~~ ~~ smallspider",
+										"summon spider ~0.1~~0.1 ~~ smallspider",
+										"summon spider ~~~-0.1 ~~ smallspider",
+										"summon spider ~-0.1~~ ~~ smallspider",
+										"fill ~~-1~ ~~~ air[] replace block:spider_egg"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						],
+						"weight": 100
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cut_rose_gold_0d3a7c24"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:rose_gold_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:cut_rose_gold",
+      "count": 4
+    }
+  }
+}

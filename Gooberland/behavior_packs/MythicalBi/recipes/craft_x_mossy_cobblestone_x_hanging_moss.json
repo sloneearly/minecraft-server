@@ -1,0 +1,35 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ntk:craft_x_mossy_cobblestone_x_hanging_moss"
+    },
+    "priority": 2,
+    "tags": [ "crafting_table" ],
+    "group": "mossy_cobblestone",
+    "assume_symmetry": false,
+    "pattern": [
+      "BM"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:cobblestone"
+      },
+      "M": {
+        "item": "ntk:hanging_moss"
+      }
+    },
+    "result": {
+      "item": "minecraft:mossy_cobblestone",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:cobblestone"
+      },
+      {
+        "item": "ntk:hanging_moss"
+      }
+    ]
+  }
+}

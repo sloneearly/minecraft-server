@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:struct_nether_soul_castle_room_20_scatter"
+    },
+    "iterations": 1,
+    "x": 13,
+    "y": 29,
+    "z": 17,
+    "places_feature": "cc:struct_nether_soul_castle_level_2_weight"
+  }
+}

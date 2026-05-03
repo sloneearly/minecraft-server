@@ -1,0 +1,58 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "cc:struct_siren_shrine_level_0_weight"
+    },
+    "features": [
+      [
+        "cc:struct_siren_shrine_room_1_feature",
+        1
+      ],
+      [
+        "cc:struct_siren_shrine_room_2_feature",
+        1
+      ],
+      [
+        "cc:struct_siren_shrine_room_3_feature",
+        1
+      ],
+      [
+        "cc:struct_siren_shrine_room_4_feature",
+        1
+      ],
+      [
+        "cc:struct_siren_shrine_room_5_feature",
+        1
+      ],
+      [
+        "cc:struct_siren_shrine_room_6_feature",
+        1
+      ],
+      [
+        "cc:struct_siren_shrine_room_7_feature",
+        1
+      ],
+      [
+        "cc:struct_siren_shrine_room_8_feature",
+        1
+      ],
+      [
+        "cc:struct_siren_shrine_room_9_feature",
+        1
+      ],
+      [
+        "cc:struct_siren_shrine_room_10_feature",
+        1
+      ],
+      [
+        "cc:struct_siren_shrine_room_11_feature",
+        1
+      ],
+      [
+        "cc:struct_siren_shrine_room_12_feature",
+        1
+      ]
+    ]
+  }
+}

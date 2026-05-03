@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "aetherium_helmet_a308c8fa"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "item:aetherium",
+        "data": 0
+      },
+      "B": {
+        "item": "block:aetherium_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "helmet:aetherium_helmet",
+      "count": 1
+    }
+  }
+}

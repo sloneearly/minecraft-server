@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:item": {
+    "description": {
+      "identifier": "wan_redcave:holographic_touchpad",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "wan_redcave:holographic_touchpad.name"
+      },
+      "minecraft:icon": "wan_redcave:holographic_touchpad",
+      "minecraft:max_stack_size": 1,
+      "minecraft:use_modifiers": {
+        "use_duration": 0.1,
+        "movement_modifier": 1
+      },
+      "minecraft:tags": {
+        "tags": [
+          "wan_redcave:network_tool",
+          "wan_redcave:machine_configurator"
+        ]
+      }
+    }
+  }
+}

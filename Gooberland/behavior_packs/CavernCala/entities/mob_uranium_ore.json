@@ -1,0 +1,49 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.20.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mob:uranium_ore",
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:timer": {
+				"time": [
+					0.2,
+					0.2
+				],
+				"time_down_event": {
+					"event": "timer",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"timer": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"execute as @a[r=10,hasitem={item=item:rad_away_band,quantity=0,location=slot.weapon.offhand}] run damage @s 3 magic",
+								"particle radiation"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

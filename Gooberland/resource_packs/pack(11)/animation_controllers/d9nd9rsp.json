@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.cc.common.dance": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "blend_transition": 0.25,
+                    "transitions": [
+                        {
+                            "dance": "q.property('cc:is_dancing')"
+                        }
+                    ]
+                },
+                "dance": {
+                    "animations": ["dance"],
+                    "blend_transition": 0.25,
+                    "transitions": [
+                        {
+                            "default": "!q.property('cc:is_dancing')"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"ancient_mystic_bark":{
+			"textures": "textures/items/ancient_mystic_bark.png"
+		},
+		"runic_apple":{
+			"textures": "textures/items/runic_apple.png"
+		},
+		"bottle_of_runic_essence":{
+			"textures": "textures/items/runic_essence.png"
+		},
+		"ancient_rune":{
+			"textures": "textures/items/ancient_rune_unpowered.png"
+		},
+		"ancient_rune_fragment":{
+			"textures": "textures/items/ancient_rune_fragment.png"
+		},
+		"runic_essence":{
+			"textures": "textures/items/runic_essence_dust.png"
+		},
+		"ancient_sapling":{
+			"textures": "textures/blocks/ancient_sapling"
+		},
+		"iron_amulet":{
+			"textures": "textures/items/iron_amulet_unpowered.png"
+		},
+		"iron_amulet_powered":{
+			"textures": "textures/items/iron_amulet_powered.png"
+		},
+		"ancient_rune_powered":{
+			"textures": "textures/items/ancient_rune.png"
+		},
+		"ancient_forest_sword":{
+			"textures": "textures/items/forest_sword.png"
+		},
+		"runic_staff":{
+			"textures": "textures/items/runic_staff.png"
+		},
+		"runic_staff_unpowered":{
+			"textures": "textures/items/runic_staff_unpowered.png"
+		},
+		"ancient_door":{
+			"textures": "textures/items/ancient_door.png"
+		},
+		"ancient_book":{
+			"textures": "textures/items/ancient_book.png"
+		},
+		"lost_scroll":{
+			"textures": "textures/items/lost_scroll.png"
+		},
+		"ancient_mask":{
+			"textures": "textures/items/ancient_mask.png"
+		}
+	}
+}

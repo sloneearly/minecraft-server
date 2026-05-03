@@ -1,0 +1,48 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "wan_redcave:cave_core.feature_rule",
+      "places_feature": "wan_redcave:redstone_cave/floor/cave_core.feature"
+    },
+    "conditions": {
+      "placement_pass": "before_underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "wan_redcave:redstone_plains"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "scatter_chance": 100,
+      "iterations": 30,
+      "x": {
+        "distribution": "fixed_grid",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [
+          -64,
+          30
+        ]
+      },
+      "z": {
+        "distribution": "fixed_grid",
+        "extent": [
+          0,
+          16
+        ]
+      }
+    }
+  }
+}

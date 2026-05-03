@@ -1,0 +1,46 @@
+{
+    "format_version": "1.20.81",
+    "minecraft:block": {
+        "description": {
+            "identifier": "ancients:ancient_forest_altar",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "ancients:cooldown":[false,true]
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.ancient_altar",
+                "bone_visibility": {
+                    "bottom": true,
+                    "top": true
+                }
+            },
+            "minecraft:material_instances":{
+                "*": {
+                    "texture": "stonebrick",
+                    "render_method": "alpha_test"
+                },
+                "altar_top_side": {
+                    "texture": "forest_altar_top_side",
+                    "render_method": "alpha_test"
+                },
+                "altar_top": {
+                    "texture": "forest_altar_top",
+                    "render_method": "alpha_test"
+                },
+                "log": {
+                    "texture": "log_side",
+                    "render_method": "alpha_test"
+                }
+            },
+            "tag:ancientAltar":{},
+            "minecraft:destructible_by_mining":{
+                "seconds_to_destroy": 240
+            },
+            "minecraft:destructible_by_explosion": false
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "item:white_smoke_bomb",
+            "menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.firework"
+			}
+            },
+    "components": {
+			
+      "minecraft:icon": {
+        "texture": "item:white_smoke_bomb"
+      },
+      "minecraft:display_name": {
+        "value": "White Smoke Bomb"
+      }, 
+      "minecraft:throwable": {
+        "do_swing_animation": true
+      },
+      "minecraft:projectile": {
+        "projectile_entity": "projectile:white_smoke_bomb"
+      }
+    }
+  }
+}

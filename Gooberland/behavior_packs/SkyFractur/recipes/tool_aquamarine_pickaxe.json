@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "aquamarine_pickaxe_358a16f1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      " B ",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "item:aquamarine",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "tool:aquamarine_pickaxe",
+      "count": 1
+    }
+  }
+}

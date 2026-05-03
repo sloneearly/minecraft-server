@@ -1,0 +1,90 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:palm_leaves",
+            "menu_category": {
+                "category": "nature",
+                "group": "minecraft:itemGroup.name.leaves"
+            },
+            "states": {
+                "cc:player_placed": [
+                    false,
+                    true
+                ],
+                "cc:update_bit": [
+                    false,
+                    true
+                ]
+            }
+        },
+        "components": {
+            "tag:ulkd_ess:tree_leaves_palm": {},
+            "minecraft:item_visual": {
+                "geometry": "geometry.full_block",
+                "material_instances": {
+                    "*": {
+                        "texture": "cc:palm_leaves",
+                        "render_method": "alpha_test"
+                    }
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.full_block",
+                "culling": "cc:culling.leaves"
+            },
+            "cc:decay_block": {},
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cc:palm_leaves",
+                    "render_method": "alpha_test_to_opaque"
+                }
+            },
+            "minecraft:light_dampening": 7,
+            "minecraft:map_color": "#4D972E",
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "on_liquid_touches": "no_reaction",
+                        "can_contain_liquid": true
+                    }
+                ]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "tag:minecraft:is_hoe_item_destructible": {},
+            "tag:minecraft:is_shears_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.2,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_hoe')"
+                        },
+                        "destroy_speed": 0.2
+                    },
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_sword')"
+                        },
+                        "destroy_speed": 0.1333333333333333
+                    },
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_shears')"
+                        },
+                        "destroy_speed": 0.0333333333333333
+                    }
+                ]
+            }
+        }
+    }
+}

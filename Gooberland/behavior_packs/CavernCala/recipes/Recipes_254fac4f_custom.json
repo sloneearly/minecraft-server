@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_35ed4a4c"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "item:lapis_deepslate_geode",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:lapis_lazuli",
+      "count": 9,
+      "data": 0
+    }
+  }
+}

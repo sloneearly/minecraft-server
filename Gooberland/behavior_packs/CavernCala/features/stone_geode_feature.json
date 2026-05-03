@@ -1,0 +1,30 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "gen:stone_geode_feature"
+		},
+		"places_block": "block:stone_geode",
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": false,
+		"may_attach_to": {
+			"bottom": [
+				"minecraft:granite",
+				"minecraft:diorite",
+				"minecraft:stone",
+				"minecraft:andesite",
+				"block:silk_block",
+				"minecraft:mycelium",
+				"block:stone_sewer_path",
+				"block:glowing_grass_block",
+				"minecraft:moss_block",
+				"minecraft:blackstone",
+				"minecraft:pale_moss_block"
+			]
+		},
+		"may_replace": [
+			"minecraft:air"
+		]
+	}
+}

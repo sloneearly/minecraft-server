@@ -1,0 +1,52 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc.hunger.particle": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "hunger_1": "q.property('cc:hunger_state') == 1"
+            },
+            {
+              "hunger_2": "q.property('cc:hunger_state') == 2"
+            }
+          ]
+        },
+        "hunger_1": {
+          "transitions": [
+            {
+              "default": "q.property('cc:hunger_state') == 0"
+            },
+            {
+              "hunger_2": "q.property('cc:hunger_state') == 2"
+            }
+          ],
+          "particle_effects": [
+            {
+              "effect": "hunger_1",
+              "locator": "hunger"
+            }
+          ]
+        },
+        "hunger_2": {
+          "transitions": [
+            {
+              "default": "q.property('cc:hunger_state') == 0"
+            },
+            {
+              "hunger_1": "q.property('cc:hunger_state') == 1"
+            }
+          ],
+          "particle_effects": [
+            {
+              "effect": "hunger_2",
+              "locator": "hunger"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

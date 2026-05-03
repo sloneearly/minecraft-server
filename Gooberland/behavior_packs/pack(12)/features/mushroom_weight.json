@@ -1,0 +1,14 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "cc:mushroom_weight"
+        },
+        "features": [
+            ["cc:red_mushroom_feature", 5],
+            ["cc:big_red_mushroom_feature", 1],
+            ["cc:brown_mushroom_feature", 5],
+            ["cc:big_brown_mushroom_feature", 1]
+        ]
+    }
+}

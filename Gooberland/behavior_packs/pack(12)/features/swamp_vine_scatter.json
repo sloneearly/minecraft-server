@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:swamp_vine_scatter"
+    },
+    "iterations": 20,
+    "x": {
+      "distribution": "triangle",
+      "extent": [
+        -8,
+        8
+      ]
+    },
+    "y": {
+      "distribution": "triangle",
+      "extent": [
+        -20,
+        20
+      ]
+    },
+    "z": {
+      "distribution": "triangle",
+      "extent": [
+        -8,
+        8
+      ]
+    },
+    "places_feature": "cc:swamp_vine_sequence"
+  }
+}

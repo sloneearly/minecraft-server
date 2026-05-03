@@ -1,0 +1,40 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cc.player.armor.moose_antler_helmet",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 2, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "antlers",
+					"parent": "head",
+					"pivot": [0, -7, 8],
+					"cubes": [
+						{"origin": [-15, 20.5, -3], "size": [12, 6, 11], "uv": [56, 22], "mirror": true},
+						{"origin": [3, 20.5, -3], "size": [12, 6, 11], "uv": [56, 22]}
+					]
+				}
+			]
+		}
+	]
+}

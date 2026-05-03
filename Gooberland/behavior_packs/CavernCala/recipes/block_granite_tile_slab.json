@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "granite_tile_slab_5c9368f5"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:granite_tiles",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:granite_tile_slab",
+      "count": 6
+    }
+  }
+}

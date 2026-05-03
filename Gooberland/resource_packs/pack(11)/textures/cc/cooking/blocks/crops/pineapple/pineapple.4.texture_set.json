@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "pineapple.4",
+    "heightmap": "pineapple.4_heightmap",
+    "metalness_emissive_roughness_subsurface": "pineapple.4_mers"
+  }
+}

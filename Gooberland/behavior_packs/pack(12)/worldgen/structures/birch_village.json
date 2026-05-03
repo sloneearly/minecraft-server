@@ -1,0 +1,89 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:jigsaw": {
+    "description": {
+      "identifier": "cc:birch_village"
+    },
+    "biome_filters": [
+      {
+        "all_of": [
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "forest"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "birch"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:lavender_field"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:origin_valley"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:overgrown_greens"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:pasture"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:prairie"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "bop_ks:pumpkin_patch"
+              }
+            ],
+            "none_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "cold"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "frozen"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "taiga"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "plains"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "step": "surface_structures",
+    "start_pool": "cc:village/centers/birch_village_centers",
+    "max_depth": 5,
+    "start_height": {
+      "type": "constant",
+      "value": { "absolute": -1 }
+    },
+    "heightmap_projection": "world_surface",
+    "terrain_adaptation": "beard_thin"
+  }
+}

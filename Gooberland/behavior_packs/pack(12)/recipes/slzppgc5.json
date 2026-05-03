@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "cc:beetroot_from_crate"
+        },
+        "tags": [
+            "cc:cooking_table",
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "cc:beetroot_crate"
+            }
+        ],
+        "result": {
+            "item": "minecraft:beetroot",
+            "count": 9
+        }
+    }
+}

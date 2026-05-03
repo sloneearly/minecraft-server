@@ -1,0 +1,3629 @@
+{
+   "content" : [
+      {
+         "path" : ".vscode/launch.json"
+      },
+      {
+         "path" : "blocks/arena_limestone_pillar.json"
+      },
+      {
+         "path" : "blocks/arena_trigger.json"
+      },
+      {
+         "path" : "blocks/cobbled_deepslate_pebbles.json"
+      },
+      {
+         "path" : "blocks/cobbled_limestone.json"
+      },
+      {
+         "path" : "blocks/cobbled_limestone_pebbles.json"
+      },
+      {
+         "path" : "blocks/cobblestone_pebbles.json"
+      },
+      {
+         "path" : "blocks/crooked/crooked_door.json"
+      },
+      {
+         "path" : "blocks/crooked/crooked_fence.json"
+      },
+      {
+         "path" : "blocks/crooked/crooked_fence_gate.json"
+      },
+      {
+         "path" : "blocks/crooked/crooked_fungus.json"
+      },
+      {
+         "path" : "blocks/crooked/crooked_hyphae.json"
+      },
+      {
+         "path" : "blocks/crooked/crooked_hyphae_stripped.json"
+      },
+      {
+         "path" : "blocks/crooked/crooked_nylium.json"
+      },
+      {
+         "path" : "blocks/crooked/crooked_planks.json"
+      },
+      {
+         "path" : "blocks/crooked/crooked_roots.json"
+      },
+      {
+         "path" : "blocks/crooked/crooked_slab.json"
+      },
+      {
+         "path" : "blocks/crooked/crooked_stem.json"
+      },
+      {
+         "path" : "blocks/crooked/crooked_stem_stripped.json"
+      },
+      {
+         "path" : "blocks/crooked/crooked_trapdoor.json"
+      },
+      {
+         "path" : "blocks/crooked/crooked_wart_block.json"
+      },
+      {
+         "path" : "blocks/crystallized_ice.json"
+      },
+      {
+         "path" : "blocks/deepslate_glow_mycelium.json"
+      },
+      {
+         "path" : "blocks/deepslate_luminite_ore.json"
+      },
+      {
+         "path" : "blocks/deepslate_pebbles.json"
+      },
+      {
+         "path" : "blocks/dripping_icicle_medium.json"
+      },
+      {
+         "path" : "blocks/dripping_icicle_small.json"
+      },
+      {
+         "path" : "blocks/dripping_slime_body.json"
+      },
+      {
+         "path" : "blocks/dripping_slime_head.json"
+      },
+      {
+         "path" : "blocks/frosted_deepslate.json"
+      },
+      {
+         "path" : "blocks/frosted_deepslate_pebbles.json"
+      },
+      {
+         "path" : "blocks/frosted_pebbles.json"
+      },
+      {
+         "path" : "blocks/frosted_stone.json"
+      },
+      {
+         "path" : "blocks/frosted_stone_slab.json"
+      },
+      {
+         "path" : "blocks/gloomy_mushroom.json"
+      },
+      {
+         "path" : "blocks/gloomy_mushroom_block.json"
+      },
+      {
+         "path" : "blocks/glow_lichen_block.json"
+      },
+      {
+         "path" : "blocks/glow_mycelium.json"
+      },
+      {
+         "path" : "blocks/glowing_obsidian.json"
+      },
+      {
+         "path" : "blocks/ice_crystal.json"
+      },
+      {
+         "path" : "blocks/lava_tank_broken.json"
+      },
+      {
+         "path" : "blocks/lava_tank_diamond.json"
+      },
+      {
+         "path" : "blocks/lava_tank_diamond_cooldown.json"
+      },
+      {
+         "path" : "blocks/lava_tank_diamond_full.json"
+      },
+      {
+         "path" : "blocks/lava_tank_diamond_locked.json"
+      },
+      {
+         "path" : "blocks/lava_tank_gold.json"
+      },
+      {
+         "path" : "blocks/lava_tank_gold_cooldown.json"
+      },
+      {
+         "path" : "blocks/lava_tank_gold_full.json"
+      },
+      {
+         "path" : "blocks/lava_tank_gold_locked.json"
+      },
+      {
+         "path" : "blocks/limestone.json"
+      },
+      {
+         "path" : "blocks/limestone_bricks.json"
+      },
+      {
+         "path" : "blocks/limestone_bricks_chiseled.json"
+      },
+      {
+         "path" : "blocks/limestone_bricks_cracked.json"
+      },
+      {
+         "path" : "blocks/limestone_bricks_mossy.json"
+      },
+      {
+         "path" : "blocks/limestone_bricks_slab.json"
+      },
+      {
+         "path" : "blocks/limestone_pebbles.json"
+      },
+      {
+         "path" : "blocks/limestone_pillar.json"
+      },
+      {
+         "path" : "blocks/limestone_slab.json"
+      },
+      {
+         "path" : "blocks/luminite_block.json"
+      },
+      {
+         "path" : "blocks/luminite_ore.json"
+      },
+      {
+         "path" : "blocks/luminous_mushroom.json"
+      },
+      {
+         "path" : "blocks/luminous_mushroom_block.json"
+      },
+      {
+         "path" : "blocks/luminous_mushroom_stem.json"
+      },
+      {
+         "path" : "blocks/mysterious_fungus.json"
+      },
+      {
+         "path" : "blocks/packed_ice_bricks.json"
+      },
+      {
+         "path" : "blocks/packed_ice_bricks_cracked.json"
+      },
+      {
+         "path" : "blocks/packed_ice_bricks_slab.json"
+      },
+      {
+         "path" : "blocks/packed_ice_chiseled.json"
+      },
+      {
+         "path" : "blocks/pebbles.json"
+      },
+      {
+         "path" : "blocks/polished_limestone.json"
+      },
+      {
+         "path" : "blocks/quicksand.json"
+      },
+      {
+         "path" : "blocks/radiant_vines_body.json"
+      },
+      {
+         "path" : "blocks/radiant_vines_head.json"
+      },
+      {
+         "path" : "blocks/sand_layer.json"
+      },
+      {
+         "path" : "blocks/sandy_roots_body.json"
+      },
+      {
+         "path" : "blocks/sandy_roots_head.json"
+      },
+      {
+         "path" : "blocks/sandy_skelly_skull.json"
+      },
+      {
+         "path" : "blocks/slime_lantern.json"
+      },
+      {
+         "path" : "blocks/slime_layer.json"
+      },
+      {
+         "path" : "blocks/slimy_blossom.json"
+      },
+      {
+         "path" : "blocks/slimy_deepslate.json"
+      },
+      {
+         "path" : "blocks/slimy_deepslate_bricks.json"
+      },
+      {
+         "path" : "blocks/slimy_deepslate_bricks_cracked.json"
+      },
+      {
+         "path" : "blocks/slimy_deepslate_bricks_slab.json"
+      },
+      {
+         "path" : "blocks/slimy_deepslate_pebbles.json"
+      },
+      {
+         "path" : "blocks/slimy_deepslate_tiles.json"
+      },
+      {
+         "path" : "blocks/slimy_deepslate_tiles_cracked.json"
+      },
+      {
+         "path" : "blocks/slimy_deepslate_tiles_slab.json"
+      },
+      {
+         "path" : "blocks/slimy_pebbles.json"
+      },
+      {
+         "path" : "blocks/slimy_sprouts.json"
+      },
+      {
+         "path" : "blocks/slimy_stone.json"
+      },
+      {
+         "path" : "blocks/slimy_stone_bricks.json"
+      },
+      {
+         "path" : "blocks/slimy_stone_bricks_cracked.json"
+      },
+      {
+         "path" : "blocks/slimy_stone_bricks_slab.json"
+      },
+      {
+         "path" : "blocks/soul_bricks.json"
+      },
+      {
+         "path" : "blocks/soul_bricks_chiseled.json"
+      },
+      {
+         "path" : "blocks/soul_bricks_cracked.json"
+      },
+      {
+         "path" : "blocks/soul_bricks_fence.json"
+      },
+      {
+         "path" : "blocks/soul_bricks_slab.json"
+      },
+      {
+         "path" : "blocks/soul_geyser.json"
+      },
+      {
+         "path" : "blocks/soul_magma.json"
+      },
+      {
+         "path" : "blocks/soul_shroomlight.json"
+      },
+      {
+         "path" : "blocks/soul_stone.json"
+      },
+      {
+         "path" : "blocks/sticky_spikes.json"
+      },
+      {
+         "path" : "blocks/suitcase.json"
+      },
+      {
+         "path" : "blocks/suitcase_used.json"
+      },
+      {
+         "path" : "blocks/undergrowth/cave_turf.json"
+      },
+      {
+         "path" : "blocks/undergrowth/chromatic_petals.json"
+      },
+      {
+         "path" : "blocks/undergrowth/deepslate_cave_turf.json"
+      },
+      {
+         "path" : "blocks/undergrowth/petal_block_black.json"
+      },
+      {
+         "path" : "blocks/undergrowth/petal_block_blue.json"
+      },
+      {
+         "path" : "blocks/undergrowth/petal_block_magenta.json"
+      },
+      {
+         "path" : "blocks/undergrowth/petal_block_orange.json"
+      },
+      {
+         "path" : "blocks/undergrowth/petal_block_red.json"
+      },
+      {
+         "path" : "blocks/undergrowth/petal_block_white.json"
+      },
+      {
+         "path" : "blocks/undergrowth/petal_block_yellow.json"
+      },
+      {
+         "path" : "blocks/undergrowth/rainbow_gum_door.json"
+      },
+      {
+         "path" : "blocks/undergrowth/rainbow_gum_fence.json"
+      },
+      {
+         "path" : "blocks/undergrowth/rainbow_gum_fence_gate.json"
+      },
+      {
+         "path" : "blocks/undergrowth/rainbow_gum_leaves.json"
+      },
+      {
+         "path" : "blocks/undergrowth/rainbow_gum_log.json"
+      },
+      {
+         "path" : "blocks/undergrowth/rainbow_gum_log_stripped.json"
+      },
+      {
+         "path" : "blocks/undergrowth/rainbow_gum_planks.json"
+      },
+      {
+         "path" : "blocks/undergrowth/rainbow_gum_slab.json"
+      },
+      {
+         "path" : "blocks/undergrowth/rainbow_gum_trapdoor.json"
+      },
+      {
+         "path" : "blocks/undergrowth/rainbow_gum_wood.json"
+      },
+      {
+         "path" : "blocks/undergrowth/rainbow_gum_wood_stripped.json"
+      },
+      {
+         "path" : "blocks/undergrowth/star_jasmine.json"
+      },
+      {
+         "path" : "blocks/undergrowth/stem_block.json"
+      },
+      {
+         "path" : "blocks/undergrowth/twilight_spores.json"
+      },
+      {
+         "path" : "contents.json"
+      },
+      {
+         "path" : "entities/arena_countdown.json"
+      },
+      {
+         "path" : "entities/arena_entity_counter.json"
+      },
+      {
+         "path" : "entities/arena_sandy_skelly_placeholder.json"
+      },
+      {
+         "path" : "entities/arena_scorpion_placeholder.json"
+      },
+      {
+         "path" : "entities/frost_spirit.json"
+      },
+      {
+         "path" : "entities/husk_placeholder.json"
+      },
+      {
+         "path" : "entities/lost_explorer.json"
+      },
+      {
+         "path" : "entities/luminous_mooshroom.json"
+      },
+      {
+         "path" : "entities/penguin.json"
+      },
+      {
+         "path" : "entities/sandy_skelly.json"
+      },
+      {
+         "path" : "entities/scorpion.json"
+      },
+      {
+         "path" : "entities/shroom_elf.json"
+      },
+      {
+         "path" : "entities/slime_placeholder.json"
+      },
+      {
+         "path" : "entities/slimy_zombie.json"
+      },
+      {
+         "path" : "entities/stray_placeholder.json"
+      },
+      {
+         "path" : "entities/thornspitter.json"
+      },
+      {
+         "path" : "entities/thrown_sand.json"
+      },
+      {
+         "path" : "entities/thrown_slimeball.json"
+      },
+      {
+         "path" : "entities/thrown_soul.json"
+      },
+      {
+         "path" : "entities/thrown_thorn.json"
+      },
+      {
+         "path" : "entities/tracking_thorn.json"
+      },
+      {
+         "path" : "entities/tracking_thorn_placeholder.json"
+      },
+      {
+         "path" : "entities/wisp.json"
+      },
+      {
+         "path" : "entities/witch_placeholder.json"
+      },
+      {
+         "path" : "feature_rules/acidic_stone_patch_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_cave_turf_patch_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_deepslate_cave_turf_patch_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_deepslate_glow_mycelium_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_dripping_slime_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_frosted_deepslate_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_glow_lichen_block_patch_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_glow_mycelium_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_glowing_obsidian_lower_patch_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_glowing_obsidian_upper_patch_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_ice_cave_ceiling_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_ice_cave_surface_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_limestone_caves_coarse_dirt_patch_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_limestone_caves_cobbled_limestone_patch_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_limestone_caves_limestone_patch_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_mud_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_nether_cave_surface_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_radiant_vines_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_sandstone_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_slimy_deepslate_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_slimy_stone_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_soul_stone_ceiling_feature.json"
+      },
+      {
+         "path" : "feature_rules/after_surface_soul_stone_feature.json"
+      },
+      {
+         "path" : "feature_rules/giant_crooked_fungus_feature.json"
+      },
+      {
+         "path" : "feature_rules/giant_flower_feature.json"
+      },
+      {
+         "path" : "feature_rules/giant_mushroom_feature.json"
+      },
+      {
+         "path" : "feature_rules/ice_dungeon_feature.json"
+      },
+      {
+         "path" : "feature_rules/limestone_arena_feature.json"
+      },
+      {
+         "path" : "feature_rules/limestone_dungeon_feature.json"
+      },
+      {
+         "path" : "feature_rules/limestone_feature.json"
+      },
+      {
+         "path" : "feature_rules/limestone_ruins_feature.json"
+      },
+      {
+         "path" : "feature_rules/lost_explorer_camp_feature.json"
+      },
+      {
+         "path" : "feature_rules/luminite_ore_feature.json"
+      },
+      {
+         "path" : "feature_rules/nether_cave_carver_feature.json"
+      },
+      {
+         "path" : "feature_rules/nether_lava_feature.json"
+      },
+      {
+         "path" : "feature_rules/nether_lava_layer_feature.json"
+      },
+      {
+         "path" : "feature_rules/nether_lava_layer_replace_water_feature.json"
+      },
+      {
+         "path" : "feature_rules/nether_lava_replace_vegetation_feature.json"
+      },
+      {
+         "path" : "feature_rules/overworld_deepslate_pebbles_feature.json"
+      },
+      {
+         "path" : "feature_rules/overworld_limestone_feature.json"
+      },
+      {
+         "path" : "feature_rules/overworld_pebbles_feature.json"
+      },
+      {
+         "path" : "feature_rules/quicksand_in_limestone_caves_feature.json"
+      },
+      {
+         "path" : "feature_rules/quicksand_in_swamps_feature.json"
+      },
+      {
+         "path" : "feature_rules/rainbow_tree_feature.json"
+      },
+      {
+         "path" : "feature_rules/rainbow_tree_small_feature.json"
+      },
+      {
+         "path" : "feature_rules/roofed_forest_cave_carver_feature.json"
+      },
+      {
+         "path" : "feature_rules/slime_dungeon_deepslate_feature.json"
+      },
+      {
+         "path" : "feature_rules/slime_dungeon_stone_feature.json"
+      },
+      {
+         "path" : "feature_rules/soul_castle_feature.json"
+      },
+      {
+         "path" : "features/acid/acid_vegetation_random_feature.json"
+      },
+      {
+         "path" : "features/acid/acidic_stone_patch_feature.json"
+      },
+      {
+         "path" : "features/acid/acidic_stone_patch_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/blue_ice_ceiling_patch_feature.json"
+      },
+      {
+         "path" : "features/calcite_feature.json"
+      },
+      {
+         "path" : "features/coarse_dirt_patch_feature.json"
+      },
+      {
+         "path" : "features/coarse_dirt_patch_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/coarse_dirt_patch_vegetation_feature.json"
+      },
+      {
+         "path" : "features/cobbled_limestone_feature.json"
+      },
+      {
+         "path" : "features/cobbled_limestone_patch_feature.json"
+      },
+      {
+         "path" : "features/cobbled_limestone_pebbles_feature.json"
+      },
+      {
+         "path" : "features/cobblestone_pebbles_feature.json"
+      },
+      {
+         "path" : "features/cobblestone_pebbles_scatter_feature.json"
+      },
+      {
+         "path" : "features/crooked_fungus_feature.json"
+      },
+      {
+         "path" : "features/crooked_nylium_patch_feature.json"
+      },
+      {
+         "path" : "features/crooked_nylium_vegetation_feature.json"
+      },
+      {
+         "path" : "features/crooked_roots_feature.json"
+      },
+      {
+         "path" : "features/crystallized_ice_ceiling_patch_feature.json"
+      },
+      {
+         "path" : "features/crystallized_ice_surface_patch_feature.json"
+      },
+      {
+         "path" : "features/dead_bush_feature.json"
+      },
+      {
+         "path" : "features/deepslate_glow_mycelium_patch_feature.json"
+      },
+      {
+         "path" : "features/deepslate_glow_mycelium_patch_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/deepslate_pebbles_feature.json"
+      },
+      {
+         "path" : "features/dripping_icicle_feature.json"
+      },
+      {
+         "path" : "features/dripping_slime_feature.json"
+      },
+      {
+         "path" : "features/dripping_slime_snap_to_ceiling_feature.json"
+      },
+      {
+         "path" : "features/fern_feature.json"
+      },
+      {
+         "path" : "features/frosted_deepslate_patch_feature.json"
+      },
+      {
+         "path" : "features/frosted_deepslate_patch_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/frosted_deepslate_pebbles_feature.json"
+      },
+      {
+         "path" : "features/frosted_pebbles_feature.json"
+      },
+      {
+         "path" : "features/frosted_stone_patch_feature.json"
+      },
+      {
+         "path" : "features/giant_crooked_fungus_big_1_e_feature.json"
+      },
+      {
+         "path" : "features/giant_crooked_fungus_big_1_n_feature.json"
+      },
+      {
+         "path" : "features/giant_crooked_fungus_big_1_s_feature.json"
+      },
+      {
+         "path" : "features/giant_crooked_fungus_big_1_w_feature.json"
+      },
+      {
+         "path" : "features/giant_crooked_fungus_random_feature.json"
+      },
+      {
+         "path" : "features/giant_crooked_fungus_scatter_feature.json"
+      },
+      {
+         "path" : "features/giant_crooked_fungus_small_1_feature.json"
+      },
+      {
+         "path" : "features/giant_gloomy_mushroom_feature.json"
+      },
+      {
+         "path" : "features/giant_gloomy_mushroom_scatter_feature.json"
+      },
+      {
+         "path" : "features/giant_gloomy_mushroom_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/giant_luminous_mushroom_feature.json"
+      },
+      {
+         "path" : "features/giant_luminous_mushroom_scatter_feature.json"
+      },
+      {
+         "path" : "features/giant_luminous_mushroom_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/giant_mushroom_random_feature.json"
+      },
+      {
+         "path" : "features/gloomy_mushroom_feature.json"
+      },
+      {
+         "path" : "features/glow_lichen_block_feature.json"
+      },
+      {
+         "path" : "features/glow_lichen_block_patch_feature.json"
+      },
+      {
+         "path" : "features/glow_lichen_block_patch_vegetation_random_feature.json"
+      },
+      {
+         "path" : "features/glow_lichen_block_patch_vegetation_sequence_feature.json"
+      },
+      {
+         "path" : "features/glow_lichen_feature.json"
+      },
+      {
+         "path" : "features/glow_mycelium_patch_feature.json"
+      },
+      {
+         "path" : "features/glow_mycelium_patch_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/glowing_obsidian_feature.json"
+      },
+      {
+         "path" : "features/glowing_obsidian_patch_feature.json"
+      },
+      {
+         "path" : "features/glowing_obsidian_patch_vegetation_random_feature.json"
+      },
+      {
+         "path" : "features/grass_feature.json"
+      },
+      {
+         "path" : "features/ice_cave_ceiling_random_feature.json"
+      },
+      {
+         "path" : "features/ice_cave_ceiling_snap_to_ceiling_feature.json"
+      },
+      {
+         "path" : "features/ice_cave_surface_random_feature.json"
+      },
+      {
+         "path" : "features/ice_cave_surface_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/ice_crystal_feature.json"
+      },
+      {
+         "path" : "features/ice_dungeon_feature.json"
+      },
+      {
+         "path" : "features/inverted_giant_crooked_fungus_big_1_e_feature.json"
+      },
+      {
+         "path" : "features/inverted_giant_crooked_fungus_big_1_n_feature.json"
+      },
+      {
+         "path" : "features/inverted_giant_crooked_fungus_big_1_s_feature.json"
+      },
+      {
+         "path" : "features/inverted_giant_crooked_fungus_big_1_w_feature.json"
+      },
+      {
+         "path" : "features/inverted_giant_crooked_fungus_random_feature.json"
+      },
+      {
+         "path" : "features/inverted_giant_crooked_fungus_small_1_feature.json"
+      },
+      {
+         "path" : "features/inverted_giant_crooked_fungus_small_2_feature.json"
+      },
+      {
+         "path" : "features/large_fern_feature.json"
+      },
+      {
+         "path" : "features/limestone_arena_feature.json"
+      },
+      {
+         "path" : "features/limestone_dungeon_feature.json"
+      },
+      {
+         "path" : "features/limestone_feature.json"
+      },
+      {
+         "path" : "features/limestone_patch_feature.json"
+      },
+      {
+         "path" : "features/limestone_patch_random_feature.json"
+      },
+      {
+         "path" : "features/limestone_patch_with_sand_layer_feature.json"
+      },
+      {
+         "path" : "features/limestone_pebbles_feature.json"
+      },
+      {
+         "path" : "features/limestone_ruins_5x5_1_feature.json"
+      },
+      {
+         "path" : "features/limestone_ruins_5x5_2_feature.json"
+      },
+      {
+         "path" : "features/limestone_ruins_5x5_3_feature.json"
+      },
+      {
+         "path" : "features/limestone_ruins_5x5_4_feature.json"
+      },
+      {
+         "path" : "features/limestone_ruins_6x6_1_feature.json"
+      },
+      {
+         "path" : "features/limestone_ruins_random_feature.json"
+      },
+      {
+         "path" : "features/lost_explorer_camp_feature.json"
+      },
+      {
+         "path" : "features/luminite_ore_feature.json"
+      },
+      {
+         "path" : "features/luminous_caverns_mushroom_random_feature.json"
+      },
+      {
+         "path" : "features/luminous_mushroom_feature.json"
+      },
+      {
+         "path" : "features/mud_patch_feature.json"
+      },
+      {
+         "path" : "features/mud_patch_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/mud_patch_vegetation_feature.json"
+      },
+      {
+         "path" : "features/mysterious_fungus_feature.json"
+      },
+      {
+         "path" : "features/nether_cave_carver_feature.json"
+      },
+      {
+         "path" : "features/nether_cave_surface_random_feature.json"
+      },
+      {
+         "path" : "features/nether_cave_surface_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/nether_lava_feature.json"
+      },
+      {
+         "path" : "features/nether_lava_layer_feature.json"
+      },
+      {
+         "path" : "features/nether_lava_layer_replace_water_feature.json"
+      },
+      {
+         "path" : "features/nether_lava_layer_sequence_feature.json"
+      },
+      {
+         "path" : "features/nether_lava_layer_snap_to_floor_feature.json"
+      },
+      {
+         "path" : "features/nether_lava_replace_vegetation_feature.json"
+      },
+      {
+         "path" : "features/nether_lava_scatter_feature.json"
+      },
+      {
+         "path" : "features/overworld_deepslate_pebbles_patch_feature.json"
+      },
+      {
+         "path" : "features/overworld_limestone_feature.json"
+      },
+      {
+         "path" : "features/overworld_pebbles_patch_feature.json"
+      },
+      {
+         "path" : "features/overworld_pebbles_random_feature.json"
+      },
+      {
+         "path" : "features/pebbles_feature.json"
+      },
+      {
+         "path" : "features/placeholder_test_feature.json"
+      },
+      {
+         "path" : "features/quicksand_in_limestone_caves_feature.json"
+      },
+      {
+         "path" : "features/quicksand_in_limestone_caves_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/quicksand_in_swamps_feature.json"
+      },
+      {
+         "path" : "features/radiant_vines_feature.json"
+      },
+      {
+         "path" : "features/radiant_vines_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/sand_layer_feature.json"
+      },
+      {
+         "path" : "features/sandstone_feature.json"
+      },
+      {
+         "path" : "features/sandstone_patch_feature.json"
+      },
+      {
+         "path" : "features/sandstone_patch_snap_to_ceiling_feature.json"
+      },
+      {
+         "path" : "features/sandy_roots_feature.json"
+      },
+      {
+         "path" : "features/sandy_roots_head_feature.json"
+      },
+      {
+         "path" : "features/sandy_roots_snap_to_ceiling_feature.json"
+      },
+      {
+         "path" : "features/select_limestone_feature.json"
+      },
+      {
+         "path" : "features/select_sandstone_patch_vegetation_feature.json"
+      },
+      {
+         "path" : "features/select_slimy_sewers_foliage_feature.json"
+      },
+      {
+         "path" : "features/slime_caves_vines_feature.json"
+      },
+      {
+         "path" : "features/slime_dungeon_deepslate_feature.json"
+      },
+      {
+         "path" : "features/slime_dungeon_stone_feature.json"
+      },
+      {
+         "path" : "features/slime_layer_feature.json"
+      },
+      {
+         "path" : "features/slimy_blossom_feature.json"
+      },
+      {
+         "path" : "features/slimy_deepslate_patch_feature.json"
+      },
+      {
+         "path" : "features/slimy_deepslate_patch_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/slimy_deepslate_pebbles_feature.json"
+      },
+      {
+         "path" : "features/slimy_pebbles_feature.json"
+      },
+      {
+         "path" : "features/slimy_sprouts_feature.json"
+      },
+      {
+         "path" : "features/slimy_stone_patch_feature.json"
+      },
+      {
+         "path" : "features/slimy_stone_patch_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/soul_castle_feature.json"
+      },
+      {
+         "path" : "features/soul_geyser_feature.json"
+      },
+      {
+         "path" : "features/soul_magma_patch_feature.json"
+      },
+      {
+         "path" : "features/soul_stone_ceiling_patch_feature.json"
+      },
+      {
+         "path" : "features/soul_stone_ceiling_patch_snap_to_ceiling_feature.json"
+      },
+      {
+         "path" : "features/soul_stone_feature.json"
+      },
+      {
+         "path" : "features/sticky_spikes_feature.json"
+      },
+      {
+         "path" : "features/tall_grass_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/cave_pool_patch_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/cave_pool_patch_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/cave_pool_random_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/cave_turf_patch_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/cave_turf_patch_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/chromatic_petals_1_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/chromatic_petals_2_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/chromatic_petals_3_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/chromatic_petals_4_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/chromatic_petals_random_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/deepslate_cave_pool_random_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/deepslate_cave_turf_patch_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/deepslate_cave_turf_patch_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/giant_azure_bluet_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/giant_cornflower_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/giant_dandelion_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/giant_flower_random_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/giant_flower_scatter_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/giant_oxeye_daisy_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/giant_wither_rose_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/rainbow_tree_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/rainbow_tree_small_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/rainbow_tree_small_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/rainbow_tree_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/roofed_forest_cave_carver_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/twilight_spores_1_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/twilight_spores_2_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/twilight_spores_3_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/twilight_spores_4_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/twilight_spores_random_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/undergrowth_deepslate_surface_random_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/undergrowth_surface_random_feature.json"
+      },
+      {
+         "path" : "features/undergrowth/undergrowth_vegetation_random_feature.json"
+      },
+      {
+         "path" : "item_catalog/crafting_item_catalog.json"
+      },
+      {
+         "path" : "items/bane_of_frost.json"
+      },
+      {
+         "path" : "items/chromatic_petals_item.json"
+      },
+      {
+         "path" : "items/cobbled_deepslate_pebbles_item.json"
+      },
+      {
+         "path" : "items/cobbled_limestone_pebbles_item.json"
+      },
+      {
+         "path" : "items/cobblestone_pebbles_item.json"
+      },
+      {
+         "path" : "items/cooked_scorpion.json"
+      },
+      {
+         "path" : "items/corrupted_bouquet.json"
+      },
+      {
+         "path" : "items/crooked_fungus_item.json"
+      },
+      {
+         "path" : "items/crooked_fungus_stew.json"
+      },
+      {
+         "path" : "items/crooked_roots_item.json"
+      },
+      {
+         "path" : "items/deepslate_pebbles_item.json"
+      },
+      {
+         "path" : "items/dripping_icicle_item.json"
+      },
+      {
+         "path" : "items/dripping_slime_item.json"
+      },
+      {
+         "path" : "items/fatal_poison_potion.json"
+      },
+      {
+         "path" : "items/fatal_poison_potion_plus.json"
+      },
+      {
+         "path" : "items/fatal_poison_potion_potency_2.json"
+      },
+      {
+         "path" : "items/frost_essence.json"
+      },
+      {
+         "path" : "items/frosted_deepslate_pebbles.json"
+      },
+      {
+         "path" : "items/frosted_pebbles_item.json"
+      },
+      {
+         "path" : "items/frozen_core.json"
+      },
+      {
+         "path" : "items/frozen_potion.json"
+      },
+      {
+         "path" : "items/frozen_potion_plus.json"
+      },
+      {
+         "path" : "items/gloomy_mushroom_item.json"
+      },
+      {
+         "path" : "items/hardened_slimeball.json"
+      },
+      {
+         "path" : "items/ice_crystal_item.json"
+      },
+      {
+         "path" : "items/ice_shard.json"
+      },
+      {
+         "path" : "items/limestone_pebbles_item.json"
+      },
+      {
+         "path" : "items/luminite.json"
+      },
+      {
+         "path" : "items/luminite_axe.json"
+      },
+      {
+         "path" : "items/luminite_boots.json"
+      },
+      {
+         "path" : "items/luminite_chestplate.json"
+      },
+      {
+         "path" : "items/luminite_helmet.json"
+      },
+      {
+         "path" : "items/luminite_hoe.json"
+      },
+      {
+         "path" : "items/luminite_leggings.json"
+      },
+      {
+         "path" : "items/luminite_pickaxe.json"
+      },
+      {
+         "path" : "items/luminite_shard.json"
+      },
+      {
+         "path" : "items/luminite_shovel.json"
+      },
+      {
+         "path" : "items/luminite_sword.json"
+      },
+      {
+         "path" : "items/luminous_mushroom_item.json"
+      },
+      {
+         "path" : "items/luminous_mushroom_stew.json"
+      },
+      {
+         "path" : "items/mysterious_fungus_item.json"
+      },
+      {
+         "path" : "items/mysterious_stew.json"
+      },
+      {
+         "path" : "items/pebbles_item.json"
+      },
+      {
+         "path" : "items/radiant_vines_item.json"
+      },
+      {
+         "path" : "items/raw_scorpion.json"
+      },
+      {
+         "path" : "items/sand_lump.json"
+      },
+      {
+         "path" : "items/sandstone_stick.json"
+      },
+      {
+         "path" : "items/sandy_roots_item.json"
+      },
+      {
+         "path" : "items/sandy_skelly_skull_item.json"
+      },
+      {
+         "path" : "items/slime_dagger.json"
+      },
+      {
+         "path" : "items/slime_soup.json"
+      },
+      {
+         "path" : "items/slimeball_part.json"
+      },
+      {
+         "path" : "items/slimy_blossom_item.json"
+      },
+      {
+         "path" : "items/slimy_deepslate_pebbles_item.json"
+      },
+      {
+         "path" : "items/slimy_pebbles_item.json"
+      },
+      {
+         "path" : "items/slimy_sprouts_item.json"
+      },
+      {
+         "path" : "items/slingshot.json"
+      },
+      {
+         "path" : "items/soul_fragment.json"
+      },
+      {
+         "path" : "items/soul_geyser_item.json"
+      },
+      {
+         "path" : "items/soul_healer.json"
+      },
+      {
+         "path" : "items/star_jasmine_item.json"
+      },
+      {
+         "path" : "items/sticky_spikes_item.json"
+      },
+      {
+         "path" : "items/wand_of_the_sands.json"
+      },
+      {
+         "path" : "loot_tables/blocks/cave_turf.json"
+      },
+      {
+         "path" : "loot_tables/blocks/chromatic_petals1.json"
+      },
+      {
+         "path" : "loot_tables/blocks/chromatic_petals2.json"
+      },
+      {
+         "path" : "loot_tables/blocks/chromatic_petals3.json"
+      },
+      {
+         "path" : "loot_tables/blocks/chromatic_petals4.json"
+      },
+      {
+         "path" : "loot_tables/blocks/cobbled_deepslate_pebbles.json"
+      },
+      {
+         "path" : "loot_tables/blocks/cobbled_limestone.json"
+      },
+      {
+         "path" : "loot_tables/blocks/cobbled_limestone_pebbles.json"
+      },
+      {
+         "path" : "loot_tables/blocks/cobblestone_pebbles.json"
+      },
+      {
+         "path" : "loot_tables/blocks/crooked_door.json"
+      },
+      {
+         "path" : "loot_tables/blocks/crooked_fungus.json"
+      },
+      {
+         "path" : "loot_tables/blocks/crooked_nylium.json"
+      },
+      {
+         "path" : "loot_tables/blocks/crooked_roots.json"
+      },
+      {
+         "path" : "loot_tables/blocks/crooked_slab.json"
+      },
+      {
+         "path" : "loot_tables/blocks/crooked_slab_double.json"
+      },
+      {
+         "path" : "loot_tables/blocks/crystallized_ice.json"
+      },
+      {
+         "path" : "loot_tables/blocks/deepslate_cave_turf.json"
+      },
+      {
+         "path" : "loot_tables/blocks/deepslate_glow_mycelium.json"
+      },
+      {
+         "path" : "loot_tables/blocks/deepslate_pebbles.json"
+      },
+      {
+         "path" : "loot_tables/blocks/dripping_icicle.json"
+      },
+      {
+         "path" : "loot_tables/blocks/dripping_slime.json"
+      },
+      {
+         "path" : "loot_tables/blocks/frosted_deepslate_pebbles.json"
+      },
+      {
+         "path" : "loot_tables/blocks/frosted_pebbles.json"
+      },
+      {
+         "path" : "loot_tables/blocks/frosted_stone.json"
+      },
+      {
+         "path" : "loot_tables/blocks/frosted_stone_slab.json"
+      },
+      {
+         "path" : "loot_tables/blocks/frosted_stone_slab_double.json"
+      },
+      {
+         "path" : "loot_tables/blocks/gloomy_mushroom.json"
+      },
+      {
+         "path" : "loot_tables/blocks/glow_mycelium.json"
+      },
+      {
+         "path" : "loot_tables/blocks/glowing_obsidian.json"
+      },
+      {
+         "path" : "loot_tables/blocks/ice_crystal.json"
+      },
+      {
+         "path" : "loot_tables/blocks/limestone.json"
+      },
+      {
+         "path" : "loot_tables/blocks/limestone_bricks.json"
+      },
+      {
+         "path" : "loot_tables/blocks/limestone_bricks_chiseled.json"
+      },
+      {
+         "path" : "loot_tables/blocks/limestone_bricks_cracked.json"
+      },
+      {
+         "path" : "loot_tables/blocks/limestone_bricks_mossy.json"
+      },
+      {
+         "path" : "loot_tables/blocks/limestone_bricks_slab.json"
+      },
+      {
+         "path" : "loot_tables/blocks/limestone_bricks_slab_double.json"
+      },
+      {
+         "path" : "loot_tables/blocks/limestone_pebbles.json"
+      },
+      {
+         "path" : "loot_tables/blocks/limestone_slab.json"
+      },
+      {
+         "path" : "loot_tables/blocks/limestone_slab_double.json"
+      },
+      {
+         "path" : "loot_tables/blocks/luminite_block.json"
+      },
+      {
+         "path" : "loot_tables/blocks/luminous_mushroom.json"
+      },
+      {
+         "path" : "loot_tables/blocks/mysterious_fungus.json"
+      },
+      {
+         "path" : "loot_tables/blocks/packed_ice_bricks_slab.json"
+      },
+      {
+         "path" : "loot_tables/blocks/packed_ice_bricks_slab_double.json"
+      },
+      {
+         "path" : "loot_tables/blocks/pebbles.json"
+      },
+      {
+         "path" : "loot_tables/blocks/polished_limestone.json"
+      },
+      {
+         "path" : "loot_tables/blocks/radiant_vines.json"
+      },
+      {
+         "path" : "loot_tables/blocks/sand_layer1.json"
+      },
+      {
+         "path" : "loot_tables/blocks/sand_layer2.json"
+      },
+      {
+         "path" : "loot_tables/blocks/sand_layer3.json"
+      },
+      {
+         "path" : "loot_tables/blocks/sand_layer4.json"
+      },
+      {
+         "path" : "loot_tables/blocks/sandy_roots.json"
+      },
+      {
+         "path" : "loot_tables/blocks/sandy_skelly_skull.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slime_layer1.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slime_layer2.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slime_layer3.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slime_layer4.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_blossom.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_deepslate.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_deepslate_bricks.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_deepslate_bricks_cracked.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_deepslate_bricks_slab.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_deepslate_bricks_slab_double.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_deepslate_pebbles.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_deepslate_tiles.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_deepslate_tiles_cracked.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_deepslate_tiles_slab.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_deepslate_tiles_slab_double.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_pebbles.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_sprouts.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_stone.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_stone_bricks.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_stone_bricks_cracked.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_stone_bricks_slab.json"
+      },
+      {
+         "path" : "loot_tables/blocks/slimy_stone_bricks_slab_double.json"
+      },
+      {
+         "path" : "loot_tables/blocks/soul_bricks_slab.json"
+      },
+      {
+         "path" : "loot_tables/blocks/soul_bricks_slab_double.json"
+      },
+      {
+         "path" : "loot_tables/blocks/soul_geyser.json"
+      },
+      {
+         "path" : "loot_tables/blocks/soul_stone.json"
+      },
+      {
+         "path" : "loot_tables/blocks/sticky_spikes.json"
+      },
+      {
+         "path" : "loot_tables/chests/giant_wither_rose.json"
+      },
+      {
+         "path" : "loot_tables/chests/ice_dungeon.json"
+      },
+      {
+         "path" : "loot_tables/chests/limestone_dungeon.json"
+      },
+      {
+         "path" : "loot_tables/chests/limestone_ruins_big.json"
+      },
+      {
+         "path" : "loot_tables/chests/limestone_ruins_small.json"
+      },
+      {
+         "path" : "loot_tables/chests/slime_dungeon.json"
+      },
+      {
+         "path" : "loot_tables/chests/soul_castle.json"
+      },
+      {
+         "path" : "loot_tables/entities/frost_spirit.json"
+      },
+      {
+         "path" : "loot_tables/entities/hoglin_bank.json"
+      },
+      {
+         "path" : "loot_tables/entities/luminous_mooshroom_milkstew.json"
+      },
+      {
+         "path" : "loot_tables/entities/luminous_mooshroom_shear.json"
+      },
+      {
+         "path" : "loot_tables/entities/sandy_skelly.json"
+      },
+      {
+         "path" : "loot_tables/entities/sandy_skelly_equipment.json"
+      },
+      {
+         "path" : "loot_tables/entities/scorpion.json"
+      },
+      {
+         "path" : "loot_tables/entities/thornspitter.json"
+      },
+      {
+         "path" : "loot_tables/entities/wisp.json"
+      },
+      {
+         "path" : "loot_tables/luminite_ore_drops.json"
+      },
+      {
+         "path" : "loot_tables/no_drops.json"
+      },
+      {
+         "path" : "loot_tables/shroom_elf.json"
+      },
+      {
+         "path" : "loot_tables/slimy_zombie.json"
+      },
+      {
+         "path" : "loot_tables/slimy_zombie_equipment.json"
+      },
+      {
+         "path" : "manifest.json"
+      },
+      {
+         "path" : "node_modules/.package-lock.json"
+      },
+      {
+         "path" : "node_modules/@minecraft/common/.eslintrc.json"
+      },
+      {
+         "path" : "node_modules/@minecraft/common/README.md"
+      },
+      {
+         "path" : "node_modules/@minecraft/common/index.d.ts"
+      },
+      {
+         "path" : "node_modules/@minecraft/common/package.json"
+      },
+      {
+         "path" : "node_modules/@minecraft/common/tsconfig.json"
+      },
+      {
+         "path" : "node_modules/@minecraft/server/.eslintrc.json"
+      },
+      {
+         "path" : "node_modules/@minecraft/server/README.md"
+      },
+      {
+         "path" : "node_modules/@minecraft/server/index.d.ts"
+      },
+      {
+         "path" : "node_modules/@minecraft/server/package.json"
+      },
+      {
+         "path" : "node_modules/@minecraft/server/tests.ts"
+      },
+      {
+         "path" : "node_modules/@minecraft/server/tsconfig.json"
+      },
+      {
+         "path" : "pack_icon.png"
+      },
+      {
+         "path" : "package-lock.json"
+      },
+      {
+         "path" : "package.json"
+      },
+      {
+         "path" : "recipes/bane_of_frost.json"
+      },
+      {
+         "path" : "recipes/brewing_stand/brew_decay_potion.json"
+      },
+      {
+         "path" : "recipes/brewing_stand/brew_fatal_poison_potion.json"
+      },
+      {
+         "path" : "recipes/brewing_stand/brew_fatal_poison_potion_plus.json"
+      },
+      {
+         "path" : "recipes/brewing_stand/brew_fatal_poison_potion_potency_2.json"
+      },
+      {
+         "path" : "recipes/brewing_stand/brew_frozen_potion.json"
+      },
+      {
+         "path" : "recipes/brewing_stand/brew_frozen_potion_plus.json"
+      },
+      {
+         "path" : "recipes/crooked/crafting_table_from_crooked_planks.json"
+      },
+      {
+         "path" : "recipes/crooked/daylight_detector_from_crooked_slab.json"
+      },
+      {
+         "path" : "recipes/crooked/fletching_table_from_crooked_planks.json"
+      },
+      {
+         "path" : "recipes/crooked/grindstone_from_crooked_planks.json"
+      },
+      {
+         "path" : "recipes/crooked/grindstone_from_crooked_planks2.json"
+      },
+      {
+         "path" : "recipes/crooked/grindstone_from_crooked_planks3.json"
+      },
+      {
+         "path" : "recipes/crooked/grindstone_from_crooked_planks4.json"
+      },
+      {
+         "path" : "recipes/crooked/jukebox_from_crooked_planks.json"
+      },
+      {
+         "path" : "recipes/crooked/lectern_from_crooked_slab.json"
+      },
+      {
+         "path" : "recipes/crooked/loom_from_crooked_planks.json"
+      },
+      {
+         "path" : "recipes/crooked/noteblock_from_crooked_planks.json"
+      },
+      {
+         "path" : "recipes/crooked/piston_from_crooked_planks.json"
+      },
+      {
+         "path" : "recipes/crooked/shield_from_crooked_planks.json"
+      },
+      {
+         "path" : "recipes/crooked/smithing_table_from_crooked_planks.json"
+      },
+      {
+         "path" : "recipes/crooked/smoker_from_crooked_hyphae.json"
+      },
+      {
+         "path" : "recipes/crooked/smoker_from_crooked_stem.json"
+      },
+      {
+         "path" : "recipes/crooked/smoker_from_stripped_crooked_hyphae.json"
+      },
+      {
+         "path" : "recipes/crooked/smoker_from_stripped_crooked_stem.json"
+      },
+      {
+         "path" : "recipes/crooked/soul_campfire_from_crooked_hyphae.json"
+      },
+      {
+         "path" : "recipes/crooked/soul_campfire_from_crooked_hyphae2.json"
+      },
+      {
+         "path" : "recipes/crooked/soul_campfire_from_crooked_stem.json"
+      },
+      {
+         "path" : "recipes/crooked/soul_campfire_from_crooked_stem2.json"
+      },
+      {
+         "path" : "recipes/crooked/soul_campfire_from_stripped_crooked_hyphae.json"
+      },
+      {
+         "path" : "recipes/crooked/soul_campfire_from_stripped_crooked_hyphae2.json"
+      },
+      {
+         "path" : "recipes/crooked/soul_campfire_from_stripped_crooked_stem.json"
+      },
+      {
+         "path" : "recipes/crooked/soul_campfire_from_stripped_crooked_stem2.json"
+      },
+      {
+         "path" : "recipes/crooked/stick_from_crooked_planks.json"
+      },
+      {
+         "path" : "recipes/crooked/tripwire_hook_from_crooked_planks.json"
+      },
+      {
+         "path" : "recipes/crooked/wooden_axe_from_crooked_planks.json"
+      },
+      {
+         "path" : "recipes/crooked/wooden_hoe_from_crooked_planks.json"
+      },
+      {
+         "path" : "recipes/crooked/wooden_pickaxe_from_crooked_planks.json"
+      },
+      {
+         "path" : "recipes/crooked/wooden_shovel_from_crooked_planks.json"
+      },
+      {
+         "path" : "recipes/crooked/wooden_sword_from_crooked_planks.json"
+      },
+      {
+         "path" : "recipes/crooked_fence.json"
+      },
+      {
+         "path" : "recipes/crooked_fungus_stew.json"
+      },
+      {
+         "path" : "recipes/crooked_hyphae.json"
+      },
+      {
+         "path" : "recipes/crooked_hyphae_stripped.json"
+      },
+      {
+         "path" : "recipes/crooked_planks.json"
+      },
+      {
+         "path" : "recipes/crooked_planks_from_hyphae.json"
+      },
+      {
+         "path" : "recipes/crooked_planks_from_hyphae_stripped.json"
+      },
+      {
+         "path" : "recipes/crooked_planks_from_stem_stripped.json"
+      },
+      {
+         "path" : "recipes/crooked_slab.json"
+      },
+      {
+         "path" : "recipes/crooked_trapdoor.json"
+      },
+      {
+         "path" : "recipes/crystallized_ice.json"
+      },
+      {
+         "path" : "recipes/frosted_stone_slab.json"
+      },
+      {
+         "path" : "recipes/furnace/cooked_scorpion.json"
+      },
+      {
+         "path" : "recipes/furnace/furnace_limestone_bricks_cracked.json"
+      },
+      {
+         "path" : "recipes/furnace/furnace_limestone_from_cobbled_limestone.json"
+      },
+      {
+         "path" : "recipes/furnace/furnace_packed_ice_bricks_cracked.json"
+      },
+      {
+         "path" : "recipes/furnace/furnace_polished_limestone.json"
+      },
+      {
+         "path" : "recipes/furnace/furnace_slimy_deepslate_bricks_cracked.json"
+      },
+      {
+         "path" : "recipes/furnace/furnace_slimy_deepslate_tiles_cracked.json"
+      },
+      {
+         "path" : "recipes/furnace/furnace_slimy_stone_bricks_cracked.json"
+      },
+      {
+         "path" : "recipes/furnace/furnace_soul_bricks_cracked.json"
+      },
+      {
+         "path" : "recipes/furnace/pebbles_from_cobblestone_pebbles.json"
+      },
+      {
+         "path" : "recipes/furnace/pebbles_from_frosted_pebbles.json"
+      },
+      {
+         "path" : "recipes/hardened_slimeball.json"
+      },
+      {
+         "path" : "recipes/ice_crystal.json"
+      },
+      {
+         "path" : "recipes/lava_tank_diamond.json"
+      },
+      {
+         "path" : "recipes/lava_tank_diamond_from_gold_locked.json"
+      },
+      {
+         "path" : "recipes/lava_tank_diamond_locked.json"
+      },
+      {
+         "path" : "recipes/lava_tank_gold.json"
+      },
+      {
+         "path" : "recipes/lava_tank_gold_locked.json"
+      },
+      {
+         "path" : "recipes/light_gray_dye_from_star_jasmine.json"
+      },
+      {
+         "path" : "recipes/limestone_bricks.json"
+      },
+      {
+         "path" : "recipes/limestone_bricks_chiseled.json"
+      },
+      {
+         "path" : "recipes/limestone_bricks_mossy.json"
+      },
+      {
+         "path" : "recipes/limestone_bricks_slab.json"
+      },
+      {
+         "path" : "recipes/limestone_pillar.json"
+      },
+      {
+         "path" : "recipes/limestone_slab.json"
+      },
+      {
+         "path" : "recipes/luminite.json"
+      },
+      {
+         "path" : "recipes/luminite_axe.json"
+      },
+      {
+         "path" : "recipes/luminite_block.json"
+      },
+      {
+         "path" : "recipes/luminite_boots.json"
+      },
+      {
+         "path" : "recipes/luminite_chestplate.json"
+      },
+      {
+         "path" : "recipes/luminite_from_block.json"
+      },
+      {
+         "path" : "recipes/luminite_from_shard.json"
+      },
+      {
+         "path" : "recipes/luminite_helmet.json"
+      },
+      {
+         "path" : "recipes/luminite_hoe.json"
+      },
+      {
+         "path" : "recipes/luminite_leggings.json"
+      },
+      {
+         "path" : "recipes/luminite_pickaxe.json"
+      },
+      {
+         "path" : "recipes/luminite_shovel.json"
+      },
+      {
+         "path" : "recipes/luminite_sword.json"
+      },
+      {
+         "path" : "recipes/luminous_mushroom_stew.json"
+      },
+      {
+         "path" : "recipes/mysterious_stew.json"
+      },
+      {
+         "path" : "recipes/packed_ice_bricks.json"
+      },
+      {
+         "path" : "recipes/packed_ice_bricks_slab.json"
+      },
+      {
+         "path" : "recipes/packed_ice_chiseled.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/crafting_table_from_rainbow_gum_planks.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/daylight_detector_from_rainbow_gum_slab.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/fletching_table_from_rainbow_gum_planks.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/grindstone_from_rainbow_gum_planks.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/grindstone_from_rainbow_gum_planks2.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/grindstone_from_rainbow_gum_planks3.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/grindstone_from_rainbow_gum_planks4.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/jukebox_from_rainbow_gum_planks.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/lectern_from_rainbow_gum_slab.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/loom_from_rainbow_gum_planks.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/noteblock_from_rainbow_gum_planks.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/piston_from_rainbow_gum_planks.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/shield_from_rainbow_gum_planks.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/smithing_table_from_rainbow_gum_planks.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/smoker_from_rainbow_gum_log.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/smoker_from_rainbow_gum_wood.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/smoker_from_stripped_rainbow_gum_log.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/smoker_from_stripped_rainbow_gum_wood.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/soul_campfire_from_rainbow_gum_log.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/soul_campfire_from_rainbow_gum_log2.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/soul_campfire_from_rainbow_gum_wood.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/soul_campfire_from_rainbow_gum_wood2.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/soul_campfire_from_stripped_rainbow_gum_log.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/soul_campfire_from_stripped_rainbow_gum_log2.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/soul_campfire_from_stripped_rainbow_gum_wood.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/soul_campfire_from_stripped_rainbow_gum_wood2.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/stick_from_rainbow_gum_planks.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/tripwire_hook_from_rainbow_gum_planks.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/wooden_axe_from_rainbow_gum_planks.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/wooden_hoe_from_rainbow_gum_planks.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/wooden_pickaxe_from_rainbow_gum_planks.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/wooden_shovel_from_rainbow_gum_planks.json"
+      },
+      {
+         "path" : "recipes/rainbow_gum/wooden_sword_from_rainbow_gum_planks.json"
+      },
+      {
+         "path" : "recipes/sand_from_sand_lump.json"
+      },
+      {
+         "path" : "recipes/sand_layer.json"
+      },
+      {
+         "path" : "recipes/slime_lantern.json"
+      },
+      {
+         "path" : "recipes/slime_layer.json"
+      },
+      {
+         "path" : "recipes/slime_soup.json"
+      },
+      {
+         "path" : "recipes/slimeball_from_slimeball_part.json"
+      },
+      {
+         "path" : "recipes/slimy_deepslate_bricks.json"
+      },
+      {
+         "path" : "recipes/slimy_deepslate_bricks_slab.json"
+      },
+      {
+         "path" : "recipes/slimy_deepslate_tiles.json"
+      },
+      {
+         "path" : "recipes/slimy_deepslate_tiles_slab.json"
+      },
+      {
+         "path" : "recipes/slimy_stone_bricks.json"
+      },
+      {
+         "path" : "recipes/slimy_stone_bricks_slab.json"
+      },
+      {
+         "path" : "recipes/slingshot.json"
+      },
+      {
+         "path" : "recipes/soul_bricks.json"
+      },
+      {
+         "path" : "recipes/soul_bricks_chiseled.json"
+      },
+      {
+         "path" : "recipes/soul_bricks_slab.json"
+      },
+      {
+         "path" : "recipes/soul_healer.json"
+      },
+      {
+         "path" : "recipes/soul_sand_from_soul_fragment.json"
+      },
+      {
+         "path" : "recipes/stonecutter/cobbled_deepslate_pebbles_from_cobbled_deepslate.json"
+      },
+      {
+         "path" : "recipes/stonecutter/cobbled_limestone_pebbles_from_cobbled_limestone.json"
+      },
+      {
+         "path" : "recipes/stonecutter/cobblestone_pebbles_from_cobblestone.json"
+      },
+      {
+         "path" : "recipes/stonecutter/deepslate_pebbles_from_deepslate.json"
+      },
+      {
+         "path" : "recipes/stonecutter/frosted_deepslate_pebbles_from_frosted_deepslate.json"
+      },
+      {
+         "path" : "recipes/stonecutter/frosted_pebbles_from_frosted_stone.json"
+      },
+      {
+         "path" : "recipes/stonecutter/frosted_stone_slab.json"
+      },
+      {
+         "path" : "recipes/stonecutter/limestone_bricks.json"
+      },
+      {
+         "path" : "recipes/stonecutter/limestone_bricks_chiseled.json"
+      },
+      {
+         "path" : "recipes/stonecutter/limestone_bricks_slab.json"
+      },
+      {
+         "path" : "recipes/stonecutter/limestone_bricks_slab_from_limestone.json"
+      },
+      {
+         "path" : "recipes/stonecutter/limestone_pebbles_from_limestone.json"
+      },
+      {
+         "path" : "recipes/stonecutter/limestone_pillar.json"
+      },
+      {
+         "path" : "recipes/stonecutter/limestone_slab.json"
+      },
+      {
+         "path" : "recipes/stonecutter/packed_ice_bricks.json"
+      },
+      {
+         "path" : "recipes/stonecutter/packed_ice_bricks_slab.json"
+      },
+      {
+         "path" : "recipes/stonecutter/packed_ice_bricks_slab_from_packed_ice.json"
+      },
+      {
+         "path" : "recipes/stonecutter/packed_ice_chiseled.json"
+      },
+      {
+         "path" : "recipes/stonecutter/pebbles_from_stone.json"
+      },
+      {
+         "path" : "recipes/stonecutter/polished_limestone.json"
+      },
+      {
+         "path" : "recipes/stonecutter/slimy_deepslate_bricks.json"
+      },
+      {
+         "path" : "recipes/stonecutter/slimy_deepslate_bricks_slab.json"
+      },
+      {
+         "path" : "recipes/stonecutter/slimy_deepslate_bricks_slab_from_slimy_deepslate.json"
+      },
+      {
+         "path" : "recipes/stonecutter/slimy_deepslate_pebbles_from_slimy_deepslate.json"
+      },
+      {
+         "path" : "recipes/stonecutter/slimy_deepslate_tiles.json"
+      },
+      {
+         "path" : "recipes/stonecutter/slimy_deepslate_tiles_from_slimy_deepslate.json"
+      },
+      {
+         "path" : "recipes/stonecutter/slimy_deepslate_tiles_slab.json"
+      },
+      {
+         "path" : "recipes/stonecutter/slimy_deepslate_tiles_slab_from_slimy_deepslate.json"
+      },
+      {
+         "path" : "recipes/stonecutter/slimy_deepslate_tiles_slab_from_slimy_deepslate_bricks.json"
+      },
+      {
+         "path" : "recipes/stonecutter/slimy_pebbles_from_slimy_stone.json"
+      },
+      {
+         "path" : "recipes/stonecutter/slimy_stone_bricks.json"
+      },
+      {
+         "path" : "recipes/stonecutter/slimy_stone_bricks_slab.json"
+      },
+      {
+         "path" : "recipes/stonecutter/slimy_stone_bricks_slab_from_slimy_stone.json"
+      },
+      {
+         "path" : "recipes/stonecutter/soul_bricks_chiseled.json"
+      },
+      {
+         "path" : "recipes/stonecutter/soul_bricks_slab.json"
+      },
+      {
+         "path" : "recipes/suitcase_used.json"
+      },
+      {
+         "path" : "recipes/wand_of_the_sands.json"
+      },
+      {
+         "path" : "scripts/Main.js"
+      },
+      {
+         "path" : "scripts/consumable_events.js"
+      },
+      {
+         "path" : "scripts/correct_drops.js"
+      },
+      {
+         "path" : "scripts/custom_dripstone.js"
+      },
+      {
+         "path" : "scripts/custom_swords.js"
+      },
+      {
+         "path" : "scripts/events/arena_pillar.js"
+      },
+      {
+         "path" : "scripts/events/onInteract.js"
+      },
+      {
+         "path" : "scripts/events/onPlace.js"
+      },
+      {
+         "path" : "scripts/events/onPlayerDestroy.js"
+      },
+      {
+         "path" : "scripts/events/onStepOn.js"
+      },
+      {
+         "path" : "scripts/events/onTick.js"
+      },
+      {
+         "path" : "scripts/events/onUse.js"
+      },
+      {
+         "path" : "scripts/events/sandy_skelly_skull_rotation.js"
+      },
+      {
+         "path" : "scripts/fence_connect.js"
+      },
+      {
+         "path" : "scripts/functions.js"
+      },
+      {
+         "path" : "scripts/lava_tank.js"
+      },
+      {
+         "path" : "scripts/leaves_decay.js"
+      },
+      {
+         "path" : "scripts/pebbles.js"
+      },
+      {
+         "path" : "scripts/soul_healer.js"
+      },
+      {
+         "path" : "spawn_rules/frost_spirit.json"
+      },
+      {
+         "path" : "spawn_rules/ghast.json"
+      },
+      {
+         "path" : "spawn_rules/husk_placeholder.json"
+      },
+      {
+         "path" : "spawn_rules/luminous_mooshroom.json"
+      },
+      {
+         "path" : "spawn_rules/penguin.json"
+      },
+      {
+         "path" : "spawn_rules/sandy_skelly.json"
+      },
+      {
+         "path" : "spawn_rules/scorpion.json"
+      },
+      {
+         "path" : "spawn_rules/shroom_elf.json"
+      },
+      {
+         "path" : "spawn_rules/slime_placeholder.json"
+      },
+      {
+         "path" : "spawn_rules/slimy_zombie.json"
+      },
+      {
+         "path" : "spawn_rules/stray_placeholder.json"
+      },
+      {
+         "path" : "spawn_rules/wisp.json"
+      },
+      {
+         "path" : "spawn_rules/witch_placeholder.json"
+      },
+      {
+         "path" : "structures/chromatic_petals_1.mcstructure"
+      },
+      {
+         "path" : "structures/chromatic_petals_2.mcstructure"
+      },
+      {
+         "path" : "structures/chromatic_petals_3.mcstructure"
+      },
+      {
+         "path" : "structures/chromatic_petals_4.mcstructure"
+      },
+      {
+         "path" : "structures/crooked_fungus_big_1.mcstructure"
+      },
+      {
+         "path" : "structures/crooked_fungus_big_1_rotated_90.mcstructure"
+      },
+      {
+         "path" : "structures/crooked_fungus_small_1.mcstructure"
+      },
+      {
+         "path" : "structures/crooked_stem_rotated_north.mcstructure"
+      },
+      {
+         "path" : "structures/crooked_stem_stripped_rotated_east.mcstructure"
+      },
+      {
+         "path" : "structures/crooked_stem_stripped_rotated_north.mcstructure"
+      },
+      {
+         "path" : "structures/giant_azure_bluet.mcstructure"
+      },
+      {
+         "path" : "structures/giant_cornflower.mcstructure"
+      },
+      {
+         "path" : "structures/giant_dandelion.mcstructure"
+      },
+      {
+         "path" : "structures/giant_gloomy_mushroom.mcstructure"
+      },
+      {
+         "path" : "structures/giant_luminous_mushroom.mcstructure"
+      },
+      {
+         "path" : "structures/giant_oxeye_daisy.mcstructure"
+      },
+      {
+         "path" : "structures/giant_wither_rose.mcstructure"
+      },
+      {
+         "path" : "structures/ice_dungeon.mcstructure"
+      },
+      {
+         "path" : "structures/inverted_giant_crooked_fungus_big_1.mcstructure"
+      },
+      {
+         "path" : "structures/inverted_giant_crooked_fungus_big_1_rotated_90.mcstructure"
+      },
+      {
+         "path" : "structures/inverted_giant_crooked_fungus_small_1.mcstructure"
+      },
+      {
+         "path" : "structures/inverted_giant_crooked_fungus_small_2.mcstructure"
+      },
+      {
+         "path" : "structures/limestone_arena.mcstructure"
+      },
+      {
+         "path" : "structures/limestone_dungeon.mcstructure"
+      },
+      {
+         "path" : "structures/limestone_ruins_5x5_1.mcstructure"
+      },
+      {
+         "path" : "structures/limestone_ruins_5x5_2.mcstructure"
+      },
+      {
+         "path" : "structures/limestone_ruins_5x5_3.mcstructure"
+      },
+      {
+         "path" : "structures/limestone_ruins_5x5_4.mcstructure"
+      },
+      {
+         "path" : "structures/limestone_ruins_6x6_1.mcstructure"
+      },
+      {
+         "path" : "structures/lost_explorer_camp.mcstructure"
+      },
+      {
+         "path" : "structures/slime_dungeon_deepslate.mcstructure"
+      },
+      {
+         "path" : "structures/slime_dungeon_stone.mcstructure"
+      },
+      {
+         "path" : "structures/soul_castle.mcstructure"
+      },
+      {
+         "path" : "structures/suitcase_used_rotated_270.mcstructure"
+      },
+      {
+         "path" : "structures/twilight_spores_1.mcstructure"
+      },
+      {
+         "path" : "structures/twilight_spores_2.mcstructure"
+      },
+      {
+         "path" : "structures/twilight_spores_3.mcstructure"
+      },
+      {
+         "path" : "structures/twilight_spores_4.mcstructure"
+      },
+      {
+         "path" : "trading/lost_explorer_trades.json"
+      },
+      {
+         "path" : "undergrowth coords.txt"
+      },
+      {
+         "path" : "unused/blocks with custom components/crooked_fungus.json"
+      },
+      {
+         "path" : "unused/blocks with custom components/gloomy_mushroom.json"
+      },
+      {
+         "path" : "unused/blocks with custom components/lava_tank_broken.json"
+      },
+      {
+         "path" : "unused/blocks with custom components/lava_tank_diamond.json"
+      },
+      {
+         "path" : "unused/blocks with custom components/lava_tank_diamond_cooldown.json"
+      },
+      {
+         "path" : "unused/blocks with custom components/lava_tank_diamond_full.json"
+      },
+      {
+         "path" : "unused/blocks with custom components/lava_tank_diamond_locked.json"
+      },
+      {
+         "path" : "unused/blocks with custom components/lava_tank_gold.json"
+      },
+      {
+         "path" : "unused/blocks with custom components/lava_tank_gold_cooldown.json"
+      },
+      {
+         "path" : "unused/blocks with custom components/lava_tank_gold_full.json"
+      },
+      {
+         "path" : "unused/blocks with custom components/lava_tank_gold_locked.json"
+      },
+      {
+         "path" : "unused/blocks with custom components/luminous_mushroom.json"
+      },
+      {
+         "path" : "unused/blocks with custom components/sand_layer.json"
+      },
+      {
+         "path" : "unused/blocks with custom components/suitcase.json"
+      },
+      {
+         "path" : "unused/blocks with custom components/suitcase_used.json"
+      },
+      {
+         "path" : "unused/blocks/acid/acidic_stone.json"
+      },
+      {
+         "path" : "unused/blocks/cobbled_limestone_wall.json"
+      },
+      {
+         "path" : "unused/blocks/crooked_door - Copy (2).json"
+      },
+      {
+         "path" : "unused/blocks/crooked_door - Copy.json"
+      },
+      {
+         "path" : "unused/blocks/crooked_door.json"
+      },
+      {
+         "path" : "unused/blocks/crooked_door_bottom.json"
+      },
+      {
+         "path" : "unused/blocks/crooked_door_bottom_flipped.json"
+      },
+      {
+         "path" : "unused/blocks/crooked_door_top.json"
+      },
+      {
+         "path" : "unused/blocks/crooked_door_top_flipped.json"
+      },
+      {
+         "path" : "unused/blocks/crooked_fence - Copy.json"
+      },
+      {
+         "path" : "unused/blocks/crooked_trapdoor old.json"
+      },
+      {
+         "path" : "unused/blocks/lava_tank_gold - Copy.json"
+      },
+      {
+         "path" : "unused/blocks/safe.json"
+      },
+      {
+         "path" : "unused/blocks/safe_used.json"
+      },
+      {
+         "path" : "unused/blocks/slimy_deepslate_bricks_cracked_slab.json"
+      },
+      {
+         "path" : "unused/blocks/slimy_deepslate_tiles_cracked_slab.json"
+      },
+      {
+         "path" : "unused/blocks/slimy_stone_bricks_cracked_slab.json"
+      },
+      {
+         "path" : "unused/blocks/soul_spike.json"
+      },
+      {
+         "path" : "unused/blocks/soul_spike_base.json"
+      },
+      {
+         "path" : "unused/blocks/soul_spike_body.json"
+      },
+      {
+         "path" : "unused/blocks/soul_spike_frustum.json"
+      },
+      {
+         "path" : "unused/blocks/soul_spike_tip.json"
+      },
+      {
+         "path" : "unused/entities/flight_countdown.json"
+      },
+      {
+         "path" : "unused/entities/hoglin_bank.json"
+      },
+      {
+         "path" : "unused/entities/ice_cave_sounds.json"
+      },
+      {
+         "path" : "unused/entities/lava_tank_gold_countdown.json"
+      },
+      {
+         "path" : "unused/entities/luminous_mooshroom - Copy.json"
+      },
+      {
+         "path" : "unused/entities/shroomfly.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/after_surface_crooked_nylium_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/after_surface_deepslate_glow_mycelium_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/after_surface_dripping_slime_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/after_surface_frosted_deepslate_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/after_surface_glow_lichen_block_patch_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/after_surface_glow_mycelium_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/after_surface_glowing_obsidian_patch_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/after_surface_ice_cave_ceiling_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/after_surface_ice_cave_surface_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/after_surface_limestone_caves_cobbled_limestone_patch_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/after_surface_limestone_caves_limestone_patch_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/after_surface_radiant_vines_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/after_surface_sandstone_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/after_surface_slimy_deepslate_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/after_surface_slimy_stone_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/giant_crooked_fungus_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/giant_mushroom_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/limestone_dungeon_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/limestone_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/limestone_ruins_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/lost_explorer_camp_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/luminite_ore_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/nether_cave_carver_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/nether_lava_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/nether_lava_layer_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/nether_lava_layer_replace_water_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/nether_lava_replace_vegetation_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/overworld_deepslate_pebbles_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/overworld_limestone_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/overworld_pebbles_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/quicksand_in_limestone_caves_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/quicksand_in_swamps_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/slime_dungeon_deepslate_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/slime_dungeon_stone_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules april fools 2022/soul_tower_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules.zip"
+      },
+      {
+         "path" : "unused/feature_rules/after_surface_crooked_nylium_lava_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/after_surface_limestone_caves_surface_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/after_surface_slimy_sewers_vines_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/crooked_nylium_vegetation_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/lava_at_y2_feature - Copy.json"
+      },
+      {
+         "path" : "unused/feature_rules/lava_at_y2_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/lava_at_y3_feature - Copy.json"
+      },
+      {
+         "path" : "unused/feature_rules/lava_at_y3_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/lava_at_y4_feature - Copy.json"
+      },
+      {
+         "path" : "unused/feature_rules/lava_at_y4_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/lava_at_y5_feature - Copy.json"
+      },
+      {
+         "path" : "unused/feature_rules/lava_at_y5_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/lava_at_y6_feature - Copy.json"
+      },
+      {
+         "path" : "unused/feature_rules/lava_at_y6_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/lava_at_y7_feature - Copy.json"
+      },
+      {
+         "path" : "unused/feature_rules/lava_at_y7_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/lava_at_y8_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/lava_at_y9_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/nether wastes generation/after_surface_crooked_nylium_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/nether wastes generation/giant_crooked_fungus_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/nether wastes generation/nether_cave_carver_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/nether wastes generation/nether_lava_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/nether wastes generation/nether_lava_layer_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/nether wastes generation/nether_lava_layer_replace_water_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/nether wastes generation/nether_lava_replace_vegetation_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/nether wastes generation/soul_castle_feature.json"
+      },
+      {
+         "path" : "unused/feature_rules/overworld_underground_sculk_vein_feature.json"
+      },
+      {
+         "path" : "unused/features/crooked_nylium_lava_patch_feature.json"
+      },
+      {
+         "path" : "unused/features/crooked_nylium_lava_patch_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "unused/features/crooked_nylium_vegetation_scatter_feature.json"
+      },
+      {
+         "path" : "unused/features/giant_crooked_fungus_shave_feature.json"
+      },
+      {
+         "path" : "unused/features/giant_lambent_mushroom_feature.json"
+      },
+      {
+         "path" : "unused/features/giant_luminous_mushroom_feature new.json"
+      },
+      {
+         "path" : "unused/features/giant_mushroom_random_feature.json"
+      },
+      {
+         "path" : "unused/features/glow_lichen_block_feature.json"
+      },
+      {
+         "path" : "unused/features/glow_lichen_block_snap_to_floor_feature.json"
+      },
+      {
+         "path" : "unused/features/glow_lichen_central_patch_feature.json"
+      },
+      {
+         "path" : "unused/features/glow_lichen_patch_feature.json"
+      },
+      {
+         "path" : "unused/features/limestone_ruins_shave_feature.json"
+      },
+      {
+         "path" : "unused/features/nether_cave_carver_feature - Copy.json"
+      },
+      {
+         "path" : "unused/features/nether_lava_single_feature.json"
+      },
+      {
+         "path" : "unused/features/pebbles_scatter_feature.json"
+      },
+      {
+         "path" : "unused/features/scorching_depths_soul_spike_feature.json"
+      },
+      {
+         "path" : "unused/features/soul_spike_6_feature.json"
+      },
+      {
+         "path" : "unused/features/soul_spike_7_feature.json"
+      },
+      {
+         "path" : "unused/items old/cooked_scorpion.json"
+      },
+      {
+         "path" : "unused/items old/fatal_poison_potion.json"
+      },
+      {
+         "path" : "unused/items old/fatal_poison_potion_plus.json"
+      },
+      {
+         "path" : "unused/items old/fatal_poison_potion_potency_2.json"
+      },
+      {
+         "path" : "unused/items old/frozen_potion.json"
+      },
+      {
+         "path" : "unused/items old/frozen_potion_plus.json"
+      },
+      {
+         "path" : "unused/items old/hardened_slimeball.json"
+      },
+      {
+         "path" : "unused/items old/honkit26113_item/nature4_slime_layer.json"
+      },
+      {
+         "path" : "unused/items old/honkit26113_item/nature5_sand_layer.json"
+      },
+      {
+         "path" : "unused/items old/ice_crystal_item.json"
+      },
+      {
+         "path" : "unused/items old/ice_shard.json"
+      },
+      {
+         "path" : "unused/items old/luminite.json"
+      },
+      {
+         "path" : "unused/items old/luminite_axe.json"
+      },
+      {
+         "path" : "unused/items old/luminite_boots.json"
+      },
+      {
+         "path" : "unused/items old/luminite_chestplate.json"
+      },
+      {
+         "path" : "unused/items old/luminite_helmet.json"
+      },
+      {
+         "path" : "unused/items old/luminite_hoe.json"
+      },
+      {
+         "path" : "unused/items old/luminite_leggings.json"
+      },
+      {
+         "path" : "unused/items old/luminite_pickaxe.json"
+      },
+      {
+         "path" : "unused/items old/luminite_shard.json"
+      },
+      {
+         "path" : "unused/items old/luminite_shovel.json"
+      },
+      {
+         "path" : "unused/items old/luminite_sword.json"
+      },
+      {
+         "path" : "unused/items old/luminous_mushroom_item.json"
+      },
+      {
+         "path" : "unused/items old/luminous_mushroom_stew.json"
+      },
+      {
+         "path" : "unused/items old/nature1_1_pebbles_item.json"
+      },
+      {
+         "path" : "unused/items old/nature1_2_cobblestone_pebbles_item.json"
+      },
+      {
+         "path" : "unused/items old/nature1_3_frosted_pebbles_item.json"
+      },
+      {
+         "path" : "unused/items old/nature6_radiant_vines_item.json"
+      },
+      {
+         "path" : "unused/items old/nature7_dripping_slime_item.json"
+      },
+      {
+         "path" : "unused/items old/nature8_sandy_roots_item.json"
+      },
+      {
+         "path" : "unused/items old/nature9_dripping_icicle_item.json"
+      },
+      {
+         "path" : "unused/items old/raw_scorpion.json"
+      },
+      {
+         "path" : "unused/items old/slime_soup.json"
+      },
+      {
+         "path" : "unused/items old/slimeball_part.json"
+      },
+      {
+         "path" : "unused/items old/slimy_blossom_item.json"
+      },
+      {
+         "path" : "unused/items old/slimy_sprouts_item.json"
+      },
+      {
+         "path" : "unused/items/crooked_door.json"
+      },
+      {
+         "path" : "unused/items/flight_potion.json"
+      },
+      {
+         "path" : "unused/items/lambent_mushroom_item.json"
+      },
+      {
+         "path" : "unused/items/mangrove_log.json"
+      },
+      {
+         "path" : "unused/items/mangrove_planks.json"
+      },
+      {
+         "path" : "unused/items/mangrove_propagule.json"
+      },
+      {
+         "path" : "unused/items/mud_bricks.json"
+      },
+      {
+         "path" : "unused/items/nature6_3_soul_spike_item.json"
+      },
+      {
+         "path" : "unused/loot_tables/glowing_slime_block.json"
+      },
+      {
+         "path" : "unused/loot_tables/ice_shards.json"
+      },
+      {
+         "path" : "unused/loot_tables/ice_stalactite.json"
+      },
+      {
+         "path" : "unused/loot_tables/ice_stalagmite.json"
+      },
+      {
+         "path" : "unused/loot_tables/lambent_mushroom.json"
+      },
+      {
+         "path" : "unused/loot_tables/lava_tank/lava_tank_full_obsidian.json"
+      },
+      {
+         "path" : "unused/loot_tables/lava_tank/lava_tank_gold_full.json"
+      },
+      {
+         "path" : "unused/loot_tables/lava_tank/lava_tank_obsidian.json"
+      },
+      {
+         "path" : "unused/loot_tables/scorching_depths/soul_spike.json"
+      },
+      {
+         "path" : "unused/loot_tables/slime_layer.json"
+      },
+      {
+         "path" : "unused/recipes/mangrove_planks.json"
+      },
+      {
+         "path" : "unused/recipes/smithing_table/diamond_axe_to_luminite_axe.json"
+      },
+      {
+         "path" : "unused/recipes/smithing_table/diamond_boots_to_luminite_boots.json"
+      },
+      {
+         "path" : "unused/recipes/smithing_table/diamond_chestplate_to_luminite_chestplate.json"
+      },
+      {
+         "path" : "unused/recipes/smithing_table/diamond_helmet_to_luminite_helmet.json"
+      },
+      {
+         "path" : "unused/recipes/smithing_table/diamond_hoe_to_luminite_hoe.json"
+      },
+      {
+         "path" : "unused/recipes/smithing_table/diamond_leggings_to_luminite_leggings.json"
+      },
+      {
+         "path" : "unused/recipes/smithing_table/diamond_pickaxe_to_luminite_pickaxe.json"
+      },
+      {
+         "path" : "unused/recipes/smithing_table/diamond_shovel_to_luminite_shovel.json"
+      },
+      {
+         "path" : "unused/recipes/smithing_table/diamond_sword_to_luminite_sword.json"
+      },
+      {
+         "path" : "unused/recipes/stonecutter/slimy_deepslate_bricks_cracked_slab.json"
+      },
+      {
+         "path" : "unused/recipes/stonecutter/slimy_deepslate_tiles_cracked_slab.json"
+      },
+      {
+         "path" : "unused/recipes/stonecutter/slimy_stone_bricks_cracked_slab.json"
+      },
+      {
+         "path" : "unused/scorching depths/feature_rules/after_surface_scorching_depths_basalt_ceiling_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/feature_rules/nether_cave_carver_feature - Copy.json"
+      },
+      {
+         "path" : "unused/scorching depths/feature_rules/scorching_depths_lava_at_y2_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/feature_rules/scorching_depths_lava_at_y3_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/feature_rules/scorching_depths_lava_at_y4_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/feature_rules/scorching_depths_lava_at_y5_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/feature_rules/scorching_depths_surface_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/features/nether_cave_carver_feature - Copy.json"
+      },
+      {
+         "path" : "unused/scorching depths/features/scorching_depths_basalt_ceiling_patch_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/features/scorching_depths_basalt_ceiling_snap_to_ceiling_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/features/scorching_depths_lava_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/features/scorching_depths_soul_fire_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/features/scorching_depths_soul_magma_patch_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/features/scorching_depths_soul_sand_patch_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/features/scorching_depths_soul_soil_patch_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/features/scorching_depths_soul_spike_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/features/scorching_depths_surface_random_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/features/scorching_depths_surface_snap_to_surface_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/features/soul_spike_3_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/features/soul_spike_4_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/features/soul_spike_5_feature.json"
+      },
+      {
+         "path" : "unused/scorching depths/features/soul_spike_random_feature.json"
+      },
+      {
+         "path" : "unused/scripts - Copy/Main.js"
+      },
+      {
+         "path" : "unused/scripts - Copy/functions.js"
+      },
+      {
+         "path" : "unused/scripts - Copy/selection_boxes.js"
+      },
+      {
+         "path" : "unused/scripts - Copy/slabs.js"
+      },
+      {
+         "path" : "unused/scripts/ambience.js"
+      },
+      {
+         "path" : "unused/scripts/classes/trapdoorClass.js"
+      },
+      {
+         "path" : "unused/scripts/detect_tool.js"
+      },
+      {
+         "path" : "unused/scripts/door.js"
+      },
+      {
+         "path" : "unused/scripts/events/trapdoor.js"
+      },
+      {
+         "path" : "unused/scripts/giant_mushroom_growth.js"
+      },
+      {
+         "path" : "unused/scripts/quest_test.js"
+      },
+      {
+         "path" : "unused/scripts/suitcase.js"
+      },
+      {
+         "path" : "unused/scripts/thrown_weapon_particle.js"
+      },
+      {
+         "path" : "unused/spawn_rules/ice_cave_sounds.json"
+      },
+      {
+         "path" : "unused/structures/glowing_obsidian_blob_3.mcstructure"
+      },
+      {
+         "path" : "unused/structures/glowing_obsidian_blob_4.mcstructure"
+      },
+      {
+         "path" : "unused/structures/safe_used_rotated_270.mcstructure"
+      },
+      {
+         "path" : "unused/structures/soul_castle_north.mcstructure"
+      },
+      {
+         "path" : "unused/structures/soul_castle_walkway_east.mcstructure"
+      },
+      {
+         "path" : "unused/structures/soul_geyser.mcstructure"
+      },
+      {
+         "path" : "unused/structures/soul_spike_3.mcstructure"
+      },
+      {
+         "path" : "unused/structures/soul_spike_4.mcstructure"
+      },
+      {
+         "path" : "unused/structures/soul_spike_5.mcstructure"
+      },
+      {
+         "path" : "unused/structures/soul_spike_6.mcstructure"
+      },
+      {
+         "path" : "unused/structures/soul_spike_7.mcstructure"
+      },
+      {
+         "path" : "unused/structures/soul_tower.mcstructure"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/cobblestone_pebbles.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/con1_cobbled_limestone.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/con2_luminite_block.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/crystallized_ice.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/dripping_icicle_medium.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/dripping_icicle_small.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/dripping_slime_body.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/dripping_slime_head.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/frosted_pebbles.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/ice_crystal.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/luminous_mushroom.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/luminous_mushroom_block.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/luminous_mushroom_stem.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/nature4_glow_mycelium.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/nature5_deepslate_glow_mycelium.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/nature6_slimy_stone.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/nature7_slimy_deepslate.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/nature8_frosted_stone.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/nature9_quicksand.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/ore1_luminite_ore.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/ore2_deepslate_luminite_ore.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/packed_ice_bricks.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/packed_ice_bricks_cracked.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/packed_ice_chiseled.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/pebbles.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/radiant_vines_body.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/radiant_vines_head.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/sand_layer.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/sandy_roots_body.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/sandy_roots_head.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/slab1_limestone_bricks_slab.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/slab2_packed_ice_bricks_slab.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/slime_layer.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/slimy_blossom.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/slimy_sprouts.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/stone1_limestone.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/stone2_polished_limestone.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/stonebrick1_limestone_bricks.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/stonebrick2_limestone_bricks_mossy.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/stonebrick3_limestone_bricks_cracked.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/stonebrick4_limestone_bricks_chiseled.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/suitcase.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/blocks/suitcase_used.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/cooked_scorpion.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/fatal_poison_potion.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/fatal_poison_potion_plus.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/fatal_poison_potion_potency_2.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/hardened_slimeball.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/ice_crystal_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/luminite.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/luminite_axe.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/luminite_boots.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/luminite_chestplate.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/luminite_helmet.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/luminite_hoe.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/luminite_leggings.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/luminite_pickaxe.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/luminite_shard.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/luminite_shovel.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/luminite_sword.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/luminous_mushroom_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/luminous_mushroom_stew.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/raw_scorpion.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/slime_soup.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/slimeball_part.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/slimy_blossom_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/New folder/slimy_sprouts_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/con1_cobbled_limestone.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/con2_luminite_block_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/con3_packed_ice_bricks.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/con4_packed_ice_bricks_cracked.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/con5_packed_ice_chiseled.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/crystallized_ice.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/frozen_potion.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/frozen_potion_plus.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/ice_crystal_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/ice_shard.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/luminous_mushroom_block_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/luminous_mushroom_stem_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/nature1_1_pebbles_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/nature1_2_cobblestone_pebbles_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/nature1_3_frosted_pebbles_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/nature1_4_glow_mycelium.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/nature1_5_deepslate_glow_mycelium.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/nature2_1_slimy_stone.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/nature2_2_slimy_deepslate.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/nature2_3_frosted_stone.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/nature3_quicksand.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/nature4_slime_layer.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/nature5_sand_layer.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/nature6_radiant_vines_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/nature7_dripping_slime_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/nature8_sandy_roots_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/nature9_dripping_icicle_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/ore1_luminite_ore.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/ore2_deepslate_luminite_ore.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/slab1_limestone_bricks_slab.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/slab2_packed_ice_brcks_slab.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/stone1_limestone.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/stone2_polished_limestone.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/stonebrick1_limestone_bricks.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/stonebrick2_limestone_bricks_mossy.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/stonebrick3_limestone_bricks_cracked.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/stonebrick4_limestone_bricks_chiseled.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/items/suitcase.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/recipes/furnace/honkit26113_item/furnace_limestone_bricks_cracked_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/recipes/furnace/honkit26113_item/furnace_limestone_from_cobbled_limestone_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/recipes/furnace/honkit26113_item/furnace_polished_limestone_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/recipes/honkit26113_item/limestone_bricks_chiseled_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/recipes/honkit26113_item/limestone_bricks_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/recipes/honkit26113_item/limestone_bricks_mossy_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/recipes/honkit26113_item/limestone_bricks_slab_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/recipes/honkit26113_item/luminite_block_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/recipes/honkit26113_item/sand_layer_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.10/recipes/honkit26113_item/slime_layer_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/cooked_scorpion.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/fatal_poison_potion.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/fatal_poison_potion_plus.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/fatal_poison_potion_potency_2.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/frozen_potion.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/frozen_potion_plus.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/hardened_slimeball.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/honkit26113_item/nature4_slime_layer.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/honkit26113_item/nature5_sand_layer.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/ice_crystal_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/ice_shard.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/luminite.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/luminite_axe.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/luminite_boots.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/luminite_chestplate.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/luminite_helmet.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/luminite_hoe.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/luminite_leggings.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/luminite_pickaxe.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/luminite_shard.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/luminite_shovel.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/luminite_sword.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/luminous_mushroom_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/luminous_mushroom_stew.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/nature1_1_pebbles_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/nature1_2_cobblestone_pebbles_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/nature1_3_frosted_pebbles_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/nature6_radiant_vines_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/nature7_dripping_slime_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/nature8_sandy_roots_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/nature9_dripping_icicle_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/raw_scorpion.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/slime_soup.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/slimeball_part.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/slimy_blossom_item.json"
+      },
+      {
+         "path" : "unused/subpacks/1.17.30/items/slimy_sprouts_item.json"
+      }
+   ],
+   "version" : 1
+}

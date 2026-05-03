@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "cc:acacia_counter"
+      },
+      "assume_symmetry": true,
+      "tags": ["cc:furniture_table"],
+      "pattern": ["   ", " # ", " * "],
+      "key": {
+        "*": {
+          "item": "minecraft:acacia_planks"
+        },
+        "#": {
+          "item": "minecraft:stripped_acacia_log"
+        }
+      },
+      "result": "cc:acacia_counter"
+    }
+  }
+  

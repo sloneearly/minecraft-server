@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:slingshot_projectile",
+      "materials": {
+        "default": "snowball"
+      },
+      "textures": {
+        "default": "textures/cc/foliage/items/pebbles"
+      },
+      "geometry": {
+        "default": "geometry.item_sprite"
+      },
+      "render_controllers": [
+        "controller.render.item_sprite"
+      ],
+      "particle_effects": {
+        "particle": "minecraft:basic_crit_particle"
+      },
+      "animations": {
+        "flying": "animation.actor.billboard",
+        "particle": "animation.cc.particle"
+      },
+      "scripts": {
+        "animate": [
+          "flying",
+          {"particle": "q.property('cc:particle')"}
+        ]
+      }
+    }
+  }
+}

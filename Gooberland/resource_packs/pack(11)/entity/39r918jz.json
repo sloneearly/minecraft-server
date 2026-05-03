@@ -1,0 +1,23 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:fallen_dripice",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "geometry": {
+        "default": "geometry.cc.cross.fallen"
+      },
+      "render_controllers": ["controller.render.cc.dripice"],
+      "textures": {
+        "default": "textures/cc/foliage/blocks/dripice/dripice.tip",
+        "tip": "textures/cc/foliage/blocks/dripice/dripice.tip",
+        "merge": "textures/cc/foliage/blocks/dripice/dripice.merge",
+        "base": "textures/cc/foliage/blocks/dripice/dripice.base",
+        "middle": "textures/cc/foliage/blocks/dripice/dripice.middle",
+        "merge_direction": "textures/cc/foliage/blocks/dripice/dripice.merge_direction"
+      }
+    }
+  }
+}

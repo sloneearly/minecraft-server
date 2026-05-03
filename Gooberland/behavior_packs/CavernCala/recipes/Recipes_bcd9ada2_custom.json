@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_7aec178a"
+    },
+    "tags": [
+      "soul_forge"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "AEA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:platinum_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "item:platinum_forging_template",
+        "data": 0
+      },
+      "C": {
+        "item": "block:cobalt_block",
+        "data": 0
+      },
+      "D": {
+        "item": "sword:titanium_sword",
+        "data": 0
+      },
+      "E": {
+        "item": "block:platinum_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "sword:platinum_sword",
+      "count": 1
+    }
+  }
+}

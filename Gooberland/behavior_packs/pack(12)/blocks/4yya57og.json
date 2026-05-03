@@ -1,0 +1,290 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cc:corn_seeds",
+      "menu_category": {
+        "category": "none"
+      },
+      "states": {
+        "cc:grow_state": [1, 2, 3, 4, 5],
+        "cc:half": ["bottom", "top"]
+      }
+    },
+    "components": {
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "none"
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "on_liquid_touches": "popped"
+          }
+        ]
+      },
+      "tag:plant": {},
+      "tag:nonsolid": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:geometry": "geometry.cc.cross",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cc:corn_bottom_1",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-4, 0, -4],
+        "size": [8, 8, 8]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:map_color": "#FFD700",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["up"],
+            "block_filter": [
+              {
+                "name": "minecraft:farmland"
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:loot": "loot_tables/cc/crops/corn.seeds.loot.json",
+      "cc:crop_grow": {},
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('cc:half') == 'bottom' && query.block_state('cc:grow_state') == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:corn_bottom_2",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 16, 8]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('cc:half') == 'bottom' && query.block_state('cc:grow_state') == 3",
+        "components": {
+          "cc:tall_block": {},
+          "cc:crop_grow": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:corn_bottom_3",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:tick": {
+            "looping": false,
+            "interval_range": [1, 1]
+          },
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 14, 8]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('cc:half') == 'bottom' && query.block_state('cc:grow_state') == 4",
+        "components": {
+          "cc:tall_block": {},
+          "cc:crop_grow": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:corn_bottom_4",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:loot": "loot_tables/cc/crops/corn.loot.json",
+          "minecraft:tick": {
+            "looping": false,
+            "interval_range": [1, 1]
+          },
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 16, 8]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('cc:half') == 'bottom' && query.block_state('cc:grow_state') == 5",
+        "components": {
+          "cc:tall_block": {},
+          "cc:crop_grow": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:corn_bottom_5",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:tick": {
+            "looping": false,
+            "interval_range": [1, 1]
+          },
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 14, 8]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('cc:half') == 'top'",
+        "components": {
+          "minecraft:geometry": "geometry.cc.double_cross.top",
+          "minecraft:transformation": {
+            "scale": [1, 2.0, 1],
+            "scale_pivot": [0, 0.5, 0],
+            "translation": [0, -0.05, 0]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('cc:half') == 'bottom' && query.block_state('cc:grow_state') > 2",
+        "components": {
+          "minecraft:geometry": "geometry.cc.double_cross.bottom",
+          "minecraft:transformation": {
+            "scale": [1, 2.0, 1],
+            "scale_pivot": [0, -0.5, 0],
+            "translation": [0, -0.05, 0]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('cc:half') == 'top' && query.block_state('cc:grow_state') == 3",
+        "components": {
+          "cc:tall_block": {},
+          "cc:crop_grow": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:corn_top_3",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:tick": {
+            "looping": false,
+            "interval_range": [1, 1]
+          },
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 14, 8]
+          },
+          "minecraft:loot": "loot_tables/empty.json",
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": ["up"],
+                "block_filter": [
+                  {
+                    "name": "cc:corn_seeds"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('cc:half') == 'top' && query.block_state('cc:grow_state') == 4",
+        "components": {
+          "cc:tall_block": {},
+          "cc:crop_grow": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:corn_top_4",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:loot": "loot_tables/empty.json",
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": ["up"],
+                "block_filter": [
+                  {
+                    "name": "cc:corn_seeds"
+                  }
+                ]
+              }
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 16, 8]
+          },
+          "minecraft:tick": {
+            "looping": false,
+            "interval_range": [1, 1]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('cc:half') == 'top' && query.block_state('cc:grow_state') == 5",
+        "components": {
+          "cc:tall_block": {},
+          "cc:crop_grow": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:corn_top_5",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 14, 8]
+          },
+          "minecraft:loot": "loot_tables/empty.json",
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": ["up"],
+                "block_filter": [
+                  {
+                    "name": "cc:corn_seeds"
+                  }
+                ]
+              }
+            ]
+          },
+          "minecraft:tick": {
+            "looping": false,
+            "interval_range": [1, 1]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "jar.peanut.top",
+    "heightmap": "jar.peanut.top_heightmap",
+    "metalness_emissive_roughness_subsurface": "jar.peanut.top_mers"
+  }
+}

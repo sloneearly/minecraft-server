@@ -1,0 +1,37 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "cc:oasis_water_placement",
+            "places_feature": "cc:oasis_water_blob"
+        },
+        "conditions": {
+            "placement_pass": "first_pass",
+            "minecraft:biome_filter": [
+                {
+                    "any_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "desert"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        "distribution": {
+            "iterations": 400,
+            "scatter_chance": 80,
+            "x": {
+                "distribution": "gaussian",
+                "extent": [ -8, 16 ]
+            },
+            "y": 62,
+            "z": {
+              "distribution": "gaussian",
+              "extent": [-8, 16]
+            }
+        }
+    }
+}

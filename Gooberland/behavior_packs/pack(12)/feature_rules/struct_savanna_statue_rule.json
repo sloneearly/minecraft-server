@@ -1,0 +1,56 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:struct_savanna_statue_rule",
+      "places_feature": "cc:struct_savanna_statue_feature"
+    },
+    "conditions": {
+      "placement_pass": "first_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "savanna"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:lush_savanna"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:grassland"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:shrubland"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:scrubland"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:rocky_shrubland"
+            }
+          ],
+          "none_of": []
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 0.2,
+      "x": "-16",
+      "y": "((Math.pow(q.heightmap(v.originx, v.originz) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx - 16, v.originz - 16) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx - 16, v.originz + 16) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx + 16, v.originz - 16) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx + 16, v.originz + 16) - q.heightmap(v.originx, v.originz), 2)) / 4) <= 5 && q.heightmap(v.originx, v.originz) > 63 && q.heightmap(v.originx - 16, v.originz - 16) > 63 && q.heightmap(v.originx - 16, v.originz + 16) > 63 && q.heightmap(v.originx + 16, v.originz - 16) > 63 && q.heightmap(v.originx + 16, v.originz + 16) > 63 ? (q.heightmap(v.originx, v.originz) + q.heightmap(v.originx - 16, v.originz - 16) + q.heightmap(v.originx - 16, v.originz + 16) + q.heightmap(v.originx + 16, v.originz - 16) + q.heightmap(v.originx + 16, v.originz + 16)) / 5 - 5 : -9999",
+      "z": "-16"
+    }
+  }
+}

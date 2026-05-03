@@ -1,0 +1,16 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cc_outlineInner": {
+      "geometry": "geometry.default",
+      "textures": ["texture.default"],                 
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "part_visibility" : [
+        { "*": true },
+        { "outline*": false }
+      ]
+		}
+  }
+}

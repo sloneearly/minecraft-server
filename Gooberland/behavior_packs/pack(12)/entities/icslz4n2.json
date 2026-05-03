@@ -1,0 +1,834 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "cc:seagull",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:experience_reward": {
+                "on_death": "query.last_hit_by_player ? 5 : 0"
+            },
+            "minecraft:type_family": {
+                "family": [
+                    "seagull",
+                    "bird",
+                    "animal",
+                    "mob"
+                ]
+            },
+            "minecraft:nameable": {},
+            "minecraft:health": {
+                "value": 8,
+                "max": 8
+            },
+            "minecraft:hurt_on_condition": {
+                "damage_conditions": [
+                    {
+                        "filters": {
+                            "test": "in_lava",
+                            "subject": "self",
+                            "operator": "==",
+                            "value": true
+                        },
+                        "cause": "lava",
+                        "damage_per_tick": 4
+                    }
+                ]
+            },
+            "minecraft:pushable": {
+                "is_pushable": true,
+                "is_pushable_by_piston": true
+            },
+            "minecraft:conditional_bandwidth_optimization": {},
+            "minecraft:attack": {
+                "damage": 1
+            },
+            "minecraft:breathable": {
+                "total_supply": 15,
+                "suffocate_time": 0,
+                "breathes_air": true,
+                "breathes_water": false
+            },
+            "minecraft:collision_box": {
+                "width": 0.9,
+                "height": 1
+            },
+            "minecraft:follow_range": {
+                "value": 64,
+                "max": 64
+            },
+            "minecraft:behavior.avoid_mob_type": {
+                "priority": 0,
+                "max_dist": 16.0,
+                "ignore_visibility": true,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "any_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "ocelot"
+                                },
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "cat"
+                                }
+                            ]
+                        },
+                        "max_dist": 16
+                    }
+                ]
+            },
+            "minecraft:behavior.swoop_attack": {
+                "priority": 1,
+                "damage_reach": 0.2,
+                "speed_multiplier": 1.0,
+                "delay_range": [
+                    0.0,
+                    20.0
+                ]
+            },
+            "minecraft:behavior.equip_item": {
+                "priority": 2
+            },
+            "minecraft:inventory": {
+                "inventory_size": 1,
+                "private": true
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "fall",
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:behavior.eat_carried_item": {
+                "priority": 4,
+                "delay_before_eating": 12
+            },
+            "minecraft:equipment": {
+                "slot_drop_chance": [
+                    {
+                        "slot": "slot.weapon.mainhand",
+                        "drop_chance": 1.0
+                    }
+                ]
+            }
+        },
+        "component_groups": {
+            "cc:circle_flying": {
+                "minecraft:physics": {
+                    "has_gravity": false
+                },
+                "minecraft:behavior.circle_around_anchor": {
+                    "priority": 3,
+                    "radius_change": 1.0,
+                    "radius_adjustment_chance": 0.004,
+                    "height_adjustment_chance": 0.002857,
+                    "goal_radius": 1.0,
+                    "angle_change": 15.0,
+                    "radius_range": [
+                        5.0,
+                        15.0
+                    ],
+                    "height_offset_range": [
+                        -4.0,
+                        5.0
+                    ],
+                    "height_above_target_range": [
+                        20.0,
+                        40.0
+                    ]
+                },
+                "minecraft:movement.glide": {
+                    "start_speed": 0.1,
+                    "speed_when_turning": 0.2
+                },
+                "minecraft:movement": {
+                    "value": 1.8
+                },
+                "minecraft:can_fly": {},
+                "minecraft:timer": {
+                    "time": [
+                        30,
+                        60
+                    ],
+                    "looping": true,
+                    "time_down_event": {
+                        "event": "cc:fly",
+                        "target": "self"
+                    }
+                }
+            },
+            "cc:flying": {
+                "minecraft:environment_sensor": {
+                    "triggers": [
+                        {
+                            "event": "cc:find_item",
+                            "target": "self",
+                            "filters": {
+                                "test": "on_ground",
+                                "value": true
+                            }
+                        }
+                    ]
+                },
+                "minecraft:physics": {
+                    "has_gravity": false
+                },
+                "minecraft:behavior.circle_around_anchor": {
+                    "priority": 3,
+                    "radius_change": 1.0,
+                    "radius_adjustment_chance": 0.004,
+                    "height_adjustment_chance": 0.002857,
+                    "goal_radius": 1.0,
+                    "angle_change": 15.0,
+                    "radius_range": [
+                        5.0,
+                        15.0
+                    ],
+                    "height_offset_range": [
+                        -4.0,
+                        -5.0
+                    ],
+                    "height_above_target_range": [
+                        0,
+                        0
+                    ]
+                },
+                "minecraft:movement.glide": {
+                    "start_speed": 0.1,
+                    "speed_when_turning": 0.2
+                },
+                "minecraft:movement": {
+                    "value": 1.8
+                },
+                "minecraft:can_fly": {}
+            },
+            "cc:walk": {
+                "minecraft:navigation.walk": {
+                    "can_path_over_water": true,
+                    "avoid_water": true,
+                    "avoid_damage_blocks": true
+                },
+                "minecraft:movement.basic": {},
+                "minecraft:jump.static": {},
+                "minecraft:can_climb": {},
+                "minecraft:nameable": {},
+                "minecraft:movement": {
+                    "value": 0.3
+                },
+                "minecraft:behavior.random_stroll": {
+                    "priority": 13,
+                    "speed_multiplier": 0.8
+                },
+                "minecraft:behavior.look_at_player": {
+                    "priority": 14,
+                    "look_distance": 6.0,
+                    "probability": 0.02
+                },
+                "minecraft:behavior.random_look_around": {
+                    "priority": 15
+                }
+            },
+            "cc:find_item": {
+                "minecraft:environment_sensor": {
+                    "triggers": [
+                        {
+                            "event": "cc:flying_with_item",
+                            "target": "self",
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "any_of": [
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:netherite_sword"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:diamond_sword"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:golden_sword"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:iron_sword"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:stone_sword"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:wooden_sword"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:netherite_pickaxe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:diamond_pickaxe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:golden_pickaxe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:iron_pickaxe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:stone_pickaxe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:wooden_pickaxe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:netherite_axe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:diamond_axe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:golden_axe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:iron_axe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:stone_axe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:wooden_axe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:netherite_shovel"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:diamond_shovel"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:golden_shovel"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:iron_shovel"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:stone_shovel"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:wooden_shovel"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:netherite_hoe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:diamond_hoe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:golden_hoe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:iron_hoe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:stone_hoe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:wooden_hoe"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:diamond"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "domain": "hand",
+                                                "operator": "==",
+                                                "value": "minecraft:emerald"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "test": "is_family",
+                                        "operator": "!=",
+                                        "value": "seagull_with_item"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "event": "cc:circle_flying",
+                            "target": "self",
+                            "filters": {
+                                "any_of": [
+                                    {
+                                        "test": "has_equipment",
+                                        "domain": "hand",
+                                        "operator": "==",
+                                        "value": "minecraft:salmon"
+                                    },
+                                    {
+                                        "test": "has_equipment",
+                                        "domain": "hand",
+                                        "operator": "==",
+                                        "value": "minecraft:cod"
+                                    },
+                                    {
+                                        "test": "has_equipment",
+                                        "domain": "hand",
+                                        "operator": "==",
+                                        "value": "minecraft:tropical_fish"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "minecraft:equip_item": {},
+                "minecraft:attack": {
+                    "damage": 2
+                },
+                "minecraft:shareables": {
+                    "singular_pickup": true,
+                    "all_items": true,
+                    "all_items_max_amount": 1,
+                    "items": [
+                        {
+                            "item": "minecraft:salmon",
+                            "priority": 0,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:cod",
+                            "priority": 0,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:tropical_fish",
+                            "priority": 0,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:netherite_sword",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:diamond_sword",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:golden_sword",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:iron_sword",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:stone_sword",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:wooden_sword",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:netherite_pickaxe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:diamond_pickaxe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:golden_pickaxe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:iron_pickaxe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:stone_pickaxe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:wooden_pickaxe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:netherite_axe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:diamond_axe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:golden_axe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:iron_axe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:stone_axe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:wooden_axe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:netherite_shovel",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:diamond_shovel",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:golden_shovel",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:iron_shovel",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:stone_shovel",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:wooden_shovel",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:netherite_hoe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:diamond_hoe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:golden_hoe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:iron_hoe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:stone_hoe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:wooden_hoe",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:diamond",
+                            "priority": 1,
+                            "max_amount": 1
+                        },
+                        {
+                            "item": "minecraft:emerald",
+                            "priority": 1,
+                            "max_amount": 1
+                        }
+                    ]
+                },
+                "minecraft:behavior.equip_item": {
+                    "priority": 2
+                },
+                "minecraft:behavior.tempt": {
+                    "priority": 3,
+                    "speed_multiplier": 0.5,
+                    "within_radius": 16,
+                    "can_get_scared": true,
+                    "items": [
+                        "salmon",
+                        "cod"
+                    ]
+                },
+                "minecraft:behavior.pickup_items": {
+                    "priority": 2,
+                    "max_dist": 3,
+                    "goal_radius": 2,
+                    "speed_multiplier": 0.5,
+                    "can_pickup_any_item": true
+                },
+                "minecraft:physics": {},
+                "minecraft:timer": {
+                    "time": [
+                        30,
+                        60
+                    ],
+                    "looping": true,
+                    "time_down_event": {
+                        "event": "cc:circle_flying",
+                        "target": "self"
+                    }
+                }
+            },
+            "cc:flying_with_item": {
+                "minecraft:type_family": {
+                    "family": [
+                        "seagull",
+                        "seagull_with_item",
+                        "bird",
+                        "animal",
+                        "mob"
+                    ]
+                },
+                "minecraft:physics": {},
+                "minecraft:jump.static": {},
+                "minecraft:movement.glide": {
+                    "start_speed": 0.35,
+                    "speed_when_turning": 0.2
+                },
+                "minecraft:can_climb": {},
+                "minecraft:movement": {
+                    "value": 0.35
+                },
+                "minecraft:can_fly": {},
+                "minecraft:behavior.random_fly": {
+                    "avoid_damage_blocks": true,
+                    "can_land_on_trees": true,
+                    "xz_dist": 10,
+                    "y_dist": 7,
+                    "y_offset": 0,
+                    "priority": 3
+                },
+                "minecraft:navigation.fly": {
+                    "avoid_damage_blocks": false,
+                    "avoid_portals": false,
+                    "avoid_sun": false,
+                    "avoid_water": true,
+                    "blocks_to_avoid": [],
+                    "can_breach": false,
+                    "can_break_doors": false,
+                    "can_jump": true,
+                    "can_open_doors": false,
+                    "can_open_iron_doors": false,
+                    "can_pass_doors": true,
+                    "can_path_from_air": true,
+                    "can_path_over_lava": false,
+                    "can_path_over_water": false,
+                    "can_sink": true,
+                    "can_swim": false,
+                    "can_walk": true,
+                    "can_walk_in_lava": false,
+                    "is_amphibious": false
+                },
+                "minecraft:behavior.avoid_mob_type": {
+                    "priority": 3,
+                    "entity_types": [
+                        {
+                            "filters": {
+                                "any_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    }
+                                ]
+                            },
+                            "max_dist": 12,
+                            "walk_speed_multiplier": 1,
+                            "sprint_speed_multiplier": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "events": {
+            "minecraft:entity_spawned": {
+                "add": {
+                    "component_groups": [
+                        "cc:circle_flying"
+                    ]
+                }
+            },
+            "cc:flying_with_item": {
+                "add": {
+                    "component_groups": [
+                        "cc:flying_with_item"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "cc:walk"
+                    ]
+                }
+            },
+            "cc:find_item": {
+                "add": {
+                    "component_groups": [
+                        "cc:find_item",
+                        "cc:walk"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "cc:flying"
+                    ]
+                }
+            },
+            "cc:circle_flying": {
+                "add": {
+                    "component_groups": [
+                        "cc:circle_flying"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "cc:flying",
+                        "cc:walk",
+                        "cc:find_item",
+                        "cc:flying_with_item"
+                    ]
+                }
+            },
+            "cc:fly": {
+                "add": {
+                    "component_groups": [
+                        "cc:flying"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "cc:walk",
+                        "cc:circle_flying",
+                        "cc:flying_with_item"
+                    ]
+                }
+            }
+        }
+    }
+}

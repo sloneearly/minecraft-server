@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_570818c7"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "item:emerald_deepslate_geode",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:emerald",
+      "count": 3,
+      "data": 0
+    }
+  }
+}

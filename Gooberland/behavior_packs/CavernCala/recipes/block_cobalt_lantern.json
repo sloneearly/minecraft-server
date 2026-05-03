@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cobalt_lantern_6a74befb"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "item:cobalt_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:torch",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:cobalt_lantern",
+      "count": 1
+    }
+  }
+}

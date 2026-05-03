@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:deepslate_ruby_ore_placement",
+      "places_feature": "cc:deepslate_ruby_ore_feature"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "extreme_hills"
+        }
+      ]
+    },
+
+    "distribution": {
+      "iterations": 3,
+      "scatter_chance": {
+        "numerator": 1,
+        "denominator": 3
+      },
+      "x": {
+        "distribution": "gaussian",
+        "extent": [-8, 8]
+      },
+      "y": "Math.round(Math.random(-64, -48))",
+      "z": {
+        "distribution": "gaussian",
+        "extent": [-8, 8]
+      }
+    }
+  }
+}

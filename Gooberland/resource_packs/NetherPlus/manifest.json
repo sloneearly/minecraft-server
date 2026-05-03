@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§l§aNetherPlus §fAdd-on v3 §4[T]",
+		"description": "New Nether Plus 1.21.+ Update! §6[By: BubbleStudio and MarcoGamer]",
+		"uuid": "8fed2295-75e7-427f-92ba-0768cd56cb8a",
+		"version": [
+			3,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "666c3aa3-61ba-4779-ad61-b266537d0979",
+			"version": [
+				2,
+				2,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"2.3.3"
+			],
+			"dash": [
+				"0.9.29"
+			]
+		}
+	}
+}

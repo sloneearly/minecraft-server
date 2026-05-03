@@ -1,0 +1,116 @@
+//bridge-file-version: #17
+{
+	"format_version": "1.20.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "item:genesis_seed",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:snowball"
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:physics": {
+				"has_gravity": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"execute at @s run particle genesisplanted"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"genesis_seed"
+							]
+						}
+					}
+				]
+			},
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"genesis_perfect": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"camerashake add @a[r=10] 1 4",
+								"summon boss:floral_amalgam ~~-30~"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			},
+			"genesis_seed": {
+				"minecraft:environment_sensor": {
+					"triggers": [
+						{
+							"event": "genesis_perfect",
+							"target": "self",
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_altitude",
+										"value": 0,
+										"operator": "<"
+									},
+									{
+										"test": "has_biome_tag",
+										"value": "wilted_garden_caves",
+										"operator": "=="
+									}
+								]
+							}
+						}
+					]
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time": [
+						1,
+						1
+					],
+					"time_down_event": {
+						"event": "despawn",
+						"target": "self"
+					}
+				}
+			}
+		}
+	}
+}

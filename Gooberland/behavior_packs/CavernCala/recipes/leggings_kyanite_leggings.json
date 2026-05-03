@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "kyanite_leggings_15f093e1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "item:kyanite_shard",
+        "data": 0
+      },
+      "B": {
+        "item": "block:compact_kyanite_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "leggings:kyanite_leggings",
+      "count": 1
+    }
+  }
+}

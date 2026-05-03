@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "cc:pineapple_seeds"
+    },
+    "tags": ["cc:cooking_table", "crafting_table"],
+    "ingredients": [
+      {
+        "item": "cc:pineapple"
+      }
+    ],
+    "result": {
+      "item": "cc:pineapple_seeds",
+      "count": 2
+    }
+  }
+}

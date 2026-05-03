@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "broccoli.4",
+    "heightmap": "broccoli.4_heightmap",
+    "metalness_emissive_roughness_subsurface": "broccoli.4_mers"
+  }
+}

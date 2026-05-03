@@ -1,0 +1,22 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:savanna_mud_scatter"
+    },
+    "iterations": 20,
+    "x": {
+      "extent": [-3, 6],
+      "distribution": "gaussian"
+    },
+    "z": {
+      "extent": [-3, 6],
+      "distribution": "gaussian"
+    },
+    "y": {
+      "extent": [-3, 3],
+      "distribution": "uniform"
+    },
+    "places_feature": "cc:savanna_mud_blob"
+  }
+}

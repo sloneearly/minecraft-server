@@ -1,0 +1,2530 @@
+{
+    "resource_pack_name": "pack.name",
+    "texture_name": "atlas.terrain",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "cc:empty": {
+            "textures": "textures/cc/empty"
+        },
+        "grass_block_side": {
+            "textures": "textures/blocks/grass_side"
+        },
+        "cc:spawner": {
+            "textures": "textures/blocks/stone"
+        },
+        "cc:purple_end_stone": {
+            "textures": "textures/cc/end/blocks/purple_end_stone"
+        },
+        "cc:yellow_end_stone": {
+            "textures": "textures/cc/end/blocks/yellow_end_stone"
+        },
+        "cc:yellow_end_wall_mushrooms": {
+            "textures": "textures/cc/end/blocks/end_wall_mushrooms"
+        },
+        "cc:purple_end_mushroom_stem": {
+            "textures": "textures/cc/end/blocks/purple_end_mushroom_stem"
+        },
+        "cc:purple_end_mushroom_block": {
+            "textures": "textures/cc/end/blocks/purple_end_mushroom_block"
+        },
+        "cc:purple_end_mushroom_block_inside": {
+            "textures": "textures/cc/end/blocks/purple_end_mushroom_block_bottom"
+        },
+        "cc:purple_end_mushroom_light": {
+            "textures": "textures/cc/end/blocks/purple_end_mushroom_light"
+        },
+        "cc:coarse_dirt": {
+            "textures": {
+                "variations": [
+                    {
+                        "path": "textures/blocks/coarse_dirt",
+                        "weight": 5
+                    },
+                    {
+                        "path": "textures/blocks/coarse_dirt.2",
+                        "weight": 1
+                    },
+                    {
+                        "path": "textures/blocks/coarse_dirt.3",
+                        "weight": 1
+                    }
+                ]
+            }
+        },
+        "cc:penguin_egg": {
+            "textures": "textures/cc/animals/blocks/penguin_egg"
+        },
+        "cc:penguin_egg_cracked": {
+            "textures": "textures/cc/animals/blocks/penguin_egg_cracked"
+        },
+        "cc:crocodile_egg": {
+            "textures": "textures/cc/animals/blocks/crocodile_egg"
+        },
+        "cc:crocodile_egg_cracked": {
+            "textures": "textures/cc/animals/blocks/crocodile_egg_cracked"
+        },
+        "cc:cassowary_egg": {
+            "textures": "textures/cc/animals/blocks/cassowary_egg"
+        },
+        "cc:cassowary_egg_cracked": {
+            "textures": "textures/cc/animals/blocks/cassowary_egg_cracked"
+        },
+        "cc:meerkat_burrow": {
+            "textures": "textures/cc/animals/blocks/meerkat_burrow"
+        },
+        "cc:capybara_mud": {
+            "textures": "textures/cc/animals/blocks/capybara.mud"
+        },
+        "cc:bamboo_counter.top": {
+            "textures": "textures/cc/furniture/blocks/counter/bamboo_counter.top"
+        },
+        "cc:small_lily_pads_1": {
+            "textures": "textures/cc/foliage/blocks/small_lily_pads/small_lily_pads.1"
+        },
+        "cc:small_lily_pads_2": {
+            "textures": "textures/cc/foliage/blocks/small_lily_pads/small_lily_pads.2"
+        },
+        "cc:small_lily_pads_3": {
+            "textures": "textures/cc/foliage/blocks/small_lily_pads/small_lily_pads.3"
+        },
+        "cc:small_lily_pads_4": {
+            "textures": "textures/cc/foliage/blocks/small_lily_pads/small_lily_pads.4"
+        },
+        "cc:shells_1": {
+            "textures": "textures/cc/foliage/blocks/shells/shells.1"
+        },
+        "cc:shells_2": {
+            "textures": "textures/cc/foliage/blocks/shells/shells.2"
+        },
+        "cc:shells_3": {
+            "textures": "textures/cc/foliage/blocks/shells/shells.3"
+        },
+        "cc:shells_4": {
+            "textures": "textures/cc/foliage/blocks/shells/shells.4"
+        },
+        "cc:pebbles": {
+            "textures": "textures/cc/foliage/blocks/pebbles"
+        },
+        "cc:barnacles": {
+            "textures": "textures/cc/foliage/blocks/barnacles"
+        },
+        "cc:end_stone_pebbles": {
+            "textures": "textures/cc/foliage/blocks/end_stone_pebbles"
+        },
+        "cc:branches_1": {
+            "textures": "textures/cc/foliage/blocks/branches/branches.1"
+        },
+        "cc:branches_2": {
+            "textures": "textures/cc/foliage/blocks/branches/branches.2"
+        },
+        "cc:branches_3": {
+            "textures": "textures/cc/foliage/blocks/branches/branches.3"
+        },
+        "cc:branches_4": {
+            "textures": "textures/cc/foliage/blocks/branches/branches.4"
+        },
+        "cc:bush_bottom": {
+            "textures": "textures/cc/foliage/blocks/bush/bush.bottom"
+        },
+        "cc:bush_side": {
+            "textures": "textures/cc/foliage/blocks/bush/bush.side"
+        },
+        "cc:bush_top": {
+            "textures": "textures/cc/foliage/blocks/bush/bush.top"
+        },
+        "cc:duckweed": {
+            "textures": "textures/cc/foliage/blocks/duckweed"
+        },
+        "cc:lavender": {
+            "textures": "textures/cc/foliage/blocks/lavender"
+        },
+        "cc:lavender_stem": {
+            "textures": "textures/cc/foliage/blocks/lavender.stem"
+        },
+        "cc:daisy_carpet_1": {
+            "textures": "textures/cc/foliage/blocks/daisy_carpet/daisy_carpet.1"
+        },
+        "cc:daisy_carpet_2": {
+            "textures": "textures/cc/foliage/blocks/daisy_carpet/daisy_carpet.2"
+        },
+        "cc:daisy_carpet_3": {
+            "textures": "textures/cc/foliage/blocks/daisy_carpet/daisy_carpet.3"
+        },
+        "cc:daisy_carpet_4": {
+            "textures": "textures/cc/foliage/blocks/daisy_carpet/daisy_carpet.4"
+        },
+        "cc:stake": {
+            "textures": "textures/blocks/stripped_oak_log"
+        },
+        "cc:mycelium_grass": {
+            "textures": "textures/cc/foliage/blocks/mycelium_grass"
+        },
+        "cc:dry_grass": {
+            "textures": "textures/cc/foliage/blocks/dry_grass"
+        },
+        "cc:dry_grass_stem": {
+            "textures": "textures/cc/foliage/blocks/dry_grass.stem"
+        },
+        "cc:dry_tall_grass": {
+            "textures": "textures/cc/foliage/blocks/dry_tall_grass"
+        },
+        "cc:dry_tall_grass_stem": {
+            "textures": "textures/cc/foliage/blocks/dry_tall_grass.stem"
+        },
+        "cc:wall_plant": {
+            "textures": "textures/cc/foliage/blocks/wall_plant"
+        },
+        "cc:wall_plant_yellow": {
+            "textures": "textures/cc/foliage/blocks/wall_plant_yellow"
+        },
+        "cc:reed_bottom": {
+            "textures": "textures/cc/foliage/blocks/reed/bottom"
+        },
+        "cc:reed_top": {
+            "textures": "textures/cc/foliage/blocks/reed/top"
+        },
+        "cc:swamp_grass": {
+            "textures": "textures/cc/foliage/blocks/swamp_grass"
+        },
+        "cc:swamp_fern": {
+            "textures": "textures/cc/foliage/blocks/swamp_fern"
+        },
+        "cc:palm_leaves": {
+            "textures": "textures/cc/foliage/blocks/palm_leaves"
+        },
+        "cc:palm_leaves_carried": {
+            "textures": "textures/cc/foliage/blocks/palm_leaves.carried"
+        },
+        "cc:jungle_carpet_side": {
+            "textures": "textures/cc/foliage/blocks/jungle_carpet.side"
+        },
+        "cc:jungle_carpet_top": {
+            "textures": "textures/cc/foliage/blocks/jungle_carpet.top"
+        },
+        "cc:palm_log_top": {
+            "textures": "textures/cc/foliage/blocks/palm_log.top"
+        },
+        "cc:palm_log_side": {
+            "textures": "textures/cc/foliage/blocks/palm_log.side"
+        },
+        "cc:coconut_grower": {
+            "textures": "textures/cc/cooking/blocks/crops/coconut_grower/coconut_grower"
+        },
+        "cc:icicles": {
+            "textures": "textures/cc/foliage/blocks/icicles"
+        },
+        "cc:liana_inner": {
+            "textures": "textures/cc/foliage/blocks/liana/liana.inner"
+        },
+        "cc:vine_tip": {
+            "textures": "textures/cc/foliage/blocks/liana/liana.end"
+        },
+        "cc:blue_jungle_plant": {
+            "textures": "textures/cc/foliage/blocks/blue_jungle_plant"
+        },
+        "cc:blue_jungle_plant_stem": {
+            "textures": "textures/cc/foliage/blocks/blue_jungle_plant.stem"
+        },
+        "cc:yellow_jungle_plant": {
+            "textures": "textures/cc/foliage/blocks/yellow_jungle_plant"
+        },
+        "cc:yellow_jungle_plant_stem": {
+            "textures": "textures/cc/foliage/blocks/yellow_jungle_plant.stem"
+        },
+        "cc:big_jungle_flower": {
+            "textures": "textures/cc/foliage/blocks/big_jungle_flower/big_jungle_flower"
+        },
+        "cc:big_jungle_flower_side": {
+            "textures": "textures/cc/foliage/blocks/big_jungle_flower/big_jungle_flower.side"
+        },
+        "cc:big_jungle_flower_top": {
+            "textures": "textures/cc/foliage/blocks/big_jungle_flower/big_jungle_flower.top"
+        },
+        "cc:palm_sapling": {
+            "textures": "textures/cc/foliage/blocks/palm_sapling"
+        },
+        "cc:coconut_1": {
+            "textures": "textures/cc/cooking/blocks/crops/coconut/coconut.1"
+        },
+        "cc:coconut_2": {
+            "textures": "textures/cc/cooking/blocks/crops/coconut/coconut.2"
+        },
+        "cc:coconut_3_sides": {
+            "textures": "textures/cc/cooking/blocks/crops/coconut/coconut.3.sides"
+        },
+        "cc:coconut_3_top": {
+            "textures": "textures/cc/cooking/blocks/crops/coconut/coconut.3.top"
+        },
+        "cc:strawberry": {
+            "textures": "textures/cc/foliage/blocks/strawberry"
+        },
+        "cc:oak_branch": {
+            "textures": "textures/cc/foliage/blocks/oak_branch"
+        },
+        "cc:big_red_mushroom": {
+            "textures": "textures/cc/foliage/blocks/big_red_mushroom"
+        },
+        "cc:big_brown_mushroom": {
+            "textures": "textures/cc/foliage/blocks/big_brown_mushroom"
+        },
+        "cc:spruce_log": {
+            "textures": "textures/blocks/log_spruce"
+        },
+        "cc:spruce_log_top": {
+            "textures": "textures/blocks/log_spruce_top"
+        },
+        "cc:hollow_spruce_log": {
+            "textures": "textures/cc/foliage/blocks/hollow_spruce_log"
+        },
+        "cc:birch_log": {
+            "textures": "textures/blocks/log_birch"
+        },
+        "cc:birch_log_top": {
+            "textures": "textures/blocks/log_birch_top"
+        },
+        "cc:hollow_birch_log": {
+            "textures": "textures/cc/foliage/blocks/hollow_birch_log"
+        },
+        "cc:oak_log": {
+            "textures": {
+                "variations": [
+                    {
+                        "path": "textures/blocks/log_oak.1",
+                        "weight": 50
+                    },
+                    {
+                        "path": "textures/blocks/log_oak.3",
+                        "weight": 1
+                    }
+                ]
+            }
+        },
+        "cc:oak_log_top": {
+            "textures": "textures/blocks/log_oak_top"
+        },
+        "cc:warped_log_top": {
+            "textures": "textures/blocks/warped_log_top"
+        },
+        "cc:crimson_log_top": {
+            "textures": "textures/blocks/crimson_log_top"
+        },
+        "cc:crimson_log_side": {
+            "textures": "textures/blocks/crimson_log_side"
+        },
+        "cc:stripped_oak_log_top": {
+            "textures": "textures/blocks/stripped_oak_log_top"
+        },
+        "cc:stripped_oak_log_side": {
+            "textures": "textures/blocks/stripped_oak_log"
+        },
+        "cc:stripped_spruce_log_top": {
+            "textures": "textures/blocks/stripped_spruce_log_top"
+        },
+        "cc:stripped_spruce_log_side": {
+            "textures": "textures/blocks/stripped_spruce_log"
+        },
+        "cc:hollow_warped_log": {
+            "textures": "textures/cc/foliage/blocks/hollow_warped_log"
+        },
+        "cc:hollow_crimson_log": {
+            "textures": "textures/cc/foliage/blocks/hollow_crimson_log"
+        },
+        "cc:hollow_oak_log": {
+            "textures": "textures/cc/foliage/blocks/hollow_oak_log"
+        },
+        "cc:stripped_birch_log_top": {
+            "textures": "textures/blocks/stripped_birch_log_top"
+        },
+        "cc:stripped_birch_log_side": {
+            "textures": "textures/blocks/stripped_birch_log"
+        },
+        "cc:jungle_log": {
+            "textures": "textures/blocks/log_jungle"
+        },
+        "cc:jungle_log_top": {
+            "textures": "textures/blocks/log_jungle_top"
+        },
+        "cc:hollow_jungle_log": {
+            "textures": "textures/cc/foliage/blocks/hollow_jungle_log"
+        },
+        "cc:acacia_log": {
+            "textures": "textures/blocks/log_acacia"
+        },
+        "cc:acacia_log_top": {
+            "textures": "textures/blocks/log_acacia_top"
+        },
+        "cc:hollow_acacia_log": {
+            "textures": "textures/cc/foliage/blocks/hollow_acacia_log"
+        },
+        "cc:dark_oak_log": {
+            "textures": "textures/blocks/log_big_oak"
+        },
+        "cc:dark_oak_log_top": {
+            "textures": "textures/blocks/log_big_oak_top"
+        },
+        "cc:hollow_dark_oak_log": {
+            "textures": "textures/cc/foliage/blocks/hollow_dark_oak_log"
+        },
+        "cc:pale_oak_log": {
+            "textures": "textures/blocks/pale_oak_log_side"
+        },
+        "cc:pale_oak_log_top": {
+            "textures": "textures/blocks/pale_oak_log_top"
+        },
+        "cc:hollow_pale_oak_log": {
+            "textures": "textures/cc/foliage/blocks/hollow_pale_oak_log"
+        },
+        "cc:mangrove_log": {
+            "textures": "textures/blocks/mangrove_log_side"
+        },
+        "cc:mangrove_log_top": {
+            "textures": "textures/blocks/mangrove_log_top"
+        },
+        "cc:hollow_mangrove_log": {
+            "textures": "textures/cc/foliage/blocks/hollow_mangrove_log"
+        },
+        "cc:cherry_log": {
+            "textures": "textures/blocks/cherry_log_side"
+        },
+        "cc:cherry_log_top": {
+            "textures": "textures/blocks/cherry_log_top"
+        },
+        "cc:hollow_cherry_log": {
+            "textures": "textures/cc/foliage/blocks/hollow_cherry_log"
+        },
+        "cc:wall_mushrooms": {
+            "textures": "textures/cc/foliage/blocks/wall_mushrooms"
+        },
+        "cc:clover_1": {
+            "textures": "textures/cc/foliage/blocks/clover/clover.1"
+        },
+        "cc:clover_2": {
+            "textures": "textures/cc/foliage/blocks/clover/clover.2"
+        },
+        "cc:clover_3": {
+            "textures": "textures/cc/foliage/blocks/clover/clover.3"
+        },
+        "cc:clover_4": {
+            "textures": "textures/cc/foliage/blocks/clover/clover.4"
+        },
+        "cc:clover_side": {
+            "textures": "textures/cc/foliage/blocks/clover/clover.side"
+        },
+        "cc:daisy_carpet_side": {
+            "textures": "textures/cc/foliage/blocks/daisy_carpet/daisy_carpet.side"
+        },
+        "cc:taiga_plant_stem": {
+            "textures": "textures/cc/foliage/blocks/taiga_plant_stem"
+        },
+        "cc:taiga_red_plant": {
+            "textures": "textures/cc/foliage/blocks/taiga_red_plant"
+        },
+        "cc:taiga_orange_plant": {
+            "textures": "textures/cc/foliage/blocks/taiga_orange_plant"
+        },
+        "cc:dry_bush": {
+            "textures": "textures/cc/foliage/blocks/dry_bush"
+        },
+        "cc:forest_bush": {
+            "textures": "textures/cc/foliage/blocks/forest_bush"
+        },
+        "cc:wide_fern": {
+            "textures": "textures/cc/foliage/blocks/wide_fern"
+        },
+        "cc:tall_brown_mushrooms": {
+            "textures": "textures/cc/foliage/blocks/tall_brown_mushrooms"
+        },
+        "cc:small_cactus": {
+            "textures": "textures/cc/foliage/blocks/small_cactus"
+        },
+        "cc:desert_grass": {
+            "textures": "textures/cc/foliage/blocks/desert_grass"
+        },
+        "cc:desert_tall_grass": {
+            "textures": "textures/cc/foliage/blocks/desert_tall_grass"
+        },
+        "cc:tall_red_mushrooms": {
+            "textures": "textures/cc/foliage/blocks/tall_red_mushrooms"
+        },
+        "cc:tall_pale_mushrooms": {
+            "textures": "textures/cc/foliage/blocks/tall_pale_mushrooms"
+        },
+        "cc:pale_grass": {
+            "textures": "textures/cc/foliage/blocks/pale_grass"
+        },
+        "cc:jungle_grass": {
+            "textures": "textures/cc/foliage/blocks/jungle_grass"
+        },
+        "cc:knotweed": {
+            "textures": "textures/cc/foliage/blocks/knotweed"
+        },
+        "cc:jungle_roots": {
+            "textures": "textures/cc/foliage/blocks/jungle_roots"
+        },
+        "cc:lily_pad_flower_flower": {
+            "textures": "textures/cc/foliage/blocks/lily_pad_flower/lily_pad_flower.flower"
+        },
+        "cc:lily_pad_flower_base": {
+            "textures": "textures/cc/foliage/blocks/lily_pad_flower/lily_pad_flower.base"
+        },
+        "cc:floating_flower_big_leaf": {
+            "textures": "textures/cc/foliage/blocks/floating_flower/big_leaf"
+        },
+        "cc:floating_flower_small_leaf": {
+            "textures": "textures/cc/foliage/blocks/floating_flower/small_leaf"
+        },
+        "cc:floating_flower_pistil": {
+            "textures": "textures/cc/foliage/blocks/floating_flower/pistil"
+        },
+        "cc:oak_branch_log": {
+            "textures": "textures/blocks/log_oak"
+        },
+        "cc:oak_branch_leaf": {
+            "textures": "textures/cc/foliage/blocks/oak_branch_leaf"
+        },
+        "cc:birch_branch_log": {
+            "textures": "textures/blocks/log_birch"
+        },
+        "cc:birch_branch_leaf": {
+            "textures": "textures/cc/foliage/blocks/oak_branch_leaf"
+        },
+        "cc:dripice_base": {
+            "textures": "textures/cc/foliage/blocks/dripice/dripice.base"
+        },
+        "cc:dripice_tip": {
+            "textures": "textures/cc/foliage/blocks/dripice/dripice.tip"
+        },
+        "cc:dripice_merge": {
+            "textures": "textures/cc/foliage/blocks/dripice/dripice.merge"
+        },
+        "cc:dripice_middle": {
+            "textures": "textures/cc/foliage/blocks/dripice/dripice.middle"
+        },
+        "cc:dripice_merge_direction": {
+            "textures": "textures/cc/foliage/blocks/dripice/dripice.merge_direction"
+        },
+        "cc:hanging_swamp_leaves_middle": {
+            "textures": "textures/cc/foliage/blocks/hanging_swamp_leaves/middle"
+        },
+        "cc:hanging_swamp_leaves_tip": {
+            "textures": "textures/cc/foliage/blocks/hanging_swamp_leaves/tip"
+        },
+        "cc:hanging_palm_leaves_middle": {
+            "textures": "textures/cc/foliage/blocks/hanging_palm_leaves/middle"
+        },
+        "cc:hanging_palm_leaves_tip": {
+            "textures": "textures/cc/foliage/blocks/hanging_palm_leaves/tip"
+        },
+        "cc:hanging_oak_leaves_middle": {
+            "textures": "textures/cc/foliage/blocks/hanging_oak_leaves/middle"
+        },
+        "cc:hanging_oak_leaves_tip": {
+            "textures": "textures/cc/foliage/blocks/hanging_oak_leaves/tip"
+        },
+        "cc:hanging_birch_leaves_middle": {
+            "textures": "textures/cc/foliage/blocks/hanging_birch_leaves/middle"
+        },
+        "cc:hanging_birch_leaves_tip": {
+            "textures": "textures/cc/foliage/blocks/hanging_birch_leaves/tip"
+        },
+        "cc:end_twister_top": {
+            "textures": "textures/cc/end/blocks/end_twister.top.png"
+        },
+        "cc:end_twister_base": {
+            "textures": "textures/cc/end/blocks/end_twister.base.png"
+        },
+        "cc:apple": {
+            "textures": "textures/cc/foliage/blocks/apple"
+        },
+        "cc:pinecone": {
+            "textures": "textures/cc/foliage/blocks/pinecone"
+        },
+        "cc:big_foot_hint": {
+            "textures": "textures/cc/boss/blocks/big_foot/hint"
+        },
+        "cc:yeti_hint": {
+            "textures": "textures/cc/boss/blocks/yeti/hint"
+        },
+        "cc:big_flower_pot_side": {
+            "textures": "textures/cc/furniture/blocks/big_flower_pot/clay_side"
+        },
+        "cc:big_flower_pot_top": {
+            "textures": "textures/cc/furniture/blocks/big_flower_pot/clay_top"
+        },
+        "cc:big_flower_pot_bottom": {
+            "textures": "textures/cc/furniture/blocks/big_flower_pot/clay_bottom"
+        },
+        "cc:deepslate_big_flower_pot_side": {
+            "textures": "textures/cc/furniture/blocks/big_flower_pot/deepslate_side"
+        },
+        "cc:deepslate_big_flower_pot_top": {
+            "textures": "textures/cc/furniture/blocks/big_flower_pot/deepslate_top"
+        },
+        "cc:deepslate_big_flower_pot_bottom": {
+            "textures": "textures/cc/furniture/blocks/big_flower_pot/deepslate_bottom"
+        },
+        "cc:stone_big_flower_pot_side": {
+            "textures": "textures/cc/furniture/blocks/big_flower_pot/stone_side"
+        },
+        "cc:stone_big_flower_pot_top": {
+            "textures": "textures/cc/furniture/blocks/big_flower_pot/stone_top"
+        },
+        "cc:stone_big_flower_pot_bottom": {
+            "textures": "textures/cc/furniture/blocks/big_flower_pot/stone_bottom"
+        },
+        "cc:quartz_big_flower_pot_side": {
+            "textures": "textures/cc/furniture/blocks/big_flower_pot/quartz_side"
+        },
+        "cc:quartz_big_flower_pot_top": {
+            "textures": "textures/cc/furniture/blocks/big_flower_pot/quartz_top"
+        },
+        "cc:quartz_big_flower_pot_bottom": {
+            "textures": "textures/cc/furniture/blocks/big_flower_pot/quartz_bottom"
+        },
+        "cc:sandstone_big_flower_pot_side": {
+            "textures": "textures/cc/furniture/blocks/big_flower_pot/sandstone_side"
+        },
+        "cc:sandstone_big_flower_pot_top": {
+            "textures": "textures/cc/furniture/blocks/big_flower_pot/sandstone_top"
+        },
+        "cc:sandstone_big_flower_pot_bottom": {
+            "textures": "textures/cc/furniture/blocks/big_flower_pot/sandstone_bottom"
+        },
+        "cc:bottles": {
+            "textures": "textures/cc/furniture/blocks/bottles"
+        },
+        "cc:book_1": {
+            "textures": "textures/cc/furniture/blocks/books/book.1"
+        },
+        "cc:book_2": {
+            "textures": "textures/cc/furniture/blocks/books/book.2"
+        },
+        "cc:book_3": {
+            "textures": "textures/cc/furniture/blocks/books/book.3"
+        },
+        "cc:book_4": {
+            "textures": "textures/cc/furniture/blocks/books/book.4"
+        },
+        "cc:gold_ingot_bar": {
+            "textures": "textures/cc/furniture/blocks/ingot_bars/gold_ingot_bar"
+        },
+        "cc:iron_ingot_bar": {
+            "textures": "textures/cc/furniture/blocks/ingot_bars/iron_ingot_bar"
+        },
+        "cc:scroll_open": {
+            "textures": "textures/cc/furniture/blocks/scroll/scroll_open"
+        },
+        "cc:scroll_closed": {
+            "textures": "textures/cc/furniture/blocks/scroll/scroll_closed"
+        },
+        "cc:cook_wiki": {
+            "textures": "textures/cc/furniture/blocks/book/cook"
+        },
+        "cc:core_craft_wiki": {
+            "textures": "textures/cc/furniture/blocks/book/core"
+        },
+        "cc:safari_wiki": {
+            "textures": "textures/cc/furniture/blocks/book/animal"
+        },
+        "cc:monster_wiki": {
+            "textures": "textures/cc/furniture/blocks/book/monster"
+        },
+        "cc:furniture_wiki": {
+            "textures": "textures/cc/furniture/blocks/book/furniture"
+        },
+        "cc:churn_bottom": {
+            "textures": "textures/cc/furniture/blocks/churn/bottom"
+        },
+        "cc:churn_top": {
+            "textures": "textures/cc/furniture/blocks/churn/top"
+        },
+        "cc:churn_side": {
+            "textures": "textures/cc/furniture/blocks/churn/side"
+        },
+        "cc:churn_fill_water": {
+            "textures": "textures/cc/furniture/blocks/churn/fill.water"
+        },
+        "cc:churn_fill_milk": {
+            "textures": "textures/cc/furniture/blocks/churn/fill.milk"
+        },
+        "cc:decorative_quartz_pillar_side": {
+            "textures": "textures/cc/furniture/blocks/decorative_pillar/quartz_side"
+        },
+        "cc:decorative_quartz_pillar_side_2": {
+            "textures": "textures/cc/furniture/blocks/decorative_pillar/quartz_side.2"
+        },
+        "cc:decorative_quartz_pillar_top": {
+            "textures": "textures/cc/furniture/blocks/decorative_pillar/quartz_top"
+        },
+        "cc:decorative_deepslate_pillar_side": {
+            "textures": "textures/cc/furniture/blocks/decorative_pillar/deepslate_side"
+        },
+        "cc:decorative_deepslate_pillar_side_2": {
+            "textures": "textures/cc/furniture/blocks/decorative_pillar/deepslate_side.2"
+        },
+        "cc:decorative_deepslate_pillar_top": {
+            "textures": "textures/cc/furniture/blocks/decorative_pillar/deepslate_top"
+        },
+        "cc:decorative_stone_pillar_side": {
+            "textures": "textures/cc/furniture/blocks/decorative_pillar/stone_side"
+        },
+        "cc:decorative_stone_pillar_side_2": {
+            "textures": "textures/cc/furniture/blocks/decorative_pillar/stone_side.2"
+        },
+        "cc:decorative_stone_pillar_top": {
+            "textures": "textures/cc/furniture/blocks/decorative_pillar/stone_top"
+        },
+        "cc:decorative_sandstone_pillar_side": {
+            "textures": "textures/cc/furniture/blocks/decorative_pillar/sandstone_side"
+        },
+        "cc:decorative_sandstone_pillar_side_2": {
+            "textures": "textures/cc/furniture/blocks/decorative_pillar/sandstone_side.2"
+        },
+        "cc:decorative_sandstone_pillar_top": {
+            "textures": "textures/cc/furniture/blocks/decorative_pillar/sandstone_top"
+        },
+        "cc:invisible": {
+            "textures": "textures/cc/misc/invisible"
+        },
+    // Rituals
+        "cc:ritual_side_active": {
+            "textures": "textures/cc/ritual/blocks/ritual.side.active"
+        },
+        "cc:ritual_top_active": {
+            "textures": "textures/cc/ritual/blocks/ritual.top.active"
+        },
+        "cc:ritual_side_inactive": {
+            "textures": "textures/cc/ritual/blocks/ritual.side.inactive"
+        },
+        "cc:ritual_top_inactive": {
+            "textures": "textures/cc/ritual/blocks/ritual.top.inactive"
+        },
+        "cc:ritual_top_used": {
+            "textures": "textures/cc/ritual/blocks/ritual.top.used"
+        },
+        "cc:ritual_side_used": {
+            "textures": "textures/cc/ritual/blocks/ritual.side.used"
+        },
+    // End
+        "cc:dark_end_stone": {
+            "textures": "textures/cc/end/blocks/dark_end_stone"
+        },
+        "cc:dark_end_stone_bricks": {
+            "textures": "textures/cc/end/blocks/dark_end_stone_bricks"
+        },
+        "cc:chiseled_dark_end_stone": {
+            "textures": "textures/cc/end/blocks/chiseled_dark_end_stone"
+        },
+        "cc:cracked_dark_end_stone_bricks": {
+            "textures": "textures/cc/end/blocks/cracked_dark_end_stone_bricks"
+        },
+        "cc:polished_dark_end_stone": {
+            "textures": "textures/cc/end/blocks/polished_dark_end_stone"
+        },
+        "cc:cobbled_dark_end_stone": {
+            "textures": "textures/cc/end/blocks/cobbled_dark_end_stone"
+        },
+        "cc:yellow_end_grass_block_side": {
+            "textures": "textures/cc/end/blocks/yellow_end_grass_block_side"
+        },
+        "cc:yellow_end_grass_block_top": {
+            "textures": "textures/cc/end/blocks/yellow_end_grass_block_top"
+        },
+        "cc:purple_end_grass_block_side": {
+            "textures": "textures/cc/end/blocks/purple_end_grass_block_side"
+        },
+        "cc:purple_end_grass_block_top": {
+            "textures": "textures/cc/end/blocks/purple_end_grass_block_top"
+        },
+        "cc:end_soil_side": {
+            "textures": "textures/cc/end/blocks/end_soil_side"
+        },
+        "cc:end_soil_top": {
+            "textures": "textures/cc/end/blocks/end_soil_top"
+        },
+        "cc:yellow_end_moss": {
+            "textures": "textures/cc/end/blocks/yellow_end_moss"
+        },
+        "cc:chiseled_end_stone": {
+            "textures": "textures/cc/end/blocks/chiseled_end_stone"
+        },
+        "cc:end_stone_pillar_top": {
+            "textures": "textures/cc/end/blocks/end_stone_pillar/top"
+        },
+        "cc:end_stone_pillar_side": {
+            "textures": "textures/cc/end/blocks/end_stone_pillar/side"
+        },
+        "cc:yellow_end_hanging_moss_middle": {
+            "textures": "textures/cc/end/blocks/yellow_end_hanging_moss_middle"
+        },
+        "cc:yellow_end_hanging_moss_tip": {
+            "textures": "textures/cc/end/blocks/yellow_end_hanging_moss_tip"
+        },
+        "cc:purple_end_dripshroom_middle": {
+            "textures": "textures/cc/end/blocks/purple_end_dripshroom_middle"
+        },
+        "cc:purple_end_dripshroom_tip": {
+            "textures": "textures/cc/end/blocks/purple_end_dripshroom_tip"
+        },
+        "cc:purple_end_dripshroom_base": {
+            "textures": "textures/cc/end/blocks/purple_end_dripshroom_base"
+        },
+        "cc:candle_stand_acacia": {
+            "textures": "textures/cc/furniture/blocks/candle_stand/acacia"
+        },
+        "cc:candle_stand_birch": {
+            "textures": "textures/cc/furniture/blocks/candle_stand/birch"
+        },
+        "cc:candle_stand_bamboo": {
+            "textures": "textures/cc/furniture/blocks/candle_stand/bamboo"
+        },
+        "cc:candle_stand_cherry": {
+            "textures": "textures/cc/furniture/blocks/candle_stand/cherry"
+        },
+        "cc:candle_stand_dark_oak": {
+            "textures": "textures/cc/furniture/blocks/candle_stand/dark_oak"
+        },
+        "cc:candle_stand_jungle": {
+            "textures": "textures/cc/furniture/blocks/candle_stand/jungle"
+        },
+        "cc:candle_stand_oak": {
+            "textures": "textures/cc/furniture/blocks/candle_stand/oak"
+        },
+        "cc:candle_stand_spruce": {
+            "textures": "textures/cc/furniture/blocks/candle_stand/spruce"
+        },
+        "cc:candle_stand_warped": {
+            "textures": "textures/cc/furniture/blocks/candle_stand/warped"
+        },
+        "cc:candle_stand_crimson": {
+            "textures": "textures/cc/furniture/blocks/candle_stand/crimson"
+        },
+        "cc:candle_stand_pale_oak": {
+            "textures": "textures/cc/furniture/blocks/candle_stand/pale_oak"
+        },
+        "cc:candle_stand_mangrove": {
+            "textures": "textures/cc/furniture/blocks/candle_stand/mangrove"
+        },
+        "cc:awning_black": {
+            "textures": "textures/cc/furniture/blocks/awning/black"
+        },
+        "cc:awning_blue": {
+            "textures": "textures/cc/furniture/blocks/awning/blue"
+        },
+        "cc:awning_brown": {
+            "textures": "textures/cc/furniture/blocks/awning/brown"
+        },
+        "cc:awning_gray": {
+            "textures": "textures/cc/furniture/blocks/awning/gray"
+        },
+        "cc:awning_cyan": {
+            "textures": "textures/cc/furniture/blocks/awning/cyan"
+        },
+        "cc:awning_green": {
+            "textures": "textures/cc/furniture/blocks/awning/green"
+        },
+        "cc:awning_light_blue": {
+            "textures": "textures/cc/furniture/blocks/awning/light_blue"
+        },
+        "cc:awning_light_gray": {
+            "textures": "textures/cc/furniture/blocks/awning/light_gray"
+        },
+        "cc:awning_lime": {
+            "textures": "textures/cc/furniture/blocks/awning/lime"
+        },
+        "cc:awning_magenta": {
+            "textures": "textures/cc/furniture/blocks/awning/magenta"
+        },
+        "cc:awning_orange": {
+            "textures": "textures/cc/furniture/blocks/awning/orange"
+        },
+        "cc:awning_purple": {
+            "textures": "textures/cc/furniture/blocks/awning/purple"
+        },
+        "cc:awning_red": {
+            "textures": "textures/cc/furniture/blocks/awning/red"
+        },
+        "cc:awning_white": {
+            "textures": "textures/cc/furniture/blocks/awning/white"
+        },
+        "cc:awning_pink": {
+            "textures": "textures/cc/furniture/blocks/awning/pink"
+        },
+        "cc:awning_yellow": {
+            "textures": "textures/cc/furniture/blocks/awning/yellow"
+        },
+        "cc:chandelier_top": {
+            "textures": "textures/cc/furniture/blocks/chandelier/top"
+        },
+        "cc:chandelier_side": {
+            "textures": "textures/cc/furniture/blocks/chandelier/side"
+        },
+        "white_candle_lit": {
+            "textures": [
+                "textures/blocks/candles/white_candle_lit"
+            ]
+        },
+        "cc:shelf_top_oak": {
+            "textures": "textures/cc/furniture/blocks/shelf/oak/up"
+        },
+        "cc:shelf_side_oak": {
+            "textures": "textures/cc/furniture/blocks/shelf/oak/side"
+        },
+        "cc:shelf_front_oak": {
+            "textures": "textures/cc/furniture/blocks/shelf/oak/front"
+        },
+        "cc:vase_clay": {
+            "textures": "textures/cc/furniture/blocks/vase/vase.clay"
+        },
+        "cc:vase_quartz": {
+            "textures": "textures/cc/furniture/blocks/vase/vase.quartz"
+        },
+        "cc:vase_deepslate": {
+            "textures": "textures/cc/furniture/blocks/vase/vase.deepslate"
+        },
+        "cc:vase_stone": {
+            "textures": "textures/cc/furniture/blocks/vase/vase.stone"
+        },
+        "cc:vase_sandstone": {
+            "textures": "textures/cc/furniture/blocks/vase/vase.sandstone"
+        },
+        "cc:red_wool": {
+            "textures": "textures/blocks/wool_colored_red"
+        },
+        "cc:yellow_wool": {
+            "textures": "textures/blocks/wool_colored_yellow"
+        },
+    //market - base layers
+        "cc:market_stand_front": {
+            "textures": "textures/cc/market/blocks/0_market_stand.front"
+        },
+        "cc:market_stand_top_side": {
+            "textures": "textures/cc/market/blocks/0_market_stand.top.side"
+        },
+    // Market type layers
+        "cc:market_stand_type_mining": {
+            "textures": "textures/cc/market/blocks/1_market_stand.mining"
+        },
+        "cc:market_stand_type_fishing": {
+            "textures": "textures/cc/market/blocks/1_market_stand.fishing"
+        },
+        "cc:market_stand_type_farming": {
+            "textures": "textures/cc/market/blocks/1_market_stand.farming"
+        },
+        "cc:market_stand_type_adventure": {
+            "textures": "textures/cc/market/blocks/1_market_stand.adventure"
+        },
+        "cc:market_stand_type_cooking": {
+            "textures": "textures/cc/market/blocks/1_market_stand.cooking"
+        },
+    // Market level layers - front
+        "cc:market_stand_level_front_2": {
+            "textures": "textures/cc/market/blocks/2_front_level.2"
+        },
+        "cc:market_stand_level_front_3": {
+            "textures": "textures/cc/market/blocks/2_front_level.3"
+        },
+        "cc:market_stand_level_front_4": {
+            "textures": "textures/cc/market/blocks/2_front_level.4"
+        },
+        "cc:market_stand_level_front_5": {
+            "textures": "textures/cc/market/blocks/2_front_level.5"
+        },
+    // Market level layers - side
+        "cc:market_stand_level_side_2": {
+            "textures": "textures/cc/market/blocks/2_side_level.2"
+        },
+        "cc:market_stand_level_side_3": {
+            "textures": "textures/cc/market/blocks/2_side_level.3"
+        },
+        "cc:market_stand_level_side_4": {
+            "textures": "textures/cc/market/blocks/2_side_level.4"
+        },
+        "cc:market_stand_level_side_5": {
+            "textures": "textures/cc/market/blocks/2_side_level.5"
+        },
+    // Legacy entries - keeping for backwards compatibility, will be removed later
+        "cc:market_stand_fishing_front_2": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.fishing"
+                },
+                {
+                    "path": "textures/cc/market/blocks/2_front_level.2"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_fishing_front_3": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.fishing"
+                },
+                {
+                    "path": "textures/cc/market/blocks/2_front_level.3"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_fishing_front_4": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.fishing"
+                },
+                {
+                    "path": "textures/cc/market/blocks/2_front_level.4"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_fishing_front_5": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.fishing"
+                },
+                {
+                    "path": "textures/cc/market/blocks/2_front_level.5"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_adventure_front_1": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.adventure"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_adventure_front_2": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.adventure"
+                },
+                {
+                    "path": "textures/cc/market/blocks/2_front_level.2"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_adventure_front_3": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.adventure"
+                },
+                {
+                    "path": "textures/cc/market/blocks/2_front_level.3"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_adventure_front_4": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.adventure"
+                },
+                {
+                    "path": "textures/cc/market/blocks/2_front_level.4"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_adventure_front_5": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.adventure"
+                },
+                {
+                    "path": "textures/cc/market/blocks/2_front_level.5"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_cooking_front_1": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.cooking"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_cooking_front_2": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.cooking"
+                },
+                {
+                    "path": "textures/cc/market/blocks/2_front_level.2"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_cooking_front_3": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.cooking"
+                },
+                {
+                    "path": "textures/cc/market/blocks/2_front_level.3"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_cooking_front_4": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.cooking"
+                },
+                {
+                    "path": "textures/cc/market/blocks/2_front_level.4"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_cooking_front_5": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.cooking"
+                },
+                {
+                    "path": "textures/cc/market/blocks/2_front_level.5"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_farming_front_1": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.farming"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_farming_front_2": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.farming"
+                },
+                {
+                    "path": "textures/cc/market/blocks/2_front_level.2"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_farming_front_3": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.farming"
+                },
+                {
+                    "path": "textures/cc/market/blocks/2_front_level.3"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_farming_front_4": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.farming"
+                },
+                {
+                    "path": "textures/cc/market/blocks/2_front_level.4"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_farming_front_5": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.front",
+                {
+                    "path": "textures/cc/market/blocks/1_market_stand.farming"
+                },
+                {
+                    "path": "textures/cc/market/blocks/2_front_level.5"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_top_side_1": {
+            "textures": "textures/cc/market/blocks/0_market_stand.top.side"
+        },
+        "cc:market_stand_top_side_2": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.top.side",
+                {
+                    "path": "textures/cc/market/blocks/2_side_level.2"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_top_side_3": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.top.side",
+                {
+                    "path": "textures/cc/market/blocks/2_side_level.3"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_top_side_4": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.top.side",
+                {
+                    "path": "textures/cc/market/blocks/2_side_level.4"
+                }
+            ],
+            "additive": true
+        },
+        "cc:market_stand_top_side_5": {
+            "textures": [
+                "textures/cc/market/blocks/0_market_stand.top.side",
+                {
+                    "path": "textures/cc/market/blocks/2_side_level.5"
+                }
+            ],
+            "additive": true
+        },
+    // cooking
+        "cc:cooking_pot_bottom": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/bottom"
+        },
+        "cc:cooking_pot_top": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/top"
+        },
+        "cc:cooking_pot_side": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/side"
+        },
+        "cc:cooking_pot_front": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/front"
+        },
+        "cc:cooking_pot_fill_water": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/fill.water"
+        },
+        "cc:cooking_pot_fill_beetroot_soup_1": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/fill.beetroot_soup.1"
+        },
+        "cc:cooking_pot_fill_tomato_soup_1": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/fill.tomato_soup.1"
+        },
+        "cc:cooking_pot_fill_tomato_soup_2": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/fill.tomato_soup.2"
+        },
+        "cc:cooking_pot_fill_tomato_soup_3": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/fill.tomato_soup.3"
+        },
+        "cc:cooking_pot_fill_vegetable_soup_1": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/fill.vegetable_soup.1"
+        },
+        "cc:cooking_pot_fill_vegetable_soup_2": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/fill.vegetable_soup.2"
+        },
+        "cc:cooking_pot_fill_vegetable_soup_3": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/fill.vegetable_soup.3"
+        },
+        "cc:cooking_pot_fill_rabbit_stew_1": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/fill.rabbit_stew.1"
+        },
+        "cc:cooking_pot_fill_rabbit_stew_2": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/fill.rabbit_stew.2"
+        },
+        "cc:cooking_pot_fill_rabbit_stew_3": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/fill.rabbit_stew.3"
+        },
+        "cc:cooking_pot_fill_rice_1": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/fill.rice.1"
+        },
+        "cc:cooking_pot_fill_mushroom_stew_1": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/fill.mushroom_stew.1"
+        },
+        "cc:cooking_pot_fill_mushroom_stew_2": {
+            "textures": "textures/cc/cooking/blocks/cooking_pot/fill.mushroom_stew.2"
+        },
+        "cc:stove_front_on": {
+            "textures": "textures/cc/cooking/blocks/stove/front.on"
+        },
+        "cc:stove_front_off": {
+            "textures": "textures/cc/cooking/blocks/stove/front.off"
+        },
+        "cc:stove_side": {
+            "textures": "textures/cc/cooking/blocks/stove/side"
+        },
+        "cc:stove_bottom": {
+            "textures": "textures/cc/cooking/blocks/stove/bottom"
+        },
+        "cc:stove_top": {
+            "textures": "textures/cc/cooking/blocks/stove/top"
+        },
+        "cc:pan_side": {
+            "textures": "textures/cc/cooking/blocks/pan/side"
+        },
+        "cc:pan_top": {
+            "textures": "textures/cc/cooking/blocks/pan/top"
+        },
+        "cc:pan_bottom": {
+            "textures": "textures/cc/cooking/blocks/pan/bottom"
+        },
+        "cc:pan_beef_raw": {
+            "textures": "textures/items/beef_raw"
+        },
+        "cc:pan_beef_cooked": {
+            "textures": "textures/items/beef_cooked"
+        },
+        "cc:pan_chicken_raw": {
+            "textures": "textures/items/chicken_raw"
+        },
+        "cc:pan_chicken_cooked": {
+            "textures": "textures/items/chicken_cooked"
+        },
+        "cc:pan_mutton_raw": {
+            "textures": "textures/items/mutton_raw"
+        },
+        "cc:pan_mutton_cooked": {
+            "textures": "textures/items/mutton_cooked"
+        },
+        "cc:pan_rabbit_raw": {
+            "textures": "textures/items/rabbit_raw"
+        },
+        "cc:pan_rabbit_cooked": {
+            "textures": "textures/items/rabbit_cooked"
+        },
+        "cc:pan_salmon_raw": {
+            "textures": "textures/items/fish_salmon_raw"
+        },
+        "cc:pan_salmon_cooked": {
+            "textures": "textures/items/fish_salmon_cooked"
+        },
+        "cc:pan_cod_raw": {
+            "textures": "textures/items/fish_raw"
+        },
+        "cc:pan_cod_cooked": {
+            "textures": "textures/items/fish_cooked"
+        },
+        "cc:pan_pork_cooked": {
+            "textures": "textures/items/porkchop_cooked"
+        },
+        "cc:pan_pork_raw": {
+            "textures": "textures/items/porkchop_raw"
+        },
+        "cc:pan_coal": {
+            "textures": "textures/items/charcoal"
+        },
+        "cc:chicken_feast": {
+            "textures": "textures/cc/cooking/blocks/food/chicken_feast"
+        },
+        "cc:beef_feast": {
+            "textures": "textures/cc/cooking/blocks/food/beef_feast"
+        },
+        "cc:fish_feast": {
+            "textures": "textures/cc/cooking/blocks/food/fish_feast"
+        },
+        "cc:pork_feast": {
+            "textures": "textures/cc/cooking/blocks/food/pork_feast"
+        },
+        "cc:bowl_side": {
+            "textures": "textures/cc/cooking/blocks/food/bowl.side"
+        },
+        "cc:bowl_bottom": {
+            "textures": "textures/cc/cooking/blocks/food/bowl.bottom"
+        },
+        "cc:bowl_top_chicken": {
+            "textures": "textures/cc/cooking/blocks/food/bowl.top.chicken"
+        },
+        "cc:bowl_top_fish": {
+            "textures": "textures/cc/cooking/blocks/food/bowl.top.fish"
+        },
+        "cc:bowl_top_beef": {
+            "textures": "textures/cc/cooking/blocks/food/bowl.top.beef"
+        },
+        "cc:bowl_top_pork": {
+            "textures": "textures/cc/cooking/blocks/food/bowl.top.pork"
+        },
+        "cc:bowl_top_mutton": {
+            "textures": "textures/cc/cooking/blocks/food/bowl.top.mutton"
+        },
+        "cc:bowl_top_rabbit": {
+            "textures": "textures/cc/cooking/blocks/food/bowl.top.rabbit"
+        },
+        "cc:jar_strawberry_top": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.strawberry.top"
+        },
+        "cc:jar_strawberry_bottom": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.strawberry.bottom"
+        },
+        "cc:jar_strawberry_side_1": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.strawberry.side.1"
+        },
+        "cc:jar_strawberry_side_2": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.strawberry.side.2"
+        },
+        "cc:jar_strawberry_side_3": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.strawberry.side.3"
+        },
+        "cc:jar_strawberry_fill": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.strawberry.fill"
+        },
+        "cc:jar_tropical_smoothie_side_3": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.tropical_smoothie.side.3"
+        },
+        "cc:jar_tropical_smoothie_side_2": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.tropical_smoothie.side.2"
+        },
+        "cc:jar_tropical_smoothie_side_1": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.tropical_smoothie.side.1"
+        },
+        "cc:jar_tropical_smoothie_fill": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.tropical_smoothie.fill"
+        },
+        "cc:jar_tropical_smoothie_bottom": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.tropical_smoothie.bottom"
+        },
+        "cc:jar_berry_smoothie_side_3": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.berry_smoothie.side.3"
+        },
+        "cc:jar_berry_smoothie_side_2": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.berry_smoothie.side.2"
+        },
+        "cc:jar_berry_smoothie_side_1": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.berry_smoothie.side.1"
+        },
+        "cc:jar_berry_smoothie_fill": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.berry_smoothie.fill"
+        },
+        "cc:jar_berry_smoothie_bottom": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.berry_smoothie.bottom"
+        },
+        "cc:jar_lemonade_side_3": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.lemonade.side.3"
+        },
+        "cc:jar_lemonade_side_2": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.lemonade.side.2"
+        },
+        "cc:jar_lemonade_side_1": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.lemonade.side.1"
+        },
+        "cc:jar_lemonade_fill": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.lemonade.fill"
+        },
+        "cc:jar_lemonade_bottom": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.lemonade.bottom"
+        },
+        "cc:jar_orange_juice_side_3": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.orange_juice.side.3"
+        },
+        "cc:jar_orange_juice_side_2": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.orange_juice.side.2"
+        },
+        "cc:jar_orange_juice_side_1": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.orange_juice.side.1"
+        },
+        "cc:jar_orange_juice_fill": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.orange_juice.fill"
+        },
+        "cc:jar_orange_juice_bottom": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.orange_juice.bottom"
+        },
+        "cc:jar_grape_juice_side_3": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.grape_juice.side.3"
+        },
+        "cc:jar_grape_juice_side_2": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.grape_juice.side.2"
+        },
+        "cc:jar_grape_juice_side_1": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.grape_juice.side.1"
+        },
+        "cc:jar_grape_juice_fill": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.grape_juice.fill"
+        },
+        "cc:jar_grape_juice_bottom": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.grape_juice.bottom"
+        },
+        "cc:jar_apple_juice_side_3": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.apple_juice.side.3"
+        },
+        "cc:jar_apple_juice_side_2": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.apple_juice.side.2"
+        },
+        "cc:jar_apple_juice_side_1": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.apple_juice.side.1"
+        },
+        "cc:jar_apple_juice_fill": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.apple_juice.fill"
+        },
+        "cc:jar_apple_juice_bottom": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.apple_juice.bottom"
+        },
+        "cc:jar_peanut_top": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.peanut.top"
+        },
+        "cc:jar_peanut_bottom": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.peanut.bottom"
+        },
+        "cc:jar_peanut_side_1": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.peanut.side.1"
+        },
+        "cc:jar_peanut_side_2": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.peanut.side.2"
+        },
+        "cc:jar_peanut_side_3": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.peanut.side.3"
+        },
+        "cc:jar_peanut_fill": {
+            "textures": "textures/cc/cooking/blocks/jar/jar.peanut.fill"
+        },
+        "cc:cooking_table_top": {
+            "textures": "textures/cc/cooking/blocks/cooking_table/top"
+        },
+        "cc:cooking_table_front": {
+            "textures": "textures/cc/cooking/blocks/cooking_table/front"
+        },
+        "cc:cooking_table_side": {
+            "textures": "textures/cc/cooking/blocks/cooking_table/side"
+        },
+        "cc:furniture_table_top": {
+            "textures": "textures/cc/furniture/blocks/furniture_table/top"
+        },
+        "cc:furniture_table_front": {
+            "textures": "textures/cc/furniture/blocks/furniture_table/front"
+        },
+        "cc:furniture_table_side": {
+            "textures": "textures/cc/furniture/blocks/furniture_table/side"
+        },
+        "cc:crate_down": {
+            "textures": "textures/blocks/barrel_bottom"
+        },
+        "cc:pot_rose_bush": {
+            "textures": "textures/blocks/double_plant_rose_top"
+        },
+        "cc:pot_peony": {
+            "textures": "textures/blocks/double_plant_paeonia_top"
+        },
+        "cc:pot_lilac": {
+            "textures": "textures/blocks/double_plant_syringa_top"
+        },
+        "cc:pot_blue_jungle_plant": {
+            "textures": "textures/cc/foliage/items/blue_jungle_plant"
+        },
+        "cc:pot_yellow_jungle_plant": {
+            "textures": "textures/cc/foliage/items/yellow_jungle_plant"
+        },
+        "cc:pot_taiga_red_plant": {
+            "textures": "textures/cc/foliage/items/taiga_red_plant"
+        },
+        "cc:pot_taiga_orange_plant": {
+            "textures": "textures/cc/foliage/items/taiga_orange_plant"
+        },
+        "cc:suspicious_ice": {
+            "textures": "textures/cc/foliage/blocks/suspicious_ice"
+        },
+        "cc:ruby_block": {
+            "textures": "textures/cc/ores/blocks/ruby_block"
+        },
+        "cc:ruby_ore": {
+            "textures": "textures/cc/ores/blocks/stone_ruby_ore"
+        },
+        "cc:deepslate_ruby_ore": {
+            "textures": "textures/cc/ores/blocks/deepslate_ruby_ore"
+        },
+        "cc:yeti_head_front": {
+            "textures": "textures/cc/boss/blocks/yeti/head_front"
+        },
+        "cc:yeti_head_face": {
+            "textures": "textures/cc/boss/blocks/yeti/head_face"
+        },
+        "cc:yeti_head_sides": {
+            "textures": "textures/cc/boss/blocks/yeti/head_sides"
+        },
+        "cc:yeti_head_top": {
+            "textures": "textures/cc/boss/blocks/yeti/head_top"
+        },
+        "cc:yeti_head_bottom": {
+            "textures": "textures/cc/boss/blocks/yeti/head_bottom"
+        },
+        "cc:yeti_head_back": {
+            "textures": "textures/cc/boss/blocks/yeti/head_back"
+        },
+        "cc:big_foot_head_front": {
+            "textures": "textures/cc/boss/blocks/big_foot/head_front"
+        },
+        "cc:big_foot_head_face": {
+            "textures": "textures/cc/boss/blocks/big_foot/head_face"
+        },
+        "cc:big_foot_head_sides": {
+            "textures": "textures/cc/boss/blocks/big_foot/head_sides"
+        },
+        "cc:big_foot_head_top": {
+            "textures": "textures/cc/boss/blocks/big_foot/head_top"
+        },
+        "cc:big_foot_head_bottom": {
+            "textures": "textures/cc/boss/blocks/big_foot/head_bottom"
+        },
+        "cc:big_foot_head_back": {
+            "textures": "textures/cc/boss/blocks/big_foot/head_back"
+        },
+    //golem heads
+        "cc:arctic_iron_golem_head": {
+            "textures": "textures/cc/iron_golems/entities/arctic_iron_golem"
+        },
+        "cc:birch_iron_golem_head": {
+            "textures": "textures/cc/iron_golems/entities/birch_iron_golem"
+        },
+        "cc:cherry_iron_golem_head": {
+            "textures": "textures/cc/iron_golems/entities/cherry_iron_golem"
+        },
+        "cc:desert_iron_golem_head": {
+            "textures": "textures/cc/iron_golems/entities/desert_iron_golem"
+        },
+        "cc:jungle_iron_golem_head": {
+            "textures": "textures/cc/iron_golems/entities/jungle_iron_golem"
+        },
+        "cc:mesa_iron_golem_head": {
+            "textures": "textures/cc/iron_golems/entities/mesa_iron_golem"
+        },
+        "cc:plains_iron_golem_head": {
+            "textures": "textures/cc/iron_golems/entities/plains_iron_golem"
+        },
+        "cc:savanna_iron_golem_head": {
+            "textures": "textures/cc/iron_golems/entities/savanna_iron_golem"
+        },
+        "cc:swamp_iron_golem_head": {
+            "textures": "textures/cc/iron_golems/entities/swamp_iron_golem"
+        },
+        "cc:taiga_iron_golem_head": {
+            "textures": "textures/cc/iron_golems/entities/taiga_iron_golem"
+        },
+        "cc:task_board_side_1": {
+            "textures": "textures/cc/village/blocks/task_board_side_1"
+        },
+        "cc:task_board_side_2": {
+            "textures": "textures/cc/village/blocks/task_board_side_2"
+        },
+        "cc:task_board_side_empty": {
+            "textures": "textures/cc/village/blocks/task_board_side_empty"
+        },
+        "cc:task_board_top": {
+            "textures": "textures/cc/village/blocks/task_board_top"
+        },
+        "cc:advanced_bed_wood": {
+            "textures": "textures/cc/furniture/blocks/advanced_bed/wood"
+        },
+        "cc:advanced_bed_cushion": {
+            "textures": "textures/cc/furniture/blocks/advanced_bed/cushion"
+        },
+        "cc:banner_desert_top": {
+            "textures": "textures/cc/furniture/blocks/banner/desert.top"
+        },
+        "cc:banner_desert_bottom": {
+            "textures": "textures/cc/furniture/blocks/banner/desert.bottom"
+        },
+        "cc:banner_end_top": {
+            "textures": "textures/cc/furniture/blocks/banner/end.top"
+        },
+        "cc:banner_end_bottom": {
+            "textures": "textures/cc/furniture/blocks/banner/end.bottom"
+        },
+        "cc:banner_forest_top": {
+            "textures": "textures/cc/furniture/blocks/banner/forest.top"
+        },
+        "cc:banner_forest_bottom": {
+            "textures": "textures/cc/furniture/blocks/banner/forest.bottom"
+        },
+        "cc:banner_jungle_top": {
+            "textures": "textures/cc/furniture/blocks/banner/jungle.top"
+        },
+        "cc:banner_jungle_bottom": {
+            "textures": "textures/cc/furniture/blocks/banner/jungle.bottom"
+        },
+        "cc:banner_mesa_top": {
+            "textures": "textures/cc/furniture/blocks/banner/mesa.top"
+        },
+        "cc:banner_mesa_bottom": {
+            "textures": "textures/cc/furniture/blocks/banner/mesa.bottom"
+        },
+        "cc:banner_nether_top": {
+            "textures": "textures/cc/furniture/blocks/banner/nether.top"
+        },
+        "cc:banner_nether_bottom": {
+            "textures": "textures/cc/furniture/blocks/banner/nether.bottom"
+        },
+        "cc:banner_pillager_top": {
+            "textures": "textures/cc/furniture/blocks/banner/pillager.top"
+        },
+        "cc:banner_pillager_bottom": {
+            "textures": "textures/cc/furniture/blocks/banner/pillager.bottom"
+        },
+        "cc:banner_savanna_top": {
+            "textures": "textures/cc/furniture/blocks/banner/savanna.top"
+        },
+        "cc:banner_savanna_bottom": {
+            "textures": "textures/cc/furniture/blocks/banner/savanna.bottom"
+        },
+        "cc:banner_snow_top": {
+            "textures": "textures/cc/furniture/blocks/banner/snow.top"
+        },
+        "cc:banner_snow_bottom": {
+            "textures": "textures/cc/furniture/blocks/banner/snow.bottom"
+        },
+        "cc:banner_swamp_top": {
+            "textures": "textures/cc/furniture/blocks/banner/swamp.top"
+        },
+        "cc:banner_swamp_bottom": {
+            "textures": "textures/cc/furniture/blocks/banner/swamp.bottom"
+        },
+        "cc:dirt_stone_tiles": {
+            "textures": "textures/cc/block_variants/blocks/dirt_stone_tiles"
+        },
+        "cc:snow_bricks": {
+            "textures": "textures/cc/block_variants/blocks/snow_bricks"
+        },
+        "cc:ice_bricks": {
+            "textures": "textures/cc/block_variants/blocks/ice_bricks"
+        },
+        "cc:snowy_ice_bricks": {
+            "textures": "textures/cc/block_variants/blocks/snowy_ice_bricks"
+        },
+        "cc:red_concrete_bricks": {
+            "textures": "textures/cc/block_variants/blocks/red_concrete_bricks"
+        },
+        "cc:yellow_concrete_bricks": {
+            "textures": "textures/cc/block_variants/blocks/yellow_concrete_bricks"
+        },
+        "cc:black_concrete_bricks": {
+            "textures": "textures/cc/block_variants/blocks/black_concrete_bricks"
+        },
+        "cc:white_concrete_bricks": {
+            "textures": "textures/cc/block_variants/blocks/white_concrete_bricks"
+        },
+        "cc:orange_concrete_bricks": {
+            "textures": "textures/cc/block_variants/blocks/orange_concrete_bricks"
+        },
+        "cc:magenta_concrete_bricks": {
+            "textures": "textures/cc/block_variants/blocks/magenta_concrete_bricks"
+        },
+        "cc:light_blue_concrete_bricks": {
+            "textures": "textures/cc/block_variants/blocks/light_blue_concrete_bricks"
+        },
+        "cc:lime_concrete_bricks": {
+            "textures": "textures/cc/block_variants/blocks/lime_concrete_bricks"
+        },
+        "cc:pink_concrete_bricks": {
+            "textures": "textures/cc/block_variants/blocks/pink_concrete_bricks"
+        },
+        "cc:gray_concrete_bricks": {
+            "textures": "textures/cc/block_variants/blocks/gray_concrete_bricks"
+        },
+        "cc:light_gray_concrete_bricks": {
+            "textures": "textures/cc/block_variants/blocks/light_gray_concrete_bricks"
+        },
+        "cc:cyan_concrete_bricks": {
+            "textures": "textures/cc/block_variants/blocks/cyan_concrete_bricks"
+        },
+        "cc:purple_concrete_bricks": {
+            "textures": "textures/cc/block_variants/blocks/purple_concrete_bricks"
+        },
+        "cc:blue_concrete_bricks": {
+            "textures": "textures/cc/block_variants/blocks/blue_concrete_bricks"
+        },
+        "cc:brown_concrete_bricks": {
+            "textures": "textures/cc/block_variants/blocks/brown_concrete_bricks"
+        },
+        "cc:green_concrete_bricks": {
+            "textures": "textures/cc/block_variants/blocks/green_concrete_bricks"
+        },
+        "cc:polished_end_stone": {
+            "textures": "textures/cc/end/blocks/polished_end_stone"
+        },
+        "cc:bell_pepper_1": {
+            "textures": "textures/cc/cooking/blocks/crops/bell_pepper/bell_pepper.1"
+        },
+        "cc:bell_pepper_2": {
+            "textures": "textures/cc/cooking/blocks/crops/bell_pepper/bell_pepper.2"
+        },
+        "cc:bell_pepper_3": {
+            "textures": "textures/cc/cooking/blocks/crops/bell_pepper/bell_pepper.3"
+        },
+        "cc:bell_pepper_4": {
+            "textures": "textures/cc/cooking/blocks/crops/bell_pepper/bell_pepper.4"
+        },
+        "cc:blue_berries_1": {
+            "textures": "textures/cc/cooking/blocks/crops/blue_berries/blue_berries.1"
+        },
+        "cc:blue_berries_2": {
+            "textures": "textures/cc/cooking/blocks/crops/blue_berries/blue_berries.2"
+        },
+        "cc:blue_berries_3": {
+            "textures": "textures/cc/cooking/blocks/crops/blue_berries/blue_berries.3"
+        },
+        "cc:blue_berries_4": {
+            "textures": "textures/cc/cooking/blocks/crops/blue_berries/blue_berries.4"
+        },
+        "cc:broccoli_1": {
+            "textures": "textures/cc/cooking/blocks/crops/broccoli/broccoli.1"
+        },
+        "cc:broccoli_2": {
+            "textures": "textures/cc/cooking/blocks/crops/broccoli/broccoli.2"
+        },
+        "cc:broccoli_3": {
+            "textures": "textures/cc/cooking/blocks/crops/broccoli/broccoli.3"
+        },
+        "cc:broccoli_4": {
+            "textures": "textures/cc/cooking/blocks/crops/broccoli/broccoli.4"
+        },
+        "cc:cabbage_1": {
+            "textures": "textures/cc/cooking/blocks/crops/cabbage/cabbage.1"
+        },
+        "cc:cabbage_2": {
+            "textures": "textures/cc/cooking/blocks/crops/cabbage/cabbage.2"
+        },
+        "cc:cabbage_3": {
+            "textures": "textures/cc/cooking/blocks/crops/cabbage/cabbage.3"
+        },
+        "cc:cabbage_4": {
+            "textures": "textures/cc/cooking/blocks/crops/cabbage/cabbage.4"
+        },
+        "cc:cauliflower_1": {
+            "textures": "textures/cc/cooking/blocks/crops/cauliflower/cauliflower.1"
+        },
+        "cc:cauliflower_2": {
+            "textures": "textures/cc/cooking/blocks/crops/cauliflower/cauliflower.2"
+        },
+        "cc:cauliflower_3": {
+            "textures": "textures/cc/cooking/blocks/crops/cauliflower/cauliflower.3"
+        },
+        "cc:cauliflower_4": {
+            "textures": "textures/cc/cooking/blocks/crops/cauliflower/cauliflower.4"
+        },
+        "cc:coconut_3": {
+            "textures": "textures/cc/cooking/blocks/crops/coconut/coconut.3"
+        },
+        "cc:coconut_4": {
+            "textures": "textures/cc/cooking/blocks/crops/coconut/coconut.4"
+        },
+        "cc:garlic_1": {
+            "textures": "textures/cc/cooking/blocks/crops/garlic/garlic.1"
+        },
+        "cc:garlic_2": {
+            "textures": "textures/cc/cooking/blocks/crops/garlic/garlic.2"
+        },
+        "cc:garlic_3": {
+            "textures": "textures/cc/cooking/blocks/crops/garlic/garlic.3"
+        },
+        "cc:garlic_4": {
+            "textures": "textures/cc/cooking/blocks/crops/garlic/garlic.4"
+        },
+        "cc:grape_1": {
+            "textures": "textures/cc/cooking/blocks/crops/grape/grape.1"
+        },
+        "cc:grape_2": {
+            "textures": "textures/cc/cooking/blocks/crops/grape/grape.2"
+        },
+        "cc:grape_3": {
+            "textures": "textures/cc/cooking/blocks/crops/grape/grape.3"
+        },
+        "cc:grape_4": {
+            "textures": "textures/cc/cooking/blocks/crops/grape/grape.4"
+        },
+        "cc:lemon_1": {
+            "textures": "textures/cc/cooking/blocks/crops/lemon/lemon.1"
+        },
+        "cc:lemon_2": {
+            "textures": "textures/cc/cooking/blocks/crops/lemon/lemon.2"
+        },
+        "cc:lemon_3": {
+            "textures": "textures/cc/cooking/blocks/crops/lemon/lemon.3"
+        },
+        "cc:lemon_4": {
+            "textures": "textures/cc/cooking/blocks/crops/lemon/lemon.4"
+        },
+        "cc:onion_1": {
+            "textures": "textures/cc/cooking/blocks/crops/onion/onion.1"
+        },
+        "cc:onion_2": {
+            "textures": "textures/cc/cooking/blocks/crops/onion/onion.2"
+        },
+        "cc:onion_3": {
+            "textures": "textures/cc/cooking/blocks/crops/onion/onion.3"
+        },
+        "cc:onion_4": {
+            "textures": "textures/cc/cooking/blocks/crops/onion/onion.4"
+        },
+        "cc:orange_1": {
+            "textures": "textures/cc/cooking/blocks/crops/orange/orange.1"
+        },
+        "cc:orange_2": {
+            "textures": "textures/cc/cooking/blocks/crops/orange/orange.2"
+        },
+        "cc:orange_3": {
+            "textures": "textures/cc/cooking/blocks/crops/orange/orange.3"
+        },
+        "cc:orange_4": {
+            "textures": "textures/cc/cooking/blocks/crops/orange/orange.4"
+        },
+        "cc:peanut_1": {
+            "textures": "textures/cc/cooking/blocks/crops/peanut/peanut.1"
+        },
+        "cc:peanut_2": {
+            "textures": "textures/cc/cooking/blocks/crops/peanut/peanut.2"
+        },
+        "cc:peanut_3": {
+            "textures": "textures/cc/cooking/blocks/crops/peanut/peanut.3"
+        },
+        "cc:peanut_4": {
+            "textures": "textures/cc/cooking/blocks/crops/peanut/peanut.4"
+        },
+        "cc:pineapple_1": {
+            "textures": "textures/cc/cooking/blocks/crops/pineapple/pineapple.1"
+        },
+        "cc:pineapple_2": {
+            "textures": "textures/cc/cooking/blocks/crops/pineapple/pineapple.2"
+        },
+        "cc:pineapple_3": {
+            "textures": "textures/cc/cooking/blocks/crops/pineapple/pineapple.3"
+        },
+        "cc:pineapple_4": {
+            "textures": "textures/cc/cooking/blocks/crops/pineapple/pineapple.4"
+        },
+        "cc:rice_1": {
+            "textures": "textures/cc/cooking/blocks/crops/rice/rice.1"
+        },
+        "cc:rice_2": {
+            "textures": "textures/cc/cooking/blocks/crops/rice/rice.2"
+        },
+        "cc:rice_3": {
+            "textures": "textures/cc/cooking/blocks/crops/rice/rice.3"
+        },
+        "cc:rice_4": {
+            "textures": "textures/cc/cooking/blocks/crops/rice/rice.4"
+        },
+        "cc:strawberry_1": {
+            "textures": "textures/cc/cooking/blocks/crops/strawberry/strawberry.1"
+        },
+        "cc:strawberry_2": {
+            "textures": "textures/cc/cooking/blocks/crops/strawberry/strawberry.2"
+        },
+        "cc:strawberry_3": {
+            "textures": "textures/cc/cooking/blocks/crops/strawberry/strawberry.3"
+        },
+        "cc:strawberry_4": {
+            "textures": "textures/cc/cooking/blocks/crops/strawberry/strawberry.4"
+        },
+        "cc:tomato_1": {
+            "textures": "textures/cc/cooking/blocks/crops/tomato/tomato.1"
+        },
+        "cc:tomato_2": {
+            "textures": "textures/cc/cooking/blocks/crops/tomato/tomato.2"
+        },
+        "cc:tomato_3": {
+            "textures": "textures/cc/cooking/blocks/crops/tomato/tomato.3"
+        },
+        "cc:tomato_4": {
+            "textures": "textures/cc/cooking/blocks/crops/tomato/tomato.4"
+        },
+        "cc:banana_bottom_1": {
+            "textures": "textures/cc/cooking/blocks/crops/banana/banana.bottom.1"
+        },
+        "cc:banana_bottom_2": {
+            "textures": "textures/cc/cooking/blocks/crops/banana/banana.bottom.2"
+        },
+        "cc:banana_bottom_3": {
+            "textures": "textures/cc/cooking/blocks/crops/banana/banana.bottom.3"
+        },
+        "cc:banana_bottom_4": {
+            "textures": "textures/cc/cooking/blocks/crops/banana/banana.bottom.4"
+        },
+        "cc:banana_bottom_5": {
+            "textures": "textures/cc/cooking/blocks/crops/banana/banana.bottom.5"
+        },
+        "cc:banana_top_3": {
+            "textures": "textures/cc/cooking/blocks/crops/banana/banana.top.3"
+        },
+        "cc:banana_top_4": {
+            "textures": "textures/cc/cooking/blocks/crops/banana/banana.top.4"
+        },
+        "cc:banana_top_5": {
+            "textures": "textures/cc/cooking/blocks/crops/banana/banana.top.5"
+        },
+        "cc:corn_bottom_1": {
+            "textures": "textures/cc/cooking/blocks/crops/corn/corn.bottom.1"
+        },
+        "cc:corn_bottom_2": {
+            "textures": "textures/cc/cooking/blocks/crops/corn/corn.bottom.2"
+        },
+        "cc:corn_bottom_3": {
+            "textures": "textures/cc/cooking/blocks/crops/corn/corn.bottom.3"
+        },
+        "cc:corn_bottom_4": {
+            "textures": "textures/cc/cooking/blocks/crops/corn/corn.bottom.4"
+        },
+        "cc:corn_bottom_5": {
+            "textures": "textures/cc/cooking/blocks/crops/corn/corn.bottom.5"
+        },
+        "cc:corn_top_3": {
+            "textures": "textures/cc/cooking/blocks/crops/corn/corn.top.3"
+        },
+        "cc:corn_top_4": {
+            "textures": "textures/cc/cooking/blocks/crops/corn/corn.top.4"
+        },
+        "cc:corn_top_5": {
+            "textures": "textures/cc/cooking/blocks/crops/corn/corn.top.5"
+        },
+        "cc:crate_apple_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_apple.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_apple_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_apple.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_banana_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_banana.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_banana_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_banana.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_beetroot_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_beetroot.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_beetroot_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_beetroot.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_bell_pepper_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_bell_pepper.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_bell_pepper_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_bell_pepper.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_broccoli_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_broccoli.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_broccoli_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_broccoli.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_cabbage_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_cabbage.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_cabbage_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_cabbage.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_carrot_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_carrot.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_carrot_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_carrot.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_cauliflower_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_cauliflower.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_cauliflower_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_cauliflower.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_coconut_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_coconut.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_coconut_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_coconut.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_corn_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_corn.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_corn_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_corn.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_garlic_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_garlic.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_garlic_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_garlic.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_lemon_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_lemon.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_lemon_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_lemon.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_onion_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_onion.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_onion_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_onion.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_orange_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_orange.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_orange_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_orange.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_pineapple_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_pineapple.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_pineapple_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_pineapple.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_potato_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_potato.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_potato_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_potato.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_strawberry_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_strawberry.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_strawberry_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_strawberry.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_tomato_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_tomato.png",
+                "textures/cc/cooking/blocks/crate/side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_tomato_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_tomato.png",
+                "textures/cc/cooking/blocks/crate/top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_blue_berries_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_blue_berries.png",
+                "textures/cc/cooking/blocks/crate/bag_side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_blue_berries_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_blue_berries.png",
+                "textures/cc/cooking/blocks/crate/bag_top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_grape_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_grape.png",
+                "textures/cc/cooking/blocks/crate/bag_side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_grape_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_grape.png",
+                "textures/cc/cooking/blocks/crate/bag_top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_peanut_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_peanut.png",
+                "textures/cc/cooking/blocks/crate/bag_side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_peanut_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_peanut.png",
+                "textures/cc/cooking/blocks/crate/bag_top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_rice_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_rice.png",
+                "textures/cc/cooking/blocks/crate/bag_side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_rice_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_rice.png",
+                "textures/cc/cooking/blocks/crate/bag_top.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_sweet_berries_side": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_sweet_berries.png",
+                "textures/cc/cooking/blocks/crate/bag_side.png"
+            ],
+            "additive": true
+        },
+        "cc:crate_sweet_berries_up": {
+            "textures": [
+                "textures/cc/cooking/blocks/crate/0_sweet_berries.png",
+                "textures/cc/cooking/blocks/crate/bag_top.png"
+            ],
+            "additive": true
+        },
+        "cc:black_cushion": {
+            "textures": "textures/cc/furniture/blocks/cushion/black"
+        },
+        "cc:blue_cushion": {
+            "textures": "textures/cc/furniture/blocks/cushion/blue"
+        },
+        "cc:brown_cushion": {
+            "textures": "textures/cc/furniture/blocks/cushion/brown"
+        },
+        "cc:cyan_cushion": {
+            "textures": "textures/cc/furniture/blocks/cushion/cyan"
+        },
+        "cc:gray_cushion": {
+            "textures": "textures/cc/furniture/blocks/cushion/gray"
+        },
+        "cc:green_cushion": {
+            "textures": "textures/cc/furniture/blocks/cushion/green"
+        },
+        "cc:light_blue_cushion": {
+            "textures": "textures/cc/furniture/blocks/cushion/light_blue"
+        },
+        "cc:light_gray_cushion": {
+            "textures": "textures/cc/furniture/blocks/cushion/light_gray"
+        },
+        "cc:lime_cushion": {
+            "textures": "textures/cc/furniture/blocks/cushion/lime"
+        },
+        "cc:magenta_cushion": {
+            "textures": "textures/cc/furniture/blocks/cushion/magenta"
+        },
+        "cc:orange_cushion": {
+            "textures": "textures/cc/furniture/blocks/cushion/orange"
+        },
+        "cc:pink_cushion": {
+            "textures": "textures/cc/furniture/blocks/cushion/pink"
+        },
+        "cc:purple_cushion": {
+            "textures": "textures/cc/furniture/blocks/cushion/purple"
+        },
+        "cc:red_cushion": {
+            "textures": "textures/cc/furniture/blocks/cushion/red"
+        },
+        "cc:white_cushion": {
+            "textures": "textures/cc/furniture/blocks/cushion/white"
+        },
+        "cc:yellow_cushion": {
+            "textures": "textures/cc/furniture/blocks/cushion/yellow"
+        },
+        "cc:snowy_grass_stem": {
+            "textures": "textures/cc/foliage/blocks/snowy_grass.stem"
+        },
+        "cc:snowy_grass": {
+            "textures": "textures/cc/foliage/blocks/snowy_grass"
+        },
+        "cc:dark_end_grass": {
+            "textures": "textures/cc/end/blocks/dark_end_grass"
+        },
+        "cc:dark_end_short_grass": {
+            "textures": "textures/cc/end/blocks/dark_end_short_grass"
+        },
+        "cc:purple_end_grass": {
+            "textures": "textures/cc/end/blocks/purple_end_grass"
+        },
+        "cc:purple_end_short_grass": {
+            "textures": "textures/cc/end/blocks/purple_end_short_grass"
+        },
+        "cc:yellow_end_grass": {
+            "textures": "textures/cc/end/blocks/yellow_end_grass"
+        },
+        "cc:yellow_end_short_grass": {
+            "textures": "textures/cc/end/blocks/yellow_end_short_grass"
+        },
+        "cc:dark_end_dead_bush": {
+            "textures": "textures/cc/end/blocks/dark_end_dead_bush"
+        },
+        "cc:yellow_end_mushroom": {
+            "textures": "textures/cc/end/blocks/yellow_end_mushroom"
+        },
+        "cc:yellow_end_tall_mushroom": {
+            "textures": "textures/cc/end/blocks/yellow_end_tall_mushroom"
+        },
+        "cc:ice_ritual_side_inactive": {
+            "textures": "textures/cc/ritual/blocks/ice/ritual.side.inactive"
+        },
+        "cc:ice_ritual_side_active": {
+            "textures": "textures/cc/ritual/blocks/ice/ritual.side.active"
+        },
+        "cc:ice_ritual_top_inactive": {
+            "textures": "textures/cc/ritual/blocks/ice/ritual.top.inactive"
+        },
+        "cc:ice_ritual_top_active": {
+            "textures": "textures/cc/ritual/blocks/ice/ritual.top.active"
+        },
+        "cc:fire_ritual_side_inactive": {
+            "textures": "textures/cc/ritual/blocks/fire/ritual.side.inactive"
+        },
+        "cc:fire_ritual_side_active": {
+            "textures": "textures/cc/ritual/blocks/fire/ritual.side.active"
+        },
+        "cc:fire_ritual_top_inactive": {
+            "textures": "textures/cc/ritual/blocks/fire/ritual.top.inactive"
+        },
+        "cc:fire_ritual_top_active": {
+            "textures": "textures/cc/ritual/blocks/fire/ritual.top.active"
+        },
+        "cc:lightning_ritual_side_inactive": {
+            "textures": "textures/cc/ritual/blocks/lightning/ritual.side.inactive"
+        },
+        "cc:lightning_ritual_side_active": {
+            "textures": "textures/cc/ritual/blocks/lightning/ritual.side.active"
+        },
+        "cc:lightning_ritual_top_inactive": {
+            "textures": "textures/cc/ritual/blocks/lightning/ritual.top.inactive"
+        },
+        "cc:lightning_ritual_top_active": {
+            "textures": "textures/cc/ritual/blocks/lightning/ritual.top.active"
+        },
+        "cc:poison_ritual_side_inactive": {
+            "textures": "textures/cc/ritual/blocks/poison/ritual.side.inactive"
+        },
+        "cc:poison_ritual_side_active": {
+            "textures": "textures/cc/ritual/blocks/poison/ritual.side.active"
+        },
+        "cc:poison_ritual_top_inactive": {
+            "textures": "textures/cc/ritual/blocks/poison/ritual.top.inactive"
+        },
+        "cc:poison_ritual_top_active": {
+            "textures": "textures/cc/ritual/blocks/poison/ritual.top.active"
+        },
+        "cc:soul_ritual_side_inactive": {
+            "textures": "textures/cc/ritual/blocks/soul/ritual.side.inactive"
+        },
+        "cc:soul_ritual_side_active": {
+            "textures": "textures/cc/ritual/blocks/soul/ritual.side.active"
+        },
+        "cc:soul_ritual_top_inactive": {
+            "textures": "textures/cc/ritual/blocks/soul/ritual.top.inactive"
+        },
+        "cc:soul_ritual_top_active": {
+            "textures": "textures/cc/ritual/blocks/soul/ritual.top.active"
+        },
+        "cc:board_acacia": {
+            "textures": "textures/cc/furniture/blocks/board/acacia"
+        },
+        "cc:chair_back_acacia": {
+            "textures": "textures/cc/furniture/blocks/chair/acacia_back"
+        },
+        "cc:board_birch": {
+            "textures": "textures/cc/furniture/blocks/board/birch"
+        },
+        "cc:chair_back_birch": {
+            "textures": "textures/cc/furniture/blocks/chair/birch_back"
+        },
+        "cc:board_dark_oak": {
+            "textures": "textures/cc/furniture/blocks/board/dark_oak"
+        },
+        "cc:chair_back_dark_oak": {
+            "textures": "textures/cc/furniture/blocks/chair/dark_oak_back"
+        },
+        "cc:board_jungle": {
+            "textures": "textures/cc/furniture/blocks/board/jungle"
+        },
+        "cc:chair_back_jungle": {
+            "textures": "textures/cc/furniture/blocks/chair/jungle_back"
+        },
+        "cc:board_oak": {
+            "textures": "textures/cc/furniture/blocks/board/oak"
+        },
+        "cc:chair_back_oak": {
+            "textures": "textures/cc/furniture/blocks/chair/oak_back"
+        },
+        "cc:board_spruce": {
+            "textures": "textures/cc/furniture/blocks/board/spruce"
+        },
+        "cc:chair_back_spruce": {
+            "textures": "textures/cc/furniture/blocks/chair/spruce_back"
+        },
+        "cc:board_mangrove": {
+            "textures": "textures/cc/furniture/blocks/board/mangrove"
+        },
+        "cc:chair_back_mangrove": {
+            "textures": "textures/cc/furniture/blocks/chair/mangrove_back"
+        },
+        "cc:board_cherry": {
+            "textures": "textures/cc/furniture/blocks/board/cherry"
+        },
+        "cc:chair_back_cherry": {
+            "textures": "textures/cc/furniture/blocks/chair/cherry_back"
+        },
+        "cc:board_pale_oak": {
+            "textures": "textures/cc/furniture/blocks/board/pale_oak"
+        },
+        "cc:chair_back_pale_oak": {
+            "textures": "textures/cc/furniture/blocks/chair/pale_oak_back"
+        },
+        "cc:board_crimson": {
+            "textures": "textures/cc/furniture/blocks/board/crimson"
+        },
+        "cc:chair_back_crimson": {
+            "textures": "textures/cc/furniture/blocks/chair/crimson_back"
+        },
+        "cc:board_warped": {
+            "textures": "textures/cc/furniture/blocks/board/warped"
+        },
+        "cc:chair_back_warped": {
+            "textures": "textures/cc/furniture/blocks/chair/warped_back"
+        },
+        "cc:board_bamboo": {
+            "textures": "textures/cc/furniture/blocks/board/bamboo"
+        },
+        "cc:chair_back_bamboo": {
+            "textures": "textures/cc/furniture/blocks/chair/bamboo_back"
+        },
+        "cc:board_gold": {
+            "textures": "textures/cc/furniture/blocks/board/gold"
+        },
+        "cc:chair_back_gold": {
+            "textures": "textures/cc/furniture/blocks/chair/gold_back"
+        }
+    }
+}

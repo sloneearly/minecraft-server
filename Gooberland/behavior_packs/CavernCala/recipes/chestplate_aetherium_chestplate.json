@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "aetherium_chestplate_0805711e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:aetherium",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "chestplate:aetherium_chestplate",
+      "count": 1
+    }
+  }
+}

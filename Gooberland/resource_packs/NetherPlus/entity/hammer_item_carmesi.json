@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "tt:mazo_carmesi_item_entity",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"animations": {
+				"item_animation": "animation.item_spin"
+			},
+			"scripts": {
+				"animate": [
+					"item_animation"
+				]
+			},
+			"textures": {
+				"default": "textures/models/mazo_carmesi"
+			},
+			"geometry": {
+				"default": "geometry.hammer_item"
+			},
+			"render_controllers": [
+				"controller.render.arrow"
+			]
+		}
+	}
+}

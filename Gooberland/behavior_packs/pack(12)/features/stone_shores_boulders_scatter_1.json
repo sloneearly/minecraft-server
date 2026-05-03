@@ -1,0 +1,19 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:stone_shores_boulders_scatter_1"
+    },
+    "iterations": 1,
+    "x": -3,
+    "y": {
+      "distribution": "uniform",
+      "extent": [
+        -5,
+        -3
+      ]
+    },
+    "z": -3,
+    "places_feature": "cc:stone_shores_boulders_structure_1"
+  }
+}

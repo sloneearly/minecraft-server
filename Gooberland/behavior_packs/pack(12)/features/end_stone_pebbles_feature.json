@@ -1,0 +1,54 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "cc:end_stone_pebbles_feature"
+    },
+    "places_block": [
+      {
+        "block": {
+          "name": "cc:end_stone_pebbles",
+          "states": {
+            "cc:count": 2
+          }
+        },
+        "weight": 1
+      },
+      {
+        "block": {
+          "name": "cc:end_stone_pebbles",
+          "states": {
+            "cc:count": 2
+          }
+        },
+        "weight": 1
+      },
+      {
+        "block": {
+          "name": "cc:end_stone_pebbles",
+          "states": {
+            "cc:count": 3
+          }
+        },
+        "weight": 1
+      },
+      {
+        "block": {
+          "name": "cc:end_stone_pebbles",
+          "states": {
+            "cc:count": 4
+          }
+        },
+        "weight": 1
+      }
+    ],
+    "enforce_placement_rules": true,
+    "enforce_survivability_rules": true,
+    "may_attach_to": {
+      "auto_rotate": true,
+      "min_sides_must_attach": 1,
+      "bottom": ["minecraft:end_stone"]
+    },
+    "may_replace": ["minecraft:air"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "cc:dripice_down_5_feature"
+    },
+    "structure_name": "cc:dripice/down.5",
+    "adjustment_radius": 0,
+    "facing_direction": "south",
+    "constraints": {}
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:item": {
+    "description": {
+      "identifier": "item:solar_forging_template",
+            "menu_category": {
+              "category": "items",
+              "group": "minecraft:itemGroup.name.items"
+            }
+    },
+    "components": {
+"minecraft:fire_resistant": {
+    "value": true
+},
+			"minecraft:icon": {
+				"textures": {
+					"default": "item:solar_forging_template"
+				}
+			},
+      "minecraft:display_name": {
+        "value": "Forging Template\n§7Solar Flare\n\nApplies to:\n§9Meteorite Equipment\n§7Requires:\n§9Soul Forge"
+      }
+    }
+  }
+}

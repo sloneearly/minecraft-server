@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nooned_sunplate_trapdoor_86499709"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:sunplate_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:nooned_sunplate_trapdoor",
+      "count": 2
+    }
+  }
+}

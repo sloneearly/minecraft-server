@@ -1,0 +1,57 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:growing_plant_feature": {
+		"description": {
+			"identifier": "gen:floor_blackstone"
+		},
+		"height_distribution": [
+			[
+				{
+					"range_min": 1,
+					"range_max": 2
+				},
+				2
+			],
+			[
+				{
+					"range_min": 1,
+					"range_max": 3
+				},
+				3
+			],
+			[
+				{
+					"range_min": 1,
+					"range_max": 4
+				},
+				1
+			]
+		],
+		"growth_direction": "UP",
+		"age": {
+			"range_min": 2,
+			"range_max": 4
+		},
+		"body_blocks": [
+			[
+				"minecraft:basalt",
+				3
+			],
+			[
+				"minecraft:basalt",
+				2
+			]
+		],
+		"head_blocks": [
+			[
+				"minecraft:basalt",
+				5
+			],
+			[
+				"minecraft:basalt",
+				1
+			]
+		],
+		"allow_water": true
+	}
+}

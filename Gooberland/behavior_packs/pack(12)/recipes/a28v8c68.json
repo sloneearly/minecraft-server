@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "cc:dye_from_blue_jungle_plant"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "cc:blue_jungle_plant"
+      }
+    ],
+    "result": {
+      "item": "minecraft:light_blue_dye",
+      "count": 1
+    }
+  }
+}

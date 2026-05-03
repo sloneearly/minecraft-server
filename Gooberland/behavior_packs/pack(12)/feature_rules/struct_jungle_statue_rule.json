@@ -1,0 +1,56 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:struct_jungle_statue_rule",
+      "places_feature": "cc:struct_jungle_statue_feature"
+    },
+    "conditions": {
+      "placement_pass": "first_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "jungle"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:fungal_jungle"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:rainforest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:rocky_rainforest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:tropics"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:overgrown_greens"
+            }
+          ],
+          "none_of": []
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 0.2,
+      "x": "-16",
+      "y": "((Math.pow(q.heightmap(v.originx, v.originz) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx - 16, v.originz - 16) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx - 16, v.originz + 16) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx + 16, v.originz - 16) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx + 16, v.originz + 16) - q.heightmap(v.originx, v.originz), 2)) / 4) <= 5 && q.heightmap(v.originx, v.originz) > 63 && q.heightmap(v.originx - 16, v.originz - 16) > 63 && q.heightmap(v.originx - 16, v.originz + 16) > 63 && q.heightmap(v.originx + 16, v.originz - 16) > 63 && q.heightmap(v.originx + 16, v.originz + 16) > 63 ? (q.heightmap(v.originx, v.originz) + q.heightmap(v.originx - 16, v.originz - 16) + q.heightmap(v.originx - 16, v.originz + 16) + q.heightmap(v.originx + 16, v.originz - 16) + q.heightmap(v.originx + 16, v.originz + 16)) / 5 - 5 : -9999",
+      "z": "-16"
+    }
+  }
+}

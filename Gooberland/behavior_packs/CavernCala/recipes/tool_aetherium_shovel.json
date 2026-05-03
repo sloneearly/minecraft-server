@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "aetherium_shovel_937ec9f8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "block:aetherium_block",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:cobbled_deepslate",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "tool:aetherium_shovel",
+      "count": 1
+    }
+  }
+}

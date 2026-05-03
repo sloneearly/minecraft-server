@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "bell_pepper.2",
+    "heightmap": "bell_pepper.2_heightmap",
+    "metalness_emissive_roughness_subsurface": "bell_pepper.2_mers"
+  }
+}

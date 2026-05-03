@@ -1,0 +1,16 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cc:churn"
+    },
+    "tags": ["cc:furniture_table"],
+    "pattern": ["# #", "# #", " # "],
+    "key": {
+      "#": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": "cc:churn"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:sequence_feature": {
+    "description": {
+      "identifier": "cc:struct_mermaid_shrine_sequence"
+    },
+    "features": [
+      "cc:struct_mermaid_shrine_feature",
+      "cc:struct_mermaid_shrine_room_aggregate"
+    ]
+  }
+}

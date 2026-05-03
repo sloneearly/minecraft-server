@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "cc:thin_oak_log_to_planks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "cc:thin_oak_log"
+            }
+        ],
+        "result": {
+            "item": "minecraft:oak_planks",
+            "count": 2
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "cc:stripped_thin_birch_log_to_planks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "cc:stripped_thin_birch_log"
+            }
+        ],
+        "result": {
+            "item": "minecraft:birch_planks",
+            "count": 2
+        }
+    }
+}

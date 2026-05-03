@@ -1,0 +1,43 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cc:netherite_scythe",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:netherite_tier",
+          "minecraft:is_tool",
+          "minecraft:is_sword"
+        ]
+      },
+      "minecraft:hand_equipped": {
+        "value": true
+      },
+      "minecraft:durability": {
+        "max_durability": 2032
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["minecraft:netherite_ingot"],
+            "repair_amount": "Math.floor(2032 * 0.25)"
+          }
+        ]
+      },
+      "minecraft:damage": {
+        "value": 6
+      },
+      "minecraft:enchantable": {
+        "value": 16,
+        "slot": "hoe"
+      },
+      "minecraft:icon": "cc:netherite_scythe"
+    }
+  }
+}

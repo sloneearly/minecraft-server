@@ -1,0 +1,613 @@
+//bridge-file-version: #78
+{
+	"format_version": "1.20.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mechanic:biome_ambience_cc",
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"target": "self",
+						"event": "default",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_underground",
+									"value": true
+								},
+								{
+									"test": "is_altitude",
+									"value": 55,
+									"operator": "<"
+								},
+								{
+									"test": "in_nether",
+									"operator": "!="
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "the_end",
+									"operator": "!="
+								},
+								{
+									"test": "is_underwater",
+									"value": false
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "glowing_mushroom_caves",
+									"operator": "!="
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "slime_caves",
+									"operator": "!="
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "glowing_caves",
+									"operator": "!="
+								},
+								{
+									"test": "is_altitude",
+									"value": 0,
+									"operator": ">"
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "blackstone_caves",
+									"operator": "!="
+								}
+							]
+						}
+					},
+					{
+						"target": "self",
+						"event": "default",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_underground",
+									"value": true
+								},
+								{
+									"test": "is_altitude",
+									"value": 55,
+									"operator": "<"
+								},
+								{
+									"test": "in_nether",
+									"operator": "!="
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "the_end",
+									"operator": "!="
+								},
+								{
+									"test": "is_underwater",
+									"value": false
+								},
+								{
+									"test": "light_level",
+									"value": 10,
+									"operator": "<"
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "jasper_caves",
+									"operator": "!="
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "aetherium_caves",
+									"operator": "!="
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "kyanite_caves",
+									"operator": "!="
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "amethyst_caves",
+									"operator": "!="
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "glowing_caves",
+									"operator": "!="
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "glowing_mushroom_caves",
+									"operator": "!="
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "horrid_caves",
+									"operator": "!="
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "slime_caves",
+									"operator": "!="
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "sodalite_caves",
+									"operator": "!="
+								}
+							]
+						}
+					},
+					{
+						"target": "self",
+						"event": "jasper_caves",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_underground",
+									"value": true
+								},
+								{
+									"test": "is_altitude",
+									"value": 0,
+									"operator": "<"
+								},
+								{
+									"test": "is_underwater",
+									"value": false
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "jasper_caves",
+									"operator": "=="
+								}
+							]
+						}
+					},
+					{
+						"target": "self",
+						"event": "kyanite_caves",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_underground",
+									"value": true
+								},
+								{
+									"test": "is_altitude",
+									"value": 0,
+									"operator": "<"
+								},
+								{
+									"test": "is_underwater",
+									"value": false
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "kyanite_caves",
+									"operator": "=="
+								}
+							]
+						}
+					},
+					{
+						"target": "self",
+						"event": "amethyst_caves",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_underground",
+									"value": true
+								},
+								{
+									"test": "is_altitude",
+									"value": 0,
+									"operator": "<"
+								},
+								{
+									"test": "is_underwater",
+									"value": false
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "amethyst_caves",
+									"operator": "=="
+								}
+							]
+						}
+					},
+					{
+						"target": "self",
+						"event": "aetherium_caves",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_underground",
+									"value": true
+								},
+								{
+									"test": "is_altitude",
+									"value": 0,
+									"operator": "<"
+								},
+								{
+									"test": "is_underwater",
+									"value": false
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "aetherium_caves",
+									"operator": "=="
+								}
+							]
+						}
+					},
+					{
+						"target": "self",
+						"event": "glowing_caves",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_underground",
+									"value": true
+								},
+								{
+									"test": "is_altitude",
+									"value": 55,
+									"operator": "<"
+								},
+								{
+									"test": "is_underwater",
+									"value": false
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "glowing_caves",
+									"operator": "=="
+								}
+							]
+						}
+					},
+					{
+						"target": "self",
+						"event": "glowing_mushroom_caves",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_underground",
+									"value": true
+								},
+								{
+									"test": "is_altitude",
+									"value": 55,
+									"operator": "<"
+								},
+								{
+									"test": "is_underwater",
+									"value": false
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "glowing_mushroom_caves",
+									"operator": "=="
+								}
+							]
+						}
+					},
+					{
+						"target": "self",
+						"event": "horrid_caves",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_underground",
+									"value": true
+								},
+								{
+									"test": "is_altitude",
+									"value": 0,
+									"operator": "<"
+								},
+								{
+									"test": "is_underwater",
+									"value": false
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "horrid_caves",
+									"operator": "=="
+								}
+							]
+						}
+					},
+					{
+						"target": "self",
+						"event": "slime_caves",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_underground",
+									"value": true
+								},
+								{
+									"test": "is_altitude",
+									"value": 55,
+									"operator": "<"
+								},
+								{
+									"test": "is_underwater",
+									"value": false
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "slime_caves",
+									"operator": "=="
+								}
+							]
+						}
+					},
+					{
+						"target": "self",
+						"event": "sodalite_caves",
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_underground",
+									"value": true
+								},
+								{
+									"test": "is_altitude",
+									"value": 0,
+									"operator": "<"
+								},
+								{
+									"test": "is_underwater",
+									"value": false
+								},
+								{
+									"test": "has_biome_tag",
+									"value": "sodalite_caves",
+									"operator": "=="
+								}
+							]
+						}
+					}
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:timer": {
+				"looping": true,
+				"time": [
+					0,
+					0.1
+				],
+				"time_down_event": {
+					"event": "removes",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"default": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"tag @a[r=8] add cave",
+								"fog @a[tag=cave] push cave:underground_fog cave"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			},
+			"removes": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"jasper_caves": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"tag @a[r=8] add jasper_caves",
+								"fog @a[tag=jasper_caves] push cave:jasper_caves_fog jasper_caves"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			},
+			"kyanite_caves": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"tag @a[r=8] add kyanite_caves",
+								"fog @a[tag=kyanite_caves] push cave:kyanite_caves_fog kyanite_caves"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			},
+			"amethyst_caves": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"tag @a[r=8] add amethyst_caves",
+								"fog @a[tag=amethyst_caves] push cave:amethyst_caves_fog amethyst_caves"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			},
+			"glowing_caves": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"tag @a[r=8] add glowing_caves",
+								"fog @a[tag=glowing_caves] push cave:glowing_caves_fog glowing_caves"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			},
+			"aetherium_caves": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"tag @a[r=8] add aetherium_caves",
+								"fog @a[tag=aetherium_caves] push cave:aetherium_caves_fog aetherium_caves"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			},
+			"glowing_mushroom_caves": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"tag @a[r=8] add glowing_mushroom_caves",
+								"fog @a[tag=glowing_mushroom_caves] push cave:glowing_mushroom_caves_fog glowing_mushroom_caves"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			},
+			"horrid_caves": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"tag @a[r=8] add horrid_caves",
+								"fog @a[tag=horrid_caves] push cave:horrid_caves_fog horrid_caves"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			},
+			"slime_caves": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"tag @a[r=8] add slime_caves",
+								"fog @a[tag=slime_caves] push cave:slime_caves_fog slime_caves"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			},
+			"sodalite_caves": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"tag @a[r=8] add sodalite_caves",
+								"fog @a[tag=sodalite_caves] push cave:sodalite_caves_fog sodalite_caves"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

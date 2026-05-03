@@ -1,0 +1,151 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cc:liana",
+      "menu_category": {
+        "category": "none"
+      },
+      "states": {
+        "cc:connect": ["end", "inner"]
+      }
+    },
+    "components": {
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "none"
+      },
+      "tag:ulkd_ess:tree_leaves_jungle": {},
+      "cc:vine": {},
+      "tag:plant": {},
+      "tag:vine": {},
+      "tag:nonsolid": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:geometry": "geometry.cc.cross",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cc:liana_inner",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        },
+        "down": {
+          "texture": "cc:liana_inner",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-6, 0, -6],
+        "size": [12, 16, 12]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:map_color": "#246518",
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": true,
+            "liquid_type": "water",
+            "on_liquid_touches": "no_reaction"
+          }
+        ]
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('cc:connect') == 'inner'",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:liana_inner",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            },
+            "down": {
+              "texture": "cc:liana_inner",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": ["down"],
+                "block_filter": [
+                  {
+                    "name": "cc:liana"
+                  },
+                  "minecraft:oak_leaves",
+                  "minecraft:spruce_leaves",
+                  "minecraft:birch_leaves",
+                  "minecraft:acacia_leaves",
+                  "minecraft:jungle_leaves",
+                  "minecraft:dark_oak_leaves",
+                  "minecraft:cherry_leaves",
+                  "minecraft:mangrove_leaves",
+                  "minecraft:azalea_leaves",
+                  "minecraft:azalea_leaves_flowered",
+                  "minecraft:pale_oak_leaves"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('cc:connect') == 'end'",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "tag:vine_tip": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:vine_tip",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": ["down"],
+                "block_filter": [
+                  {
+                    "name": "cc:liana"
+                  },
+                  "minecraft:oak_leaves",
+                  "minecraft:spruce_leaves",
+                  "minecraft:birch_leaves",
+                  "minecraft:acacia_leaves",
+                  "minecraft:jungle_leaves",
+                  "minecraft:dark_oak_leaves",
+                  "minecraft:cherry_leaves",
+                  "minecraft:mangrove_leaves",
+                  "minecraft:azalea_leaves",
+                  "minecraft:azalea_leaves_flowered",
+                  "minecraft:pale_oak_leaves"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

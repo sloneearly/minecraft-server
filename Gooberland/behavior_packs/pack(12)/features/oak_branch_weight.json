@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "cc:oak_branch_weight"
+    },
+    "features": [
+      [ "cc:oak_branch_north_feature", 1 ],
+      [ "cc:oak_branch_east_feature", 1 ],
+      [ "cc:oak_branch_west_feature", 1 ],
+      [ "cc:oak_branch_south_feature", 1 ]
+    ]
+  }
+}

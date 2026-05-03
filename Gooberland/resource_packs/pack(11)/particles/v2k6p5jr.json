@@ -1,0 +1,42 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "cc:siren_bolt_trail",
+			"basic_render_parameters": {
+				"material": "particles_add",
+				"texture": "textures/cc/mermaids/particles/siren_bolt.trail"
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 1
+			},
+			"minecraft:emitter_lifetime_looping": {
+				"active_time": 1
+			},
+			"minecraft:emitter_shape_point": {},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 0.5
+			},
+			"minecraft:particle_initial_speed": 0,
+			"minecraft:particle_motion_dynamic": {},
+			"minecraft:particle_appearance_billboard": {
+				"size": [0.4, 0.4],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 38,
+					"texture_height": 190,
+					"flipbook": {
+						"base_UV": [0, 0],
+						"size_UV": [38, 38],
+						"step_UV": [0, 38],
+						"frames_per_second": 5,
+						"max_frame": 5,
+						"stretch_to_lifetime": true
+					}
+				}
+			}
+		}
+	}
+}

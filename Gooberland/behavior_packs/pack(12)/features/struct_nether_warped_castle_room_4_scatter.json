@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:struct_nether_warped_castle_room_4_scatter"
+    },
+    "iterations": 1,
+    "x": 21,
+    "y": 23,
+    "z": 15,
+    "places_feature": "cc:struct_nether_warped_castle_level_0_weight"
+  }
+}

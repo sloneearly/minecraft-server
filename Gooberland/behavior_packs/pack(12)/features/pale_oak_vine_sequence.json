@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "cc:pale_oak_vine_sequence"
+    },
+    "early_out": "first_failure",
+    "features": [
+      "cc:pale_oak_vine_block_check",
+      "cc:pale_oak_vine_growing_plant"
+    ]
+  }
+}

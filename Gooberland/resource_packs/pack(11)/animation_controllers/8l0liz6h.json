@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.cc.common.eat": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "blend_transition": 0.5,
+                    "transitions": [
+                        {
+                            "eat": "q.property('cc:is_eating')"
+                        }
+                    ]
+                },
+                "eat": {
+                    "animations": ["eat"],
+                    "blend_transition": 0.5,
+                    "transitions": [
+                        {
+                            "default": "!q.property('cc:is_eating')"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

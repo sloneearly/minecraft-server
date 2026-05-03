@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "cc:jungle_carpet_feature"
+    },
+    "places_block": "cc:jungle_carpet",
+    "enforce_placement_rules": true,
+    "enforce_survivability_rules": true,
+    "may_attach_to": {
+      "bottom": [
+        "minecraft:grass_block",
+        "minecraft:dirt",
+        "minecraft:moss_block",
+        "cc:jungle_roots"
+      ]
+    },
+    "may_replace": ["minecraft:air"]
+  }
+}

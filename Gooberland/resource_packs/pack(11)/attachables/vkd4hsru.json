@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "cc:deer_antler_helmet",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "armor_leather_enchanted"
+      },
+      "textures": {
+        "default": "textures/cc/animals/armor/deer.antler.helmet",
+        "detail": "textures/cc/animals/entities/deer/4",
+        "enchanted": "textures/misc/enchanted_actor_glint"
+      },
+      "geometry": {
+        "default": "geometry.humanoid.armor.helmet",
+        "detail": "geometry.cc.player.armor.deer_antler_helmet"
+      },
+      "scripts": {
+        "parent_setup": "variable.head_layer_visible = 0.0;"
+      },
+      "render_controllers": ["controller.render.armor", "controller.render.cc.armor.detail"]
+    }
+  }
+}

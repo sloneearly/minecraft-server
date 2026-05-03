@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "food:raw_bat",
+            "menu_category": {
+              "category": "nature",
+              "group": "itemGroup.name.rawFood"
+            }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "food:raw_bat"
+      },
+      						"minecraft:display_name": {
+				"value": "Raw Bat"
+			},
+      "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+              "use_duration": 1.8,
+              "movement_modifier": 0.35
+            },
+
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cc:fire_astral",
+      "spawn_category": "monster",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "properties": {
+        "cc:range_attack_cooldown": {
+          "client_sync": false,
+          "type": "int",
+          "default": 2,
+          "range": [0, 2]
+        },
+        "cc:attack_mode": {
+          "client_sync": false,
+          "type": "enum",
+          "default": "ranged",
+          "values": ["ranged", "melee"]
+        }
+      },
+      "animations": {
+        "range_attack": "controller.animation.cc.range_attack",
+        "delayed_attack": "controller.animation.cc.delayed_attack",
+        "summon": "controller.animation.cc.summon"
+      },
+      "scripts": {
+        "animate": ["delayed_attack", "range_attack", "summon"]
+      }
+    },
+    "component_groups": {
+      "cooldown": {
+        "minecraft:behavior.timer_flag_1": {
+          "cooldown_range": [5, 5],
+          "duration_range": [1, 1],
+          "on_end": {
+            "event": "cc:end_cooldown"
+          }
+        }
+      },
+      "ranged_attack": {
+        "minecraft:behavior.ranged_attack": {
+          "priority": 0,
+          "charge_charged_trigger": 0.3,
+          "charge_shoot_trigger": 2.0,
+          "attack_radius": 20.0
+        },
+        "minecraft:shooter": {
+          "def": "cc:dummy_projectile",
+          "sound": ""
+        }
+      },
+      "melee_attack": {
+        "minecraft:behavior.delayed_attack": {
+          "priority": 1,
+          "attack_once": false,
+          "attack_duration": 0.5,
+          "hit_delay_pct": 1.0,
+          "reach_multiplier": 3,
+          "track_target": true
+        }
+      },
+      "summon": {
+        "minecraft:behavior.summon_entity": {
+          "priority": 0,
+          "summon_choices": [
+            {
+              "weight": 1,
+              "cooldown_time": 30.0,
+              "cast_duration": 1,
+              "min_activation_range": 0,
+              "max_activation_range": 20,
+              "particle_color": "#FFB3B3CC",
+              "sequence": [
+                {
+                  "shape": "circle",
+                  "target": "self",
+                  "base_delay": 0,
+                  "num_entities_spawned": 1,
+                  "entity_type": "",
+                  "entity_lifespan": 30,
+                  "summon_cap": 8,
+                  "summon_cap_radius": 16.0,
+                  "size": 1.0,
+                  "sound_event": "prepare.summon"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      // "minecraft:behavior.summon_entity": {
+      //   "priority": 0,
+      //   "summon_choices": [
+      //     {
+      //       "weight": 1,
+      //       "cooldown_time": 30.0,
+      //       "cast_duration": 3.0,
+      //       "min_activation_range": 0,
+      //       "max_activation_range": 20,
+      //       "particle_color": "#FFB3B3CC",
+      //       "sequence": [
+      //         {
+      //           "shape": "circle",
+      //           "target": "self",
+      //           "base_delay": 3.0,
+      //           "num_entities_spawned": 1,
+      //           "entity_type": "",
+      //           "entity_lifespan": 30,
+      //           "summon_cap": 8,
+      //           "summon_cap_radius": 16.0,
+      //           "size": 1.0,
+      //           "sound_event": "prepare.summon"
+      //         }
+      //       ]
+      //     }
+      //   ]
+      // },
+      "minecraft:fire_immune": {},
+      "minecraft:attack": {
+        "damage": 1
+      },
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:type_family": {
+        "family": ["spirit", "mob"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.35,
+        "height": 2.0
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:nameable": {},
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0
+      },
+      "minecraft:health": {
+        "value": 80
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_contact_with_water",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "drowning",
+            "damage_per_tick": 2
+          }
+        ]
+      },
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "avoid_sun": true,
+        "avoid_water": true
+      },
+      "minecraft:follow_range": {
+        "value": 1024
+      },
+      "minecraft:jump.static": {},
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:behavior.panic": {
+        "priority": 1,
+        "speed_multiplier": 2.0
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 8,
+        "target_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 8
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 0.5
+      },
+      "minecraft:entity_sensor": {
+        "relative_range": true,
+        "subsensors": [
+          {
+            // "range": [0.3, 5],
+            "event_filters": {
+              "all_of": [
+                {
+                  "test": "target_distance",
+                  "operator": "<=",
+                  "value": 10
+                },
+                {
+                  "test": "enum_property",
+                  "domain": "cc:attack_mode",
+                  "operator": "!=",
+                  "value": "melee"
+                }
+              ]
+            },
+            "event": "cc:melee_mode"
+          },
+          {
+            "event_filters": {
+              "all_of": [
+                {
+                  "test": "target_distance",
+                  "operator": ">",
+                  "value": 10
+                },
+                {
+                  "test": "enum_property",
+                  "domain": "cc:attack_mode",
+                  "operator": "!=",
+                  "value": "ranged"
+                }
+              ]
+            },
+            "event": "cc:ranged_mode"
+          }
+        ]
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:can_climb": {},
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 0,
+        "must_see": true,
+        "reselect_targets": true,
+        "entity_types": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player"
+            },
+            "max_dist": 24
+          },
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "irongolem"
+            },
+            "max_dist": 24
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "baby_turtle"
+                },
+                {
+                  "test": "in_water",
+                  "subject": "other",
+                  "operator": "!=",
+                  "value": true
+                }
+              ]
+            },
+            "max_dist": 24
+          }
+        ]
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "trigger": "cc:ranged_mode",
+        "add": {
+          "component_groups": ["summon"]
+        }
+      },
+      "cc:summon": {
+        "queue_command": {
+          "command": ["scriptevent cc:entity_event summon"]
+        },
+        "trigger": "cc:start_cooldown"
+      },
+      "cc:start_cooldown": {
+        "add": {
+          "component_groups": ["cooldown"]
+        },
+        "remove": {
+          "component_groups": ["summon"]
+        }
+      },
+      "cc:end_cooldown": {
+        "add": {
+          "component_groups": ["summon"]
+        },
+        "remove": {
+          "component_groups": ["cooldown"]
+        }
+      },
+      "cc:delayed_attack": {},
+      "cc:range_attack": {
+        "queue_command": {
+          "command": ["scriptevent cc:entity_event range_attack"]
+        }
+      },
+      "cc:mode_switcher": {
+        "sequence": [
+          {
+            "filters": [
+              {
+                "all_of": [
+                  {
+                    "test": "target_distance",
+                    "operator": "<=",
+                    "value": 6
+                  },
+                  {
+                    "test": "enum_property",
+                    "domain": "cc:attack_mode",
+                    "operator": "!=",
+                    "value": "melee"
+                  }
+                ]
+              }
+            ],
+            "trigger": "cc:melee_mode"
+          },
+          {
+            "filters": [
+              {
+                "all_of": [
+                  {
+                    "test": "target_distance",
+                    "operator": ">",
+                    "value": 6
+                  },
+                  {
+                    "test": "enum_property",
+                    "domain": "cc:attack_mode",
+                    "operator": "!=",
+                    "value": "ranged"
+                  }
+                ]
+              }
+            ],
+            "trigger": "cc:ranged_mode"
+          }
+        ]
+      },
+      "cc:melee_mode": {
+        "add": {
+          "component_groups": ["melee_attack"]
+        },
+        "remove": {
+          "component_groups": ["ranged_attack"]
+        },
+        "set_property": {
+          "cc:attack_mode": "melee"
+        }
+      },
+      "cc:ranged_mode": {
+        "add": {
+          "component_groups": ["ranged_attack"]
+        },
+        "remove": {
+          "component_groups": ["melee_attack"]
+        },
+        "set_property": {
+          "cc:attack_mode": "ranged"
+        }
+      }
+    }
+  }
+}

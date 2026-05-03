@@ -1,0 +1,20 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "cc:small_lily_pads_4_feature"
+        },
+        "places_block": {
+            "name": "cc:small_lily_pads",
+            "states": {
+                "cc:count": 4
+            }
+        },
+        "enforce_placement_rules": true,
+        "enforce_survivability_rules": true,
+        "may_attach_to": {
+            "bottom": ["minecraft:water"]
+        },
+        "may_replace": ["minecraft:air"]
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:oasis_grass_blob"
+    },
+    "iterations": 300,
+    "x": {
+      "extent": [-3, 3],
+      "distribution": "gaussian"
+    },
+    "z": {
+      "extent": [-3, 3],
+      "distribution": "gaussian"
+    },
+    "y": {
+      "extent": [-3, 3],
+      "distribution": "uniform"
+    },
+    "places_feature": "cc:oasis_grass_feature"
+  }
+}

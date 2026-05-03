@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "gen:glowing_mushroom_caves"
+		},
+		"features": [
+			"gen:glowing_mushroom_patch_feature",
+			"gen:glowing_mushroom_top",
+			"gen:glowing_mushroom_spike1_feature",
+			"gen:glowing_mushroom_spike2_feature"
+		]
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "cc:struct_swamp_temple_room_1_feature"
+    },
+    "structure_name": "cc:swamp_temple/room.1",
+    "adjustment_radius": 0,
+    "facing_direction": "south",
+    "constraints": {}
+  }
+}

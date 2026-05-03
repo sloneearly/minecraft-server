@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "slime_bricks_97391a7a"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:hardened_slime_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:slime_bricks",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ancients:ancient_rune"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"A A",
+            "AAA"
+		],
+		"key": {
+			"A": {
+				"item": "ancients:ancient_rune_fragment"
+			}
+		},
+		"unlock":[
+			{
+				"item": "ancients:ancient_rune_fragment"
+			}
+		],
+		"result": {
+			"item": "ancients:ancient_rune"
+		}
+	}
+}

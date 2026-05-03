@@ -1,0 +1,79 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "gen:horrid_feature",
+			"places_feature": "gen:horrid_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_underground_pass",
+			"minecraft:biome_filter": {
+				"all_of": [
+					{
+						"any_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "mega"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "flower_forest"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "roofed"
+									}
+						]
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "!=",
+						"value": "lush_caves"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "!=",
+						"value": "dripstone_caves"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "!=",
+						"value": "deep_dark"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "!=",
+						"value": "stone"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": 30,
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					10
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					-64,
+					-10
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					10
+				]
+			}
+		}
+	}
+}

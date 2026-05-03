@@ -1,0 +1,50 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cc:furniture_table",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "tag:solid": {},
+      "minecraft:collision_box": true,
+      "tag:minecraft:is_pickaxe_item_destructible": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe')"
+            },
+            "destroy_speed": 1.5333
+          }
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 30
+      },
+      "minecraft:crafting_table": {
+        "crafting_tags": ["cc:furniture_table"]
+      },
+      "minecraft:map_color": "#7d7d7d",
+      "minecraft:light_dampening": 15,
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": true,
+            "liquid_type": "water",
+            "on_liquid_touches": "no_reaction"
+          }
+        ]
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      }
+    }
+  }
+}

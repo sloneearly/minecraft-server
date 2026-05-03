@@ -1,0 +1,356 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:pebbles",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "cc:count": {
+                    "values": {
+                        "min": 1,
+                        "max": 4
+                    }
+                }
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0
+                }
+            }
+        },
+        "components": {
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "none"
+            },
+            "tag:plant": {},
+            "cc:multi_placement": {},
+            "tag:nonsolid": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.0
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.cc.pebbles",
+                "bone_visibility": {
+                    "1": "q.block_state('cc:count') > 0",
+                    "2": "q.block_state('cc:count') > 1",
+                    "3": "q.block_state('cc:count') > 2",
+                    "4": "q.block_state('cc:count') > 3"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cc:pebbles",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up"
+                        ],
+                        "block_filter": [
+                            "minecraft:stone_bricks",
+                            "minecraft:end_stone",
+                            "minecraft:end_bricks",
+                            {
+                                "tags": "query.any_tag('log', 'stone', 'wood', 'dirt', 'sand', 'solid')"
+                            },
+                            "minecraft:gravel",
+                            "minecraft:stone_bricks",
+                            "minecraft:mossy_stone_bricks",
+                            "minecraft:cracked_stone_bricks",
+                            "minecraft:chiseled_stone_bricks",
+                            "minecraft:cobblestone",
+                            "minecraft:mossy_cobblestone",
+                            "minecraft:andesite",
+                            "minecraft:polished_andesite",
+                            "minecraft:diorite",
+                            "minecraft:polished_diorite",
+                            "minecraft:granite",
+                            "minecraft:polished_granite",
+                            "minecraft:deepslate",
+                            "minecraft:deepslate_bricks",
+                            "minecraft:deepslate_tiles",
+                            "minecraft:cobbled_deepslate",
+                            "minecraft:blackstone",
+                            "minecraft:polished_blackstone",
+                            "minecraft:polished_blackstone_bricks",
+                            "minecraft:tuff",
+                            "minecraft:calcite",
+                            "minecraft:brick_block",
+                            "minecraft:mud_bricks",
+                            "minecraft:prismarine",
+                            "minecraft:prismarine_bricks",
+                            "minecraft:dark_prismarine",
+                            "minecraft:pale_oak_planks",
+                            "minecraft:warped_planks",
+                            "minecraft:warped_stem",
+                            "minecraft:stripped_warped_stem",
+                            "minecraft:crimson_planks",
+                            "minecraft:crimson_stem",
+                            "minecraft:stripped_crimson_stem",
+                            "minecraft:cherry_planks",
+                            "minecraft:mangrove_planks",
+                            "minecraft:tuff_bricks",
+                            "minecraft:ice",
+                            "minecraft:packed_ice",
+                            "minecraft:blue_ice",
+                            "minecraft:bamboo_block",
+                            "minecraft:stripped_bamboo_block",
+                            "minecraft:bamboo_mosaic",
+                            "minecraft:bamboo_planks",
+                            "minecraft:clay"
+                        ]
+                    },
+                    {
+                        "allowed_faces": [
+                            "up",
+                            "side"
+                        ],
+                        "block_filter": [
+                            {
+                                "name": "cc:pebbles",
+                                "states": {
+                                    "cc:count": 1
+                                }
+                            },
+                            {
+                                "name": "cc:pebbles",
+                                "states": {
+                                    "cc:count": 2
+                                }
+                            },
+                            {
+                                "name": "cc:pebbles",
+                                "states": {
+                                    "cc:count": 3
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    4,
+                    16
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    4,
+                    16
+                ]
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#AEAEAE",
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "can_contain_liquid": true,
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('cc:count') == 1",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            0
+                        ],
+                        "size": [
+                            8,
+                            4,
+                            7
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            0
+                        ],
+                        "size": [
+                            8,
+                            4,
+                            7
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:count') == 2",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            -5
+                        ],
+                        "size": [
+                            14,
+                            4,
+                            12
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            -5
+                        ],
+                        "size": [
+                            14,
+                            4,
+                            12
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('cc:count') == 3 || q.block_state('cc:count') == 4",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            14,
+                            4,
+                            14
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            14,
+                            4,
+                            14
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:destructible_by_mining": {
+                        "seconds_to_destroy": 0.05
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:destructible_by_mining": {
+                        "seconds_to_destroy": 0.05
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:destructible_by_mining": {
+                        "seconds_to_destroy": 0.05
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:destructible_by_mining": {
+                        "seconds_to_destroy": 0.05
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

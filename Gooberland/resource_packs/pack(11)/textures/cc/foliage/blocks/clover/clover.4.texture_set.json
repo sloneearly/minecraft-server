@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "clover.4",
+    "heightmap": "clover.4_heightmap",
+    "metalness_emissive_roughness_subsurface": "clover.4_mers"
+  }
+}

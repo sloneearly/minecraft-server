@@ -1,0 +1,27 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "gen:heros_pickaxe_shrine_feature"
+		},
+		"places_block": "block:heros_pickaxe_shrine",
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": false,
+		"may_attach_to": {
+			"bottom": [
+				"minecraft:stone",
+				"minecraft:andesite",
+				"minecraft:granite",
+				"minecraft:diorite",
+				"minecraft:mycelium",
+				"block:sewer_path",
+				"minecraft:cobblestone",
+				"minecraft:gravel"
+			]
+		},
+		"may_replace": [
+			"minecraft:air"
+		]
+	}
+}

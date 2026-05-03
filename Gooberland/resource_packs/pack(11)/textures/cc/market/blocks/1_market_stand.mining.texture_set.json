@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "1_market_stand.mining",
+    "heightmap": "1_market_stand.mining_heightmap",
+    "metalness_emissive_roughness_subsurface": "1_market_stand.mining_mers"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "wan_redcave:redstone_cave/floor/rect_structures/rect_3_3.feature"
+    },
+    "structure_name": "wan_redcave:redstone_rect_3_3",
+    "adjustment_radius": 2,
+    "facing_direction": "random",
+    "constraints": {
+      "unburied": {},
+      "grounded": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air",
+          "wan_redcave:hematite",
+          "wan_redcave:hematite_stalactite",
+          "wan_redcave:hematite_stalactite_tip",
+          "wan_redcave:hematite_stalagmite",
+          "wan_redcave:hematite_stalagmite_tip",
+          "wan_redcave:magnetite",
+          "wan_redcave:magnetite_redlight_curve",
+          "wan_redcave:magnetite_redlight_horizontal",
+          "wan_redcave:magnetite_redlight_intersection",
+          "wan_redcave:magnetite_redlight_perpendicular",
+          "wan_redcave:magnetite_redlight_vertical",
+          "wan_redcave:magnetite_soil",
+          "wan_redcave:polished_magnetite",
+          "wan_redcave:redstone_drip",
+          "wan_redcave:redstone_growth_short",
+          "wan_redcave:redstone_growth_tall",
+          "wan_redcave:redstone_sprout"
+        ]
+      }
+    }
+  }
+}

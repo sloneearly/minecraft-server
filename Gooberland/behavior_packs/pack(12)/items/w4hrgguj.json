@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cc:market_trim_farming_1",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "%cc.market_trim_farming\n%cc.market_trim_level_1"
+      },
+      "minecraft:icon": "cc:market_trim_farming_1",
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

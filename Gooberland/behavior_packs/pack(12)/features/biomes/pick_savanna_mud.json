@@ -1,0 +1,13 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:biomes/pick_savanna_mud"
+    },
+    "places_feature": "cc:biomes/place_savanna_mud",
+    "iterations": "((t.biome_idx < 1) ? 1 : 0)",
+    "x": 0,
+    "y": 0,
+    "z": 0
+  }
+}

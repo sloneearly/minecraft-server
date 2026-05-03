@@ -1,0 +1,71 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "cc:fire_sword",
+      "materials": {
+        "default": "outline_base_glow",
+        "enchanted": "outline_base_glow",
+        "outline": "outline"
+      },
+      "textures": {
+        "default": "textures/cc/weapons/items/fire_sword",
+        "frame_1": "textures/cc/weapons/items/fire_sword.1",
+        "frame_2": "textures/cc/weapons/items/fire_sword.2",
+        "frame_3": "textures/cc/weapons/items/fire_sword.3",
+        "frame_4": "textures/cc/weapons/items/fire_sword.4",
+        "enchanted": "textures/misc/enchanted_item_glint",
+        "outline": "textures/cc/weapons/items/outline/fire"
+      },
+      "geometry": {
+        "default": "geometry.cc.mesh_attachable",
+        "frame_1": "geometry.cc.mesh.frame_1.attachable",
+        "frame_2": "geometry.cc.mesh.frame_2.attachable",
+        "frame_3": "geometry.cc.mesh.frame_3.attachable",
+        "frame_4": "geometry.cc.mesh.frame_4.attachable",
+        "outline": "geometry.cc.outline.attachable",
+        "outline_frame_1": "geometry.cc.outline.frame_1.attachable",
+        "outline_frame_2": "geometry.cc.outline.frame_2.attachable",
+        "outline_frame_3": "geometry.cc.outline.frame_3.attachable",
+        "outline_frame_4": "geometry.cc.outline.frame_4.attachable"
+      },
+      "animations": {
+        "wield_first_person": "animation.cc.weapon.wield.first_person",
+        "wield_third_person": "animation.cc.weapon.wield.third_person",
+        "charged": "animation.cc.weapon.charged",
+        "charged.sound": "animation.cc.weapon.charged.sound",
+        "scale": "animation.cc.weapon.scale.20px",
+        "glow": "animation.cc.weapon.glow.third_person"
+      },
+      "particle_effects": {
+        "charging": "cc:ice_charge",
+        "charged": "cc:fire_sword_charged"
+      },
+      "sound_effects": {
+        "charged": "cc:fire.idle"
+      },
+      "scripts": {
+        "initialize": ["v.charge_time = 400;"],
+        "pre_animation": [
+          "t.has_ammo = 0; t.i = 0; loop(27, {t.has_ammo = q.is_item_name_any('slot.inventory', t.i, 'minecraft:arrow'); t.has_ammo ? break; t.i = t.i+1;});",
+          "v.is_charged = q.is_using_item && query.item_in_use_duration >= v.charge_time && query.is_selected_item;",
+          "v.is_charging = q.is_using_item && query.item_in_use_duration < v.charge_time && query.is_selected_item;"
+        ],
+        "animate": [
+          { "wield_third_person": "!c.is_first_person" },
+          { "wield_first_person": "c.is_first_person" },
+          { "glow": "!c.is_first_person" },
+          { "charged": "v.is_charged" },
+          { "charged.sound": "v.is_charged" },
+          "scale"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.cc.item.anim_4",
+        {
+          "controller.render.cc.item.outline.anim_4": "v.is_charged"
+        }
+      ]
+    }
+  }
+}

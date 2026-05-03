@@ -1,0 +1,56 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cc.player.armor.big_foot_head",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-5, 12, -5], "size": [10, 12, 10], "inflate": 0.25, "uv": [30, 44]},
+						{"origin": [-3, 12, -7], "size": [6, 5, 2], "uv": [52, 26]},
+						{
+							"origin": [-3, 9, -7],
+							"size": [6, 3, 4],
+							"uv": {
+								"north": {"uv": [64, 40], "uv_size": [6, 3]},
+								"east": {"uv": [64, 22], "uv_size": [4, 3]},
+								"west": {"uv": [70, 40], "uv_size": [4, 3]}
+							}
+						},
+						{"origin": [-5, 12, -5], "size": [10, 12, 10], "uv": [64, 0]}
+					]
+				},
+				{
+					"name": "horns",
+					"parent": "head",
+					"pivot": [-10.25, -13.75, 3],
+					"cubes": [
+						{"origin": [6.25, 22, -2], "size": [2, 4, 3], "uv": [64, 33]},
+						{"origin": [5.25, 19, -2], "size": [3, 3, 3], "uv": [52, 33]},
+						{"origin": [-8.25, 22, -2], "size": [2, 4, 3], "uv": [64, 33], "mirror": true},
+						{"origin": [-8.25, 19, -2], "size": [3, 3, 3], "uv": [52, 33], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

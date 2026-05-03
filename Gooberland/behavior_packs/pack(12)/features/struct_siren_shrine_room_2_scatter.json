@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:struct_siren_shrine_room_2_scatter"
+    },
+    "iterations": 1,
+    "x": 10,
+    "y": 20,
+    "z": 10,
+    "places_feature": "cc:struct_siren_shrine_level_0_weight"
+  }
+}

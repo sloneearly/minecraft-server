@@ -1,0 +1,15 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "cc:swamp_fern_feature"
+    },
+    "places_block": "cc:swamp_fern",
+    "enforce_placement_rules": true,
+    "enforce_survivability_rules": true,
+    "may_attach_to": {
+      "bottom": ["minecraft:mud", "minecraft:grass"]
+    },
+    "may_replace": ["minecraft:air"]
+  }
+}

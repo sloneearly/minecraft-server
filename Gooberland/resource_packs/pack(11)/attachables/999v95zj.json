@@ -1,0 +1,50 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "cc:soul_scythe_charged",
+      "materials": {
+        "default": "outline_base_glow",
+        "enchanted": "outline_base_glow",
+        "outline": "outline"
+      },
+      "textures": {
+        "default": "textures/cc/weapons/items/scythe/soul",
+        "enchanted": "textures/misc/enchanted_item_glint",
+        "outline": "textures/cc/weapons/items/outline/freeze"
+      },
+      "geometry": {
+        "default": "geometry.cc.mesh_attachable",
+        "outline": "geometry.cc.outline.attachable"
+      },
+      "animations": {
+        "wield_first_person": "animation.cc.weapon.wield.first_person",
+        "wield_third_person": "animation.cc.weapon.wield.third_person",
+        "charging": "animation.cc.weapon.charging",
+        "charged": "animation.cc.weapon.charged",
+        "scale": "animation.cc.weapon.scale.20px",
+        "glow": "animation.cc.weapon.glow.third_person"
+      },
+      "particle_effects": {
+        "charging": "cc:ice_charge",
+        "charged": "cc:stormbreaker_charged"
+      },
+      "scripts": {
+        "initialize": ["v.charge_time = 400;"],
+        "pre_animation": [
+          "v.is_charged = q.is_using_item && query.item_in_use_duration >= v.charge_time && query.is_selected_item;;",
+          "v.is_charging = q.is_using_item && query.item_in_use_duration < v.charge_time;"
+        ],
+        "animate": [
+          { "wield_third_person": "!c.is_first_person" },
+          { "wield_first_person": "c.is_first_person" },
+          { "charged": "v.is_charged" },
+          { "charging": "v.is_charging" },
+          { "glow": "!c.is_first_person" },
+          "scale"
+        ]
+      },
+      "render_controllers": ["controller.render.cc.item", "controller.render.cc.item.outline"]
+    }
+  }
+}

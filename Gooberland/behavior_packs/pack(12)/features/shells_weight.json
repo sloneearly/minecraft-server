@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "cc:shells_weight"
+    },
+    "features": [
+      [ "cc:shells_1_feature", 1 ],
+      [ "cc:shells_2_feature", 1 ],
+      [ "cc:shells_3_feature", 1 ],
+      [ "cc:shells_4_feature", 1 ]
+    ]
+  }
+}

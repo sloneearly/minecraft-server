@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "rice.2",
+    "heightmap": "rice.2_heightmap",
+    "metalness_emissive_roughness_subsurface": "rice.2_mers"
+  }
+}

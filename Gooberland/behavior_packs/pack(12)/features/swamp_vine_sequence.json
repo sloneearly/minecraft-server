@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "cc:swamp_vine_sequence"
+    },
+    "early_out": "first_failure",
+    "features": [
+      "cc:swamp_vine_block_check",
+      "cc:swamp_vine_growing_plant"
+    ]
+  }
+}

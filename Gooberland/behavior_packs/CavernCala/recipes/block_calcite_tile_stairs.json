@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "calcite_tile_stairs_59314fc5"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:calcite_tiles",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:calcite_tile_stairs",
+      "count": 3
+    }
+  }
+}

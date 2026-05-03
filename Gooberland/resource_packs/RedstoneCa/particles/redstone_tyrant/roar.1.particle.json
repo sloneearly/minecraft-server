@@ -1,0 +1,89 @@
+{
+  "format_version": "1.10.0",
+  "particle_effect": {
+    "description": {
+      "identifier": "wan_redcave:tyrant.roar.1",
+      "basic_render_parameters": {
+        "material": "particles_add",
+        "texture": "textures/wan/redcave/particles/rhombus"
+      }
+    },
+    "curves": {
+      "variable.size": {
+        "type": "linear",
+        "input": "v.particle_age",
+        "horizontal_range": "v.particle_lifetime",
+        "nodes": [
+          0.79,
+          0.5,
+          0.5,
+          0
+        ]
+      },
+      "variable.radius": {
+        "type": "linear",
+        "input": "v.emitter_age",
+        "horizontal_range": "v.emitter_lifetime",
+        "nodes": [
+          0,
+          1,
+          1.64
+        ]
+      }
+    },
+    "components": {
+      "minecraft:emitter_rate_steady": {
+        "spawn_rate": 10,
+        "max_particles": 100
+      },
+      "minecraft:emitter_lifetime_once": {
+        "active_time": 1.7
+      },
+      "minecraft:emitter_shape_sphere": {
+        "radius": 0.2,
+        "direction": [
+          "math.random(-0.1, 0.1)",
+          0.2,
+          "math.random(-0.1, 0.1)"
+        ]
+      },
+      "minecraft:particle_lifetime_expression": {
+        "max_lifetime": "1 + math.random(0, 0.3)"
+      },
+      "minecraft:particle_initial_spin": {
+        "rotation": 90
+      },
+      "minecraft:particle_initial_speed": "20 + 10 * v.particle_random_1",
+      "minecraft:particle_motion_dynamic": {
+        "linear_acceleration": [
+          "math.random(-2, 2)",
+          "math.random(-1, 1)",
+          "math.random(-2, 2)"
+        ],
+        "linear_drag_coefficient": 3
+      },
+      "minecraft:particle_appearance_billboard": {
+        "size": [
+          "(v.size * v.particle_random_1 * 5 + math.max(0, 3 - v.particle_age * 30)) * 0.2",
+          "(v.size * v.particle_random_1 * 2) * 1.4"
+        ],
+        "facing_camera_mode": "lookat_direction"
+      },
+      "minecraft:particle_appearance_tinting": {
+        "color": {
+          "interpolant": "v.particle_age / v.particle_lifetime",
+          "gradient": {
+            "1.0": "#FFFF1E1E",
+            "0.0": "#FFFF2E2E",
+            "0.1": "#FFFF2222",
+            "0.25": "#FFFB0000",
+            "0.4": "#FFF83030",
+            "0.55": "#FFFF1E1E",
+            "0.7": "#FFF61F1F",
+            "0.85": "#FFFF1313"
+          }
+        }
+      }
+    }
+  }
+}

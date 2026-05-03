@@ -1,0 +1,111 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cc:floating_flower",
+      "menu_category": {
+        "category": "none"
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:cardinal_direction"],
+          "y_rotation_offset": 0
+        }
+      }
+    },
+    "components": {
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "none"
+      },
+      "cc:place_on_water": {},
+      "tag:nonsolid": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.1
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:geometry": "geometry.floating_flower",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cc:floating_flower_big_leaf",
+          "render_method": "alpha_test"
+        },
+        "pistil": {
+          "texture": "cc:floating_flower_pistil",
+          "render_method": "alpha_test"
+        },
+        "small_leaf": {
+          "texture": "cc:floating_flower_small_leaf",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 1, 16]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:map_color": "#E17540",
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "on_liquid_touches": "popped"
+          }
+        ]
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "minecraft:transformation": {
+            "rotation": [0, 0, 0]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "minecraft:transformation": {
+            "rotation": [0, 180, 0]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "minecraft:transformation": {
+            "rotation": [0, -90, 0]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:precipitation_interactions": {
+            "precipitation_behavior": "none"
+          },
+          "minecraft:transformation": {
+            "rotation": [0, 90, 0]
+          }
+        }
+      }
+    ]
+  }
+}

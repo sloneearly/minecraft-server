@@ -1,0 +1,54 @@
+{
+   "format_version":2,
+   "header":{
+      "description":"§6Studio 38§r",
+      "name":"§6Ancient Structures§r §c[V0.06]§r §a(BP)§r",
+      "uuid":"b61229b8-1c89-4a37-ab81-010122b58d51",
+      "version":[
+         0,
+         0,
+         1
+      ],
+      "min_engine_version":[
+         1,
+         21,
+         0
+      ]
+   },
+   "modules":[
+      {
+         "description":"§6Studio 38§r",
+         "type":"data",
+         "uuid":"f997c19e-d78c-4ab1-a574-201d83152d79",
+         "version":[
+            0,
+            0,
+            1
+         ]
+      },
+      {
+         "type":"script",
+         "language":"javascript",
+         "uuid":"c539427b-1a05-41e7-a37b-7e66891696a3",
+         "entry":"scripts/main.js",
+         "version":[
+            1,
+            0,
+            0
+         ]
+      }
+   ],
+   "dependencies":[
+      {
+         "module_name":"@minecraft/server",
+         "version":"2.1.0"
+      }
+   ],
+   "metadata":{
+      "authors":[
+         "Studio38"
+      ],
+      "url":"https://www.curseforge.com/members/studio38",
+      "product_type":"addon"
+   } 
+}

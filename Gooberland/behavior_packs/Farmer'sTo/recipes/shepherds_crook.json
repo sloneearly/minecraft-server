@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vf_sc:shepherds_crook"
+    },
+
+    "tags": ["crafting_table"],
+    "pattern": ["XXX", "X# ", "#"],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "tag": "minecraft:planks"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:stick"
+      }
+    ],
+    "result": {
+      "item": "vf_sc:shepherds_crook"
+    }
+  }
+}

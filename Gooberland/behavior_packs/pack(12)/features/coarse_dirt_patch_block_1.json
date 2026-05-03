@@ -1,0 +1,15 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "cc:coarse_dirt_patch_block_1"
+    },
+    "places_block": "minecraft:coarse_dirt",
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false,
+    "may_attach_to": {},
+    "may_replace": [
+      "minecraft:grass_block"
+    ]
+  }
+}

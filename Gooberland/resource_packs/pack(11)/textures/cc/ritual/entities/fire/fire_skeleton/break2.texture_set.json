@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "break2",
+    "heightmap": "break2_heightmap",
+    "metalness_emissive_roughness_subsurface": "break2_mers"
+  }
+}

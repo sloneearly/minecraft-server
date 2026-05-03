@@ -1,0 +1,95 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:palm_log",
+            "menu_category": {
+                "category": "nature",
+                "group": "minecraft:itemGroup.name.log"
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "tag:ulkd_ess:tree_log_palm": {},
+            "minecraft:map_color": "#543316",
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:selection_box": true,
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cc:palm_log_side",
+                    "render_method": "opaque"
+                },
+                "up": {
+                    "texture": "cc:palm_log_top",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "cc:palm_log_top",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:light_dampening": 15,
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "tag:minecraft:is_axe_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_axe')"
+                        },
+                        "destroy_speed": 2
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east' || q.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            90,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north' || q.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            90,
+                            0,
+                            90
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

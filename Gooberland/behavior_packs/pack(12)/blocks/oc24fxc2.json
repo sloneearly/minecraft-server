@@ -1,0 +1,193 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:hollow_oak_log",
+            "menu_category": {
+                "category": "nature"
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "tag:solid": {},
+            "tag:plant": {},
+            "tag:log": {},
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:geometry": "geometry.hollow_log",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "oak_log_side",
+                    "render_method": "opaque"
+                },
+                "hollow_inside": {
+                    "texture": "cc:hollow_oak_log",
+                    "render_method": "opaque"
+                },
+                "hollow_outside": {
+                    "texture": "oak_log_side",
+                    "render_method": "opaque"
+                },
+                "hollow_top": {
+                    "texture": "oak_log_top",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:collision_box": [
+                {
+                    "origin": [
+                        -8,
+                        0,
+                        -8
+                    ],
+                    "size": [
+                        1,
+                        16,
+                        16
+                    ]
+                },
+                {
+                    "origin": [
+                        7,
+                        0,
+                        -8
+                    ],
+                    "size": [
+                        1,
+                        16,
+                        16
+                    ]
+                },
+                {
+                    "origin": [
+                        -8,
+                        0,
+                        -8
+                    ],
+                    "size": [
+                        16,
+                        1,
+                        16
+                    ]
+                },
+                {
+                    "origin": [
+                        -8,
+                        15,
+                        -8
+                    ],
+                    "size": [
+                        16,
+                        1,
+                        16
+                    ]
+                }
+            ],
+            "minecraft:selection_box": true,
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#552B1E",
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "can_contain_liquid": true,
+                        "liquid_type": "water",
+                        "on_liquid_touches": "blocking"
+                    }
+                ]
+            },
+            "tag:minecraft:is_axe_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_axe')"
+                        },
+                        "destroy_speed": 2
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'up'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            90,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'down'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            90,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

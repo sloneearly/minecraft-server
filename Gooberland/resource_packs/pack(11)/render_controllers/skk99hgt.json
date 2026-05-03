@@ -1,0 +1,39 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.cc.whale": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Texture.default"
+            ],
+            "part_visibility": [
+                {
+                    "*": true
+                },
+                {
+                    "barnacles0": "q.property('cc:barnacle_state') == 3"
+                },
+                {
+                    "barnacles1": "q.property('cc:barnacle_state') >= 2"
+                },
+                {
+                    "barnacles2": "q.property('cc:barnacle_state') >= 2"
+                },
+                {
+                    "barnacles3": "q.property('cc:barnacle_state') >= 2"
+                },
+                {
+                    "barnacles4": "q.property('cc:barnacle_state') >= 1"
+                },
+                {
+                    "barnacles5": "q.property('cc:barnacle_state') >= 1"
+                }
+            ]
+        }
+    }
+}

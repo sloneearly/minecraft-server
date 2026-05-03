@@ -1,0 +1,118 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:decorative_deepslate_pillar",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "cc:base": [
+                    true,
+                    false
+                ],
+                "cc:top": [
+                    true,
+                    false
+                ]
+            }
+        },
+        "components": {
+            "tag:solid": {},
+            "minecraft:display_name": "%cc.decorative_deepslate_pillar\n%cc.category.furniture",
+            "cc:candle_stand": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 5,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_pickaxe')"
+                        },
+                        "destroy_speed": 1.5333
+                    }
+                ]
+            },
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:geometry": {
+                "identifier": "geometry.cc.decorative_pillar",
+                "bone_visibility": {
+                    "pillar_bottom_part": "q.block_state('cc:base') == 1",
+                    "pillar_top_part": "q.block_state('cc:top') == 1"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cc:decorative_deepslate_pillar_side",
+                    "render_method": "alpha_test"
+                },
+                "pillar_side": {
+                    "texture": "cc:decorative_deepslate_pillar_side",
+                    "render_method": "alpha_test"
+                },
+                "pillar_side_2": {
+                    "texture": "cc:decorative_deepslate_pillar_side_2",
+                    "render_method": "alpha_test"
+                },
+                "pillar_top": {
+                    "texture": "cc:decorative_deepslate_pillar_top",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:collision_box": true,
+            "minecraft:selection_box": true,
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#574c4c",
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "can_contain_liquid": true,
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:support": {
+                "shape": "fence"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "cc:item_tier": {
+                "tool": "pickaxe",
+                "tier": 1
+            },
+            "tag:minecraft:is_pickaxe_item_destructible": {}
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('cc:base') == 0 && q.block_state('cc:top') == 0",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            16,
+                            12
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            16,
+                            12
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

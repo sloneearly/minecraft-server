@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "wooden_sword_shrine_e42ca4c6"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:wooden_sword",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:cobblestone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:wooden_sword_shrine",
+      "count": 1
+    }
+  }
+}

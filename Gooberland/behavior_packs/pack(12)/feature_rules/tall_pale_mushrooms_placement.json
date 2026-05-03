@@ -1,0 +1,39 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:tall_pale_mushrooms_placement",
+      "places_feature": "cc:tall_pale_mushrooms_feature"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "pale_garden"
+            }
+          ]
+        }
+      ]
+    },
+
+    "distribution": {
+      "iterations": "math.random(1,20)",
+      "scatter_chance": 80.0,
+      "x": {
+        "distribution": "triangle",
+        "extent": [-16, 32]
+      },
+      "y": "query.heightmap(v.originx, v.originz) + 1",
+      "z": {
+        "distribution": "triangle",
+
+        "extent": [-16, 32]
+      },
+      "coordinate_eval_order": "zyx"
+    }
+  }
+}

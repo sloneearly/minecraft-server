@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "tt:soul_maze"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#",
+            "T",
+            "w"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:heavy_core"
+            },
+            "T": {
+                "item": "tt:soul_rod"
+            },
+            "w": {
+                "item": "tt:black_paper"
+            }
+        },
+        "result": {
+            "item": "tt:mazo_soul",
+            "count": 1
+        }
+    }
+}

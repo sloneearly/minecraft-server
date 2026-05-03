@@ -1,0 +1,39 @@
+{
+  "format_version": "1.20.30",
+  "render_controllers": {
+    "controller.render.cc.villager.soldier_chestplate": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": ["texture.default"],
+      "part_visibility": [
+        {
+          "body_overlay": false
+        }
+      ]
+    },
+    "controller.render.cc.villager.level": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": ["array.level_tex[q.trade_tier]"],
+      "arrays": {
+        "textures": {
+          "array.level_tex": [
+            "Texture.level_1",
+            "Texture.level_2",
+            "Texture.level_3",
+            "Texture.level_4",
+            "Texture.level_5"
+          ]
+        }
+      }
+    }
+  }
+}

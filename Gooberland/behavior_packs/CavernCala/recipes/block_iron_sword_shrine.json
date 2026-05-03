@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "iron_sword_shrine_d1f713dc"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:iron_sword",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:cobblestone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:iron_sword_shrine",
+      "count": 1
+    }
+  }
+}

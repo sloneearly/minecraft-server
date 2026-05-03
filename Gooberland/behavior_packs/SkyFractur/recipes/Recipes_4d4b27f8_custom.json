@@ -1,0 +1,38 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_237fbe98"
+    },
+    "tags": [
+      "soul_forge"
+    ],
+    "pattern": [
+      "ABA",
+      "ACA",
+      "ADA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:solargem",
+        "data": 0
+      },
+      "B": {
+        "item": "item:solar_forging_template",
+        "data": 0
+      },
+      "C": {
+        "item": "sword:meteorite_sword",
+        "data": 0
+      },
+      "D": {
+        "item": "block:solargem_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "sword:solar_sword",
+      "count": 1
+    }
+  }
+}

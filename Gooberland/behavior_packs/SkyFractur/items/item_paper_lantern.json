@@ -1,0 +1,26 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "item:paper_lantern",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.firework"
+			}
+		},
+		"components": {
+			
+			"minecraft:icon": "item:paper_lantern",
+			"minecraft:display_name": {
+				"value": "Paper Lantern"
+			},
+			"minecraft:throwable": {
+				"do_swing_animation": true
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "projectile:paper_lantern"
+			}
+		}
+	}
+}

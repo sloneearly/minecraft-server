@@ -1,0 +1,80 @@
+{
+	"format_version": "1.20.50",
+
+	"minecraft:item": {
+		"description": {
+			"identifier": "tool:magnet_hoe",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.hoe"
+			}
+		},
+
+		"components": {
+			"minecraft:icon": "tool:magnet_hoe",
+			"minecraft:display_name": {
+				"value": "Magnet Hoe\n\n\n§7Crushing I\nMining Speed: 6\nPulls in items on block break"
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:transformable_items",
+					"minecraft:is_tool",
+					"minecraft:digger",
+					"minecraft:is_hoe",
+					"minecraft:diamond_tier"
+				]
+			},
+
+			"minecraft:max_stack_size": 1,
+			"minecraft:stacked_by_data": true,
+			"minecraft:durability": {
+				"max_durability": 150,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:damage": 5,
+			"minecraft:digger": {
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('hoe_diggable')"
+						},
+						"speed": 12
+					},
+					{"block": "minecraft:azalea_leaves_flowered", "speed": 6},
+					{
+						"block": {
+							"tags": "q.any_tag('minecraft:is_hoe_item_destructible')"
+						},
+						"speed": 6
+					},
+					{"block": "minecraft:azalea_leaves", "speed": 6},
+					{"block": "minecraft:calibrated_sculk_sensor", "speed": 6},
+					{"block": "minecraft:cherry_leaves", "speed": 6},
+					{"block": "minecraft:dried_kelp_block", "speed": 6},
+					{"block": "minecraft:hay_block", "speed": 6},
+					{"block": "minecraft:leaves", "speed": 6},
+					{"block": "minecraft:leaves2", "speed": 6},
+					{"block": "minecraft:mangrove_leaves", "speed": 6},
+					{"block": "minecraft:moss_block", "speed": 6},
+					{"block": "minecraft:moss_carpet", "speed": 6},
+					{"block": "minecraft:nether_wart_block", "speed": 6},
+					{"block": "minecraft:sculk_catalyst", "speed": 6},
+					{"block": "minecraft:sculk_sensor", "speed": 6},
+					{"block": "minecraft:sculk_shrieker", "speed": 6},
+					{"block": "minecraft:sculk_vein", "speed": 6},
+					{"block": "minecraft:sculk", "speed": 6},
+					{"block": "minecraft:shroomlight", "speed": 6},
+					{"block": "minecraft:sponge", "speed": 6},
+					{"block": "minecraft:target", "speed": 6},
+					{"block": "minecraft:warped_wart_block", "speed": 6}
+				],
+				"use_efficiency": true
+			},
+			"minecraft:enchantable": {"slot": "hoe", "value": 10}
+		}
+	}
+}

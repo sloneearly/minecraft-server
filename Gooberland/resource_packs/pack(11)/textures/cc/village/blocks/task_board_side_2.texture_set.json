@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "task_board_side_2",
+    "heightmap": "task_board_side_2_heightmap",
+    "metalness_emissive_roughness_subsurface": "task_board_side_2_mers"
+  }
+}

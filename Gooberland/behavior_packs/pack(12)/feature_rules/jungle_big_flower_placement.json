@@ -1,0 +1,47 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:jungle_big_flower_placement",
+      "places_feature": "cc:big_jungle_flower_feature"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "jungle"
+            }
+          ]
+        },
+        {
+          "none_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "edge"
+            }
+          ]
+        }
+      ]
+    },
+
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 20.0,
+      "x": {
+        "distribution": "triangle",
+        "extent": [-8, 8]
+      },
+      "y": "query.heightmap(v.originx, v.originz) + 1",
+      "z": {
+        "distribution": "triangle",
+        "extent": [-8, 8]
+      },
+      "coordinate_eval_order": "zyx"
+    }
+  }
+}

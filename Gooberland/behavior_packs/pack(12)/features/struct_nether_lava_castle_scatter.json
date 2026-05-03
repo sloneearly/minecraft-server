@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:struct_nether_lava_castle_scatter"
+    },
+    "iterations": 1,
+    "x": "0",
+    "y": "-24",
+    "z": "0",
+    "coordinate_eval_order": "zyx",
+    "places_feature": "cc:struct_nether_lava_castle_sequence"
+  }
+}

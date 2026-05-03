@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "wide_fern",
+    "heightmap": "wide_fern_heightmap",
+    "metalness_emissive_roughness_subsurface": "wide_fern_mers"
+  }
+}

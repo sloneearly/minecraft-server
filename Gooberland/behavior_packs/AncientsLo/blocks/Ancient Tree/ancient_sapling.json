@@ -1,0 +1,56 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ancients:ancient_sapling",
+			"menu_category": {
+				"group": "itemGroup.name.planks",
+				"category": "none",
+				"is_hidden_in_commands": true
+			}
+		},
+		"components": {
+			"minecraft:flammable": true,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "ancient_sapling",
+					"render_method": "alpha_test",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:selection_box": {
+				"origin": [-6, 0, -6],
+				"size": [12, 13, 12]
+			},
+			"minecraft:loot": "loot_tables/ancient_sapling.json",
+			"minecraft:geometry": {
+				"identifier": "geometry.custom_sapling",
+				"bone_visibility": {
+					"main": true,
+					"farmland": false
+				}
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:collision_box": false,
+			"minecraft:light_dampening": 0,
+			"minecraft:light_emission": 0,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:dirt",
+							"minecraft:grass_block",
+							"minecraft:podzol",
+							"minecraft:farmland"
+						],
+						"allowed_faces": ["up"]
+					}
+				]
+			},
+			"minecraft:custom_components": ["ancients:bone_meal"]
+		}
+	}
+}

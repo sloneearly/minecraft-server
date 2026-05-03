@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "onyx_quartz_brick_stairs_429b0acd"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:onyx_quartz_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:onyx_quartz_brick_stairs",
+      "count": 3
+    }
+  }
+}

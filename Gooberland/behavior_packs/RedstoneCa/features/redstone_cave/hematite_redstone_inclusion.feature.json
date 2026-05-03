@@ -1,0 +1,17 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "wan_redcave:redstone_cave/hematite_redstone_inclusion.feature"
+    },
+    "count": 6,
+    "replace_rules": [
+      {
+        "places_block": "wan_redcave:hematite_redstone_inclusion",
+        "may_replace": [
+          "wan_redcave:hematite"
+        ]
+      }
+    ]
+  }
+}

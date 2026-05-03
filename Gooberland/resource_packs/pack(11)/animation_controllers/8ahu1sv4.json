@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc.mermaid.move": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "animations": ["idle"],
+          "transitions": [
+            {
+              "swim": "query.ground_speed > 0.2"
+            }
+          ],
+          "blend_transition": 0.25
+        },
+        "swim": {
+          "animations": ["swim"],
+          "transitions": [
+            {
+              "idle": "query.ground_speed < 0.1"
+            }
+          ],
+          "blend_transition": 0.25
+        }
+      }
+    }
+  }
+}

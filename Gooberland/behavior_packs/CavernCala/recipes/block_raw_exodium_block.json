@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "raw_exodium_block_a951b92d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "item:raw_exodium",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:raw_exodium_block",
+      "count": 1
+    }
+  }
+}

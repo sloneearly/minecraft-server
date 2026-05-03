@@ -1,0 +1,90 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc_hc.watcher.move": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "animations": ["idle"],
+          "transitions": [
+            {
+              "walk": "q.ground_speed > 0 && q.property('cc:crawl_height') == 3"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "walk": {
+          "animations": ["walk"],
+          "transitions": [
+            {
+              "idle": "q.ground_speed == 0"
+            }
+          ],
+          "blend_transition": 0.2
+        }
+      }
+    },
+    "controller.animation.cc_hc.watcher.grab": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "transitions": [
+            {
+              "walk": "q.has_rider"
+            }
+          ],
+          "blend_transition": 0.2
+        },
+        "walk": {
+          "animations": ["grab"],
+          "transitions": [
+            {
+              "idle": "!q.has_rider"
+            }
+          ],
+          "blend_transition": 0.2
+        }
+      }
+    },
+    "controller.animation.cc_hc.watcher.crawl": {
+      "initial_state": "height_3",
+      "states": {
+        "height_3": {
+          "transitions": [
+            {
+              "height_1": "q.property('cc:crawl_height') == 1"
+            },
+            {
+              "height_2": "q.property('cc:crawl_height') == 2"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "height_2": {
+          "animations": ["crawl"],
+          "transitions": [
+            {
+              "height_1": "q.property('cc:crawl_height') == 1"
+            },
+            {
+              "height_3": "q.property('cc:crawl_height') == 3"
+            }
+          ],
+          "blend_transition": 0.1
+        },
+        "height_1": {
+          "animations": ["crawl_deep"],
+          "transitions": [
+            {
+              "height_3": "q.property('cc:crawl_height') == 3"
+            },
+            {
+              "height_2": "q.property('cc:crawl_height') == 2"
+            }
+          ],
+          "blend_transition": 0.1
+        }
+      }
+    }
+  }
+}

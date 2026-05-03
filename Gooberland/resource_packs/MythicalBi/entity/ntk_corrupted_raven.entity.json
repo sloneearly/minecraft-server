@@ -1,0 +1,48 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ntk:corrupted_raven",
+      //"enable_attachables": true,
+      "spawn_egg": {
+        "texture": "ntk_spawn_egg_corrupted_raven"
+      },
+      "render_controllers": [
+        "controller.render.entity.ntk_corrupted_raven"
+      ],
+      "geometry": {
+        "default": "geometry.entity.ntk_corrupted_raven"
+      },
+      "materials": {
+        "default": "ntk_entity_alpha"
+      },
+      "textures": {
+        "variant_0_corrupted_raven": "textures/entity/ntk_corrupted_raven"
+      },
+      "animations": {
+        "controller_general": "controller.animation.entity.ntk_corrupted_raven.general",
+        "controller_interested": "controller.animation.entity.ntk_corrupted_raven.interested",
+        "adult_scaling": "animation.entity.ntk_corrupted_raven.adult_scaling",
+        "baby_scaling": "animation.entity.ntk_corrupted_raven.baby_scaling",
+        "flying": "animation.entity.ntk_corrupted_raven.flying",
+        "interested": "animation.entity.ntk_corrupted_raven.interested",
+        "look_at_target": "animation.entity.ntk_corrupted_raven.look_at_target",
+        "sitting": "animation.entity.ntk_corrupted_raven.sitting",
+        "walking": "animation.entity.ntk_corrupted_raven.walking"
+      },
+      "scripts": {
+				"animate": [
+					"controller_general",
+					"controller_interested",
+					"adult_scaling",
+					{
+						"baby_scaling": "query.is_baby"
+					},
+					{
+						"look_at_target": 0.8
+					}
+				]
+			}
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+	"format_version": [1,1,0],
+	"ancients:ancient_leaves":{
+		"sound": "grass"
+	},
+	"ancients:ancient_sapling":{
+		"sound": "grass"
+	},
+	"ancients:ancient_log":{
+		"sound": "wood"
+	},
+	"ancients:ancient_planks":{
+		"sound": "wood"
+	},
+	"ancients:ancient_log_stripped":{
+		"sound": "wood"
+	},
+	"ancients:ancient_wood_stripped":{
+		"sound": "wood"
+	},
+	"ancients:ancient_wood":{
+		"sound": "wood"
+	},
+	"ancients:ancient_slab":{
+		"sound": "wood"
+	},
+	"ancients:deepslate_rune":{
+		"sound": "deepslate"
+	},
+	"ancients:ancient_stair":{
+		"sound": "wood"
+	},
+	"ancients:ancient_fence":{
+		"sound": "wood"
+	},
+	"ancients:ancient_fence_gate":{
+		"sound": "wood"
+	},
+	"ancients:ancient_door":{
+		"sound": "wood"
+	}
+}

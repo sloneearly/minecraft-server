@@ -1,0 +1,49 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cc.slingshot.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [75.18157, 19.92657, -149.83044],
+					"position": [-2.55632, 21.8411, 8.32955],
+					"scale": 1.7
+				},
+				"outline": {
+					"rotation": [95.58312, 59.33208, -65.68002],
+					"position": [-2, 28, 4.5],
+					"scale": 1.7
+				}
+			}
+		},
+		"animation.cc.slingshot.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [131.35177, 9.63981, 84.62823],
+					"position": [6, 23.01764, 0.93185],
+					"scale": 1.7
+				}
+			}
+		},
+		"animation.cc.slingshot.charge": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [78.41558, 2.79988, -146.14776],
+					"position": [
+						-0.49393,
+						"29.2281 + (( variable.charge_amount  >= 0.5 ? math.sin( (q.life_time) * 1000.0 * 1.3) * 0.1 - math.sin(q.life_time * 45.0) * 0.25 : 0.0) * 2)",
+						-3.76095
+					],
+					"scale": 1.7
+				},
+				"outline": {
+					"rotation": [95.58312, 59.33208, -65.68002],
+					"position": [-2, 28, 4.5],
+					"scale": 1.7
+				}
+			}
+		}
+	}
+}

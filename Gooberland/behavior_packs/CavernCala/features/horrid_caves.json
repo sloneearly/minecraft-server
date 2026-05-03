@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "gen:horrid_caves"
+		},
+		"features": [
+			"gen:horrid_patch_feature",
+			"gen:horrid_top",
+			"gen:horrid_spike1_feature",
+			"gen:horrid_spike2_feature"
+		]
+	}
+}

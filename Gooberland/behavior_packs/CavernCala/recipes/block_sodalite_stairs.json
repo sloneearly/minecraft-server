@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sodalite_stairs_1b086562"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:sodalite",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:sodalite_stairs",
+      "count": 3
+    }
+  }
+}

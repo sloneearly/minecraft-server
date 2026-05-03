@@ -1,0 +1,44 @@
+{
+  "format_version": "1.21.111",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "wan_redcave:techsuit_control_t1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BHB",
+      "PCL",
+      "BSB"
+    ],
+    "key": {
+      "B": {
+        "item": "wan_redcave:bluestone"
+      },
+      "H": {
+        "item": "minecraft:diamond_helmet"
+      },
+      "P": {
+        "item": "minecraft:diamond_chestplate"
+      },
+      "C": {
+        "item": "wan_redcave:bluestone_chip"
+      },
+      "L": {
+        "item": "minecraft:diamond_leggings"
+      },
+      "S": {
+        "item": "minecraft:diamond_boots"
+      }
+    },
+    "unlock": [
+      {
+        "item": "wan_redcave:bluestone_chip"
+      }
+    ],
+    "result": {
+      "item": "wan_redcave:techsuit_control_t1"
+    }
+  }
+}

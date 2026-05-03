@@ -1,0 +1,59 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "cc:axe_sway",
+			"basic_render_parameters": {
+				"material": "particles_blend",
+				"texture": "textures/cc/cooking/particles/scythe.sway"
+			}
+		},
+		"components": {
+			"minecraft:emitter_initialization": {
+				"creation_expression": "v.rotation = math.random_integer(1,3) * 90;v.size = math.random(1,2);"
+			},
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 1
+			},
+			"minecraft:emitter_lifetime_looping": {
+				"active_time": 1
+			},
+			"minecraft:emitter_shape_point": {
+				"offset": [0, 1, 0]
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 0.3
+			},
+			"minecraft:particle_initial_speed": 0,
+			"minecraft:particle_motion_dynamic": {},
+			"minecraft:particle_motion_parametric": {
+				"rotation": "v.rotation"
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": ["v.size", "v.size"],
+				"facing_camera_mode": "emitter_transform_xz",
+				"uv": {
+					"texture_width": 32,
+					"texture_height": 160,
+					"flipbook": {
+						"base_UV": [0, 0],
+						"size_UV": [32, 32],
+						"step_UV": [0, 32],
+						"max_frame": 5,
+						"stretch_to_lifetime": true
+					}
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "v.particle_age / v.particle_lifetime",
+					"gradient": {
+						"0.0": "#ffffffff",
+						"0.5": "#ffffffff",
+						"1.0": "#00FFFFFF"
+					}
+				}
+			}
+		}
+	}
+}

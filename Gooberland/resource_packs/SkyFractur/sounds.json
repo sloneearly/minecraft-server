@@ -1,0 +1,664 @@
+//bridge-file-version: #66
+{
+	"entity_sounds": {
+		"entities": {
+			"mob:clouded": {
+				"events": {
+					"ambient": "entity.wither_skeleton.say",
+					"death": "entity.wither_skeleton.death",
+					"hurt": {
+						"sound": "entity.wither_skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "entity.wither_skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					1.6,
+					2
+				],
+				"volume": 1
+			},
+			"mob:solaling": {
+				"events": {
+					"death": "mob.guardian.land_death",
+					"hurt": "mob.fish.hurt",
+					"ambient": "mob.guardian.land_idle"
+				},
+				"pitch": [
+					0.4,
+					0.6
+				],
+				"volume": 1
+			},
+			"mob:ice_fairy": {
+				"events": {
+					"ambient": "mob.allay.idle",
+					"death": "mob.allay.death",
+					"hurt": "mob.allay.hurt"
+				},
+				"pitch": [
+					2,
+					3
+				],
+				"volume": 1
+			},
+			"mob:cryorite": {
+				"events": {
+					"death": "mob.guardian.land_death",
+					"hurt": "mob.fish.hurt",
+					"ambient": "mob.guardian.land_idle"
+				},
+				"pitch": [
+					0.4,
+					0.6
+				],
+				"volume": 1
+			},
+			"mob:zombified_skyliner": {
+				"events": {
+					"ambient": "mob.zombiepig.zpig",
+					"death": "mob.zombiepig.zpigdeath",
+					"hurt": "mob.zombiepig.zpighurt",
+					"mad": {
+						"pitch": [
+							1.44,
+							2.16
+						],
+						"sound": "mob.zombiepig.zpigangry",
+						"volume": 2
+					}
+				},
+				"pitch": [
+					0.3,
+					0.6
+				],
+				"volume": 1
+			},
+			"mob:wind_creeper": {
+				"events": {
+					"death": "mob.creeper.death",
+					"fuse": {
+						"pitch": 0.5,
+						"sound": "random.fuse",
+						"volume": 1
+					},
+					"hurt": "mob.creeper.say"
+				},
+				"pitch": [
+					0.4,
+					0.6
+				],
+				"volume": 1
+			},
+			"mob:storm_creeper": {
+				"pitch": [
+					0.2,
+					0.3
+				],
+				"volume": 1,
+				"events": {
+					"death": "mob.creeper.death",
+					"fuse": {
+						"pitch": 0.5,
+						"sound": "random.fuse",
+						"volume": 1
+					},
+					"hurt": "mob.creeper.say"
+				}
+			},
+			"mob:nightglow_mooshroom": {
+				"events": {
+					"ambient": "mob.cow.say",
+					"death": "mob.cow.hurt",
+					"eat": "mob.mooshroom.eat",
+					"hurt": "mob.cow.hurt",
+					"step": {
+						"pitch": [
+							0.9,
+							1.1
+						],
+						"sound": "mob.cow.step",
+						"volume": 0.65
+					}
+				},
+				"pitch": [
+					0.6,
+					1
+				],
+				"volume": 1
+			},
+			"mob:moon_cow": {
+				"events": {
+					"ambient": "mob.cow.say",
+					"death": "mob.cow.hurt",
+					"eat": "mob.mooshroom.eat",
+					"hurt": "mob.cow.hurt",
+					"step": {
+						"pitch": [
+							0.9,
+							1.1
+						],
+						"sound": "mob.cow.step",
+						"volume": 0.65
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"mob:cloud_slime": {
+				"events": {
+					"ambient": {},
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.attack"
+					},
+					"death": "mob.slime.small",
+					"hurt": "mob.slime.small",
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.small"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"mob:aeroslime": {
+				"events": {
+					"ambient": {},
+					"attack": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.attack"
+					},
+					"death": "mob.slime.small",
+					"hurt": "mob.slime.small",
+					"squish.big": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.big"
+					},
+					"squish.small": {
+						"pitch": [
+							0.64,
+							0.96
+						],
+						"sound": "mob.slime.small"
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"mob:skyliner": {
+				"events": {
+					"ambient": "mob.vindicator.idle",
+					"ambient.in.raid": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.vindicator.idle",
+						"volume": 3
+					},
+					"celebrate": "mob.vindicator.celebrate",
+					"death": "mob.vindicator.death",
+					"hurt": "mob.vindicator.hurt"
+				},
+				"pitch": [
+					1.6,
+					2
+				],
+				"volume": 1
+			},
+			"mob:skyliner_brute": {
+				"events": {
+					"ambient": "mob.vindicator.idle",
+					"ambient.in.raid": {
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"sound": "mob.vindicator.idle",
+						"volume": 3
+					},
+					"celebrate": "mob.vindicator.celebrate",
+					"death": "mob.vindicator.death",
+					"hurt": "mob.vindicator.hurt"
+				},
+				"pitch": [
+					1.6,
+					2
+				],
+				"volume": 1
+			},
+			"mob:cyclord": {
+				"events": {
+					"ambient": {
+						"pitch": [
+							0.3,
+							0.5
+						],
+						"sound": "mob.breeze.idle_ground",
+						"volume": [
+							0.8,
+							1
+						]
+					},
+					"ambient.in.air": {
+						"pitch": [
+							0.3,
+							0.5
+						],
+						"sound": "mob.breeze.idle_air",
+						"volume": [
+							0.8,
+							1
+						]
+					},
+					"charge": {
+						"pitch": 1,
+						"sound": "mob.breeze.charge",
+						"volume": 1
+					},
+					"death": {
+						"pitch": 0.5,
+						"sound": "mob.breeze.death",
+						"volume": 1
+					},
+					"hurt": {
+						"pitch": 0.5,
+						"sound": "mob.breeze.hurt",
+						"volume": 1
+					},
+					"jump": {
+						"pitch": 0.8,
+						"sound": "mob.breeze.jump",
+						"volume": 1
+					},
+					"land": {
+						"pitch": 0.5,
+						"sound": "mob.breeze.land",
+						"volume": 1
+					},
+					"reflect": {
+						"pitch": 0.5,
+						"sound": "mob.breeze.deflect",
+						"volume": 1
+					},
+					"shoot": {
+						"pitch": [
+							0.3,
+							0.5
+						],
+						"sound": "mob.breeze.shoot",
+						"volume": 1.5
+					},
+					"step": {
+						"volume": 0
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"variants": {
+					"key": {}
+				},
+				"volume": 1
+			},
+			"mob:blizzard": {
+				"events": {
+					"ambient": {
+						"pitch": [
+							0.3,
+							0.5
+						],
+						"sound": "mob.breeze.idle_ground",
+						"volume": [
+							0.8,
+							1
+						]
+					},
+					"ambient.in.air": {
+						"pitch": [
+							0.3,
+							0.5
+						],
+						"sound": "mob.breeze.idle_air",
+						"volume": [
+							0.8,
+							1
+						]
+					},
+					"charge": {
+						"pitch": 1,
+						"sound": "mob.breeze.charge",
+						"volume": 1
+					},
+					"death": {
+						"pitch": 0.5,
+						"sound": "mob.breeze.death",
+						"volume": 1
+					},
+					"hurt": {
+						"pitch": 0.5,
+						"sound": "mob.breeze.hurt",
+						"volume": 1
+					},
+					"jump": {
+						"pitch": 0.8,
+						"sound": "mob.breeze.jump",
+						"volume": 1
+					},
+					"land": {
+						"pitch": 0.5,
+						"sound": "mob.breeze.land",
+						"volume": 1
+					},
+					"reflect": {
+						"pitch": 0.5,
+						"sound": "mob.breeze.deflect",
+						"volume": 1
+					},
+					"shoot": {
+						"pitch": [
+							0.3,
+							0.5
+						],
+						"sound": "mob.breeze.shoot",
+						"volume": 1.5
+					},
+					"step": {
+						"volume": 0
+					}
+				},
+				"pitch": [
+					1.5,
+					1.8
+				],
+				"variants": {
+					"key": {}
+				},
+				"volume": 1
+			},
+			"mob:cloud_chicken": {
+				"events": {
+					"ambient": "mob.chicken.say",
+					"death": "mob.chicken.hurt",
+					"hurt": "mob.chicken.hurt",
+					"plop": "mob.chicken.plop",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.chicken.step",
+						"volume": 0.25
+					}
+				},
+				"pitch": [
+					1,
+					1.2
+				],
+				"volume": 1
+			},
+			"mob:angry_nimbus": {
+				"events": {
+					"ambient": {
+						"pitch": [
+							0.3,
+							0.5
+						],
+						"sound": "mob.breeze.idle_ground",
+						"volume": [
+							0.8,
+							1
+						]
+					},
+					"ambient.in.air": {
+						"pitch": [
+							0.3,
+							0.5
+						],
+						"sound": "mob.breeze.idle_air",
+						"volume": [
+							0.8,
+							1
+						]
+					},
+					"charge": {
+						"pitch": 1,
+						"sound": "mob.breeze.charge",
+						"volume": 1
+					},
+					"death": {
+						"pitch": 0.5,
+						"sound": "mob.breeze.death",
+						"volume": 1
+					},
+					"hurt": {
+						"pitch": 0.5,
+						"sound": "mob.breeze.hurt",
+						"volume": 1
+					},
+					"jump": {
+						"pitch": 0.8,
+						"sound": "mob.breeze.jump",
+						"volume": 1
+					},
+					"land": {
+						"pitch": 0.5,
+						"sound": "mob.breeze.land",
+						"volume": 1
+					},
+					"reflect": {
+						"pitch": 0.5,
+						"sound": "mob.breeze.deflect",
+						"volume": 1
+					},
+					"shoot": {
+						"pitch": [
+							0.3,
+							0.5
+						],
+						"sound": "mob.breeze.shoot",
+						"volume": 1.5
+					},
+					"step": {
+						"volume": 0
+					}
+				},
+				"pitch": [
+					2.5,
+					3
+				],
+				"variants": {
+					"key": {}
+				},
+				"volume": 1
+			},
+			"mob:sky_seeker": {
+				"events": {
+					"ambient": "mob.allay.idle",
+					"ambient.tame": "mob.allay.idle_holding",
+					"death": "mob.allay.death",
+					"hurt": "mob.allay.hurt"
+				},
+				"pitch": [
+					0.3,
+					0.4
+				],
+				"volume": 1
+			},
+			"mob:sky_seeker_sleeping": {
+				"events": {
+					"ambient": "mob.allay.idle",
+					"ambient.tame": "mob.allay.idle_holding",
+					"death": "mob.allay.death",
+					"hurt": "mob.allay.hurt"
+				},
+				"pitch": [
+					0.3,
+					0.4
+				],
+				"volume": 1
+			},
+			"mob:flying_fish": {
+				"events": {
+					"hurt": "mob.fish.hurt"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"mob:orbiltar": {
+				"events": {
+					"ambient": "mob.allay.idle",
+					"ambient.tame": "mob.allay.idle_holding",
+					"death": "mob.allay.death",
+					"hurt": "mob.allay.hurt"
+				},
+				"pitch": [
+					0.6,
+					2
+				],
+				"volume": 1
+			},
+			"mob:ringelite": {
+				"events": {
+					"ambient": "mob.allay.idle",
+					"ambient.tame": "mob.allay.idle_holding",
+					"death": "mob.allay.death",
+					"hurt": "mob.allay.hurt"
+				},
+				"pitch": [
+					1.6,
+					3.2
+				],
+				"volume": 1
+			},
+			"mob:stellariac": {
+				"events": {
+					"ambient": {
+						"sound": "mob.slime.small",
+						"pitch": [
+							0.1,
+							0.2
+						]
+					},
+					"death": "mob.slime.small",
+					"hurt": "mob.slime.small"
+				},
+				"pitch": [
+					0.3,
+					0.4
+				],
+				"volume": 1
+			},
+			"mob:specter": {
+				"events": {
+					"ambient": "mob.phantom.idle",
+					"attack": "mob.phantom.bite",
+					"death": "mob.phantom.death",
+					"flap": "mob.phantom.flap",
+					"hurt": "mob.phantom.hurt",
+					"swoop": {
+						"pitch": [
+							0.5,
+							0.7
+						],
+						"sound": "mob.phantom.swoop"
+					}
+				},
+				"pitch": [
+					0.4,
+					0.6
+				],
+				"volume": 10
+			},
+			"mob:feelite": {
+				"events": {
+					"ambient": "mob.elderguardian.idle",
+					"death": "mob.elderguardian.death",
+					"hurt": "mob.elderguardian.hit"
+				},
+				"pitch": [
+					1.8,
+					2
+				],
+				"volume": 1
+			},
+			"mob:moonfrages": {
+				"events": {
+					"ambient": "mob.irongolem.say",
+					"death": "mob.irongolem.death",
+					"hurt": "mob.irongolem.hit",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.irongolem.walk",
+						"volume": 1
+					},
+					"throw": {
+						"pitch": 1,
+						"sound": "mob.irongolem.throw",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.4,
+					0.6
+				],
+				"volume": 1
+			},
+			"mob:phantling": {
+				"events": {
+					"ambient": "mob.phantom.idle",
+					"attack": "mob.phantom.bite",
+					"death": "mob.phantom.death",
+					"flap": "mob.phantom.flap",
+					"hurt": "mob.phantom.hurt",
+					"swoop": {
+						"pitch": [
+							0.95,
+							1.05
+						],
+						"sound": "mob.phantom.swoop"
+					}
+				},
+				"pitch": [
+					1.6,
+					2.4
+				],
+				"volume": 10
+			}
+		}
+	}
+}

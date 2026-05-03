@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "gen:aetherium_caves"
+		},
+		"features": [
+			"gen:aetherium_patch_feature",
+			"gen:aetherium_top",
+			"gen:aetherium_spike1_feature",
+			"gen:aetherium_spike2_feature",
+			"gen:aetherium_spike3_feature"
+		]
+	}
+}

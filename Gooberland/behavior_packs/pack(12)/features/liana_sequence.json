@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "cc:liana_sequence"
+    },
+    "early_out": "first_failure",
+    "features": [
+      "cc:liana_block_check",
+      "cc:liana_growing_plant"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "0_cabbage",
+    "heightmap": "0_cabbage_heightmap",
+    "metalness_emissive_roughness_subsurface": "0_cabbage_mers"
+  }
+}

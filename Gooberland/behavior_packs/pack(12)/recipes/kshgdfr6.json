@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "cc:iron_bar_reverse"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "cc:iron_bar",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "iron_ingot"
+    },
+    "unlock": [
+        {
+            "item": "cc:iron_bar"
+        }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cc.cassowary.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"anim_time_update": "q.anim_time + (q.ground_speed * 0.8) * q.delta_time",
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, -5],
+						"0.5": [0, 0, 5],
+						"1.0": [0, 0, -5]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [5, 0, 0],
+						"0.1667": [-5, 0, 0],
+						"0.5": [5, 0, 0],
+						"0.6667": [-5, 0, 0],
+						"1.0": [5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, -1],
+						"0.1667": [0, 0, 0],
+						"0.5": [0, 0, -1],
+						"0.6667": [0, 0, 0],
+						"1.0": [0, 0, -1]
+					}
+				},
+				"rightLeg": {
+					"rotation": {
+						"0.0": [-17.5, 0, 0],
+						"0.5": [17.5, 0, 0],
+						"1.0": [-17.5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, -2],
+						"0.5": [0, 0, 2],
+						"0.75": [0, 1, 0],
+						"1.0": [0, 0, -2]
+					}
+				},
+				"leftLeg": {
+					"rotation": {
+						"0.0": [17.5, 0, 0],
+						"0.5": [-17.5, 0, 0],
+						"1.0": [17.5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 2],
+						"0.25": [0, 1, 0],
+						"0.5": [0, 0, -2],
+						"1.0": [0, 0, 2]
+					}
+				}
+			}
+		},
+		"animation.cc.cassowary.idle": {
+			"loop": true
+		},
+		"animation.cc.cassowary.attack": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.125,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.125": [-32.5, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.125": [52.5, 0, 0]
+					}
+				},
+				"rightLeg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.125": [-65, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.cc.cassowary.lay_egg": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [-25, 0, 0],
+					"position": [0, -6, -2]
+				},
+				"back": {
+					"rotation": [25, 0, 0]
+				},
+				"rightLeg": {
+					"position": [-3, 0, 0]
+				},
+				"foot1": {
+					"position": [3, 0, 0]
+				}
+			}
+		}
+	}
+}

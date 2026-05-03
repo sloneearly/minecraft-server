@@ -1,0 +1,23 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Ancients: Lost Runes [RP] v1.0.3",
+		"description": "pack.description",
+		"uuid": "09e81736-fd53-4c8d-b8b3-c693c3a129d2",
+		"version": [1,0,3],
+		"min_engine_version": [1, 21, 0]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "40d257be-ffe8-4198-b812-d466b4374e1c",
+			"version": [1,0,0]
+		}
+	],
+	"dependencies": [
+		{
+			"version": [1,0,3],
+			"uuid": "3f5102e0-dc14-4a25-9b46-94341bfcffef"
+		}
+	]
+}

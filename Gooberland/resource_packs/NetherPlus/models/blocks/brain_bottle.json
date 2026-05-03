@@ -1,0 +1,85 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.brain_bottle",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "block",
+					"pivot": [0, 14, 0],
+					"rotation": [0, 0, -180]
+				},
+				{
+					"name": "up_0",
+					"parent": "block",
+					"pivot": [0, 14, 0],
+					"cubes": [
+						{
+							"origin": [-6, 17, -6],
+							"size": [12, 15, 12],
+							"pivot": [0, 22.5, 0],
+							"rotation": [0, 0, -180],
+							"uv": {
+								"north": {"uv": [34, 48], "uv_size": [12, 15], "material_instance": "glass"},
+								"east": {"uv": [34, 48], "uv_size": [12, 15], "material_instance": "glass"},
+								"south": {"uv": [51, 33], "uv_size": [12, 15], "material_instance": "glass"},
+								"west": {"uv": [34, 33], "uv_size": [12, 15], "material_instance": "glass"},
+								"up": {"uv": [28, 1], "uv_size": [12, 12], "material_instance": "glass"},
+								"down": {"uv": [28, 13], "uv_size": [12, -12], "material_instance": "glass"}
+							}
+						},
+						{
+							"origin": [5, 13.25, 5],
+							"size": [-10, -2, -10],
+							"pivot": [0, 6.25, 0],
+							"rotation": [180, 0, -180],
+							"uv": {
+								"north": {"uv": [5, 58], "uv_size": [10, 2], "material_instance": "glass"},
+								"east": {"uv": [5, 60], "uv_size": [10, 2], "material_instance": "glass"},
+								"south": {"uv": [5, 62], "uv_size": [10, 2], "material_instance": "glass"},
+								"west": {"uv": [5, 56], "uv_size": [10, 2], "material_instance": "glass"},
+								"up": {"uv": [16, 2], "uv_size": [10, 10], "material_instance": "glass"},
+								"down": {"uv": [16, 12], "uv_size": [10, -10], "material_instance": "glass"}
+							}
+						},
+						{
+							"origin": [-5.5, 17.75, -5.5],
+							"size": [11, 13, 11],
+							"pivot": [0, 22.5, 0],
+							"rotation": [0, 0, -180],
+							"uv": {
+								"north": {"uv": [30, 16], "uv_size": [11, 14], "material_instance": "liquid"},
+								"east": {"uv": [30, 16], "uv_size": [11, 14], "material_instance": "liquid"},
+								"south": {"uv": [30, 16], "uv_size": [11, 14], "material_instance": "liquid"},
+								"west": {"uv": [30, 16], "uv_size": [11, 14], "material_instance": "liquid"},
+								"up": {"uv": [2, 18], "uv_size": [11, 11], "material_instance": "liquid"},
+								"down": {"uv": [2, 29], "uv_size": [11, -11], "material_instance": "liquid"}
+							}
+						},
+						{
+							"origin": [4, 15.25, 4],
+							"size": [-8, -3, -8],
+							"pivot": [0, 12.5, 0],
+							"rotation": [0, 0, -180],
+							"uv": {
+								"north": {"uv": [19, 39], "uv_size": [8, 3], "material_instance": "tor"},
+								"east": {"uv": [19, 39], "uv_size": [8, 3], "material_instance": "tor"},
+								"south": {"uv": [19, 39], "uv_size": [8, 3], "material_instance": "tor"},
+								"west": {"uv": [19, 39], "uv_size": [8, 3], "material_instance": "tor"},
+								"up": {"uv": [20, 51], "uv_size": [8, 8], "material_instance": "tor"},
+								"down": {"uv": [20, 59], "uv_size": [8, -8], "material_instance": "tor"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

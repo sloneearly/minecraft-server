@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "spider_eye_block_9f3bae7b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:spider_eye",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:spider_eye_block",
+      "count": 1
+    }
+  }
+}

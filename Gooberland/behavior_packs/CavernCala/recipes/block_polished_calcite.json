@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "polished_calcite_c55d40ac"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:calcite",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:polished_calcite",
+      "count": 4
+    }
+  }
+}

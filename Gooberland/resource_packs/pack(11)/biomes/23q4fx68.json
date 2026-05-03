@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "minecraft:desert_mutated"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#63b6ee"
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "cc:dry_fog"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#EAC768"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#EAC768"
+      }
+    }
+  }
+}

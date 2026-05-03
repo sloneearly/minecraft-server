@@ -1,0 +1,40 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:wall_plant_yellow_placement",
+      "places_feature": "cc:wall_plant_yellow_feature"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "jungle"
+            }
+          ]
+        }
+      ]
+    },
+
+    "distribution": {
+      "iterations": 120,
+      "scatter_chance": 60.0,
+      "x": {
+        "distribution": "triangle",
+        "extent": [-8, 8]
+      },
+      "y": {
+        "distribution": "triangle",
+        "extent": ["query.above_top_solid(v.originx,v.originz)", "query.above_top_solid(v.originx,v.originz) + 5"]
+      },
+      "z": {
+        "distribution": "triangle",
+        "extent": [-8, 8]
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cobalt_door_1938821e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:cobalt_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:cobalt_door",
+      "count": 3
+    }
+  }
+}

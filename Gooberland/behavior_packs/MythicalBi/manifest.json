@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Mythical Biomes (v1.10.2) [Behavior Pack]",
+    "description": "Mythical Biomes is a add-on that will add some new biomes to your world.",
+    "uuid": "ad8e720d-a30d-46af-a826-1298079457dc",
+    "version": [ 1, 10, 2 ],
+    "min_engine_version": [ 1, 26, 10 ]
+  },
+  "metadata": {
+    "product_type": "addon",
+		"authors": [ "NicoTheKid" ],
+		"url": "https://www.curseforge.com/members/nicothekid/projects"
+	},
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "ac54211c-4fdf-43b9-83bf-ba1e8952a4f0",
+      "version": [ 1, 10, 2 ]
+    },
+    {
+			"type": "script",
+			"language": "javascript",
+			"uuid": "4bb3d22b-ca0d-4e61-a23b-4062b169fa34",
+			"entry": "scripts/main.js",
+			"version": [ 1, 10, 2 ]
+		}
+  ],
+  "dependencies": [
+    {
+      "uuid": "9af4d0b9-46e3-4237-97d4-f27e34c84e98",
+      "version": [ 1, 10, 2 ]
+    },
+    {
+			"module_name": "@minecraft/server",
+			"version": "2.6.0"
+		}
+  ]
+}

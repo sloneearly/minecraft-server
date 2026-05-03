@@ -1,0 +1,52 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "block:cloud_cake_5",
+			"menu_category": {
+				"category": "none"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					6,
+					16
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					6,
+					16
+				]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:geometry": "geometry.cake5",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "block_cloud_cake",
+					"rcloud_method": "opaque",
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:custom_components": [
+				"test:cloud_cake_layer_6"
+			],
+			"minecraft:light_dampening": 0
+		}
+	}
+}

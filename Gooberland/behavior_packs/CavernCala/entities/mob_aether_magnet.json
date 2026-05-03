@@ -1,0 +1,48 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.20.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mob:aether_magnet",
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:timer": {
+				"time": [
+					0.2,
+					0.2
+				],
+				"time_down_event": {
+					"event": "timer",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"timer": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"tp @e[type=item,r=25] @s"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"despawn"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

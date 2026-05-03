@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "tags": [
+      "furnace"
+    ],
+    "output": {
+      "item": "item:rose_gold_ingot",
+      "data": 0
+    },
+    "input": {
+      "item": "item:rose_gold_alloy",
+      "data": 0
+    },
+    "description": {
+      "identifier": "recipes_a60c4c18"
+    }
+  }
+}

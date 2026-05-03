@@ -1,0 +1,223 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "weight": 10,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:market_trim_adventure_2"
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 9,
+              "wants": [
+                {
+                  "item": "cc:pebbles",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 9,
+              "wants": [
+                {
+                  "item": "cc:shells",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 9,
+              "wants": [
+                {
+                  "item": "cc:pinecone",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 9,
+              "wants": [
+                {
+                  "item": "cc:reed",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 9,
+              "wants": [
+                {
+                  "item": "cc:duckweed",
+                  "quantity": 18
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 9,
+              "wants": [
+                {
+                  "item": "cc:clover",
+                  "quantity": 32
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 9,
+              "wants": [
+                {
+                  "item": "cc:lavender",
+                  "quantity": 48
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 9,
+              "wants": [
+                {
+                  "item": "cc:blue_jungle_plant",
+                  "quantity": 4
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 9,
+              "wants": [
+                {
+                  "item": "cc:floating_flower",
+                  "quantity": 4
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 9,
+              "wants": [
+                {
+                  "item": "cc:lily_pad_flower",
+                  "quantity": 4
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 9,
+              "wants": [
+                {
+                  "item": "cc:daisy_carpet",
+                  "quantity": 32
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 50,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:daisy_carpet",
+                  "quantity": 32,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

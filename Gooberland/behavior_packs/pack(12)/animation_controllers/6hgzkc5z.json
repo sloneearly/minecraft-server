@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc.range_attack": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "transitions": [{ "range_attack": "q.is_charged" }]
+        },
+        "range_attack": {
+          "on_exit": ["/event entity @s cc:range_attack"],
+          "transitions": [{ "idle": "query.state_time > q.property('cc:range_attack_cooldown')" }]
+        }
+      }
+    }
+  }
+}

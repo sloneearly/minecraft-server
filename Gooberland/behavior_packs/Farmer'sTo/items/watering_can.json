@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:item": {
+    "description": {
+      "identifier": "vf_sc:watering_can",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": "vf_sc:watering_can",
+      "minecraft:can_destroy_in_creative": false,
+      "minecraft:hand_equipped": true,
+      "minecraft:display_name": {
+        "value": "item.vf_sc:watering_can"
+      },
+      "minecraft:cooldown": {
+        "category": "item_use",
+        "duration": 0.5
+      },
+
+      "minecraft:custom_components": ["vf_sc:watering_can_use"]
+    }
+  }
+}

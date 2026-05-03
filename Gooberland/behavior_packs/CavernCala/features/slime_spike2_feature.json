@@ -1,0 +1,46 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "gen:slime_spike2_feature"
+		},
+		"structure_name": "mystructure:slimespike2",
+		"adjustment_radius": 4,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {},
+			"unburied": {},
+			"block_intersection": {
+				"block_allowlist": [
+					{
+						"name": "minecraft:deepslate"
+					},
+					{
+						"name": "minecraft:stone"
+					},
+					{
+						"name": "minecraft:slime"
+					},
+					{
+						"name": "block:top_slime"
+					},
+					{
+						"name": "block:sewer_vines"
+					},
+					{
+						"name": "block:hardened_slime_block"
+					},
+					{
+						"name": "block:sewer_path"
+					},
+					{
+						"name": "block:deepslate_sewer_path"
+					},
+					{
+						"name": "minecraft:air"
+					}
+				]
+			}
+		}
+	}
+}

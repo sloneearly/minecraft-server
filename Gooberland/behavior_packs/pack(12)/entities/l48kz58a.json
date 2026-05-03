@@ -1,0 +1,679 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cc:whale",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "cc:is_breaching": {
+          "client_sync": true,
+          "default": false,
+          "type": "bool"
+        },
+        "cc:barnacle_state": {
+          "client_sync": true,
+          "default": 3,
+          "type": "int",
+          "range": [0, 3]
+        }
+      }
+    },
+    "components": {
+      "minecraft:nameable": {},
+      "minecraft:type_family": {
+        "family": ["whale", "mob", "animal"]
+      },
+      "minecraft:collision_box": {
+        "width": 3,
+        "height": 2
+      },
+      "minecraft:health": {
+        "value": 40,
+        "max": 40
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:follow_range": {
+        "value": 48,
+        "max": 48
+      },
+      "minecraft:breathable": {
+        "total_supply": 240,
+        "suffocate_time": 0,
+        "breathes_air": true,
+        "breathes_water": false,
+        "generates_bubbles": false
+      },
+      "minecraft:attack": {
+        "damage": 2
+      },
+      "minecraft:navigation.generic": {
+        "is_amphibious": true,
+        "can_path_over_water": true,
+        "can_swim": true,
+        "can_walk": false,
+        "can_breach": true,
+        "can_sink": false
+      },
+      "minecraft:jump.static": {
+        "jump_power": 0.6
+      },
+      "minecraft:can_climb": {},
+      "minecraft:behavior.swim_with_entity": {
+        "priority": 4,
+        "success_rate": 0.1,
+        "chance_to_stop": 0.0333,
+        "state_check_interval": 0.5,
+        "catch_up_threshold": 12.0,
+        "match_direction_threshold": 2.0,
+        "catch_up_multiplier": 1.1,
+        "speed_multiplier": 0.5,
+        "search_range": 20.0,
+        "stop_distance": 5.0,
+        "entity_types": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player"
+            }
+          }
+        ]
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
+      },
+      "minecraft:behavior.avoid_mob_type": {
+        "priority": 2,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "guardian_elder"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "guardian"
+                }
+              ]
+            },
+            "max_dist": 8,
+            "walk_speed_multiplier": 1.0,
+            "sprint_speed_multiplier": 1.0
+          }
+        ],
+        "probability_per_strength": 0.14
+      },
+      "minecraft:behavior.move_to_water": {
+        "priority": 1,
+        "search_range": 15,
+        "search_height": 5
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:movement.sway": {
+        "max_turn": 1,
+        "sway_amplitude": 0
+      },
+      "minecraft:flocking": {
+        "in_water": false,
+        "match_variants": false,
+        "use_center_of_mass": false,
+        "low_flock_limit": 4,
+        "high_flock_limit": 8,
+        "goal_weight": 2.0,
+        "loner_chance": 0.1,
+        "influence_radius": 6.0,
+        "breach_influence": 0.0,
+        "separation_weight": 1.75,
+        "separation_threshold": 3.0,
+        "cohesion_weight": 1.85,
+        "cohesion_threshold": 6.5,
+        "innner_cohesion_threshold": 3.5,
+        "min_height": 4.0,
+        "max_height": 4.0,
+        "block_distance": 1.0,
+        "block_weight": 0.0
+      },
+      "minecraft:on_target_acquired": {
+        "event": "become_angry",
+        "target": "self"
+      },
+      "minecraft:on_target_escape": {
+        "target": "self"
+      },
+      "minecraft:is_tamed": {},
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      // "minecraft:buoyant": {
+      //   "base_buoyancy": 0,
+      //   "apply_gravity": true,
+      //   "drag_down_on_buoyancy_removed": 0,
+      //   "liquid_blocks": ["minecraft:water"],
+      //   "simulate_waves": false
+      // },
+      "minecraft:conditional_bandwidth_optimization": {}
+    },
+    "component_groups": {
+      "cc:barnacle_state_0": {
+        "minecraft:rideable": {
+          "controlling_seat": 0,
+          "crouching_skip_interact": true,
+          "family_types": ["player"],
+          "interact_text": "action.interact.ride",
+          "pull_in_entities": false,
+          "rider_can_interact": false,
+          "seat_count": 1,
+          "seats": {
+            "max_rider_count": 1,
+            "min_rider_count": 0,
+            "position": [0, 2.2, 0]
+          }
+        }
+      },
+      "cc:has_barnacles": {
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "hurt_item": 1,
+              "interact_text": "action.interact.shear",
+              "on_interact": {
+                "filters": [
+                  {
+                    "subject": "other",
+                    "test": "has_equipment",
+                    "domain": "hand",
+                    "value": "shears"
+                  }
+                ],
+                "event": "cc:shear_barnacles"
+              },
+              "swing": true,
+              "spawn_items": {
+                "table": "loot_tables/cc/animals/whale_interact.loot.json"
+              }
+            }
+          ]
+        }
+      },
+      "cc:has_rider": {
+        "minecraft:is_saddled": {},
+        "minecraft:underwater_movement": {
+          "value": 0.25
+        },
+        "minecraft:input_ground_controlled": {},
+        "minecraft:can_power_jump": {},
+        "minecraft:behavior.player_ride_tamed": {},
+        "minecraft:horse.jump_strength": {
+          "value": {
+            "range_min": 0,
+            "range_max": 0
+          }
+        }
+      },
+      "whale_adult": {
+        "minecraft:experience_reward": {
+          "on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/dolphin.json"
+        },
+        "minecraft:bribeable": {
+          "bribe_items": ["fish", "salmon"]
+        }
+      },
+      "whale_baby": {
+        "minecraft:is_baby": {},
+        "minecraft:scale": {
+          "value": 0.65
+        },
+        "minecraft:ageable": {
+          "duration": 1200,
+          "feed_items": ["fish", "salmon"],
+          "grow_up": {
+            "event": "ageable_grow_up",
+            "target": "self"
+          }
+        },
+        "minecraft:behavior.follow_parent": {
+          "priority": 4,
+          "speed_multiplier": 1.1
+        },
+        "minecraft:behavior.panic": {
+          "priority": 1,
+          "speed_multiplier": 1.25
+        }
+      },
+      "whale_angry": {
+        "minecraft:angry": {
+          "duration": 25,
+          "broadcast_anger": true,
+          "broadcast_range": 16,
+          "calm_event": {
+            "event": "on_calm",
+            "target": "self"
+          }
+        },
+        "minecraft:on_target_acquired": {}
+      },
+      "whale_dried": {
+        "minecraft:damage_over_time": {
+          "damage_per_hurt": 1,
+          "time_between_hurt": 0
+        }
+      },
+      "whale_swimming_navigation": {
+        "minecraft:navigation.generic": {
+          "is_amphibious": true,
+          "can_path_over_water": false,
+          "can_swim": true,
+          "can_walk": false,
+          "can_breach": true,
+          "can_sink": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        },
+        "minecraft:behavior.random_swim": {
+          "priority": 5,
+          "interval": 0,
+          "xz_dist": 20,
+          "avoid_surface": true,
+          "y_dist": 3
+        },
+        "minecraft:behavior.find_underwater_treasure": {
+          "priority": 2,
+          "speed_multiplier": 2.0,
+          "search_range": 30,
+          "stop_distance": 50
+        },
+        "minecraft:timer": {
+          "time": 30,
+          "looping": true,
+          "time_down_event": {
+            "event": "start_breach",
+            "target": "self"
+          }
+        },
+        "minecraft:environment_sensor": {
+          "triggers": [
+            {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "on_ground",
+                    "operator": "==",
+                    "value": true
+                  },
+                  {
+                    "test": "in_water",
+                    "operator": "!=",
+                    "value": true
+                  }
+                ]
+              },
+              "event": "navigation_on_land"
+            }
+          ]
+        }
+      },
+      "breach": {
+        "minecraft:behavior.rise_to_liquid_level": {
+          "liquid_y_offset": -0.1,
+          "rise_delta": 0.001,
+          "sink_delta": 0.01
+        },
+        "minecraft:behavior.random_breach": {
+          "priority": 1,
+          "cooldown_time": 0,
+          "interval": 0,
+          "xz_dist": 10,
+          "y_dist": 7
+        },
+        "minecraft:navigation.generic": {
+          "is_amphibious": true,
+          "can_path_over_water": false,
+          "can_swim": true,
+          "can_walk": false,
+          "can_breach": true,
+          "can_sink": false
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.033
+        },
+        // "minecraft:buoyant": {
+        //   "base_buoyancy": 0.3,
+        //   "apply_gravity": false,
+        //   "drag_down_on_buoyancy_removed": 0,
+        //   "liquid_blocks": ["minecraft:water"],
+        //   "simulate_waves": false
+        // },
+        "minecraft:environment_sensor": {
+          "triggers": [
+            {
+              "event": "breach_timer",
+              "target": "self",
+              "filters": {
+                "test": "is_underwater",
+                "value": false
+              }
+            }
+          ]
+        }
+      },
+      // deep dive after breach
+      "breach_timer": {
+        "minecraft:navigation.generic": {
+          "is_amphibious": true,
+          "can_path_over_water": false,
+          "can_swim": true,
+          "can_walk": false,
+          "can_breach": true,
+          "can_sink": true
+        },
+        "minecraft:underwater_movement": {
+          "value": 0.02
+        },
+        "minecraft:behavior.random_swim": {
+          "avoid_surface": true,
+          "interval": 1,
+          "xz_dist": 10,
+          "y_dist": 25
+        },
+        "minecraft:timer": {
+          "time": 3,
+          "looping": true,
+          "time_down_event": {
+            "event": "stop_breach",
+            "target": "self"
+          }
+        }
+      },
+      "whale_on_land": {
+        "minecraft:navigation.generic": {
+          "is_amphibious": true,
+          "can_path_over_water": true,
+          "can_swim": true,
+          "can_walk": true,
+          "can_breach": false,
+          "can_jump": false
+        },
+        "minecraft:movement": {
+          "value": 0.01
+        },
+        "minecraft:timer": {
+          "looping": false,
+          "time": 120,
+          "time_down_event": {
+            "event": "dried_out"
+          }
+        },
+        "minecraft:environment_sensor": {
+          "triggers": [
+            {
+              "filters": {
+                "test": "in_water_or_rain",
+                "operator": "==",
+                "value": true
+              },
+              "event": "stop_dryingout"
+            }
+          ]
+        }
+      },
+      "cc:persistence": {
+        "minecraft:persistent": {}
+      },
+      "whale_on_land_in_rain": {
+        "minecraft:navigation.generic": {
+          "is_amphibious": true,
+          "can_path_over_water": true,
+          "can_swim": true,
+          "can_walk": true,
+          "can_breach": false,
+          "can_jump": false
+        },
+        "minecraft:movement": {
+          "value": 0.02
+        },
+        "minecraft:environment_sensor": {
+          "triggers": [
+            {
+              "filters": {
+                "test": "in_water",
+                "operator": "==",
+                "value": true
+              },
+              "event": "navigation_off_land"
+            },
+            {
+              "filters": {
+                "test": "in_water_or_rain",
+                "operator": "!=",
+                "value": true
+              },
+              "event": "start_dryingout"
+            }
+          ]
+        }
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "sequence": [
+          {
+            "add": {
+              "component_groups": ["cc:has_barnacles"]
+            }
+          },
+          {
+            "randomize": [
+              {
+                "weight": 90,
+                "add": {
+                  "component_groups": ["whale_adult", "whale_swimming_navigation"]
+                }
+              },
+              {
+                "weight": 10,
+                "add": {
+                  "component_groups": ["whale_baby", "whale_swimming_navigation"]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "cc:start_riding": {
+        "remove": {
+          "component_groups": ["whale_swimming_navigation", "breach", "breach_timer"]
+        },
+        "add": {
+          "component_groups": ["cc:has_rider"]
+        }
+      },
+      "cc:stop_riding": {
+        "remove": {
+          "component_groups": ["cc:has_rider"]
+        },
+        "add": {
+          "component_groups": ["whale_swimming_navigation", "breach", "breach_timer"]
+        }
+      },
+      "cc:random_barnicle_state": {
+        "randomize": [
+          {
+            "weight": 1,
+            "trigger": "cc:barnicle_state_1"
+          },
+          {
+            "weight": 1,
+            "trigger": "cc:barnicle_state_2"
+          },
+          {
+            "weight": 1,
+            "trigger": "cc:barnicle_state_3"
+          }
+        ]
+      },
+      "ageable_grow_up": {
+        "remove": {
+          "component_groups": ["whale_baby"]
+        },
+        "add": {
+          "component_groups": ["whale_adult"]
+        }
+      },
+      "become_angry": {
+        "add": {
+          "component_groups": ["whale_angry"]
+        }
+      },
+      "on_calm": {
+        "remove": {
+          "component_groups": ["whale_angry"]
+        }
+      },
+      "start_breach": {
+        "add": {
+          "component_groups": ["breach"]
+        },
+        "remove": {
+          "component_groups": ["whale_swimming_navigation"]
+        }
+      },
+      "breach_timer": {
+        "add": {
+          "component_groups": ["breach_timer"]
+        },
+        "remove": {
+          "component_groups": ["breach"]
+        },
+        "set_property": {
+          "cc:is_breaching": true
+        }
+      },
+      "stop_breach": {
+        "remove": {
+          "component_groups": ["breach_timer"]
+        },
+        "add": {
+          "component_groups": ["whale_swimming_navigation"]
+        },
+        "set_property": {
+          "cc:is_breaching": false
+        }
+      },
+      "stop_dryingout": {
+        "remove": {
+          "component_groups": ["whale_on_land", "whale_dried"]
+        },
+        "add": {
+          "component_groups": ["whale_on_land_in_rain"]
+        }
+      },
+      "start_dryingout": {
+        "remove": {
+          "component_groups": ["whale_on_land_in_rain"]
+        },
+        "add": {
+          "component_groups": ["whale_on_land"]
+        }
+      },
+      "dried_out": {
+        "add": {
+          "component_groups": ["whale_dried"]
+        }
+      },
+      "navigation_on_land": {
+        "add": {
+          "component_groups": ["whale_on_land"]
+        },
+        "remove": {
+          "component_groups": ["whale_swimming_navigation"]
+        }
+      },
+      "navigation_off_land": {
+        "add": {
+          "component_groups": ["whale_swimming_navigation"]
+        },
+        "remove": {
+          "component_groups": ["whale_on_land_in_rain", "whale_on_land", "whale_dried"]
+        }
+      },
+      "cc:shear_barnacles": {
+        "sequence": [
+          {
+            "queue_command": {
+              "command": ["playsound mob.sheep.shear @a[r=15] ~~~ 1 1 1", "particle cc:remove_barnacles ~~1~"]
+            }
+          },
+          {
+            "filters": [
+              {
+                "test": "int_property",
+                "domain": "cc:barnacle_state",
+                "subject": "self",
+                "operator": ">",
+                "value": 1
+              }
+            ],
+            "set_property": {
+              "cc:barnacle_state": "q.property('cc:barnacle_state') - 1"
+            }
+          },
+          {
+            "filters": [
+              {
+                "test": "int_property",
+                "domain": "cc:barnacle_state",
+                "subject": "self",
+                "operator": "==",
+                "value": 1
+              }
+            ],
+            "set_property": {
+              "cc:barnacle_state": "q.property('cc:barnacle_state') - 1"
+            },
+            "add": {
+              "component_groups": ["cc:barnacle_state_0"]
+            },
+            "remove": {
+              "component_groups": ["cc:has_barnacles"]
+            },
+            "queue_command": {
+              "command": ["particle cc:whale_tamed ~~1~"]
+            }
+          }
+        ]
+      },
+      "cc:persistence": {
+        "add": {
+          "component_groups": ["cc:persistence"]
+        }
+      }
+    }
+  }
+}

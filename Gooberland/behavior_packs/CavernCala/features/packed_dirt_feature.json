@@ -1,0 +1,127 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "generation:packed_dirt_feature"
+		},
+		"count": 99,
+		"replace_rules": [
+			{
+				"places_block": "block:packed_dirt",
+				"may_replace": [
+					"minecraft:stone"
+				]
+			},
+			{
+				"places_block": "block:packed_dirt",
+				"may_replace": [
+					"minecraft:granite"
+				]
+			},
+			{
+				"places_block": "block:packed_dirt",
+				"may_replace": [
+					"minecraft:andesite"
+				]
+			},
+			{
+				"places_block": "block:packed_dirt",
+				"may_replace": [
+					"minecraft:diorite"
+				]
+			},
+			{
+				"places_block": "block:packed_dirt",
+				"may_replace": [
+					"minecraft:tuff"
+				]
+			},
+			{
+				"places_block": "block:packed_dirt",
+				"may_replace": [
+					"minecraft:gravel"
+				]
+			},
+			{
+				"places_block": "block:packed_dirt",
+				"may_replace": [
+					{
+						"name": "minecraft:diamond_ore"
+					}
+				]
+			},
+			{
+				"places_block": "block:packed_dirt",
+				"may_replace": [
+					{
+						"name": "minecraft:iron_ore"
+					}
+				]
+			},
+			{
+				"places_block": "block:packed_dirt",
+				"may_replace": [
+					{
+						"name": "minecraft:gold_ore"
+					}
+				]
+			},
+			{
+				"places_block": "block:packed_dirt",
+				"may_replace": [
+					{
+						"name": "minecraft:redstone_ore"
+					}
+				]
+			},
+			{
+				"places_block": "block:packed_dirt",
+				"may_replace": [
+					{
+						"name": "minecraft:emerald_ore"
+					}
+				]
+			},
+			{
+				"places_block": "block:packed_dirt",
+				"may_replace": [
+					{
+						"name": "minecraft:copper_ore"
+					}
+				]
+			},
+			{
+				"places_block": "block:packed_dirt",
+				"may_replace": [
+					{
+						"name": "minecraft:coal_ore"
+					}
+				]
+			},
+			{
+				"places_block": "block:packed_dirt",
+				"may_replace": [
+					{
+						"name": "minecraft:lapis_ore"
+					}
+				]
+			},
+			{
+				"places_block": "block:packed_dirt",
+				"may_replace": [
+					{
+						"name": "ore:sulfur_ore"
+					}
+				]
+			},
+			{
+				"places_block": "block:packed_dirt",
+				"may_replace": [
+					{
+						"name": "ore:titanium_ore"
+					}
+				]
+			}
+		]
+	}
+}

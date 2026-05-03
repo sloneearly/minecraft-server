@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "top_gravel_cfdf4ec8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:gravel",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:top_gravel",
+      "count": 9
+    }
+  }
+}

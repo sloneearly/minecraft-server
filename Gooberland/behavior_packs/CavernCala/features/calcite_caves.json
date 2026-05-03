@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "gen:calcite_caves"
+		},
+		"features": [
+			"gen:calcite_patch_feature",
+			"gen:calcite_top",
+			"gen:calcite_spike1_feature",
+			"gen:calcite_spike2_feature"
+		]
+	}
+}

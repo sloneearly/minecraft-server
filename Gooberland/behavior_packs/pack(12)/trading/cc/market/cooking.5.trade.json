@@ -1,0 +1,586 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:apple_juice",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:orange_juice",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:grape_juice",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:lemonade",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:berry_smoothie",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:tropical_smoothie",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "mushroom_stew",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "beetroot_soup",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "rabbit_stew",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:vegetable_soup",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:tomato_soup",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:peanut_butter_jar",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 2
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:strawberry_jam_jar",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 2
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:beef_feast",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 4
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:chicken_feast",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 4
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:pork_feast",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 4
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:fish_feast",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 4
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:pbj_bread",
+                  "quantity": 3
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 5
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:peanut_butter_bread",
+                  "quantity": 3
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 3
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 5,
+              "wants": [
+                {
+                  "item": "cc:strawberry_jam_bread",
+                  "quantity": 3
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 3
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "mushroom_stew",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "beetroot_soup",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "rabbit_stew",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:vegetable_soup",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:tomato_soup",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 2
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:peanut_butter_jar",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 2
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:strawberry_jam_jar",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 4
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:beef_feast",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 4
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:chicken_feast",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 4
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:pork_feast",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 4
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:fish_feast",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 5
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:pbj_bread",
+                  "quantity": 3,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 3
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:peanut_butter_bread",
+                  "quantity": 3,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 3
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:strawberry_jam_bread",
+                  "quantity": 3,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

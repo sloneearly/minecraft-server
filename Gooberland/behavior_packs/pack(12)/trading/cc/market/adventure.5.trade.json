@@ -1,0 +1,980 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:pebbles",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:shells",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:pinecone",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:reed",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:duckweed",
+                  "quantity": 18
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:clover",
+                  "quantity": 32
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:lavender",
+                  "quantity": 48
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:blue_jungle_plant",
+                  "quantity": 4
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:floating_flower",
+                  "quantity": 4
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:lily_pad_flower",
+                  "quantity": 4
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:dry_grass",
+                  "quantity": 12
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:jungle_grass",
+                  "quantity": 12
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:desert_grass",
+                  "quantity": 12
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:pale_grass",
+                  "quantity": 12
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:mycelium_grass",
+                  "quantity": 12
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:hanging_birch_leaves",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:hanging_oak_leaves",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:hanging_palm_leaves",
+                  "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:hanging_swamp_leaves",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:liana",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:palm_sapling",
+                  "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 2
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:forest_bush",
+                  "quantity": 32
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 2
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:dry_bush",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 2
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:knotweed",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 2
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:cassowary_feather",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 3
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:crocodile_scute",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 3
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:scorpion_tail",
+                  "quantity": 2
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 6
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:shark_tooth",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 3
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:icicles",
+                  "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 3
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:dripice",
+                  "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 3
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:barnacles",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 3
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:daisy_carpet",
+                  "quantity": 32
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:jungle_carpet",
+                  "quantity": 32
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:deer_antler",
+                  "quantity": 3
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 4
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:moose_antler",
+                  "quantity": 3
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 6
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "turtle_egg",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 4
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:crocodile_boots",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 9
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:deer_antler_helmet",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 12
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:moose_antler_helmet",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 18
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:shark_tooth_chestplate",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 10
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:cassowary_egg",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 8
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:crocodile_egg",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 8
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 2,
+              "wants": [
+                {
+                  "item": "cc:penguin_egg",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 8
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 2
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:palm_sapling",
+                  "quantity": 8,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:pearl",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:daisy_carpet",
+                  "quantity": 32,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 4
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:deer_antler",
+                  "quantity": 3,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 6
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:moose_antler",
+                  "quantity": 3,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 4
+                }
+              ],
+              "gives": [
+                {
+                  "item": "turtle_egg",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 9
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:crocodile_boots",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "enchant_with_levels",
+                      "levels": {
+                        "min": 30,
+                        "max": 40
+                      }
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 12
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:deer_antler_helmet",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "enchant_with_levels",
+                      "levels": {
+                        "min": 30,
+                        "max": 40
+                      }
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 18
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:moose_antler_helmet",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "enchant_with_levels",
+                      "levels": {
+                        "min": 30,
+                        "max": 40
+                      }
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 10
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:shark_tooth_chestplate",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "enchant_with_levels",
+                      "levels": {
+                        "min": 30,
+                        "max": 40
+                      }
+                    }
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:cassowary_egg",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:crocodile_egg",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "weight": 3,
+              "wants": [
+                {
+                  "item": "cc:ruby",
+                  "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "cc:penguin_egg",
+                  "quantity": 1,
+                  "functions": [
+                  ]
+                }
+              ],
+              "max_uses": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

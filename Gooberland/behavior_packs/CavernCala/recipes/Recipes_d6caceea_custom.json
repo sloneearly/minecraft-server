@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_346774d3"
+    },
+    "tags": [
+      "soul_forge"
+    ],
+    "pattern": [
+      "ABA",
+      "CCC",
+      "CCC"
+    ],
+    "key": {
+      "A": {
+        "item": "block:compact_jasper_block",
+        "data": 0
+      },
+      "B": {
+        "item": "item:jasper_forging_template",
+        "data": 0
+      },
+      "C": {
+        "item": "sword:kyanite_kunai",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "sword:jasper_kunai",
+      "count": 64
+    }
+  }
+}

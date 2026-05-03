@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "uranium_glass_7ab4c140"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:glass",
+        "data": 0
+      },
+      "B": {
+        "item": "item:uranium_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:uranium_glass",
+      "count": 8
+    }
+  }
+}

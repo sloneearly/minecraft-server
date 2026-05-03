@@ -1,0 +1,79 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:coconut_spawner",
+            "menu_category": {
+                "category": "nature"
+            },
+            "states": {
+                "cc:grow_state": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            }
+        },
+        "components": {
+            "tag:ulkd_ess:tree_log_palm": {},
+            "tag:plant": {},
+            "tag:nonsolid": {},
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:geometry": "geometry.cube",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cc:coconut_grower",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#775329",
+            "cc:crop_grow": {},
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "can_contain_liquid": true,
+                        "liquid_type": "water",
+                        "on_liquid_touches": "blocking"
+                    }
+                ]
+            },
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "tag:minecraft:is_axe_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_axe')"
+                        },
+                        "destroy_speed": 2
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('cc:grow_state') == 4",
+                "components": {
+                    "cc:spawn_block": {}
+                }
+            },
+            {
+                "condition": "query.block_state('cc:grow_state') == 5",
+                "components": {
+                    "cc:spawn_block": {}
+                }
+            }
+        ]
+    }
+}

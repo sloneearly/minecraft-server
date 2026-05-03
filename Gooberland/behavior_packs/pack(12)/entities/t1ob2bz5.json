@@ -1,0 +1,69 @@
+{
+    "format_version": "1.21.40",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "cc:end_beam",
+            "is_experimental": false,
+            "is_spawnable": false,
+            "is_summonable": true,
+            "runtime_identifier": "snowball"
+        },
+        "component_groups": {
+            "remove": {
+                "minecraft:instant_despawn": {}
+            }
+        },
+        "components": {
+            "minecraft:projectile": {
+                "on_hit": {
+                    "impact_damage": {
+                        "damage": 3,
+                        "knockback": true
+                    },
+                    "remove_on_hit": {}
+                },
+                "anchor": 1,
+                "power": 2,
+                "gravity": 0.0,
+                "angle_offset": 0.0,
+                "inertia": 1,
+                "liquid_inertia": 1
+            },
+            "minecraft:collision_box": {
+                "height": 0.25,
+                "width": 0.25
+            },
+
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": "no"
+                    }
+                ]
+            },
+            "minecraft:health": {
+                "value": 1,
+                "max": 1,
+                "min": 1
+            },
+            "minecraft:timer": {
+                "time": 1.5,
+                "looping": true,
+                "time_down_event": {
+                    "event": "cc:remove",
+                    "target": "self"
+                }
+            }
+        },
+        "events": {
+            "cc:remove": {
+                "add": {
+                    "component_groups": [
+                        "remove"
+                    ]
+                }
+            }
+        }
+    }
+}

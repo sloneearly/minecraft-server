@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cc:berry_smoothie_jar"
+    },
+    "tags": ["cc:cooking_table"],
+    "pattern": ["&&&", "***", "#J#"],
+    "key": {
+      "J": {
+        "item": "cc:jar"
+      },
+      "#": {
+        "item": "minecraft:sweet_berries"
+      },
+      "*": {
+        "item": "cc:blue_berries"
+      },
+      "&": {
+        "item": "cc:strawberry"
+      }
+    },
+    "result": "cc:berry_smoothie_jar"
+  }
+}

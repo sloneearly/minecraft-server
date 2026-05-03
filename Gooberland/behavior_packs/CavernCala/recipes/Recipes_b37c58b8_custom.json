@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_6f88e573"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "item:kyanite_shard",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:tinted_glass",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:glass",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

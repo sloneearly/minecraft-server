@@ -1,0 +1,202 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cc.jungle_golem.throw": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2,
+			"bones": {
+				"rightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-46.1453, -12.8091, -12.025],
+						"0.8333": [-102.88, -4.27, -4.01],
+						"2.0": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -5, -5],
+						"0.8333": [0, 0, 0]
+					}
+				},
+				"leftArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-46.1453, 12.80911, 12.02501],
+						"0.8333": [-102.88, 4.27, 4.01],
+						"2.0": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -5, -5],
+						"0.8333": [0, 0, 0]
+					}
+				},
+				"waist": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [30, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.cc.jungle_golem.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"rightLeg": {
+					"rotation": {
+						"0.0": [-45, 0, 0],
+						"0.5": [45, 0, 0],
+						"1.0": [-45, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 0],
+						"0.75": [0, 5, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"leftLeg": {
+					"rotation": {
+						"0.0": [45, 0, 0],
+						"0.5": [-45, 0, 0],
+						"1.0": [45, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 5, 0],
+						"0.5": [0, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"rightArm": {
+					"rotation": {
+						"0.0": [67.5, 0, 0],
+						"0.5": [-45, 0, 0],
+						"1.0": [67.5, 0, 0]
+					}
+				},
+				"leftArm": {
+					"rotation": {
+						"0.0": [-45, 0, 0],
+						"0.5": [67.5, 0, 0],
+						"1.0": [-45, 0, 0]
+					}
+				},
+				"waist": {
+					"rotation": {
+						"0.0": [0, 0, -5],
+						"0.5": [0, 0, 5],
+						"1.0": [0, 0, -5]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0833": [0, -1, 0],
+						"0.5": [0, 0, 0],
+						"0.5833": [0, -1, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.1667": {
+					"effect": "step"
+				},
+				"0.6667": {
+					"effect": "step"
+				}
+			},
+			"particle_effects": {
+				"0.1667": {
+					"effect": "step",
+					"locator": "step1"
+				},
+				"0.6667": {
+					"effect": "step",
+					"locator": "step2"
+				}
+			}
+		},
+		"animation.cc.jungle_golem.idle": {
+			"loop": true,
+			"animation_length": 6,
+			"bones": {
+				"rightArm": {
+					"position": {
+						"0.0": [0, 1, 0],
+						"2.0": [0, 0, 0],
+						"4.0": [0, 1, 0],
+						"6.0": [0, 0, 0]
+					}
+				},
+				"leftArm": {
+					"position": {
+						"0.0": [0, 1, 0],
+						"2.0": [0, 0, 0],
+						"4.0": [0, 1, 0],
+						"6.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.cc.jungle_golem.look_at_target": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": ["q.target_x_rotation", "q.target_y_rotation", 0]
+				}
+			}
+		},
+		"animation.cc.jungle_golem.ground_smash": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"waist": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [-47.5, 0, 0],
+						"0.5": [45, 0, 0]
+					}
+				},
+				"leftArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [-145, 0, 0],
+						"0.5": [-97.5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -8, -3]
+					}
+				},
+				"rightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [-145, 0, 0],
+						"0.5": [-97.5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -8, -3]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.5": {
+					"effect": "ground_smash"
+				}
+			},
+			"particle_effects": {
+				"0.5": {
+					"effect": "ground_smash",
+					"locator": "ground_smash",
+					"pre_effect_script": "variable.dig_particle_texture_coordinate = query.surface_particle_texture_coordinate; variable.dig_particle_texture_size = query.surface_particle_texture_size; variable.dig_particle_color = query.surface_particle_color;"
+				}
+			}
+		}
+	}
+}

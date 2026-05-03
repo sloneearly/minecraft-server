@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "titanium_clarinet_27daae21"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA ",
+      "AA ",
+      "  A"
+    ],
+    "key": {
+      "A": {
+        "item": "item:titanium_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:titanium_clarinet",
+      "count": 1
+    }
+  }
+}

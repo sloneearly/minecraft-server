@@ -1,0 +1,24 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "cc:mangrove_wall_plank",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "%cc.mangrove_wall_plank\n%cc.category.furniture"
+            },
+            "minecraft:fuel": {
+                "duration": 4
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:block_placer": {
+                "replace_block_item": true,
+                "block": "cc:mangrove_wall_plank"
+            }
+        }
+    }
+}

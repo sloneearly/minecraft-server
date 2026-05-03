@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rose_gold_kunai_c77d81c6"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  B",
+      " B ",
+      "c  "
+    ],
+    "key": {
+      "B": {
+        "item": "item:rose_gold_ingot",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "sword:rose_gold_kunai",
+      "count": 10
+    }
+  }
+}

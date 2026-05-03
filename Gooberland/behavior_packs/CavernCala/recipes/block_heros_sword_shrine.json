@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "heros_sword_shrine_ed17576a"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "key": {
+      "B": {
+        "item": "sword:heros_sword",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:cobblestone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:heros_sword_shrine",
+      "count": 1
+    }
+  }
+}

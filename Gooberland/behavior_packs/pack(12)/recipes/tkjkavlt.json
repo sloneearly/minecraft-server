@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cc:strawberry_jam_jar"
+    },
+    "tags": ["cc:cooking_table"],
+    "pattern": ["&&&", "***", "#J#"],
+    "key": {
+      "J": {
+        "item": "cc:jar"
+      },
+      "#": {
+        "item": "minecraft:sugar"
+      },
+      "*": {
+        "item": "cc:strawberry"
+      },
+      "&": {
+        "item": "cc:strawberry"
+      }
+    },
+    "result": "cc:strawberry_jam_jar"
+  }
+}

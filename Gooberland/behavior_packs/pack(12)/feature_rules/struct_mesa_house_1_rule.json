@@ -1,0 +1,46 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:struct_mesa_house_1_rule",
+      "places_feature": "cc:struct_mesa_house_1_feature"
+    },
+    "conditions": {
+      "placement_pass": "first_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "mesa"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:crag"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:volcanic_plains"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:jade_cliffs"
+            }
+          ],
+          "none_of": []
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 0.2,
+      "x": "-16",
+      "y": "((Math.pow(q.heightmap(v.originx, v.originz) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx - 16, v.originz - 16) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx - 16, v.originz + 16) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx + 16, v.originz - 16) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx + 16, v.originz + 16) - q.heightmap(v.originx, v.originz), 2)) / 4) <= 5 && q.heightmap(v.originx, v.originz) > 63 && q.heightmap(v.originx - 16, v.originz - 16) > 63 && q.heightmap(v.originx - 16, v.originz + 16) > 63 && q.heightmap(v.originx + 16, v.originz - 16) > 63 && q.heightmap(v.originx + 16, v.originz + 16) > 63 ? (q.heightmap(v.originx, v.originz) + q.heightmap(v.originx - 16, v.originz - 16) + q.heightmap(v.originx - 16, v.originz + 16) + q.heightmap(v.originx + 16, v.originz - 16) + q.heightmap(v.originx + 16, v.originz + 16)) / 5 - 4 : -9999",
+      "z": "-16"
+    }
+  }
+}

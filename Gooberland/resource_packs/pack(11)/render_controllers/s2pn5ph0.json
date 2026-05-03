@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.cc.end_cyclops": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "material.default"
+                },
+                {
+                    "beam": "material.outline_base"
+                },
+                {
+                    "outline": "material.outline"
+                }
+            ],
+            "textures": [
+                "Texture.default"
+            ]
+        }
+    }
+}

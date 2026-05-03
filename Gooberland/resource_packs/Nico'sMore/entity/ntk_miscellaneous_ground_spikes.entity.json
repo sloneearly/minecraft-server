@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ntk:miscellaneous_ground_spikes",
+      //"enable_attachables": true,
+      /*"spawn_egg": {
+        "texture": "ntk_spawn_egg_ground_spikes"
+      },*/
+      "render_controllers": [
+        "controller.render.miscellaneous.ntk_ground_spikes"
+      ],
+      "geometry": {
+        "default": "geometry.miscellaneous.ntk_ground_spikes"
+      },
+      "materials": {
+        "default": "ntk_entity_alpha_animated"
+      },
+      "textures": {
+        "variant_0_miscellaneous_ground_spikes": "textures/misc/ntk_ground_spikes"
+      },
+      "animations": {
+        "controller_combat": "controller.animation.miscellaneous.ntk_ground_spikes.combat",
+        "attack_melee": "animation.miscellaneous.ntk_ground_spikes.attack_melee"
+      },
+      "scripts": {
+				"animate": [
+				  "controller_combat"
+				]
+			}
+    }
+  }
+}

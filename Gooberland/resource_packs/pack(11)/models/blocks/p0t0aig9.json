@@ -1,0 +1,73 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.lily_pad_flower",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-3.00038, 0.45008, -1],
+							"size": [5, 0, 5],
+							"pivot": [-1.00038, 0.45008, -1],
+							"rotation": [0, -90, 22.5],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [5, 5], "material_instance": "flower"}
+							}
+						},
+						{
+							"origin": [-0.99962, 0.45008, -1],
+							"size": [5, 0, 5],
+							"pivot": [2.00038, 0.45008, -1],
+							"rotation": [0, 90, -22.5],
+							"uv": {
+								"up": {"uv": [5, 0], "uv_size": [-5, 5], "material_instance": "flower"}
+							}
+						},
+						{
+							"origin": [-3, 0.45008, -2.00038],
+							"size": [5, 0, 5],
+							"pivot": [0, 0.45008, -2.00038],
+							"rotation": [-157.5, 0, -180],
+							"uv": {
+								"up": {"uv": [5, 0], "uv_size": [-5, 5], "material_instance": "flower"}
+							}
+						},
+						{
+							"origin": [-3, 0.45008, -3.99962],
+							"size": [5, 0, 5],
+							"pivot": [0, 0.45008, 1.00038],
+							"rotation": [157.5, 0, -180],
+							"uv": {
+								"up": {"uv": [5, 5], "uv_size": [-5, -5], "material_instance": "flower"}
+							}
+						},
+						{
+							"origin": [-8, 0.25, -8],
+							"size": [16, 0, 16],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [16, 16]}
+							}
+						},
+						{
+							"origin": [-1, 0.45, -2],
+							"size": [3, 0, 3],
+							"uv": {
+								"up": {"uv": [10, 10], "uv_size": [-3, -3], "material_instance": "flower"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

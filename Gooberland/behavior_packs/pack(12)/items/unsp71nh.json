@@ -1,0 +1,47 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cc:stone_javelin",
+      "menu_category": {
+        "category": "equipment",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:icon": "cc:stone_javelin",
+      "minecraft:use_animation": "spear",
+      "minecraft:use_modifiers": {
+        "use_duration": 3600,
+        "movement_modifier": 0.32
+      },
+      "minecraft:enchantable": {
+        "value": 8,
+        "slot": "sword"
+      },
+      "minecraft:durability": {
+        "max_durability": 132
+      },
+      "minecraft:damage": {
+        "value": 4
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_trident",
+          "minecraft:stone_tier",
+          "minecraft:is_sword"
+        ]
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["minecraft:cobblestone"],
+            "repair_amount": "Math.floor(132 * 0.25)"
+          }
+        ]
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:can_destroy_in_creative": false
+    }
+  }
+}

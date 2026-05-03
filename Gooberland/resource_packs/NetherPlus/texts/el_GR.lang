@@ -1,0 +1,140 @@
+##Entidades
+entity.tt:creeper_magmatico_retorcido.name=Warped Magmatic Creeper
+entity.tt:creeper_magmatico.name=Magmatic Creeper
+entity.tt:pig_nethercandy.name=Crimson Pig 
+entity.tt:pig_nethercandy2.name=Warped Pig
+entity.tt:pig_nethercandy3.name=Basalt Pig
+entity.tt:pig_nethercandy4.name=Soul Sand Pig
+entity.tt:golem_carmesi.name=Golem Crimson 
+entity.tt:golem_carmesi2.name=Golem Semi-Crimson
+entity.tt:golem_retorcido.name=Golem Warped 
+entity.tt:golem_retorcido2.name=Golem Semi-Warped 
+entity.tt:cthulhu.name=Cthulhu Eye  
+entity.tt:demonio.name=Demonic Ghast Blue
+entity.tt:demonio_blood.name=Demonic Ghast Blood
+entity.tt:hongo_carmesi.name=Mushroom Crimson Pet
+entity.tt:hongo_torcido.name=Mushroom Warped Pet
+entity.tt:hongo_torcidoblack.name=Mushroom Warped Black
+entity.tt:hongo_carmesiblack.name=Mushroom Crimson Black
+entity.tt:blazebasalto.name=Basalt Blaze
+entity.tt:blazecarmesi.name=Crimson Blaze
+entity.tt:blazesould.name=Soul Sand Blaze
+entity.tt:blazeretorcido.name=Warped Blaze
+entity.tt:petcarmesi.name=Pet §4Crimson  
+entity.tt:pettwisted.name=Pet §bWarped  
+entity.tt:bloodymeat.name=Bloody Meat
+entity.tt:petblackstone.name=Pet Blackstone
+entity.tt:infernalgolem.name=Infernal Golem
+entity.tt:twistedcreeper.name=Warped Creeper
+entity.tt:crimsoncreeper.name=Crimson Creeper
+entity.tt:creepycreeper.name=Creepycreeper
+entity.tt:soulstrider.name=Soul Strider
+entity.tt:creeper_pet_crimson.name=Crimson Creeper Pet
+entity.tt:creeper_pet_twisted.name=Warped Creeper Pet
+entity.tt:fulgor.name=Magmatic Glow
+entity.tt:glare.name=Glare
+
+##Blocks
+
+tile.tt:black_blood_ore.name=Basalt Blood Ore 
+tile.tt:black_nether_gold_ore.name=Blackstone Gold Ore 
+tile.tile.tt:black_netherrack.name=Black Netherrack 
+tile.tt:black_quartz_ore.name=Basalt Quartz Ore 
+tile.tt:blood_block.name=Blood Block 
+tile.tt:blood_ore.name=Blood Ore 
+tile.tt:bricks_basalt.name=Bricks Basalt 
+tile.tt:bricks_black_netherrack.name=Bricks Black Netherrack 
+tile.tt:bricks_netherrack.name=Bricks Netherrack 
+tile.tt:circular_basalt.name=Circular Basalt 
+tile.tt:circular_black_netherrack.name=Circular Black Netherrack 
+tile.tt:circular_netherrack.name=Circular Netherrack 
+tile.tt:magma_basalt.name=Magma Basalt 
+tile.tt:magma_blackstone.name=Magma Blackstone 
+tile.tt:magma_obsidian.name=Magma Obsidian 
+tile.tt:mosaic_basalt.name=Mosaic Basalt 
+tile.tt:mosaic_black_netherrack.name=Mosaic Black Netherrack 
+tile.tt:mosaic_netherrack.name=Mosaic Netherrack 
+tile.tt:pillarside_basalt.name=Pillarside Basalt 
+tile.tt:pillarside_black_netherrack.name=Pillarside Black Netherrack 
+tile.tt:pillarside_netherrack.name=Pillarside Netherrack 
+tile.tt:tiles_medium_basalt.name=Tiles Medium Basalt 
+tile.tt:tiles_medium_black_netherrack.name=Tiles Medium Black Netherrack 
+tile.tt:tiles_medium_netherrack.name=Tiles Medium Netherrack 
+tile.tt:black_netherrack.name=Black Netherrack 
+tile.tt:glowmushroom.name=§6Glowmushroom 
+tile.tt:pilarvolcano.name=§6Pilar Volcanico 
+
+##items
+item.spawn_egg.entity.tt:creeper_magmatico.name=§6Magmatic Creeper
+item.spawn_egg.entity.tt:creeper_magmatico_retorcido.name=§6Warped Magmatic Creeper
+item.spawn_egg.entity.tt:creeper_pet_crimson.name=§6Crimson Creeper Pet
+item.spawn_egg.entity.tt:creeper_pet_twisted.name=§6Warped Creeper Pet
+item.spawn_egg.entity.tt:soulstrider.name=§6Soul Strider
+item.spawn_egg.entity.tt:creepycreeper.name=§6Creepy Creeper
+item.spawn_egg.entity.tt:infernalgolem.name=§6Infernal §8Golem
+item.spawn_egg.entity.tt:crimsoncreeper.name=§6Crimson Creeper 
+item.spawn_egg.entity.tt:twistedcreeper.name=§6Warped Creeper
+item.spawn_egg.entity.tt:bloodymeat.name=§4Bloody Meat
+item.spawn_egg.entity.tt:petcarmesi.name=§4Crimson §6Pet
+item.spawn_egg.entity.tt:pettwisted.name=§bWarped §6Pet
+item.spawn_egg.entity.tt:petblackstone.name=§8Blackstone §6Pet
+item.spawn_egg.entity.tt:blazecarmesi.name=§6Crimson Blaze
+item.spawn_egg.entity.tt:blazesould.name=§6Soul Sand Blaze
+item.spawn_egg.entity.tt:blazeretorcido.name=§6Warped Blaze
+item.spawn_egg.entity.tt:blazebasalto.name=§6Basalt Blaze
+item.spawn_egg.entity.tt:demonio.name=§6Demonic Ghast Blue
+item.spawn_egg.entity.tt:demonio_blood.name=§6Demonic Ghast Bloody
+item.spawn_egg.entity.tt:cthulhu.name=§6Cthulhu Eye
+item.spawn_egg.entity.tt:golem_carmesi.name=§6Crimson Golem
+item.spawn_egg.entity.tt:golem_carmesi2.name=§6Golem Semi-Crimson Beta 
+item.spawn_egg.entity.tt:golem_retorcido.name=§6Warped Golem
+item.spawn_egg.entity.tt:golem_retorcido2.name=§6Golem Semi-Warped Beta
+item.spawn_egg.entity.tt:hongo_carmesi.name=§aCrimson Mushroom Pet
+item.spawn_egg.entity.tt:hongo_torcidoblack.name=§6Warped Mushroom Black
+item.spawn_egg.entity.tt:hongo_carmesiblack.name=§6Crimson Mushroom Black
+item.spawn_egg.entity.tt:hongo_torcido.name=§aMushroom Warped Pet
+item.spawn_egg.entity.tt:pig_nethercandy.name=§6Crimson Pig
+item.spawn_egg.entity.tt:pig_nethercandy2.name=§6Warped Pig
+item.spawn_egg.entity.tt:pig_nethercandy3.name=§6Basalt Pig
+item.spawn_egg.entity.tt:pig_nethercandy4.name=§6Soul Sand Pig  
+item.spawn_egg.entity.tt:fulgor.name=§6Magmatic Glow
+item.spawn_egg.entity.tt:glare.name=§4Glare
+
+item.tt:blood=§4Blood 
+item.tt:basalt_rod=§8Basalt Rod 
+item.tt:crimson_rod=§4Crimson Rod 
+item.tt:soul_rod=§bSoul Sand Rod 
+item.tt:warped_rod=§5Warped Rod 
+
+item.tt:crimson_helmet=§6Crimson Netherite Helmet 
+item.tt:crimson_chestplate=§6Crimson Netherite Chestplate 
+item.tt:crimson_leggings=§6Crimson Netherite Leggings 
+item.tt:crimson_boots=§6Crimson Netherite Boots 
+
+entity.villager.glare=§4Glare Shop
+
+item.tt:mazo_basalt=§dBasalt Mace 
+item.tt:mazo_twisted=§dWarped Mace 
+item.tt:mazo_carmesi=§dCrimson Mace 
+item.tt:mazo_soul=§dSoul Mace 
+
+item.tt:black_paper=§0Black §6Paper
+
+##Emotes
+
+##Grass 
+##BasaltMob 
+##CrimsonMob 
+##WarpedMob 
+##MagmaMob 
+##GlowStone 
+##Blocks 
+##SoulMob 
+##NetherPlus 
+##Nieve 
+##Hielo 
+##Items 
+##Armor!
+##WEAPONS!
+##AMARILLO 
+##Rojo 

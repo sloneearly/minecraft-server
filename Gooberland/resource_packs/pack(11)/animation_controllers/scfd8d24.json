@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cc.casting": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "casting": "q.is_casting"
+            }
+          ],
+          "blend_transition": 0.25
+        },
+        "casting": {
+          "animations": ["casting"],
+          "blend_transition": 0.25,
+          "transitions": [
+            {
+              "default": "!q.is_casting"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

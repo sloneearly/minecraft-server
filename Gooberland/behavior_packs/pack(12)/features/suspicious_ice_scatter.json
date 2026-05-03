@@ -1,0 +1,25 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "cc:suspicious_ice_scatter"
+    },
+    "places_feature": "cc:suspicious_ice_block_1",
+    "iterations": 300,
+    "x": {
+      "distribution": "uniform",
+      "extent": [
+        -16,
+        16
+      ]
+    },
+    "y": "0",
+    "z": {
+      "distribution": "uniform",
+      "extent": [
+        -16,
+        16
+      ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cc.raven.fly": {
+			"loop": true,
+			"animation_length": 1,
+			"anim_time_update": "math.clamp(q.anim_time + (q.vertical_speed * 0.3) * q.delta_time, query.anim_time + 0.8 * query.delta_time, query.anim_time + 2 * query.delta_time)",
+			"bones": {
+				"torso": {
+					"rotation": ["25 -query.target_x_rotation", 0, 0]
+				},
+				"leftWing": {
+					"rotation": {
+						"0.0": [-98.78772, 32.9453, -104.1306],
+						"0.5": [-77.75106, 7.14788, -48.46386],
+						"1.0": [-98.78772, 32.9453, -104.1306]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [42.5, 0, 0],
+						"0.5": [62.5, 0, 0],
+						"1.0": [42.5, 0, 0]
+					},
+					"position": [0, 0, -1]
+				},
+				"rightWing": {
+					"rotation": {
+						"0.0": [-98.78772, -32.9453, 104.1306],
+						"0.5": [-77.75106, -7.14788, 48.46386],
+						"1.0": [-98.78772, -32.9453, 104.1306]
+					}
+				},
+				"leftLeg": {
+					"rotation": [90, 0, 0],
+					"position": [0, 0, -3]
+				},
+				"rightLeg": {
+					"rotation": [90, 0, 0],
+					"position": [0, 0, -3]
+				}
+			}
+		}
+	}
+}

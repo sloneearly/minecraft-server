@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:fallen_icicles",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "geometry": {
+        "default": "geometry.cc.cross.fallen"
+      },
+      "render_controllers": ["controller.render.cc.common"],
+      "textures": {
+        "default": "textures/cc/foliage/blocks/icicles"
+      }
+    }
+  }
+}

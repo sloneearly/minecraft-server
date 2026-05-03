@@ -1,0 +1,14 @@
+
+{
+	"format_version": "1.20.30",
+	"animations": {
+        "animation.cc.common.eye": {
+            "loop": true,
+            "bones" : {
+                "eye" : {
+                    "position" : [ "-query.target_y_rotation * 0.012", "-query.target_x_rotation * 0.0012", 0 ]
+                }
+            }
+        }        
+	}
+}

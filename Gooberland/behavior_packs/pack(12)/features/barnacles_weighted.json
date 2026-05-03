@@ -1,0 +1,82 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "cc:barnacles_weighted"
+    },
+    "features": [
+      [
+        "cc:barnacles_block_1",
+        1
+      ],
+      [
+        "cc:barnacles_block_2",
+        1
+      ],
+      [
+        "cc:barnacles_block_3",
+        1
+      ],
+      [
+        "cc:barnacles_block_4",
+        1
+      ],
+      [
+        "cc:barnacles_block_5",
+        1
+      ],
+      [
+        "cc:barnacles_block_6",
+        1
+      ],
+      [
+        "cc:barnacles_block_7",
+        1
+      ],
+      [
+        "cc:barnacles_block_8",
+        1
+      ],
+      [
+        "cc:barnacles_block_9",
+        1
+      ],
+      [
+        "cc:barnacles_block_10",
+        1
+      ],
+      [
+        "cc:barnacles_block_11",
+        1
+      ],
+      [
+        "cc:barnacles_block_12",
+        1
+      ],
+      [
+        "cc:barnacles_block_13",
+        1
+      ],
+      [
+        "cc:barnacles_block_14",
+        1
+      ],
+      [
+        "cc:barnacles_block_15",
+        1
+      ],
+      [
+        "cc:barnacles_block_16",
+        1
+      ],
+      [
+        "cc:barnacles_block_17",
+        1
+      ],
+      [
+        "cc:barnacles_block_18",
+        1
+      ]
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "cc:palm_log_jungle"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "cc:palm_log"
+      }
+    ],
+    "result": {
+      "item": "minecraft:jungle_planks",
+      "count": 4
+    }
+  }
+}

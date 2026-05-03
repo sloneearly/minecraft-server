@@ -1,0 +1,218 @@
+{
+	"format_version": "1.18.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ancients:pillar_item",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			
+			"despawn": {
+				"minecraft:transformation": {
+					"into": "ancients:instant_despawn",
+					"drop_equipment": true,
+					"drop_inventory": true
+				}
+			},
+			"die": {
+				"minecraft:transformation": {
+					"into": "ancients:instant_despawn",
+					"drop_equipment": false,
+					"drop_inventory": false
+				}
+			},
+			"ancient_mystic_bark": {
+				"minecraft:equipment": {
+					"table": "loot_tables/loot.json"
+				}
+			},
+			"runic_apple": {
+				"minecraft:equipment": {
+					"table": "loot_tables/runic_apple.json"
+				}
+			},
+			"runic_essence": {
+				"minecraft:equipment": {
+					"table": "loot_tables/runic_essence.json"
+				}
+			},
+			"runic_essence_dust": {
+				"minecraft:equipment": {
+					"table": "loot_tables/runic_essence_dust.json"
+				}
+			},
+			"ancient_rune": {
+				"minecraft:equipment": {
+					"table": "loot_tables/ancient_rune.json"
+				}
+			},
+			"glowstone_dust": {
+				"minecraft:equipment": {
+					"table": "loot_tables/glowstone_dust.json"
+				}
+			},
+			"iron_amulet": {
+				"minecraft:equipment": {
+					"table": "loot_tables/iron_amulet.json"
+				}
+			},
+			"golden_apple": {
+				"minecraft:equipment": {
+					"table": "loot_tables/golden_apple.json"
+				}
+			},
+			"runic_staff": {
+				"minecraft:equipment": {
+					"table": "loot_tables/runic_staff.json"
+				}
+			},
+			"ancient_rune_charged": {
+				"minecraft:equipment": {
+					"table": "loot_tables/ancient_rune_charged.json"
+				}
+			},
+			"forest_guardian_mask": {
+				"minecraft:equipment": {
+					"table": "loot_tables/forest_guardian_mask.json"
+				}
+			}
+		},
+		"components": {
+			"minecraft:despawn": {
+				"despawn_from_inactivity": false
+			},
+			"minecraft:block_sensor": {
+				"sensor_radius": 1,
+				"on_break": [
+					{
+						"block_list": [
+							"ancients:ancient_forest_pillar", "ancients:ancient_forest_pillar_cracked", "ancients:ancient_forest_pillar_mossy", "ancients:ancient_forest_altar"
+						],
+						"on_block_broken": "block_on_break"
+					}
+				]
+			},
+			"minecraft:type_family": {
+				"family": [
+					"pillar",
+					"inanimate",
+					"mob"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0.3,
+				"height": 1.2
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1,
+                "min": 1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1.0
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"block_on_break": {
+				"add": {
+					"component_groups": ["despawn"]
+				}
+			},
+			"die": {
+				"add": {
+					"component_groups": ["die"]
+				}
+			},
+			"ancient_bark": {
+				"add": {
+					"component_groups": ["ancient_mystic_bark"]
+				}
+			},
+			"runic_apple": {
+				"add": {
+					"component_groups": ["runic_apple"]
+				}
+			},
+			"runic_essence": {
+				"add": {
+					"component_groups": ["runic_essence"]
+				}
+			},
+			"runic_essence_dust": {
+				"add": {
+					"component_groups": ["runic_essence_dust"]
+				}
+			},
+			"ancient_rune": {
+				"add": {
+					"component_groups": ["ancient_rune"]
+				}
+			},
+			"glowstone_dust": {
+				"add": {
+					"component_groups": ["glowstone_dust"]
+				}
+			},
+			"iron_amulet": {
+				"add": {
+					"component_groups": ["iron_amulet"]
+				}
+			},
+			"golden_apple": {
+				"add": {
+					"component_groups": ["golden_apple"]
+				}
+			},
+			"ancient_rune_charged": {
+				"add": {
+					"component_groups": ["ancient_rune_charged"]
+				}
+			},
+			"runic_staff": {
+				"add": {
+					"component_groups": ["runic_staff"]
+				}
+			},
+			"forest_guardian_mask": {
+				"add": {
+					"component_groups": ["forest_guardian_mask"]
+				}
+			}
+		}
+	}
+}

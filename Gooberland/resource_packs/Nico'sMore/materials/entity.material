@@ -1,0 +1,27 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "ntk_entity_alpha_animated:entity_alphatest": {
+      "+defines": [ "USE_UV_ANIM", "USE_EMISSIVE" ]
+    },
+    "ntk_entity_emissive_alpha:entity_emissive_alpha": {},
+    
+    "ntk_item_emissive_alpha:entity_emissive_alpha": {},
+    "ntk_item_emissive_alpha_animated:entity_emissive_alpha": {
+      "+defines": [ "USE_UV_ANIM", "USE_EMISSIVE" ]
+    },
+    "ntk_item_emissive_nocull_alpha:entity_nocull": {
+      "+defines": [ "ALPHA_TEST", "USE_EMISSIVE" ],
+      "+samplerStates": [
+        {
+          "samplerIndex": 1,
+          "textureWrap": "Repeat"
+        }
+      ],
+      "msaaSupport": "Both"
+    },
+    
+    "ntk_projectile_alpha:entity_alphatest": {},
+    "ntk_projectile_emissive_alpha:entity_emissive_alpha": {}
+  }
+}

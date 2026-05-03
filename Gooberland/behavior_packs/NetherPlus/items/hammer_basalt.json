@@ -1,0 +1,46 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "tt:mazo_basalt",
+            "menu_category": {
+                "category": "equipment",
+                "is_hidden_in_commands": false 
+            }
+		},
+		"components": {
+			"minecraft:icon":{
+				"textures":{
+				   "default":"mazo_basalt"
+				}
+			 },
+			"minecraft:display_name": {
+				"value": "§dBasalt Mace  \n\n§r§9 Grants you the Fire Protection effect."
+			},
+			"minecraft:damage": {
+				"value": 10
+			},
+			"minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": ["tt:basalt_rod"],
+						"repair_amount": 525
+                    }
+                ]
+            },
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:glint": true,
+			"minecraft:allow_off_hand": true,
+			"minecraft:hand_equipped": true,
+			"minecraft:stacked_by_data": false,
+			"minecraft:max_stack_size": 1,
+			"minecraft:durability": {
+				"max_durability": 2100,
+				"damage_chance": {
+					"min": 1,
+					"max": 1
+				}
+			}
+	    }
+	}
+}

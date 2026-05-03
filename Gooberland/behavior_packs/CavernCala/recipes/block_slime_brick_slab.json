@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "slime_brick_slab_7a1aebcc"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:slime_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:slime_brick_slab",
+      "count": 6
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cc.forest_wizard.casting": {
+			"loop": true,
+			"bones": {
+				"arms": {
+					"scale": 0
+				},
+				"leftArm": {
+					"rotation": ["math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "-135.0 - this"],
+					"scale": 1
+				},
+				"rightArm": {
+					"rotation": ["math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "135.0 - this"],
+					"scale": 1
+				}
+			}
+		},
+		"animation.cc.forest_wizard.general": {
+			"loop": true,
+			"bones": {
+				"arms": {
+					"rotation": ["-42.97 - this", "- this", "- this"],
+					"position": [0, "-1 - this", "-1 - this"],
+					"scale": 1
+				},
+				"leftArm": {
+					"scale": 0
+				},
+				"rightArm": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.cc.forest_wizard.move": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"leg0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": {
+							"pre": [30, 0, 0],
+							"post": [30, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.75": {
+							"post": [-30, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.0": [0, 0, 0]
+					}
+				},
+				"leg1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": {
+							"pre": [-30, 0, 0],
+							"post": [-30, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.75": {
+							"post": [30, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.cc.forest_wizard.projectile": {
+			"animation_length": 1,
+			"loop": "hold_on_last_frame",
+			"particle_effects": {
+				"0.0": {
+					"effect": "particle"
+				}
+			}
+		},
+		"animation.cc.forest_wizard.shoot": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2,
+			"bones": {
+				"rightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": {
+							"pre": [45, 0, 0],
+							"post": [45, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.75": {
+							"post": [-104.03271, -26.79524, 6.42848],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5": [0, 0, 0]
+					}
+				},
+				"leftArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": {
+							"pre": [45, 0, 0],
+							"post": [45, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.75": {
+							"post": [-104.35885, 29.21893, -7.12284],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.cc.forest_wizard.arms": {
+			"loop": true,
+			"bones": {
+				"arms": {
+					"scale": 0
+				}
+			}
+		}
+	}
+}

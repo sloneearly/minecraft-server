@@ -1,0 +1,267 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cc:thin_oak_log",
+            "menu_category": {
+                "category": "nature"
+            },
+            "states": {
+                "cc:corner": [
+                    false,
+                    true
+                ]
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face",
+                        "minecraft:vertical_half"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "none"
+            },
+            "tag:ulkd_ess:tree_log_oak": {},
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.cc.thin_log"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "oak_log_side",
+                    "render_method": "opaque"
+                },
+                "top": {
+                    "texture": "cc:oak_log_top",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -4,
+                    0,
+                    -4
+                ],
+                "size": [
+                    8,
+                    16,
+                    8
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -4,
+                    0,
+                    -4
+                ],
+                "size": [
+                    8,
+                    16,
+                    8
+                ]
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#623F24",
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "can_contain_liquid": true,
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "tag:minecraft:is_axe_item_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "query.all_tags('minecraft:is_axe')"
+                        },
+                        "destroy_speed": 2
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('cc:corner') == 1",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:geometry": {
+                        "identifier": "geometry.cc.thin_log.corner"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -4,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            8,
+                            16,
+                            12
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -4,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            8,
+                            16,
+                            12
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north' ",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east'",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') != 'up' && q.block_state('minecraft:block_face') != 'down' && q.block_state('cc:corner') == 0",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:geometry": {
+                        "identifier": "geometry.cc.thin_log.flat"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -4,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            8,
+                            8,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -4,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            8,
+                            8,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') != 'up' && q.block_state('minecraft:block_face') != 'down' && q.block_state('cc:corner') == 0 && q.block_state('minecraft:vertical_half') == 'top'",
+                "components": {
+                    "minecraft:precipitation_interactions": {
+                        "precipitation_behavior": "none"
+                    },
+                    "minecraft:geometry": {
+                        "identifier": "geometry.cc.thin_log.flat.top"
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -4,
+                            8,
+                            -8
+                        ],
+                        "size": [
+                            8,
+                            8,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -4,
+                            8,
+                            -8
+                        ],
+                        "size": [
+                            8,
+                            8,
+                            16
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

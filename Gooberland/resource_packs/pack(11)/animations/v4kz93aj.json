@@ -1,0 +1,19 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cc_hc.charger.particle": {
+			"loop": true,
+			"animation_length": 0.2,
+			"particle_effects": {
+				"0.0": {
+					"locator": "emitter",
+					"effect": "fog"
+				},
+				"0.1": {
+					"locator": "face",
+					"effect": "face"
+				}
+			}
+		}
+	}
+}

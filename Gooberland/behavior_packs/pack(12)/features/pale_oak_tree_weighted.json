@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "cc:pale_oak_tree_weighted"
+    },
+    "features": [
+      [
+        "cc:pale_oak_tree_scatter_1",
+        1
+      ],
+      [
+        "cc:pale_oak_tree_scatter_2",
+        1
+      ],
+      [
+        "cc:pale_oak_tree_scatter_3",
+        1
+      ],
+      [
+        "cc:pale_oak_tree_scatter_4",
+        1
+      ]
+    ]
+  }
+}

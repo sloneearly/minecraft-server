@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "minecraft:cherry_grove"
+    },
+    "components": {
+      "minecraft:water_appearance": {
+        "surface_color": "#5db7ef"
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "cc:cherry_fog"
+      },
+      "minecraft:water_identifier": {
+        "water_identifier": "cc:default_water"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#b6db61"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#b6db61"
+      }
+    }
+  }
+}

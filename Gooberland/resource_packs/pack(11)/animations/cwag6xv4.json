@@ -1,0 +1,84 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cc.owl.walk": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"leftLeg": {
+					"position": {
+						"0.0": [0, 0, -1],
+						"0.25": [0, 0, 1],
+						"0.5": [0, 0, -1]
+					}
+				},
+				"rightLeg": {
+					"position": {
+						"0.0": [0, 0, 1],
+						"0.25": [0, 0, -1],
+						"0.5": [0, 0, 1]
+					}
+				}
+			}
+		},
+		"animation.cc.owl.fly": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"root": {
+					"rotation": [45, 0, 0],
+					"position": [0, 2, 3]
+				},
+				"leftWing": {
+					"rotation": {
+						"0.0": [0, 0, -90],
+						"0.25": [0, 0, -22.5],
+						"0.5": [0, 0, -90]
+					}
+				},
+				"leftWing0": {
+					"position": [0.5, -4, 0]
+				},
+				"rightWing": {
+					"rotation": {
+						"0.0": [0, 0, 90],
+						"0.25": [0, 0, 22.5],
+						"0.5": [0, 0, 90]
+					}
+				},
+				"rightWing0": {
+					"position": [-0.5, -4, 0]
+				}
+			}
+		},
+		"animation.cc.owl.sit": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [75, 0, 0]
+				},
+				"leftWing": {
+					"position": [0, 0, -2]
+				},
+				"rightWing": {
+					"position": [0, 0, -2]
+				}
+			}
+		},
+		"animation.cc.owl.idle": {
+			"loop": true
+		},
+		"animation.cc.owl.ride": {
+			"loop": true
+		},
+		"animation.cc.owl.baby_transform": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"position": [0, 0, 1],
+					"scale": 1.5
+				}
+			}
+		}
+	}
+}

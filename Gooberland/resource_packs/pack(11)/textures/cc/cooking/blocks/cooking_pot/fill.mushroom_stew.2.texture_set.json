@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "fill.mushroom_stew.2",
+    "heightmap": "fill.mushroom_stew.2_heightmap",
+    "metalness_emissive_roughness_subsurface": "fill.mushroom_stew.2_mers"
+  }
+}

@@ -1,0 +1,169 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cc:advanced_taiga_soldier",
+            "materials": {
+                "default": "villager"
+            },
+            "textures": {
+                "default": "textures/entity/villager/villager",
+                "level_1": "textures/cc/custom_villager/levels/base_lvl.1",
+                "level_2": "textures/cc/custom_villager/levels/base_lvl.2",
+                "level_3": "textures/cc/custom_villager/levels/base_lvl.3",
+                "level_4": "textures/cc/custom_villager/levels/base_lvl.4",
+                "level_5": "textures/cc/custom_villager/levels/base_lvl.5",
+                "advanced_taiga_villager_farmer": "textures/cc/custom_villager/profession/farmer",
+                "advanced_taiga_villager_fisherman": "textures/cc/custom_villager/profession/fisherman",
+                "advanced_taiga_villager_shepherd": "textures/cc/custom_villager/profession/shepherd",
+                "advanced_taiga_villager_fletcher": "textures/cc/custom_villager/profession/fletcher",
+                "advanced_taiga_villager_librarian": "textures/cc/custom_villager/profession/librarian",
+                "advanced_taiga_villager_cartographer": "textures/cc/custom_villager/profession/cartographer",
+                "advanced_taiga_villager_cleric": "textures/cc/custom_villager/profession/cleric",
+                "advanced_taiga_villager_armorer": "textures/cc/custom_villager/profession/armorer",
+                "advanced_taiga_villager_weapon_smith": "textures/cc/custom_villager/profession/weapon_smith",
+                "advanced_taiga_villager_tool_smith": "textures/cc/custom_villager/profession/tool_smith",
+                "advanced_taiga_villager_butcher": "textures/cc/custom_villager/profession/butcher",
+                "advanced_taiga_villager_leatherworker": "textures/cc/custom_villager/profession/leatherworker",
+                "advanced_taiga_villager_stonemason": "textures/cc/custom_villager/profession/stonemason",
+                "outfit_0": "textures/cc/custom_villager/advanced_taiga_villager/outfit_0",
+                "outfit_1": "textures/cc/custom_villager/advanced_taiga_villager/outfit_1",
+                "outfit_2": "textures/cc/custom_villager/advanced_taiga_villager/outfit_2",
+                "outfit_3": "textures/cc/custom_villager/advanced_taiga_villager/outfit_3",
+                "outfit_4": "textures/cc/custom_villager/advanced_taiga_villager/outfit_4",
+                "outfit_5": "textures/cc/custom_villager/advanced_taiga_villager/outfit_5",
+                "outfit_6": "textures/cc/custom_villager/advanced_taiga_villager/outfit_6",
+                "outfit_7": "textures/cc/custom_villager/advanced_taiga_villager/outfit_7",
+                "outfit_8": "textures/cc/custom_villager/advanced_taiga_villager/outfit_8",
+                "outfit_9": "textures/cc/custom_villager/advanced_taiga_villager/outfit_9",
+                "outfit_10": "textures/cc/custom_villager/advanced_taiga_villager/outfit_10",
+                "outfit_11": "textures/cc/custom_villager/advanced_taiga_villager/outfit_11",
+                "outfit_12": "textures/cc/custom_villager/advanced_taiga_villager/outfit_12",
+                "outfit_13": "textures/cc/custom_villager/advanced_taiga_villager/outfit_13",
+                "outfit_14": "textures/cc/custom_villager/advanced_taiga_villager/outfit_14",
+                "outfit_15": "textures/cc/custom_villager/advanced_taiga_villager/outfit_15",
+                "outfit_16": "textures/cc/custom_villager/advanced_taiga_villager/outfit_16",
+                "outfit_17": "textures/cc/custom_villager/advanced_taiga_villager/outfit_17",
+                "outfit_18": "textures/cc/custom_villager/advanced_taiga_villager/outfit_18",
+                "outfit_19": "textures/cc/custom_villager/advanced_taiga_villager/outfit_19",
+                "outfit_20": "textures/cc/custom_villager/advanced_taiga_villager/outfit_20",
+                "outfit_21": "textures/cc/custom_villager/advanced_taiga_villager/outfit_21",
+                "outfit_22": "textures/cc/custom_villager/advanced_taiga_villager/outfit_22",
+                "outfit_23": "textures/cc/custom_villager/advanced_taiga_villager/outfit_23",
+                "outfit_24": "textures/cc/custom_villager/advanced_taiga_villager/outfit_24",
+                "outfit_25": "textures/cc/custom_villager/advanced_taiga_villager/outfit_25",
+                "outfit_26": "textures/cc/custom_villager/advanced_taiga_villager/outfit_26",
+                "outfit_27": "textures/cc/custom_villager/advanced_taiga_villager/outfit_27",
+                "outfit_28": "textures/cc/custom_villager/advanced_taiga_villager/outfit_28",
+                "outfit_29": "textures/cc/custom_villager/advanced_taiga_villager/outfit_29"
+            },
+            "geometry": {
+                "default": "geometry.cc.soldier"
+            },
+            "animations": {
+                "move_controller": "controller.animation.cc.move",
+                "idle": "animation.cc.biped.idle",
+                "walk": "animation.cc.biped.walk",
+                "run": "animation.cc.biped.walk",
+                "swim": "animation.cc.biped.walk",
+                "swim_idle": "animation.cc.biped.walk",
+                "swim_run": "animation.cc.biped.walk",
+                "fly": "animation.cc.biped.walk",
+                "look_at_target": "animation.common.look_at_target",
+                "rotate": "animation.cc.biped.rotation",
+                "rotate_controller": "controller.animation.cc.quadruped.rotation",
+                "attack_rotations": "animation.piglin.hand.attack",
+                "move": "animation.humanoid.move",
+                "holding_controller": "controller.animation.humanoid.holding",
+                "holding": "animation.humanoid.holding",
+                "charging_controller": "controller.animation.humanoid.charging",
+                "charging": "animation.humanoid.charging",
+                "bow_and_arrow_controller": "controller.animation.humanoid.bow_and_arrow",
+                "bow_and_arrow": "animation.humanoid.bow_and_arrow",
+                "get_in_bed": "animation.cc.soldier.get_in_bed",
+                "disable_body_overlay": "animation.cc.villager.disable_body_overlay",
+                "melee_spear_use": "animation.humanoid.melee_spear_use",
+                "melee_spear_hold": "animation.humanoid.melee_spear_hold",
+                "melee_spear_controller": "controller.animation.cc.melee_spear",
+                "block_controller": "controller.animation.cc.block",
+                "block": "animation.player.shield_block_off_hand"
+            },
+            "scripts": {
+                "scale": "0.9375",
+                "initialize": [
+                    "v.tp_melee_spear_base_arm_rotation_x = -25.0;",
+                    "v.tp_melee_spear_use_arm_rotation_x = -15;",
+                    "v.tp_melee_spear_use_item_rotation_x = 40.0;",
+                    "v.attack2 = 0.0;",
+                    "v.z_bob = 0.0;",
+                    "v.relative_run_speed = 0.6;",
+                    "v.max_leg_rot = 45;",
+                    "v.max_leg_pos_h = 1;",
+                    "v.max_leg_pos_v = 3;",
+                    "v.body_bump = 2;",
+                    "v.body_rot = 2;",
+                    "v.head_bump = 0;",
+                    "v.max_arm_rot = 45;",
+                    "v.max_arm_pos_h = 1;",
+                    "v.playback_multiplier = 0.5;"
+                ],
+                "pre_animation": [
+                    "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+                    "variable.riding_y_offset_with_respect_to_player = 0.5;",
+                    "variable.riding_y_offset_on_vehicle_where_other_entites_can_stand = query.is_riding_any_entity_of_type('minecraft:minecart', 'minecraft:boat', 'minecraft:chest_boat') ? -3.0 : 0.0;",
+                    "variable.riding_y_offset = variable.riding_y_offset_with_respect_to_player + variable.riding_y_offset_on_vehicle_where_other_entites_can_stand;",
+                    "v.melee_spear_equipped = query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:wooden_spear', 'minecraft:golden_spear', 'minecraft:stone_spear', 'minecraft:copper_spear', 'minecraft:iron_spear', 'minecraft:diamond_spear', 'minecraft:netherite_spear');",
+                    "v.bow_equipped = query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:bow', 'cc:slingshot', 'cc:slingshot_unusable', 'cc:end_stone_slingshot','cc:end_stone_slingshot_unusable');"
+                ],
+                "variables": {
+                    "variable.item_use_normalized": "public",
+                    "variable.tp_melee_spear_use_attachable_rotation_z": "public",
+                    "variable.tp_melee_spear_use_arm_rotation_x": "public",
+                    "variable.tp_melee_spear_use_arm_rotation_y": "public",
+                    "variable.tp_melee_spear_use_arm_rotation_z": "public"
+                },
+                "animate": [
+                    {
+                        "look_at_target": "!q.is_sleeping"
+                    },
+                    "move_controller",
+                    "holding_controller",
+                    "charging_controller",
+                    "block_controller",
+                    "rotate_controller",
+                    {
+                        "look_at_target": "!q.is_sleeping"
+                    },
+                    {
+                        "attack_rotations": "!v.bow_equipped && !v.melee_spear_equipped"
+                    },
+                    {
+                        "bow_and_arrow_controller": "v.bow_equipped"
+                    },
+                    {
+                        "melee_spear_controller": "v.melee_spear_equipped"
+                    },
+                    {
+                        "get_in_bed": "q.is_sleeping"
+                    },
+                    {
+                        "disable_body_overlay": "q.has_armor_slot(1)"
+                    }
+                ]
+            },
+            "render_controllers": [
+                {
+                    "controller.render.cc.villager.level": "q.variant > 0"
+                },
+                {
+                    "controller.render.cc.advanced_taiga_villager.profession": "q.variant > 0"
+                },
+                "controller.render.cc.advanced_taiga_villager.base"
+            ],
+            "spawn_egg": {
+                "texture": "cc:taiga_villager_spawn_egg"
+            },
+            "enable_attachables": true
+        }
+    }
+}

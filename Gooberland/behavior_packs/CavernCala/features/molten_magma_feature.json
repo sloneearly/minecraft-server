@@ -1,0 +1,29 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "generation:molten_magma_feature"
+		},
+		"count": 35,
+		"replace_rules": [
+			{
+				"places_block": "block:molten_magma",
+				"may_replace": [
+					"minecraft:stone"
+				]
+			},
+			{
+				"places_block": "block:molten_magma",
+				"may_replace": [
+					"minecraft:deepslate"
+				]
+			},
+			{
+				"places_block": "block:molten_magma",
+				"may_replace": [
+					"minecraft:blackstone"
+				]
+			}
+		]
+	}
+}

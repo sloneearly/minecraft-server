@@ -1,0 +1,19 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "gen:glowing_feature"
+		},
+		"features": [
+			[
+				"gen:glowing1_feature",
+				1
+			],
+			[
+				"gen:glowing2_feature",
+				1
+			]
+		]
+	}
+}

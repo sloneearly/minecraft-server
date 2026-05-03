@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cc:moose_antler",
+      "menu_category": {
+        "category": "nature",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:icon": "cc:moose_antler",
+      "minecraft:tags": {
+        "tags": ["minecraft:transform_templates"]
+      },
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

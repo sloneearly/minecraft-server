@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "smooth_storm_quartz_549d1182"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:storm_quartz_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:smooth_storm_quartz",
+      "count": 2
+    }
+  }
+}

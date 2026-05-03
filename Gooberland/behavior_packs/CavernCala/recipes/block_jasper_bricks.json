@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "jasper_bricks_3803fe00"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:polished_jasper",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:jasper_bricks",
+      "count": 4
+    }
+  }
+}

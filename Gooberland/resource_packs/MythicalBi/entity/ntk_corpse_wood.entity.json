@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ntk:corpse_wood",
+      //"enable_attachables": true,
+      "spawn_egg": {
+        "texture": "ntk_spawn_egg_corpse_wood"
+      },
+      "render_controllers": [
+        "controller.render.entity.ntk_corpse_wood"
+      ],
+      "geometry": {
+        "default": "geometry.entity.ntk_corpse_wood"
+      },
+      "materials": {
+        "default": "ntk_entity_emissive_alpha"
+      },
+      "textures": {
+        "variant_0_corpse_wood": "textures/entity/ntk_corpse_wood"
+      },
+      "animations": {
+        "controller_general": "controller.animation.entity.ntk_corpse_wood.general",
+        "attack_melee": "animation.entity.ntk_corpse_wood.attack_melee",
+        "look_at_target": "animation.entity.ntk_corpse_wood.look_at_target",
+        "walking": "animation.entity.ntk_corpse_wood.walking"
+      },
+      "scripts": {
+        "animate": [
+          "controller_general",
+          "look_at_target"
+        ]
+      }
+    }
+  }
+}

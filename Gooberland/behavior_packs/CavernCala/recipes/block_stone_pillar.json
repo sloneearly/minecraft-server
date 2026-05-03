@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "stone_pillar_60bc8d02"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "block:stone_tile_slab",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:stone_pillar",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "slime_brick_stairs_3c9ac27e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "block:slime_bricks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "block:slime_brick_stairs",
+      "count": 3
+    }
+  }
+}

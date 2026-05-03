@@ -1,0 +1,157 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "ntk:mossy_willow_sapling",
+      "menu_category": {
+				"category": "none",
+				"group": "minecraft:none",
+				"is_hidden_in_commands": true
+			}
+    },
+    "components": {
+      "minecraft:display_name": "%tile.ntk.mossy_willow_sapling.name",
+      "minecraft:geometry": {
+        "identifier": "geometry.block.ntk_mossy_willow_sapling",
+        "bone_visibility": {
+          "base_leaves": true,
+          "extra_leaves": true,
+          "stem": true
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "ntk_mossy_willow_sapling",
+          "render_method": "alpha_test",
+          "tint_method": "none",
+          //"alpha_masked_tint": false,
+          "ambient_occlusion": true,
+					"face_dimming": true,
+					"isotropic": false
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": {
+          "identifier": "geometry.block.ntk_mossy_willow_sapling",
+          "bone_visibility": {
+            "base_leaves": true,
+            "extra_leaves": true,
+            "stem": true
+          }
+        },
+        "material_instances": {
+          "*": {
+            "texture": "ntk_mossy_willow_sapling",
+            "render_method": "alpha_test",
+            "tint_method": "none",
+            //"alpha_masked_tint": false,
+            "ambient_occlusion": false,
+            "face_dimming": true,
+            "isotropic": false
+          }
+        }
+      },
+      "minecraft:destruction_particles": {
+        "texture": "ntk_mossy_willow_sapling",
+        "tint_method": "none",
+        "particle_count": 100
+      },
+      "minecraft:map_color": {
+        "tint_method": "none",
+        "color": "#70922D"
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              { "tags": "query.any_tag('ntk:mossy_willow_log', 'ntk:mossy_willow_wood', 'ntk:mossy_willow_planks')" },
+              { "tags": "query.all_tags('ntk:dirt')" },
+              { "tags": "query.all_tags('ntk:moss')" },
+              { "tags": "query.all_tags('ntk:mud')" },
+              { "tags": "query.all_tags('ntk:bryumed_blocks')" },
+              { "tags": "query.all_tags('ntk:grassed_blocks')" },
+              { "tags": "query.all_tags('ntk:mauve_turfed_blocks')" },
+              { "tags": "query.all_tags('ntk:mossed_blocks')" },
+              { "tags": "query.all_tags('ntk:myceliated_blocks')" },
+              //Soil:
+              "minecraft:coarse_dirt",
+              "minecraft:dirt",
+              "minecraft:dirt_with_roots",
+              "minecraft:farmland",
+              "minecraft:grass_block",
+              "minecraft:moss_block",
+              "minecraft:mud",
+              "minecraft:muddy_mangrove_roots",
+              "minecraft:mycelium",
+              "minecraft:pale_moss_block",
+              "minecraft:podzol"
+            ]
+          }
+        ]
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": true,
+            "use_liquid_clipping": false,
+            "liquid_type": "water",
+            "on_liquid_touches": "popped",
+            "stops_liquid_flowing_out_from_direction": []
+          }
+        ]
+      },
+      "minecraft:collision_box": [
+        {
+          "origin": [ -8, 0, -8 ],
+          "size": [ 16, 16, 16 ]
+        }
+      ],
+      "minecraft:selection_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 20
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:movable": {
+        "movement_type": "popped"
+      },
+      "minecraft:precipitation_interactions": {
+        "precipitation_behavior": "obstruct_rain_accumulate_snow"
+      },
+      "minecraft:redstone_conductivity": {
+        "allows_wire_to_step_down": false,
+        "redstone_conductor": false
+      },
+      "minecraft:transformation": {
+        "rotation": [ 0, 0, 0 ]
+			},
+      "minecraft:loot": "loot_tables/mb/blocks/ntk_mossy_willow_sapling.json",
+      // TAGS:
+      "tag:ntk:blocks": {},
+      "tag:ntk:instant_diggable": {},
+      "tag:ntk:full_block": {},
+      "tag:ntk:natural_block": {},
+      "tag:ntk:solid_block": {},
+      "tag:ntk:plant": {},
+      "tag:ntk:sapling": {},
+      "tag:ntk:mossy_willow_sapling": {},
+      // Vanilla Block Tags:
+      "tag:minecraft:plant": {},
+      "tag:plant": {}
+    }
+  }
+}

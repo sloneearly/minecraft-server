@@ -1,0 +1,128 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "cc:crocodile_egg",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": false
+      },
+      "states": {
+        "cc:grow_state": [1, 2],
+        "cc:count": [1, 2, 3]
+      }
+    },
+    "components": {
+      "cc:multi_placement": {},
+      "minecraft:geometry": {
+        "identifier": "geometry.cc.crocodile_egg",
+        "bone_visibility": {
+          "egg1": "q.block_state('cc:count') > 0",
+          "egg2": "q.block_state('cc:count') > 1",
+          "egg3": "q.block_state('cc:count') > 2"
+        }
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cc:crocodile_egg",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [-7, 0, -6],
+        "size": [12, 10, 12]
+      },
+      "minecraft:selection_box": {
+        "origin": [-7, 0, -6],
+        "size": [12, 10, 12]
+      },
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.75
+      },
+      "minecraft:map_color": "#ecdbad",
+      "minecraft:light_dampening": 4,
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "on_liquid_touches": "no_reaction"
+          }
+        ]
+      },
+      "minecraft:support": {
+        "shape": "stair"
+      },
+      "minecraft:connection_rule": {
+        "accepts_connections_from": "none"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('cc:count') == 1",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-4, 0, 0],
+            "size": [6, 10, 6]
+          },
+          "minecraft:collision_box": {
+            "origin": [-4, 0, 0],
+            "size": [6, 10, 6]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('cc:count') == 2",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -3],
+            "size": [11, 10, 9]
+          },
+          "minecraft:collision_box": {
+            "origin": [-4, 0, -3],
+            "size": [11, 10, 9]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('cc:count') == 3",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-7, 0, -6],
+            "size": [14, 10, 12]
+          },
+          "minecraft:collision_box": {
+            "origin": [-7, 0, -6],
+            "size": [14, 10, 12]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('cc:grow_state') < 2",
+        "components": {
+          "cc:multi_placement": {},
+          "cc:crop_grow": {},
+          "cc:step_on": {}
+        }
+      },
+      {
+        "condition": "q.block_state('cc:grow_state') == 2",
+        "components": {
+          "cc:multi_placement": {},
+          "cc:crop_grow": {},
+          "cc:step_on": {},
+          "cc:spawn_entity": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cc:crocodile_egg_cracked",
+              "render_method": "opaque"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

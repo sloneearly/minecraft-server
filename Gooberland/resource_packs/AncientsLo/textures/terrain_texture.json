@@ -1,0 +1,74 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"mid_pillar_rune":{
+			"textures": "textures/blocks/mid_pillar_runes.png"
+		},
+		"mid_pillar_rune_powered":{
+			"textures": "textures/blocks/mid_pillar_runes_powered.png"
+		},
+		"top_pillar_rune":{
+			"textures": "textures/blocks/top_pillar_runes.png"
+		},
+		"mid_pillar_rune_cracked":{
+			"textures": "textures/blocks/mid_pillar_runes_cracked.png"
+		},
+		"mid_pillar_rune_cracked_powered":{
+			"textures": "textures/blocks/mid_pillar_runes_cracked_powered.png"
+		},
+		"mid_pillar_rune_mossy":{
+			"textures": "textures/blocks/mid_pillar_runes_mossy.png"
+		},
+		"mid_pillar_rune_mossy_powered":{
+			"textures": "textures/blocks/mid_pillar_runes_mossy_powered.png"
+		},
+		"forest_altar_top":{
+			"textures": "textures/blocks/forest_altar_top.png"
+		},
+		"forest_altar_top_side":{
+			"textures": "textures/blocks/forest_altar_side.png"
+		},
+		"stonebrick_cracked":{
+			"textures": "textures/blocks/stonebrick_cracked"
+		},
+		"stonebrick_mossy":{
+			"textures": "textures/blocks/stonebrick_mossy"
+		},
+		"ancient_log":{
+			"textures": "textures/blocks/ancient_log"
+		},
+		"ancient_log_top":{
+			"textures": "textures/blocks/ancient_log_top"
+		},
+		"ancient_log_stripped":{
+			"textures": "textures/blocks/ancient_log_stripped"
+		},
+		"ancient_log_top_stripped":{
+			"textures": "textures/blocks/ancient_log_top_stripped"
+		},
+		"ancient_planks":{
+			"textures": "textures/blocks/ancient_planks"
+		},
+		"ancient_leaves":{
+			"textures": "textures/blocks/ancient_leaves"
+		},
+		"runic_ancient_log":{
+			"textures": "textures/blocks/runic_ancient_log"
+		},
+		"ancient_sapling":{
+			"textures": "textures/blocks/ancient_sapling"
+		},
+		"deepslate_rune":{
+			"textures": "textures/blocks/deepslate_rune"
+		},
+		"door_ancient_lower":{
+			"textures": "textures/blocks/door_ancient_lower"
+		},
+		"door_ancient_upper":{
+			"textures": "textures/blocks/door_ancient_upper"
+		}
+	}
+}

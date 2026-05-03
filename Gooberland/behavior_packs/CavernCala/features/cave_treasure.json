@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "gen:cave_treasure"
+		},
+		"features": [
+			"gen:scatter_deepslate_geode_feature",
+			"gen:scatter_stone_geode_feature",
+			"gen:scatter_stone_vace_feature",
+			"gen:scatter_deepslate_vace_feature"
+		]
+	}
+}

@@ -1,0 +1,45 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mob:wither_skeleton_horse",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/horse_wither_skeleton",
+				"saddled": "textures/entity/pig/pig_saddle"
+			},
+			"geometry": {
+				"default": "geometry.horse_remake"
+			},
+			"animations": {
+				"setup": "animation.pig.setup",
+				"walk": "animation.quadruped.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.pig.baby_transform"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"walk": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"baby_transform": "query.is_baby"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.skeleton"
+			],
+			"spawn_egg": {
+				"base_color": "#262626",
+				"overlay_color": "#111111"
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sword:exodium_kunai",
+            "menu_category": {
+              "category": "equipment"
+			}
+            },
+    "components": {
+      "minecraft:hand_equipped": true,
+			"minecraft:icon": {
+				"textures": {
+					"default": "sword:exodium_kunai"
+				}
+			},
+			            "minecraft:fire_resistant": {
+    "value": true
+},
+      "minecraft:display_name": {
+        "value": "Exodium Kunai\n\n\n§910 Throwing damage"
+      }, 
+      "minecraft:max_stack_size": 64,
+      "minecraft:throwable": {
+        "do_swing_animation": true
+      },
+      "minecraft:projectile": {
+        "projectile_entity": "sword:exodium_kunai"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "generation:pale_light_feature"
+		},
+		"count": 3,
+		"replace_rules": [
+			{
+				"places_block": "block:pale_light",
+				"may_replace": [
+					"minecraft:pale_oak_leaves"
+				]
+			},
+			{
+				"places_block": "block:pale_light",
+				"may_replace": [
+					"minecraft:pale_moss_block"
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,207 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cc:dummy",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "animations": {
+        "grid_snap": "controller.animation.cc.grid_snap"
+      },
+      "scripts": {
+        "animate": ["grid_snap"]
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["cc:training_dummy", "inanimate", "armor_stand"]
+      },
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:despawn": {
+        "despawn_from_inactivity": false
+      },
+      "minecraft:health": {
+        "value": 6,
+        "max": 6
+      },
+      "minecraft:spell_effects": {
+        "add_effects": [
+          {
+            "effect": "resistance",
+            "amplifier": 10,
+            "duration": "infinite",
+            "visible": false
+          }
+        ]
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:nameable": {},
+      "minecraft:persistent": {},
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {},
+
+      "minecraft:custom_hit_test": {
+        "hitboxes": [
+          {
+            "width": 0.5,
+            "height": 2,
+            "pivot": [0, 1, 0]
+          }
+        ]
+      }
+    },
+    "component_groups": {
+      "cc:sword_dummy": {
+        "minecraft:variant": {
+          "value": 1
+        },
+        "minecraft:custom_hit_test": {
+          "hitboxes": [
+            {
+              "width": 0.5,
+              "height": 2,
+              "pivot": [0, 1, 0]
+            }
+          ]
+        }
+      },
+      "cc:archer_dummy": {
+        "minecraft:environment_sensor": {
+          "triggers": [
+            {
+              "event": "cc:ensure_block",
+              "target": "self",
+              "filters": {
+                "test": "in_block",
+                "value": "cc:dummy_block",
+                "subject": "self",
+                "operator": "not"
+              }
+            }
+          ]
+        }
+      },
+      "cc:un_used": {
+        "minecraft:mark_variant": {
+          "value": 0
+        },
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "cause": "suffocation",
+              "deals_damage": "no"
+            },
+            {
+              "cause": "entity_attack",
+              "on_damage": {
+                "event": "cc:is_in_use",
+                "target": "self"
+              }
+            },
+            {
+              "cause": "projectile",
+              "on_damage": {
+                "event": "cc:is_in_use",
+                "target": "self"
+              }
+            }
+          ]
+        }
+      },
+      "cc:in_use": {
+        "minecraft:mark_variant": {
+          "value": 1
+        },
+        "minecraft:timer": {
+          "time": 5,
+          "looping": true,
+          "time_down_event": {
+            "event": "cc:is_unused",
+            "target": "self"
+          }
+        }
+      }
+    },
+
+    "events": {
+      "cc:ensure_block": {
+        "queue_command": {
+          "command": ["scriptevent cc:entity_event ensure_block"]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": ["cc:un_used", "cc:sword_dummy"]
+        },
+        "queue_command": {
+          "command": ["scriptevent cc:entity_event ensure_block"]
+        }
+      },
+      "cc:initialize": {
+        "remove": {
+          "component_groups": ["cc:sword_dummy"]
+        },
+        "add": {
+          "component_groups": ["cc:archer_dummy"]
+        },
+        "queue_command": {
+          "command": ["scriptevent cc:entity_event ensure_block"]
+        }
+      },
+      "cc:become_swordsman": {
+        "remove": {
+          "component_groups": ["cc:archer_dummy"]
+        },
+        "add": {
+          "component_groups": ["cc:sword_dummy"]
+        }
+      },
+      "cc:test": {
+        "add": {
+          "component_groups": ["cc:sword_dummy"]
+        }
+      },
+      "cc:is_in_use": {
+        "remove": {
+          "component_groups": ["cc:un_used"]
+        },
+        "add": {
+          "component_groups": ["cc:in_use"]
+        }
+      },
+
+      "cc:is_unused": {
+        "remove": {
+          "component_groups": ["cc:in_use"]
+        },
+        "add": {
+          "component_groups": ["cc:un_used"]
+        }
+      }
+    }
+  }
+}

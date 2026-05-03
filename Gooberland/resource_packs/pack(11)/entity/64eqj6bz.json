@@ -1,0 +1,65 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:scorpion",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+
+      "textures": {
+        "default": "textures/cc/animals/entities/scorpion"
+      },
+      "geometry": {
+        "default": "geometry.cc.scorpion"
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:scorpion_spawn_egg"
+      },
+      "scripts": {
+        "initialize": ["v.relative_run_speed = 0.6;", "variable.pitch = 0;", "variable.roll = 0;"],
+        "pre_animation": [
+          "variable.pitch = ((math.clamp(q.is_on_ground ? 0 : q.body_x_rotation, -20, 20) - (math.clamp(q.vertical_speed * 1, -90, 5)) + ( 3 * variable.pitch)) / 4);",
+          // plane only rolls in the air
+          "variable.roll = ((q.is_on_ground ? 0 : (-q.yaw_speed) / 4) + (4 * v.roll)) / 5;"
+        ],
+        "animate": [
+          "root",
+          "move_controller",
+          "attack_controller",
+          "emerge_controller",
+          "vanish_controller"
+        ]
+      },
+      "particle_effects": {
+        "digging": "cc:scorpion_dig"
+      },
+      "sound_effects": {
+        "digging": "cc:scorpion_dig"
+      },
+      "animations": {
+        "move_controller": "controller.animation.cc.move",
+        "attack_controller": "controller.animation.cc.delayed_attack",
+
+        "emerge_controller": "controller.animation.cc.emerge",
+        "vanish_controller": "controller.animation.cc.vanish",
+
+        "root": "animation.cc.common.root",
+
+        "idle": "animation.cc.scorpion.idle",
+        "walk": "animation.cc.scorpion.walk",
+        "fly": "animation.cc.scorpion.walk",
+        "run": "animation.cc.scorpion.walk",
+        "swim": "animation.cc.scorpion.walk",
+        "swim_idle": "animation.cc.scorpion.walk",
+        "swim_run": "animation.cc.scorpion.walk",
+        "delayed_attack": "animation.cc.scorpion.attack",
+        "emerge": "animation.cc.scorpion.emerge",
+        "vanish": "animation.cc.scorpion.vanish"
+      },
+      "render_controllers": ["controller.render.cc.common"],
+      "enable_attachables": true
+    }
+  }
+}

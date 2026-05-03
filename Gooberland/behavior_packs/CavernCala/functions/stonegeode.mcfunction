@@ -1,0 +1,1 @@
+loot spawn ~~~ loot "stone_geode"

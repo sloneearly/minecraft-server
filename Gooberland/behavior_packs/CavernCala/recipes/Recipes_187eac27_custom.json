@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "tags": [
+      "blast_furnace"
+    ],
+    "output": {
+      "item": "item:cobalt_ingot",
+      "data": 0
+    },
+    "input": {
+      "item": "item:raw_cobalt",
+      "data": 0
+    },
+    "description": {
+      "identifier": "recipes_6688e364"
+    }
+  }
+}

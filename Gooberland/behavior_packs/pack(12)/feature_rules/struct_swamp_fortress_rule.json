@@ -1,0 +1,61 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:struct_swamp_fortress_rule",
+      "places_feature": "cc:struct_swamp_fortress_feature"
+    },
+    "conditions": {
+      "placement_pass": "first_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "swamp"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "mangrove_swamp"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:bayou"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:bog"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:wetland"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:moor"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "bop_ks:muskeg"
+            }
+          ],
+          "none_of": []
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 0.2,
+      "x": "-16",
+      "y": "((Math.pow(q.heightmap(v.originx, v.originz) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx - 16, v.originz - 16) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx - 16, v.originz + 16) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx + 16, v.originz - 16) - q.heightmap(v.originx, v.originz), 2) + Math.pow(q.heightmap(v.originx + 16, v.originz + 16) - q.heightmap(v.originx, v.originz), 2)) / 4) <= 5 && q.heightmap(v.originx, v.originz) > 60 && q.heightmap(v.originx - 16, v.originz - 16) > 60 && q.heightmap(v.originx - 16, v.originz + 16) > 60 && q.heightmap(v.originx + 16, v.originz - 16) > 60 && q.heightmap(v.originx + 16, v.originz + 16) > 60 ? (q.heightmap(v.originx, v.originz) + q.heightmap(v.originx - 16, v.originz - 16) + q.heightmap(v.originx - 16, v.originz + 16) + q.heightmap(v.originx + 16, v.originz - 16) + q.heightmap(v.originx + 16, v.originz + 16)) / 5 - 8 : -9999",
+      "z": "-16"
+    }
+  }
+}

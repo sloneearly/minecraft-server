@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:item": {
+    "description": {
+      "identifier": "wan_redcave:redstone_heart",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:icon": "wan_redcave:redstone_heart",
+      "minecraft:display_name": {
+        "value": "wan_redcave:redstone_heart.name"
+      },
+      "minecraft:entity_placer": {
+        "entity": "wan_redcave:little_tyrant"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "raw_platinum_bd133bae"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "block:raw_platinum_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:raw_platinum",
+      "count": 9
+    }
+  }
+}

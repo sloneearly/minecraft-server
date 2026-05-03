@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "cc:yeti_head",
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"textures": {
+				"default": "textures/cc/boss/entities/yeti",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.cc.player.armor.big_foot_head"
+			},
+			"scripts": {
+				"parent_setup": "variable.chest_layer_visible = 0.0;"
+			},
+			"render_controllers": ["controller.render.armor"]
+		}
+	}
+}

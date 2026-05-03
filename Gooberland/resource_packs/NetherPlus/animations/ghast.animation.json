@@ -1,0 +1,9 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ghast.scale1": {
+			"loop": true,
+			"animation_length": 11
+		}
+	}
+}

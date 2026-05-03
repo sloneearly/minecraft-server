@@ -1,0 +1,46 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cc:eagle",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "geometry": {
+        "default": "geometry.cc.eagle"
+      },
+      "render_controllers": ["controller.render.cc.common"],
+      "textures": {
+        "default": "textures/cc/animals/entities/eagle"
+      },
+      "animations": {
+        "animation_controller": "controller.animation.cc.eagle",
+        "walk": "animation.cc.eagle.walk",
+        "idle": "animation.cc.eagle.idle",
+        "look_at_target": "animation.cc.eagle.look_at_target",
+        "attack": "animation.cc.eagle.attack",
+        "fly": "animation.cc.eagle.fly",
+        "fly_up": "animation.cc.eagle.fly_up",
+        "dive": "animation.cc.eagle.dive",
+        "baby_transform": "animation.cc.baby_transform",
+        "has_rider": "animation.cc.eagle.has_rider",
+        "call": "animation.cc.distant_call"
+      },
+      "sound_effects": {
+        "call": "cc:eagle.call"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "animation_controller",
+          { "baby_transform": "query.is_baby" },
+          { "call": "math.random_integer(0,50) == 1" }
+        ]
+      },
+      "spawn_egg": {
+        "texture_index": 0,
+        "texture": "cc:eagle_spawn_egg"
+      }
+    }
+  }
+}

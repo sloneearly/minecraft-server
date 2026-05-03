@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "cc:advanced_blue_bed"
+        },
+        "assume_symmetry": true,
+        "tags": [
+            "cc:furniture_table"
+        ],
+        "pattern": [
+            "*&*"
+        ],
+        "key": {
+            "*": {
+                "item": "minecraft:fence"
+            },
+            "&": {
+                "item": "minecraft:bed",
+                "data": 11
+            }
+        },
+        "result": "cc:advanced_blue_bed"
+    }
+}

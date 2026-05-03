@@ -1,0 +1,56 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:birch_tree_in_oak_rule",
+      "places_feature": "cc:birch_tree_in_oak_sequence"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": {
+        "all_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "forest"
+          }
+        ],
+        "none_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "roofed"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "taiga"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "birch"
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "iterations": "math.random(1, 3)",
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          -8,
+          8
+        ]
+      },
+      "y": "query.heightmap(v.originx, v.originz)",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          -8,
+          8
+        ]
+      }
+    }
+  }
+}

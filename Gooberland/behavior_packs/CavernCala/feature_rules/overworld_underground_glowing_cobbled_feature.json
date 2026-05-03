@@ -1,0 +1,39 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "gen:overworld_underground_glowing_cobbled_feature",
+      "places_feature": "generation:glowing_cobbled_feature"
+    },
+    "conditions": {
+      "placement_pass": "after_underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "glowing_caves"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 256,
+      "coordinate_eval_order": "zyx",
+      "x": {
+        "distribution": "uniform",
+        "extent": [ 0, 16 ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [ -64, 55 ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [ 0, 16 ]
+      }
+    }
+  }
+}

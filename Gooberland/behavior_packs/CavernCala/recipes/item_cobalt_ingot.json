@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cobalt_ingot_60beb95b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "block:cobalt_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "item:cobalt_ingot",
+      "count": 9
+    }
+  }
+}

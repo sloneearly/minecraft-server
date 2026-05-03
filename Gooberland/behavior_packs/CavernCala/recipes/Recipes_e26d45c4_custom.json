@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_6e6fb1f5"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "item:jasper_shard",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:glass",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:tinted_glass",
+      "count": 2,
+      "data": 0
+    }
+  }
+}

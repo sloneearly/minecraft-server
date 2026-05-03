@@ -1,0 +1,73 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cc.thrown_javelin.outline",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "outline",
+					"pivot": [0, 0, 0],
+					"rotation": [90, 0, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"texture_meshes": [
+						{
+							"texture": "default",
+							"position": [0, -2.5, 14],
+							"rotation": [0, 45, -90],
+							"local_pivot": [7.25, 0, 12.75]
+						},
+						{
+							"texture": "default",
+							"position": [0, -2.5, 14],
+							"rotation": [0, 45, -90],
+							"local_pivot": [6.75, 0, 12.75]
+						},
+						{
+							"texture": "default",
+							"position": [0, -2.5, 14],
+							"rotation": [0, 45, -90],
+							"local_pivot": [6.75, 0, 12.25]
+						},
+						{
+							"texture": "default",
+							"position": [0, -2.5, 14],
+							"rotation": [0, 45, -90],
+							"local_pivot": [7.25, 0, 12.25]
+						},
+						{
+							"texture": "default",
+							"position": [0, -2.5, 14],
+							"rotation": [0, 45, -90],
+							"local_pivot": [7.25, 1, 12.75]
+						},
+						{
+							"texture": "default",
+							"position": [0, -2.5, 14],
+							"rotation": [0, 45, -90],
+							"local_pivot": [6.75, 1, 12.75]
+						},
+						{
+							"texture": "default",
+							"position": [0, -2.5, 14],
+							"rotation": [0, 45, -90],
+							"local_pivot": [6.75, 1, 12.25]
+						},
+						{
+							"texture": "default",
+							"position": [0, -2.5, 14],
+							"rotation": [0, 45, -90],
+							"local_pivot": [7.25, 1, 12.25]
+						}
+					]
+				}
+			]
+		}
+	]
+}

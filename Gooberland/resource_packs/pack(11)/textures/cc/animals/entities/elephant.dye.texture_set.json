@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "elephant.dye",
+    "heightmap": "elephant.dye_heightmap",
+    "metalness_emissive_roughness_subsurface": "elephant.dye_mers"
+  }
+}

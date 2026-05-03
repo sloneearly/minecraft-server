@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ntk:tall_moss_sprouts",
+      "category": "nature"
+    },
+    "components": {
+      "minecraft:icon": "ntk_tall_moss_sprouts",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

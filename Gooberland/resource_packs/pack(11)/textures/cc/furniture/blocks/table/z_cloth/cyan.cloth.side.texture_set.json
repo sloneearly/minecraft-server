@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "cyan.cloth.side",
+    "heightmap": "cyan.cloth.side_heightmap",
+    "metalness_emissive_roughness_subsurface": "cyan.cloth.side_mers"
+  }
+}

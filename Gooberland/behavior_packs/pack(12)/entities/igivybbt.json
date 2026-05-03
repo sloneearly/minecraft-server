@@ -1,0 +1,356 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cc:capybara",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "cc:is_bathing": {
+          "type": "bool",
+          "default": false,
+          "client_sync": true
+        },
+        "cc:is_muddy": {
+          "type": "bool",
+          "default": false,
+          "client_sync": true
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["capybara", "mob"]
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_water": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:collision_box": {
+        "width": 0.7,
+        "height": 1
+      },
+      "minecraft:nameable": {},
+      "minecraft:health": {
+        "value": 14,
+        "max": 14
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:movement": {
+        "value": 0.2
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.panic": {
+        "priority": 1,
+        "speed_multiplier": 1.25
+      },
+      "minecraft:behavior.mount_pathing": {
+        "priority": 2,
+        "speed_multiplier": 1.5,
+        "target_dist": 0.0,
+        "track_target": true
+      },
+      "minecraft:behavior.tempt": {
+        "priority": 4,
+        "speed_multiplier": 1.25,
+        "items": ["kelp", "seagrass"]
+      },
+      "minecraft:behavior.follow_parent": {
+        "priority": 5,
+        "speed_multiplier": 1.1
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 0.8
+      },
+      "minecraft:behavior.random_look_around_and_sit": {
+        "priority": 4,
+        "continue_if_leashed": true,
+        "continue_sitting_on_reload": true,
+        "min_look_count": 2,
+        "max_look_count": 5,
+        "min_look_time": 80,
+        "max_look_time": 100,
+        "min_angle_of_view_horizontal": -30,
+        "max_angle_of_view_horizontal": 30,
+        "random_look_around_cooldown": 5,
+        "probability": 0.001
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 9
+      },
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0
+      },
+      "minecraft:balloonable": {},
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {}
+    },
+    "component_groups": {
+      "cc:muddy_timer": {
+        "minecraft:timer": {
+          "time": 60,
+          "looping": true,
+          "time_down_event": {
+            "event": "cc:stop_muddy",
+            "target": "self"
+          }
+        },
+        "minecraft:movement": {
+          "value": 0.2
+        },
+        "minecraft:environment_sensor": {
+          "triggers": [
+            {
+              "event": "cc:stop_muddy",
+              "target": "self",
+              "filters": {
+                "test": "is_underwater",
+                "value": true
+              }
+            }
+          ]
+        }
+      },
+      "cc:persistence": {
+        "minecraft:persistent": {}
+      },
+      "cc:bath_timer": {
+        "minecraft:timer": {
+          "time": 15,
+          "looping": true,
+          "time_down_event": {
+            "event": "cc:finish_bathing",
+            "target": "self"
+          }
+        },
+        "minecraft:movement": {
+          "value": 0
+        },
+        "minecraft:behavior.move_to_block": {
+          "start_chance": 100,
+          "search_range": 32,
+          "goal_radius": 0.1,
+          "stay_duration": 15,
+          "target_blocks": ["minecraft:mud"]
+        }
+      },
+      "cc:look_for_mud": {
+        "minecraft:behavior.move_to_block": {
+          "start_chance": 100,
+          "search_range": 32,
+          "goal_radius": 0.1,
+          "stay_duration": 15,
+          "target_selection_method": "random",
+          "on_reach": {
+            "event": "cc:start_bathing"
+          },
+          "target_blocks": ["minecraft:mud"]
+        }
+      },
+      "minecraft:capybara_adult": {
+        "minecraft:experience_reward": {
+          "on_bred": "Math.Random(1,7)",
+          "on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
+        },
+        "minecraft:behavior.breed": {
+          "priority": 3,
+          "speed_multiplier": 1.0
+        },
+        "minecraft:behavior.tempt": {
+          "priority": 4,
+          "speed_multiplier": 1.25,
+          "items": ["kelp", "seagrass", "cc:rice"]
+        },
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "use_item": true,
+              "swing": true,
+              "interact_text": "action.interact.feed",
+              "on_interact": {
+                "filters": [
+                  {
+                    "all_of": [
+                      {
+                        "test": "has_equipment",
+                        "subject": "other",
+                        "domain": "hand",
+                        "operator": "==",
+                        "value": "cc:rice"
+                      }
+                    ]
+                  }
+                ],
+                "event": "cc:feed_rice"
+              }
+            }
+          ]
+        },
+        "minecraft:breedable": {
+          "require_tame": false,
+          "breed_items": ["kelp", "seagrass"],
+          "breeds_with": {
+            "mate_type": "cc:capybara",
+            "baby_type": "cc:capybara",
+            "breed_event": {
+              "event": "minecraft:entity_born",
+              "target": "baby"
+            }
+          }
+        }
+      },
+      "minecraft:capybara_baby": {
+        "minecraft:is_baby": {},
+        "minecraft:scale": {
+          "value": 0.5
+        },
+        "minecraft:ageable": {
+          "duration": 1200,
+          "feed_items": ["kelp", "seagrass"],
+          "grow_up": {
+            "event": "minecraft:ageable_grow_up",
+            "target": "self"
+          }
+        },
+
+        "minecraft:behavior.follow_parent": {
+          "priority": 6,
+          "speed_multiplier": 1.1
+        }
+      }
+    },
+    "events": {
+      "cc:stop_muddy": {
+        "set_property": {
+          "cc:is_muddy": false
+        },
+        "remove": {
+          "component_groups": ["cc:muddy_timer"]
+        }
+      },
+      "cc:feed_rice": {
+        "queue_command": {
+          "command": ["playsound mob.cat.eat @a ~ ~ ~ 1 1", "particle cc:friendly_location ~ ~1 ~ "]
+        },
+        "trigger": "cc:start_look_for_mud"
+      },
+      "cc:start_bathing": {
+        "remove": {
+          "component_groups": ["cc:look_for_mud"]
+        },
+        "set_property": {
+          "cc:is_bathing": true
+        },
+        "add": {
+          "component_groups": ["cc:bath_timer"]
+        }
+      },
+      "cc:finish_bathing": {
+        "queue_command": {
+          "command": ["fill ~-1 ~-1 ~-1 ~1 ~1 ~1 cc:capybara_mud replace mud"]
+        },
+        "set_property": {
+          "cc:is_bathing": false,
+          "cc:is_muddy": true
+        },
+        "remove": {
+          "component_groups": ["cc:bath_timer"]
+        },
+        "add": {
+          "component_groups": ["cc:muddy_timer"]
+        },
+        "trigger": "cc:stop_look_for_mud"
+      },
+      "cc:start_look_for_mud": {
+        "add": {
+          "component_groups": ["cc:look_for_mud"]
+        }
+      },
+      "cc:stop_look_for_mud": {
+        "remove": {
+          "component_groups": ["cc:look_for_mud"]
+        }
+      },
+      "cc:stop_riding": {},
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 95,
+            "add": {
+              "component_groups": ["minecraft:capybara_adult"]
+            }
+          },
+          {
+            "weight": 5,
+            "add": {
+              "component_groups": ["minecraft:capybara_baby"]
+            }
+          }
+        ]
+      },
+
+      "minecraft:entity_born": {
+        "add": {
+          "component_groups": ["minecraft:capybara_baby"]
+        }
+      },
+
+      "minecraft:entity_transformed": {
+        "remove": {},
+        "add": {
+          "component_groups": ["minecraft:capybara_adult"]
+        }
+      },
+
+      "minecraft:ageable_grow_up": {
+        "remove": {
+          "component_groups": ["minecraft:capybara_baby"]
+        },
+        "add": {
+          "component_groups": ["minecraft:capybara_adult"]
+        }
+      },
+      "cc:persistence": {
+        "add": {
+          "component_groups": [
+            "cc:persistence"
+          ]
+        }
+      }
+    }
+  }
+}

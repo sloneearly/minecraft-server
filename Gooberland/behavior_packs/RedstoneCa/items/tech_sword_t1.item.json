@@ -1,0 +1,51 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "wan_redcave:tech_sword_t1",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "wan_redcave:tech_sword_t1.name"
+      },
+      "minecraft:icon": "wan_redcave:tech_sword_t1",
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_sword"
+        ]
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 30
+      },
+      "minecraft:use_animation": "none",
+      "minecraft:cooldown": {
+        "category": "wan_redcave:tech_sword_t1",
+        "duration": 6
+      },
+      "minecraft:enchantable": {
+        "slot": "sword",
+        "value": 0
+      },
+      "minecraft:damage": {
+        "value": 7
+      },
+      "minecraft:durability": {
+        "max_durability": 500
+      },
+      "minecraft:projectile": {
+        "minimum_critical_power": 1,
+        "projectile_entity": "arrow"
+      },
+      "minecraft:throwable": {
+        "min_draw_duration": 30,
+        "max_draw_duration": 30
+      },
+      "minecraft:can_destroy_in_creative": false
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tt:glare",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "allay" },
+      "textures": {
+        "default": "textures/entity/glare"
+      },
+      "geometry": {
+        "default": "geometry.glare"
+      },
+      "animations": {
+        "setup": "animation.netherglare.move",
+        "walk": "animation.quadruped.walk",
+        "look_at_target": "animation.common.look_at_target"
+      },    
+      "scripts": {
+        "animate": [
+          "setup",
+          { "walk": "query.modified_move_speed" }, 
+          "look_at_target"
+        ]
+      },
+      "particle_effects": {
+        "glare_particle": "tt:glare_particle"
+      },
+      "render_controllers": [ "controller.render.default"
+     ],
+    "spawn_egg": {
+      "texture": "glarespawn"
+      }
+    }
+  }
+}
+

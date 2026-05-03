@@ -1,0 +1,55 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "cc:ice_cave_placement",
+      "places_feature": "cc:ice_cave_geode_feature"
+    },
+    "conditions": {
+      "placement_pass": "after_surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "cold"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "ice"
+                }
+              ]
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "dripstone_caves"
+            }
+          ]
+        }
+      ]
+    },
+
+    "distribution": {
+      "iterations": 5,
+      "scatter_chance": 60.0,
+      "x": {
+        "distribution": "uniform",
+        "extent": [-8, 8]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [-64, 50]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [-8, 8]
+      },
+      "coordinate_eval_order": "zyx"
+    }
+  }
+}
